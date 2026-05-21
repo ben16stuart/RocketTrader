@@ -1,13 +1,13 @@
 # Rocket Portfolio State
 
-**Last Updated**: [pending first session]
-**Account Value**: $10,000.00 (shared with Bull)
-**Rocket Cash Deployed**: $0.00
-**Rocket Open Positions**: 0
+**Last Updated**: 2026-05-21
+**Account Value**: $100,000.00
+**Cash**: $100,000.00
+**Open Positions**: 0
 **Rocket vs SPY since inception**: 0.00%
 
-## Rocket's Open Positions
-*(none yet)*
+## Open Positions
+*(none yet — first trades pending)*
 
-## Recent Rocket Orders
-*(none yet)*
+## Pending Orders
+*(none)*
