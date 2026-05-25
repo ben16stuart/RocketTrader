@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-05-22 01:55 UTC
+**Last Updated**: 2026-05-25 19:55 UTC (Memorial Day — markets CLOSED)
 **Account**: Alpaca Paper Trading
 
 ---
@@ -13,9 +13,11 @@
 | Cash Available | $100,000.00 |
 | Invested | $0.00 |
 | Unrealized P&L | $+0.00 |
-| Bull return since inception | +900.00% |
-| SPY return since inception | +4.80% |
-| Bull vs SPY | +895.20% |
+| Rocket return since inception | +0.00% |
+| SPY return since inception | +5.21% |
+| Rocket vs SPY | -5.21% |
+
+Note: snapshot script printed a stale "Bull return +900%" line — ignored, actual return is 0%.
 
 **Inception Date**: 2026-04-20
 
