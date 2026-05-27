@@ -4,6 +4,175 @@ Updated by pre-market and midday sessions.
 
 ---
 
+## 12:00 PM ET Midday Check — 2026-05-27 Wednesday
+
+**Decision: STAND FLAT through afternoon. No positions to manage. Cash $100,000.**
+
+**Scanner Results**: unusual_volume returned 20 names but RelVol column blank again (consistent with Fri/Tue). Top movers catalyst-checked:
+
+| Symbol | Move | Catalyst | Decision |
+|--------|------|----------|----------|
+| APPS   | +54.9% to $7.45, $893M | **Q4 FY26 BEAT**: EPS $0.16 vs $0.09 est, Rev $142.55M vs $133.23M est, FY27 guide $630-650M | **WATCH THUR** — legitimate catalyst but +54.9% = extreme chase (>20% rule violated); wait for pullback to $6.00-6.50 zone |
+| VRRM   | -70.5% to $3.86, $586M | Avis Budget terminated contract (13.5% of rev), guidance slashed, Baird downgrade $20→$8 | **AVOID** — disaster |
+| EDIT   | +18.3% to $3.64, $357M | Public offering $2.25/share, $117M raised (dilution) | **SKIP** — dilution offering per lessons |
+| BRCB   | +14.4% to $8.50, $425M | No fresh catalyst (Q1 earnings was May 12, 2 weeks old) | **SKIP** — no catalyst = no trade |
+| ASPI   | $6.92 (up from $6.64 Tue) | Holding Tue's Si-28 catalyst gains, but NOT on scanner = volume faded | **DROP** — held consolidation but volume dried up; thesis needs volume to work |
+
+**Read on the tape**: APPS is the only major fresh catalyst today (strong Q4 beat + guide raise), but at +54.9% it's a textbook chase violation. Standing rule: "never chase >20% gap" — this is 2.7x that threshold. Same lesson from Tue ASPI: "Same-day fresh-catalyst chases at extended price violate the spirit." APPS goes to Thur watchlist for pullback setup ($6.00-6.50 = reasonable re-entry zone if it consolidates). ASPI volume faded despite holding price — small caps go quiet fast, this confirms the pattern.
+
+**Triggers for rest of day**: None. No clean setups in 1:00-3:30 PM window.
+
+**Add to Thur AM watchlist**: APPS (Digital Turbine) — Q4 beat is real, but needs pullback from +54.9% extension. Track for consolidation/pullback entry $6.00-6.50 zone.
+
+**Discipline note**: 0 trades placed is correct. Scanner showed big movers but all violated entry rules (chase/dilution/no catalyst/no volume). Cash is a position.
+
+---
+
+## 12:00 PM ET Midday Check — 2026-05-26 Tuesday
+
+**Decision: STAND FLAT through afternoon. No positions to manage. Cash $100,000.**
+
+| Symbol | Open Read (9:35) | Midday (12:00) | Decision |
+|--------|------------------|----------------|----------|
+| ASPI   | not on AM list | $6.64 (+19.6%), $835M, FRESH news today (Si-28 facility restart + 3 commercial quantum/semi contracts, Q3 shipments) | **WATCH** — fresh real catalyst but extended +19.6%; pullback/consolidation = clean entry Wed |
+| HLIT   | $17.15 chased (skipped) | $16.43 (~+8% from Fri), back toward $15.40 trigger zone | **WAIT** — no fresh news; closer to entry but vol unverifiable + risk-off tape |
+| DXYZ   | $69.44 (skipped, mcap glitch) | $68.40, mcap $987M (confirmed back in-universe), no fresh news | **WAIT** — bullish sentiment building into 6/12 SpaceX IPO; needs pullback to $63-64 zone |
+| LPTH   | $17.16 weak vol | Off scanner | **DROP** — momentum faded |
+| CRNC   | $10.89 fading | Off scanner | **DROP** — thesis dead |
+
+**Read on the tape**: Scanner stale again (RelVol column blank for all rows — same as Fri). ASPI is the only fresh catalyst surfaced today (Silicon-28 restart + commercial contracts = legitimate quantum/semi narrative). But chasing at +19.6% on a risk-off tape with no liquidity confirmation = wrong setup. Mid-cap leaders (HLIT, DXYZ) have pulled back but still not in optimal entry zones. No new actionable setups in afternoon window.
+
+**Triggers for rest of day (low probability)**:
+- HLIT: reclaim $16.50 on volume spike >2x avg = late-day re-entry zone
+- DXYZ: pullback to $65-66 with absorption = tactical entry
+- ASPI: consolidation above $6.50 with shrinking range = potential next-day setup
+
+**Add to Wed AM watchlist**: ASPI (Silicon-28 + commercial contracts = legitimate small-cap catalyst). Track overnight action.
+
+**Discipline note**: 0 trades placed today is correct on a risk-off tape with stale scanner data. Cash > forced trades. ASCO biotech scan (MBRX/ONCY) deferred to Wed.
+
+---
+
+## 9:35 AM Market Open Observations — 2026-05-26 Tuesday (post-holiday)
+
+**Decision: NO TRADES at open. Cash remains $100,000. Standing flat.**
+
+| Symbol | Pre-Mkt Plan | Open Read (9:35) | Decision |
+|--------|--------------|------------------|----------|
+| DXYZ   | HIGH; >$67 on vol OR pullback $63-64; skip if >$70 | $69.44 (+4.2%), vol 0.3x avg, mcap $2.089B (NOW ABOVE $2B CEILING), +43% 5d, -3.5% from 52w high | **SKIP** — universe violation + extended + weak vol |
+| HLIT   | HIGH; >$15.40 on vol >1.5x; skip if >$16.50 | $17.15 (+12.8%), vol 0.7x avg, blew past chase threshold at open | **SKIP** — chased + vol fails 1.5x rule |
+| LPTH   | MED-HIGH; >$17.20 on vol >1.5x | $17.16 (+1.2%), vol 0.2x avg | **SKIP** — vol way too weak |
+| CRNC   | MED; >$11.20 on vol confirm | $10.89 (-0.8%), vol 0.2x avg, fading | **SKIP** — no trigger |
+
+**Read on the tape**: Macro risk-off (VIX up, yields 16-mo high) reflected in lack of volume conviction across the watchlist. DXYZ and HLIT gapped past chase thresholds with weak volume = classic post-holiday gap-and-fade setup risk. LPTH/CRNC stalled. Scanner top_movers errored; unusual_volume returned stale alphabetical data without RelVol — no fresh signals to validate.
+
+**Triggers to watch midday (10:30, 11:00, 11:30)**:
+- HLIT: pullback to $15.40-$15.80 with absorption + vol spike = clean re-entry zone
+- LPTH: vol spike >2x avg + hold above $17.50 = breakout confirmation
+- DXYZ: SKIP entirely if mcap stays above $2B — universe rule violated
+- CRNC: reclaim above $11.20 on vol = thesis revival
+
+**Discipline note**: 4-for-4 SKIP at open is correct. Pre-market said "stand flat by 10:00 AM if no clean trigger" — exactly the right call on a risk-off tape with weak volume across the board. Cash is a position.
+
+---
+
+## Active Watchlist — 2026-05-26 Tuesday Pre-Open (post-holiday)
+
+Account: $100,000 cash, 0 open positions. 0 trades placed.
+**Macro shift overnight**: VIX futures ~18.95 (up from 16.70 Fri), 10Y yield ~4.69% (16-month high), US futures pointing red on rising-yield / risk-off tone. Russell 2000 had been on a 13-day win streak — vulnerable to mean reversion today.
+Both-lists overlap (carry from Fri): **HLIT, DXYZ, LPTH, CRNC**.
+**Posture adjustment**: Cut planned position sizes by 25% (use 1.125% risk vs 1.5%) until tape confirms. Prefer pullback entries over breakout chases. Stand flat if no clean trigger by 10:00 AM — no chasing into a weak tape.
+
+---
+
+## 1. DXYZ — SpaceX IPO Date CONFIRMED (June 12, 2026) — Strengthened Thesis
+- Catalyst: SpaceX IPO date is now **June 12, 2026** (per CNBC live updates). Roadshow starts **June 8**. Retail access confirmed via Robinhood/Fidelity/Schwab at same IPO price as institutions. DXYZ is the primary public-traded SpaceX proxy (~16% of fund holdings). 17 calendar days from IPO = narrative will accelerate.
+- Market cap: $961M | Price: $66.64 (Fri close) | Day Fri: +8.1% | NYSE closed-end fund
+- Float: Small (closed-end fund structure)
+- Entry plan: Macro red = don't chase. Wait for 10-min opening base. **Preferred entry**: pullback to $63-64 zone with absorption/reclaim. **Backup**: hold above $67 on volume >1.5x avg after 10:00 AM. Skip if opens >$70 (chase).
+- Stop: $61.97 (7% below $66.64); $59.50 if entering at $64
+- Target: 1st 1/3 at $76.64 (+15%), 2nd at $83.30 (+25%), trail final 1/3 (IPO date is hard catalyst event)
+- Conviction: **HIGH** — confirmed IPO date + roadshow + retail access = multi-week narrative accelerator. Strongest single catalyst on the board.
+- Risk: Premium-to-NAV blowout if SpaceX pricing surprises low. Closed-end funds can disconnect from NAV. 3-day holiday gap = some profit-taking risk. Risk-off tape could pressure speculative names first.
+
+---
+
+## 2. HLIT — Q1 Blowout + Video Sale Closing Q2 + Analyst Upgrades
+- Catalyst: Q1 2026 EPS $0.17 (vs guide $0.11-$0.12), Q1 rev $121.7M (vs $102.2M est), broadband rev +43% YoY, deferred backlog $582.1M (+87% YoY). FY26 broadband revenue target raised to **$475-495M**. Video business sale on track to close Q2. Cascade of analyst PT bumps.
+- Market cap: $1.65B (top of universe) | Price: $15.20 (Fri close) | Fri: +19.7% | NASDAQ
+- Float: Mid (mature company)
+- Entry plan: 3-day gap = needs re-confirmation. **Wait 10-min base post-open.** Enter on hold above $15.40 with volume >1.5x avg. **Avoid chase**: skip if opens >$16.50. Pullback to $14.50 with absorption = alternative entry.
+- Stop: $14.14 (7% below $15.20)
+- Target: 1st 1/3 at $17.48 (+15%), 2nd at $19.00 (+25%), trail final 1/3
+- Conviction: **HIGH** — cleanest small-cap fundamental setup on the board. Beat + raised guide + M&A catalyst + analyst momentum.
+- Risk: $1.65B mcap = near ceiling, less explosive upside. Move already +19.7% Fri = real chase risk on a 3-day gap. Video sale slippage could disappoint. Risk-off tape works against extended names.
+
+---
+
+## 3. LPTH — Defense Optics Backlog Breakout (Continuation)
+- Catalyst: Q3 FY26 (May 7) rev +109% YoY ($19.1M), gross profit +161%, record backlog $110.6M (+196% YoY). Multiple defense IR camera contracts ($9.6M order, $40M deal through 2027). Continuing breakout — Fri close $16.95, +18.7%.
+- Market cap: $1.06B | Price: $16.95 | Fri: +18.7% | NASDAQ
+- Float: Small/mid
+- Entry plan: 52-week high zone. Enter on hold above $17.20 with volume >1.5x avg. **Avoid if opens >$18.00 (chase).** Pullback to $16.20 with absorption = backup entry.
+- Stop: $15.76 (7% below $16.95)
+- Target: 1st 1/3 at $19.49 (+15%), 2nd at $21.19 (+25%), trail final 1/3
+- Conviction: **MEDIUM-HIGH** — fundamental breakout backed by backlog + defense IR theme; technical catalyst now ~3 weeks from earnings = momentum/retail-driven
+- Risk: Earnings catalyst stale. Margins negative. Fri volume was only modest. Risk-off tape pressures speculative defense names.
+
+---
+
+## 4. CRNC — Cerence ITC Suit + Q2 Beat Optionality
+- Catalyst: Q2 revenue $64.2M beat (EPS missed at $0.04 vs $0.14 consensus), narrowed full-year guide up. Filed ITC complaint + Amazon lawsuits = legal optionality. Technical break from $9.20-9.70 consolidation.
+- Market cap: $496M | Price: $10.98 | Fri: +13.3% | NASDAQ
+- Float: Small/mid
+- Entry plan: Enter on hold above $11.20 with volume confirmation. Pullback to $10.50 with reclaim = alternative. Skip if opens >$11.80.
+- Stop: $10.21 (7% below $10.98)
+- Target: 1st 1/3 at $12.63 (+15%), 2nd at $13.73 (+25%), trail final 1/3
+- Conviction: **MEDIUM** — multi-factor catalyst but EPS miss + sub-$500M mcap = volatile, mixed reception
+- Risk: Litigation outcomes unpredictable, EPS miss could weigh. Automotive AI/voice secular questions. Smallest mcap on list = most vulnerable to risk-off tape.
+
+---
+
+## 5. MBRX — ASCO 2026 Run-Up (Cardiac Safety Poster May 30)
+- Catalyst: Moleculin Biotech confirmed **poster presentation at ASCO 2026 on May 30** (Fri this week), Annamycin pooled cardiac safety data in AML/soft tissue sarcoma trials. ASCO meeting May 29 – June 2 in Chicago. Classic small-cap oncology run-up window opens this week.
+- Market cap: Tiny (~$15-25M est) | Price: Need to verify | Likely sub-$3 floor risk
+- Float: Very low (typical biotech)
+- Entry plan: **NOT a buy yet.** Watch for: (1) confirmed price above $3 universe minimum, (2) unusual volume building Tue/Wed, (3) chart structure. Run-up trade ONLY — must exit before May 30 poster (sell-the-news pattern).
+- Stop: TBD on entry (7% trail)
+- Target: 10-20% run-up, exit pre-poster
+- Conviction: **WATCH ONLY** — pure tactical run-up; ASCO post-data fade is well-known
+- Risk: MBRX historically sub-$3 = may violate universe rule (CHECK PRICE FIRST). Poster is cardiac safety pooled — not new efficacy data, lower-tier catalyst. Pure speculation play; size very small if entered (0.5% risk).
+
+---
+
+## Watch-Only / Skip List
+
+- **HYLN** ($5.99, +42.6% Fri, both lists): Parabolic — skip unless pullback to $5.00 zone with absorption.
+- **SPCE** ($3.24, +17.8%): No fresh catalyst, near $3 floor. SKIP.
+- **SHAZ** ($68.06): $350M convertible 5/20 = dilution overhang. SKIP.
+- **BKSY** ($47.87): $250M ATM equity 5/22 = active dilution. SKIP per lessons.
+- **FJET** ($7.20): Dilutive raise closing 5/27. SKIP.
+- **FLO** ($7.94, $1.68B): At mcap ceiling, consumer defensive — no real momentum thesis. SKIP.
+- **IMMX** ($8.78): Thesis broken Fri — Phase 2 95% CR did not translate to follow-through. SKIP unless MA20 reclaim ($9.45+) on volume.
+- **CPSH** ($6.00, +28.5%): Tiny mcap, no verifiable catalyst. LOW PRIORITY.
+- **WW** ($12.79, +26.8%): Squeeze bounce off ATL, no catalyst. SKIP.
+- **KULR** ($4.61): Below conviction threshold; CFO departure mixed signal. LOW PRIORITY.
+- **ONCY** (ASCO May 29-June 2 presenter): Add to watch — check price/volume Tue. Same run-up framework as MBRX.
+
+---
+
+## Execution Notes — 2026-05-26 Tuesday Open (post-holiday)
+
+- Cash: $100,000 | Open positions: 0 / 4 | Trades this week: 0 / 5
+- **Macro caution**: VIX up, yields at 16-mo high, futures red. **Reduce position size 25%** (1.125% risk vs 1.5%). Hard stop on new entries if VIX prints >22 intraday.
+- Max position: $15,000 (15% cap)
+- **Top 2 for 9:35 Tue**: **DXYZ** (confirmed IPO date is fresh catalyst) + **HLIT** (cleanest fundamental setup)
+- 3-day weekend gap + risk-off tone = wait for 10-min opening base. NO chasing gap-ups.
+- If no clean trigger by 10:00 AM → stand flat. Cash > forced trades.
+- ASCO biotech run-up: check MBRX/ONCY prices Tue AM for universe eligibility.
+
+---
+
 ## Active Watchlist — 2026-05-25 (Memorial Day, US markets CLOSED — prep for Tue 5/26 open)
 
 Account: $100,000 cash, 0 open positions. No trades placed Fri 5/22 (no clean setups at open).
@@ -39,8 +208,8 @@ Reset day — most Fri pops will need to prove themselves again Tuesday after a 
 
 ## 3. LPTH — Defense Optics Backlog Breakout (Continuation)
 - Catalyst: Q3 FY26 +109% YoY revenue, record backlog $110.6M (+196%), multiple defense IR camera contracts ($9.6M order, $40M deal through 2027). Continued breakout from base — Fri close $16.95, +18.7%, still on unusual_volume list.
-- Market cap: $1.06B | Price: $16.95 (was $17.07 at Fri 9:35, $16.38 Thu close) | Day: +18.7% (cumulative through Fri)
-- Float: Small/mid, NASDAQ
+- Market cap: $1.06B | Price: $16.95 | Fri: +18.7% | NASDAQ
+- Float: Small/mid
 - Entry plan: 52-week high zone. Enter on hold above $17.20 with volume >1.5x avg. Avoid if opens >$18.00 (chase). Pullback to $16.20 with absorption = backup entry.
 - Stop: $15.76 (7% below $16.95)
 - Target: 1st 1/3 at $19.49 (+15%), 2nd at $21.19 (+25%), trail final 1/3
@@ -51,7 +220,7 @@ Reset day — most Fri pops will need to prove themselves again Tuesday after a 
 
 ## 4. CRNC — Cerence Amazon ITC Suit + Q2 Beat Optionality
 - Catalyst: Q2 revenue $64.2M beat (EPS missed at $0.04 vs $0.14 consensus), narrowed full-year guidance up. Filed ITC complaint + Amazon lawsuits = legal optionality. Technical break from $9.20-9.70 consolidation to $11.15-11.25.
-- Market cap: $496M | Price: $10.98 | Day: +13.3% | NASDAQ
+- Market cap: $496M | Price: $10.98 | Fri: +13.3% | NASDAQ
 - Float: Small/mid
 - Entry plan: Tight setup. Enter on hold above $11.20 with volume confirmation. Pullback to $10.50 with reclaim = alternative. Skip if opens >$11.80 (chase).
 - Stop: $10.21 (7% below $10.98)
@@ -94,122 +263,6 @@ Reset day — most Fri pops will need to prove themselves again Tuesday after a 
 - 3-day weekend gap = volatility risk. Wait for 10-min opening base before any entry. NO chasing gap-ups.
 - Discipline check: Friday's flat-stand was correct (no clean triggers). Repeat the framework Tue — only trade clean structure with confirmation.
 - ASCO pre-event biotech scan during midday Tuesday.
-
----
-
-## 9:35 AM Market Open Observations — 2026-05-22
-
-Account: $100,000 cash, 0 open positions. Fresh week.
-Priority tier (BOTH scanner lists): **DXYZ, SPCE, SG**.
-Macro: Risk-on backdrop, VIX low (~17 yesterday). SpaceX S-1 filing has lit up space/IPO-proxy names.
-
----
-
-## 1. DXYZ — SpaceX Nasdaq IPO Filing Confirmed (Continuation)
-- Catalyst: SpaceX revealed its S-1 filing for Nasdaq listing (SPCX ticker) — potentially largest Nasdaq IPO in history, ~$75B raise, ~$2T valuation. DXYZ has 16.2% of portfolio in SpaceX. Continuation of yesterday's move; news is fresh.
-- Market cap: $952M | Price: $65.94 | Day: +7.0% | NYSE-listed closed-end fund (small float)
-- Float: Small (closed-end fund structure)
-- Entry plan: NOT a chase. Wait for 10-minute opening base. Enter on hold above prior high ~$66 with volume. Alternative: pullback to $63 zone (10% retrace of yesterday).
-- Stop: $61.32 (7% below $65.94)
-- Target: 1st 1/3 at $75.83 (+15%), 2nd at $82.43 (+25%), trail final 1/3
-- Conviction: **HIGH** — clearest catalyst on the board (confirmed S-1), continuation pattern, narrative will run multiple days
-- Risk: Premium-to-NAV blowout. Already +34% over two sessions. If SpaceX IPO timing slips or pricing surprises low, fund could drop 15-20% intraday. High share price = fewer shares to manage exit.
-
----
-
-## 2. IMMX — 95% Complete Response Rate Phase 2 CAR-T Data (UNDER-REACTED)
-- Catalyst: Immix Biopharma announced 95% CR rate (19/20 patients) in NEXICART-2 Phase 2 trial for relapsed/refractory AL Amyloidosis on 2026-05-21. This is a registrational trial with BLA planned. No relapses observed. Best-in-class CAR-T data. Stock only +2.7% today = market under-reacted to a potentially transformational data drop.
-- Market cap: $484M | Price: $8.90 | Day: +2.7% | On unusual_volume scan list
-- Float: Likely low (small biotech)
-- Entry plan: Best small-cap setup type — major catalyst + muted reaction = continuation potential. Enter at open if holding $8.80, OR breakout above intraday $9.10. Avoid chasing a gap-up >10%.
-- Stop: $8.28 (7% below $8.90)
-- Target: 1st 1/3 at $10.24 (+15%), 2nd at $11.13 (+25%), trail final 1/3
-- Conviction: **HIGH** — clinical data of this caliber typically drives multi-day re-rating; market hasn't priced it yet
-- Risk: Biotech can re-trace if there's a footnote (e.g., follow-up duration). BLA path still ~2027. Liquidity check critical — confirm bid-ask spread tight before sizing.
-
----
-
-## 3. LPTH — Defense Contracts + Record Backlog Breakout
-- Catalyst: Lightpath Technologies on unusual_volume + top movers. Q3 FY26 (May 7) reported revenue +109% YoY ($19.1M), gross profit +161%, record backlog $110.6M (+196%). Multiple defense IR camera contracts (drone, $9.6M order, $40M deal through 2027). Stock breaking out today on volume.
-- Market cap: $1.03B | Price: $16.38 | Day: +14.7%
-- Float: Small/mid cap, NASDAQ-listed
-- Entry plan: Breakout-from-base. Enter on hold above $16.50 with continued volume. Avoid if opens >$17.50 (chase territory).
-- Stop: $15.23 (7% below $16.38)
-- Target: 1st 1/3 at $18.84 (+15%), 2nd at $20.48 (+25%), trail final 1/3
-- Conviction: **MEDIUM-HIGH** — fundamental momentum (revenue/backlog) backs technical breakout; defense IR theme strong
-- Risk: Q3 earnings already 2 weeks old — today's move needs fresh catalyst confirmation (could be retail follow-through). Margins still negative. At top of small cap range.
-
----
-
-## 4. HYLN — KARNO Fuel-Agnostic Demo + Navy/Data Center Wins
-- Catalyst: Q1 2026 beat (revenue $2.83M vs $1.15M est, +146% surprise). KARNO platform fuel-agnostic demo (natural gas/hydrogen/diesel without hardware change) = major de-risking. Navy contracts, major data center LOI signed, $40-50M new contracts expected 2026. Up +69% on the week.
-- Market cap: $983M | Price: $5.51 | Day: +31.3%
-- Float: Mid
-- Entry plan: **DO NOT CHASE.** Stock is parabolic. Only entry: pullback to $5.00 with volume hold. Skip if opens above $5.80.
-- Stop: $5.12 (7% below $5.51) — or $4.65 if entering at $5.00 pullback
-- Target: 1st 1/3 at $6.34 (+15%), 2nd at $6.89 (+25%)
-- Conviction: **MEDIUM** — real catalyst but extended; mean reversion risk high. Better as a pullback play than open chase
-- Risk: Margins deeply negative, -$14.6M FCF/qtr, commercialization slipped to year-end 2026. Pure narrative-driven move.
-
----
-
-## 5. AEVA — Continued LiDAR Partnership Momentum
-- Catalyst: Cadence Tensilica Vision DSP licensing announced (signal-processing accelerator). Builds on NVIDIA DRIVE Hyperion selection (Jan 2026), LG Innotek partnership, Daimler Truck C-sample shipments, FY26 revenue guidance $30-36M. Today's +14.4% on unusual_volume.
-- Market cap: $1.55B (TOP of small cap range) | Price: $24.58 | Day: +14.4%
-- Float: Mid
-- Entry plan: Skip open. Only enter on pullback to $23.00–$23.50 with volume confirmation.
-- Stop: $22.86 (7% below $24.58)
-- Target: 1st 1/3 at $28.27 (+15%), 2nd at $30.73 (+25%)
-- Conviction: **MEDIUM** — quality story but no single fresh catalyst, near small-cap mcap ceiling
-- Risk: At $1.55B mcap, less room for explosive upside. Lidar sector has burned many bulls. Already extended near 52-week highs.
-
----
-
-## Watch-Only / Skip List
-
-- **SPCE** ($3.26, +18.4%, both lists): No verifiable fresh catalyst — sector sympathy play with FJET. Price near $3 floor (per rule). Average PT only $3.45. SKIP.
-- **FJET** ($7.21, +40%): $17.5M institutional investment is REAL but DILUTIVE — closing May 27 puts overhang. Lessons: avoid dilution announcements. SKIP.
-- **WW** ($12.58, +24.7%): Q1 earnings 2 weeks old, missed badly (-$5.20 vs -$2.05). Today looks like short squeeze/bounce off ATL. No catalyst. SKIP.
-- **KULR** ($4.51, +16.5%): Factorial demo + CFO departure (mixed signal). Below $5 ($4.51 close). Lower priority.
-- **SG** ($9.81, +9.2%): Need to verify catalyst — appears in both lists but no clear news identified. WATCH for confirmation.
-- **BKKT** ($12.29, -0.2%): Yesterday's insider-buying setup faded today. Still on unusual volume but flat. WATCH only.
-- **FCEL** ($26.52, +0.5%): Yesterday's surge fully digested. No follow-through.
-- **PIII**: Off the scanner — confirmed mean reversion thesis.
-
----
-
-## Execution Notes — 2026-05-22 Open
-- Cash available: $100,000.00 (Rocket dedicated account)
-- Max position: $15,000 (15% cap), risk-based sizing per 1.5% rule
-- Open positions: 0 / 4 max | Trades this week: 0 / 5 max
-- Top priority for 9:35 AM: **IMMX** (under-reacted Phase 2 data) and **DXYZ** (S-1 confirmation continuation)
-- Secondary: **LPTH** breakout, **HYLN** pullback only
-- This is Rocket's first live week — discipline > volume. Target 1-2 highest-conviction trades.
-
----
-
-## 9:35 AM Market Open Observations — 2026-05-22
-
-**Decision: NO TRADES at open. Cash remains $100,000. Standing flat.**
-
-| Symbol | Pre-Mkt Plan | Open Read (9:35) | Decision |
-|--------|--------------|------------------|----------|
-| IMMX   | HIGH conviction; $8.90 → buy hold $8.80 or breakout $9.10 | $8.72 (+0.6%), vol 1.0x avg, below MA20/MA50 — market rejected the 95% CR thesis | **SKIP** — thesis broken, no follow-through |
-| DXYZ   | HIGH conviction; $65.94 → breakout >$66 or pullback $63 | $65.38 (+6.0%), vol 1.2x avg, mid-range no-mans-land | **WAIT** — no clean trigger |
-| LPTH   | MED-HIGH; enter on hold >$16.50, avoid if >$17.50 | $17.07 (+19.5%), vol only 1.1x avg per detail, at 52w high, analyst target BELOW price | **WAIT** — volume too weak for 52w-high breakout |
-| HYLN   | Pullback only to $5.00 | $5.84 (+39%), parabolic | **SKIP** — chase territory |
-
-**Read on the tape**: Risk-on day but small caps lack clean setups. IMMX is the biggest disappointment — a registrational CAR-T 95% CR drop should run multi-day; flat tape says the prior +2.7% already priced it. Reduces confidence in "under-reacted catalyst" framework on biotech.
-
-**Triggers to watch midday (re-check 10:30 AM, 11:00 AM)**:
-- LPTH: pullback to $16.50 with volume hold = clean buy zone; OR break $17.80 on >2x volume = momentum continuation
-- DXYZ: break >$66.50 on >1.5x volume OR pullback to $63.50 with absorption
-- IMMX: volume spike >2x avg + reclaim of MA20 ($9.45) = thesis re-emerging
-
-**Fresh scan notables (need catalyst verification before action)**:
-- CRNC ($11.16, +15.2%, $504M tech) — unusual vol, unknown catalyst
-- MRAM ($35.02, +7.9%, $821M tech/memory) — potential AI/edge story
-- HLIT ($15.01, +18.2%, $1.63B tech) — near small-cap ceiling
 
 ---
 

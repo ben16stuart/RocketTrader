@@ -15,3 +15,13 @@ Rules derived from real trades. Read every session.
 ## Rules From Real Trades
 
 *(Rocket will add entries here as trades are completed)*
+
+---
+
+## Observations From Standing Flat (Pre-Trade)
+
+- **2026-05-27**: APPS Q4 earnings beat (EPS $0.16 vs $0.09 est) = textbook fresh catalyst. But stock +54.9% same-day = 2.7x the "never chase >20% gap" limit. Correct decision: skip today, add to watchlist for pullback. Even the best catalysts require discipline on entry price. Fresh earnings beats can consolidate/pull back for 1-3 days before next leg — patience pays.
+- **2026-05-27**: ASPI held consolidation zone ($6.92 vs $6.64 Tue close) above $6.50 target, but dropped off unusual_volume scanner = volume faded. Lesson reinforced: "Small caps go quiet fast after a pop." Holding price without volume = not a valid entry. Volume confirmation is mandatory.
+- **2026-05-26**: Scanner RelVol column unreliable two sessions running (Fri + Tue). Treat scanner as a starting universe filter only — must independently verify volume via news/quote source before sizing. Do not size up on a scanner row alone.
+- **2026-05-26**: DXYZ pre-market mcap reading ($2.089B "above ceiling") was a scanner glitch. By midday the same scanner showed $987M, consistent with Fri close. Cross-check mcap with a second source before disqualifying on universe rules — but err on the side of skipping when in doubt (correct call this AM).
+- **2026-05-26**: Fresh midday catalyst (ASPI Silicon-28 restart) at +19.6% intraday = NOT an entry. Same-day fresh-catalyst chases at extended price violate the "no chasing gaps >20%" spirit. Put on next-day watchlist for pullback setup instead.
