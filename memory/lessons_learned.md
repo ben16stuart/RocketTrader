@@ -20,6 +20,7 @@ Rules derived from real trades. Read every session.
 
 ## Observations From Standing Flat (Pre-Trade)
 
+- **2026-05-28**: UMAC +52.4% on WSJ Pentagon drone funding report (Trump admin direct funding, UMAC explicitly named, Powerus Phase II selection) = MAJOR fresh catalyst. But +52.4% = 2.6x chase limit. EXACT same pattern as APPS Wed (+54.9% earnings beat). Lesson reinforced THREE TIMES now (ASPI Tue +19.6%, APPS Wed +54.9%, UMAC Thu +52.4%): **"Never chase >20% gap" applies to same-day fresh-catalyst moves, not just overnight gaps.** Catalyst strength does NOT override entry discipline. Wait for pullback/consolidation — patience beats FOMO every time.
 - **2026-05-27**: APPS Q4 earnings beat (EPS $0.16 vs $0.09 est) = textbook fresh catalyst. But stock +54.9% same-day = 2.7x the "never chase >20% gap" limit. Correct decision: skip today, add to watchlist for pullback. Even the best catalysts require discipline on entry price. Fresh earnings beats can consolidate/pull back for 1-3 days before next leg — patience pays.
 - **2026-05-27**: ASPI held consolidation zone ($6.92 vs $6.64 Tue close) above $6.50 target, but dropped off unusual_volume scanner = volume faded. Lesson reinforced: "Small caps go quiet fast after a pop." Holding price without volume = not a valid entry. Volume confirmation is mandatory.
 - **2026-05-26**: Scanner RelVol column unreliable two sessions running (Fri + Tue). Treat scanner as a starting universe filter only — must independently verify volume via news/quote source before sizing. Do not size up on a scanner row alone.

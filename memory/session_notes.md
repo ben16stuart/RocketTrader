@@ -5,6 +5,49 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 
 ---
 
+## 2026-05-28 — Market Close
+
+**Decision: CLOSED FLAT. Cash $100,000. No positions overnight.**
+
+**P&L**: $0 today (no positions, no trades). Rocket 0% since inception vs SPY +6.47%.
+
+**Position review**: No positions to manage.
+
+**Daily stats**:
+- SPY today: +0.55%
+- Rocket today: 0% (flat)
+- Rocket vs SPY since inception (4/20): -6.47%
+
+**Tomorrow's watchlist**:
+- **UMAC** — Pentagon drone funding confirmed (WSJ). Pullback to $22-24 = entry zone.
+- **RCAT** — Same catalyst + H.C. Wainwright Buy/$20. Pullback to $11-12 zone (monitor $2B ceiling).
+- **APPS** — Two-day parabolic (+80% total). Pullback to $6.00-6.50 zone.
+
+**Discipline**: 10 trading days, 0 trades, 0 violations. Pattern recognition working — standing rule "never chase >20%" has been applied correctly across 3 major catalysts (ASPI, APPS, UMAC). Cash is a position.
+
+---
+
+## 2026-05-28 — Midday Session
+
+**Decision: STAND FLAT through afternoon. Cash $100,000. No positions.**
+
+**P&L**: $0 today (no positions, no trades). Rocket 0% since inception vs SPY +6.39%.
+
+**Major catalyst identified**: WSJ report — Trump admin negotiating direct funding to domestic drone companies. Pentagon involvement. Drone dominance = FY2027 presidential priority.
+
+**Scanner results**: unusual_volume (20 names, RelVol blank again = 4th session). Top movers:
+- **UMAC** (+52.4%, $28.70, $1.37B): Explicitly named in WSJ drone funding report. Powerus (partner) Phase II of $1B Pentagon program. MAJOR catalyst BUT 2.6x chase limit.
+- **RCAT** (+33.8%, $14.28, $1.75B): Same drone catalyst + H.C. Wainwright Buy/$20 PT. 1.7x chase limit + near $2B ceiling.
+- **CRSR** (+24.5%, $12.23, $1.31B): Stream Deck AI expansion. 1.2x chase limit.
+- **APPS** (+21.9%, $8.14): Two-day parabolic continues. Avoid.
+- **LTRX** (+16.1%, $335M): ATM dilution (early May) = skip per rules.
+
+**Add to Fri watchlist**: UMAC (pullback $22-24), RCAT (pullback $11-12, monitor mcap), APPS (carry, pullback $6-6.50).
+
+**Discipline**: 0 trades correct. Pattern recognition working — UMAC today (+52.4% Pentagon funding) = APPS Wed (+54.9% earnings beat) = same decision framework. Catalyst strength does NOT override entry discipline. This lesson now reinforced 3 times (ASPI, APPS, UMAC).
+
+---
+
 ## 2026-05-27 — Market Close
 
 **Decision: STAND FLAT through close. Cash $100,000. No positions.**

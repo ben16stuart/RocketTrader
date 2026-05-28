@@ -4,6 +4,36 @@ Updated by pre-market and midday sessions.
 
 ---
 
+## 12:00 PM ET Midday Check — 2026-05-28 Thursday
+
+**Decision: STAND FLAT through afternoon. No positions to manage. Cash $100,000.**
+
+**MAJOR FRESH CATALYST IDENTIFIED**: WSJ report today — Trump administration in active talks to provide direct funding to domestic drone companies (debt + equity mix). Pentagon's Office of Strategic Capital involved. Drone dominance = "presidential priority" in FY2027 defense budget.
+
+**Scanner Results**: unusual_volume returned 20 names but RelVol column blank again (fourth session running). Top movers catalyst-checked:
+
+| Symbol | Move | Catalyst | Decision |
+|--------|------|----------|----------|
+| UMAC   | +52.4% to $28.70, $1.37B | **PENTAGON DRONE FUNDING**: WSJ explicitly names UMAC as targeted recipient. Partner Powerus selected for Phase II of $1B Drone Dominance program | **WATCH FRI** — textbook major catalyst BUT +52.4% = 2.6x chase limit; exact APPS pattern from Wed; wait for pullback to $22-24 zone |
+| RCAT   | +33.8% to $14.28, $1.75B | Same drone funding catalyst + H.C. Wainwright initiated Buy/$20 PT, 6th straight win | **WATCH FRI** — strong but +33.8% chase + near $2B ceiling; pullback to $11-12 zone |
+| CRSR   | +24.5% to $12.23, $1.31B | Stream Deck AI expansion (NVIDIA G-Assist integration) — product announcement | **SKIP** — +24.5% = 1.2x chase limit; softer catalyst than contracts/earnings |
+| LTRX   | +16.1% to $8.41, $335M | No fresh news today; early May: $30M ATM offering (dilution) | **SKIP** — ATM dilution violates standing rule |
+| APPS   | +21.9% to $8.14, $982M | Two-day parabolic: +54.9% Wed (Q4 beat) + +21.9% today | **AVOID** — chase violation squared; extended beyond reason |
+| HLIT   | +0.9% to $17.26, $1.87B | No fresh news, weak continuation | **DROP** — thesis faded |
+
+**Read on the tape**: Drone sector has a MAJOR Washington catalyst — direct government funding is as hard a catalyst as it gets for defense/aerospace names. UMAC and RCAT are the primary small-cap plays. BUT both violate the >20% chase rule today. This is the EXACT lesson from APPS Wed: legitimate strong catalyst + parabolic same-day move = wait for consolidation. Entry discipline overrides catalyst strength.
+
+**Triggers for rest of day (hard stop 3:30 PM)**: None. All setups too extended for afternoon entries.
+
+**Add to Fri AM watchlist**:
+- **UMAC** (Unusual Machines) — Pentagon drone funding confirmed. Fresh, hard catalyst. Pullback to $22-24 = clean entry zone.
+- **RCAT** (Red Cat Holdings) — Same catalyst + analyst coverage. Pullback to $11-12 zone (monitor mcap near $2B ceiling).
+- **APPS** — Carry from Wed/Thur. Pullback to $6.00-6.50 zone after two-day parabolic.
+
+**Discipline note**: 0 trades today is correct. Major new catalyst identified but all entries violate chase rules. Pattern recognition working: UMAC today (+52.4%) = APPS yesterday (+54.9%) = same decision framework. Cash is a position.
+
+---
+
 ## 12:00 PM ET Midday Check — 2026-05-27 Wednesday
 
 **Decision: STAND FLAT through afternoon. No positions to manage. Cash $100,000.**
