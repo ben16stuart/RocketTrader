@@ -5,6 +5,77 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 
 ---
 
+## 2026-05-29 — Market Close
+
+**Decision: CLOSED FLAT. Cash $100,000. No positions overnight.**
+
+**P&L**: $0 today (no positions, no trades). Rocket 0% since inception vs SPY +6.77%.
+
+**Position review**: No positions to manage.
+
+**Daily stats**:
+- SPY today: +0.26%
+- Rocket today: 0% (flat)
+- Rocket vs SPY since inception (4/20): -6.77%
+
+**Watchlist for Monday (6/2)**:
+- **UMAC** — Pentagon drone funding catalyst intact. Pullback to $22-24 = entry zone.
+- **RCAT** — Same drone catalyst + H.C. Wainwright Buy/$20. Pullback to $11-12 zone (monitor $2B ceiling).
+- **REPL** — FDA BLA resubmission path for RP1 melanoma drug. Pullback to $6.50-7.00 after +81% day.
+
+**Discipline**: 11 trading sessions, 0 trades, 0 violations. Pattern recognition working across 4 major catalysts now (ASPI, APPS, UMAC, REPL). Standing rule "never chase >20%" applied consistently. Cash is a position.
+
+---
+
+## 2026-05-29 — Midday Check
+
+**Decision: STAND FLAT through close. Cash $100,000. No positions.**
+
+**P&L**: $0 today (no positions, no trades). Rocket 0% since inception vs SPY +6.73%.
+
+**Position review**: Zero positions to manage. No stops to adjust.
+
+**Watchlist status (midday)**:
+- **UMAC**: Bounced back to $28.04 (was $27.00 at open, Thu close $29.60). Overnight hit $31.72. Still well above $22-24 entry zone. Pentagon catalyst intact but price wrong.
+- **RCAT**: Now $14.15, continuing UP (+32.6% 24hr). H.C. Wainwright Buy/$20 + Clear Street Buy/$22. Still above $11-12 zone.
+- **APPS**: Continuing to $8.97 (+6.7% today). Post-earnings momentum sustained. Still extended from $6-6.50 zone.
+
+**Read on tape**: All three watchlist names bounced BACK UP after morning weakness (not pulling back). Morning's 0.1-0.2x volume was just opening jitters. Small caps either consolidate or bounce — these bounced. No entry opportunities.
+
+**Scanner (midday)**: unusual_volume returned 20 names (RelVol still broken — 6th session). Top mover:
+- **REPL** (Replimune) +81.1% to $8.48, $700M mcap: FDA agreed to BLA resubmission path for RP1 melanoma drug after TWO prior rejections (July 2025, April 2026). MAJOR biotech catalyst BUT 4x chase limit. SKIP today, add to Mon watchlist for pullback to $6.50-7.00 zone if consolidates.
+
+**Other scanner names**: All extended (+24.9% PD, +16.3% CDZI, +14.6% PURR) or fading. No clean afternoon setups. Friday + weekend gap risk + broken scanner = stand flat.
+
+**Why correct**: 11th consecutive flat session. Pattern recognition working — REPL (+81% FDA news) = same framework as ASPI/APPS/UMAC. Legitimate catalyst + extreme chase = wait for pullback. Entry discipline overrides catalyst strength. Cash is a position.
+
+**Triggers for rest of day**: None. Standing flat through close.
+
+---
+
+## 2026-05-29 — Market Open
+
+**Decision: STAND FLAT. Cash $100,000. No positions.**
+
+**P&L**: $0 today (no positions, no trades). Rocket 0% since inception vs SPY +6.71%.
+
+**Watchlist open reads (9:35 AM)**:
+- **UMAC** ($27.00, -8.8%, vol 0.2x, $1.29B): Pentagon drone funding catalyst confirmed but pullback on weak volume; still above $22-24 entry zone. WAIT.
+- **RCAT** ($12.70, -10.2%, vol 0.2x, $1.93B): At top of $11-12 entry zone BUT mcap near $2B ceiling + weak volume. SKIP.
+- **APPS** ($8.57, +2.0%, vol 0.1x, $1.03B): Weak continuation, still extended. SKIP.
+
+**Fresh movers**: Checked ONDS ($6.15B mcap - universe violation), KTOS ($11.9B - universe violation). No in-universe drone plays beyond UMAC/RCAT.
+
+**Scanner status**: unusual_volume returned stale alphabetical data (5th session broken), top_movers errored completely.
+
+**Volume requirement FAILED**: All candidates 0.1-0.2x average volume vs required >1.5x for entry. No conviction either direction.
+
+**Why correct**: Drone catalyst is REAL (Pentagon $1.1B Drone Dominance program), but pullbacks happening on thin volume = profit-taking drift, not healthy consolidation. Entry discipline overrides catalyst strength. Standing rule applied correctly: "only execute if volume already above avg in first 5 mins" - none qualified. This is the 11th consecutive session standing flat. Same pattern recognition that avoided ASPI/APPS/UMAC chases earlier this week. Cash is a position.
+
+**Triggers for midday (low probability)**: UMAC pullback to $22-24 on volume >2x avg = entry zone. Otherwise stand flat through close.
+
+---
+
 ## 2026-05-28 — Market Close
 
 **Decision: CLOSED FLAT. Cash $100,000. No positions overnight.**

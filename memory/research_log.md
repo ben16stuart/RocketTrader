@@ -4,6 +4,62 @@ Updated by pre-market and midday sessions.
 
 ---
 
+## 12:00 PM ET Midday Check — 2026-05-29 Friday
+
+**Decision: STAND FLAT through close. No positions. Cash $100,000.**
+
+**Watchlist status update**:
+- **UMAC** ($28.04 midday, Thu close $29.60, overnight $31.72): Bounced BACK UP after morning dip. Pentagon catalyst intact but still well above $22-24 entry zone. Not pulling back as expected. WAIT.
+- **RCAT** ($14.15, +32.6% 24hr): Continuing higher on drone catalyst + analyst coverage (H.C. Wainwright Buy/$20, Clear Street Buy/$22). Still above $11-12 zone. WAIT.
+- **APPS** ($8.97, +6.7% today): Continuing post-earnings strength. Still extended from $6-6.50 zone. WAIT.
+
+**Read**: All three bounced back UP (not down). Morning weakness (0.1-0.2x vol) was opening jitters, not real pullback. Small caps don't telegraph — they either consolidate or bounce. These bounced.
+
+**Scanner (midday)**: unusual_volume returned 20 names (RelVol broken 6th session). Major mover:
+- **REPL** (Replimune) +81.1% to $8.48, $700M: FDA agreed to BLA resubmission path for RP1 melanoma drug after TWO rejections (July 2025, April 2026). Priority review confirmed. MAJOR catalyst BUT 4x chase limit (>20% rule). SKIP today — add to Mon watchlist for pullback to $6.50-7.00 zone if consolidates over weekend.
+
+**Other scanner names**: All extended or fading. PD +24.9% (1.2x chase), PURR +14.6%, CDZI +16.3%. No clean afternoon setups. Friday + weekend gap risk = stand flat.
+
+**Discipline**: 11 flat sessions. Pattern recognition applied correctly — REPL (+81% FDA) = same framework as ASPI/APPS/UMAC all week. Real catalyst + extreme extension = wait for pullback. Entry discipline > catalyst excitement.
+
+**Triggers rest of day**: None. Standing flat through close.
+
+**Carry to Mon AM watchlist**:
+- **UMAC** — Pentagon funding catalyst valid. Entry $22-24. Monitor for consolidation.
+- **RCAT** — Same catalyst. Entry $11-12. Monitor mcap ceiling ($1.93B / $2.00B = 96.5%).
+- **REPL** — FDA BLA resubmission path agreed (melanoma drug RP1). Entry $6.50-7.00 IF consolidates above this zone Monday. Biotech + low float + major catalyst = could have legs if price cooperates.
+
+---
+
+## 9:35 AM Market Open — 2026-05-29 Friday
+
+**Decision: STAND FLAT through session. No positions. Cash $100,000.**
+
+**Watchlist validation from Thur midday**:
+- **UMAC** ($27.00, -8.8%, vol 0.2x): Pulling back from $28.70 close but volume too weak (need >1.5x, have 0.2x). Still above $22-24 entry zone. Pentagon catalyst confirmed (WSJ: Trump admin funding + $1.1B Drone Dominance program). WAIT for proper base + volume.
+- **RCAT** ($12.70, -10.2%, vol 0.2x): At top of $11-12 entry zone but mcap $1.93B too close to $2B ceiling (3.6% room) + weak volume. SKIP.
+- **APPS** ($8.57, +2.0%, vol 0.1x): Weak continuation from Wed/Thur parabolic. Still way above $6-6.50 zone. SKIP.
+
+**Other drone names checked**:
+- ONDS: $6.15B mcap - universe violation (>$2B ceiling). SKIP.
+- KTOS: $11.9B mcap - universe violation. SKIP.
+
+**Scanner status**: unusual_volume stale (5th session broken, RelVol blank all rows), top_movers errored ("No results found").
+
+**Volume requirement**: ALL candidates fail (0.1-0.2x vs required >1.5x in first 5 mins per market_open guardrails).
+
+**Why no trades**: Drone catalyst is legitimate and fresh BUT pullbacks happening on weak volume = not actionable. Healthy pullback needs absorption (volume ≥1x avg). This is just profit-taking drift. Entry discipline applied correctly: "only execute if volume already above avg in first 5 mins" — none qualified.
+
+**Discipline**: 11th consecutive session standing flat. Pattern recognition working — same framework that avoided ASPI (+19.6%), APPS (+54.9%), UMAC (+52.4%) chases. Cash is a position.
+
+**Triggers for midday/close (low probability)**: UMAC pullback to $22-24 on volume >2x avg. Otherwise flat through close.
+
+**Carry to Mon AM watchlist (if no fills today)**:
+- **UMAC** — Pentagon funding catalyst still valid. Entry zone $22-24 (currently $27). Needs volume confirmation.
+- **RCAT** — Same catalyst but monitor mcap ceiling risk ($1.93B / $2.00B limit = 96.5% utilized).
+
+---
+
 ## 12:00 PM ET Midday Check — 2026-05-28 Thursday
 
 **Decision: STAND FLAT through afternoon. No positions to manage. Cash $100,000.**
