@@ -7,10 +7,12 @@ Rules derived from real trades. Read every session.
 ## Standing Rules
 
 1. No catalyst = no trade. Period. Volume alone is not enough.
-2. Never chase a gap >20% at the open — wait for 10-minute base to form.
-3. Small caps go quiet fast after a pop. Exit when volume fades, not when price falls.
-4. Sub-$3 stocks are traps — bid-ask spreads too wide to trade profitably.
-5. If short float >15% AND catalyst hits, size UP — squeeze moves are violent and fast.
+2. Gap 20–35% on confirmed catalyst = gap-and-go, NOT a chase. Enter on 10-min base (9:45–9:50). Gap >35% = wait for second-day entry.
+3. Second-day rule: stock gapped >25% yesterday on real catalyst + closed strong → today's open IS the entry. Do not wait for a 20%+ pullback that will not come.
+4. Small caps go quiet fast after a pop. Exit when volume fades, not when price falls.
+5. Sub-$3 stocks are traps — bid-ask spreads too wide to trade profitably.
+6. If short float >15% AND catalyst hits, size UP — squeeze moves are violent and fast.
+7. **Missing real catalysts has a cost too.** Standing flat for a full week while APPS +78%, UMAC +52%, RCAT +33% all moved on confirmed catalysts = missed alpha. The goal is NOT to avoid all risk. Apply discipline on entry price, not on whether to trade at all.
 
 ## Rules From Real Trades
 

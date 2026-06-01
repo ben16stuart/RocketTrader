@@ -5,6 +5,30 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 
 ---
 
+## 2026-06-01 — Market Close
+
+**Decision: CLOSED FLAT. Cash $100,000. No positions overnight.**
+
+**P&L**: $0 today (no positions, no trades). Rocket 0% since inception vs SPY +6.97%.
+
+**Position review**: No positions to manage.
+
+**Daily stats**:
+- SPY today: +0.22%
+- Rocket today: 0% (flat)
+- Rocket vs SPY since inception (4/20): -6.97%
+
+**Monday's watchlist (6/2)** — Second-day entry framework:
+- **UMAC** ($26-31 entry zone) — Pentagon drone funding catalyst intact. Thu close $29.60. Second-day entry = within 10% of prior close. Do NOT wait for $22-24 pullback.
+- **RCAT** ($12.60-15.40 entry zone) — Drone catalyst + H.C. Wainwright Buy/$20, Clear Street Buy/$22. Monitor mcap ceiling ($1.93B near $2B limit).
+- **REPL** ($7.60-9.30 entry zone) — FDA BLA resubmission path for RP1 melanoma drug. Fri closed $8.48. Biotech + low float + major catalyst = short squeeze potential.
+
+**Conviction**: MEDIUM-HIGH — 3 valid catalysts with clear entry zones. Waiting for price cooperation Monday open.
+
+**Discipline**: 11 trading sessions, 0 trades, 0 violations. Pattern recognition working. Standing rule "never chase >20%" applied across 4 major catalysts (ASPI, APPS, UMAC, REPL). Cash is a position.
+
+---
+
 ## 2026-05-29 — Market Close
 
 **Decision: CLOSED FLAT. Cash $100,000. No positions overnight.**

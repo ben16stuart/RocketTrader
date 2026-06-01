@@ -24,10 +24,10 @@ Updated by pre-market and midday sessions.
 
 **Triggers rest of day**: None. Standing flat through close.
 
-**Carry to Mon AM watchlist**:
-- **UMAC** — Pentagon funding catalyst valid. Entry $22-24. Monitor for consolidation.
-- **RCAT** — Same catalyst. Entry $11-12. Monitor mcap ceiling ($1.93B / $2.00B = 96.5%).
-- **REPL** — FDA BLA resubmission path agreed (melanoma drug RP1). Entry $6.50-7.00 IF consolidates above this zone Monday. Biotech + low float + major catalyst = could have legs if price cooperates.
+**Carry to Mon AM watchlist** (updated with second-day entry framework):
+- **UMAC** — Pentagon funding catalyst valid. Thu close $29.60. **Second-day entry zone: $26-31 (within 10% of Thu close).** Do NOT wait for $22-24 — that's a 25% pullback that will not happen on a multi-day institutional catalyst.
+- **RCAT** — Same drone catalyst + analyst coverage (HC Wainwright Buy/$20, Clear Street Buy/$22). Thu close ~$14. **Second-day entry zone: $12.60-15.40.** Watch mcap ceiling ($1.93B — leave 5% headroom, skip if >$1.9B at entry).
+- **REPL** — FDA BLA resubmission path (melanoma drug RP1). Fri close ~$8.48. **Second-day entry zone: $7.60-9.30.** Biotech + low float + major catalyst + prior rejections = short squeeze potential. HIGH conviction if price cooperates Monday open.
 
 ---
 
