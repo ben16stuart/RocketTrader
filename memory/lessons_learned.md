@@ -20,6 +20,12 @@ Rules derived from real trades. Read every session.
 
 ---
 
+## Pre-Trade Observations (Standing Flat)
+
+- **2026-06-02 ELMT miss**: Stood aside at 9:35 AM on weak volume (0.2x avg), but stock DID form valid 10-min base at $19.50-$20.00 zone (9:45-9:50) and ran to $21+ on volume (732.4K shares). Q1 beat + defense backlog catalyst was real. **Lesson: Early volume read (first 5 mins) is NOT final verdict. Market_open routine says "wait for 10-min opening base" — that means WAIT THE FULL 10 MINUTES, not dismiss at minute 5.** If plan says check at 9:50, check at 9:50. This was a valid missed entry, not a chase avoid.
+
+---
+
 ## Observations From Standing Flat (Pre-Trade)
 
 - **2026-05-29**: REPL +81.1% on FDA BLA resubmission path agreement (melanoma drug RP1, after TWO prior rejections in 2025-2026) = textbook major biotech catalyst. But +81.1% = 4x chase limit. Lesson reinforced FOUR TIMES now (ASPI Tue +19.6%, APPS Wed +54.9%, UMAC Thu +52.4%, REPL Fri +81.1%): **"Never chase >20% gap" applies to ALL intraday fresh-catalyst spikes, regardless of catalyst quality.** Even FDA reversals and Pentagon funding do not override the >20% rule. Wait for pullback/consolidation — the best catalysts often give second entries. Patience > FOMO.

@@ -4,6 +4,129 @@ Updated by pre-market and midday sessions.
 
 ---
 
+## 12:00 PM Midday Check — 2026-06-02 Tuesday
+
+**Decision: STAND FLAT through afternoon. No positions. Cash $100,000.**
+
+**Morning watchlist resolution**:
+- **ELMT** ($21.05 close, range $19.06-$21.57, vol 732.4K): **MISSED VALID ENTRY** — stood aside at 9:35 on weak volume (0.2x), but 10-min base DID form at $19.50-$20.00 zone. Stock ran to $21+ on volume. Q1 beat + defense backlog catalyst confirmed. Lesson: 9:35 weak volume ≠ dead — wait full 10 mins per plan. Now extended from entry zone.
+- **REPL** ($8.96 at open, -0.4%): Held perfect entry zone ($7.60-9.30) + 51.3% short float BUT volume never developed. Not on midday scanner = thesis needs volume to work. FDA catalyst valid but tape not confirming. WAIT for volume pickup.
+- **UMAC** ($30.88, +6.9%): Pentagon funding catalyst CONFIRMED (WSJ: Trump admin direct debt+equity funding to domestic drone makers, UMAC explicitly named, 200k drone procurement by 2027). Stock +50% Thu on news, +6.9% today. In $26-31 second-day entry zone but RelVol broken = can't verify volume. Continuation, not day-1. WATCH for consolidation.
+- **SPCE**: COLLAPSED -38.5% to $4.62 as predicted (parabolic space theme reversing). Correct skip.
+
+**Top movers scan (midday)**: ASTC +35.9%, PUSA +23.0%, CING +19.3%, AGPU +17.2% — all small mcaps but already extended >12-35% intraday = chase violations. No fresh catalyst verification yet.
+
+**Afternoon setup window**: 1:00-3:00 PM. Watching for consolidation above opening range on sustained volume. Hard stop on new entries 3:30 PM. If no clean trigger → stand flat through close.
+
+**Scanner status**: RelVol column blank 7th session. Use scanner as universe filter only, not volume confirmation.
+
+---
+
+## 9:50 AM Check (COMPLETED) — 2026-06-02 Tuesday
+
+~~Waiting for 10-min base to form. Re-check at 9:50 for volume confirmation.~~
+
+**Result**: ELMT formed valid 10-min base at $19.50-20.00, ran to $21+. REPL and UMAC volume did not develop. Missed ELMT entry due to early dismissal at 9:35.
+
+---
+
+## 9:35 AM Market Open — 2026-06-02 Tuesday
+
+**Decision: STANDING FLAT. Waiting for 9:45-9:50 base formation.**
+
+**Open reads**:
+- **ELMT** ($20.05, +5.8%, vol 0.2x): Clean gap but volume FAILS. Catalyst intact (Q1 beat + defense backlog). WAIT for volume.
+- **SPCE** ($5.82, -22.7%): COLLAPSING. Parabolic space theme reversing. AVOID.
+- **BRUN** ($36.17, -7.7%, vol 0.1x, mcap $2.19B): Universe violation + pullback. SKIP.
+- **UMAC** ($31.74, +9.9%, vol 0.1x): At top of $26-31 entry zone but volume dead. Pentagon catalyst valid. WAIT.
+- **RCAT** ($15.26, +2.8%, vol 0.1x, mcap $2.32B): Universe violation. SKIP.
+- **REPL** ($8.96, -0.4%, vol 0.0x): PERFECT entry zone ($7.60-9.30) + **51.3% short float** but ZERO volume. FDA catalyst intact. WAIT.
+
+**Common theme**: ZERO volume conviction across all names (0.0x-0.2x avg). Real catalysts, decent entry prices, but market not engaged at 9:35.
+
+**Scanner**: top_movers error, unusual_volume stale (6th session). No fresh signals.
+
+**Plan**: Wait for 9:45-9:50 consolidation. If no volume develops by 10:00 AM → stand flat.
+
+---
+
+## 9:35 AM Pre-Open Watchlist — 2026-06-02 Tuesday
+
+Account: $100,000 cash, 0 positions, 0 trades ever. 12 flat sessions.
+**Macro: risk-on.** VIX 16.05 (low), futures green (ES +0.32%, NQ +0.61%). Favorable for small-cap risk.
+**Dominant theme: SPACE into the SpaceX IPO.** SpaceX (SPCX) IPO **CONFIRMED June 12** — pricing June 11, roadshow week of June 8, $1.75T valuation, $75B raise (largest IPO in history). 10-day runway; roadshow next week accelerates the narrative. Entire space sector running (SPCE, MNTS, FJET).
+**Second theme: defense / critical-materials reshoring** (ELMT tungsten/aerospace backlog).
+**Discipline note:** Every top name below is already extended (+15% to +24% on the day). Per standing rules, NO market-on-open chases. Use second-day continuation (open within 10% of prior close + 9:45–9:50 base) or pullback entries only.
+
+### Carryover status (prior watchlist):
+- **DXYZ — DEAD.** Collapsed $66.64 (5/22) → $52.50 → $49.12 (6/2). Premium-to-NAV blowout (the exact risk flagged). In a downtrend. DROP — do not buy a falling SpaceX proxy into the IPO.
+- **UMAC / RCAT — FADED.** Drone theme cooled; neither on today's scanner. No fresh June catalyst. Off the active list unless they re-appear on volume.
+- **REPL / APPS — faded.** APPS at $9.30 (+5.9%, weak continuation). No clean setup.
+
+### Skip list (today):
+- **FJET** (+27.4%, $9.50): $17.5M dilution raise + ex-CEO $26M lawsuit + bank account limits. AVOID — dilution + legal mess.
+- **AIRJ** (+15.8%, $5.20): $15M registered direct offering closed ~June 1. AVOID — fresh dilution.
+- **ZIP** (+21.0%, $3.92): No fresh June catalyst (last real news March). Sympathy/technical only. SKIP — no verifiable catalyst.
+
+---
+
+## 1. ELMT — Q1 Beat + Record Backlog + Defense/Tungsten Reshoring
+- Catalyst: Q1 rev +20.7% to $56M, adj EBITDA doubled to $9.2M, EPS $0.24 vs $0.10 yr-ago. **Record backlog $113.3M** led by aerospace/defense/government + tungsten. Critical-materials independence megatrend. Recent IPO ($125.5M net proceeds → low float).
+- Market cap: $568M | Price: ~$18.95 (6/1 close, +24%) | Float: low (recent IPO) | Short float: N/A | NASDAQ
+- Entry plan: NO CHASE (+24% today). Second-day continuation — open within 10% of $18.95 ($17.05–20.85) + 9:45–9:50 base. Preferred pullback to $17–18 on volume.
+- Stop: $17.20 (7% below ~$18.50 entry ref)
+- Target: 1st 1/3 +15% ~$21.28, 2nd 1/3 +25% ~$23.13, trail final 1/3
+- Conviction: **HIGH** — cleanest fundamental catalyst on the board (beat + record backlog + defense/critical-materials theme). Recent IPO low float = explosive.
+- Risk: +24% day = extension/chase risk. Recent IPO = limited trading history, lockup/volatility unknowns. Could fade if defense theme cools.
+
+## 2. SPCE — Multi-Factor Space + SpaceX IPO Theme (Short Squeeze)
+- Catalyst: Q1 beat (EPS +13.8%, rev +13.5% vs cons) + new strategic investor (RichRich Capital 4.6%, Rich Huang 5.3%) + VSS Unity glide flights RESUMED + Delta ship Q3 testing/Q4 commercial launch + space sector running into SpaceX IPO (June 12). Low float, heavily shorted = squeeze.
+- Market cap: $757M | Price: $7.52 (6/1 close, +21.7%) | Float: low | Short: high (squeeze driver) | NYSE
+- Entry plan: MOST EXTENDED (+125% in 5 sessions: $3.34 → $8.90 → $7.52). NO CHASE. Preferred pullback to $6.50–7.00 base (prior breakout shelf) on volume. Second-day open within 10% of $7.52 ($6.77–8.27) + consolidation = partial only.
+- Stop: $6.42 (7% below ~$6.90 entry ref)
+- Target: 1st 1/3 +15% ~$7.94, 2nd 1/3 +25% ~$8.63, trail final 1/3 into June 12 IPO
+- Conviction: **HIGH (theme), but extension is the enemy.** Real multi-factor catalyst + hard date catalyst (June 12). Size conservatively.
+- Risk: +125% cumulative = buying near a parabolic top. Classic "sector runs INTO IPO, sells the news ON IPO (June 12)." Plan to be OUT or trailing tight by June 11.
+
+## 3. BRUN — $472M GPU Deal + Analyst Upgrades (AI Infra)
+- Catalyst: $471.7M Boost Run Service Agreement with Thinking Machines Lab (5,000 NVIDIA B300 GPUs, 36-mo) + DA Davidson PT $25→$45 + Craig-Hallum init Buy $30. $940M contracted revenue, $1.44B Dell purchase agreement. GPUaaS / AI-infra theme.
+- Market cap: $677M | Price: $39.20 (6/1 close, +15.1%) | Float: moderate | NASDAQ
+- Entry plan: NO CHASE. Pullback to $36–37 or second-day consolidation hold above $39 on volume. Entry ref $38.
+- Stop: $35.34 (7% below $38)
+- Target: 1st 1/3 +15% ~$43.70, 2nd 1/3 +25% ~$47.50, trail final 1/3
+- Conviction: **MEDIUM-HIGH** — strong contract + fresh analyst PTs, but original deal was May (continuation, not day-1). Higher $ price.
+- Risk: Catalyst aging; move is partly analyst-PT-driven momentum. AI-infra names volatile. Verify it's still on volume at open.
+
+## 4. MNTS — Space-Defense Contracts (Golden Dome) — WATCH ONLY
+- Catalyst: NASA/DARPA/AFRL/Space Force/Golden Dome pipeline; $10M 2026 rev guide (9x); access to $151B Golden Dome 10-yr defense vehicle. Space theme into SpaceX IPO.
+- Market cap: ~$900M est | Price: ~$18.80 | Float: low | NASDAQ
+- Entry plan: TOO EXTENDED (+300%: $4.57 → $18.80). WATCH ONLY. Only a deep pullback to $14–15 with volume absorption = consideration.
+- Stop: TBD on entry (7% trail)
+- Target: +15% / +25% from entry
+- Conviction: **WATCH** — real catalyst but parabolic. No chase.
+- Risk: +300% parabolic = extreme reversal risk. Sell-the-news on June 12 IPO.
+
+## 5. MNTN — CTV Ad Q1 + QuickFrame AI 3.0 — LOW PRIORITY
+- Catalyst: Q1 profitable, +25% YoY rev, higher margins, launched QuickFrame AI 3.0 (AI video ad generator). BUT initial earnings reaction was ~-20%; +13.9% (6/1) is a bounce, not a clean breakout.
+- Market cap: $794M | Price: $10.74 (6/1, +13.9%) | NASDAQ
+- Entry plan: Muddy. Only if it reclaims and holds above the pre-drop level on strong volume. Otherwise skip.
+- Stop: 7% below entry
+- Target: +15% / +25%
+- Conviction: **MEDIUM-LOW / WATCH** — dead-cat-vs-recovery unresolved. Catalyst real but reaction mixed.
+- Risk: Bounce off a -20% earnings drop can fail. No conviction without a clean reclaim.
+
+---
+
+## Execution Notes — 2026-06-02 Tuesday Open
+- Cash: $100,000 | Positions: 0 / 4 | Trades this week: 0 / 5
+- Macro risk-on (VIX 16, futures green) = full 1.5% risk sizing OK. Max position $15,000 (15% cap).
+- **Top 2 for 9:35**: **ELMT** (cleanest fundamental catalyst) + **SPCE** (strongest theme + hard date catalyst, but only on pullback).
+- ALL names extended — NO market-on-open chases. Wait for 9:45–9:50 base or pullback. Volume >1.5x avg required to act.
+- Space sector sell-the-news risk on June 12 (SpaceX IPO) — any space position must be out/trailing tight by June 11.
+- If no clean trigger with volume by 10:00 AM → stand flat. Cash is a position. But lessons: missing real catalysts has a cost — be ready to ACT on a clean pullback, not just admire from the sidelines.
+
+---
+
 ## 12:00 PM ET Midday Check — 2026-05-29 Friday
 
 **Decision: STAND FLAT through close. No positions. Cash $100,000.**

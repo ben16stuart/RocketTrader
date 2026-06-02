@@ -5,6 +5,38 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 
 ---
 
+## 2026-06-02 — Market Close
+
+**Decision: CLOSED FLAT. Cash $100,000. No positions overnight.**
+
+**P&L**: $0 today (no positions, no trades). Rocket 0% since inception vs SPY +7.16%.
+
+**Position review**: No positions to manage.
+
+**Daily stats**:
+- SPY today: +0.12%
+- Rocket today: 0% (flat)
+- Rocket vs SPY since inception (4/20): -7.16%
+
+**Key miss today**: ELMT formed valid 10-min base at $19.50-20.00 zone (9:45-9:50) and ran to $21+ on real catalyst (Q1 beat + defense backlog). Stood aside at 9:35 on weak volume (0.2x), but should have waited full 10 minutes per market_open plan. Valid missed entry, not a chase avoid.
+
+**Watchlist resolution**:
+- **ELMT** — Missed entry. Catalyst validated. Now extended from $19.50-20.00 zone. Watch for pullback.
+- **REPL** — Held perfect entry zone ($7.60-9.30) + 51.3% short float, but volume never developed. FDA catalyst intact. Carry to Wednesday.
+- **UMAC** — Continuing at $30.88 (+6.9%) in second-day entry zone but RelVol broken, can't verify volume. Pentagon catalyst confirmed. Carry to Wednesday.
+- **SPCE** — Collapsed -38.5% to $4.62 as predicted. Correct skip.
+
+**Tomorrow's watchlist (6/3)**:
+- **REPL** ($7.60-9.30 entry zone) — FDA biotech, 51.3% short float, needs volume
+- **UMAC** ($26-31 entry zone) — Pentagon drone funding
+- **ELMT** — Watch for pullback from $21+ if consolidates
+
+**Conviction**: MEDIUM — Real catalysts exist but execution challenging due to volume/timing. Scanner RelVol broken 7th session.
+
+**Discipline**: 12th consecutive flat session. Entry discipline applied, but ELMT shows cost of dismissing too early. Full 10-min opening base evaluation required per standing plan.
+
+---
+
 ## 2026-06-01 — Market Close
 
 **Decision: CLOSED FLAT. Cash $100,000. No positions overnight.**

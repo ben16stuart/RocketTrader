@@ -1,6 +1,40 @@
 # Rocket Market Context
 
-Last updated: 2026-05-26 (Tuesday pre-open)
+Last updated: 2026-06-02 (Tuesday pre-open)
+
+---
+
+## Snapshot — 2026-06-02 Tuesday Pre-Open
+
+### Macro (risk-on)
+- VIX: **16.05** (low, well below 25 size-reduction threshold) — full sizing OK
+- Futures green: ES +0.32%, NQ +0.61%
+- Nvidia new PC chip lifting tech; minor geopolitical "war flares" headline noise
+- **Posture: Risk-on / favorable.** Full 1.5% risk sizing. But every leading small cap is extended — discipline = pullback/second-day entries only, no chasing.
+
+### Dominant Theme — SPACE into SpaceX IPO
+- **SpaceX (SPCX) IPO CONFIRMED June 12, 2026** — pricing June 11, roadshow week of June 8. $1.75T valuation, $75B raise (largest IPO ever). Goldman lead + MS/BofA/Citi/JPM.
+- 10-day runway; roadshow next week accelerates narrative. Whole sector running: SPCE (+125% wk), MNTS (+300%), FJET.
+- **Sell-the-news risk ON June 12** — sector typically peaks into the listing. Any space position out/trailing tight by June 11.
+
+### Active Themes
+- **Space / SpaceX-IPO proxy**: SPCE (Virgin Galactic), MNTS (Momentus) — both extended
+- **Defense / critical-materials reshoring**: ELMT (tungsten, aerospace backlog)
+- **AI infrastructure / GPUaaS**: BRUN (Boost Run, $472M GPU deal)
+- **CTV advertising**: MNTN (muddy earnings reaction)
+
+### Dead / Faded (prior themes)
+- **DXYZ**: collapsed $66 → $49, premium-to-NAV blowout. Avoid — falling SpaceX proxy.
+- **Drone (UMAC/RCAT)**: theme cooled, off scanner, no fresh catalyst.
+
+### Dilution / Legal Overhangs to AVOID
+- **FJET**: $17.5M raise + ex-CEO $26M lawsuit + bank account limits
+- **AIRJ**: $15M registered direct offering closed ~June 1
+
+### Intraday Triggers to Watch
+- VIX >22: pause new entries; >25 no new longs
+- Space sector: watch for sector-wide reversal as June 12 approaches (sell-the-news)
+- Required to act: volume >1.5x avg + clean 9:45–9:50 base (no open chases)
 
 ---
 
