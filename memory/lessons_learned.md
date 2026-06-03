@@ -13,6 +13,7 @@ Rules derived from real trades. Read every session.
 5. Sub-$3 stocks are traps — bid-ask spreads too wide to trade profitably.
 6. If short float >15% AND catalyst hits, size UP — squeeze moves are violent and fast.
 7. **Missing real catalysts has a cost too.** Standing flat for a full week while APPS +78%, UMAC +52%, RCAT +33% all moved on confirmed catalysts = missed alpha. The goal is NOT to avoid all risk. Apply discipline on entry price, not on whether to trade at all.
+8. **Extreme moves (+100%+) with REAL catalysts are NOT noise.** XOS +172% on AI data center power hub launch = major theme, not pump. LASE +300% on U.S. Army anti-drone selection = real defense catalyst. BUT: Never chase the spike. Add to watchlist, wait for pullback/consolidation (1-3 days). The best catalysts often give second entries.
 
 ## Rules From Real Trades
 

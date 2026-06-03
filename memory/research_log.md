@@ -65,12 +65,30 @@ Account: $100,000 cash, 0 positions, 0 trades ever. **13th flat session.**
 
 ## 5. BRUN — $472M GPU Deal + Analyst PTs (AI Infra) — WATCH for Base
 - Catalyst: $471.7M Boost Run Service Agreement (5,000 NVIDIA B300 GPUs) + DA Davidson PT $45 + Craig-Hallum Buy $30. $940M contracted revenue. GPUaaS theme.
-- Market cap: ~$635M | Price: $36.74 (−6.3%, on unusual volume = selling) | Float: moderate | NASDAQ
-- Entry plan: WATCH ONLY — momentum broken (pulling back on volume). Only re-engage on reclaim and hold above $38 on volume >1.5x. Entry ref $38.
+- Market cap: ~$635M | Price: $38.40 (6/3 midday, reclaimed from $36.74) | Float: moderate | NASDAQ
+- Entry plan: WATCH ONLY — needs clean reclaim above $38 with volume >1.5x. Entry ref $38.
 - Stop: $35.34 (7% below $38)
 - Target: 1st 1/3 +15% ~$43.70, 2nd 1/3 +25% ~$47.50, trail final 1/3
-- Conviction: **WATCH** — strong contract but the move is rolling over. No entry until it bases and reclaims.
-- Risk: Catalyst aging (deal was May); selling on volume = distribution risk. AI-infra names volatile.
+- Conviction: **WATCH** — strong contract, reclaiming after pullback. No entry until base confirmed.
+- Risk: Catalyst aging (deal was May); AI-infra names volatile.
+
+## 6. XOS — AI Data Center Power Hub + Defense (NEW 6/3) — PULLBACK WATCH
+- Catalyst: 2.5MWh Power Hub launch for AI data centers (grid-independent power, solves 3-7yr interconnection delays) + U.S. Air Force Global Strike demo selection (1 of 17 finalists). Fresh Jun 3 announcement. AI data center power = top theme. Defense crossover. Record Q1: 38.6% gross margins, 3x unit deliveries.
+- Market cap: ~$73.57M (micro-cap) | Price: $6.07 (6/3, +172.2% intraday) | Float: unknown | NASDAQ
+- Entry plan: **NO CHASE** — +172% = 8.6x limit. WAIT for pullback/consolidation. If holds $5.50-6.00 zone tomorrow with volume >1.5x, becomes second-day watch. Entry ref $5.75 IF it consolidates.
+- Stop: $5.35 (7% below $5.75)
+- Target: 1st 1/3 +15% ~$6.61, 2nd 1/3 +25% ~$7.19, trail final 1/3
+- Conviction: **MEDIUM-HIGH IF IT SETS UP** — catalyst is HUGE (AI data center power), fresh, dual theme (energy + defense). Micro-cap = high risk/reward.
+- Risk: Micro-cap ($73M), +172% move = violent reversal risk if it doesn't hold. Wide spreads. Must verify >$3 and liquidity before any entry. Could be one-day pop.
+
+## 7. LASE — Anti-Drone Defense (U.S. Army/DoD) (NEW 6/3) — WATCH ONLY
+- Catalyst: Laser Shield anti-drone system selected by U.S. Dept of War under MEIA (Counter C5ISR-T) + U.S. Army depot pilot success (missile rust inhibitor validated). DefenseTech product launches. Related to Pentagon drone theme. Fresh Jun 2-3.
+- Market cap: ~$138M | Price: $3.58 (6/3, +47.9%, multi-day +300% from $1.21) | Float: unknown | NASDAQ
+- Entry plan: **WATCH ONLY** — $3.58 barely above $3 floor (spread/liquidity risk). +47.9% = 2.4x chase limit. ONLY consider if consolidates above $3.50 for 2+ days with volume. Entry ref $3.50 IF it stabilizes.
+- Stop: $3.26 (7% below $3.50)
+- Target: +15% / +25% from entry
+- Conviction: **LOW/WATCH** — catalyst is real (defense anti-drone), but weak fundamentals ($8.34M rev, deeply negative margins, burning cash). Price too low for comfort. Micro-cap.
+- Risk: Sub-$4 price = wide spreads, liquidity traps. Multi-day 300% move = extreme extension. Fundamentals weak. Could reverse violently. Only trade if it proves consolidation strength.
 
 ---
 
@@ -81,6 +99,28 @@ Account: $100,000 cash, 0 positions, 0 trades ever. **13th flat session.**
 - THEME: Drone/defense is live; SPACE is dead (sell-the-news started early). AVOID all space names (SPCE, MNTS, FJET).
 - Volume >1.5x avg + clean 9:45–9:50 base required to act. RelVol broken — verify volume independently.
 - If no clean trigger with volume by 10:00 AM → stand flat. But per lessons: a confirmed Pentagon catalyst with a clean second-day base IS actionable — be ready to ACT, not just admire. 13 flat sessions; entry discipline ≠ permanent paralysis.
+
+---
+
+## 1:00 PM Midday Check — 2026-06-03 Wednesday
+
+**Decision: STAND FLAT through afternoon. No positions. Cash $100,000.**
+
+**Morning watchlist resolution**:
+- **UMAC** ($33.42 prior close → +15.72% today): Roth Capital raised PT to $40 from $25 TODAY. Stifel conference live. Pentagon catalyst strengthening. BUT: Extended again after yesterday's setup — likely gapped/ran at open. No chase.
+- **PUSA** ($6.40, +13.81% past 24hrs): Pentagon Phase II qualification riding continuation from yesterday's +33.9%. Multi-day runner, extended.
+- **ELMT** ($21.93 yesterday → $22.09+): Above my $20.50 pullback target. Extended, wait for better entry.
+- **BRUN** ($36.74 yesterday → $38.40 midday): Reclaimed after -6.3% pullback. Approaching my $38 watch level but not quite there with volume confirmation yet.
+
+**New midday catalysts found**:
+- **XOS** (+172.2%, $6.07, mcap $73.57M): **MAJOR fresh catalyst** — 2.5MWh Power Hub launch for AI data centers (grid-independent power, solves 3-7yr interconnection delays) + U.S. Air Force defense demo selection (1 of 17 finalists). AI data center power = top market theme. BUT: +172% = 8.6x chase limit. ADD TO WATCHLIST for pullback/consolidation later this week. If it holds $5.50-6.00 zone tomorrow with volume, becomes second-day watch.
+- **LASE** (+47.9%, $3.58, mcap $138M): **Defense catalyst** — Laser Shield anti-drone system selected by U.S. Dept of War (MEIA program) + U.S. Army depot pilot success. Related to Pentagon drone theme. BUT: +47.9% = 2.4x chase limit, $3.58 barely above $3 floor, weak fundamentals ($8.34M rev, deeply negative margins). WATCH ONLY for consolidation above $3.50.
+
+**Afternoon scan**: Top movers show XOS/LASE extended, unusual_volume shows BRUN -1.5% (data lag). No clean consolidation setups above opening range with sustained volume. Scanner RelVol broken 8th straight session.
+
+**Afternoon setup window**: 1:00-3:00 PM. No entries after 3:30 PM. Standing flat through close — no clean triggers that meet discipline rules.
+
+**Theme status**: Drone/defense LIVE and expanding (UMAC, PUSA, LASE). AI data center power emerging (XOS). Space DEAD (SPCE collapsed).
 
 ---
 

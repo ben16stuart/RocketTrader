@@ -5,6 +5,35 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 
 ---
 
+## 2026-06-03 — Market Close
+
+**Decision: CLOSED FLAT. Cash $100,000. No positions overnight.**
+
+**P&L**: $0 today (no positions, no trades). Rocket 0% since inception vs SPY +6.48%.
+
+**Position review**: No positions to manage.
+
+**Daily stats**:
+- SPY today: -0.64%
+- Rocket today: 0% (flat)
+- Rocket vs SPY since inception (4/20): -6.48%
+
+**Watchlist resolution**:
+- **XOS** — +172% on AI data center power hub launch + Air Force demo. Major catalyst but 8.6x chase limit. Added to Thur watchlist for pullback to $5.50-6.00 consolidation zone.
+- **LASE** — +47.9% on Army anti-drone system selection. Defense catalyst but extended + barely above $3 floor. Watch for consolidation above $3.50.
+
+**Tomorrow's watchlist (6/4)**:
+- **XOS** ($5.50-6.00 pullback zone) — AI data center power hub + Air Force defense demo
+- **LASE** (watch for consolidation above $3.50) — Army anti-drone system selection
+
+**Theme update**: AI data center power theme emerging (XOS). Drone/defense theme volatile. Space theme dead (SPCE collapsed).
+
+**Conviction**: MEDIUM — Fresh catalysts exist (XOS major), waiting for pullback entries. Discipline applied.
+
+**Discipline**: 13th consecutive flat session. Found major catalysts (XOS +172%, LASE +47.9%) but both violated chase rules. Added to watchlist for proper entries. Pattern recognition working — patience over FOMO.
+
+---
+
 ## 2026-06-03 — Market Open
 
 **Decision: STAND FLAT. Cash $100,000. No positions.**
@@ -27,6 +56,30 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 **Triggers for midday**: Monitor for fresh catalysts with volume confirmation. Will check at 12:00 PM ET.
 
 **Discipline**: 13th consecutive flat session. Entry discipline applied correctly. Pentagon drone theme (UMAC/PUSA) collapsed on the open after yesterday's parabolic moves.
+
+---
+
+## 2026-06-03 — Midday Check (1:00 PM)
+
+**Decision: STAND FLAT through afternoon. Cash $100,000. No positions.**
+
+**P&L**: $0 today (no positions, no trades). Rocket 0% since inception.
+
+**Morning watchlist resolution**:
+- **UMAC/PUSA**: Both collapsed at open (UMAC +100% gap then sold off, PUSA -29.5% gap down). Pentagon catalyst real but tape failed. Correct skip at open.
+- **ELMT/BRUN/AGPU**: Extended or no volume confirmation. No clean entries.
+
+**NEW midday catalysts found**:
+- **XOS** (+172%, $6.07, mcap $73M): MAJOR fresh catalyst — 2.5MWh Power Hub for AI data centers (grid-independent power) + U.S. Air Force defense demo. AI data center power = top theme. BUT: +172% = 8.6x chase limit. ADDED to watchlist for pullback. Watch for $5.50-6.00 consolidation tomorrow.
+- **LASE** (+47.9%, $3.58, mcap $138M): U.S. Dept of War anti-drone system selection + U.S. Army depot pilot. Defense theme. BUT: +47.9% extended, $3.58 barely above $3 floor, weak fundamentals. WATCH ONLY for consolidation above $3.50.
+
+**Afternoon scan**: No consolidation setups above opening range with volume. Scanner RelVol broken 8th session. Standing flat through close.
+
+**Theme update**: Drone/defense theme LIVE but volatile (UMAC/PUSA collapsed, LASE emerged). AI data center power theme emerging (XOS). Space theme DEAD (SPCE collapsed).
+
+**Discipline**: 13th consecutive flat session. Found two major catalysts (XOS, LASE) but both violate chase rules. Added to watchlist for pullback entries. Patience over FOMO.
+
+**Triggers for market_close**: Update watchlist with XOS/LASE pullback targets. Monitor theme rotation.
 
 ---
 

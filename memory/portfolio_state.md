@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-06-03 13:38 UTC
+**Last Updated**: 2026-06-03 19:58 UTC
 **Account**: Alpaca Paper Trading
 
 ---
@@ -14,8 +14,8 @@
 | Invested | $0.00 |
 | Unrealized P&L | $+0.00 |
 | Bull return since inception | +900.00% |
-| SPY return since inception | +6.93% |
-| Bull vs SPY | +893.07% |
+| SPY return since inception | +6.50% |
+| Bull vs SPY | +893.50% |
 
 **Inception Date**: 2026-04-20
 
