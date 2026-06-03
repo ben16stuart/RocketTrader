@@ -4,6 +4,86 @@ Updated by pre-market and midday sessions.
 
 ---
 
+## 9:35 AM Pre-Open Watchlist — 2026-06-03 Wednesday
+
+Account: $100,000 cash, 0 positions, 0 trades ever. **13th flat session.**
+**Macro: risk-on.** VIX ~15.3–16.0 (low), futures green (ES +0.31%, NQ +0.23%). Favorable for small-cap risk. Minor premarket biotech safety scares (ABVX −29%, JZ −43%) — sector-specific, not tape-wide.
+**THEME ROTATION:** SPACE is COLLAPSING (SPCE −39% to $4.59, sell-the-news starting EARLY ahead of June 12 SpaceX IPO). The drone/defense theme is now the live, confirmed catalyst. **Dominant theme = Pentagon "Drone Dominance" $1B Phase II program** — UMAC and PUSA both tied to partner Powerus qualifying for Phase II. Hard government catalyst.
+**Scanner: RelVol broken 8th straight session.** No overlap between top_movers and unusual_volume this session. Use scanner as universe filter only.
+**Discipline note:** Leaders (UMAC, PUSA) are extended after multi-day runs. NO market-on-open chases. Second-day continuation (open within 10% of prior close + 9:45–9:50 base on volume >1.5x) or pullback entries ONLY.
+
+### Carryover resolution:
+- **REPL** — OFF both scanners, volume fully faded. FDA catalyst real but tape never confirmed. **DROP** until it reappears on volume.
+- **SPCE** — COLLAPSED −39% to $4.59. Space theme reversing into the IPO. Correct skip. AVOID.
+- **ELMT** — Pulled back to $21.93 (−5.68%). Catalyst intact. Now a pullback watch (see #3).
+- **BRUN** — −6.3% to $36.74, on unusual volume (selling). AI-GPU catalyst real but momentum broken. WATCH for base (see #5).
+
+### Skip list (today):
+- **QMCO** (+19.5%, $12.54): Catalyst is a $100M private placement (10.6M shares @ $9.42, June 1) to repay debt + convertible conversion = **DILUTION**. Skip per standing dilution rule.
+- **CUE** (+18.9%, $28.62): Catalyst is a Jefferies conference presentation TODAY (soft) + $30M April PIPE overhang = dilution. SKIP — conference ≠ hard catalyst.
+- **FJET** (−8.9%): Dilution + ex-CEO lawsuit. AVOID.
+- **APPS** (−8.1%): Faded. DROP.
+- **ASTC** (+28.5%, $45.50), **KULR** (+13.7%): No verified fresh catalyst, multi-day extended/speculative. SKIP.
+
+---
+
+## 1. UMAC — Pentagon "Drone Dominance" Phase II (Powerus) — Live Theme Leader
+- Catalyst: Partner Powerus selected to compete in Phase II of Pentagon's **$1B Drone Dominance Program** (MatrixFold platform). UMAC explicitly named in WSJ report on Trump-admin direct funding (debt+equity stakes) to domestic drone makers. Presenting at Stifel conference June 2–3 (live this session). Confirmed, hard government catalyst.
+- Market cap: $1.60B (in-universe but near $2B ceiling — ~20% headroom) | Price: $33.42 (6/2 close, +15.7%) | Float: low | NYSE American
+- Entry plan: NO CHASE — multi-day runner, extended from $26–31 zone. Second-day continuation: open within 10% of $33.42 ($30.08–36.76) + 9:45–9:50 base hold on volume >1.5x. Entry ref $32.
+- Stop: $29.76 (7% below $32)
+- Target: 1st 1/3 +15% ~$36.80, 2nd 1/3 +25% ~$40.00, trail final 1/3
+- Conviction: **MEDIUM-HIGH** — catalyst is HIGH (hard Pentagon program), but extension after multi-day run is the enemy. Watch mcap ceiling.
+- Risk: Extended/chase risk. mcap near $2B ceiling (skip if >$1.9B at entry). Drone theme could cool. Volume must confirm (>1.5x) — RelVol broken, verify independently.
+
+## 2. PUSA — Direct Powerus Merger / Drone Dominance Play (Low Float)
+- Catalyst: Aureus Greenway plans to merge with **Powerus** — the exact entity that qualified for Phase II of the $1B Pentagon Drone Dominance Program (MatrixFold attack drone). PUSA is the most direct small-cap Powerus play. Same confirmed catalyst as UMAC.
+- Market cap: ~$138M | Price: $6.40 (6/2 close, +33.9%; intraday high $6.50) | Float: low (true micro/small) | NASDAQ
+- Entry plan: NO CHASE (+33.9%). Second-day base only — open within 10% of $6.40 ($5.76–7.04) + 9:45–9:50 consolidation on volume >1.5x. Entry ref $6.40.
+- Stop: $5.95 (7% below $6.40)
+- Target: 1st 1/3 +15% ~$7.36, 2nd 1/3 +25% ~$8.00, trail final 1/3
+- Conviction: **MEDIUM** — real, fresh catalyst + low float = explosive, BUT merger is PENDING (deal/dilution risk) and +33.9% same-day = chase. Size small (0.75–1% risk) if entered.
+- Risk: Merger not yet closed → reverse-merger/dilution risk. Micro-cap = wide spreads, halt risk. Verify price >$3 and spread before sizing. Could be a one-day pop.
+
+## 3. ELMT — Q1 Beat + Record Backlog (Defense/Critical Materials) — Pullback Watch
+- Catalyst: Q1 rev +20.7% to $56M, adj EBITDA doubled, EPS $0.24 vs $0.10 yr-ago, **record backlog $113.3M** (aerospace/defense/gov + tungsten). Critical-materials reshoring. Recent IPO = low float. Microwave Techniques subsidiary just licensed ARC Sentry tech.
+- Market cap: ~$580M | Price: $21.93 (−5.68%) | Float: low (recent IPO) | NASDAQ
+- Entry plan: Missed the $19.50–20 base 6/2 (ran to $21+). Now watch for pullback to $20–21 consolidation that holds on volume. Entry ref $20.50. Do NOT chase back above $22.
+- Stop: $19.07 (7% below $20.50)
+- Target: 1st 1/3 +15% ~$23.58, 2nd 1/3 +25% ~$25.63, trail final 1/3
+- Conviction: **MEDIUM** — cleanest fundamental catalyst on the board, but needs a clean pullback entry. Next earnings Sep 2 (catalyst aging).
+- Risk: Already pulling back — could keep fading. Recent IPO = limited history. Defense theme cooling risk.
+
+## 4. AGPU — Axe Compute AI Contract Momentum — WATCH ONLY
+- Catalyst: $260M compute contract (April) + ~$12M executed agreements last 30 days (~$835k/mo income on deployment). AI compute/GPUaaS theme. +20.7% to $8.76.
+- Market cap: ~$91M | Price: $8.76 | Float: low | NASDAQ
+- Entry plan: WATCH ONLY. Major contract is aging (April); recent deals small. Only consider on a clean base above $8.50 with volume >2x. Entry ref $8.50.
+- Stop: $7.91 (7% below $8.50)
+- Target: +15% / +25% from entry
+- Conviction: **MEDIUM-LOW / WATCH** — tiny mcap, catalyst partly aged, speculative AI-compute name.
+- Risk: Micro-cap, thin liquidity, catalyst aging. Could be retail-driven pop.
+
+## 5. BRUN — $472M GPU Deal + Analyst PTs (AI Infra) — WATCH for Base
+- Catalyst: $471.7M Boost Run Service Agreement (5,000 NVIDIA B300 GPUs) + DA Davidson PT $45 + Craig-Hallum Buy $30. $940M contracted revenue. GPUaaS theme.
+- Market cap: ~$635M | Price: $36.74 (−6.3%, on unusual volume = selling) | Float: moderate | NASDAQ
+- Entry plan: WATCH ONLY — momentum broken (pulling back on volume). Only re-engage on reclaim and hold above $38 on volume >1.5x. Entry ref $38.
+- Stop: $35.34 (7% below $38)
+- Target: 1st 1/3 +15% ~$43.70, 2nd 1/3 +25% ~$47.50, trail final 1/3
+- Conviction: **WATCH** — strong contract but the move is rolling over. No entry until it bases and reclaims.
+- Risk: Catalyst aging (deal was May); selling on volume = distribution risk. AI-infra names volatile.
+
+---
+
+## Execution Notes — 2026-06-03 Wednesday Open
+- Cash: $100,000 | Positions: 0 / 4 | Trades this week: 0 / 5
+- Macro risk-on (VIX ~15.5, futures green) = full 1.5% risk sizing OK. Max position $15,000 (15% cap). PUSA size smaller (0.75–1%) due to merger/micro-cap risk.
+- **Top 2 for 9:35**: **UMAC** (live theme leader, hard Pentagon catalyst) + **PUSA** (direct Powerus low-float play). Both on second-day/pullback framework — NO open chase.
+- THEME: Drone/defense is live; SPACE is dead (sell-the-news started early). AVOID all space names (SPCE, MNTS, FJET).
+- Volume >1.5x avg + clean 9:45–9:50 base required to act. RelVol broken — verify volume independently.
+- If no clean trigger with volume by 10:00 AM → stand flat. But per lessons: a confirmed Pentagon catalyst with a clean second-day base IS actionable — be ready to ACT, not just admire. 13 flat sessions; entry discipline ≠ permanent paralysis.
+
+---
+
 ## 12:00 PM Midday Check — 2026-06-02 Tuesday
 
 **Decision: STAND FLAT through afternoon. No positions. Cash $100,000.**

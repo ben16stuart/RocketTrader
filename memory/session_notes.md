@@ -5,6 +5,31 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 
 ---
 
+## 2026-06-03 — Market Open
+
+**Decision: STAND FLAT. Cash $100,000. No positions.**
+
+**P&L**: $0 today (no positions, no trades). Rocket 0% since inception vs SPY +6.93%.
+
+**Position review**: No positions to manage.
+
+**Watchlist validation (9:40 AM)**:
+- **UMAC** ($30.30, -9.3%, vol 0.1x): Gapped +100% overnight to $30.30 from $15.10 close, then sold off. Too extended + no volume. SKIP.
+- **PUSA** ($6.13, -4.3%, vol 0.1x): Collapsed -29.5% gap DOWN from $8.69 close. Catalyst broken. SKIP.
+- **ELMT** ($20.31, -8.1%, vol 0.1x): Gapped down -7.4% from $21.93 close, breakdown not pullback. SKIP.
+- **VSQR**: Delisted/no data. SKIP.
+- **BRUN** ($36.47, -0.7%, vol 0.1x): Market cap $2.24B above $2B ceiling + no volume. Universe violation. SKIP.
+
+**Fresh scanners**: unusual_volume broken (9th session), top_movers no results, breakouts no results. Zero small cap momentum.
+
+**Why correct**: 5 pre-market ideas all invalidated (extended/broken/delisted/above size limit). Scanners showing zero setups. No valid catalysts with proper entries meeting the 5-step check. This is NOT being too conservative — there are genuinely no setups that pass guardrails. Standing rule applied: "No catalyst = no trade."
+
+**Triggers for midday**: Monitor for fresh catalysts with volume confirmation. Will check at 12:00 PM ET.
+
+**Discipline**: 13th consecutive flat session. Entry discipline applied correctly. Pentagon drone theme (UMAC/PUSA) collapsed on the open after yesterday's parabolic moves.
+
+---
+
 ## 2026-06-02 — Market Close
 
 **Decision: CLOSED FLAT. Cash $100,000. No positions overnight.**

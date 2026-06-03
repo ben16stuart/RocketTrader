@@ -1,6 +1,41 @@
 # Rocket Market Context
 
-Last updated: 2026-06-02 (Tuesday pre-open)
+Last updated: 2026-06-03 (Wednesday pre-open)
+
+---
+
+## Snapshot — 2026-06-03 Wednesday Pre-Open
+
+### Macro (risk-on)
+- VIX: **~15.3–16.0** (low, well below 25 threshold) — full 1.5% sizing OK
+- Futures green: ES +0.31%, NQ +0.23%
+- Premarket biotech safety scares: ABVX −29% (Phase 3 cancer cases), JZ −43% — sector-specific noise, not tape-wide risk-off
+- **Posture: Risk-on / favorable.** Discipline = second-day/pullback entries only (leaders extended).
+
+### THEME ROTATION (key change)
+- **SPACE theme is COLLAPSING.** SPCE −39% to $4.59. Sell-the-news has started EARLY, ~9 days ahead of the June 12 SpaceX IPO. The "sector runs into IPO" trade has flipped to "sell the run-up." **AVOID all space names** (SPCE, MNTS, FJET) — do NOT try to catch the falling knife.
+- **DRONE / DEFENSE is now the live theme.** Pentagon **"Drone Dominance" $1B Phase II program** is the hard, confirmed catalyst. Partner **Powerus** qualified for Phase II (MatrixFold drone) → drives both **UMAC** (named WSJ funding recipient) and **PUSA** (Aureus Greenway, merging with Powerus). Trump-admin direct funding (debt+equity stakes) to domestic drone makers still in play.
+
+### Active Themes
+- **Drone / defense funding**: UMAC, PUSA (Powerus Phase II) — LIVE LEADER
+- **Defense / critical-materials reshoring**: ELMT (tungsten, aerospace backlog) — pulling back, watch
+- **AI infrastructure / GPUaaS**: BRUN (rolling over), AGPU (tiny, speculative)
+
+### Dead / Faded
+- **SPACE (SPCE/MNTS)**: collapsing into the June 12 IPO. Sell-the-news in progress.
+- **REPL**: FDA catalyst real but volume fully faded, off scanners. Dropped.
+- **APPS, DXYZ**: faded.
+
+### Dilution / Legal Overhangs to AVOID
+- **QMCO**: $100M private placement (June 1) + convertible conversion = dilution
+- **CUE**: $30M April PIPE + warrants overhang (conference presentation today = soft catalyst)
+- **FJET**: $17.5M raise + ex-CEO lawsuit
+- **AIRJ**: $15M registered direct offering (~June 1)
+
+### Intraday Triggers to Watch
+- VIX >22: pause new entries; >25 no new longs
+- Required to act: volume >1.5x avg + clean 9:45–9:50 base (no open chases). RelVol broken 8th session — verify volume independently.
+- Drone theme: watch for sector follow-through vs. one-day-pop fade on UMAC/PUSA
 
 ---
 
