@@ -4,6 +4,79 @@ Updated by pre-market and midday sessions.
 
 ---
 
+## 4:00 PM Market Close — 2026-06-04 Thursday
+
+**Session result**: Flat. $100,000 cash, 0 positions. 14th consecutive flat session.
+
+**Watchlist resolution**:
+- **XOS** closed $5.40 (−11% from $6.07 prior close) — Pulled back INTO target entry zone ($5.30-5.60). AI data center power hub + Air Force defense demo catalyst remains intact. This is the consolidation setup anticipated yesterday. Carry to Friday for entry if volume confirms.
+- **LASE** closed $3.61 (+0.8% from $3.58) — Holding flat above $3.50. Army anti-drone catalyst intact but price action weak, no volume confirmation. Watch only.
+- **ALOY, FATN** — No intraday setups developed. Drop from Friday watchlist.
+
+**Friday 6/5 watchlist** (next session):
+- **XOS** ($5.40, entry zone $5.30-5.60) — AI data center power catalyst intact, pullback complete, needs volume >1.5x avg at open
+- **LASE** (watch only if >$3.50) — Weak volume, wait for confirmation
+
+---
+
+## 9:35 AM Pre-Open Watchlist — 2026-06-04 Thursday
+
+Account: $100,000 cash, 0 positions, 0 trades ever. **14th flat session.**
+**Macro: risk-on.** VIX ~17.65 (low, <25), futures green (ES +0.32%, NQ +0.61%). Full 1.5% sizing OK. Favorable for small-cap risk.
+**Scanner: RelVol broken again (10th+ session).** No overlap between top_movers and unusual_volume. Use as universe filter only — verify volume independently.
+**Dominant setup = XOS day-2 continuation.** AI data center power theme is now the live, fundamentally-backed catalyst (not a pump). Drone/defense theme volatile (UMAC/PUSA collapsed, LASE faded). Rare-earth reshoring emerging (ALOY).
+**Discipline note:** XOS is a 2-day parabolic (+172% → +204%). Premarket +234% at $7.46 is OUTSIDE the second-day "within 10% of prior close" zone ($6.07 close). NO open chase. Base entry ONLY.
+
+### Ranked Trade Ideas
+
+## 1:00 PM Midday Scanner Review — 2026-06-04
+
+Ran `smallcap_scanner.py unusual_volume` for afternoon setup scan. Scanner RelVol broken again (all "—"). Top movers:
+
+**LODE +15.8%** (344M mcap, Basic Materials):
+- Catalyst: Insider buying June 3 (CEO bought 10,682 shares; director entity bought 360K shares at $3.93-$4.14)
+- Analysis: Valid catalyst, but already extended +15.8% intraday. Same-day fresh-catalyst chase rule applies.
+- Action: SKIP — would need pullback/consolidation for next-day entry. Insider buying is slower catalyst (not explosive).
+
+**PSNL +15.3%** (1.30B mcap): No fresh June 4 catalyst (ASCO presentation = scheduled event). SKIP.
+**DNA +15.2%** (657M mcap): No fresh catalyst. SKIP.
+**SPCE +10.9%** (479M mcap): Bounce after dilution crash. "Traded like a meme with 30-40% swings from WallStreetBets." HARD SKIP.
+
+**Decision: No afternoon entries.** All movers extended without valid same-day setups. Discipline held.
+
+---
+
+## XOS — Day-2 continuation of 2.5MWh Power Hub AI-data-center launch
+- Catalyst: June 2 launch of 2.5MWh Power Hub series (grid-independent power for AI data centers, ships in days vs 3-7yr grid interconnect) + U.S. Air Force defense demo + record Q1 (38.6% gross margins, tripled deliveries, guidance intact). FUNDAMENTALLY backed re-rating, not a pump.
+- Market cap: ~$90M | Float: low (micro-float, moves violently) | Short float: unknown — flag for squeeze
+- Entry plan: NO open chase. Prior close $6.07; premarket $7.46 (+23%, outside 10% second-day zone). Two valid entries ONLY: (a) pullback toward $6.10–6.70 that bases on volume, OR (b) tight 9:45–9:50 consolidation holding above the opening range on vol >1.5x (gap-and-go base). If it just goes vertical at open, STAND DOWN.
+- Stop: 7% below actual entry (e.g. entry $6.50 → stop $6.05)
+- Target: +15% / +25% scale-out; let final 1/3 ride trail
+- Conviction: MEDIUM-HIGH on catalyst quality; entry is everything. $90M mcap = large runway if it holds a base.
+- Risk: 2-day vertical = blow-off-top risk. Micro-float = halt risk + violent reversals. Could gap-and-crap. Discipline: a real base or nothing.
+
+## ALOY — Rare-earth reshoring + Russell 3000 inclusion
+- Catalyst: Russell 3000 inclusion effective June 29 (announced June 1, index-buying tailwind) + rare-earth offtake deal w/ Critical Metals (Tanbreez/Greenland) + Ramaco MOU (US magnet supply chain). Critical-materials reshoring theme.
+- Market cap: ~$844M | Float: n/a | Short float: n/a
+- Entry plan: $13.80 premarket, +18.6%. No fresh same-day catalyst — momentum/theme + index anticipation. Watch for a clean base above opening range on vol >1.5x. Do NOT chase.
+- Stop: 7% below entry
+- Target: +15% / +25% scale-out
+- Conviction: MEDIUM. Theme is real but no fresh trigger today; index buy is 3+ weeks out.
+- Risk: Move is theme-momentum without a fresh catalyst; could fade. Rare-earth names whipsaw on policy headlines.
+
+## FATN — WATCH ONLY (stale catalyst)
+- Catalyst: TD SYNNEX SD-WAN global distribution deal — but dated April 30, 2026 (>1 month stale). Q4 report May 18. +21.9% at $7.92 today with NO fresh June 4 catalyst found.
+- Verdict: WATCH ONLY. Stale-catalyst rule applies. Only consider if fresh news surfaces intraday. Otherwise skip.
+
+### Skip list (today):
+- **CING** (+21% scanner bounce, ~$3.65–4.88): FDA Complete Response Letter June 2 = drug NOT approved (rejection). The pop is a dead-cat bounce off bad news. NEGATIVE catalyst. AVOID — do not buy a bounce off an FDA rejection.
+- **QMCO** (+27.2%, $15.95): $100M private placement + convertible conversion = DILUTION. Skip per standing rule.
+- **LASE** ($3.13, faded from $3.58): Day-2 fade, barely above $3 floor, momentum broken. Skip.
+- **BRUN** ($38.10): mcap reading inconsistent ($658M scanner vs $2.24B yesterday) + momentum rolling over. Skip pending size verification.
+- **NNE** (-13.7%), **ARDT** (-15.5%), **TTI** (-10.6%), **APPN** (-9.8%): on unusual volume but SELLING. Not long setups.
+
+---
+
 ## 9:35 AM Pre-Open Watchlist — 2026-06-03 Wednesday
 
 Account: $100,000 cash, 0 positions, 0 trades ever. **13th flat session.**

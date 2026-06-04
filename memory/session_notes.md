@@ -5,6 +5,35 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 
 ---
 
+## 2026-06-04 — Market Close
+
+**Decision: CLOSED FLAT. Cash $100,000. No positions overnight.**
+
+**P&L**: $0 today (no positions, no trades). Rocket 0% since inception vs SPY +6.86%.
+
+**Position review**: No positions to manage.
+
+**Daily stats**:
+- SPY today: +0.41%
+- Rocket today: 0% (flat)
+- Rocket vs SPY since inception (4/20): -6.86%
+
+**Watchlist resolution**:
+- **XOS** ($5.40, -11% from $6.07 yesterday): Pulled back into target zone ($5.50-6.00). AI data center power hub + Air Force defense demo catalyst intact. This is the consolidation setup anticipated. Add to Friday watchlist for entry if volume confirms (>1.5x avg).
+- **LASE** ($3.61, +0.8% from $3.58 yesterday): Holding flat above $3.50 consolidation level. Army anti-drone system catalyst still intact but price action weak. Watch for volume confirmation if attempting entry.
+
+**Tomorrow's watchlist (6/5)**:
+- **XOS** ($5.40, entry zone $5.30-5.60) — AI data center power hub + Air Force demo, needs volume >1.5x avg
+- **LASE** (watch only above $3.50) — Army anti-drone system, weak volume
+
+**Theme update**: AI data center power theme (XOS) providing first pullback entry opportunity. Drone/defense theme mixed (LASE flat, UMAC/PUSA collapsed earlier this week).
+
+**Conviction**: MEDIUM — XOS pullback is exactly the setup anticipated. Need volume confirmation at open.
+
+**Discipline**: 14th consecutive flat session. Watchlist working correctly — XOS identified at +172%, now pulled back -11% to entry zone. Patience paying off. Pattern recognition: wait for pullback, enter on volume confirmation.
+
+---
+
 ## 2026-06-03 — Market Close
 
 **Decision: CLOSED FLAT. Cash $100,000. No positions overnight.**
