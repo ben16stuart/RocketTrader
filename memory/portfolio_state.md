@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-06-04 19:58 UTC
+**Last Updated**: 2026-06-05 19:58 UTC
 **Account**: Alpaca Paper Trading
 
 ---
@@ -9,13 +9,13 @@
 
 | Metric | Value |
 |--------|-------|
-| Account Value | $100,000.00 |
-| Cash Available | $100,000.00 |
+| Account Value | $100,033.40 |
+| Cash Available | $100,033.40 |
 | Invested | $0.00 |
 | Unrealized P&L | $+0.00 |
-| Bull return since inception | +900.00% |
-| SPY return since inception | +6.85% |
-| Bull vs SPY | +893.15% |
+| Bull return since inception | +900.33% |
+| SPY return since inception | +4.23% |
+| Bull vs SPY | +896.10% |
 
 **Inception Date**: 2026-04-20
 

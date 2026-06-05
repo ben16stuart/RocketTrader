@@ -4,6 +4,71 @@ Updated by pre-market and midday sessions.
 
 ---
 
+## 9:50 AM Market Open Execution — 2026-06-05 Friday
+
+**🚀 ROCKET'S FIRST TRADE: MRLN @ $8.88**
+
+**Pre-market watchlist results (9:46 AM check):**
+- **VERU**: SKIPPED — volume failed (0.3x vs >1.5x required), pulling back to $3.95
+- **TLYS**: SKIPPED — volume failed (0.1x), pulling back to $5.04
+- **XOS**: WATCH ONLY per pre-market downgrade (dilution closing today)
+
+**EXECUTED: MRLN — USSOCOM C-130J Autonomy CDR (fresh scanner find)**
+- **Entry**: 1,670 shares @ $8.88 (9:48 AM)
+- **Catalyst**: June 4 after-hours announcement of Critical Design Review completion for C-130J autonomy program with U.S. Special Operations Command. $100M+ IDIQ contract ceiling. Major defense milestone advancing from design to aircraft integration.
+- **Setup**: Second-day continuation. Gapped +32.71% after-hours to $9.49 → trading $8.98 (+25.1%) with 2.4x avg volume. Entry zone $8.54-$10.44 (within 10% of after-hours close per second-day rule).
+- **Technical**: Aerospace & Defense, $867M mcap, 28.6M float, 0% short interest, analyst PT $13 (strong_buy)
+- **Position**: $14,830 (14.8% of account), 7% trailing stop active (~$8.26)
+- **Targets**: +15% ($10.21), +25% ($11.10), trail final 1/3
+- **Conviction**: MEDIUM-HIGH — real defense catalyst, volume confirmed, second-day entry disciplined
+
+**Account update**: $99,733 total ($85,170 cash, $14,830 invested). Rocket 1/4 positions, 1/3 weekly trades.
+
+---
+
+## 9:35 AM Pre-Open Watchlist — 2026-06-05 Friday
+
+Account: $100,000 cash, 0 positions, 0 trades ever. **15th flat session.**
+**MACRO — KEY RISK TODAY: May jobs report (nonfarm payrolls) drops 8:30 AM ET** (consensus ~125K, unemp ~4.3%). Major whipsaw risk for the tape — small caps amplify market direction. Wait for the open reaction; NO opening chases until tape settles. VIX ~16–17.4 (low, risk-on, full sizing OK absent a jobs shock).
+**Scanner: RelVol broken again (11th+ session).** Only overlap between top_movers and unusual_volume = SPCE/ARDT (both known fades/memes — ignore). Verify volume independently.
+**Theme read:** AI-data-center power still live (XOS) but XOS now has a fresh dilution overhang. Real fresh catalysts this session = VERU (big-pharma partnership) and TLYS (earnings beat). Lots of pump/dilution traps on the movers list (STI, INDP, MNTS, SPCE) — discipline required.
+
+### Ranked Trade Ideas
+
+## 1. VERU — Novo Nordisk Wegovy partnership for Phase 2b obesity trial
+- Catalyst: June 2 clinical supply agreement with **Novo Nordisk** — Novo supplies Wegovy free for the PLATEAU Phase 2b trial (enobosarm + semaglutide in older obese adults) AND gets first negotiation rights on future enobosarm-GLP-1 commercial opportunities. Big-pharma validation of a $68M micro-cap. REAL, high-quality catalyst.
+- Market cap: ~$68M | Float: small | Short float: unknown — flag for squeeze | NASDAQ
+- Entry plan: NO open chase. Prior close $4.23 (+88% day; intraday high $7.04). Gapped >25% on real catalyst + closed strong (from $2.25) → second-day rule applies. Entry zone within 10% of $4.23 = **$3.81–4.65**, ONLY on a clean 9:45–9:50 base holding above the opening range on vol >1.5x. Reference entry ~$4.30.
+- Stop: 7% below actual entry (e.g. $4.30 → $4.00)
+- Target: +15% (~$4.95) / +25% (~$5.40) scale-out; trail final 1/3
+- Conviction: **MEDIUM-HIGH** on catalyst quality; entry discipline is everything. Micro-cap = violent.
+- Risk: Interim trial readout not until Q1 2027 (catalyst is the partnership/validation, not data). +88%/+167% extended = blow-off risk. Micro-cap = wide spreads, halt risk. Jobs-report whipsaw could override the setup.
+
+## 2. TLYS — Q1 2026 earnings beat + raised guidance (day-3 continuation)
+- Catalyst: June 3 Q1 beat — sales +15.9% YoY to $124.7M, comps +22.9% (stores AND e-comm >20%), 6th straight quarter of margin improvement, next-Q guidance $157M (3.8% above est). Stock jumped +24.5% on the print. Real retail-turnaround earnings catalyst.
+- Market cap: ~$122M | Price: $5.27 (+18.7% on scanner) | NYSE
+- Entry plan: NO chase. Now day-3 post-catalyst — wants a pullback or tight base, not a fresh extension. Watch for a base above the opening range on vol >1.5x. Reference entry ~$5.30.
+- Stop: 7% below entry (~$4.93)
+- Target: +15% (~$6.10) / +25% (~$6.63) scale-out; trail final 1/3
+- Conviction: **MEDIUM** — fundamentals genuinely strong, but 2 days post-catalyst = momentum may be late. Only act on a clean base, not a chase.
+- Risk: Late-stage continuation; could be the blow-off day. Retail is macro-sensitive — a weak jobs print could hit it.
+
+## 3. XOS — WATCH ONLY (catalyst real but fresh dilution overhang)
+- Catalyst: June 2 2.5MWh Power Hub launch (grid-independent power for AI data centers) + record Q1 — REAL re-rating. BUT company priced a **$6M direct equity offering at $5.50/share, closing ~June 5 (TODAY)**; stock fell −28% Thursday on the dilution. Closed ~$5.40.
+- Verdict: **Downgrade from primary to WATCH ONLY.** The offering price ($5.50) caps near-term upside and dilution is a standing-rule headwind. Was my lead idea — the dilution closing today changes the thesis. Only reconsider if it reclaims $5.50+ on heavy volume AFTER the offering clears. Do not lead with it.
+
+## 4. LASE — WATCH ONLY (Army anti-drone, weak volume)
+- $3.62 (+15.7% scanner), barely above $3 floor. U.S. Army anti-drone selection catalyst intact but price action weak, no volume confirmation across multiple sessions. Watch only; need volume >1.5x to even consider.
+
+### Skip / AVOID list (today):
+- **STI** (+350%, $22.71): Space battery (Gen-ECB) announcement, but **going-concern doubt + defaulted promissory note + Nasdaq compliance issue + only $85K Q1 revenue + no named contract**. Classic pump on optionality. HARD AVOID.
+- **INDP** (+114%, ~$3.29–4.75): No clear fresh catalyst; convertible notes mature July 28 + reverse-split risk + exec turnover. Dilution/reverse-split pump. AVOID.
+- **MNTS** (+20.4%), **SPCE** (+10%), **FJET** (+9.5%): Space names — collapsing/meme post-SpaceX-IPO. AVOID.
+- **HYLN** (+18%, $1.36B): near $2B ceiling; no verified fresh catalyst. SKIP.
+- **BNAI, QTTB, ASTI, AMPG**: on movers but no verified fresh catalyst. SKIP unless news surfaces.
+
+---
+
 ## 4:00 PM Market Close — 2026-06-04 Thursday
 
 **Session result**: Flat. $100,000 cash, 0 positions. 14th consecutive flat session.

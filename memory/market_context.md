@@ -1,6 +1,61 @@
 # Rocket Market Context
 
-Last updated: 2026-06-03 (Wednesday pre-open)
+Last updated: 2026-06-05 (Friday pre-open)
+
+---
+
+## Snapshot — 2026-06-05 Friday Pre-Open
+
+### Macro — JOBS REPORT DAY (key risk)
+- **May nonfarm payrolls release 8:30 AM ET** — consensus ~125K (vs 115K April), unemployment ~4.3%. Major whipsaw catalyst for the whole tape; small caps amplify the reaction.
+- VIX: **~16.0 close / ~17.4 futures** (low, well below 25) — full 1.5% sizing OK absent a jobs shock.
+- **Posture: Risk-on but cautious into the print.** No opening chases until the tape settles post-8:30. A hot/cold number can whip small caps both ways.
+
+### THEME ROTATION
+- **AI DATA CENTER POWER still live but XOS is now compromised** — XOS priced a $6M direct equity offering at $5.50/share closing ~June 5 (TODAY), fell −28% Thursday on the dilution. Catalyst (Power Hub) real but dilution overhang. Watch only.
+- **Big-pharma partnership re-rating: VERU** +88% on Novo Nordisk Wegovy supply deal (enobosarm Phase 2b PLATEAU). Real, strategic catalyst — best fresh setup. Second-day watch.
+- **Retail earnings beat: TLYS** Q1 beat (sales +15.9%, comps +22.9%, raised guidance). Genuine, day-3 continuation watch.
+- **SPACE still dead/meme** — MNTS, SPCE, FJET bouncing on volume but post-SpaceX-IPO collapse; AVOID.
+- **DRONE/DEFENSE fading** — LASE limping at $3.62, weak volume.
+
+### Pump / dilution traps to AVOID
+- **STI** (+350%): going-concern doubt, defaulted note, Nasdaq compliance issue, $85K Q1 revenue, no named contract = pump on optionality. HARD AVOID.
+- **INDP** (+114%): no clear catalyst, convertible notes mature July 28 + reverse-split risk. AVOID.
+- **XOS**: $6M equity offering @ $5.50 closing today = dilution. Watch only.
+
+### Intraday Triggers to Watch
+- 8:30 AM jobs print: wait for the reaction. Big miss/beat → no new longs until tape stabilizes.
+- VIX >22: pause new entries; >25 no new longs.
+- RelVol broken 11th+ session — verify volume independently.
+- Only act on: real fresh catalyst + clean 9:45–9:50 base + vol >1.5x. No open chases.
+
+---
+
+## Snapshot — 2026-06-04 Thursday Pre-Open
+
+### Macro (risk-on)
+- VIX: **~17.65** (low, well below 25) — full 1.5% sizing OK
+- Futures green: ES +0.32%, NQ +0.61%
+- **Posture: Risk-on / favorable.** Discipline = base/second-day entries only; no chasing parabolic opens.
+
+### THEME ROTATION
+- **AI DATA CENTER POWER is the live, fundamentally-backed theme.** XOS day-2 continuation (Power Hub for grid-constrained AI data centers + Air Force demo + record Q1). This is a real product/financial re-rating, NOT a pump. Dominant setup.
+- **RARE-EARTH / CRITICAL-MATERIALS RESHORING emerging.** ALOY (offtake deals + Ramaco MOU + Russell 3000 inclusion June 29). Aligns with prior ELMT tungsten theme.
+- **DRONE/DEFENSE volatile/fading.** UMAC/PUSA collapsed; LASE faded to $3.13. Theme cooling.
+- **SPACE dead** (SPCE $4.29, still bleeding into June 12 SpaceX IPO).
+
+### Negative-catalyst traps to AVOID (do NOT buy the bounce)
+- **CING**: FDA Complete Response Letter June 2 (drug NOT approved). Bounce = dead-cat trap.
+
+### Dilution / Legal Overhangs to AVOID
+- **QMCO**: $100M private placement + convertible conversion = dilution
+- **FATN**: catalyst (TD SYNNEX deal) is stale (April 30); no fresh trigger
+- **AIRJ**: $15M registered direct offering (~June 1)
+
+### Intraday Triggers to Watch
+- VIX >22: pause new entries; >25 no new longs
+- XOS: only a real 9:45–9:50 base above opening range on vol >1.5x is an entry. Vertical open = stand down.
+- RelVol broken 10th+ session — verify volume independently.
 
 ---
 

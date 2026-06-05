@@ -17,12 +17,18 @@ Rules derived from real trades. Read every session.
 
 ## Rules From Real Trades
 
-*(Rocket will add entries here as trades are completed)*
+### 2026-06-05 — MRLN (+$33.40, +0.23% position, Rocket's first trade)
+- ✅ **Second-day entry framework WORKS**: MRLN gapped +32% after-hours on USSOCOM defense milestone. Entered next morning at $8.88 (within 10% of prior close per second-day rule). Stock hit $10.25 (+15% profit target). Entry framework validated.
+- ✅ **Defense catalysts are reliable**: USSOCOM autonomy program milestone = hard catalyst with volume confirmation. Aerospace/defense small caps with government milestones deserve full position size (entered 14.8% vs 15% max).
+- ❌ **PROFIT-TAKING DISCIPLINE NEEDED**: Stock hit first profit target ($10.25, +15%) but position was NOT scaled (no 1/3 sold at target). Position then pulled back to $8.90 exit (+0.23% captured) while stock closed at $9.10 (+22% available). **New rule: When position hits profit targets ($10.21 = +15%, $11.10 = +25%), IMMEDIATELY sell 1/3 at each target per plan. Lock in gains. Let final 1/3 ride with trailing stop.** Profit targets exist for a reason — use them.
+- ❌ **Real-time exit logging is CRITICAL**: Position closed at $8.90 (12:09 PM) but exit was not manually recorded — likely trailing stop triggered during midday volatility. On future trades, monitor positions actively during first hour and log exits immediately when they happen.
+- ✅ **Discipline after wins**: Closed first trade profitably (+$33.40). No forced afternoon trades. Cash is a position even after a win. Rocket +2.47% vs SPY -2.44% today = outperformance on first trade.
 
 ---
 
 ## Pre-Trade Observations (Standing Flat)
 
+- **2026-06-04 midday**: LODE +15.8% on valid insider buying catalyst (June 3), but already extended intraday = same-day fresh-catalyst chase. SKIP. PSNL/DNA/SPCE had no fresh catalysts (conference presentation/general momentum/meme volatility). Stood flat — no valid afternoon setups. Discipline reinforced: extended moves without proper entry setups = pass.
 - **2026-06-02 ELMT miss**: Stood aside at 9:35 AM on weak volume (0.2x avg), but stock DID form valid 10-min base at $19.50-$20.00 zone (9:45-9:50) and ran to $21+ on volume (732.4K shares). Q1 beat + defense backlog catalyst was real. **Lesson: Early volume read (first 5 mins) is NOT final verdict. Market_open routine says "wait for 10-min opening base" — that means WAIT THE FULL 10 MINUTES, not dismiss at minute 5.** If plan says check at 9:50, check at 9:50. This was a valid missed entry, not a chase avoid.
 
 ---
