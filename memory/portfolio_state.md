@@ -1,7 +1,7 @@
 # Portfolio State
 
-**Last Updated**: 2026-06-09 19:58 UTC
-**Account**: Alpaca Paper Trading
+**Last Updated**: 2026-07-22 19:58 UTC
+**Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
 
@@ -9,27 +9,43 @@
 
 | Metric | Value |
 |--------|-------|
-| Account Value | $100,033.10 |
-| Cash Available | $100,033.10 |
-| Invested | $0.00 |
-| Unrealized P&L | $+0.00 |
-| Bull return since inception | +900.33% |
-| SPY return since inception | +3.98% |
-| Bull vs SPY | +896.35% |
+| Shared Account Value (Bull + Rocket) | $10,113.84 |
+| Rocket's Allocated Slice (30%) | $3,034.15 |
+| Cash Available (shared, pooled) | $3,924.51 |
+| Total Invested (both agents) | $6,189.33 |
+| Unrealized P&L (shared) | $+0.00 |
+| Rocket return since rebase | +0.08% |
+| SPY return since rebase | +0.80% |
+| Rocket vs SPY | -0.72% |
 
-**Inception Date**: 2026-04-20
+**Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
+history since 2026-04-20 is preserved in memory/weekly_reviews/)
+
+⚠️ **Cash and buying power above are POOLED with Bull.** Before sizing any
+trade, check actual available cash — do not assume the full allocated slice
+is available if Bull has open positions consuming shared cash.
 
 ---
 
-## Open Positions
+## Open Positions (shared account — yours AND Bull's)
 
-*No open positions.*
+Cross-reference with memory/trade_log.md to identify which positions are Rocket's.
+
+| Symbol | Shares | Entry Price | Current Price | Unrealized P&L | P&L % |
+|--------|--------|-------------|---------------|----------------|-------|
+| JPM | 6 | $313.30 | $348.74 | $+212.64 | +11.3% |
+| KO | 24 | $81.45 | $82.35 | $+21.63 | +1.1% |
+| V | 6 | $323.19 | $353.40 | $+181.23 | +9.3% |
 
 ---
 
 ## Open Orders
 
-*No pending orders.*
+| Order ID | Symbol | Side | Qty | Type | Status |
+|----------|--------|------|-----|------|--------|
+| e2a431b8… | KO | sell | 24 | trailing_stop | new |
+| 7f6b1ef3… | JPM | sell | 6 | trailing_stop | new |
+| 1b52ad54… | V | sell | 6 | trailing_stop | new |
 
 ---
 
