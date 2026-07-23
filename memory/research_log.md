@@ -4,6 +4,74 @@ Updated by pre-market and midday sessions.
 
 ---
 
+## 2026-07-23 Thursday Pre-Market
+
+**Account**: Shared w/ Bull $10,115.31. Rocket slice (30%) $3,034.59. Pooled cash $3,924.51.
+Rocket positions: 0 (JPM/KO/V are Bull's). Rocket vs SPY since 7/20 rebase: -0.63%.
+Guardrails: 0/4 positions, 0/5 trades this week, $0 daily loss.
+
+**Macro — CALM, RISK-ON LEAN**: VIX 16.64 (−2.4% on 7/22), well under 25 → full 1.5%
+sizing technically fine. Q2 2026 earnings season active; ServiceNow beat + diplomacy
+hopes lifting the broad tape. No hostile macro data flagged into the open. Backdrop
+supports small-cap risk, but need a NAMED fresh catalyst — broad beta ≠ setup.
+
+**Overnight scan read**: Scanner data unreliable AGAIN (prices showing $0.00, RelVol
+column all dashes, single-letter symbol artifacts). Treat as a universe filter only —
+volume/price must be independently verified at the open. No stock cleared the
+fresh-catalyst + valid-entry (non-chase, volume-confirmable) bar this morning.
+
+### Candidates checked — NONE actionable today
+
+- **SEPN — Septerna +34%** (biggest mover): GPCR biotech. Catalysts on file are STALE
+  (SEP-631 Phase 1 proof-of-mechanism, Novo Nordisk $195M partnership, SEP-479 Ph1
+  started Apr). No verifiable 7/22–7/23 trigger for a +34% pop; scanner price read
+  $0.00 = suspect (possible glitch). Heavily analyst-covered ($45–53 PTs, 83% Strong
+  Buy) = NOT an overlooked small cap, likely upper/over-universe mcap. Even if the move
+  is real, +34% = CHASE VIOLATION → second-day/pullback only. **WATCH — verify a real
+  fresh catalyst + valid base before any action. Do not chase the spike.**
+- **WOLF — Wolfspeed +28.8%**: Stale catalysts (GE Aerospace SiC MOU Jun 30, Navitas
+  patent suit mid-Jun). Active dilution overhang (S-1 for ~24M shares). Distressed
+  recovery name (off $0.39 52-wk low). 33.4% short float = squeeze fuel, but no FRESH
+  catalyst + dilution rule + chase (+28.8%). **AVOID.**
+- **GTN — Gray Media +4%** (only name in BOTH scan lists): Q2 earnings not until Aug 7.
+  Recent actions stale (Jun 30 $70M senior-notes private placement + $50M preferred
+  repurchase + $50M 6-station acquisition). Modest move, no fresh 7/23 catalyst. **SKIP.**
+- **OFIX — Orthofix**: CMS non-invasive bone-growth-stimulator reimbursement reversal is
+  a real hard catalyst but dated Jul 1 (3 wks stale, +28% MTD continuation). Not fresh.
+  **Monitor only.**
+
+**Decision**: No pre-market entries queued. Lean STAND FLAT into the open. At 9:35–9:50,
+re-verify SEPN for a genuine fresh catalyst + volume-confirmed base ONLY if it pulls back
+into a non-chase zone; otherwise cash. Fresh-catalyst + volume discipline is mandatory
+(ABAT Jun 9 lesson). Cash is a position.
+
+---
+
+## 2026-07-23 — Market Open Execution (9:35 AM ET)
+
+**Portfolio sync**: 0 Rocket positions (JPM is Bull's, KO/V closed — not Rocket trades).
+Cash pooled $7,987.77 available. 0/4 Rocket positions, 0/5 trades this week — full capacity.
+
+**SEPN re-check**: Spike fully faded — now only +0.9% today, volume 23k (0.1x avg vs 417k
+avg). Yesterday's +34% move has evaporated; no valid entry, no volume. **SKIP.**
+
+**Scanner status**: Garbled AGAIN — `unusual_volume` RelVol column all dashes, single-letter
+symbol truncation, several $0.00 prices. Same known issue (see 6/16, 6/20 archives). Treated
+as universe filter only; verified two most-promising `top_movers` names via web search:
+
+- **GBX (Greenbrier) +52%**: Verified NO fresh catalyst — last earnings Jul 1 (guidance
+  narrowed, slightly disappointing), Susquehanna downgrade Jul 2. No news today. **Scanner
+  data error — HARD SKIP.**
+- **PKE (Park Aerospace) +34.2%**: Real catalyst (Q1 FY27 earnings beat + margin expansion,
+  reported Jul 20) but STALE — 2-3 days old, after-hours pop already occurred, scanner is
+  rolling up after-hours/prior-day action as "today." Actual fresh intraday move likely much
+  smaller. Even if fresh, +34.2% = chase violation anyway. **SKIP — watch for pullback.**
+
+**Decision**: STAND FLAT. No fresh, volume-confirmed, non-chase catalyst identified at the
+open. No Rocket trades placed. No notification sent (flat session, no stops triggered).
+
+---
+
 ## 2026-07-20 — Market Open (No Pre-Market Research)
 
 **Scanner Status**: UNRELIABLE DATA TODAY

@@ -1,10 +1,45 @@
 # Rocket Market Context
 
-Last updated: 2026-06-16 (Tuesday pre-open)
+Last updated: 2026-07-23 (Thursday pre-open)
 
 ---
 
-## Snapshot — 2026-06-16 Tuesday Pre-Open
+## Snapshot — 2026-07-23 Thursday Pre-Open
+
+### Account structure (post-merge)
+- Account MERGED with Bull on 2026-07-20 — now SHARED Alpaca paper account.
+- Shared value ~$10,115. Rocket's allocated slice = 30% (~$3,035). Cash POOLED with Bull
+  (~$3,925) — always verify free cash before sizing; Bull's JPM/KO/V positions consume it.
+- Real position sizes are now SMALL (account ~$10k, not the original $100k mandate).
+  15% max position ≈ $455 of Rocket's slice; 1.5% risk ≈ $46. Size accordingly.
+
+### Macro — CALM, RISK-ON LEAN
+- **VIX 16.64** (−2.4% on 7/22) — well under 25. Full 1.5% sizing technically fine.
+- **Risk-on tape**: Q2 2026 earnings season active (ServiceNow beat), diplomacy hopes
+  giving the broad market an early lift. No hostile macro print flagged into today's open.
+- Small caps amplify direction — a firm broad tape is a mild tailwind, but broad beta is
+  NOT a substitute for a named single-stock catalyst.
+
+### THEME READ (7/23 movers)
+- **No clean fresh single-stock small-cap catalyst.** Top movers are either stale
+  continuation, distressed/dilutive names, or scanner glitches.
+- **WATCH (verify only)**: SEPN +34% (GPCR biotech, but catalysts stale + heavily covered
+  + chase); no confirmed 7/23 trigger.
+- **AVOID**: WOLF +28.8% (stale GE MOU Jun 30 + active S-1 dilution + distressed + chase).
+- **SKIP/monitor**: GTN +4% (earnings Aug 7, Jun 30 notes placement stale); OFIX (CMS
+  reversal Jul 1, 3 wks stale continuation).
+
+### Intraday Triggers to Watch
+- VIX >22: pause new entries; >25 no new longs (currently ~16.6, fine).
+- **Scanner data STILL unreliable** — prices reading $0.00, RelVol all dashes, symbol
+  column showing single-letter artifacts. Independently verify price + volume before sizing.
+- No entries on any +20%+ gapper (chase rule) — wait for second-day/pullback base.
+- Dilution rule: skip names with active S-1 / ATM / convertible (WOLF fails this today).
+- Cash is small and pooled — do not over-size; confirm free cash post-Bull first.
+
+---
+
+## ARCHIVED — 2026-06-16 Tuesday Pre-Open
 
 ### Macro — MILD RISK-OFF, FOMC TOMORROW
 - **VIX ~19.2** — calm, well under 25. Full 1.5% sizing technically fine on a real setup.

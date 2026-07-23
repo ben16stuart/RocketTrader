@@ -377,6 +377,30 @@ Friday 6/5 watchlist: XOS ($5.30-5.60 zone, needs volume >1.5x avg), LASE (watch
 
 ---
 
+## 2026-07-23 — Market Close (3:55 PM ET)
+
+**Decision: No action needed. Rocket: 0 open positions, 0 trades today.**
+
+**Account Status**:
+- Shared Account Value (Bull + Rocket): $10,083.69
+- Rocket's Allocated Slice (30%): $3,025.11
+- Cash Available (pooled with Bull): $7,987.77
+- Shared positions: JPM (6 sh, +11.4%) — Bull's, confirmed via prior session notes. Rocket holds none.
+
+**End-of-day review**: No Rocket positions to review or close today.
+
+**Fills logged**: None — no Rocket orders filled today.
+
+**Daily stats**: SPY today -1.21%. Rocket P&L today $0.00 (flat, no positions). Since 7/20 rebase: Rocket -0.22%, SPY -0.51%, Rocket vs SPY +0.29%.
+
+**Process gap still open**: No premarket/midday research logged this week — research_log.md and market_context.md remain stale since 6/16, predating the 7/20 Bull-account merge. CAMP exit backfill (see 7/22 note, lessons_learned.md item 9) still not done. Both are weekly_review follow-ups, not blocking today's close.
+
+**Guardrails status**: 0/4 Rocket positions, 0/5 trades this week, $0 daily loss.
+
+**Next**: Run a proper premarket session before next open — build a real watchlist, refresh market_context.md macro read, and backfill the CAMP exit record.
+
+---
+
 ## Session Archives
 
 Older session notes (2026-05-25 through 2026-06-03) archived to:
