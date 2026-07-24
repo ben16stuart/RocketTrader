@@ -46,3 +46,17 @@ Append-only record of all Rocket trades. Never delete entries.
 - **Position size**: $15,001 (15.0% of account, max position cap)
 - **Risk**: $1,052 (1.05% of account)
 - **Thesis**: Fresh dual-analyst PT raises (JPMorgan and Leerink) on clinical-stage biotech with CMP-002 (SYNGAP1 disorder) advancing to IND filing H2 2026. Analyst clustering on small cap = institutional attention catalyst. Entry gap (+10.4%) under chase limit with strong volume confirmation (2.1x avg). Low float (26.5M) supports price movement. Risk = no near-term binary (CMP-002 not in clinic until H2 2026), clinical-stage (no revenue), FOMC tomorrow adds event risk. Entry discipline followed: gap-and-go base, volume >1.5x, fresh catalyst.
+
+### EXIT — UNRECOVERABLE (recorded 2026-07-24 weekly review)
+- **Status**: CLOSED, but exit price/date/reason cannot be recovered.
+- **Backfill attempt (2026-07-24)**: Queried Alpaca closed-order history for the live
+  shared account. CAMP does not appear — the only closed orders on the shared account
+  are Bull's (KO, V, GOOGL, HSY, COST, JPM), oldest 2026-05-05. CAMP was traded on
+  Rocket's original standalone paper account, which was dissolved in the 2026-07-20 merge
+  with Bull. That account's order history is gone; there is no API path to recover the fill.
+- **Resolution**: Treat CAMP as closed at an unknown price with unknown P&L. It is NOT a
+  live position (confirmed absent from portfolio_snapshot.py). This entry is closed for
+  bookkeeping. Do not report CAMP as open again.
+- **Root cause / prevention**: Exit was never logged in real time (see lessons_learned.md
+  item 9). Standing rule reinforced: every close_position call must be paired with a
+  same-session trade_log.md exit entry.

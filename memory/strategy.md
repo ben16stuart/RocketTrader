@@ -1,6 +1,29 @@
 # Rocket Strategy — Evolving Edge Thesis
 
-Last updated: 2026-05-29 (added second-day entry framework after week of missed trades)
+Last updated: 2026-07-24 (weekly review — flagged deployment + scanner-pipeline problems)
+
+---
+
+## ⚠️ Standing Meta-Problem — Under-Deployment (flagged 2026-07-24)
+
+Since inception (2026-04-20, ~3 months) Rocket has executed only **2 trades**: MRLN
+(+$33.40, closed) and CAMP (closed, exit unrecoverable). That is near-total inaction.
+Week of 07-20 → 07-24: **0 trades, flat all 5 sessions.** Every flat call was individually
+defensible (no clean fresh catalyst, garbled scanner, tiny pooled account), but the
+cumulative result is zero productive output and zero real alpha. Lessons item 7 already
+warns "missing real catalysts has a cost too" — yet the pattern persists.
+
+**Root causes to fix, in priority order:**
+1. **Idea pipeline is broken.** `smallcap_scanner.py` has been unreliable for 20+ sessions
+   (single-letter symbol artifacts, RelVol all dashes, $0.00 prices, glitch % moves). With
+   no working screener, idea generation collapses to ad-hoc web search and almost nothing
+   clears the bar. **The scanner script is the highest-leverage fix — it should be repaired
+   or replaced (a working small-cap gainers/volume feed) before expecting trade volume to
+   recover.** Until then, lean harder on Q2 earnings-beat gappers found via web search.
+2. **Bar may be too strict for the account size.** With a ~$3k slice, one good catalyst
+   trade per week is plenty; the goal isn't more trades, it's *any* real participation.
+   Do not loosen the chase/dilution/volume rules — those have saved real losses (ABAT). The
+   fix is better idea flow, not looser discipline.
 
 ---
 
