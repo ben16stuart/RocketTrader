@@ -4,6 +4,89 @@ Updated by pre-market and midday sessions.
 
 ---
 
+## 2026-07-24 Friday Pre-Market
+
+**Account**: Shared w/ Bull $10,091.32. Rocket slice (30%) $3,027.40. Pooled cash $7,987.75.
+Rocket positions: 0 (JPM is Bull's). Rocket vs SPY since 7/20 rebase: +0.36%.
+Guardrails: 0/4 positions, 0/5 trades this week, $0 daily loss — full capacity.
+
+**Macro — CAUTIOUS / MIXED (risk wobble)**: VIX 18.97 (+1.4%, up from 16.6 on 7/23 —
+still under 25 so full sizing technically fine, but volatility ticking up). Nasdaq fell
+>2% on 7/23 on mega-cap tech capex fears (Alphabet Q2 capex hike) + Iran tensions lifting
+oil. Russell 2000 +0.37% premarket = modest small-cap bounce off the tech-led selloff.
+Small caps amplify direction — mixed/two-sided tape. Need a NAMED fresh catalyst; broad
+beta bounce ≠ setup.
+
+**Overnight scan read**: Scanner garbage AGAIN — single-letter symbol artifacts (real
+tickers in rightmost column), RelVol all dashes, multiple $0.00 prices, SAM +176.3% =
+obvious glitch (Boston Beer). No ticker overlap between top_movers and unusual_volume.
+Treated as universe filter only. No stock cleared the fresh-catalyst + valid-entry
+(non-chase, volume-confirmable) bar this morning.
+
+### Candidates checked — NONE actionable today
+
+- **DRUG — Bright Minds Biosciences +71.5%** (biggest biotech mover on scan): BMB-101
+  epilepsy program, but catalysts STALE (Ph2 seizure-reduction data earlier in year) and
+  the name is a heavily-pumped runner (up ~1,500% YTD per press). ACTIVE DILUTION — Jan
+  2026 $175M offering @ $90 + ATM program on file. Fails dilution rule AND +71.5% = hard
+  chase violation. **HARD AVOID.**
+- **ORIC — ORIC Pharmaceuticals +11.3%**: Real catalyst (Himalayas-1 Phase 3 mCRPC trial
+  initiation + royalty-free Bayer collab) but dated **Jul 14 (10 days STALE)**. Heavily
+  analyst-covered (14 buys, Strong Buy, PT $20.69) = NOT an overlooked small cap. No fresh
+  7/24 trigger. **SKIP.**
+- **KPTI — Karyopharm +7%**: Only recent news is executive cash-retention program (7/20,
+  which the stock SANK on) + routine inducement grants (7/1). No positive fresh catalyst;
+  ~$162M mcap distressed name. **SKIP.**
+- **7/23 earnings-beat gappers** (MEDP +18.4%, CLF +12.2%, ALLE +10%): All confirmed real
+  beats + raised guidance, but all are LARGE-CAP (Medpace ~$30B, Cleveland-Cliffs, Allegion)
+  — **outside the $50M–$2B small-cap universe. Not tradeable.**
+
+**Decision**: No pre-market entries queued. Lean STAND FLAT into the open. At 9:35–9:50,
+only act if a genuine fresh catalyst surfaces with a volume-confirmed (>1.5x avg), non-chase
+base. Otherwise cash. Fresh-catalyst + volume discipline mandatory (ABAT Jun 9 lesson). Cash
+is a position. Watch the tape for a two-sided reaction to yesterday's tech selloff.
+
+---
+
+## 2026-07-24 Friday — Market Open Execution (9:35 AM ET)
+
+**Portfolio sync**: 0 Rocket positions (JPM is Bull's, trailing stop already set). Cash
+pooled $7,987.75 available. 0/4 Rocket positions, 0/3 trades this week — full capacity.
+No overnight fills or stops triggered.
+
+**Pre-market watchlist re-check**: Pre-market session already ruled out DRUG (heavy
+dilution + chase), ORIC (stale, 10-day-old catalyst), KPTI (no positive fresh catalyst),
+and confirmed the 7/23 earnings gappers (MEDP/CLF/ALLE) are large-cap and out of universe.
+None of these flipped to actionable at the open — no new information changes the calls.
+
+**Scanner status**: Garbled AGAIN (same known bug). Independently verified 10 additional
+plausible small-cap names via web research beyond the pre-market list:
+
+- **HRTG** (Heritage Insurance, ~$683M mcap): only +1.6% today, no fresh catalyst (stale
+  March analyst raise). SKIP.
+- **BOT** (RoboStrategy): RED FLAG — actually a closed-end fund, not an operating small
+  cap. Repeated private placements (Jun 18, Jul 7, Jul 14) = active dilution; down
+  $36.71→$26.17 since. HARD AVOID.
+- **EFOR** (Everforth): Truist upgrade real but dated Jul 21-22, 2-3 days stale, already
+  ran +11%+. SKIP.
+- **LPRO** (Open Lending): +29% pop was last week, not today. SKIP.
+- **ZVRA** (Zevra Therapeutics, ~$612M mcap): Only genuinely FRESH catalyst found —
+  today's CHMP negative opinion on arimoclomol's EU marketing app (Niemann-Pick Type C).
+  But BEARISH (setback, not beat), modest ~3-4% down reaction, drug already
+  approved/marketed in US. Not a long setup — Rocket doesn't short. SKIP.
+- **ALOY** (REalloys): rare-earth news stale (Jul 7); $100M private placement closed
+  Jun 26 = dilution risk. SKIP.
+- **KREF**: Jul 21 earnings miss (bearish) + minor PT nudge (not a rating change) = stale.
+  SKIP.
+- General "biggest gainers today" search surfaced nothing else with a fresh, verifiable,
+  long-side catalyst.
+
+**Decision**: STAND FLAT. No fresh, verifiable, tradeable-direction catalyst identified
+anywhere — pre-market watchlist or open scan. No Rocket trades placed. No notification
+sent (flat session, no stops triggered). Cash is a position.
+
+---
+
 ## 2026-07-23 Thursday Pre-Market
 
 **Account**: Shared w/ Bull $10,115.31. Rocket slice (30%) $3,034.59. Pooled cash $3,924.51.

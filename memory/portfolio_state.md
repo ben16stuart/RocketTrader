@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-07-23 19:58 UTC
+**Last Updated**: 2026-07-24 19:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,083.69 |
-| Rocket's Allocated Slice (30%) | $3,025.11 |
-| Cash Available (shared, pooled) | $7,987.77 |
-| Total Invested (both agents) | $2,095.92 |
+| Shared Account Value (Bull + Rocket) | $10,103.05 |
+| Rocket's Allocated Slice (30%) | $3,030.91 |
+| Cash Available (shared, pooled) | $7,987.75 |
+| Total Invested (both agents) | $2,115.30 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | -0.22% |
-| SPY return since rebase | -0.51% |
-| Rocket vs SPY | +0.29% |
+| Rocket return since rebase | -0.03% |
+| SPY return since rebase | -0.50% |
+| Rocket vs SPY | +0.47% |
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -33,7 +33,7 @@ Cross-reference with memory/trade_log.md to identify which positions are Rocket'
 
 | Symbol | Shares | Entry Price | Current Price | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|----------------|-------|
-| JPM | 6 | $313.30 | $349.32 | $+216.12 | +11.5% |
+| JPM | 6 | $313.30 | $352.52 | $+235.32 | +12.5% |
 
 ---
 
