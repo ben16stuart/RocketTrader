@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-07-24 20:15 UTC
+**Last Updated**: 2026-07-27 19:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,105.51 |
-| Rocket's Allocated Slice (30%) | $3,031.65 |
+| Shared Account Value (Bull + Rocket) | $10,123.57 |
+| Rocket's Allocated Slice (30%) | $3,037.07 |
 | Cash Available (shared, pooled) | $7,987.75 |
-| Total Invested (both agents) | $2,117.76 |
+| Total Invested (both agents) | $2,135.82 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | -0.00% |
-| SPY return since rebase | -0.43% |
-| Rocket vs SPY | +0.43% |
+| Rocket return since rebase | +0.18% |
+| SPY return since rebase | -0.45% |
+| Rocket vs SPY | +0.63% |
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -29,11 +29,29 @@ is available if Bull has open positions consuming shared cash.
 
 ## Open Positions (shared account — yours AND Bull's)
 
-Cross-reference with memory/trade_log.md to identify which positions are Rocket's.
+Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Current Price | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|----------------|-------|
-| JPM | 6 | $313.30 | $352.96 | $+237.96 | +12.7% |
+| JPM | 6 | $313.30 | $355.97 | $+256.02 | +13.6% |
+
+---
+
+## Position Reconciliation
+
+🚨 **Does not balance — see reconciling items below.**
+
+- **Rocket's positions** (0): none
+- **Bull's positions** (0): none
+
+🚨 **UNATTRIBUTED — held at the broker but in neither trade log:**
+
+  - JPM ($2,136) — do not size against this until ownership is resolved.
+
+🚨 **MISSING — in Rocket's book but not held at the broker:**
+
+  - CAMP — likely a stop fill or manual close. Log the exit in trade_log.md.
+
 
 ---
 
@@ -48,4 +66,4 @@ Cross-reference with memory/trade_log.md to identify which positions are Rocket'
 ## Weekly Trade Count
 
 Trades placed this week: 0 / 3 max
-Market open: No
+Market open: Yes

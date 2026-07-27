@@ -5,35 +5,64 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Next Week Watchlist — Week of 2026-07-27 (built 2026-07-24 weekly review)
+## Watchlist — Monday 2026-07-27 premarket
 
-**Context**: Q2 2026 earnings season is active — the cleanest small-cap edge next week is
-**post-earnings-beat gappers** in the $50M–$2B universe (enter AFTER the confirmed beat, on
-a volume-confirmed base, never into the print). Scanner remains unreliable, so idea flow
-depends on web-searching the day's confirmed beats and fresh catalysts each morning.
+**Tape**: Risk-ON. VIX 17.58 (-5.4%), Russell 2000 futures +1.27%, Brent -7% after the
+US–Iran pause. Small caps leading (R2K +20% YTD vs SPX +11%). Monday calendar is light —
+but **FOMC Wed 7/29 2:00 PM + PCE Thu 7/30 + MSFT/META/AAPL/AMZN earnings** = the risk
+window is Mon–Tue. Do not carry fresh size into Wednesday afternoon.
 
-**⚠️ No pre-validated fresh catalyst carries into Monday.** Everything below must be
-re-verified at Monday premarket — weekend-stale catalysts do not qualify. Ratings reflect
-*worth-checking priority*, not conviction to enter.
+**Positions**: Rocket is FLAT. JPM is Bull's. Pooled cash $7,987.75; Rocket slice $3,037.66.
+Max position ≈ $455 (15%), 1.5% risk ≈ $45.
 
-### Scheduled catalysts to watch
-- **BLFS — BioLife Solutions**: Q2 earnings **Aug 6, 2026**. ~$1.4B mcap (upper edge of
-  universe), biopreservation + cell/gene therapy exposure; Q1 beat (rev +25% YoY, EPS
-  $0.024 vs $0.006). MEDIUM — watch the Aug 6 print for a beat-and-gap setup; today's
-  scanner "+30%" was a glitch (stock ~$31). Not actionable until earnings.
-- **URGN — UroGen Pharma**: UGN-103 **NDA submission expected Q3 2026** — watch for the
-  actual filing announcement as a hard catalyst. FDA IND clearance for UGN-501 (Jul 9) is
-  already stale. LOW-MEDIUM — no fresh trigger yet; today's "+41%" was scanner garbage.
+**Catalyst breadth today is NARROW.** Two independent research passes surfaced exactly one
+in-universe name. The premarket gainer tape is dominated by reverse-split shells and sub-$3
+junk (LGHL, BIYA, DFNS, MTNB, SXTC, OMH, GMEX — all fail universe filters).
 
-### Hunt list (verify fresh catalyst + volume Monday premarket)
-- **Primary tactic**: each morning, web-search "small cap earnings beat [date]" and the
-  day's confirmed gappers; filter to universe ($50M–$2B, >$3, NYSE/NASDAQ, >300k vol);
-  require a NAMED fresh catalyst + >1.5x volume on a non-chase base before sizing.
-- ORIC (Phase 3 Himalayas-1 mCRPC) — stale (Jul 14) + heavily analyst-covered = NOT
-  overlooked. Only revisit on a genuinely fresh trigger. LOW.
+### 1. TRAX — First Tracks Biotherapeutics — anti-CD122 M&A read-through
+- **Catalyst**: argenx to acquire **Forte Biosciences (FBRX) for $77/sh cash (~$2.2B)**,
+  ~86% premium, for anti-CD122 antibody FB102 — announced **today 7/27**. TRAX's lead asset
+  **ANB033 is also anti-CD122** → direct mechanism validation + hard takeout comp. FRESH.
+- **Verified**: Fri close $35.52 | mcap **$1.24B** (in-universe, upper end) | avg vol
+  **674,443** (>300k ✓) | Nasdaq, San Diego US ✓ | 34.89M shares out (low float ✓)
+- **Premarket**: ~$43.00 (+21%) — thin (~6,300 sh), treat as soft. **Re-pull at 9:30.**
+- **Entry plan**: gap is +21% = gap-and-go band, NOT a chase. Entry ONLY on a confirmed
+  **9:45–9:50 ten-minute base** with **>1.5x avg volume**. No entry on the opening spike.
+- **Stop**: 7% trailing, set atomically at entry (~$39.99 if filled $43.00)
+- **Size**: 10 shares ≈ $430 (14.2% of slice) — verified via `alpaca_client.py size`
+- **Targets**: +15% ≈ $49.45 (sell 1/3) | +25% ≈ $53.75 (sell 1/3) | trail final 1/3
+- **Conviction: MEDIUM — LOW-side. Conditional pass by default.**
+- **Risk / what kills it**:
+  1. **$43 is ABOVE the 52-week high ($42.90) and AT consensus PT ($43.875)** — the gap
+     prices in the entire street target. Zero analyst headroom. *(verified independently)*
+  2. **Sympathy trade** — the catalyst is someone else's M&A. TRAX has no company-specific
+     news; its own ANB033 celiac readout is not until fiscal Q4 2026. Sympathy gaps on
+     third-party deals routinely round-trip by lunch.
+  3. **Supply overhang** — 424B3 resale registrations (~10.5M sh, ~30% of shares out) from a
+     $13.81 private placement. Those holders are up ~3x at $43. Not a 2-week-rule
+     disqualifier (resale ≠ new offering) but a live seller risk into strength.
+  4. Second pop on the same theme — already ran to $38.49 on the 7/9 FBRX data, then faded.
+- **Short interest: UNVERIFIED** — could not source. Do not assume squeeze fuel.
 
-**Conviction into Monday: NONE HIGH.** Lead with fresh earnings-beat scanning. Cash is a
-position — do not force a trade to break the flat streak.
+### Hard skips today
+- **FBRX +39% to ~$76** — cash deal at $77 = ~1% spread, upside capped, and $2.2B equity
+  value exceeds our $2B cap. Do NOT chase it off a % gainer screen.
+- **LVWR** (+86% Fri, Q2 rev +55%) — trades $1.22–$1.48, fails the $3.00 floor.
+- **DFNS** +41% — 1-for-125 reverse split 7/20, ~$2–7M cap. Shell.
+- **VEEE** +22% — catalyst stale (7/13 reverse-merger pivot), post-spike bleed, shareholder
+  suit investigation.
+
+### Scheduled / still pending (no action)
+- **URGN**: UGN-103 NDA **has NOT been filed** — guidance still Q3/2H 2026. Confirmed no
+  fresh Fri–Mon catalyst. Keep watching for the actual filing press release.
+- **BLFS**: no pre-announcement; Q2 confirmed **Aug 6, 2026**. Not actionable until then.
+- **ORIC**: stale (Jul 14) + heavily covered. LOW. Only on a genuinely fresh trigger.
+
+**Verdict into the open: NO HIGH-CONVICTION TRADE.** TRAX is the only name that passes the
+filters and it fails on entry price quality (at 52w high, at consensus PT, sympathy-driven).
+Default is **stand flat**; take it only if it builds a genuine volume-confirmed base at
+9:45–9:50 *below* the opening spike. Cash is a position — do not force a trade to break the
+flat streak, especially into FOMC week.
 
 ---
 
