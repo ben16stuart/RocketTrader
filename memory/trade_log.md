@@ -30,7 +30,32 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
-## 2026-06-16 — CAMP ENTRY (POSITION OPEN)
+## 2026-07-28 — IWM BUY (Core sleeve — not a satellite)
+
+- **Shares**: 9 @ $291.50 (filled)
+- **Cost basis**: $2,623.50 (~86.4% of Rocket's $3,037.22 allocated slice)
+- **Catalyst**: N/A — this is the core/benchmark sleeve, not a catalyst trade. Per
+  CLAUDE.md Portfolio Construction (adopted 2026-07-27), Rocket's default resting
+  state is ~100% invested via IWM, not cash. Rocket had been flat 0 positions /
+  ~100% cash with no written bearish thesis, violating the mandate.
+- **Stop**: NONE by design. Backtested 1993-2026: buy-and-hold beats every trailing-stop
+  configuration on the index (10.73% CAGR vs 7.98-8.48% stopped). Satellites keep 7% stops;
+  the core does not.
+- **Does not count** against the 4-satellite position cap or 5-trades/week cap.
+- **Thesis**: Establish the benchmark-tracking core so idle cash stops acting as an
+  unhedged short against equity drift. Attribution note: IWM is a small-cap factor bet
+  vs the SPY benchmark — weekly_review must split IWM beta from stock-picking skill,
+  not book factor drift as alpha.
+- **Remaining slice buffer**: ~$413 (13.6%) left for a satellite (TRAX conditional
+  reclaim watch) or operating buffer.
+
+---
+
+## 2026-06-16 — CAMP ENTRY — [SUPERSEDED 2026-07-27 — ORPHANED BY ACCOUNT MERGE]
+
+> **SUPERSEDED.** CAMP is not held on the current shared account and never was.
+> This position lived on Rocket's pre-merge account. See the correction entry
+> dated 2026-07-27 below. Retained for audit trail only.
 
 **ROCKET'S SECOND TRADE** — ENTRY @ $4.85
 
@@ -60,3 +85,30 @@ Append-only record of all Rocket trades. Never delete entries.
 - **Root cause / prevention**: Exit was never logged in real time (see lessons_learned.md
   item 9). Standing rule reinforced: every close_position call must be paired with a
   same-session trade_log.md exit entry.
+
+
+---
+
+## 2026-07-27 — BOOK CORRECTION — CAMP orphaned by the account merge
+
+**Correcting entry.** Posted after reconciling this log against the shared Alpaca
+account's filled-order history.
+
+Rocket's book carried CAMP (3,093 sh @ $4.85, entered 2026-06-16) as an open position.
+It is not held on the shared account, and **the shared account has no CAMP orders in
+its entire fill history** — the position was opened on Rocket's own pre-merge account,
+which is no longer the account Rocket trades.
+
+**Disposition: unknown.** Rocket cannot determine the exit price or date, because the
+account holding it is not the account it now reads. It may still be open on the old
+account, or have been stopped out. Final P&L is therefore **unrecorded**, and this
+trade is excluded from win-rate and R-multiple statistics rather than being assumed
+a win or a loss.
+
+**Impact**: Rocket believed it held a ~$15k position it does not have. Any sizing or
+exposure calculation trusting the book was overstating deployed capital.
+
+**Lesson**: an account migration must be treated as a reconciliation event. Positions
+do not follow the agent — open positions must be explicitly closed out or transferred
+in the book at the moment the account changes, or they become permanent phantoms.
+

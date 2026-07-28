@@ -1,10 +1,77 @@
 # Rocket Market Context
 
-Last updated: 2026-07-27 (Monday pre-open)
+Last updated: 2026-07-28 (Tuesday pre-open)
 
 ---
 
-## Snapshot — 2026-07-27 Monday Pre-Open  ← CURRENT
+## Snapshot — 2026-07-28 Tuesday Pre-Open  ← CURRENT
+
+### Account structure
+- SHARED Alpaca account with Bull. Shared value **$10,141.75**; Rocket slice (30%) =
+  **$3,042.53**. Pooled cash **$7,987.75**. **Rocket is FLAT — 0 positions.** JPM is Bull's
+  (reconciler reports ✅ balanced; the JPM/CAMP discrepancies from 7/27 are resolved).
+- Position math: 15% max satellite ≈ **$456**; 1.5% risk ≈ **$46**.
+- Rocket +0.36% since 7/20 rebase vs SPY -0.40% → **+0.76% relative** — but this is the
+  return on an *uninvested* book. It is not skill; it is the market being flat.
+
+### 🚨 Structural issue — Rocket is ~100% cash with no bearish thesis
+The core/satellite mandate adopted **2026-07-27** makes **IWM the default resting state** and
+caps cash at a 10% buffer. Rocket holds nothing. Cash above the buffer is an active bet that
+small caps fall, and requires a written thesis with a trigger and expiry — none exists.
+**Correcting this (buy ~9 IWM) is the highest-priority action of the 7/28 session**, ahead of
+any satellite idea. Note for `weekly_review`: once the core is on, divergence from SPY is
+partly IWM small-cap beta — split beta from selection, do not book factor drift as alpha.
+
+### Macro — MIXED, and the FOMC risk got bigger
+- **VIX 18.67**, up from 17.58 Monday. Still under the 22 pause threshold → full 1.5% sizing.
+- **Russell 2000 futures +1.16%** — small caps remain the strong side. But **Nasdaq futures
+  turned negative overnight** on an Asia chip selloff following NVDA -5% Monday. Two-sided tape.
+- Monday 7/27 close: **R2K +0.6%** (2,948.03), S&P 500 ~flat (7,413.18), Nasdaq -0.2%
+  (24,932.08), Dow +0.5%. Small caps outperformed; mega-cap tech dragged.
+- **Brent -4.4% to $87.64**, WTI -4.9% to $84.91 — geopolitical premium still unwinding.
+- **US–Iran pause is holding but fragile** — both sides have accused each other of violations.
+  Hormuz shipping subdued, tanker insurance elevated. Headline risk is two-sided.
+- 10-yr yield ~4.64%, pulled back overnight.
+
+### ⚠️ Event risk — FOMC is a live coin-flip, not a formality
+- **Wed 7/29 2:00 PM ET — FOMC decision + presser (Chair Warsh).** Market pricing is
+  **62% hold (3.50–3.75%) / 38% HIKE (3.75–4.00%)**. **This corrects the 7/27 note, which
+  assumed a routine hold.** No SEP/dot-plot; the statement language and Warsh's inflation
+  commentary are the event. Iran-driven inflation spillover is the cited hike risk.
+- **Thu 7/30 — Q2 GDP advance + June PCE/Core PCE.**
+- **Today 7/28**: Consumer Confidence 10:00 AM, Richmond Fed Manufacturing. FOMC day 1 of 2.
+- **Implication**: a hike surprise hits small caps harder than large. **No fresh satellite
+  risk into Wednesday afternoon.** The IWM core is a different question — it is the neutral
+  benchmark position and is not market-timed.
+
+### THEME READ (7/28)
+- **Catalyst breadth NARROW for a second straight session.** Only **TRAX** clears the
+  universe filters on a dated catalyst, and it is now **day 2 and fading**: closed $42.03
+  Monday (+18.3%) but **~9.5% off its $46.45 high**, and is ~$40.80 premarket (-2.9%).
+  It never built the required 9:45–9:50 volume base yesterday. Second-day rule does NOT
+  trigger (needs >25% gap + close above prior midpoint; it met neither). **LOW conviction.**
+- **Biotech binary risk on display**: **MPLT -72.9%** on the ZEPHYR Ph2 split result
+  (twice-daily met endpoint, once-daily failed). A reminder of what small-cap biotech
+  downside looks like — size accordingly.
+- **Premarket gainer tape is again mostly unusable**: sub-$3 (GOSS $0.26, OMH $0.17, ALDX,
+  OPK, LVWR) and sub-$50M-cap shells (DFNS, BKYI, POLA, BIYA, EHGO).
+- **Zero small-cap analyst initiations/upgrades and zero FDA approvals** dated 7/27–7/28.
+- **No verifiable short-squeeze setup** (>15% short float + fresh catalyst) found.
+
+### Intraday Triggers to Watch
+- VIX >22: pause new entries; >25 reduce size; >30 no new longs (currently 18.67, clear).
+- **Scanner BROKEN — 5th consecutive session.** Single-letter symbol truncation, $0.00
+  prices, RelVol all dashes, absurd quotes (INSP "$10.68", XERS "$124.58"). **Treat as
+  unusable.** All idea flow this session came from web research + `market_data.py`.
+  This has now cost 5 sessions of screening and needs a fix.
+- Chase rule: no entry >20% above prior close except gap-and-go on a 9:45–9:50 base.
+- Nasdaq/chip weakness bleeding into the broad tape would hit the IWM core — expected and
+  accepted; the core is not stopped.
+- Oil headline risk two-sided: a collapse of the Iran pause re-spikes crude and hits the tape.
+
+---
+
+## Snapshot — 2026-07-27 Monday Pre-Open (superseded)
 
 ### Account structure
 - SHARED Alpaca account with Bull. Shared value **$10,125.55**; Rocket slice (30%) =
@@ -55,41 +122,4 @@ Last updated: 2026-07-27 (Monday pre-open)
 
 ---
 
-## Snapshot — 2026-07-24 Friday Pre-Open (superseded)
-
-### Account structure (post-merge)
-- SHARED Alpaca paper account with Bull (merged 2026-07-20). Shared value ~$10,091.
-  Rocket's allocated slice = 30% (~$3,027). Cash POOLED with Bull (~$7,988) — verify free
-  cash before sizing. JPM is Bull's only open position now.
-- Real position sizes are SMALL (account ~$10k). 15% max position ≈ $454 of Rocket's slice;
-  1.5% risk ≈ $45. Size accordingly.
-
-### Macro — CAUTIOUS / MIXED (volatility ticking up)
-- **VIX 18.97** (+1.4%, up from 16.64 on 7/23) — still under 25, full 1.5% sizing
-  technically fine, but the calm risk-on lean has softened.
-- **Tech-led selloff 7/23**: Nasdaq fell >2% on mega-cap capex fears (Alphabet Q2 capex
-  hike) + Iran tensions lifting oil prices. Two-sided risk backdrop.
-- **Small-cap bounce premarket**: Russell 2000 +0.37% into the 7/24 open, modest recovery.
-  Small caps amplify direction — mixed tape, could whip either way off yesterday's selloff.
-
-### THEME READ (7/24 movers)
-- **No clean fresh single-stock small-cap catalyst.** Scanner garbage again.
-- **HARD AVOID**: DRUG +71.5% (Bright Minds — active Jan $175M offering + ATM dilution +
-  ~1,500% YTD pump + chase).
-- **SKIP (stale)**: ORIC +11.3% (Phase 3 initiation Jul 14, 10 days old, heavily covered);
-  KPTI +7% (exec retention program 7/20 which it SANK on — no positive catalyst).
-- **Not tradeable (large-cap)**: 7/23 earnings beats MEDP +18.4%, CLF +12.2%, ALLE +10% —
-  all outside the $50M–$2B universe.
-
-### Intraday Triggers to Watch
-- VIX >22: pause new entries; >25 no new longs (currently ~19, fine but rising).
-- **Scanner data STILL unreliable** — single-letter symbol artifacts, RelVol dashes, $0.00
-  prices, SAM +176.3% glitch. Independently verify price + volume before sizing.
-- No entries on any +20%+ gapper (chase rule) — wait for second-day/pullback base.
-- Dilution rule: skip active S-1 / ATM / convertible names (DRUG fails today).
-- Oil/Iran headline risk two-sided; watch for a red reversal — small caps amplify a down tape.
-- Cash is small and pooled — confirm free cash post-Bull before sizing.
-
-**Note**: This 7/24 pre-open snapshot is the current live macro read. Refresh at Monday
-07-27 premarket for next week's tape. Prior dated snapshots archived to
-`memory/archive/market_context_history.md`.
+> Older snapshots archived to `memory/archive/market_context_history.md`.

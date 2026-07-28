@@ -5,64 +5,112 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Monday 2026-07-27 premarket
+## Watchlist — Tuesday 2026-07-28 premarket
 
-**Tape**: Risk-ON. VIX 17.58 (-5.4%), Russell 2000 futures +1.27%, Brent -7% after the
-US–Iran pause. Small caps leading (R2K +20% YTD vs SPX +11%). Monday calendar is light —
-but **FOMC Wed 7/29 2:00 PM + PCE Thu 7/30 + MSFT/META/AAPL/AMZN earnings** = the risk
-window is Mon–Tue. Do not carry fresh size into Wednesday afternoon.
+**Tape**: Mixed. VIX 18.67 (up from 17.58). **Russell 2000 futures +1.16%** — small caps are
+the strong side again — but Nasdaq futures wobbled overnight on an Asia chip selloff (NVDA
+-5% Monday). Monday close: R2K **+0.6%**, S&P flat, Nasdaq -0.2%. Brent -4.4% to $87.64; the
+US–Iran pause is holding but both sides have already traded violation accusations.
 
-**Positions**: Rocket is FLAT. JPM is Bull's. Pooled cash $7,987.75; Rocket slice $3,037.66.
-Max position ≈ $455 (15%), 1.5% risk ≈ $45.
+**Today's calendar**: Consumer Confidence 10:00 AM, Richmond Fed. **FOMC day 1 of 2.**
 
-**Catalyst breadth today is NARROW.** Two independent research passes surfaced exactly one
-in-universe name. The premarket gainer tape is dominated by reverse-split shells and sub-$3
-junk (LGHL, BIYA, DFNS, MTNB, SXTC, OMH, GMEX — all fail universe filters).
+⚠️ **FOMC Wed 7/29 2:00 PM is NOT the freebie yesterday's note assumed.** Market pricing is
+**62% hold / 38% HIKE** to 3.75–4.00% (Chair Warsh). A hike surprise hits small caps harder
+than large. No SEP. **Do not initiate fresh satellite risk into Wednesday afternoon.**
 
-### 1. TRAX — First Tracks Biotherapeutics — anti-CD122 M&A read-through
-- **Catalyst**: argenx to acquire **Forte Biosciences (FBRX) for $77/sh cash (~$2.2B)**,
-  ~86% premium, for anti-CD122 antibody FB102 — announced **today 7/27**. TRAX's lead asset
-  **ANB033 is also anti-CD122** → direct mechanism validation + hard takeout comp. FRESH.
-- **Verified**: Fri close $35.52 | mcap **$1.24B** (in-universe, upper end) | avg vol
-  **674,443** (>300k ✓) | Nasdaq, San Diego US ✓ | 34.89M shares out (low float ✓)
-- **Premarket**: ~$43.00 (+21%) — thin (~6,300 sh), treat as soft. **Re-pull at 9:30.**
-- **Entry plan**: gap is +21% = gap-and-go band, NOT a chase. Entry ONLY on a confirmed
-  **9:45–9:50 ten-minute base** with **>1.5x avg volume**. No entry on the opening spike.
-- **Stop**: 7% trailing, set atomically at entry (~$39.99 if filled $43.00)
-- **Size**: 10 shares ≈ $430 (14.2% of slice) — verified via `alpaca_client.py size`
-- **Targets**: +15% ≈ $49.45 (sell 1/3) | +25% ≈ $53.75 (sell 1/3) | trail final 1/3
-- **Conviction: MEDIUM — LOW-side. Conditional pass by default.**
-- **Risk / what kills it**:
-  1. **$43 is ABOVE the 52-week high ($42.90) and AT consensus PT ($43.875)** — the gap
-     prices in the entire street target. Zero analyst headroom. *(verified independently)*
-  2. **Sympathy trade** — the catalyst is someone else's M&A. TRAX has no company-specific
-     news; its own ANB033 celiac readout is not until fiscal Q4 2026. Sympathy gaps on
-     third-party deals routinely round-trip by lunch.
-  3. **Supply overhang** — 424B3 resale registrations (~10.5M sh, ~30% of shares out) from a
-     $13.81 private placement. Those holders are up ~3x at $43. Not a 2-week-rule
-     disqualifier (resale ≠ new offering) but a live seller risk into strength.
-  4. Second pop on the same theme — already ran to $38.49 on the 7/9 FBRX data, then faded.
-- **Short interest: UNVERIFIED** — could not source. Do not assume squeeze fuel.
+**Positions**: Rocket is **FLAT — 0 positions, ~100% cash.** JPM is Bull's (reconciler ✅
+balanced). Shared account $10,141.75; Rocket slice **$3,042.53**; pooled cash $7,987.75.
+Max satellite ≈ $456 (15%), 1.5% risk ≈ $46.
+
+---
+
+### 🚨 PRIORITY 1 — Establish the IWM core. This is the trade today.
+
+Rocket is sitting **~100% cash with no written bearish thesis**, which directly violates the
+core/satellite mandate adopted 2026-07-27 (CLAUDE.md → Portfolio Construction). Cash is not
+neutral; SPY is. Rocket has been flat for weeks while the benchmark stayed invested.
+
+- **Instrument**: **IWM** (Russell 2000) — last $292.91
+- **Action**: BUY **9 shares ≈ $2,636 (86.6% of slice)**, leaving ~$406 (13.4%) to fund a
+  satellite or sit as buffer.
+- **Stop: NONE.** Per mandate — trailing stops on an index lose to buy-and-hold in every
+  tested configuration (SPY 1993–2026: B&H 10.73% CAGR vs 7.98–8.48% stopped).
+- **Does not count** against the 4-satellite cap or the 5-trades/week cap.
+- **If TRAX (below) triggers**, fund it by **selling 2 IWM shares**, not from the buffer.
+- **FOMC caveat, stated honestly**: buying small-cap beta the day before a meeting with 38%
+  hike odds is real risk. But the mandate is explicit — market-timing via cash is the
+  behavior that cost Rocket the last month, and "FOMC might go badly" is not a written
+  bearish thesis with a trigger and an expiry. Establishing core is the disciplined call.
+- **Attribution debt**: IWM is a small-cap factor bet vs a SPY benchmark. Divergence from
+  here is partly beta, not skill. **`weekly_review` must split IWM beta from stock
+  selection** — do not book factor drift as alpha.
+
+---
+
+### PRIORITY 2 — Satellite candidates
+
+**Catalyst breadth is NARROW for the second straight session.** Two independent research
+passes surfaced exactly one in-universe name with a fresh dated catalyst — the same name as
+yesterday, now one day older and fading.
+
+#### 1. TRAX — First Tracks Biotherapeutics — anti-CD122 M&A read-through (DAY 2)
+- **Catalyst**: argenx acquiring Forte Biosciences at $77/sh cash (~$2.2B, ~86% premium) for
+  anti-CD122 antibody FB102, announced 7/26–7/27. TRAX's ANB033 is also anti-CD122 → mechanism
+  validation + takeout comp. **Real, but now 1 day stale and not company-specific.**
+- **Verified**: Mon close **$42.03** (+18.3% from $35.52) | intraday high **$46.45** | mcap
+  ~$1.47B ✓ | avg vol 709k–2.59M ✓ | Nasdaq, San Diego ✓ | 34.89M shares out ✓
+- **Premarket 7/28**: ~$40.80, **−2.9%** — giving back, not extending.
+- **🚩 The second-day rule does NOT trigger.** It requires a >25% gap AND a close above the
+  prior day's midpoint. TRAX gapped +18.3% (under the 25% bar) and **closed ~9.5% off its
+  high** — that is distribution into strength, not a strong close. It also never built the
+  9:45–9:50 volume base yesterday's plan required. The setup failed its own test, twice.
+- **Conviction: LOW. Default is NO TRADE.**
+- **Only conditional path**: reclaims **$42.03** (Monday's close) on **>1.5x avg volume**
+  after 9:45. Absent that, leave it alone.
+  - Entry ~$42.03 | Stop $39.09 (7%) | 10 sh ≈ $420 (13.8%) — verified via `alpaca_client.py`
+  - Targets: +15% ≈ $48.33 (sell 1/3) | +25% ≈ $52.54 (sell 1/3) | trail final 1/3
+- **Risk / what kills it**: sympathy trade on someone else's deal (own ANB033 celiac readout
+  not until fiscal Q4 2026); consensus PT $43.875 leaves ~7% headroom; ~10.5M-share resale
+  overhang from a $13.81 placement (holders up ~3x); already faded once on this theme (7/9).
+- **Short interest: still UNVERIFIED.** Do not assume squeeze fuel.
 
 ### Hard skips today
-- **FBRX +39% to ~$76** — cash deal at $77 = ~1% spread, upside capped, and $2.2B equity
-  value exceeds our $2B cap. Do NOT chase it off a % gainer screen.
-- **LVWR** (+86% Fri, Q2 rev +55%) — trades $1.22–$1.48, fails the $3.00 floor.
-- **DFNS** +41% — 1-for-125 reverse split 7/20, ~$2–7M cap. Shell.
-- **VEEE** +22% — catalyst stale (7/13 reverse-merger pivot), post-spike bleed, shareholder
-  suit investigation.
+- **MPLT** −72.9% to $9.91 — ZEPHYR Ph2 (7/27): twice-daily met endpoint, **once-daily
+  failed**. Falling knife + fraud-suit notice same day. Not a long.
+- **PRCT** +6.0% — the only dated 7/27 news is a **securities class action**. Not a catalyst.
+- **PMN** +32% premarket on PRECISE-AD interim data — **Toronto-domiciled** and ~103k avg
+  volume. Fails domicile and liquidity.
+- **APLD** — Q4 beat (rev +407% YoY) after the close 7/27, but ~$7.78B cap. Far outside universe.
+- **FRTE/FBRX** ~$77 — cash deal, ~1% spread, upside capped. Do not chase off a gainer screen.
+- **GOSS** ($0.26), **LVWR** ($2.67), **OMH** ($0.17), **ALDX** ($1.76), **OPK** ($1.36) — sub-$3.
+- **DFNS** ($6.3M cap), **BKYI** ($5.2M), **POLA** ($5.4M), **BIYA/EHGO** — below the $50M cap floor / shells.
+- **FIRY** (ex-Skillz) — only identifiable catalyst is a June rebrand. Stale, inconsistent price data.
+
+### Scanner status: BROKEN — 5th consecutive session
+Symbols truncated to a single letter, `$0.00` prices, RelVol all dashes, absurd quotes
+(INSP "$10.68", XERS "$124.58"). **Output is unusable.** Every name this session came from
+web research + `market_data.py`. Verified: none of the scanner names (EVMN, ROLR, UNCY, LIFE,
+JANX, WYFI, UMAC, XERS, BNED) had any dated catalyst in the last 3 days. **This needs fixing —
+it has cost 5 sessions of idea flow.**
 
 ### Scheduled / still pending (no action)
-- **URGN**: UGN-103 NDA **has NOT been filed** — guidance still Q3/2H 2026. Confirmed no
-  fresh Fri–Mon catalyst. Keep watching for the actual filing press release.
-- **BLFS**: no pre-announcement; Q2 confirmed **Aug 6, 2026**. Not actionable until then.
-- **ORIC**: stale (Jul 14) + heavily covered. LOW. Only on a genuinely fresh trigger.
+- **URGN**: UGN-103 NDA still NOT filed — guidance Q3/2H 2026. Watch for the filing PR.
+- **BLFS**: Q2 confirmed **Aug 6, 2026**.
+- **ORIC**: stale (Jul 14), heavily covered. Only on a genuinely fresh trigger.
 
-**Verdict into the open: NO HIGH-CONVICTION TRADE.** TRAX is the only name that passes the
-filters and it fails on entry price quality (at 52w high, at consensus PT, sympathy-driven).
-Default is **stand flat**; take it only if it builds a genuine volume-confirmed base at
-9:45–9:50 *below* the opening spike. Cash is a position — do not force a trade to break the
-flat streak, especially into FOMC week.
+**Verdict into the open: BUY 9 IWM to establish the core. No satellite unless TRAX reclaims
+$42.03 on >1.5x volume after 9:45.** The flat streak ends by getting invested in the
+benchmark sleeve — not by forcing a low-conviction satellite into FOMC week.
+
+### market_open outcome — 2026-07-28
+- **IWM core established**: 9 sh @ $291.50 (~86.4% of slice). No stop, per mandate. See trade_log.md.
+- **TRAX conditional FAILED at open**: $41.25 (below $42.03 reclaim trigger), volume 52k =
+  0.1x avg (need >1.5x). No reclaim, no volume confirmation. **NO TRADE.**
+- **Scanner still broken — 6th consecutive session.** Same signature: truncated single-letter
+  symbols, $0.00 prices, RelVol dashes/blank. `unusual_volume` and `top_movers` output is
+  unusable again this session. Needs an engineering fix — cost 6 sessions of idea flow now.
+- ~$413 (13.6%) of Rocket's slice remains as buffer/satellite dry powder. No new satellite
+  positions this session.
 
 ---
 

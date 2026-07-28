@@ -5,6 +5,70 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 
 ---
 
+## 2026-07-28 — Market Close (Tuesday, 3:55 PM ET)
+
+**Decision: No action needed. Rocket: 1 position (IWM core), 0 satellites, 1 trade today
+(the IWM buy already logged at open).** No positions to close — IWM carries no stop by
+design and satellites list is empty, so Step 2's close-or-hold review had nothing to review.
+
+**Core rebalance checked, no trade placed.** Slice $3,044.34; target core (90% of slice)
+$2,739.91; actual IWM value $2,641.32 (9 sh @ $293.48) → short by $98.59 = **3.24% of
+slice, just outside the 3% no-churn band.** But IWM at ~$293/share means one share is ~9.6%
+of Rocket's slice — buying a 10th share would swing the gap to **-6.4%** (overshoot), worse
+than the current 3.24% shortfall. Skipped the trade; staying put is closer to target than
+the only available whole-share move. **Flagged as a mechanical gap for weekly_review**: a
+3% band is too tight for a ~$3k slice paired with a ~$293 instrument — either widen the band
+for the core sleeve or evaluate Alpaca fractional-share orders for IWM specifically.
+
+**TRAX reclaim watch: still no trigger.** Closed today ~$41.79, below the $42.03 trigger.
+Day 2 of the 3-day missed-catalyst check window; one more session to watch before dropping it.
+
+**EOD**: SPY today +0.24%. Since 7/20 rebase: Rocket +0.42%, SPY -0.16%, Rocket vs SPY
++0.58%. Scanner still broken (6th consecutive session) — no new satellite ideas surfaced.
+
+---
+
+## 2026-07-28 — Premarket (Tuesday)
+
+**Rocket: 0 positions, ~100% cash. Headline finding is NOT a stock idea — it's that the book
+violates the core/satellite mandate.**
+
+Account $10,141.75 shared / $3,042.53 Rocket slice / $7,987.75 pooled cash. JPM is Bull's;
+reconciler ✅ balanced (the 7/27 JPM-unattributed and CAMP-missing flags are cleared).
+
+**PRIORITY 1 — establish the IWM core.** The mandate adopted 7/27 makes IWM the default
+resting state with cash capped at a 10% buffer. Rocket holds nothing and has no written
+bearish thesis, so the cash is an unauthorized active short against small-cap drift. Plan:
+**buy 9 IWM @ ~$292.91 ≈ $2,636 (86.6% of slice), no stop**, leaving ~$406 buffer. Core does
+not count against the 4-satellite / 5-trade caps. If TRAX triggers, fund it by selling 2 IWM.
+
+**Macro MIXED and FOMC risk repriced.** VIX 18.67 (up from 17.58). R2K futures +1.16% and
+R2K closed +0.6% Monday, but Nasdaq futures turned negative on an Asia chip selloff (NVDA -5%
+Mon). **Correction to yesterday's note: FOMC Wed 2PM is 62% hold / 38% HIKE, not a routine
+hold.** Consumer Confidence 10AM today. No fresh satellite risk into Wednesday afternoon.
+
+**Catalyst breadth NARROW second session running.** Only TRAX clears the universe on a dated
+catalyst, and it is now **day 2 and fading** — closed $42.03 Mon (+18.3%) but ~9.5% off its
+$46.45 high, ~$40.80 premarket (-2.9%), and it never built the 9:45–9:50 volume base
+yesterday's plan required. **Second-day rule does NOT trigger** (needs >25% gap + close above
+prior midpoint; met neither). Downgraded MEDIUM→**LOW, default no trade**; only path is a
+reclaim of $42.03 on >1.5x volume after 9:45.
+
+**Skips logged**: MPLT -72.9% (ZEPHYR Ph2 — once-daily dose failed; falling knife), PRCT
+(only 7/27 news is a securities class action), PMN (+32% but Toronto-domiciled, ~103k vol),
+APLD (real beat, $7.78B cap), FRTE (~1% deal spread), plus the usual sub-$3 / sub-$50M shells.
+
+**Scanner BROKEN — 5th consecutive session.** Single-letter symbol truncation, $0.00 prices,
+RelVol all dashes, absurd quotes (INSP "$10.68", XERS "$124.58"). Zero usable idea flow from
+it; everything came from web research + `market_data.py`. Verified none of the scanner names
+(EVMN, ROLR, UNCY, LIFE, JANX, WYFI, UMAC, XERS, BNED) had a catalyst in the last 3 days.
+**This is now a real cost and needs fixing.**
+
+**Attribution debt noted**: once IWM is on, Rocket's divergence from SPY is partly small-cap
+beta. `weekly_review` must split beta from stock selection.
+
+---
+
 ## 2026-07-27 — Premarket (Monday)
 
 **Rocket: 0 positions, 0 trades. Watchlist built — 1 conditional name, default is flat.**

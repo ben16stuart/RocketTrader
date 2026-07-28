@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-07-27 19:58 UTC
+**Last Updated**: 2026-07-28 19:59 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,123.57 |
-| Rocket's Allocated Slice (30%) | $3,037.07 |
-| Cash Available (shared, pooled) | $7,987.75 |
-| Total Invested (both agents) | $2,135.82 |
+| Shared Account Value (Bull + Rocket) | $10,147.79 |
+| Rocket's Allocated Slice (30%) | $3,044.34 |
+| Cash Available (shared, pooled) | $916.65 |
+| Total Invested (both agents) | $9,231.14 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +0.18% |
-| SPY return since rebase | -0.45% |
-| Rocket vs SPY | +0.63% |
+| Rocket return since rebase | +0.42% |
+| SPY return since rebase | -0.16% |
+| Rocket vs SPY | +0.58% |
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -33,24 +33,18 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Current Price | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|----------------|-------|
-| JPM | 6 | $313.30 | $355.97 | $+256.02 | +13.6% |
+| IWM | 9 | $291.50 | $293.45 | $+17.59 | +0.7% |
+| JPM | 6 | $313.30 | $357.46 | $+264.94 | +14.1% |
+| SPY | 6 | $741.26 | $740.87 | $-2.40 | -0.1% |
 
 ---
 
 ## Position Reconciliation
 
-🚨 **Does not balance — see reconciling items below.**
+✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's positions** (0): none
-- **Bull's positions** (0): none
-
-🚨 **UNATTRIBUTED — held at the broker but in neither trade log:**
-
-  - JPM ($2,136) — do not size against this until ownership is resolved.
-
-🚨 **MISSING — in Rocket's book but not held at the broker:**
-
-  - CAMP — likely a stop fill or manual close. Log the exit in trade_log.md.
+- **Rocket's positions** (1): IWM ($2,641)
+- **Bull's positions** (2): JPM ($2,145), SPY ($4,445)
 
 
 ---
@@ -65,5 +59,5 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 ## Weekly Trade Count
 
-Trades placed this week: 0 / 3 max
+Trades placed this week: 1 / 3 max
 Market open: Yes
