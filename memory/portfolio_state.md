@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-07-28 19:59 UTC
+**Last Updated**: 2026-07-29 20:01 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,147.79 |
-| Rocket's Allocated Slice (30%) | $3,044.34 |
-| Cash Available (shared, pooled) | $916.65 |
-| Total Invested (both agents) | $9,231.14 |
+| Shared Account Value (Bull + Rocket) | $9,969.92 |
+| Rocket's Allocated Slice (30%) | $2,990.98 |
+| Cash Available (shared, pooled) | $916.64 |
+| Total Invested (both agents) | $9,053.28 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +0.42% |
-| SPY return since rebase | -0.16% |
-| Rocket vs SPY | +0.58% |
+| Rocket return since rebase | -1.34% |
+| SPY return since rebase | -1.69% |
+| Rocket vs SPY | +0.35% |
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -33,9 +33,9 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Current Price | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|----------------|-------|
-| IWM | 9 | $291.50 | $293.45 | $+17.59 | +0.7% |
-| JPM | 6 | $313.30 | $357.46 | $+264.94 | +14.1% |
-| SPY | 6 | $741.26 | $740.87 | $-2.40 | -0.1% |
+| IWM | 9 | $291.50 | $288.26 | $-29.17 | -1.1% |
+| JPM | 6 | $313.30 | $347.39 | $+204.54 | +10.9% |
+| SPY | 6 | $741.26 | $729.10 | $-72.99 | -1.6% |
 
 ---
 
@@ -43,8 +43,8 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's positions** (1): IWM ($2,641)
-- **Bull's positions** (2): JPM ($2,145), SPY ($4,445)
+- **Rocket's positions** (1): IWM ($2,594)
+- **Bull's positions** (2): JPM ($2,084), SPY ($4,375)
 
 
 ---
@@ -60,4 +60,4 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 ## Weekly Trade Count
 
 Trades placed this week: 1 / 3 max
-Market open: Yes
+Market open: No

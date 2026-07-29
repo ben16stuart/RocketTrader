@@ -5,7 +5,135 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Tuesday 2026-07-28 premarket
+## Watchlist — Wednesday 2026-07-29 premarket  ← CURRENT
+
+**Tape**: VIX 18.24 (flat vs 18.67) — under the 22 threshold. R2K futures 2,971.60 **+0.24%**,
+S&P +0.2%, Nasdaq-100 slightly red on continued chip weakness. Tue 7/28 closes: S&P 7,428.78
+(+0.21%), Dow 52,747.32 (+1.03%), Nasdaq 24,876.91 (-0.22%), R2K ~2,953 (+0.19%). 10-yr 4.63%.
+
+⚠️ **Iran strikes RESUMED overnight** — the pause is over. IRGC ballistic missiles at US Mideast
+forces; US/Saudi retaliation in eastern Iraq. **Brent +3.4% to $86.97, WTI +3.6% to $82.09.**
+This matters beyond the headline: the oil re-spike is precisely the inflation impulse that has
+been driving hike pricing. Risk is skewed *more* hawkish than yesterday, not less.
+
+🚨 **FOMC TODAY 2:00 PM ET.** ~62% hold (3.50–3.75%) / **~38% HIKE** (3.75–4.00%). **No SEP,
+no dot plot** — the statement language and Warsh's presser ARE the event. Two hawkish dissents
+expected (Logan, Hammack). A hike surprise hits small caps harder than large.
+
+**Positions**: Rocket holds **IWM 9 sh = $2,648 (86.8% of slice)**. Slice $3,051.49. Buffer
+**$403 (13.2%)**. JPM + SPY are Bull's (reconciler ✅ balanced). Pooled cash $916.64.
+Max satellite ≈ $458 (15%), 1.5% risk ≈ $46.
+
+⚠️ **Cash is 13.2% — above the 10% ceiling with no written bearish thesis.** This is a live
+mandate breach and should be cured today (see Priority 1).
+
+---
+
+### 🚨 PRIORITY 1 — Cure the 13.2% cash breach by deploying the buffer into a satellite
+
+Yesterday (lesson 7a) the buffer was left idle because the only way to deploy it was a whole
+IWM share that would overshoot. **A half-size satellite solves this more cleanly than an IWM
+top-up**: a ~$225 position takes cash from 13.2% → **5.8%**, fully compliant, *without*
+touching the core and without the whole-share granularity problem.
+
+- If a satellite confirms → take it at **half size (~$225, 7.4%)**. Cash → 5.8%. Done.
+- If **nothing confirms** → buy **1 IWM share (~$294)**, taking core to ~96% and cash to 3.6%.
+  The core is explicitly **not market-timed**, so FOMC is not a reason to skip this.
+- Do **not** leave the buffer idle a second session. "No setup confirmed" is a reason to hold
+  more IWM, never a reason to hold 13.2% cash.
+
+---
+
+### PRIORITY 2 — Satellite candidates (both MEDIUM, both FOMC-capped)
+
+**Sizing rule for today: HALF SIZE (~$225 / 7.4%), not the $458 max.** Reason: an FOMC with
+38% hike odds and no dot plot is a genuine binary, and both 7/27 and 7/28 sessions
+pre-committed in writing to "no fresh satellite risk into Wednesday afternoon." A morning
+entry held through 2:00 PM *is* that risk. Half size is the honest compromise between that
+pre-commitment and lesson 7 (missing real catalysts has a cost too). **No new satellite
+entries after 1:30 PM ET today** — do not add into the print.
+
+## NEO — NeoGenomics — Q2 revenue beat, reported after the close 7/28
+- **Catalyst**: Q2 2026 earnings 7/28 AMC. Revenue **$201.7M, +11.2% YoY**, ahead of consensus;
+  non-GAAP EPS **$0.05 vs $0.03 est**. FY guide ~$804M. Premarket **+11.9% to ~$15.00** from
+  the $13.40 close.
+- **Market cap**: $1.745B ✓ (top of range) | **Float: 118.3M** (high — not a low-float mover)
+  | **Short float: 12.4%** (below the 15% squeeze bar — no squeeze fuel)
+- Avg vol 3.16M ✓ | NASDAQ ✓ | US ✓ | above MA50 ($12.18), below MA20 ($14.36)
+- **Entry plan**: gap-and-go. +11.9% is comfortably inside the 20% chase limit. **Enter only on
+  the 9:45–9:50 base with >1.5x avg volume.** Gapping toward the 52-wk high ($15.57) — a clean
+  clear of $15.57 on volume is the constructive version.
+- **Stop**: $13.95 (7% below $15.00)
+- **Target**: +15% ≈ $17.25 (sell 1/3) | +25% ≈ $18.75 (sell 1/3) | trail final 1/3
+- **Size**: half = **15 sh ≈ $225 (7.4%)**. Full size would be 30 sh / $450 / 14.7% — not today.
+- **Conviction: MEDIUM**
+- **Risk / what kills it**: ⚠️ **FY guidance was in-line, NOT raised** — Rocket's earnings edge
+  is "beat *and* raise," and this is only half of that; in-line guides fade. ⚠️ **$275M 0.75%
+  convertible priced ~6/21 with a ~$14.16 conversion strike** — the stock is now *above* strike,
+  so convert-arb desks are short delta and mechanically sell into strength. That is a real
+  overhead ceiling, and it is the single biggest structural negative. (38 days old, so outside
+  Rocket's 2-week dilution disqualifier — a caution, not an auto-skip.) Forward P/E 36.2 is not
+  cheap. High float + low short = no squeeze kicker.
+
+## VRRM — Verra Mobility — Avis contract framework agreement, 7/28
+- **Catalyst**: 7/28 announced agreement on key terms of a new **7-year tolling/violations
+  contract with Avis Budget** — partially reversing the May 2026 termination that cut the stock
+  ~71%. Premarket **~$5.03, +20.3%** from the $4.18 close. **1.4x RelVol — the highest reading
+  in the entire scan.**
+- **Market cap**: $635M ✓ | **Float: 150.3M** (high) | **Short float: 8.6%** (no squeeze)
+- Avg vol 3.42M ✓ | NASDAQ ✓ | US ✓ | 52-wk range **$3.40–$25.57** | below MA20 ($4.20) AND
+  MA50 ($5.62) | trailing P/E 5.1, forward P/E 4.1, analyst target $9.86 (~+95%)
+- **Entry plan**: +20.3% sits right ON the chase limit → **gap-and-go band, base entry only.**
+  Requires a 9:45–9:50 consolidation holding above ~$4.90 on >1.5x volume. Do NOT buy the
+  opening spike.
+- **Stop**: $4.70 (7% below $5.05)
+- **Target**: +15% ≈ $5.81 (sell 1/3) | +25% ≈ $6.31 (sell 1/3) | trail final 1/3
+- **Size**: half = **45 sh ≈ $227 (7.4%)**. Full would be 90 sh / $455 / 14.9% — not today.
+- **Conviction: MEDIUM** (ranked below NEO despite the bigger move)
+- **Risk / what kills it**: ⚠️ The deal is a **"framework agreement," not executed**, and
+  management disclosed terms are **"materially less favorable"** than the prior contract — this
+  is a *relief bounce on a worse deal*, not a growth catalyst. ⚠️ **No CEO** (resigned after the
+  May collapse). ⚠️ **Securities class action, lead-plaintiff deadline 8/4.** ⚠️ **Earnings 8/5**
+  — a near-term binary where the new contract's economics get priced properly. Below both MAs =
+  the multi-month trend is still broken. Cheap can stay cheap.
+
+### Hard skips today
+- **RCKY** — genuinely great Q2 (EPS $1.90 vs $0.35 est, rev $118.4M, +17% AH), $322M cap.
+  **Fails liquidity: ~67k avg volume vs 300k floor.** Cannot size or exit. Skip on rules.
+- **BYRN** +8.4% — **no dated catalyst.** Bouncing off a 52-wk low after a 7/9 Q2 miss
+  (EPS -$0.44 vs +$0.07, rev -42.5% YoY) and Roth downgrade. Short float ~19–23% is the only
+  interesting feature. A bounce is not a catalyst.
+- **DTIL** +9.5% — last real catalyst was **7/8** (EASL PBGENE-HBV data). Stale. Earnings 7/31
+  + $250M shelf + active ATM = financing risk into a binary. Skip.
+- **BCAR** +14.8% — blank-check shell (D. Boral ARC Acquisition). Not an operating company.
+- **TRAX** — yesterday's idea is **DEAD**. Failed its own reclaim trigger at the 7/28 open
+  ($41.25 vs $42.03 required, volume 0.1x vs >1.5x required). No fresh news. Removed from watch.
+- Large caps outside mandate: Bloom Energy, NetApp, IQVIA (all beat/raised, all too big).
+
+### ✅ Scanner FIXED this session (was broken 7 consecutive sessions)
+Root cause: finviz began rendering a **logo cell ahead of the ticker**, shifting every value one
+column left in the `finviz` library's header map — `Ticker` got a stray initial ("B"), `Company`
+held the real ticker ("BCAR"), and the final column (`Volume`) fell off the end entirely. That
+is why symbols were single letters, prices read $0.00, and RelVol was all dashes.
+Fix in `scripts/smallcap_scanner.py`: added `_unshift()` (self-disabling — it only remaps when
+it detects the stray single-char prefix, so it reverts cleanly if finviz changes back) and
+merged the **Overview + Performance + Ownership** table views, since no single view carries
+price, RelVol *and* short float. **RelVol and short float are now live for the first time** —
+`short_squeeze` returned real data (WOLF 71.97%, WYFI 61.12%, LENZ 43.35%).
+
+### Scheduled / still pending (no action)
+- **URGN**: UGN-103 NDA still NOT filed — guidance Q3/2H 2026. Watch for the filing PR.
+- **BLFS**: Q2 confirmed **Aug 6, 2026**.
+- **NEO earnings call detail**: watch for FY guide revision commentary.
+
+**Verdict into the open**: Rocket is already 86.8% invested via the core, so today is *not* a
+cash-vs-market decision — it is a satellite quality decision. **Take NEO at half size only on a
+confirmed 9:45–9:50 base with >1.5x volume; VRRM is the backup on the same terms. If neither
+confirms, buy 1 IWM share to cure the cash breach.** Nothing gets added after 1:30 PM.
+
+---
+
+## Watchlist — Tuesday 2026-07-28 premarket (superseded)
 
 **Tape**: Mixed. VIX 18.67 (up from 17.58). **Russell 2000 futures +1.16%** — small caps are
 the strong side again — but Nasdaq futures wobbled overnight on an Asia chip selloff (NVDA

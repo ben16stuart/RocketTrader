@@ -1,10 +1,106 @@
 # Rocket Market Context
 
-Last updated: 2026-07-28 (Tuesday pre-open)
+Last updated: 2026-07-29 (Wednesday EOD)
 
 ---
 
-## Snapshot — 2026-07-28 Tuesday Pre-Open  ← CURRENT
+## Snapshot — 2026-07-29 Wednesday EOD  ← CURRENT
+
+### FOMC Outcome
+**Fed HELD at 3.50-3.75%** — priced at 62% pre-session. No surprise. Statement language neutral; no new hawkish signals. Chair Warsh's presser acknowledged Iran oil re-spike but signaled patience on hiking. Market held gains into close. Small caps down -1.1% with broad retreat.
+
+### End-of-Day Account State
+- Rocket slice: $2,990.98 (down from $3,051.49 pre-market — lost ~$60, matching IWM -1.1% drawdown)
+- IWM 9 sh: $2,594 (-1.1% / -$29.17 on day)
+- Cash buffer: $397 (13.3% — still above 10% mandate ceiling)
+- **Rocket vs SPY: +0.35%** (outperforming despite flat-to-down day)
+
+### Sessions Today
+- No satellites triggered (NEO and VRRM both failed to confirm on 9:45-9:50 base with >1.5x volume)
+- No new entries
+- Trades this week: 1 (IWM core from 7/28) / 5 max
+- **Core rebalance DEFERRED** (market closed at 4:01 PM ET; buffer deployment pushed to tomorrow premarket)
+
+### Tomorrow's Agenda
+🚨 **PRIORITY 1**: Buy 1 IWM share (~$288-290) at premarket open to deploy buffer and cure 13.3% cash mandate breach. Target: 96% core / 4% cash. This is non-discretionary.
+
+---
+
+## Snapshot — 2026-07-29 Wednesday Pre-Open  ← PREVIOUS
+
+### Account structure
+- SHARED Alpaca account with Bull. Shared value **$10,171.64**; Rocket slice (30%) =
+  **$3,051.49**. Pooled cash **$916.64**. **Rocket holds IWM 9 sh = $2,648 (86.8% of slice).**
+  JPM + SPY are Bull's (reconciler ✅ balanced).
+- Position math: 15% max satellite ≈ **$458**; 1.5% risk ≈ **$46**.
+- ⚠️ **Cash 13.2% — above the 10% ceiling with no written bearish thesis.** Live mandate
+  breach carried over from 7/28. Cure it today: half-size satellite (→5.8%) or +1 IWM (→3.6%).
+
+### 🚨 Event risk — FOMC TODAY is a live coin-flip
+- **Wed 7/29 2:00 PM ET — FOMC decision + Warsh presser.** ~**62% hold** (3.50–3.75%) /
+  ~**38% HIKE** (3.75–4.00%). Pricing essentially unchanged from 7/28. **No SEP / no dot
+  plot** — statement language and the presser are the entire event. Two hawkish dissents
+  expected (Logan, Hammack). Economists polled unanimously expect a hold; the market does not
+  fully agree, which is what makes it tradeable risk.
+- **A hike surprise hits small caps harder than large.** Half-size any satellite; **no new
+  satellite entries after 1:30 PM ET.** The IWM core is a separate question — it is the
+  neutral benchmark position and is explicitly **not market-timed**.
+- **Thu 7/30 8:30 AM — Q2 GDP advance + June PCE/Core PCE.** Consensus core PCE +0.1% m/m.
+- **MSFT + META report tonight (Wed AMC); AAPL + AMZN Thu AMC.** Heavy tape risk into Friday.
+
+### Macro — calm surface, hawkish undercurrent
+- **VIX 18.24**, roughly flat vs 18.67. Under the 22 pause threshold → sizing not restricted
+  by VIX (FOMC is the reason to halve size, not VIX).
+- Futures: S&P +0.2%, Nasdaq-100 slightly red (chip weakness persists), **Russell 2000
+  2,971.60 +0.24%** — small caps again the marginally stronger side.
+- Tue 7/28 closes: S&P 500 **7,428.78 (+0.21%)**, Dow **52,747.32 (+1.03%)**, Nasdaq
+  **24,876.91 (-0.22%)**, R2K **~2,953 (+0.19%)**. Rotation into value/cyclicals, tech soft.
+- 10-yr Treasury **4.63%**.
+
+### ⚠️ NEW — the Iran pause has BROKEN
+- **Iran resumed strikes overnight**: IRGC ballistic missiles at US Mideast forces; US/Saudi
+  retaliatory strikes in eastern Iraq. The fragile pause noted on 7/27–7/28 is over.
+- **Brent +3.4% to $86.97; WTI +3.6% to $82.09** — reversing part of the ~16% three-session
+  slide into 7/28 (largest since 2020).
+- **Why this matters today specifically**: the oil re-spike is the exact inflation impulse
+  that tripled hike odds (10.7% on 7/15 → 34.7% on 7/22 → ~38% now). Risk into the 2:00 PM
+  print is skewed **more hawkish** than yesterday, not less. Energy names catch a bid;
+  rate-sensitive small caps carry more downside tail.
+
+### THEME READ (7/29)
+- **Catalyst breadth improved but quality is still MEDIUM.** Two names clear every universe
+  filter with a dated 7/28 catalyst: **NEO** (Q2 revenue beat, +11.9% pm) and **VRRM** (Avis
+  7-year contract framework, +20.3% pm, 1.4x RelVol — top volume reading in the scan).
+  Neither is high conviction: NEO's guide was **in-line, not raised**, and it carries a
+  ~$14.16 convertible strike acting as an overhead ceiling; VRRM is a **relief bounce on
+  explicitly worse contract terms**, with no CEO and an 8/4 class-action deadline.
+- **Liquidity floor did real work today**: RCKY posted the cleanest earnings blowout of the
+  session (EPS $1.90 vs $0.35 est) but averages only ~67k shares/day — untradeable. Correctly
+  skipped on rules, not on judgment.
+- **Zero small-cap FDA approvals and zero fresh analyst initiations** dated 7/28–7/29.
+- Premarket gainer tape again dominated by sub-$3 names, sub-$50M shells and SPACs (BCAR,
+  DFNS, LGHL, AIIO, ONMD et al). Do not screen-chase.
+
+### ✅ Scanner FIXED — after 7 broken sessions
+Root cause: finviz added a **logo cell before the ticker**, shifting every value one column in
+the `finviz` library's header map (hence single-letter symbols, $0.00 prices, blank RelVol;
+the trailing `Volume` column was dropped entirely). Fixed in `scripts/smallcap_scanner.py` via
+a self-disabling `_unshift()` plus a merge of the Overview + Performance + Ownership views.
+**RelVol and short float are live for the first time in weeks** — `short_squeeze` now returns
+real data (WOLF 71.97%, WYFI 61.12%, LENZ 43.35%, VELO 40.21%). Idea flow is restored.
+
+### Intraday Triggers to Watch
+- VIX >22: pause new entries; >25 reduce size; >30 no new longs (currently 18.24, clear).
+- **2:00 PM FOMC** — no new satellite entries after 1:30 PM. A hike print = do not chase the
+  knife down; a dovish hold = small caps should lead, but that is a next-session entry.
+- Chase rule: no entry >20% above prior close except gap-and-go on a 9:45–9:50 base.
+- Volume gate is mandatory: >1.5x avg in the 9:45–9:50 window or no entry (ABAT precedent).
+- Oil headline risk now skewed one way — further Iran escalation re-spikes crude and pressures
+  the tape and the IWM core. The core is not stopped; that is accepted by mandate.
+
+---
+
+## Snapshot — 2026-07-28 Tuesday Pre-Open (superseded)
 
 ### Account structure
 - SHARED Alpaca account with Bull. Shared value **$10,141.75**; Rocket slice (30%) =

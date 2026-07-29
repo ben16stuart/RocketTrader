@@ -5,6 +5,24 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 
 ---
 
+## 2026-07-29 — Market Close (Wednesday, 4:01 PM ET / 20:01 UTC)
+
+**Decision: No action. Hold IWM overnight. Core rebalance DEFERRED to tomorrow premarket.**
+
+Rocket: 1 position (IWM 9 sh @ $291.50 entry, -1.1% today), 0 satellites, 0 trades this session.
+
+**FOMC outcome**: Fed held at 3.50-3.75% as priced (62% pre-event). Statement neutral; no hawkish surprises. Market down broad (small caps -1.1% with Russell 2000). Rocket -1.34% since rebase vs SPY -1.69% → **+0.35% outperformance**, mostly from IWM core staying invested vs benchmark pull-down.
+
+**Satellite candidates (NEO, VRRM) both failed entry confirmation:**
+- NEO (+11.9% gap) — checked open base 9:45–9:50, volume did NOT exceed 1.5x avg. No entry.
+- VRRM (+20.3% gap at the chase limit) — checked open base, volume insufficient + no CEO after May collapse. No entry.
+
+**Core rebalance:** Rocket slice $2,990.98; IWM $2,594 (86.7%); cash buffer $397 (13.3%). Target core ~96% → deficit $98 (just outside the 3% no-churn band). Market closed at 4:01 PM → no trade executed. **PRIORITY for tomorrow premarket**: Buy 1 IWM share (~$288-290) to deploy buffer and reach 96% deployed / 4% cash. This cures the mandate breach flagged in research_log.md PRIORITY 1.
+
+**Trades this week**: 1 (IWM 7/28) / 5 max. Scan count: NEO, VRRM confirmed to satisfy universe filters; no other fresh catalysts in the session.
+
+---
+
 ## 2026-07-28 — Market Close (Tuesday, 3:55 PM ET)
 
 **Decision: No action needed. Rocket: 1 position (IWM core), 0 satellites, 1 trade today
