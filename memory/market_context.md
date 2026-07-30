@@ -1,10 +1,81 @@
 # Rocket Market Context
 
-Last updated: 2026-07-29 (Wednesday EOD)
+Last updated: 2026-07-30 (Thursday pre-open)
 
 ---
 
-## Snapshot — 2026-07-29 Wednesday EOD  ← CURRENT
+## Snapshot — 2026-07-30 Thursday Pre-Open  ← CURRENT
+
+### Account structure
+- Shared account **$9,995.24**; Rocket slice (30%) = **$2,998.57**. Pooled cash $916.64.
+  **Rocket holds IWM 9 sh = $2,606 (86.9%).** JPM + SPY are Bull's (reconciler ✅ balanced).
+- Max satellite = **$450** (15%); 1.5% risk = **$45**. Trades this week: 1 / 5.
+- **Rocket -1.09% since rebase vs SPY -1.70% → +0.61% relative.** Caveat per mandate: this is
+  now an *invested* book, and the outperformance is IWM-vs-SPY factor drift, not stock
+  selection. `weekly_review` must split beta from skill — do not book this as alpha.
+- ⚠️ **Cash 13.1% — above the 10% ceiling, no bearish thesis. Third straight session.**
+  Deferred 7/28 (whole-share granularity) and 7/29 (market closed first). **Cure today.**
+
+### 🚨 Event risk — inflation data prints ONE HOUR before the open
+- **Thu 7/30 8:30 AM ET — Q2 advance GDP + June PCE/Core PCE.** Consensus GDP **+2.3%**
+  (prior +2.1%); **Core PCE +0.1–0.2% m/m, ~3.3% y/y**, easing from a 3-year-high 3.4%.
+- **Why it matters more than usual**: the Fed held Wednesday at 3.50–3.75% and Warsh signaled
+  patience *despite* the Iran oil re-spike. This is the first inflation read priced against
+  that choice. **A hot core PCE reignites hike odds**, and small caps carry the larger tail.
+- Because the print lands pre-open, Rocket's 9:45–9:50 base rule resolves it naturally — the
+  data is fully digested before any entry is made. No need to alter the entry framework.
+- **MSFT/META reported Wed AMC; AAPL + AMZN report tonight (Thu AMC)** — heavy tape risk
+  into Friday.
+
+### Macro — calm VIX, but the inflation hedges are bid
+- **VIX 19.70 (-4.65%)** — up from 18.24 on 7/29, still comfortably under the 22 pause
+  threshold. Sizing not restricted by VIX.
+- Futures: S&P **+0.40%**, Nasdaq **+0.78%**, **Russell 2,922.40 +0.24%** — a modest bounce.
+- **Wednesday closed red: SPY 729.46 -1.54%, IWM 288.57 -1.64%.** Small caps lagged again on
+  the FOMC session, contradicting the 7/29 EOD read that the market "held gains into close."
+- 10-yr **4.62%**. Dollar 100.76 (flat).
+- ⚠️ **Brent $91.41 (+0.74%)** — the Iran-driven re-spike is **still extending** (was $86.97
+  on 7/29, $86 area on 7/28). WTI $84.48. The geopolitical premium is rebuilding, not fading.
+- ⚠️ **Gold +2.38% to $4,130.90** — the largest single-day cross-asset move on the board and a
+  clear inflation/risk hedge bid the day before core PCE. Read this as the market positioning
+  for a hawkish tail, not as risk-on.
+- **Net read**: futures green and VIX down look benign, but crude extending + gold spiking is
+  the hawkish undercurrent. Treat the surface calm with suspicion until 8:30 clears.
+
+### THEME READ (7/30)
+- **Catalyst breadth is NARROW but quality is UP.** Exactly one name — **BOOM (DMC Global)** —
+  appears in *both* scanners with a real dated catalyst: Q2 sales $157.0M vs $149.1M est, EPS
+  $0.10 vs a forecast loss, **and a raised Q3 guide ($158–168M)**. This is the first genuine
+  **beat-and-raise** of the week; NEO's guide on 7/29 was in-line, which is why it failed.
+- **Caveat on BOOM**: the beat is *sequential*. Sales were flat YoY and adj. EBITDA fell 21%
+  YoY. Net margin is 0.3%. It's a recovery, not growth, and the raise rests entirely on
+  Arcadia — a housing/construction-levered unit that a hawkish PCE repricing hits directly.
+- **The other both-scanner name, DFNS (+71%, 5.7x RelVol), is a textbook trap** and went on
+  the standing avoid list: 1-for-125 reverse split executed purely to hold the Nasdaq listing
+  (139.8M shares → 1.12M), leaving a **0.3M float that turns over ~8x a day**; $27.1M net loss
+  on $3.65M revenue; and a **$20M private placement** = active dilution. The rules rejected
+  this in one `eligibility` call plus one search. Good example of the filters doing real work.
+- **Volume gate did the rest of the screening**: ACH, ARCT, TARA and SPIR all *pass* every
+  universe gate but print RelVol ≤0.1x. Passing the gates is not a catalyst.
+- **Zero small-cap FDA approvals and zero fresh analyst initiations dated 7/29–7/30.** RGNX
+  and OFIX are cited as strong July performers but both catalysts are weeks old — month-long
+  moves are momentum, not catalysts.
+- Premarket gainer tape again dominated by shells and SPACs (BCAR, BTGO, SECZ). Do not chase.
+
+### Intraday Triggers to Watch
+- VIX >22: pause new entries; >25 reduce size; >30 no new longs (currently 19.70, clear).
+- **8:30 AM core PCE** — a hot print pressures rate-sensitive small caps and specifically the
+  BOOM/Arcadia thesis. It resolves before the open, so no entry rule changes; just read it.
+- Chase rule: BOOM at +21.8% is in the 20–35% gap-and-go band → **base entry only**, no spike.
+  If it opens >35% above $5.47 (~$7.39+), it converts to a second-day setup.
+- Volume gate mandatory: >1.5x avg in the 9:45–9:50 window or no entry.
+- Oil headline risk is one-directional right now — further Iran escalation re-spikes crude,
+  pressures the tape and the IWM core. The core is not stopped; that is accepted by mandate.
+- **AAPL + AMZN tonight AMC** — do not carry oversized satellite risk into Friday's open.
+
+---
+
+## Snapshot — 2026-07-29 Wednesday EOD  ← PREVIOUS
 
 ### FOMC Outcome
 **Fed HELD at 3.50-3.75%** — priced at 62% pre-session. No surprise. Statement language neutral; no new hawkish signals. Chair Warsh's presser acknowledged Iran oil re-spike but signaled patience on hiking. Market held gains into close. Small caps down -1.1% with broad retreat.
@@ -26,7 +97,7 @@ Last updated: 2026-07-29 (Wednesday EOD)
 
 ---
 
-## Snapshot — 2026-07-29 Wednesday Pre-Open  ← PREVIOUS
+## Snapshot — 2026-07-29 Wednesday Pre-Open (superseded)
 
 ### Account structure
 - SHARED Alpaca account with Bull. Shared value **$10,171.64**; Rocket slice (30%) =

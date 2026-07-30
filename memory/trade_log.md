@@ -30,6 +30,36 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-07-30 — IWM BUY (Core sleeve — not a satellite)
+
+- **Shares**: 1 @ $291.49 (filled ~9:51 AM ET), IWM position now 10 sh
+- **Catalyst**: N/A — core rebalance. Cures the cash breach flagged 3 consecutive
+  premarket sessions (7/28, 7/29, 7/30): pooled cash had drifted to 13.1% of slice
+  (no written bearish thesis), driven down further overnight when Bull bought SCHW
+  and consumed most of the shared buffer. Per the premarket plan's explicit fallback
+  ("if BOOM does not confirm → buy 1 IWM share"), executed after BOOM failed its base.
+- **Satellite candidates rejected today** (see research_log.md for full detail):
+  - **BOOM** — failed the required 9:45-9:50 base. Real 5-min bars (yfinance) showed
+    a spike to $7.37 at the open (already brushing the >35% ceiling), fading on
+    declining volume each bar, then a break BELOW the $6.40 confirmation level to a
+    $6.27 low on rising (distribution) volume in the 9:45 bar. Not a valid entry —
+    correctly stood aside per lesson "price without volume [holding] = distribution."
+  - **CMCO** — fresh name, +33% on a real Q1 FY27 earnings beat (EPS $0.61 vs $0.27
+    est) with 28.1% short float (squeeze fuel). But real intraday data showed a spike
+    to +42% at the open (past the 35% ceiling) fading hard on declining volume, AND a
+    10:00 AM ET earnings call still ahead — a live binary. Skipped; watch post-call
+    and tomorrow for a cleaner second-day setup.
+  - **XRX** — +24-25% on a genuine Q2 earnings beat (EPS $0.38 vs $0.03), but prior
+    close was $2.64 — this is a sub-$3 stock crossing the floor only today (the exact
+    "sub-$3 trap" the rules exist to avoid), AND intraday high $3.78 was already a
+    +43% gap (past the 35% ceiling). Skipped on both universe and chase-limit grounds.
+- **Stop**: NONE by design (core sleeve, see 7/28 entry below).
+- **Does not count** against the 4-satellite cap or 5-trades/week cap.
+- **Result**: cash breach cured — pooled cash $397.09 (13.1% implied via slice math)
+  → $105.68 (~3.5% of slice) after the buy. Rocket now 10 sh IWM, no satellites.
+
+---
+
 ## 2026-07-28 — IWM BUY (Core sleeve — not a satellite)
 
 - **Shares**: 9 @ $291.50 (filled)

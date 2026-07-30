@@ -5,7 +5,144 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Wednesday 2026-07-29 premarket  ← CURRENT
+## Watchlist — Thursday 2026-07-30 premarket  ← CURRENT
+
+**Tape**: VIX **19.70 (-4.65%)** — up from 18.24 Wednesday but still well under the 22 pause
+threshold. Futures: S&P +0.40%, Nasdaq +0.78%, **Russell 2,922.40 +0.24%**. Wednesday closed
+**red**: SPY 729.46 **-1.54%**, IWM 288.57 **-1.64%** — small caps lagged again post-FOMC.
+10-yr 4.62%. **Brent $91.41 (+0.74%)** — the Iran-driven crude re-spike is *still extending*
+(was $86.97 on 7/29). **Gold +2.38% to $4,130.90** — that is a large one-day inflation/risk
+hedge bid and the single most notable cross-asset move on the board.
+
+🚨 **8:30 AM ET — Q2 advance GDP + June PCE/Core PCE. This prints ONE HOUR before the open.**
+Consensus: GDP **+2.3%** (prior +2.1%); **Core PCE +0.1–0.2% m/m, ~3.3% y/y** easing from a
+3-year-high 3.4%. FOMC held Wednesday at 3.50–3.75%, so this is the first inflation read the
+market gets to price against a Fed that just chose patience. **A hot core PCE reignites hike
+pricing** — and with Brent extending and gold bid, the risk is skewed that way. Rocket's
+9:45–9:50 base-entry rule handles this cleanly: the data is fully digested before any entry.
+
+**Positions**: Rocket holds **IWM 9 sh = $2,606 (86.9% of slice)**. Slice **$2,998.57**.
+Buffer **$392.57 (13.1%)**. JPM + SPY are Bull's (reconciler ✅ balanced). Pooled cash $916.64.
+Max satellite = $450 (15%), 1.5% risk = $45. Trades this week: 1 / 5.
+
+⚠️ **Cash 13.1% — above the 10% ceiling, no written bearish thesis. Third consecutive session
+with this breach.** It was deferred 7/28 (whole-share granularity, lesson 7a) and again 7/29
+(market closed before rebalance). It gets cured today.
+
+---
+
+### 🚨 PRIORITY 1 — Cure the cash breach. Non-discretionary.
+
+- **If BOOM confirms** → take it (sizing below). Cash 13.1% → ~1%. Done, core untouched.
+- **If BOOM does NOT confirm** → buy **1 IWM share (~$289)**, cash 13.1% → **3.5%**.
+  The core is explicitly **not market-timed**; a hot PCE print is not a reason to skip it.
+- **Do not carry this breach into a fourth session.** "Nothing confirmed" means buy IWM.
+
+---
+
+### PRIORITY 2 — Satellite candidate
+
+Only **one** name clears both scanners *and* has a dated, verifiable catalyst. Scanner is
+working for the second straight session — DFNS and BOOM were the only two names appearing in
+**both** `top_movers` and `unusual_volume`, and DFNS is a hard skip (below).
+
+## BOOM — DMC Global — Q2 beat AND raised Q3 guidance, reported 7/29 AMC
+- **Catalyst**: Q2 2026 earnings 7/29 after close. Sales **$157.0M vs $149.1M est** (beat);
+  diluted EPS **$0.10 vs a forecast loss** (beat). Sales and adj. EBITDA came in **at or above
+  the high end of management's own forecast**. **Q3 guide $158–168M — sequentially higher, a
+  genuine raise.** Driver: Arcadia (building products) posted its **strongest sales quarter
+  since Q2 2024**. Closed $5.47, ~$6.49 after-hours, **~$6.60 premarket (+21.8%)** on **2.0x
+  RelVol**. This is the beat-*and*-raise that NEO lacked yesterday.
+- **Market cap**: $111M ✓ | **Float: 18.0M shares** (88% of 20.5M out) — genuinely low float ✓
+  | **Short float: ~1.6%** (308k shares, down 58.8% from mid-June) — **no squeeze fuel**
+- Avg vol 327,874 ✓ (clears the 300k floor, but not by much — size is the real constraint, and
+  15% of slice is only ~$450, so exit liquidity is a non-issue at Rocket's size)
+- NASDAQ ✓ | US-domiciled (Broomfield, CO) ✓ | earnings now **behind** it ✓
+- **Entry plan**: **+21.8% puts this in the 20–35% gap-and-go band — base entry ONLY.**
+  Requires a **9:45–9:50 consolidation holding above ~$6.40 on >1.5x avg volume.** Do NOT buy
+  the opening spike. If it opens above ~$7.30 (>35% gap) the setup converts to second-day.
+- **Stop**: **$6.14** (7% below $6.60)
+- **Target**: +15% ≈ **$7.59** (sell 1/3) | +25% ≈ **$8.25** (sell 1/3) | trail final 1/3
+- **Size**: **55 sh ≈ $363 (12.1% of slice)** — under the 15%/$450 cap, and deliberately sized
+  to the existing $392 buffer so **no IWM sale is required**. Cash → ~1%.
+- **Conviction: MEDIUM-HIGH** — the highest-quality satellite setup Rocket has had since the
+  core went on. It is the only name this week with a beat *and* a raise.
+- **Risk / what kills it**:
+  ⚠️ **The beat is sequential, not YoY.** Sales were merely *level* with Q2 2025 and adj.
+  EBITDA was **down 21% YoY** ($10.7M). This is a recovery off a low base, not growth.
+  ⚠️ **Net income is $0.5M on $157M of sales** — a 0.3% net margin. There is almost no cushion;
+  one soft quarter flips it back to a loss.
+  ⚠️ **Arcadia is housing/construction-levered.** The entire raise rests on it. Today's 8:30
+  PCE print feeding a hawkish repricing hits rate-sensitive building products directly — this
+  is the specific way today's macro can break this specific trade.
+  ⚠️ **DMC has a history of guiding down** — verify no offsetting negative commentary on the
+  call before entry. Q3 guide is conditioned on "macroeconomic conditions remain supportive."
+  ⚠️ **No squeeze kicker** (1.6% short float), so this is pure catalyst follow-through.
+  ⚠️ Verify the Arcadia minority-interest/redemption overhang before sizing up beyond plan.
+
+### Hard skips today
+- **DFNS +71%, 5.7x RelVol — HARD SKIP, added to standing avoid list.** T3 Defense ran +49%
+  Mon and +40% Tue and is now +71% premarket, but the "float" is manufactured: a **1-for-125
+  reverse split** cut shares from 139.8M to ~1.12M purely to hold the Nasdaq listing. Float is
+  **0.3M shares** against 2.65M avg daily volume — the entire float turns over ~8x a day.
+  Fundamentals: **$3.65M quarterly revenue against a $27.1M net loss**, negative operating and
+  free cash flow. And decisively: **an announced private placement of up to $20M** — active
+  dilution, which is an automatic disqualifier under Rocket's rule. +71% is also 3.5x the chase
+  limit. This is the exact reverse-split / micro-float / dilution profile the rules exist to
+  refuse. **No entry at any price, no second-day look.**
+- **ACH +9.9%, ARCT +3.8%, TARA +3.7%, SPIR +4.2%** — all pass the universe gates, but all
+  print **RelVol ≤0.1x or blank**. No volume = no catalyst confirmation (ABAT precedent,
+  lesson 2026-06-09). Drift, not catalyst. No further research spent.
+- **BCAR +11.9%** — blank-check shell. Not an operating company. (Repeat of 7/29.)
+- **BYRN +3.5%** — still no dated catalyst; fading from yesterday's +8.4%. Confirmed non-setup.
+- **BKSY +5.6%** — on the standing avoid list ($250M ATM, active dilution).
+- **RGNX / OFIX** — both cited as strong July performers (+28% each on an FDA resubmission
+  alignment and a CMS reimbursement reversal), but **both catalysts are weeks old**. Month-long
+  moves are not dated catalysts (lesson 2026-06-10: momentum ≠ catalyst). No entry.
+- **TDOC -19.6%** — a decliner, and $1.33B cap. Not a long. Noted only as tape color.
+- **NEO / VRRM** — yesterday's candidates. Both **failed their own 9:45–9:50 volume base** and
+  were correctly not taken. Neither shows a fresh trigger today. **Removed from watch.**
+
+### Scheduled / still pending (no action)
+- **URGN**: UGN-103 NDA still NOT filed — guidance Q3/2H 2026. Watch for the filing PR.
+- **BLFS**: Q2 confirmed **Aug 6, 2026**.
+- **ARCT** earnings 8/6, **TARA** 8/11, **SPIR** 8/12 — possible future catalysts, no action now.
+
+**Verdict into the open**: Rocket is 86.9% invested via the core, so today is again a satellite
+*quality* decision, not a cash-vs-market one — **except** that the 13.1% cash breach is now
+three sessions old and must close today. **Take BOOM at 55 sh (~$363) only on a confirmed
+9:45–9:50 base above ~$6.40 with >1.5x volume. If it fails to confirm, buy 1 IWM share.**
+Either path ends the breach. Nothing else on the board earns risk.
+
+### ✅ market_open outcome (9:51 AM ET)
+
+**BOOM failed its base — no entry.** Real 5-min bars (yfinance, not the finviz snapshot)
+showed the required confirmation break down, not hold: open spike to $7.37 (already
+brushing the >35% ceiling), fading volume each bar (336k→65k→27k), then the 9:45 bar broke
+**below** $6.40 to a $6.27 low on rising volume (53k, the highest since the open) — a
+distribution signature, not accumulation. Correctly stood aside.
+
+**Two fresh names surfaced on the open scan, both skipped:**
+- **CMCO** +33% on a real Q1 FY27 beat (EPS $0.61 vs $0.27, 28.1% short float — real squeeze
+  fuel) — but intraday spiked to +42% at the open (past 35%), faded hard on declining volume,
+  and has a **10:00 AM ET earnings call still ahead** (live binary). Watch post-call / tomorrow
+  for a cleaner second-day base — this one has real quality if the chop resolves cleanly.
+- **XRX** +24% on a genuine beat (EPS $0.38 vs $0.03) — but prior close was **$2.64**, so this
+  is a sub-$3 stock crossing the floor only today (the exact trap the rules exist to avoid),
+  and intraday high $3.78 was already a +43% gap. Hard skip on universe + chase grounds.
+
+**Action taken**: bought 1 IWM share (~$291.49) per the plan's fallback — cash breach cured,
+397.09 pooled cash → 105.68 (~3.5% of slice). See trade_log.md 2026-07-30 entry.
+
+**Note for finviz vs real bars**: finviz `detail` RelVol (1.4x) and `unusual_volume` RelVol
+(14.8x for the same BOOM print) disagreed sharply — third time this has been observed
+(lessons_learned 2026-05-26). Pulled raw yfinance 5-min bars directly for BOOM/CMCO/XRX
+instead of trusting either scanner number, and that's what caught BOOM's failed base and
+CMCO/XRX's >35% opening spikes that the scanner's single daily-change % didn't show.
+
+---
+
+## Watchlist — Wednesday 2026-07-29 premarket (superseded)
 
 **Tape**: VIX 18.24 (flat vs 18.67) — under the 22 threshold. R2K futures 2,971.60 **+0.24%**,
 S&P +0.2%, Nasdaq-100 slightly red on continued chip weakness. Tue 7/28 closes: S&P 7,428.78
@@ -133,119 +270,11 @@ confirms, buy 1 IWM share to cure the cash breach.** Nothing gets added after 1:
 
 ---
 
-## Watchlist — Tuesday 2026-07-28 premarket (superseded)
-
-**Tape**: Mixed. VIX 18.67 (up from 17.58). **Russell 2000 futures +1.16%** — small caps are
-the strong side again — but Nasdaq futures wobbled overnight on an Asia chip selloff (NVDA
--5% Monday). Monday close: R2K **+0.6%**, S&P flat, Nasdaq -0.2%. Brent -4.4% to $87.64; the
-US–Iran pause is holding but both sides have already traded violation accusations.
-
-**Today's calendar**: Consumer Confidence 10:00 AM, Richmond Fed. **FOMC day 1 of 2.**
-
-⚠️ **FOMC Wed 7/29 2:00 PM is NOT the freebie yesterday's note assumed.** Market pricing is
-**62% hold / 38% HIKE** to 3.75–4.00% (Chair Warsh). A hike surprise hits small caps harder
-than large. No SEP. **Do not initiate fresh satellite risk into Wednesday afternoon.**
-
-**Positions**: Rocket is **FLAT — 0 positions, ~100% cash.** JPM is Bull's (reconciler ✅
-balanced). Shared account $10,141.75; Rocket slice **$3,042.53**; pooled cash $7,987.75.
-Max satellite ≈ $456 (15%), 1.5% risk ≈ $46.
-
----
-
-### 🚨 PRIORITY 1 — Establish the IWM core. This is the trade today.
-
-Rocket is sitting **~100% cash with no written bearish thesis**, which directly violates the
-core/satellite mandate adopted 2026-07-27 (CLAUDE.md → Portfolio Construction). Cash is not
-neutral; SPY is. Rocket has been flat for weeks while the benchmark stayed invested.
-
-- **Instrument**: **IWM** (Russell 2000) — last $292.91
-- **Action**: BUY **9 shares ≈ $2,636 (86.6% of slice)**, leaving ~$406 (13.4%) to fund a
-  satellite or sit as buffer.
-- **Stop: NONE.** Per mandate — trailing stops on an index lose to buy-and-hold in every
-  tested configuration (SPY 1993–2026: B&H 10.73% CAGR vs 7.98–8.48% stopped).
-- **Does not count** against the 4-satellite cap or the 5-trades/week cap.
-- **If TRAX (below) triggers**, fund it by **selling 2 IWM shares**, not from the buffer.
-- **FOMC caveat, stated honestly**: buying small-cap beta the day before a meeting with 38%
-  hike odds is real risk. But the mandate is explicit — market-timing via cash is the
-  behavior that cost Rocket the last month, and "FOMC might go badly" is not a written
-  bearish thesis with a trigger and an expiry. Establishing core is the disciplined call.
-- **Attribution debt**: IWM is a small-cap factor bet vs a SPY benchmark. Divergence from
-  here is partly beta, not skill. **`weekly_review` must split IWM beta from stock
-  selection** — do not book factor drift as alpha.
-
----
-
-### PRIORITY 2 — Satellite candidates
-
-**Catalyst breadth is NARROW for the second straight session.** Two independent research
-passes surfaced exactly one in-universe name with a fresh dated catalyst — the same name as
-yesterday, now one day older and fading.
-
-#### 1. TRAX — First Tracks Biotherapeutics — anti-CD122 M&A read-through (DAY 2)
-- **Catalyst**: argenx acquiring Forte Biosciences at $77/sh cash (~$2.2B, ~86% premium) for
-  anti-CD122 antibody FB102, announced 7/26–7/27. TRAX's ANB033 is also anti-CD122 → mechanism
-  validation + takeout comp. **Real, but now 1 day stale and not company-specific.**
-- **Verified**: Mon close **$42.03** (+18.3% from $35.52) | intraday high **$46.45** | mcap
-  ~$1.47B ✓ | avg vol 709k–2.59M ✓ | Nasdaq, San Diego ✓ | 34.89M shares out ✓
-- **Premarket 7/28**: ~$40.80, **−2.9%** — giving back, not extending.
-- **🚩 The second-day rule does NOT trigger.** It requires a >25% gap AND a close above the
-  prior day's midpoint. TRAX gapped +18.3% (under the 25% bar) and **closed ~9.5% off its
-  high** — that is distribution into strength, not a strong close. It also never built the
-  9:45–9:50 volume base yesterday's plan required. The setup failed its own test, twice.
-- **Conviction: LOW. Default is NO TRADE.**
-- **Only conditional path**: reclaims **$42.03** (Monday's close) on **>1.5x avg volume**
-  after 9:45. Absent that, leave it alone.
-  - Entry ~$42.03 | Stop $39.09 (7%) | 10 sh ≈ $420 (13.8%) — verified via `alpaca_client.py`
-  - Targets: +15% ≈ $48.33 (sell 1/3) | +25% ≈ $52.54 (sell 1/3) | trail final 1/3
-- **Risk / what kills it**: sympathy trade on someone else's deal (own ANB033 celiac readout
-  not until fiscal Q4 2026); consensus PT $43.875 leaves ~7% headroom; ~10.5M-share resale
-  overhang from a $13.81 placement (holders up ~3x); already faded once on this theme (7/9).
-- **Short interest: still UNVERIFIED.** Do not assume squeeze fuel.
-
-### Hard skips today
-- **MPLT** −72.9% to $9.91 — ZEPHYR Ph2 (7/27): twice-daily met endpoint, **once-daily
-  failed**. Falling knife + fraud-suit notice same day. Not a long.
-- **PRCT** +6.0% — the only dated 7/27 news is a **securities class action**. Not a catalyst.
-- **PMN** +32% premarket on PRECISE-AD interim data — **Toronto-domiciled** and ~103k avg
-  volume. Fails domicile and liquidity.
-- **APLD** — Q4 beat (rev +407% YoY) after the close 7/27, but ~$7.78B cap. Far outside universe.
-- **FRTE/FBRX** ~$77 — cash deal, ~1% spread, upside capped. Do not chase off a gainer screen.
-- **GOSS** ($0.26), **LVWR** ($2.67), **OMH** ($0.17), **ALDX** ($1.76), **OPK** ($1.36) — sub-$3.
-- **DFNS** ($6.3M cap), **BKYI** ($5.2M), **POLA** ($5.4M), **BIYA/EHGO** — below the $50M cap floor / shells.
-- **FIRY** (ex-Skillz) — only identifiable catalyst is a June rebrand. Stale, inconsistent price data.
-
-### Scanner status: BROKEN — 5th consecutive session
-Symbols truncated to a single letter, `$0.00` prices, RelVol all dashes, absurd quotes
-(INSP "$10.68", XERS "$124.58"). **Output is unusable.** Every name this session came from
-web research + `market_data.py`. Verified: none of the scanner names (EVMN, ROLR, UNCY, LIFE,
-JANX, WYFI, UMAC, XERS, BNED) had any dated catalyst in the last 3 days. **This needs fixing —
-it has cost 5 sessions of idea flow.**
-
-### Scheduled / still pending (no action)
-- **URGN**: UGN-103 NDA still NOT filed — guidance Q3/2H 2026. Watch for the filing PR.
-- **BLFS**: Q2 confirmed **Aug 6, 2026**.
-- **ORIC**: stale (Jul 14), heavily covered. Only on a genuinely fresh trigger.
-
-**Verdict into the open: BUY 9 IWM to establish the core. No satellite unless TRAX reclaims
-$42.03 on >1.5x volume after 9:45.** The flat streak ends by getting invested in the
-benchmark sleeve — not by forcing a low-conviction satellite into FOMC week.
-
-### market_open outcome — 2026-07-28
-- **IWM core established**: 9 sh @ $291.50 (~86.4% of slice). No stop, per mandate. See trade_log.md.
-- **TRAX conditional FAILED at open**: $41.25 (below $42.03 reclaim trigger), volume 52k =
-  0.1x avg (need >1.5x). No reclaim, no volume confirmation. **NO TRADE.**
-- **Scanner still broken — 6th consecutive session.** Same signature: truncated single-letter
-  symbols, $0.00 prices, RelVol dashes/blank. `unusual_volume` and `top_movers` output is
-  unusable again this session. Needs an engineering fix — cost 6 sessions of idea flow now.
-- ~$413 (13.6%) of Rocket's slice remains as buffer/satellite dry powder. No new satellite
-  positions this session.
-
----
-
 ## Skip / Avoid List (standing)
 
 | Symbol | Reason |
 |--------|--------|
+| DFNS | 1-for-125 reverse split to hold Nasdaq listing → 0.3M manufactured float; $27.1M net loss on $3.65M revenue; **$20M private placement announced** (active dilution). HARD AVOID. |
 | DRUG | Active dilution (Jan $175M offering @ $90 + ATM on file) + ~1,500% YTD pump profile. HARD AVOID. |
 | BOT | Closed-end fund, not an operating small cap; repeated private placements = active dilution. HARD AVOID. |
 | WOLF | Active S-1 dilution overhang + distressed recovery name. AVOID. |
