@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-07-30 13:52 UTC
+**Last Updated**: 2026-07-30 19:59 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,042.38 |
-| Rocket's Allocated Slice (30%) | $3,012.71 |
-| Cash Available (shared, pooled) | $105.68 |
-| Total Invested (both agents) | $9,936.70 |
+| Shared Account Value (Bull + Rocket) | $10,109.10 |
+| Rocket's Allocated Slice (30%) | $3,032.73 |
+| Cash Available (shared, pooled) | $1,138.88 |
+| Total Invested (both agents) | $8,970.22 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | -0.63% |
-| SPY return since rebase | -0.57% |
-| Rocket vs SPY | -0.06% |
+| Rocket return since rebase | +0.03% |
+| SPY return since rebase | -0.01% |
+| Rocket vs SPY | +0.04% |
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -33,19 +33,23 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Current Price | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|----------------|-------|
-| IWM | 10 | $291.49 | $291.10 | $-3.97 | -0.1% |
-| JPM | 6 | $313.30 | $346.86 | $+201.36 | +10.7% |
-| SCHW | 5 | $103.91 | $103.48 | $-2.15 | -0.4% |
-| SPY | 6 | $741.26 | $737.85 | $-20.49 | -0.5% |
+| IWM | 9 | $292.79 | $292.73 | $-0.54 | -0.0% |
+| JPM | 6 | $313.30 | $350.70 | $+224.40 | +11.9% |
+| SCHW | 5 | $103.91 | $104.46 | $+2.75 | +0.5% |
+| SPY | 5 | $741.26 | $741.85 | $+2.92 | +0.1% |
 
 ---
 
 ## Position Reconciliation
 
-✅ **Balanced.** Every live position is attributed.
+🚨 **Does not balance — see reconciling items below.**
 
-- **Rocket's positions** (1): IWM ($2,911)
-- **Bull's positions** (3): JPM ($2,081), SCHW ($517), SPY ($4,427)
+- **Rocket's positions** (1): IWM ($2,635)
+- **Bull's positions** (2): JPM ($2,104), SCHW ($522)
+
+🚨 **UNATTRIBUTED — held at the broker but in neither trade log:**
+
+  - SPY ($3,709) — do not size against this until ownership is resolved.
 
 
 ---
@@ -61,5 +65,5 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 ## Weekly Trade Count
 
-Trades placed this week: 1 / 3 max
+Trades placed this week: 2 / 3 max
 Market open: Yes

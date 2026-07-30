@@ -5,6 +5,40 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 
 ---
 
+## 2026-07-30 — Market Close (Thursday, ~4:00 PM ET / 19:58 UTC)
+
+**Decision: Trimmed oversized IWM core 10 sh → 9 sh. No satellites to review (0 held).**
+
+Rocket held only IWM (10 sh, bought up to that count at this morning's market_open to
+cure the cash breach). By close, IWM's rally had pushed it to $2,926.90 — **6.5% over**
+the 90%-of-slice core target ($2,729.47, 0 satellites) — so Step 2.5 called for a trim.
+
+**Operational error, caught and corrected same session**: `alpaca_client.py close IWM
+--qty 1` does not support partial quantities — `close` always fully liquidates via
+`DELETE /v2/positions/{symbol}` and silently ignored the `--qty` flag, selling all 10
+shares. Caught immediately via `positions`, corrected with `buy IWM 9` (the right
+command for exact quantities). Net result matches original intent (9 sh, ~3.1% under
+target — closest achievable given whole-share granularity, same tradeoff as lesson 7a)
+but took two orders instead of one. Full detail in trade_log.md; rule change (`sell
+SYMBOL QTY` for partial reductions, `close` only for full exits) logged in
+lessons_learned.md item 11.
+
+**Stats**: SPY +1.71% today (strong rally, consistent with the cooling core-PCE print).
+Rocket's slice ~+1.14% today (~$2,998.57 premarket → $3,032.73 close). Since 7/20
+rebase: Rocket +0.03%, SPY -0.02%, Rocket vs SPY **+0.04%** — cumulative outperformance
+intact, though today in isolation likely lagged SPY's rally since only ~87% of the
+slice was in small-cap beta and cash/rebalancing friction ate a bit more.
+
+**Watchlist for tomorrow**: CMCO (real Q1 beat + 28% short float, watch for a clean
+post-earnings-call base after today's spike-and-fade) and BOOM (genuine beat-and-raise,
+failed today's base — watch for pullback per the missed-catalyst rule). Nothing
+confirmed yet; conviction MEDIUM.
+
+**Trades this week**: IWM core activity only (7/28 buy, 7/30 fallback buy, 7/30
+rebalance trim). 0 satellite trades. ntfy summary sent and confirmed. Pushed to git.
+
+---
+
 ## 2026-07-29 — Market Close (Wednesday, 4:01 PM ET / 20:01 UTC)
 
 **Decision: No action. Hold IWM overnight. Core rebalance DEFERRED to tomorrow premarket.**

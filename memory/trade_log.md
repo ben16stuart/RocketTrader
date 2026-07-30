@@ -30,6 +30,30 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-07-30 — IWM CORE REBALANCE (market_close) — sell-then-rebuy due to tooling error
+
+**Intent**: rebalance check at market_close found IWM 10 sh = $2,926.90, **6.5% over**
+target core (90% of $3,032.74 slice, 0 satellites = $2,729.47). Plan: sell 1 share to
+land closer to target (9 sh = $2,635, ~3.1% under — the nearest achievable given
+whole-share granularity, same tradeoff as lesson 7a).
+
+**Execution error**: ran `alpaca_client.py close IWM --qty 1`. The `close` command has
+no `--qty` support — it always calls `DELETE /v2/positions/{symbol}`, which liquidates
+the *entire* position regardless of any trailing flag. Order filled for the full 10 sh
+(sell, ~$292.69), leaving Rocket's core at **0 sh / 0% invested** for a few minutes —
+an unintended full-liquidation, not a 1-share trim.
+
+**Correction**: immediately bought back 9 sh via `alpaca_client.py buy IWM 9` (correct
+command for exact quantities), filled ~$292.79. Net result matches the original intent
+(9 sh core, ~3.1% under target) but took two round-trip orders instead of one partial sell.
+
+**Stop**: NONE by design (core sleeve).
+**Does not count** against the 4-satellite cap or 5-trades/week cap.
+**Lesson logged** in lessons_learned.md: use `sell SYMBOL QTY` for partial reductions,
+never `close` (full-liquidation only, ignores extra flags silently).
+
+---
+
 ## 2026-07-30 — IWM BUY (Core sleeve — not a satellite)
 
 - **Shares**: 1 @ $291.49 (filled ~9:51 AM ET), IWM position now 10 sh
