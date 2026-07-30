@@ -106,6 +106,143 @@ def screen_momentum(top_n: int = 10) -> list[dict]:
     return results[:top_n]
 
 
+# ---------------------------------------------------------------------------
+# Universe thresholds — the ONE place these live. Mirrors CLAUDE.md's
+# "Investment Universe" section. Rocket's copy of this file sets its own values.
+# ---------------------------------------------------------------------------
+UNIVERSE = {
+    "name":           "Rocket",
+    "min_market_cap": 50_000_000,
+    "max_market_cap": 2_000_000_000,   # small caps only — NOT S&P 500 names
+    "min_avg_volume": 300_000,
+    "min_price":      3.00,            # avoid sub-$3 micro-cap traps
+}
+
+MACRO_TICKERS = [
+    ("^VIX",      "VIX"),
+    ("^TNX",      "10Y yield"),
+    ("ES=F",      "S&P fut"),
+    ("NQ=F",      "Nasdaq fut"),
+    ("RTY=F",     "Russell fut"),
+    ("BZ=F",      "Brent"),
+    ("CL=F",      "WTI"),
+    ("DX-Y.NYB",  "Dollar idx"),
+    ("GC=F",      "Gold"),
+    ("SPY",       "SPY"),
+    ("IWM",       "IWM"),
+]
+
+
+def macro_snapshot() -> str:
+    """Every macro number the premarket routines need, in one batched call.
+
+    Replaces ~28 natural-language web searches per premarket session ("VIX index
+    level today", "Brent crude price today", "S&P 500 futures premarket"...). Each
+    of those was a separate conversation turn that re-sent the whole context, and
+    search often returned a number parsed out of a news snippet rather than the
+    actual quote -- so the agent would re-ask the same question three or four
+    different ways. This is exact, one call, ~250 tokens.
+    """
+    syms = [s for s, _ in MACRO_TICKERS]
+    try:
+        data = yf.download(syms, period="5d", interval="1d",
+                           progress=False, auto_adjust=True)["Close"]
+    except Exception as exc:
+        return f"MACRO SNAPSHOT unavailable ({exc}) — fall back to web search."
+
+    out = ["MACRO SNAPSHOT (yfinance, last close vs prior close)"]
+    for sym, label in MACRO_TICKERS:
+        try:
+            s = data[sym].dropna()
+            last, prev = float(s.iloc[-1]), float(s.iloc[-2])
+            out.append(f"  {label:<12}{last:>11,.2f}   {(last/prev-1)*100:+6.2f}%")
+        except Exception:
+            out.append(f"  {label:<12}{'n/a':>11}")
+    out.append("  (VIX >22 = pause new entries, >25 = reduce size, >30 = no new longs)")
+    return "\n".join(out)
+
+
+def check_eligibility(symbol: str) -> str:
+    """Hard universe check for one ticker: price, volume, cap, float, earnings.
+
+    Replaces searches like "RCKY average daily volume shares outstanding dilution
+    shelf offering", which routinely needed two or three attempts to land a number.
+    Returns an explicit PASS/FAIL per rule so the agent doesn't have to infer it.
+    """
+    sym = symbol.upper()
+    try:
+        tk = yf.Ticker(sym)
+        info = tk.info or {}
+    except Exception as exc:
+        return f"{sym}: lookup failed ({exc})"
+
+    price   = info.get("currentPrice") or info.get("regularMarketPrice")
+    cap     = info.get("marketCap")
+    avgvol  = info.get("averageVolume")
+    shares  = info.get("sharesOutstanding")
+    flt     = info.get("floatShares")
+    exch    = info.get("exchange", "?")
+    name    = info.get("longName", sym)
+
+    lines = [f"{sym} — {name}", f"  exchange {exch}"]
+
+    def verdict(ok):
+        return "PASS" if ok else "**FAIL**"
+
+    # A missing field must never read as a pass -- yfinance has real gaps (CRM
+    # returned no marketCap on 2026-07-29). Say "unknown" loudly instead.
+    if price is None:
+        lines.append("  price          unknown — VERIFY MANUALLY")
+    if cap is None:
+        lines.append("  market cap     unknown — VERIFY MANUALLY (universe gate)")
+    if avgvol is None:
+        lines.append("  avg volume     unknown — VERIFY MANUALLY (universe gate)")
+
+    if price is not None:
+        lines.append(f"  price          ${price:,.2f}" +
+                     (f"   {verdict(price >= UNIVERSE['min_price'])} (min ${UNIVERSE['min_price']})"
+                      if UNIVERSE["min_price"] else ""))
+    if cap is not None:
+        lo, hi = UNIVERSE["min_market_cap"], UNIVERSE["max_market_cap"]
+        ok = (lo is None or cap >= lo) and (hi is None or cap <= hi)
+        rng = f"min ${lo/1e6:,.0f}M" + (f", max ${hi/1e9:,.1f}B" if hi else "")
+        lines.append(f"  market cap     ${cap/1e6:,.0f}M   {verdict(ok)} ({rng})")
+    if avgvol is not None:
+        ok = avgvol >= UNIVERSE["min_avg_volume"]
+        lines.append(f"  avg volume     {avgvol:,.0f}   {verdict(ok)} "
+                     f"(min {UNIVERSE['min_avg_volume']:,})")
+    if shares:
+        lines.append(f"  shares out     {shares/1e6:,.1f}M")
+    if flt:
+        lines.append(f"  float          {flt/1e6:,.1f}M ({flt/shares*100:.0f}% of shares)"
+                     if shares else f"  float          {flt/1e6:,.1f}M")
+
+    # Earnings proximity — both agents gate on this, and it was being searched for.
+    try:
+        cal = tk.calendar
+        ed = None
+        if isinstance(cal, dict):
+            v = cal.get("Earnings Date")
+            ed = (v[0] if isinstance(v, list) and v else v)
+        if ed:
+            days = (pd.Timestamp(ed).tz_localize(None) - pd.Timestamp.now().normalize()).days
+            flag = "  ⚠️ EARNINGS WEEK" if 0 <= days <= 7 else ""
+            lines.append(f"  next earnings  {ed}  ({days:+d} days){flag}")
+        else:
+            lines.append("  next earnings  unknown — verify before entry")
+    except Exception:
+        lines.append("  next earnings  unknown — verify before entry")
+
+    if any("FAIL" in l for l in lines):
+        lines.append("  => OUT OF UNIVERSE — do not trade.")
+    elif any("VERIFY MANUALLY" in l for l in lines):
+        lines.append("  => INCOMPLETE — one or more universe gates could not be checked.")
+    else:
+        lines.append("  => in universe on all checked gates.")
+
+    return "\n".join(lines)
+
+
 def print_chart_summary(symbol: str) -> None:
     df = get_price_history(symbol, period="6mo")
     if df.empty:
@@ -142,12 +279,23 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     if not args:
         print("Usage: market_data.py <command> [args]")
-        print("Commands: price, fundamentals, chart, screen, spy")
+        print("Commands: macro, eligibility, price, fundamentals, chart, screen, spy")
         sys.exit(0)
 
     cmd = args[0].lower()
 
-    if cmd == "price":
+    if cmd == "macro":
+        print(macro_snapshot())
+
+    elif cmd == "eligibility":
+        if len(args) < 2:
+            print("Usage: market_data.py eligibility TICKER [TICKER ...]")
+            sys.exit(1)
+        for s in args[1:]:
+            print(check_eligibility(s))
+            print()
+
+    elif cmd == "price":
         sym = args[1].upper()
         price = get_current_price(sym)
         print(f"{sym}: ${price:.2f}")

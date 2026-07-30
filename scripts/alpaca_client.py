@@ -14,6 +14,12 @@ BASE_URL    = os.environ.get("ALPACA_BASE_URL", "https://paper-api.alpaca.market
 API_KEY     = os.environ.get("ALPACA_API_KEY", "")
 SECRET_KEY  = os.environ.get("ALPACA_SECRET_KEY", "")
 
+# Bull and Rocket share one Alpaca paper account (merged 2026-07-20).
+# Guardrails and position sizing are scaled to each agent's slice of the
+# LIVE shared equity — not a fixed dollar figure — so they stay correct
+# regardless of how the shared account's total balance moves.
+AGENT_EQUITY_PCT = 0.30  # Rocket's share of the shared account
+
 HEADERS = {
     "APCA-API-KEY-ID":     API_KEY,
     "APCA-API-SECRET-KEY": SECRET_KEY,
@@ -128,37 +134,42 @@ def liquidate_all() -> None:
 
 
 def calculate_shares(symbol: str, entry_price: float, stop_price: float) -> dict:
-    """Calculate position size using 2% risk rule with 20% portfolio cap."""
+    """Calculate position size using Rocket's 1.5% risk rule with 15% cap,
+    scaled to Rocket's AGENT_EQUITY_PCT slice of the shared account."""
     account = get_account()
-    portfolio_value = float(account["portfolio_value"])
+    shared_account_value = float(account["portfolio_value"])
+    allocated_equity      = shared_account_value * AGENT_EQUITY_PCT
 
-    risk_dollars   = portfolio_value * 0.02
+    risk_dollars   = allocated_equity * 0.015
     stop_distance  = abs(entry_price - stop_price)
     if stop_distance == 0:
         return {"error": "stop_price equals entry_price"}
 
     shares_from_risk = int(risk_dollars / stop_distance)
-    max_shares       = int((portfolio_value * 0.20) / entry_price)
+    max_shares       = int((allocated_equity * 0.15) / entry_price)
     final_shares     = min(shares_from_risk, max_shares)
     position_value   = final_shares * entry_price
 
     return {
-        "symbol":           symbol.upper(),
-        "entry_price":      entry_price,
-        "stop_price":       stop_price,
-        "portfolio_value":  portfolio_value,
-        "risk_dollars":     round(risk_dollars, 2),
-        "shares_from_risk": shares_from_risk,
-        "max_shares":       max_shares,
-        "final_shares":     final_shares,
-        "position_value":   round(position_value, 2),
-        "pct_of_portfolio": round(position_value / portfolio_value * 100, 1),
+        "symbol":              symbol.upper(),
+        "entry_price":         entry_price,
+        "stop_price":          stop_price,
+        "shared_account_value": shared_account_value,
+        "allocated_equity":    round(allocated_equity, 2),
+        "risk_dollars":        round(risk_dollars, 2),
+        "shares_from_risk":    shares_from_risk,
+        "max_shares":          max_shares,
+        "final_shares":        final_shares,
+        "position_value":      round(position_value, 2),
+        "pct_of_allocated":    round(position_value / allocated_equity * 100, 1) if allocated_equity else 0,
     }
 
 
 def print_account_summary() -> None:
     a = get_account()
-    print(f"Account Value:   ${float(a['portfolio_value']):,.2f}")
+    shared_value = float(a['portfolio_value'])
+    print(f"Shared Account Value: ${shared_value:,.2f}  (Bull + Rocket)")
+    print(f"Rocket's Allocated Slice ({AGENT_EQUITY_PCT:.0%}): ${shared_value * AGENT_EQUITY_PCT:,.2f}")
     print(f"Cash:            ${float(a['cash']):,.2f}")
     print(f"Buying Power:    ${float(a['buying_power']):,.2f}")
     print(f"Unrealized P&L:  ${float(a.get('unrealized_pl', 0)):,.2f}")

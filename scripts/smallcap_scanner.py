@@ -46,33 +46,92 @@ SP500_EXCLUDE = {
 # Finviz screener helpers
 # ---------------------------------------------------------------------------
 
+def _unshift(row: dict) -> dict:
+    """Correct finviz's off-by-one column shift.
+
+    Finviz renders a logo cell ahead of the ticker, so every value lands under the
+    preceding column's header ('Ticker' gets a stray initial, 'Company' gets the real
+    ticker) and the final column falls off the end. Detected by the stray value being a
+    single character that prefixes the real ticker; returns the row untouched otherwise
+    so this self-disables if finviz reverts.
+    """
+    keys = list(row.keys())
+    vals = list(row.values())
+    if len(keys) < 3:
+        return row
+    stray, real = str(vals[1]), str(vals[2])
+    if len(stray) != 1 or not real.startswith(stray):
+        return row
+    fixed = {keys[0]: vals[0]}
+    for i in range(1, len(keys) - 1):
+        fixed[keys[i]] = vals[i + 1]
+    fixed[keys[-1]] = ""  # last column is truncated by the shift
+    return fixed
+
+
+def _screen_table(filters: list, order: str, limit: int, table: str) -> dict:
+    """Fetch one finviz table view, de-shifted, keyed by ticker."""
+    try:
+        rows = Screener(filters=filters, order=order, rows=limit, table=table).data
+    except Exception as e:
+        print(f"Finviz screener error ({table}): {e}")
+        return {}
+    out = {}
+    for r in rows:
+        r = _unshift(r)
+        sym = r.get("Ticker", "")
+        if sym:
+            out[sym] = r
+    return out
+
+
 def _run_screener(filters: list, order: str = "-change", limit: int = 30) -> list[dict]:
-    """Run finviz screener with given filters. Returns list of ticker dicts."""
+    """Run finviz screener with given filters. Returns list of ticker dicts.
+
+    Merges three table views because no single one carries every field Rocket needs:
+    Overview (price/cap/sector), Performance (rel + avg volume), Ownership (float/short).
+    """
     if not HAS_FINVIZ:
         return []
-    try:
-        stock_list = Screener(filters=filters, order=order, rows=limit)
-        results = []
-        for s in stock_list.data:
-            ticker = s.get("Ticker", "")
-            if not ticker or ticker in SP500_EXCLUDE:
-                continue
-            results.append({
-                "symbol":       ticker,
-                "company":      s.get("Company", ""),
-                "sector":       s.get("Sector", ""),
-                "price":        _safe_float(s.get("Price")),
-                "change_pct":   _safe_float(s.get("Change", "").rstrip("%")),
-                "volume":       _safe_int(s.get("Volume", "").replace(",", "")),
-                "avg_volume":   _safe_int(s.get("Avg Volume", "").replace(",", "")),
-                "market_cap":   s.get("Market Cap", ""),
-                "short_float":  s.get("Short Float", ""),
-                "rel_volume":   _safe_float(s.get("Rel Volume")),
-            })
-        return results
-    except Exception as e:
-        print(f"Finviz screener error: {e}")
+
+    overview = _screen_table(filters, order, limit, "Overview")
+    if not overview:
         return []
+    perf = _screen_table(filters, order, limit, "Performance")
+    own = _screen_table(filters, order, limit, "Ownership")
+
+    results = []
+    for ticker, s in overview.items():
+        if ticker in SP500_EXCLUDE:
+            continue
+        p = perf.get(ticker, {})
+        o = own.get(ticker, {})
+        results.append({
+            "symbol":       ticker,
+            "company":      s.get("Company", ""),
+            "sector":       s.get("Sector", ""),
+            "price":        _safe_float(s.get("Price")),
+            "change_pct":   _safe_float(s.get("Change", "").rstrip("%")),
+            "volume":       _safe_int(o.get("Volume", "").replace(",", "")),
+            "avg_volume":   _parse_vol(p.get("Avg Volume", "")),
+            "market_cap":   s.get("Market Cap", ""),
+            "short_float":  o.get("Short Float", ""),
+            "float":        _parse_vol(o.get("Float", "")),
+            "rel_volume":   _safe_float(p.get("Rel Volume")),
+        })
+    return results
+
+
+def _parse_vol(val) -> int:
+    """Parse finviz abbreviated volume/share counts ('726.36K', '29.20M') to int."""
+    s = str(val).strip().replace(",", "")
+    if not s or s == "-":
+        return 0
+    mult = {"K": 1_000, "M": 1_000_000, "B": 1_000_000_000}.get(s[-1].upper())
+    try:
+        return int(float(s[:-1]) * mult) if mult else int(float(s))
+    except ValueError:
+        return 0
 
 
 def _safe_float(val) -> float:

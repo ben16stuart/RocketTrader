@@ -9,22 +9,30 @@ from datetime import datetime, timezone
 
 # Allow running from project root
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from scripts.alpaca_client import get_account, get_positions, get_open_orders, is_market_open
+from scripts.alpaca_client import get_account, get_positions, get_open_orders, is_market_open, AGENT_EQUITY_PCT
 
 MEMORY_FILE = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
     "memory", "portfolio_state.md"
 )
 
-INCEPTION_DATE = "2026-04-20"
-INCEPTION_PORTFOLIO_VALUE = 10_000.00
+# Original standalone-account inception (kept for historical reference in weekly_reviews/).
+ORIGINAL_INCEPTION_DATE = "2026-04-20"
+
+# Bull and Rocket merged onto one shared Alpaca account on this date. From here forward,
+# "return since inception" tracks Rocket's AGENT_EQUITY_PCT slice of the shared account,
+# rebased at the moment of the merge — not the original standalone $100k baseline, which
+# no longer applies once the account is shared. Prior performance is preserved in
+# memory/weekly_reviews/ and is not erased, just no longer the live tracking baseline.
+REBASE_DATE = "2026-07-20"
+REBASE_ALLOCATED_VALUE = 3_031.73  # Rocket's 30% slice of $10,105.77 shared value at rebase
 
 
 def get_spy_return_since_inception() -> float:
     try:
         sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
         from scripts.market_data import get_spy_return
-        return get_spy_return(INCEPTION_DATE)
+        return get_spy_return(REBASE_DATE)
     except Exception:
         return 0.0
 
@@ -57,14 +65,16 @@ def build_snapshot() -> str:
     positions = get_positions()
     orders    = get_open_orders()
 
-    portfolio_value = float(account["portfolio_value"])
-    cash            = float(account["cash"])
-    invested        = portfolio_value - cash
-    unrealized_pl   = float(account.get("unrealized_pl", 0))
+    shared_account_value = float(account["portfolio_value"])
+    cash                 = float(account["cash"])
+    unrealized_pl        = float(account.get("unrealized_pl", 0))
 
-    bull_return = (portfolio_value - INCEPTION_PORTFOLIO_VALUE) / INCEPTION_PORTFOLIO_VALUE * 100
-    spy_return  = get_spy_return_since_inception()
-    vs_spy      = bull_return - spy_return
+    allocated_equity = shared_account_value * AGENT_EQUITY_PCT
+    invested         = shared_account_value - cash
+
+    rocket_return = (allocated_equity - REBASE_ALLOCATED_VALUE) / REBASE_ALLOCATED_VALUE * 100
+    spy_return    = get_spy_return_since_inception()
+    vs_spy        = rocket_return - spy_return
 
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
@@ -75,7 +85,7 @@ def build_snapshot() -> str:
         f"# Portfolio State",
         f"",
         f"**Last Updated**: {now_str}",
-        f"**Account**: Alpaca Paper Trading",
+        f"**Account**: Alpaca Paper Trading — SHARED with Bull (merged {REBASE_DATE})",
         f"",
         f"---",
         f"",
@@ -83,19 +93,27 @@ def build_snapshot() -> str:
         f"",
         f"| Metric | Value |",
         f"|--------|-------|",
-        f"| Account Value | ${portfolio_value:,.2f} |",
-        f"| Cash Available | ${cash:,.2f} |",
-        f"| Invested | ${invested:,.2f} |",
-        f"| Unrealized P&L | ${unrealized_pl:+,.2f} |",
-        f"| Bull return since inception | {bull_return:+.2f}% |",
-        f"| SPY return since inception | {spy_return:+.2f}% |",
-        f"| Bull vs SPY | {vs_spy:+.2f}% |",
+        f"| Shared Account Value (Bull + Rocket) | ${shared_account_value:,.2f} |",
+        f"| Rocket's Allocated Slice ({AGENT_EQUITY_PCT:.0%}) | ${allocated_equity:,.2f} |",
+        f"| Cash Available (shared, pooled) | ${cash:,.2f} |",
+        f"| Total Invested (both agents) | ${invested:,.2f} |",
+        f"| Unrealized P&L (shared) | ${unrealized_pl:+,.2f} |",
+        f"| Rocket return since rebase | {rocket_return:+.2f}% |",
+        f"| SPY return since rebase | {spy_return:+.2f}% |",
+        f"| Rocket vs SPY | {vs_spy:+.2f}% |",
         f"",
-        f"**Inception Date**: {INCEPTION_DATE}",
+        f"**Rebase Date**: {REBASE_DATE} (account merged with Bull — prior standalone",
+        f"history since {ORIGINAL_INCEPTION_DATE} is preserved in memory/weekly_reviews/)",
+        f"",
+        f"⚠️ **Cash and buying power above are POOLED with Bull.** Before sizing any",
+        f"trade, check actual available cash — do not assume the full allocated slice",
+        f"is available if Bull has open positions consuming shared cash.",
         f"",
         f"---",
         f"",
-        f"## Open Positions",
+        f"## Open Positions (shared account — yours AND Bull's)",
+        f"",
+        f"Ownership is reconciled below — do not re-derive it from the trade log.",
         f"",
     ]
 
@@ -116,6 +134,22 @@ def build_snapshot() -> str:
             )
     else:
         lines.append("*No open positions.*")
+
+    # Reconcile both books against the broker before anything downstream sizes a
+    # trade off this file. Wrapped in try/except on purpose: this is a diagnostic
+    # layer inside a live trading routine, and it must never be the reason
+    # market_close fails to produce a snapshot.
+    try:
+        from scripts.position_reconciler import reconcile, format_report
+        _repo = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        _rec = reconcile(positions, _repo, "Rocket", "Bull")
+        lines += ["", "---", ""] + format_report(_rec, positions)
+    except Exception as _exc:
+        lines += [
+            "", "---", "", "## Position Reconciliation", "",
+            f"⚠️ Reconciliation unavailable ({_exc}). Ownership is UNVERIFIED this",
+            "session — confirm manually before sizing any trade.", "",
+        ]
 
     lines += [
         f"",
