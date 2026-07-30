@@ -1,6 +1,7 @@
 # Rocket Midday Routine
 
 **Schedule**: 12:00 PM ET, Monday–Friday
+**Model**: sonnet  (tier — resolved to newest Sonnet; mechanical execution, Opus not needed)
 
 ---
 

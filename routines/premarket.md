@@ -1,6 +1,7 @@
 # Rocket Pre-Market Routine
 
 **Schedule**: 6:00 AM ET, Monday–Friday
+**Model**: opus  (tier — resolved to newest Opus; catalyst analysis + conviction ranking = real financial analysis)
 
 ---
 
@@ -47,11 +48,31 @@ Also search the web for:
 
 ### STEP 3 — CATALYST VALIDATION
 
-For each candidate from Step 2, run through the 5-step check:
+**Screen the universe gates FIRST — one command per candidate, no searching:**
+
+```bash
+python scripts/market_data.py eligibility TICKER1 TICKER2 TICKER3
+```
+
+It returns price, market cap, average volume, shares outstanding, float, next
+earnings date, and an explicit PASS/**FAIL** against Rocket's universe
+($50M–$2B cap, >$3, >300k volume), ending in a one-line verdict.
+
+**Drop every FAIL immediately and do not research it further.** On 2026-07-29 RCKY
+took several searches ("Rocky Brands RCKY average daily volume shares outstanding
+dilution shelf offering") — this command rejects it in one call: average volume
+58,034 against a 300,000 minimum. That research was spent on a name the rules
+already excluded.
+
+If a gate comes back `unknown — VERIFY MANUALLY`, yfinance has a data gap. Verify it
+before trading; never treat a missing number as a pass.
+
+Then, for survivors only, apply judgment — this is the part that needs reasoning
+rather than lookups:
 1. What is the SPECIFIC catalyst? (earnings beat / FDA / contract / volume breakout)
-2. Market cap $50M-$2B? Price >$3? Volume >300k?
-3. Float size? Low float (<50M shares) preferred
-4. Short float %? If >15% + catalyst = flag as squeeze candidate
+2. Short float %? If >15% + catalyst = flag as squeeze candidate
+3. Is the catalyst already priced in? (gap vs 52w high, vs analyst target)
+4. Dilution risk — recent shelf/offering? (this one may need a search)
 5. What kills this trade? What's the bear case?
 
 Eliminate any stock without a clear, verifiable catalyst.
@@ -75,12 +96,34 @@ Write up to 5 ranked trade ideas in `memory/research_log.md`. Format each as:
 
 ---
 
+**If nothing clears the bar, the default is to hold IWM — not to hold cash.**
+An empty watchlist is a reason to sit in the benchmark, never a reason to sit in
+cash. Cash above the 10% buffer is an active bet that the market falls and requires
+a written bearish thesis here, with a trigger and an expiry date. "Nothing looked
+good" is not a bearish thesis.
+
+---
+
 ### STEP 5 — MACRO CHECK
 
-Quick check — is today's macro environment favorable for small cap risk?
-- VIX level? (above 25 = reduce size; above 30 = no new longs)
-- Are futures up or down? Small caps amplify market direction
-- Any major economic data today that could whipsaw the tape?
+**One command — do not web-search for these numbers:**
+
+```bash
+python scripts/market_data.py macro
+```
+
+Returns VIX, futures (including **Russell**, which is your benchmark-adjacent tape),
+Brent, WTI, dollar, gold, SPY and IWM with % changes. Exact, one call, ~250 tokens.
+
+Read it against your rules:
+- VIX above 25 = reduce size; above 30 = no new longs
+- Russell futures direction — small caps amplify market direction
+- Then **one** search, only for scheduled data/events today that could whipsaw the tape
+
+On 2026-07-29 this step was done as a dedicated research subagent making 33 searches.
+It cost ~716k tokens and Rocket's premarket then died on a session limit before it
+could write anything at all. Do not spawn a subagent for macro levels — run the
+command.
 
 Update `memory/market_context.md` if anything meaningful changed.
 

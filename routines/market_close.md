@@ -1,6 +1,7 @@
 # Rocket Market Close Routine
 
 **Schedule**: 3:55 PM ET, Monday–Friday
+**Model**: sonnet  (tier — resolved to newest Sonnet; mechanical execution, Opus not needed)
 
 ---
 
@@ -53,6 +54,39 @@ python scripts/alpaca_client.py cancel_stops SYMBOL
 
 ---
 
+### STEP 2.5 — CORE REBALANCE (IWM)
+
+**This is the only session that rebalances. Never do this intraday.**
+
+The benchmark is the neutral position — see Portfolio Construction in CLAUDE.md.
+Idle cash is an active bet that the market falls, so it gets swept into core.
+
+1. Read the `## Position Reconciliation` block in `memory/portfolio_state.md` to see
+   which positions are **yours**. Never infer ownership yourself.
+2. Compute your slice: `slice = shared_account_value * AGENT_EQUITY_PCT`.
+3. Compute your deployed value = sum of the market value of YOUR positions
+   (satellites + any existing IWM).
+4. Compute `target_core = slice - satellite_value - (slice * 0.10)`.
+   The 0.10 is the 10% operating buffer.
+5. Compare to your current IWM holding:
+   - **short by more than 3% of slice** → BUY IWM to close the gap
+   - **over by more than 3% of slice** → SELL IWM down to target
+   - **within 3%** → do nothing. The band exists to prevent daily churn.
+6. **Do NOT place a trailing stop on IWM.** It is the benchmark; a stop on it is a
+   bet against positive drift and the backtest says that bet loses. Satellites keep
+   their stops.
+7. Log any IWM trade in `memory/trade_log.md` marked `CORE REBALANCE`, so core
+   activity is never mistaken for a conviction trade in weekly attribution.
+
+**Skip the rebalance entirely if**: the market is closed, a bearish cash thesis is
+active and unexpired in `research_log.md`, or the daily loss cap has been hit (which
+stops NEW positions — it never forces liquidation).
+
+If cash is above the buffer and there is no written bearish thesis, that is a rule
+violation: either write the thesis or deploy into IWM. Do not leave it undecided.
+
+---
+
 ### STEP 3 — LOG ALL FILLS
 
 Check for any orders that filled today that aren't yet in trade_log.md. Add them:
@@ -81,22 +115,28 @@ Calculate:
 
 ### STEP 5 — SEND NTFY SUMMARY
 
-```
-python scripts/ntfy_notify.py
-```
+`ntfy_notify.py` takes **two positional arguments: title, then body.** Calling it bare
+prints a usage error and exits 1 — it sends nothing. Run it exactly like this, with the
+message passed as the second argument:
 
-Format the message:
-```
-🚀 Rocket Daily — [DATE]
-Portfolio: $X,XXX ([+/-X.XX%] today)
+```bash
+python scripts/ntfy_notify.py \
+  "🚀 Rocket Daily — [DATE]" \
+  "Portfolio: $X,XXX ([+/-X.XX%] today)
 SPY: [+/-X.XX%] | Rocket vs SPY: [+/-X.XX%] since start
 
 Positions: X open | Trades today: X
 [If trades today, one-line each: BUY/SELL SYMBOL @ $XX (+/-X.X%)]
 
 Tomorrow's watchlist: [2-3 tickers with one-word catalyst]
-Conviction: HIGH / MEDIUM / LOW
+Conviction: HIGH / MEDIUM / LOW"
 ```
+
+**Verify before reporting.** The command must print `Notification sent: ...`. If it
+prints a usage line, a `Failed to send` error, or nothing, the notification did NOT go
+out — say so plainly in your summary. Do not write "ntfy sent" unless you saw that
+confirmation. Composing the text, writing it to a file, or echoing it to stdout is not
+sending it.
 
 ---
 
