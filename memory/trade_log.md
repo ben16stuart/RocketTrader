@@ -4,6 +4,25 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-07-31 — IWM CORE REBALANCE (market_close) — SELL 1 sh
+
+- **Shares**: sold 1 @ $291.11 (filled 19:58:57 UTC), IWM position now 9 sh (avg cost
+  basis unchanged $292.31)
+- **Catalyst**: N/A — core rebalance, not a satellite trade. No satellites held (0
+  open), so target_core = slice − 0 − 10% buffer = $3,043.69 − $304.37 = $2,739.32.
+  Pre-trade IWM value was 10 sh × $291.09 = $2,910.90, **5.65% over** target (band is
+  3%). Post-trade 9 sh × $291.11 ≈ $2,619.99, **3.92% under** target — closer to
+  target than staying at 10 sh, so the trim was taken per lesson 7a (only skip a
+  band-breach fix if the nearest whole-share trade would overshoot *worse* than doing
+  nothing; here it doesn't).
+- **Stop**: NONE by design (core sleeve).
+- **Does not count** against the 4-satellite cap or 5-trades/week cap.
+- **Result**: Rocket now 9 sh IWM, no satellites. Whole-share granularity (1 sh ≈
+  9.6% of slice) keeps causing this back-and-forth — same open thread as 7/28 and
+  7/30, still worth a fractional-order fix at weekly_review.
+
+---
+
 ## 2026-07-31 — IWM BUY (Core sleeve — not a satellite)
 
 - **Shares**: 1 @ ~$289.64 (filled ~9:06 AM ET), IWM position now 10 sh (avg $292.31)

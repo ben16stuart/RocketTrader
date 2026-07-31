@@ -1,10 +1,95 @@
 # Rocket Market Context
 
-Last updated: 2026-07-30 (Thursday pre-open)
+Last updated: 2026-07-31 (Friday, 10:05 AM ET — session ran late, see below)
 
 ---
 
-## Snapshot — 2026-07-30 Thursday Pre-Open  ← CURRENT
+## Snapshot — 2026-07-31 Friday  ← CURRENT
+
+### 🚨 Operational — the premarket routine fired ~85 minutes late
+Session started **10:04 AM ET with the market already open**. The 9:45–9:50 base-confirmation
+window had passed before any analysis existed, so today's bases were read *after the fact*
+rather than traded live. No trades placed (per instruction). This is the **second consecutive
+session with an operational failure** — 7/30's was the `close --qty` full liquidation
+(lesson 11). **Both belong in weekly_review; check the premarket job's schedule.**
+
+### Account structure
+- Shared account **$10,078.66**; Rocket slice (30%) = **$3,023.60**. Pooled cash $1,138.86.
+  **Rocket holds IWM 9 sh = $2,607 (86.3%).** JPM + SCHW are Bull's.
+- ⚠️ **Reconciler does NOT balance**: **SPY (5 sh, $3,705) is UNATTRIBUTED** — in neither
+  agent's trade log. Do not size against it. Resolve at weekly_review.
+- Max satellite = **$453** (15%); 1.5% risk = **$45**. Satellite trades this week: **0 / 5**.
+- **Rocket -0.27% since rebase vs SPY -0.15% → -0.12% relative.** The +0.61% edge on 7/30 has
+  fully reversed and flipped negative in one session — because **IWM fell -1.02% while SPY
+  fell -0.10%**. This is the IWM-vs-SPY factor bet the mandate warned about, working against
+  Rocket now exactly as it worked for it last week. It was never skill in either direction.
+- ⚠️ **Cash back to 13.7% — above the 10% ceiling, no bearish thesis.** Cured Thursday
+  morning (10 IWM sh), re-opened Thursday afternoon when the market_close rebalance landed
+  on 9 shares and IWM then drew down. Whole-share granularity keeps regenerating this
+  (lesson 7a) — **a satellite is the correct cure, not another IWM top-up.**
+
+### Macro — VIX calm, but rates backed up and the Russell is the weak side
+- **VIX 17.54 (+2.63%)** — well under the 22 pause threshold. Sizing unrestricted.
+- **10-yr 4.73% (+1.42%)** — up from 4.62% on 7/30. This is the meaningful move: the hawkish
+  read of Thursday's PCE showing up in the long end.
+- Futures: S&P **-0.05%**, Nasdaq **+0.27%**, **Russell 2,934.20 -0.68%** — small caps are
+  clearly the weak side today, which is the direct consequence of the rate back-up.
+- **Thursday closes: SPY 740.96 -0.10%, IWM 289.62 -1.02%.** Small caps underperformed large
+  by ~0.9% in a single session.
+- ⚠️ **Brent $90.16 (+1.27%), WTI $85.43 (+2.20%)** — the Iran-driven crude re-spike is
+  **still extending for a fourth session** ($86.97 → $91.41 → $90.16 area). The inflation
+  impulse behind hike pricing has not faded.
+- **Gold $4,082.40 (-0.43%)** — the panic hedge bid from 7/30 came *off*. Dollar 100.39
+  (+0.38%). So: no fear in vol or gold, but rates and crude are doing the tightening.
+- **Net read**: this is a rates-driven small-cap headwind, not a risk-off event. The IWM
+  core will feel it; it is not stopped, by mandate.
+
+### Calendar
+- **8:30 AM ET — Employment Cost Index** (already out at session start).
+- **10:00 AM ET — Michigan Consumer Survey, final.** No tier-1 event remaining today.
+- **🚨 Mon 2026-08-02 — REPL PDUFA decision.** The biggest small-cap binary on the calendar.
+
+### THEME READ (7/31)
+- **Catalyst quality is the best all week — two genuine names, not one marginal one.**
+  - **CSTL (Castle Biosciences)**: a real **beat-and-raise** — Q2 revenue $103.5M +20% YoY vs
+    ~$86M est, EPS -$0.07 vs -$0.44, **FY guide raised $345–355M → $365–375M**, TissueCypher
+    volume +63%. Trades 34% below its 52-wk high with a $42.78 street target. Base held the
+    9:45 pullback on the lightest volume of the session and reclaimed on rising volume.
+  - **AMCX (AMC Global Media)**: the quarter **missed both lines**, but a **$500M / 5-year
+    Netflix Walking Dead licensing deal** plus a raised FY guide re-rated it. **21.1% short
+    float** — above the squeeze bar — breaking to a **52-week high** on six straight bars of
+    accumulation. Caveat: revenue -8.8% YoY, street target $7.50 vs $11.13 spot, consensus
+    `underperform`. It is a momentum/squeeze trade, not an investment.
+- **The chase rule got its hardest test yet and held: REPL.** FDA AdCom voted **10–3 in
+  favor** of RP1 in advanced melanoma on 7/30, overruling FDA staff and reversing two prior
+  rejections — a top-tier catalyst. Stock was **halted all day Thursday**, opened **+98%**,
+  and has a **PDUFA on 8/02**. Triple disqualifier: 2.8x the chase ceiling, a two-day binary,
+  and already fading below its own open. Untradeable at any price today.
+- **Small-cap healthcare was violently two-sided.** The four largest volume prints on the
+  board were all big *declines* — BIOA -60.6%, MYGN -42.0%, GLUE -31.8%, FLGT -18.4%. That
+  is a live caveat on CSTL: its own sector is being repriced hard around it.
+- **Scanner overlap did real work again**: JFB and CAPR were the only both-list names, and
+  **both failed on inspection** — JFB's "catalyst" is a progress update on a de-SPAC signed
+  back in February (issuance risk, opened near the high and distributed every bar), CAPR is
+  a bounce off a -36% two-day collapse. The both-scanner filter finds candidates; it does
+  not validate them.
+- Neither of today's two real catalysts came from the scanner overlap — both came from the
+  unusual_volume list plus catalyst validation. Worth noting for screening process.
+
+### Intraday Triggers to Watch
+- VIX >22: pause new entries; >25 reduce size; >30 no new longs (currently 17.54, clear).
+- **CSTL entry level $28.60** (9:45 base low) — lost on volume = no trade.
+- **AMCX entry level $10.83** (9:40–9:55 floor) — a 52-wk-high breakout; back under = failed.
+  Air pocket below to the MA20 at $10.20.
+- **Dilution NOT verified on either name.** Run that check before any entry.
+- Chase rule: both names are inside the 20% limit but **extended off their bases as of
+  10:05 AM** — do not chase into midday.
+- Rates are the driver: a further 10-yr back-up pressures the Russell and the IWM core
+  directly. Accepted by mandate; the core is not stopped.
+
+---
+
+## Snapshot — 2026-07-30 Thursday Pre-Open  ← PREVIOUS
 
 ### Account structure
 - Shared account **$9,995.24**; Rocket slice (30%) = **$2,998.57**. Pooled cash $916.64.
@@ -235,57 +320,6 @@ partly IWM small-cap beta — split beta from selection, do not book factor drif
 - Nasdaq/chip weakness bleeding into the broad tape would hit the IWM core — expected and
   accepted; the core is not stopped.
 - Oil headline risk two-sided: a collapse of the Iran pause re-spikes crude and hits the tape.
-
----
-
-## Snapshot — 2026-07-27 Monday Pre-Open (superseded)
-
-### Account structure
-- SHARED Alpaca account with Bull. Shared value **$10,125.55**; Rocket slice (30%) =
-  **$3,037.66**. Pooled cash **$7,987.75**. **Rocket is FLAT** — JPM is Bull's only position.
-- Position math: 15% max ≈ **$455**; 1.5% risk ≈ **$45**. Sizes are small — accept it.
-- Rocket +0.20% since 7/20 rebase vs SPY -0.43% → **+0.63% relative**.
-
-### Macro — FAVORABLE (risk-on), but a narrow window
-- **VIX 17.58 (-5.4%)**, down from ~18.6–19.0 Friday. Well under the 22 pause threshold →
-  full 1.5% sizing permitted.
-- **US–Iran fighting paused** over the weekend → **Brent -7% to sub-$86**, unwinding Friday's
-  oil/geopolitical overhang. This is the driver of today's bid.
-- Futures: S&P +0.96%, Nasdaq-100 +1.59%, **Russell 2000 +1.27%**. Small caps participating.
-- **Russell 2000 +20% YTD vs S&P +11%** — best year since 2003; small caps are LEADING, not
-  lagging. Favorable regime for the strategy.
-- Partial reversal of the 7/23 mega-cap capex selloff, but that thesis gets retested this week.
-
-### ⚠️ Event risk — the tradeable window is Mon–Tue only
-- **Wed 7/29 2:00 PM ET — FOMC decision + presser** (expected hold at 3.75%). Main event.
-- **Thu 7/30 — Q2 GDP advance + June PCE/Core PCE.**
-- **All week — MSFT, META, AAPL, AMZN earnings.**
-- No CPI (next 8/12), no payrolls (next 8/7). Monday itself is light (Durable Goods, Dallas Fed).
-- **Implication**: take entries Mon/Tue; tighten stops or scale out before Wednesday 2 PM.
-  Do NOT initiate fresh risk into the FOMC print.
-
-### THEME READ (7/27)
-- **Catalyst breadth is NARROW.** One in-universe name found across two independent research
-  passes: **TRAX** (+21% premarket on the argenx/Forte anti-CD122 M&A read-through). It is a
-  *sympathy* trade, gapping to **above its 52-week high and at its consensus PT** — poor entry
-  quality despite a real catalyst. Conditional/pass.
-- **M&A is today's live theme**: argenx buying Forte (FBRX) at $77/sh cash, ~86% premium, for
-  anti-CD122. Watch for further immunology read-throughs.
-- **Premarket gainer tape is mostly junk** — reverse-split shells and sub-$3 names (LGHL,
-  BIYA, DFNS, MTNB, SXTC, OMH, GMEX). All fail universe filters. Do not screen-chase.
-- **Zero small-cap analyst initiations or PT raises** dated 7/24 or 7/27. No verifiable
-  short-squeeze setup (>15% short float + fresh catalyst) found.
-
-### Intraday Triggers to Watch
-- VIX >22: pause new entries; >25 reduce size; >30 no new longs (currently ~17.6, clear).
-- **Scanner is BROKEN again** — single-letter symbol truncation, $0.00 and wildly wrong prices
-  (MRAM "$1572", GBX "+52.9%"). Treat output as unusable; verify every name via
-  `market_data.py` + web before sizing. This is now 4+ consecutive sessions.
-- Chase rule: no entry >20% above prior close except gap-and-go on a 9:45–9:50 base.
-- Dilution rule: skip active S-1/ATM/convertible names. TRAX carries a ~10.5M-share resale
-  overhang (not a hard disqualifier, but a real seller risk).
-- Oil headline risk is now two-sided in the *other* direction — a collapse of the Iran pause
-  would re-spike crude and hit the tape.
 
 ---
 

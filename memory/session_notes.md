@@ -5,6 +5,79 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 
 ---
 
+## 2026-07-31 — Market Close (Friday, ~4:00 PM ET / 19:59 UTC)
+
+**Decision: trimmed oversized IWM core 10 sh → 9 sh. No satellites to review (0 held).**
+
+Rocket entered today with 9 sh IWM, bought 1 more at market_open to cure a 13.7% cash
+breach (no satellite confirmed after CSTL/AMCX review — see research_log.md), reaching
+10 sh. By close IWM had drifted to $2,910.90 (5.65% over the $2,739.32 core target,
+band is 3%). Sold 1 sh @ $291.11, landing 9 sh / $2,619.99 (3.92% under target) — closer
+to target than staying at 10, consistent with lesson 7a. Same whole-share
+back-and-forth as 7/28 and 7/30; still an open thread for weekly_review (fractional
+IWM orders would fix this permanently).
+
+**Performance**: Rocket +0.35% since rebase vs SPY +0.74% → **-0.39%**. IWM's -0.53%
+day (vs SPY +0.85%) is almost the entire gap — the core-factor bet cutting hard
+against Rocket today, not a stock-picking failure (0 satellites held, nothing to pick).
+
+**No satellites reviewed** — CRM/JPM/SCHW are Bull's, SPY (4 sh) remains unattributed.
+ntfy daily summary sent and confirmed.
+
+**Open threads carried to weekly_review**: (1) premarket schedule fired 85 min late
+today; (2) SPY 4 sh still UNATTRIBUTED at the broker; (3) whole-share IWM granularity
+keeps re-triggering band breaches both directions — consider fractional orders; (4)
+CSTL/AMCX dilution checks still unrun, carry into Monday premarket.
+
+---
+
+## 2026-07-31 — Premarket (Friday) — ⚠️ RAN 85 MINUTES LATE
+
+**Decision: watchlist built, no trades (market was already open; instruction was no-trade).**
+
+🚨 **The session started at 10:04 AM ET, with the market open and the 9:45–9:50 base window
+already gone.** The whole premarket framework assumes it runs before 9:30. Today's bases were
+therefore read *after the fact* from raw 5-min bars rather than traded live. **Second
+consecutive operational failure** (7/30 = `close --qty` full liquidation). Both go to
+weekly_review; the premarket job's schedule needs checking.
+
+**Two genuine satellite candidates — best catalyst quality of the week:**
+- **CSTL** (HIGH, 13 sh ≈ $378): real beat-and-raise. Q2 rev $103.5M +20% YoY vs ~$86M est,
+  EPS -$0.07 vs -$0.44, **FY guide raised $345–355M → $365–375M**, TissueCypher volume +63%.
+  34% below its 52-wk high, $42.78 street target, strong_buy. Gap +8.4% (well inside the
+  chase limit). Base **held**: 9:45 pullback to $28.59 came on the session's *lightest*
+  volume (15k), 9:50 reclaimed to $29.66 on *rising* volume (25k) = accumulation. Entry
+  level **$28.60**. Short float only 4.8% — no squeeze kicker. Caveat: still GAAP-unprofitable,
+  reimbursement risk is the real bear case, and dilution was NOT verified.
+- **AMCX** (MEDIUM-HIGH, 35 sh ≈ $390): the quarter **missed both lines**, but the catalyst is
+  a **$500M / 5-yr Netflix Walking Dead licensing deal** + raised FY guide. **21.1% short
+  float** (above the rule-6 bar) breaking to a **52-week high** on six straight accumulation
+  bars to HOD — the better tape of the two. Entry level **$10.83**. But revenue is -8.8% YoY,
+  street target is **$7.50 vs $11.13 spot**, consensus `underperform`. Momentum/squeeze trade,
+  not an investment — do not hold past the momentum.
+
+**REPL was the hardest skip yet and the rules held.** FDA AdCom voted **10–3 in favor** of RP1
+in advanced melanoma 7/30, overruling FDA staff after two prior rejections — a top-tier
+catalyst. Halted all Thursday, opened **+98%**. Skipped on three independent grounds: 2.8x the
+35% chase ceiling, a **PDUFA binary on 8/02**, and already fading below its own open.
+
+**Other skips**: JFB (both-scanner name, but the "catalyst" is a progress update on a
+February-signed de-SPAC — opened near the high and distributed every bar), CAPR (bounce off a
+-36% two-day collapse), DUOT (opened at the day's high, never revisited it).
+
+**Account**: slice $3,023.60, IWM 9 sh = $2,607 (86.3%), **cash back to 13.7% — breach
+re-opened** by Thursday's close landing on 9 shares plus IWM's -1.0% drawdown. A satellite is
+the correct cure, not another IWM top-up.
+
+**Performance**: Rocket **-0.27%** since rebase vs SPY **-0.15%** → **-0.12%**. Thursday's
++0.61% edge fully reversed in one session because IWM fell -1.02% vs SPY -0.10%. That is the
+IWM-vs-SPY factor bet cutting the other way — it was never skill in either direction.
+
+**Open threads**: (1) premarket schedule; (2) **SPY 5 sh / $3,705 still UNATTRIBUTED** at the
+broker — reconciler does not balance; (3) dilution check unrun on CSTL and AMCX.
+
+---
+
 ## 2026-07-30 — Market Close (Thursday, ~4:00 PM ET / 19:58 UTC)
 
 **Decision: Trimmed oversized IWM core 10 sh → 9 sh. No satellites to review (0 held).**
