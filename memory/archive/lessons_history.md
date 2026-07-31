@@ -1,0 +1,34 @@
+# Rocket Lessons — Archive
+
+Older lessons and standing-flat observations, moved out of `lessons_learned.md` to keep
+that file under its 60-line startup budget. The durable conclusions from everything below
+have already been distilled into the **Standing Rules** section of the live file — chiefly
+rules 1 (no catalyst, no trade), 2 (the >20%/>35% chase ladder), 4 (exit on fading volume)
+and 8 (extreme moves with real catalysts are not noise, but never chase the spike).
+
+Archived 2026-07-31 (Week 31 review).
+
+---
+
+## Pre-Trade Observations (Standing Flat) — June 2026
+
+- **2026-06-10 midday**: Afternoon scanner showed movers (APPS +8.6%, ALTO +9.1%, HYLN +8.1%) but ALL were continuation plays from catalysts 3-7 days old (early June news). APPS already +139% over 30 days on Launchpad launch. ALTO on June 4 analyst upgrade. HYLN on early June Navy testing. **Lesson: Multi-day continuation without fresh catalyst = not a Rocket setup.** The "named catalyst" rule applies to timing — need FRESH catalysts (same-day or prior-day), not week-old news with residual momentum. Momentum ≠ catalyst. Standing flat on low-conviction continuation tape = correct discipline.
+- **2026-06-09 close**: ABAT volume discipline decision VALIDATED. Stood flat at 9:35 AM when ABAT was $3.42 in perfect entry zone ($3.50-$3.80) but volume was only 0.2x avg (vs 1.5x required). Stock closed at $3.06 (-19.5% from prior high, below week lows). **Lesson reinforced: Volume confirmation is MANDATORY.** Even with intact catalyst (DOE grant + earnings beat still real), price without volume = distribution, not accumulation. Standing flat on failed volume check saved -10.5% loss from $3.42 entry to $3.06 close. Volume discipline is NOT optional.
+- **2026-06-09 midday**: Two observations from afternoon scan:
+  - **ABAT falling knife**: Yesterday +33% on dual catalyst (DOE grant + earnings beat). Today -19.5% to $3.06 (week lows, below MA50). **Lesson: Real catalyst ≠ automatic entry. Price action must confirm.** Even with intact catalyst (DOE grant still there, earnings still beat), if stock is at week lows with heavy selling pressure = falling knife. Wait for stabilization and base formation above key levels ($3.20-$3.40) before entry. Distribution vs accumulation matters.
+  - **FCEL +21% same-day analyst upgrade**: Canaccord upgrade to BUY, PT $30 (from $12), data center catalyst thesis. Fresh catalyst TODAY. **Discipline reinforced AGAIN: "Never chase >20% gap" applies to same-day fresh-catalyst moves.** Added to watchlist for pullback entry. Patience > FOMO, even on hot AI data center theme.
+- **2026-06-08 midday**: ABAT +33% on DOUBLE catalyst (DOE $115M grant reinstatement + Q3 earnings beat $7.8M vs $4.3M est, first positive gross margin). Highest quality catalyst of the week — government contract + earnings crush. But +33% = 1.65x the 20% chase limit. **Discipline reinforced: Even dual catalysts do not override the >20% chase rule.** Added to watchlist for pullback entry over next 1-3 days. Best catalysts often give second entries. Standing flat = correct.
+- **2026-06-04 midday**: LODE +15.8% on valid insider buying catalyst (June 3), but already extended intraday = same-day fresh-catalyst chase. SKIP. PSNL/DNA/SPCE had no fresh catalysts (conference presentation/general momentum/meme volatility). Stood flat — no valid afternoon setups. Discipline reinforced: extended moves without proper entry setups = pass.
+- **2026-06-02 ELMT miss**: Stood aside at 9:35 AM on weak volume (0.2x avg), but stock DID form valid 10-min base at $19.50-$20.00 zone (9:45-9:50) and ran to $21+ on volume (732.4K shares). Q1 beat + defense backlog catalyst was real. **Lesson: Early volume read (first 5 mins) is NOT final verdict. Market_open routine says "wait for 10-min opening base" — that means WAIT THE FULL 10 MINUTES, not dismiss at minute 5.** If plan says check at 9:50, check at 9:50. This was a valid missed entry, not a chase avoid.
+
+---
+
+## Observations From Standing Flat (Pre-Trade) — May 2026
+
+- **2026-05-29**: REPL +81.1% on FDA BLA resubmission path agreement (melanoma drug RP1, after TWO prior rejections in 2025-2026) = textbook major biotech catalyst. But +81.1% = 4x chase limit. Lesson reinforced FOUR TIMES now (ASPI Tue +19.6%, APPS Wed +54.9%, UMAC Thu +52.4%, REPL Fri +81.1%): **"Never chase >20% gap" applies to ALL intraday fresh-catalyst spikes, regardless of catalyst quality.** Even FDA reversals and Pentagon funding do not override the >20% rule. Wait for pullback/consolidation — the best catalysts often give second entries. Patience > FOMO.
+- **2026-05-28**: UMAC +52.4% on WSJ Pentagon drone funding report (Trump admin direct funding, UMAC explicitly named, Powerus Phase II selection) = MAJOR fresh catalyst. But +52.4% = 2.6x chase limit. EXACT same pattern as APPS Wed (+54.9% earnings beat). Lesson reinforced THREE TIMES now (ASPI Tue +19.6%, APPS Wed +54.9%, UMAC Thu +52.4%): **"Never chase >20% gap" applies to same-day fresh-catalyst moves, not just overnight gaps.** Catalyst strength does NOT override entry discipline. Wait for pullback/consolidation — patience beats FOMO every time.
+- **2026-05-27**: APPS Q4 earnings beat (EPS $0.16 vs $0.09 est) = textbook fresh catalyst. But stock +54.9% same-day = 2.7x the "never chase >20% gap" limit. Correct decision: skip today, add to watchlist for pullback. Even the best catalysts require discipline on entry price. Fresh earnings beats can consolidate/pull back for 1-3 days before next leg — patience pays.
+- **2026-05-27**: ASPI held consolidation zone ($6.92 vs $6.64 Tue close) above $6.50 target, but dropped off unusual_volume scanner = volume faded. Lesson reinforced: "Small caps go quiet fast after a pop." Holding price without volume = not a valid entry. Volume confirmation is mandatory.
+- **2026-05-26**: Scanner RelVol column unreliable two sessions running (Fri + Tue). Treat scanner as a starting universe filter only — must independently verify volume via news/quote source before sizing. Do not size up on a scanner row alone.
+- **2026-05-26**: DXYZ pre-market mcap reading ($2.089B "above ceiling") was a scanner glitch. By midday the same scanner showed $987M, consistent with Fri close. Cross-check mcap with a second source before disqualifying on universe rules — but err on the side of skipping when in doubt (correct call this AM).
+- **2026-05-26**: Fresh midday catalyst (ASPI Silicon-28 restart) at +19.6% intraday = NOT an entry. Same-day fresh-catalyst chases at extended price violate the "no chasing gaps >20%" spirit. Put on next-day watchlist for pullback setup instead.

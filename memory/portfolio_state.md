@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-07-31 19:59 UTC
+**Last Updated**: 2026-07-31 20:15 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,141.04 |
-| Rocket's Allocated Slice (30%) | $3,042.31 |
+| Shared Account Value (Bull + Rocket) | $10,135.91 |
+| Rocket's Allocated Slice (30%) | $3,040.77 |
 | Cash Available (shared, pooled) | $1,341.50 |
-| Total Invested (both agents) | $8,799.54 |
+| Total Invested (both agents) | $8,794.41 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +0.35% |
-| SPY return since rebase | +0.74% |
-| Rocket vs SPY | -0.39% |
+| Rocket return since rebase | +0.30% |
+| SPY return since rebase | +0.67% |
+| Rocket vs SPY | -0.37% |
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -33,11 +33,11 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Current Price | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|----------------|-------|
-| CRM | 3 | $182.44 | $184.17 | $+5.18 | +0.9% |
-| IWM | 9 | $292.31 | $291.07 | $-11.20 | -0.4% |
-| JPM | 6 | $313.30 | $351.93 | $+231.78 | +12.3% |
-| SCHW | 5 | $103.91 | $105.32 | $+7.05 | +1.4% |
-| SPY | 4 | $741.26 | $747.28 | $+24.06 | +0.8% |
+| CRM | 3 | $182.44 | $183.60 | $+3.47 | +0.6% |
+| IWM | 9 | $292.31 | $291.03 | $-11.56 | -0.4% |
+| JPM | 6 | $313.30 | $351.79 | $+230.94 | +12.3% |
+| SCHW | 5 | $103.91 | $105.24 | $+6.65 | +1.3% |
+| SPY | 4 | $741.26 | $746.85 | $+22.34 | +0.8% |
 
 ---
 
@@ -45,12 +45,12 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 🚨 **Does not balance — see reconciling items below.**
 
-- **Rocket's positions** (1): IWM ($2,620)
-- **Bull's positions** (3): CRM ($553), JPM ($2,112), SCHW ($527)
+- **Rocket's positions** (1): IWM ($2,619)
+- **Bull's positions** (3): CRM ($551), JPM ($2,111), SCHW ($526)
 
 🚨 **UNATTRIBUTED — held at the broker but in neither trade log:**
 
-  - SPY ($2,989) — do not size against this until ownership is resolved.
+  - SPY ($2,987) — do not size against this until ownership is resolved.
 
 
 ---
@@ -68,4 +68,4 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 ## Weekly Trade Count
 
 Trades placed this week: 3 / 3 max
-Market open: Yes
+Market open: No

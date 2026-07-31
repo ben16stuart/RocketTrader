@@ -1,29 +1,45 @@
 # Rocket Strategy — Evolving Edge Thesis
 
-Last updated: 2026-07-24 (weekly review — flagged deployment + scanner-pipeline problems)
+Last updated: 2026-07-31 (Week 31 review — deployment solved; uptime is the new constraint)
 
 ---
 
-## ⚠️ Standing Meta-Problem — Under-Deployment (flagged 2026-07-24)
+## ⚠️ Standing Meta-Problem — REDIAGNOSED 2026-07-31
 
-Since inception (2026-04-20, ~3 months) Rocket has executed only **2 trades**: MRLN
-(+$33.40, closed) and CAMP (closed, exit unrecoverable). That is near-total inaction.
-Week of 07-20 → 07-24: **0 trades, flat all 5 sessions.** Every flat call was individually
-defensible (no clean fresh catalyst, garbled scanner, tiny pooled account), but the
-cumulative result is zero productive output and zero real alpha. Lessons item 7 already
-warns "missing real catalysts has a cost too" — yet the pattern persists.
+The problem was framed on 7/24 as "under-deployment caused by a broken idea pipeline."
+**Both halves of that diagnosis have now changed.**
 
-**Root causes to fix, in priority order:**
-1. **Idea pipeline is broken.** `smallcap_scanner.py` has been unreliable for 20+ sessions
-   (single-letter symbol artifacts, RelVol all dashes, $0.00 prices, glitch % moves). With
-   no working screener, idea generation collapses to ad-hoc web search and almost nothing
-   clears the bar. **The scanner script is the highest-leverage fix — it should be repaired
-   or replaced (a working small-cap gainers/volume feed) before expecting trade volume to
-   recover.** Until then, lean harder on Q2 earnings-beat gappers found via web search.
-2. **Bar may be too strict for the account size.** With a ~$3k slice, one good catalyst
-   trade per week is plenty; the goal isn't more trades, it's *any* real participation.
-   Do not loosen the chase/dilution/volume rules — those have saved real losses (ABAT). The
-   fix is better idea flow, not looser discipline.
+**Half 1 — deployment: SOLVED by the core sleeve.** Rocket went from 0 positions /
+~100% cash to ~87% invested in IWM on 7/28. Idle cash is no longer an unhedged short
+against equity drift. This half is done; do not keep re-litigating it.
+
+**Half 2 — idea flow: NOT the binding constraint anymore.** Week 31 surfaced three
+genuine, verifiable catalysts (CSTL beat-and-raise, AMCX $500M Netflix deal + 21% short
+float, REPL FDA AdCom 10–3). Ideas were not the problem. **Rocket still traded zero
+satellites** — because the premarket routine hit a Claude **session limit**, finished at
+10:05 AM ET, and the 9:45–9:50 base window was gone. AMCX then closed at its 52-week
+high, above its stated entry trigger.
+
+### The binding constraint is now UPTIME, not ideas.
+
+| Constraint | Status |
+|---|---|
+| Deployment / idle cash | ✅ Solved (core sleeve, 7/28) |
+| Idea flow / scanner | 🟡 Apparently recovered 7/31 — **on probation**, verify one more week |
+| **Session-limit / routine uptime** | 🔴 **THE problem.** Cost Rocket the AMCX entry. |
+| Midday routine | 🔴 Plist never loaded — has literally never run (see lesson 13) |
+
+**Scanner status change:** after 7 broken sessions it has now run clean **three sessions
+running (7/29, 7/31 premarket, 7/31 review)** — sane market caps, real RelVol, correct
+company names, and AMCX independently surfacing on two screens. It is **no longer the
+highest-leverage fix.** Keep spot-checking it weekly; if it degrades again, reinstate it as
+priority 1. Note this does **not** retire lesson 10 — still confirm any entry base against
+raw 5-min bars, never a scanner one-liner.
+
+**The bar is not too strict.** Every skip this week was validated by the tape: CSTL
+closed *below* its own entry trigger, REPL is a chase into a Monday binary, SOC turned
+out to be raising $93M in discounted stock. Discipline is working. **Do not loosen the
+chase / dilution / volume rules to manufacture trade count.**
 
 ---
 
@@ -67,6 +83,27 @@ larger funds cannot exploit. Rocket moves fast and manages tight.
 - No entries after 3:30 PM ET
 - No pre-earnings entries (enter AFTER confirmed beat only)
 - Second-day entry rule: added 2026-05-29 after week of missed trades on real catalysts
+
+## Attribution Discipline — mandatory in every weekly_review
+
+Rocket's core is IWM; the benchmark is SPY. **Divergence from SPY is therefore mostly
+factor, not skill.** Split it every week before claiming anything:
+
+```
+Rocket vs SPY  =  (IWM − SPY) × core weight     ← factor, NOT alpha
+                + cash drag                      ← friction, NOT alpha
+                + satellite contribution         ← the ONLY real alpha
+```
+
+Two weeks of worked examples, both with **zero** satellite exposure:
+
+| Week | IWM − SPY | Rocket vs SPY | Real alpha |
+|------|-----------|---------------|------------|
+| 30 (7/20–7/24) | — (100% cash) | **+0.43%** | **0.00%** |
+| 31 (7/27–7/31) | −1.09% | **−0.98%** | **0.00%** |
+
+Week 30 looked like a win and Week 31 looked like a loss. **Both were zero alpha.** Never
+book factor drift as skill — and never book it as failure either.
 
 ## Open Questions
 
