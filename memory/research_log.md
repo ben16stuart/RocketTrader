@@ -5,7 +5,35 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Thursday 2026-07-30 premarket  ← CURRENT
+## Market Open — Friday 2026-07-31 (no premarket ran today)  ← CURRENT
+
+**Gap**: no premarket session logged for 7/31 — this watchlist is still 7/30's. Validated
+inline at market_open instead (lesson 9: log a skip reason when a routine doesn't run).
+
+**CMCO / BOOM** (yesterday's carryover watch): both failed to confirm. CMCO -4.9% on 0.2x
+avg volume (drifting on no volume, not a base). BOOM flat +0.0% on 0.1x avg volume, below
+MA50, dead. No entry on either.
+
+**Fresh scan** (`unusual_volume` + `top_movers` cross-reference): **JFB** (+13.5%, only
+"catalyst" is a routine SPAC business-combination momentum update — not new dated news —
+plus a 1395% short-float reading that's almost certainly bad data, same profile as the
+DFNS hard-skip) and **CAPR** (+4.8% today but -81% over 1 month — a dead-cat bounce inside
+a freefall, no catalyst) both skipped.
+
+**REPL** — real catalyst: FDA adcomm voted 10-3 favorable on RP1/nivolumab for melanoma
+(7/30), PDUFA decision Aug 2, 2026. But stock is +100–130% intraday — 5x+ the chase limit,
+and a binary FDA decision lands in 2 trading days. Per lesson 8 (extreme moves with real
+catalysts aren't noise, but never chase the spike): **add to watchlist, do not enter at
+any size until well past the PDUFA decision and a real consolidation forms** — entering a
+pullback right before a binary is its own separate risk, not the same as a normal
+gap-and-go pullback.
+
+**Action taken**: no satellite confirmed → bought 1 more IWM share (10 sh total) to cure
+the recurring cash breach (~13.9% → ~4.3% of slice). See trade_log.md 2026-07-31 entry.
+
+---
+
+## Watchlist — Thursday 2026-07-30 premarket (superseded)
 
 **Tape**: VIX **19.70 (-4.65%)** — up from 18.24 Wednesday but still well under the 22 pause
 threshold. Futures: S&P +0.40%, Nasdaq +0.78%, **Russell 2,922.40 +0.24%**. Wednesday closed

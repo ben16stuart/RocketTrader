@@ -4,6 +4,35 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-07-31 — IWM BUY (Core sleeve — not a satellite)
+
+- **Shares**: 1 @ ~$289.64 (filled ~9:06 AM ET), IWM position now 10 sh (avg $292.31)
+- **Catalyst**: N/A — core rebalance, not a satellite trade. Cures the cash breach: no
+  premarket research ran today (research_log.md's watchlist is stale from 7/30), so
+  market_open validated the two carryover names inline instead:
+  - **CMCO** — real Q1 FY27 beat + 28.1% short float, but today -4.9% on 0.2x avg volume
+    (drifting down on no volume, not a base). No entry.
+  - **BOOM** — beat-and-raise catalyst still real, but flat today (+0.0%) on 0.1x avg
+    volume, below MA50, 1-month move 0%. Dead. No entry.
+  - Fresh scan (`unusual_volume` + `top_movers`) cross-referenced for names appearing on
+    both: **JFB** (+13.5%, business-combination "momentum update" is not new dated news,
+    plus a 1395% short-float reading that is almost certainly bad data — same red-flag
+    profile as the DFNS hard-skip precedent) and **CAPR** (+4.8% but -81% over the last
+    month, -37% over 5 days — a dead-cat bounce inside a freefall, no catalyst, skip).
+  - **REPL** +100–130% on a real catalyst (FDA adcomm 10-3 favorable vote 7/30, PDUFA
+    Aug 2) — but already 5x+ the 20% chase limit with a binary FDA decision imminent.
+    Per lesson 8, added to watchlist for a pullback/consolidation entry, not tradeable
+    today at any size.
+  - No satellite confirmed → per CLAUDE.md Portfolio Construction rule 7 ("no qualifying
+    catalyst means hold IWM, not go flat") and the cash-buffer rule (>10% cash requires
+    a written bearish thesis, none exists), bought 1 more IWM share.
+- **Stop**: NONE by design (core sleeve).
+- **Does not count** against the 4-satellite cap or 5-trades/week cap.
+- **Result**: Rocket slice ~13.9% cash pre-trade → ~4.3% post-trade. Rocket now 10 sh
+  IWM, no satellites.
+
+---
+
 ## 2026-06-05 — MRLN CLOSED (+0.033% account)
 
 **ROCKET'S FIRST TRADE** — ENTRY @ $8.88, EXIT $8.90
