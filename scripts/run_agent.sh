@@ -83,6 +83,25 @@ MODEL=$(python3 "$REPO_DIR/scripts/resolve_model.py" "$MODEL_TIER" 2>>"$LOG_FILE
 MODEL="${MODEL:-$MODEL_TIER}"
 echo "  🤖 Model: $MODEL (tier: $MODEL_TIER)" | tee -a "$LOG_FILE"
 
+# --- Gatekeeper pre-flight -------------------------------------------------
+# Homebrew stamps com.apple.quarantine on every cask artifact, so the FIRST launch
+# of a freshly-upgraded `claude` binary raises a macOS approval dialog. A launchd
+# job at 4am has no one to click it, so the session blocks until someone does.
+# This bit us twice: 2026-07-24, and again 2026-07-31 after a 2.1.153 -> 2.1.212
+# upgrade, when premarket started at 04:00 and did not finish until 08:16 -- its
+# research landing 41 minutes AFTER the open it was written to inform.
+# Clearing the flag here is scoped to this one binary and self-heals after any
+# future upgrade. It is not a security downgrade: the binary is still signature-
+# checked by macOS, and Anthropic signs it (Developer ID: Anthropic PBC).
+CLAUDE_BIN="$(command -v claude || true)"
+if [[ -n "$CLAUDE_BIN" ]]; then
+  CLAUDE_BIN="$(readlink -f "$CLAUDE_BIN" 2>/dev/null || echo "$CLAUDE_BIN")"
+  if xattr -p com.apple.quarantine "$CLAUDE_BIN" >/dev/null 2>&1; then
+    echo "  🔓 clearing macOS quarantine on $CLAUDE_BIN (post-upgrade)" | tee -a "$LOG_FILE"
+    xattr -d com.apple.quarantine "$CLAUDE_BIN" 2>/dev/null || true
+  fi
+fi
+
 # Subagents inherit the parent model unless told otherwise. On 2026-07-27 that
 # silently put 5 research subagents on Opus 5 -- 48% of that day's tokens -- and
 # starved Rocket's market_open into a session limit. Subagents only ever do

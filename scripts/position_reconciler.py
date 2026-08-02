@@ -12,10 +12,21 @@ This does the join in code, in the shape of a bank reconciliation: our book,
 the sibling's book, the broker's statement, and anything that doesn't tie.
 
 Reconciling item categories:
-  MATCHED       in our book and in the account          -- normal
+  CORE          our benchmark sleeve (SPY / IWM)        -- normal
+  MATCHED       our satellite, in the account           -- normal
   SIBLING       the other agent's, per their trade log  -- normal in a shared account
   UNATTRIBUTED  held at the broker, claimed by neither  -- INVESTIGATE
   MISSING       in our book, not held at the broker     -- INVESTIGATE (stop hit? manual close?)
+
+Core is tracked separately from satellites because it is a CONTINUOUSLY RESIZED
+sleeve, not an open/close position. A "SELL (CORE REBALANCE)" is a partial trim
+toward a target weight, never an exit -- treating it as a close (as this module
+did until 2026-08-02) marked Bull's SPY core UNATTRIBUTED after two routine trims
+and told the session "do not size against this", which pushes it toward
+under-deploying: the exact failure the core/satellite restructure exists to fix.
+The core is therefore attributed whenever the broker holds it and the book shows
+core activity for that symbol; a core position falling to zero is legitimate and
+is not reported as MISSING.
 
 Nothing here raises. Reconciliation is a diagnostic layer bolted onto a live
 trading routine, so any parsing failure degrades to "unknown" rather than taking
@@ -35,6 +46,9 @@ NOT_TICKERS = {
     "SYMBOL", "TRIM", "ADD", "STOP", "HIT", "PARTIAL", "FULL", "NEW", "OLD",
     "PRE", "POST", "R", "P", "L", "PL", "USD", "ET", "AM", "PM", "MDT", "UTC",
 }
+
+# Header markers that identify a core-sleeve trade rather than a satellite one.
+CORE_WORDS = ("CORE REBALANCE", "CORE SLEEVE")
 
 CLOSE_WORDS = ("SELL", "CLOSED", "CLOSE", "EXIT", "LIQUIDATED", "STOPPED")
 OPEN_WORDS = ("BUY", "ENTRY", "ADD")
@@ -63,7 +77,7 @@ def open_symbols_from_trade_log(path):
         with open(path) as fh:
             lines = fh.readlines()
     except Exception:
-        return set(), False, set()
+        return set(), False, set(), set()
 
     # Collect events first, then replay in DATE order. The logs are appended in
     # edited batches, not chronologically -- Bull's runs 06-01, 05-26, 05-18,
@@ -100,6 +114,12 @@ def open_symbols_from_trade_log(path):
         if not sym:
             continue
 
+        # A core-sleeve trade resizes the benchmark holding; it never opens or
+        # closes a position, so it is recorded as core and skipped in the replay.
+        if any(w in upper for w in CORE_WORDS):
+            events.append((date, "core", sym))
+            continue
+
         # Check close before open: "SELL" and "CLOSED" are unambiguous, whereas a
         # closing header can still mention the original entry.
         if any(w in upper for w in CLOSE_WORDS):
@@ -110,8 +130,12 @@ def open_symbols_from_trade_log(path):
     events.sort(key=lambda e: e[0])
 
     open_syms = set()
+    core_syms = set()
     cleared_by_reset = set()
     for _date, kind, sym in events:
+        if kind == "core":
+            core_syms.add(sym)
+            continue
         if kind == "reset":
             # Remember what a bulk-liquidation entry swept away. If one of those
             # symbols is still held at the broker, the liquidation record is
@@ -125,7 +149,7 @@ def open_symbols_from_trade_log(path):
             open_syms.add(sym)
             cleared_by_reset.discard(sym)
 
-    return open_syms, True, cleared_by_reset
+    return open_syms, True, cleared_by_reset, core_syms
 
 
 def _sibling_trade_log(repo_dir):
@@ -143,26 +167,34 @@ def _sibling_trade_log(repo_dir):
 def reconcile(live_positions, repo_dir, agent_name, sibling_name):
     """Classify every live position against our book and the sibling's."""
     ours_path = os.path.join(repo_dir, "memory", "trade_log.md")
-    ours, ours_ok, ours_reset = open_symbols_from_trade_log(ours_path)
+    ours, ours_ok, ours_reset, ours_core = open_symbols_from_trade_log(ours_path)
 
     sib_path = _sibling_trade_log(repo_dir)
     if sib_path:
-        theirs, theirs_ok, _ = open_symbols_from_trade_log(sib_path)
+        theirs, theirs_ok, _, theirs_core = open_symbols_from_trade_log(sib_path)
     else:
-        theirs, theirs_ok = set(), False
+        theirs, theirs_ok, theirs_core = set(), False, set()
 
     live = {p["symbol"] for p in live_positions}
 
-    matched = sorted(live & ours)
-    sibling = sorted((live & theirs) - ours)
-    unattributed = sorted(live - ours - theirs)
-    missing = sorted(ours - live)
+    # The core sleeve is ours whenever the broker holds it -- it is resized, not
+    # opened and closed, so it never participates in the open/close replay.
+    core = sorted(live & ours_core)
+    core_set = set(core)
+    theirs_all = theirs | theirs_core
+
+    matched = sorted((live & ours) - core_set)
+    sibling = sorted((live & theirs_all) - ours - core_set)
+    unattributed = sorted(live - ours - theirs_all - ours_core - theirs_core)
+    # A core holding at zero is a legitimate end state, so it is never MISSING.
+    missing = sorted(ours - live - ours_core)
 
     return {
         "agent": agent_name,
         "sibling": sibling_name,
         "ours_ok": ours_ok,
         "theirs_ok": theirs_ok,
+        "core": core,
         "matched": matched,
         "sibling_positions": sibling,
         "unattributed": unattributed,
@@ -198,7 +230,10 @@ def format_report(rec, live_positions):
         lines.append(f"🚨 **Does not balance — see reconciling items below.**")
     lines.append("")
 
-    lines.append(f"- **{agent}'s positions** ({len(rec['matched'])}): "
+    lines.append(f"- **{agent}'s core** ({len(rec.get('core', []))}): "
+                 + (", ".join(f"{s}{val(s)}" for s in rec.get("core", [])) or "none")
+                 + "  — benchmark sleeve; no stop, exempt from position limits")
+    lines.append(f"- **{agent}'s satellites** ({len(rec['matched'])}): "
                  + (", ".join(f"{s}{val(s)}" for s in rec["matched"]) or "none"))
 
     if rec["theirs_ok"]:
