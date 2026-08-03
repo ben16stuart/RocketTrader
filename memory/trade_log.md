@@ -4,6 +4,51 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-03 — IWM CORE REBALANCE (market_close) — SELL 1 sh
+
+- **Shares**: sold 1 @ ~$296.30 (filled 19:58:49 UTC), IWM position now 8 sh (avg cost
+  basis unchanged $292.28)
+- **Catalyst**: N/A — core rebalance, not a satellite trade. Satellites now hold CSTL
+  (15 sh, opened this session at market_open, ~$456.60). target_core = slice − satellite
+  − 10% buffer = $3,075.03 − $456.60 − $307.50 = $2,310.93. Pre-trade IWM value was
+  9 sh × $296.33 ≈ $2,666.97, **11.6% over** target (band is 3%). Post-trade 8 sh ×
+  $296.30 ≈ $2,370.64, **1.9% over** target — within band. Selling 2 sh would have landed
+  7.7% under, a worse miss, so 1 share was the correct whole-share fix (lesson 7a).
+- **Stop**: NONE by design (core sleeve).
+- **Does not count** against the 4-satellite cap or 5-trades/week cap.
+- **Result**: Rocket now 8 sh IWM + CSTL (15 sh) satellite. Cash breach from premarket
+  is resolved by the CSTL entry; this trade brings core back inside the rebalance band.
+
+---
+
+## 2026-08-03 — CSTL BUY (market_open) — Satellite #1
+
+- **Shares**: 15 @ $29.99 (filled 13:51:42 UTC / 9:51 AM ET)
+- **Catalyst**: Q2 2026 earnings beat-and-raise (reported 7/30): revenue $103.5M
+  (+20% YoY), FY26 guidance raised $345–355M → $365–375M, core test volume +32% YoY,
+  guided to positive Adjusted EBITDA Q3/Q4/FY26. Research log had this on ice since
+  it closed 7/31 at $28.00, below its own $28.60 reclaim trigger — today it broke
+  the trigger cleanly on ~3x 20-min volume (84,035 sh vs ~27,500 expected), price
+  action monotonically higher through the 9:30–9:50 base (28.37 → 28.31 → 29.36 →
+  29.94), no fade.
+- **Dilution check** (run before entry, per standing rule): SEC EDGAR filings for
+  CIK 0001447362 show no S-3/S-1/424B since a Feb 2024 shelf — clears.
+- **Stop**: 7% trailing, placed immediately, hwm $29.86, initial stop $27.7698
+- **Targets**: 1st 1/3 at +15% ≈ $34.49 | 2nd 1/3 at +25% ≈ $37.49 | trail final 1/3
+- **Size**: 15 sh = $449.85 (14.6% of Rocket's $3,067 slice, under the 15%/$460 cap)
+- **Thesis**: real earnings catalyst already validated over two prior sessions: today
+  is a technical confirmation entry (base reclaim), not a fresh-news chase. Sector
+  headwind noted — small-cap healthcare has been the weakest group this week — but
+  this is an idiosyncratic guidance raise, not a sympathy bounce.
+- **Skipped AMCX** same session: spiked to $11.50 on the open then fully round-tripped
+  to $11.19–11.25 by 9:45–9:50 on only ~1.4x volume (61,439 sh vs ~44,100 expected) —
+  a fade, not a base. Does not meet the >1.5x-volume hold-above-$10.83 entry rule as
+  written. Watching for a cleaner base later in the week per the missed-catalyst rule.
+- **REPL**: still no FDA decision confirmed as of this session; stayed flat per the
+  standing no-entry-through-a-binary rule.
+
+---
+
 ## 2026-07-31 — IWM CORE REBALANCE (market_close) — SELL 1 sh
 
 - **Shares**: sold 1 @ $291.11 (filled 19:58:57 UTC), IWM position now 9 sh (avg cost

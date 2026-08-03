@@ -6,86 +6,115 @@ entries to `memory/archive/research_log_history.md`.
 ---
 
 ## Watchlist — Week 32 (Mon 2026-08-03 →)  ← CURRENT
-*Built 2026-07-31 weekly review, from Friday's closing screens.*
+*Rebuilt 2026-08-03 premarket (6:20 AM ET) from overnight screens + weekend news.*
 
-**Account**: shared $10,136 / Rocket slice (30%) **$3,041** / pooled cash $1,341.
-Rocket holds **IWM 9 sh = $2,619 (86.1%)**, cash ~13.9% (breach — a satellite is the
-cure). CRM/JPM/SCHW are Bull's. ⚠️ **SPY 4 sh (~$2,987) still UNATTRIBUTED** — do not
-size against it. Max satellite **$456** (15%); 1.5% risk = **$46**. Satellite trades: 0/5.
+**Account**: shared $10,200.62 / Rocket slice (30%) **$3,060.19** / pooled cash $1,341.48.
+Rocket holds **IWM 9 sh = $2,637 (86.2%)**, notional slice cash ~13.8% (**breach — a
+satellite is the cure, not another IWM top-up**, lesson 7a). CRM/JPM/SCHW/SPY are Bull's.
+✅ **Reconciler BALANCES today — the SPY orphan is resolved and attributed to Bull.**
+Max satellite **$459** (15%); 1.5% risk = **$46**. Satellite trades this week: **0 / 5**.
 
 ---
 
-### PRIORITY 1 — AMCX (HIGH) — the carryover, and the one real miss of Week 31
+### PRIORITY 1 — AMCX (MEDIUM-HIGH) — carryover, catalyst reinforced over the weekend
 
 **AMC Global Media** — closed Friday **$11.20 (+15.3%) on 5.8x RelVol, at its 52-week
-high**, having held the $10.83 trigger all session. It surfaced independently on **both**
-`unusual_volume` and `breakouts`. Rocket did not enter only because the premarket session
-finished at 10:05 AM ET (lesson 12).
+high AND the exact high of its weekly range ($9.71–$11.20)**. Closing at the top of the
+range is the momentum tell. Rocket missed the entry only because Friday's premarket ran
+to 10:05 AM ET on a session limit (lesson 12).
 
-- **Catalyst (7/30)**: five-year co-exclusive global **Netflix licensing deal for the
-  entire Walking Dead universe — 7 series, 371 episodes, $500M contracted**, ~$200–225M
-  recognized in each of 2026 and 2027. FY26 guide raised to $2.4–2.45B revenue / $410–420M
-  adj. operating income. Note the quarter itself **missed both lines** — the deal is the
-  catalyst, not the print.
-- **Universe**: $492M cap ✓ | float 29.6M ✓ | **short float 21.1%** ✓✓ (above the rule-6
-  squeeze bar) | avg vol 589k ✓ | NASDAQ ✓ | US ✓ | above MA20 $10.20, MA50 $9.94.
-- **Dilution check — RUN 2026-07-31, CLEARS.** No new equity offering or ATM found. The
-  outstanding paper is a **June 2024 $143.75M 4.25% convertible due 2029** (conversion
-  ~$12.74) plus an $875M note *exchange* (refinancing, not equity issuance).
-  ⚠️ **Useful consequence: the ~$12.74 conversion price sits right on the +15% target
-  ($12.80).** Expect real supply/hedging resistance there — take the first 1/3 into it.
-- **Entry**: hold above **$10.83**. This is a 52-wk-high breakout with no overhead supply;
-  a close back under $10.83 is the failure signal. Not a second-day-rule trigger (Friday's
-  gap was +15.3%, under the >25% threshold) — treat Monday as a fresh evaluation needing
-  its own volume-confirmed base.
-- **Stop $10.42** (7%) | **Targets**: +15% ≈ $12.80 (sell 1/3, into the convert wall) |
-  +25% ≈ $14.00 (sell 1/3) | trail final 1/3.
-- **Size**: 35 sh ≈ $392 (12.9%) — fits the free buffer, no IWM sale needed. Also cures
-  the cash breach honestly.
+- **Catalyst (7/30, reconfirmed 8/03)**: five-year co-exclusive global **Netflix licensing
+  deal for the entire Walking Dead universe — 7 series, $500M contracted**, ~$200–225M of
+  high-margin revenue in each of 2026 and 2027. FY26 guide raised $2.25B → **$2.4–2.45B**.
+  The quarter itself **missed both lines** — the deal is the catalyst, not the print.
+- **Weekend development**: Wells Fargo raised PT **$10 → $11**; Morgan Stanley raised
+  **$7 → $10 but held Underweight**. 🚨 **Read this correctly — it CUTS both ways.** The
+  old street target of $7.50 is stale, so the "60% above fair value" bear line is gone.
+  But **both raised targets still sit AT OR BELOW the $11.20 spot.** Even the bulls think
+  it is now fully priced. There is no analyst-upside leg to this trade.
+- **Universe (re-verified 8/03)**: $492M cap ✓ | float 28.9M ✓ | **short float 21.1%** ✓✓
+  (above the rule-6 squeeze bar) | avg vol 602,777 ✓ | NASDAQ ✓ | US ✓ | MA50 $9.94.
+- **Dilution — RUN 2026-07-31, CLEARS.** No equity offering or ATM. Outstanding paper is a
+  June 2024 $143.75M 4.25% convertible due 2029 (conversion **~$12.74**) plus an $875M note
+  *exchange* (refinancing, not issuance).
+- **Entry**: needs its own **Monday** volume-confirmed base — Friday's +15.3% gap is under
+  the >25% second-day threshold, so there is no automatic open entry. Buy a **hold above
+  $10.83** on **>1.5x volume read off raw 5-min bars** (lesson 10), ideally the 9:45–9:50
+  base. A print back under $10.83 is the failure signal — do not average into it.
+- 🚨 **2026-08-03 market_open: SKIPPED.** Spiked $11.33→$11.50 at the open then fully
+  round-tripped to $11.19–11.25 by 9:45–9:50 on only ~1.4x 20-min volume (61,439 sh vs
+  ~44,100 expected) — a fade, not a base. Never traded below $10.83 (no hard failure), but
+  didn't clear the volume bar either. Re-check per the missed-catalyst 3-day rule (lesson 8).
+- **Stop $10.42** (7% below $11.20; re-strike 7% off the actual fill).
+- **Targets**: 🚨 **+15% ≈ $12.80 is a crowded wall** — the convert conversion price
+  (~$12.74) *and* the highest street PT ($11) both sit under it. **Take the first 1/3 into
+  $12.60–$12.80, do not wait for the exact print** (lesson: MRLN round-tripped its target).
+  +25% ≈ $14.00 sell 1/3 | trail the final 1/3.
+- **Size**: **35 sh ≈ $392 (12.8% of slice)** — under the $459 cap, affordable from pooled
+  cash without selling IWM, and it cures the cash breach honestly.
 - **What kills it**: revenue **−8.8% YoY** in a secularly declining cable business; the
-  Netflix money is a **one-time licensing windfall, not growth**. Street target **$7.50 vs
-  $11.20 spot**, consensus `underperform`. At the 52-wk high there is **no support until
-  the MA20 at $10.20** — an 8% air pocket that clips the stop.
-  **This is a momentum/squeeze trade. Do not hold it past the momentum.**
+  Netflix money is a **one-time licensing windfall, not growth**; consensus is still
+  `underperform` and the stock trades above every raised PT. At a 52-wk high there is **no
+  support until the MA20 ~$10.20** — an 8% air pocket that clips the stop on the way down.
+  Momentum is also **4 days old** and decays. **This is a momentum/squeeze trade with no
+  valuation floor. Do not hold it past the momentum** (lesson 4: exit on volume fade).
 
-### PRIORITY 2 — REPL (WATCH ONLY until Monday's PDUFA resolves)
+### PRIORITY 2 — REPL (WATCH ONLY — the binary is LIVE TODAY)
 
-**PDUFA decision 2026-08-02.** Closed Friday $11.20, **+107%** on the 7/30 FDA AdCom
-**10–3 vote in favor** of RP1 + nivolumab in advanced melanoma (overruling FDA staff,
-reversing two prior rejections). **No entry before the binary — Rocket does not hold
-through binaries, and +107% is 3x the chase ceiling.** If it approves and then builds an
-orderly base, that is a legitimate week-2 setup that requires no chasing. If it fails,
-stand well clear of the knife.
+**PDUFA goal date was Sunday 2026-08-02 and no decision has been published as of 6:20 AM
+ET.** The FDA announcement lands today or imminently. Closed Friday $11.20 (+107% on the
+week) after the 7/30 AdCom voted **10–3** that IGNYTE efficacy is evaluable and clinically
+meaningful — overruling FDA staff and reversing **two prior CRLs** (7/22/25 and 4/10/26).
+**NO ENTRY TODAY AT ANY PRICE.** Rocket does not hold through binaries, and this one is
+unresolved *right now*. Two prior rejections mean the downside tail is real, not theoretical.
+- **If APPROVED**: do not chase the gap. Watchlist it and wait 1–3 days for an orderly base
+  (lesson 8). $941M cap and 6.3M avg volume mean it stays tradable all week.
+- **If a third CRL**: stand completely clear. No knife-catching on a thrice-rejected BLA.
 
-### PRIORITY 3 — CSTL (DOWNGRADED HIGH → MEDIUM)
+### PRIORITY 3 — CSTL — ✅ ENTERED market_open 2026-08-03
 
-Beat-and-raise is still real (Q2 rev $103.5M +20% YoY, FY guide raised to $365–375M,
-TissueCypher volume +63%, street target $42.78, 34% below its 52-wk high). **But it
-closed $28.00 — below its own $28.60 entry trigger, having faded from a $30.81 spike.**
-The base broke. ⚠️ **Sector headwind is live**: Friday's four largest volume prints were
-all small-cap healthcare collapses (BIOA −63.6%, MYGN −42.0%, GLUE −27.2%, FLGT −18.1%).
-Diagnostics is being repriced hard around it, and reimbursement risk is the stated bear
-case. **No entry unless it reclaims $28.60 on >1.5x volume.** Dilution still unverified.
+Trigger hit. Reclaimed $28.60 cleanly on ~3x 20-min volume, monotonically higher through
+the 9:30–9:50 base (28.37 → 28.31 → 29.36 → 29.94). Dilution check run and clears — no
+S-3/S-1/424B since Feb 2024. **Bought 15 sh @ $29.99, 7% trailing stop @ $27.77.** See
+trade_log.md 2026-08-03 for full writeup. No longer a watchlist item — tracking as an
+open satellite position now.
 
-### Watch — needs a catalyst check before it is an idea
-- **PWP** (Perella Weinberg) +18.4%, 2.6x RelVol, $1.67B — near the cap ceiling. Likely
-  earnings; unverified.
-- **NMAD** +7.4%, 2.2x, $85M | **FATN** +18.8% but only **1.0x RelVol** (no confirmation).
+### Screened and ELIMINATED this morning — all passed the universe gates, none had a catalyst
 
-### Theme read going into Week 32
-- **ENERGY is the momentum sector.** SOC, OIS, INR, AESI, XPRO, INVX all green Friday with
-  **Brent extending a 4th session to $90+**. Rates backed up (10-yr 4.73%), which is a
-  direct small-cap headwind — the IWM core will keep feeling it.
-- **SMALL-CAP HEALTHCARE IS THE WORST PLACE TO BE.** Avoid adding diagnostics/biotech
-  longs into this tape without an exceptional, dated catalyst.
+The overnight tape was thin. Every premarket gainer that cleared price/cap/volume failed
+step 1 of catalyst validation:
+
+| Symbol | Move | Why eliminated |
+|--------|------|----------------|
+| **EVMN** | +7.6% | 🚨 **Phase 2b EVO756 MISSED its primary endpoint (6/29/26)** in chronic spontaneous urticaria at every dose. The premarket pop is a bounce on a *failed* trial, not a catalyst. Earnings 8/06. **Avoid.** |
+| **ROLR** | +11.0% | No identifiable catalyst; last news is June (Russell Microcap add, prediction-markets license). Also **NYSE American, not NYSE/NASDAQ** — outside the mandate. $64M cap is at the floor, and it trades **56% below** its Jan-2026 $13.21 registered-direct price. |
+| **BIOA** | +9.1% on 1.6x (top RelVol on the board) | Dead-cat bounce off Friday's **−63.6%** collapse. Earnings 8/06. Rule 8 does not apply to a *decline*. **Avoid.** |
+| **IMRX** | +7.5% | Real pipeline (atebimetinib Ph3 1L pancreatic) but **no dated catalyst** — last news was April AACR. Drift, not an event. |
+| **TARA, NRXP, TE, ASYS, MGNX, QTRX** | +4.6…+8.7% | No verifiable catalyst found for any. ASYS earnings 8/05 — **earnings-week rule bars entry before the print.** |
+| **PRSO, HOUR, VEEE, ISPC** | +47…+85% | The morning's real movers, and **all fail the gates** — sub-$3 / micro-cap. ISPC's "catalyst" is *discussions* about a Solana treasury. Textbook lesson-5 traps. |
+
+**Scanner-overlap tier was empty of quality**: only NRXP (0.4x) and TE (0.1x) appeared on
+both lists, and both had RelVol *below* 1.0x — the overlap filter produced nothing.
+
+### Theme read — Week 32 opens with the Friday themes REVERSED
+- 🚨 **THE ENERGY MOMENTUM TRADE IS DEAD. Brent −7.05% to $83.77, WTI −5.83% to $79.73**
+  overnight, unwinding the entire four-session Iran spike ($90+ → $83.77) in one move.
+  Friday's energy leaders (SOC, OIS, INR, AESI, XPRO) should get hit. **Do not buy the
+  Friday energy list — that theme was invalidated overnight.** WTI already −5.3% on the
+  scan. This also removes the crude-driven inflation impulse behind hike pricing.
+- **Small caps are the STRONG side today, a flip from Friday.** Russell futures **+0.68%**
+  leads S&P (+0.52%) and Nasdaq (+0.47%). Tailwind for the IWM core after Friday's −1.02%.
+- **Rates are the unresolved contradiction**: 10-yr **4.74% (+1.76%)** kept backing up even
+  as crude collapsed. Gold **+1.52%**. Small-cap strength into a rising long end is fragile
+  — treat the Russell bid as unconfirmed until the cash session holds it.
+- **SMALL-CAP HEALTHCARE IS STILL THE WORST PLACE TO BE.** It dominated the gainer list
+  today only because it collapsed on Friday. Bounces are not catalysts.
 
 ### Removed / resolved
-- **CMCO** −7.3% on 4.6x volume Friday — the earnings pop fully unwound. **Dead, removed.**
-- **BOOM** +7.7% on 0.7x volume — no confirmation, still dead. **Removed.**
-- **XRX, JFB, CAPR, DUOT** — all previously skipped; nothing has changed. JFB's "catalyst"
-  remains a progress update on a de-SPAC signed in February.
-- **BLFS** Q2 confirmed **Aug 6**. **CAPR** earnings **Aug 11**. **URGN** UGN-103 NDA still
-  not filed (guidance 2H 2026) — watch for the filing PR.
+- **CMCO, BOOM, XRX, JFB, CAPR, DUOT** — all dead, nothing changed. **PWP, NMAD, FATN**
+  dropped: never got a catalyst check and no longer screen. **Removed.**
+- **BLFS** Q2 **Aug 6**. **CAPR** earnings **Aug 11**. **URGN** UGN-103 NDA still unfiled
+  (guidance 2H 2026) — watch for the filing PR.
 
 ---
 

@@ -1,11 +1,92 @@
 # Rocket Market Context
 
-Last updated: 2026-07-31 (Week 31 weekly review — post-close)
+Last updated: 2026-08-03 (Monday premarket, 6:20 AM ET)
 Older snapshots: `memory/archive/market_context_history.md`
 
 ---
 
-## Snapshot — 2026-07-31 Friday  ← CURRENT
+## Snapshot — 2026-08-03 Monday premarket  ← CURRENT
+
+### 🚨 THE BIGGEST OVERNIGHT MOVE IS IN CRUDE — the energy theme is dead
+**Brent $83.77 (−7.05%), WTI $79.73 (−5.83%).** The entire four-session Iran-driven spike
+($86.97 → $91.41 → $90.16 → **$83.77**) unwound in one session. Consequences Rocket must
+act on:
+- **Friday's energy momentum list (SOC, OIS, INR, AESI, XPRO, INVX) is invalidated.** Do
+  not trade it. WTI already printed −5.3% on the overnight scan. The one-session-old theme
+  read in the last snapshot is now wrong, and stale themes are how a momentum book gets run
+  over. (SOC was already a HARD AVOID on dilution — the check paid twice.)
+- The crude-driven **inflation impulse behind hike pricing is gone**, which should be a
+  small-cap tailwind.
+
+### Macro — risk-on tape, but with one unresolved contradiction
+- **VIX 16.04 (+0.31%)** — down from 17.54, well under the 22 pause threshold. **Sizing
+  unrestricted.**
+- **Russell fut 2,957.90 +0.68%** — *leading* S&P (+0.52%) and Nasdaq (+0.47%). **Small caps
+  are the strong side today, a clean flip from Friday's −0.68%.** Tailwind for the IWM core
+  after Friday's −1.02% drubbing.
+- 🚨 **The contradiction: 10-yr 4.74% (+1.76%) kept backing up even as crude collapsed.**
+  Rising long-end yields are the exact headwind that hurt small caps Friday. Small-cap
+  strength into a rising 10-yr is fragile — **treat the Russell bid as unconfirmed until
+  the cash session actually holds it.**
+- Gold $4,110.50 **(+1.52%)** — the hedge bid came back on. Dollar 99.84 (+0.04%), flat.
+- Friday closes: SPY 747.03 +0.72%, **IWM 291.20 −0.48%** — small caps lagged large by 1.2%
+  on the day. Today's futures are the reversal attempt, not yet the confirmation.
+
+### Calendar — a live whipsaw risk 10 minutes after the entry window
+- 🚨 **10:00 AM ET — ISM Manufacturing PMI (July), exp 54.0 vs 53.3 prior.** This lands
+  **10 minutes after the 9:45–9:50 base-entry window**, so any entry today is immediately
+  exposed to it. Sub-components matter more than the headline:
+  - **ISM Prices Paid exp 70.0 vs 73.0 prior.** A print **above 73** is a live inflation
+    shock → 10-yr backs up further → small caps and the IWM core get hit. **Treat a hot
+    Prices Paid as a reason to stand down on a marginal entry.**
+  - ISM New Orders exp 57.0 vs 56.0 | ISM Employment 49.7 prior (still contracting).
+- 10:00 AM ET — Construction Spending (June), exp +0.2%. Second tier.
+- 🚨 **REPL PDUFA goal date was Sunday 8/02 and NO DECISION HAS BEEN PUBLISHED.** The FDA
+  announcement lands today or imminently. Biggest small-cap binary on the board — watch
+  only, no position, either direction.
+
+### Account structure (portfolio_snapshot, 2026-08-03 10:20 UTC)
+- Shared account **$10,200.62**; Rocket slice (30%) = **$3,060.19**. Pooled cash $1,341.48.
+  **Rocket holds IWM 9 sh = $2,637 (86.2%)**, notional slice cash ~13.8%.
+- ✅ **RESOLVED — the reconciler now BALANCES.** SPY (4 sh, $3,003) was unattributed for
+  two sessions; it is now correctly attributed to **Bull**, along with CRM/JPM/SCHW. Every
+  live position has an owner. Rocket owns **IWM only**; satellites: 0.
+- **Rocket +0.94% since rebase vs SPY +0.67% → +0.27% relative.** ⚠️ **This is IWM beta,
+  not skill** — Rocket holds one index ETF and zero satellites, so 100% of the delta is the
+  IWM-vs-SPY factor bet. It was −0.12% on Friday and flipped positive on a single session.
+  Do not book it as alpha at the weekly review (mandate requirement).
+- ⚠️ **Cash 13.8% — above the 10% ceiling with no bearish thesis, third straight session.**
+  Whole-share granularity keeps regenerating it (lesson 7a). **A satellite is the correct
+  cure, not another IWM top-up.** Max satellite $459 (15%); 1.5% risk = $46.
+
+### THEME READ (8/03)
+- **The overnight tape was thin and low-quality.** Every premarket gainer that cleared the
+  universe gates failed catalyst validation — see `research_log.md` for the elimination
+  table. **EVMN (+7.6%) is the trap of the morning**: it is bouncing on a Phase 2b trial
+  that **missed its primary endpoint** on 6/29.
+- **Small-cap healthcare dominated the gainer board only because it collapsed Friday**
+  (BIOA +9.1% after −63.6%). Bounces are not catalysts. The sector remains the worst place
+  to be without an exceptional dated catalyst.
+- **The scanner-overlap filter produced nothing today** — the only both-list names (NRXP,
+  TE) had RelVol *below 1.0x*. Second session running that overlap alone found no idea;
+  the real candidates keep coming from `unusual_volume` + manual catalyst validation.
+- **AMCX remains the only validated idea**, and the weekend PT raises (Wells Fargo $11,
+  Morgan Stanley $10-but-Underweight) cut both ways: the stale $7.50 bear anchor is gone,
+  **but the stock trades above every raised target.** No analyst-upside leg — it is purely
+  a 21.1%-short-float momentum/squeeze trade, and the momentum is now 4 days old.
+
+### Intraday Triggers to Watch
+- VIX >22 pause, >25 reduce size, >30 no new longs (currently **16.04**, clear).
+- **AMCX entry $10.83** — must hold on **>1.5x volume off raw 5-min bars** (lesson 10).
+  Below $10.83 = failed breakout, no trade. Air pocket down to MA20 ~$10.20.
+- **10:00 AM ISM Prices Paid >73** = stand down on marginal entries; rates shock.
+- **REPL headline** — approval or third CRL. Watch only; no chase either way (lesson 8).
+- Rates: a further 10-yr back-up pressures the Russell and the IWM core directly. Accepted
+  by mandate; the core is not stopped.
+
+---
+
+## Snapshot — 2026-07-31 Friday
 
 ### ✅ RESOLVED — the premarket delay was a session limit, not a schedule bug
 Diagnosed at the Week 31 review. **The launchd schedule is correct**:

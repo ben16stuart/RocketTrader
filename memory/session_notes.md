@@ -3,7 +3,69 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-03 — MARKET CLOSE
+
+**Position review**: CSTL (entered this morning at $29.99, closed ~$30.33, +1.1%) held
+overnight — multi-day earnings-guidance-raise catalyst, no fade signal, 7% trailing stop
+already in place. Not a one-day pop to trim.
+
+**Core rebalance**: IWM was 11.6% over target once CSTL's entry was accounted for
+(satellite now consumes slice that used to be all-core). Sold 1 sh, landing 1.9% over
+target — within the 3% band. Rocket now holds IWM 8 sh (core) + CSTL 15 sh (satellite),
+0% uncommitted cash breach — see trade_log.md for the full calc.
+
+**Day P&L**: Rocket slice ≈ +1.7% today (IWM's Russell-2000 pop plus CSTL's small gain)
+vs SPY +1.44% today — a rare day where the IWM factor bet paid rather than dragged. Since
+rebase (7/20): Rocket +1.40% vs SPY +2.08% (-0.68%), still down mostly on the same factor
+bet, per the standing attribution rule (CLAUDE.md Portfolio Construction).
+
+**Tomorrow's watch**: AMCX (missed-catalyst 3-day re-check, faded on low volume at today's
+open — see research_log.md), REPL (FDA PDUFA binary, still watch-only, no chase).
+
 ---
+
+## 2026-08-03 — PREMARKET (Monday, Week 32 open)
+
+**Ran on time at 6:20 AM ET and finished inside the window** — the first clean premarket
+since the 7/31 session-limit failure (lesson 12). No subagents spawned; 6 inline searches
+total, per the CLAUDE.md thresholds.
+
+**Account**: shared $10,200.62 / slice $3,060.19 / IWM 9 sh = $2,637 (86.2%) / cash 13.8%.
+✅ **The SPY orphan is resolved** — the reconciler balances for the first time in three
+sessions, SPY attributed to Bull. Satellites 0; weekly trade count reset to 0/5.
+
+**The overnight tape was thin.** Ten names cleared the universe gates; **every one failed
+catalyst validation.** Elimination table is in `research_log.md`. Two worth remembering:
+- **EVMN +7.6% was the trap** — bouncing on a Phase 2b that **missed its primary endpoint**
+  (6/29/26). One search turned a top-5 premarket gainer into an avoid.
+- **BIOA topped the RelVol board at 1.6x** purely as a dead-cat bounce off Friday's −63.6%.
+  Rule 8 covers +100% moves *up* on real catalysts; it does not license buying collapses.
+- **The scanner-overlap tier was empty again** (NRXP, TE — both <1.0x RelVol). Second
+  session running where overlap alone produced nothing; the ideas come from
+  `unusual_volume` + manual catalyst work.
+
+**Two theme reversals overnight, both material:**
+1. 🚨 **Energy momentum is dead — Brent −7.05% to $83.77**, unwinding the whole four-session
+   Iran spike. Friday's energy leader list is invalidated. Do not trade a one-day-old theme.
+2. **Small caps flipped to the strong side** — Russell fut **+0.68%**, leading S&P and
+   Nasdaq. But the **10-yr kept backing up to 4.74% (+1.76%)** anyway, so the bid is fragile.
+
+**Plan for 9:35**: one idea, **AMCX**, 35 sh ≈ $392 (12.8%), entry only on a hold above
+**$10.83** confirmed on raw 5-min bars >1.5x. Conviction trimmed HIGH → **MEDIUM-HIGH**:
+the weekend PT raises (WF $11, MS $10/Underweight) killed the stale $7.50 bear anchor but
+**left the stock above every raised target**. No analyst-upside leg; pure 21% -short-float
+squeeze, momentum now 4 days old. **Take the first 1/3 into $12.60–$12.80, not at it** —
+the convert strike ~$12.74 and the top PT both sit under the +15% target.
+
+**Open threads for the next session:**
+- 🚨 **REPL PDUFA (goal date Sun 8/02) is UNRESOLVED** — no FDA decision published. Lands
+  today. Watch only, no position either direction; no chase on approval (lesson 8).
+- 🚨 **10:00 AM ISM Manufacturing** hits 10 min after the entry window. **Prices Paid >73
+  = stand down on marginal entries.**
+- **Cash breach is in its third session** (13.8% vs 10% ceiling, no bearish thesis). The
+  AMCX entry is the intended cure; if it does not trigger, the breach must be addressed at
+  market_close — and lesson 7a says IWM whole shares cannot fix it cleanly.
+- **Midday routine still not loaded in launchctl** (lesson 13) — unfixed, needs the user.
 
 ## 2026-07-31 — WEEKLY REVIEW (Week 31, Friday post-close)
 
