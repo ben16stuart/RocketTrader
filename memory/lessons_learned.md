@@ -22,6 +22,30 @@ Older observations: `memory/archive/lessons_history.md`.
 12. **🚨 Token budget is a TRADING risk, not a housekeeping concern (2026-07-31).** Rocket's premarket fired on time at 6:20 AM ET, then hit `You've hit your session limit` on opus **and again on the sonnet fallback**, finishing at 10:05 AM ET — after the base window. **Cost: the AMCX entry** (closed +15.3% at its 52-week high, above its stated trigger). Rocket and Bull share one Claude quota across 10 launchd routines. **Spend tokens like they are the trading day, because they are.** Obey the subagent rules in CLAUDE.md literally: <5 searches → inline, never a subagent (measured overhead ~171k tokens *each*).
 13. **A launchd plist that exists is not a job that runs — verify it is LOADED (2026-07-31).** `com.benstuart.rocket.midday.plist` was authored 7/22 and scheduled for 12:15 PM ET, but never appeared in `launchctl list` and **never wrote a single log line.** The midday routine has never executed. Nine days of "re-check at midday" plans silently did nothing. **Check `launchctl list | grep rocket` against `ls ~/Library/LaunchAgents/` whenever a routine's output seems missing** — absence of a log file is the tell.
 
+14. **A metric that renders as `nan` is a silent failure — treat any non-numeric output as a
+    broken instrument, not a cosmetic glitch (2026-08-04).** `portfolio_snapshot.py` printed
+    `SPY return since rebase | +nan%`, i.e. **Rocket had no benchmark comparison at all** —
+    the one number that measures whether it is doing its job. Cause: premarket, yfinance
+    returns today's forming bar with volume but a **NaN close**, and `get_spy_return()`
+    indexed `Close.iloc[-1]` blindly. `get_spy_daily_return()` (used by market_close) had the
+    same flaw. Fixed by dropping unpriced bars. **Two generalisations**: (a) *any* yfinance
+    `.iloc[-1]` close read premarket is suspect — the same NaN appeared on all 7 tickers
+    checked that morning; (b) this failed **quietly, in a table cell**, exactly like the
+    never-loaded midday plist in lesson 13. **Silent degradation is the failure mode that
+    actually costs Rocket money — loud errors get fixed.**
+
+15. **The 35%-extension gate is checked against the tape at decision time, not just the
+    opening tick (2026-08-04).** AMRC's premarket plan set an explicit gate: open >$30.69
+    (35% off prior close) = too extended, wait for second-day. Raw 5-min bars showed the
+    *actual* open print was $31.93 (+40.5%) — the gate had already been breached before the
+    plan's own 9:45–9:50 base window even started, and it then faded on heavy volume (84%
+    of full-day avg in 15 min) rather than basing. Separately, BLZE opened at a compliant
+    +29.1% but kept climbing to **+51.0%** by 9:45 — inside-the-band math at the open tick
+    does not mean inside-the-band at the moment you actually decide. **Always compute the
+    gap/extension off the realized open print (and current price if the tape kept moving),
+    never the premarket-indicated price used to write the plan.** Zero trades resulted, but
+    both names are legitimate second-day watches if they close strong.
+
 ## Rules From Real Trades
 
 ### 2026-07-31 — Week 31: zero satellites, and the skips were right

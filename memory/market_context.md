@@ -1,7 +1,96 @@
 # Rocket Market Context
 
-Last updated: 2026-08-03 (Monday premarket, 6:20 AM ET)
+Last updated: 2026-08-04 (Tuesday premarket, 6:20 AM ET)
 Older snapshots: `memory/archive/market_context_history.md`
+
+---
+
+## Snapshot — 2026-08-04 Tuesday premarket  ← CURRENT
+
+### The tape is risk-on and the catalyst board is the best in three weeks
+Monday was a broad rally: **S&P fut +1.58%, Nasdaq fut +2.43%, Russell fut +1.72%.** Small
+caps participated but *lagged the Nasdaq by 70bps* — read this as an **AI/tech-led rally,
+not a small-cap-breadth rally.** The IWM core benefits; it is not the leadership.
+
+### 🚨 THE THEME IS AI POWER / DATA-CENTER INFRASTRUCTURE
+Monday night's earnings all pointed one direction, and all in small-cap picks-and-shovels
+rather than the megacaps Rocket cannot trade:
+- **AMRC** +29.8% AH — Q2 double beat, backlog **+32% to a record $6.73B**, **$1.8B new
+  awards of which $1.2B is data centers**, Power Infrastructure **+65%**, FY26 EPS guide
+  raised. **Today's Priority 1.**
+- **BLZE** +20.6% — beat-and-raise on a **$335M CoreWeave contract**, B2 +34%.
+- **VOYG** +15.7% — double beat plus an agentic-AI spectrum contract.
+
+This is the first session in weeks where the screen produced **multiple** validated
+catalysts instead of one marginal name. Trade the theme, not the ticker.
+
+### Macro
+- **VIX 15.72 (−1.69%)** — the lowest reading in weeks, far below the 22 pause threshold.
+  **Sizing unrestricted.**
+- 🚨 **The rates contradiction is now THREE sessions old and still unresolved: 10-yr 4.74%
+  (+1.76%)** while crude collapses. Small-cap strength into a rising long end stays
+  fragile. It has not broken the tape yet — but it is the thing that would.
+- **Energy stays dead, as called Monday.** Brent **$85.61 (−5.00%)**, WTI **$81.62
+  (−3.60%)** — a second straight session of unwind off the Iran spike. The Friday energy
+  list (SOC, OIS, INR, AESI, XPRO) remains invalidated. Do not trade it.
+- Gold $4,103.30 (+1.34%) — hedge bid still on. Dollar 100.01 (+0.21%), flat.
+- Last cash closes: SPY 747.03, IWM 291.20.
+
+### Calendar — a CLEAN tape, which favors stock-specific catalysts
+- **No tier-1 US data today.** Next NFP is **Friday 8/07**; next CPI is **Wednesday 8/12**.
+- This is a material improvement on Monday, when ISM landed 10 minutes after the entry
+  window and put every entry at immediate macro risk. **Today a 9:45–9:50 gap-and-go base
+  is not exposed to a scheduled release** — the setup gets to work or fail on its own.
+- 🚨 **REPL PDUFA (goal date 8/02) is 2 days overdue with no decision published.** An
+  unscheduled FDA headline is the one live binary that could jolt small-cap healthcare in
+  either direction. Watch only; no position.
+- Earnings tomorrow (8/05): SATL, EBS — both barred by the earnings-week rule today.
+
+### Account structure (portfolio_snapshot, 2026-08-04 10:20 UTC)
+- Shared account **$10,226.33**; Rocket slice (30%) = **$3,067.90**. Pooled cash $430.37.
+- Rocket holds **IWM 8 sh = $2,368 (77.2%)** + **CSTL 15 sh = $447 (14.6%)** = **91.8%
+  invested**; notional slice cash **$253 (8.2%)**.
+- ✅ **THE CASH BREACH IS CURED — first session inside the 10% buffer in four.** The fix was
+  a satellite (CSTL), exactly as lesson 7a said it would be, not another IWM top-up.
+- ✅ Reconciler **BALANCES**; every position attributed. Satellites 1/4, trades 1/5.
+- 🚨 **Cash, not conviction, is the binding constraint today.** Pooled cash is $430.37 but
+  Rocket's *notional* share is only **$253**. A ~$410 satellite bought straight from the
+  pool would spend **Bull's** cash and put Rocket over its slice. **Any entry must sell
+  1 IWM share first** (~$296). That is the mandated funding path, not a rebalance.
+- **Rocket +1.19% since rebase vs SPY +0.67% → +0.52% relative.** (The snapshot printed
+  `+nan%` for SPY this morning — a real bug in `market_data.get_spy_return()`, now fixed;
+  see session_notes.) ⚠️ Standing caveat: with one index ETF and one satellite, nearly all
+  of that delta is **IWM-vs-SPY factor beta, not skill.** Do not book it as alpha at the
+  weekly review.
+
+### THEME READ (8/04)
+- **The scanner-overlap filter finally worked** — AMRC was the sole quality name on both
+  lists and is Priority 1. Three sessions of it producing nothing preceded this.
+- **Caveat on the 4:20 AM scan: every RelVol reads below 1.0x** because it compares partial
+  premarket volume to a full-day average. The column is noise at that hour. **Judge volume
+  off raw 5-min bars after the open (lesson 10).**
+- **BLZE is the day's best illustration of the dilution rule.** Its catalyst and its
+  dilution are the *same transaction*: the $335M CoreWeave deal came with **4.19M warrants
+  at $7.60**, freshly registered for resale and 147% in the money vs $18.80 spot. A great
+  headline can carry its own supply overhang — the check has to run on winners too, not
+  just on the names that look shaky.
+- **AMCX is retired** after four sessions on the list. It closed −2.7% on dead-average
+  volume and never triggered; the lesson-8 window expires today. A momentum trade whose
+  analyst targets sit *below* spot has no second leg.
+- **Small-cap healthcare remains the worst sector** (CLPT −16.2%). CSTL is held on
+  company-specific merit, not sector.
+
+### Intraday Triggers to Watch
+- VIX >22 pause, >25 reduce size, >30 no new longs (currently **15.72**, clear).
+- 🚨 **AMRC: if it opens above $30.69 the gap exceeds 35%** → rule 2 flips to second-day
+  entry, no trade today. Compute the gap off the **$22.73** close before buying.
+- **AMRC entry**: hold above the 9:45–9:50 base low on **>1.5x volume off raw 5-min bars**.
+  Stop 7% below fill. **Sell 1 IWM to fund before buying.**
+- **VOYG exits the universe above $33.73** ($2B cap ceiling) — do not size it with
+  confidence near that level.
+- **REPL headline** — approval or third CRL, unscheduled. Watch only, no chase either way.
+- Rates: a further 10-yr back-up pressures the Russell and the IWM core directly. Accepted
+  by mandate; the core is not stopped.
 
 ---
 

@@ -4,6 +4,42 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-04 — NO TRADE (market_open) — all four candidates disqualified
+
+No fills or stops overnight. Cash unchanged at $430.37 pooled / ~$253 Rocket notional.
+IWM core + CSTL satellite unchanged, 91.6% invested. Checked both pre-market priorities
+plus fresh scans; every candidate failed on its own numbers.
+
+- **AMRC (Priority 1)** — hard-gated. Pre-market plan set an explicit gate: gap >35% off
+  the $22.73 Monday close (= $30.69) means wait for second-day entry, not chase. Raw 5-min
+  bars show the actual **opening print was $31.93 = +40.5%**, breaching the gate before
+  the first bar even closed. It then faded to a $28.97 low by 9:40 on ~443k shares (84% of
+  full-day avg volume in 15 minutes) — high-volume chop after an over-extended gap, not a
+  base. **No entry.** Added to second-day watch: if it closes strong today, tomorrow's open
+  or first 10-min base is a valid entry per the second-day continuation rule.
+- **BLZE (Priority 2)** — same failure mode, worse. Opened $20.13 (+29.1%, inside the
+  gap-and-go band) but kept climbing through the first 15 minutes to a $23.99 high, last
+  ~$23.54 = **+51.0%** off the $15.59 prior close — the *current* move is now more than 35%
+  even though the opening print was not. Rule 2's "too extended, do not chase" applies to
+  the state of the tape at decision time, not just the open tick. Combined with the known
+  CoreWeave-warrant dilution overhang (research_log.md), this is a clean skip. Added to
+  second-day watch, dilution caveat carries forward.
+- **XGN (fresh find)** — Exagen Q2 2026 beat: revenue $19.94M vs $17.81M est (+16% YoY,
+  record), EPS -$0.13 vs -$0.19 est, gap +32.7–34.6% (inside the gap-and-go band, unlike
+  AMRC/BLZE). Real catalyst, but **fails the hard universe gate**: avg daily volume 229k,
+  under the 300k minimum in CLAUDE.md's Investment Universe rule. Disqualified regardless
+  of catalyst quality — thin-float healthcare name, no exception made.
+- **BWEN** — appeared on both `unusual_volume` and `top_movers` (+14–15%, 3.4–3.6x RelVol),
+  same overlap signature that found AMRC pre-market. Checked: **no catalyst**. Q2 earnings
+  aren't until 8/11; the only recent news is a May wind-market exit, already stale. Rule 1
+  (no catalyst = no trade) applies. Skip.
+- **Result**: flat session, no trades placed. Per Portfolio Construction rule 7, "no
+  qualifying catalyst" means hold IWM, not go flat — Rocket is already ~92% invested via
+  core + CSTL, so no action was needed to stay compliant. No notification sent (flat
+  session, no stops hit).
+
+---
+
 ## 2026-08-03 — IWM CORE REBALANCE (market_close) — SELL 1 sh
 
 - **Shares**: sold 1 @ ~$296.30 (filled 19:58:49 UTC), IWM position now 8 sh (avg cost

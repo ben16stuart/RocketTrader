@@ -3,6 +3,94 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-04 — MARKET CLOSE
+
+**Position review**: CSTL (15 sh @ $29.99) held overnight — closed **$31.31, +5.1% on the
+day** (off yesterday's $29.79 close) on continued digestion of the Q2 beat-and-raise, no
+distribution signal, stop at $27.77 well clear. Multi-day catalyst, not a one-day pop, well
+short of either profit target. **Hold.**
+
+**Core rebalance**: checked and skipped — IWM (8 sh, $2,414.72) sits **2.2% over** target
+core (slice $3,127.30 − CSTL $469.65 − 10% buffer $312.73 = $2,344.92 target), inside the
+3% band. Pooled notional cash ~7.8% of slice, inside the 10% buffer. No trade.
+
+**AMRC and BLZE second-day setups are DEAD.** Both faded hard intraday — AMRC closed
+$27.73 (open $31.93, high $31.93, low $27.33) on 2.7x ADV; BLZE closed $19.82 (open
+$20.13, high $23.99, low $19.65) on ~3x ADV. Distribution all session, not basing. Removed
+from tomorrow's second-day watch (research_log.md updated) — a clean continuation entry
+needs a real base, and neither name gave one.
+
+**Day P&L**: Rocket's own positions (IWM + CSTL) **+2.47% today** ($2,814.85 → $2,884.37)
+vs **SPY +1.81%** — IWM tracked SPY closely (+1.97%), CSTL's +5.1% single-name day was the
+edge. Since rebase (7/20): Rocket +3.15% vs SPY +3.94% (**-0.79%**), still net negative on
+the IWM factor bet per the standing attribution rule.
+
+**No trades today** — market_open found all four screened candidates disqualified (see
+trade_log.md), market_close found no rebalance or exit trigger. Flat session.
+
+**Tomorrow's watch**: thin board — CSTL continues to hold, AMRC/BLZE off the list (see
+above), REPL still FDA watch-only (PDUFA now 3 days overdue, no decision published, two
+prior CRLs — no entry either direction). Premarket needs a fresh screen; nothing carries
+forward with real setup quality.
+
+---
+
+## 2026-08-04 — PREMARKET (Tuesday)
+
+**Ran on time at 6:20 AM ET. No subagents; 6 inline searches** — held to the lesson-12
+budget discipline for the second session running.
+
+**Account**: shared $10,226.33 / slice $3,067.90 / IWM 8 sh $2,368 (77.2%) + CSTL 15 sh
+$447 (14.6%) = **91.8% invested, cash 8.2%**. ✅ **Cash breach cured — first session inside
+the 10% buffer in four**, and the cure was a satellite (CSTL), exactly as lesson 7a said.
+Reconciler balances. Satellites 1/4, trades 1/5.
+
+**The best catalyst board in three weeks, and it has a single theme: AI power /
+data-center infrastructure.** Monday-night earnings produced three validated names —
+after weeks of screens that produced one marginal name or none.
+
+**Watchlist built (research_log.md)**:
+- **AMRC (P1, HIGH)** +29.8% AH — Q2 double beat, **backlog +32% to a record $6.73B**,
+  **$1.8B new awards of which $1.2B is data centers**, FY26 EPS guide raised. Float 32M,
+  NYSE, **dilution check clears**. Gap-and-go 9:45–9:50 base. Short float only ~10.6% —
+  **not a squeeze, do not size it up as one.**
+- **BLZE (P2)** +20.6% — real beat-and-raise on a $335M CoreWeave deal, **but the catalyst
+  and the dilution are the same transaction**: 4.19M warrants at $7.60 (147% ITM) freshly
+  registered for resale. Fallback only.
+- **VOYG (P3)** / **INSP (P4)** — both real beats, both ranked down: VOYG **exits the $2B
+  universe ceiling at $33.73**, only 4% above indicated; INSP is a multi-week re-rate, not
+  a 1–5 day momentum trade.
+
+🚨 **The binding constraint today is CASH, not conviction.** Pooled cash $430.37, but
+Rocket's notional share is **$253**. A ~$410 satellite bought straight from the pool would
+spend **Bull's** cash and push Rocket over its slice. **Any entry must sell 1 IWM first.**
+
+**Retired AMCX** after four sessions as Priority 1 — closed −2.7% on dead-average volume,
+never triggered, lesson-8 window expires today, and both raised analyst PTs sit *below*
+spot. A momentum trade with no valuation leg and fading volume is finished.
+
+**REPL PDUFA is 2 days overdue with no decision.** Silence past a goal date with two prior
+CRLs behind the BLA is not neutral. Watch only, no position either direction.
+
+**Macro**: VIX 15.72 (lowest in weeks), Russell fut +1.72% but lagging Nasdaq +2.43% —
+tech-led, not breadth-led. **No tier-1 data today** (NFP 8/07, CPI 8/12), so unlike Monday
+a 9:45 entry is not exposed to a scheduled release. Rates contradiction unresolved for a
+third session: 10-yr 4.74% still backing up while crude falls another 5%.
+
+**🐛 FIXED — the benchmark comparison was silently broken.** `portfolio_snapshot.py` printed
+`SPY return since rebase | +nan%`. Root cause: premarket, yfinance returns today's forming
+bar with volume but a **NaN close**, and `market_data.get_spy_return()` took `Close.iloc[-1]`
+blindly, propagating NaN into every downstream figure. `get_spy_daily_return()` had the
+identical flaw (it feeds market_close). Both now drop unpriced bars before indexing;
+premarket they correctly yield the last *completed* session. Verified: **Rocket +1.19% vs
+SPY +0.67% → +0.52% relative.** ⚠️ Standing caveat: with one index ETF and one satellite,
+that delta is **IWM-vs-SPY factor beta, not skill** — do not book it as alpha.
+**Note this was invisible, not loud** — the number rendered as `nan` in a table rather than
+raising. Any session that read the snapshot without looking closely would have had no
+benchmark at all.
+
+---
+
 ## 2026-08-03 — MARKET CLOSE
 
 **Position review**: CSTL (entered this morning at $29.99, closed ~$30.33, +1.1%) held
