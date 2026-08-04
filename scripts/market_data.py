@@ -30,6 +30,9 @@ def get_spy_return(since_date: str) -> float:
     # end must be TOMORROW — yfinance end is exclusive, so end=today omits today's bar
     end = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
     data = spy.history(start=since_date, end=end)
+    # Premarket, today's bar exists with volume but a NaN close — taking iloc[-1]
+    # blindly propagates NaN into every downstream return figure. Drop unpriced bars.
+    data = data[data["Close"].notna()]
     if data.empty or len(data) < 2:
         return 0.0
     price_then = float(data["Close"].iloc[0])
@@ -42,6 +45,9 @@ def get_spy_daily_return() -> float:
     spy = yf.Ticker("SPY")
     end = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
     data = spy.history(start=(datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d"), end=end)
+    # Same NaN-close guard as get_spy_return. Premarket this correctly yields the
+    # last *completed* session's return rather than NaN.
+    data = data[data["Close"].notna()]
     if data.empty or len(data) < 2:
         return 0.0
     price_prev = float(data["Close"].iloc[-2])
