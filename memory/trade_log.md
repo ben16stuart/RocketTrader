@@ -4,6 +4,65 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-05 — NO TRADE (market_close) — CSTL held, core in band
+
+**CSTL position review**: 15 sh, entry $29.99, closed **$30.36 (+1.2% since entry)** but
+**down from yesterday's $31.31 close (-3.0% on the day)** — a pullback off the post-earnings
+pop, not a break. Still comfortably above entry and 9.3% clear of the $27.77 stop, MA50
+$23.29 well below, week range $26.79–$31.18 (near the top, not breaking down). Catalyst
+(Q2 beat-and-raise, guidance raise) is multi-day per the 8/03 entry thesis and confirmed
+again 8/04 — no distribution signal (this is a single quiet red day, not fading on volume).
+**Hold overnight.**
+
+**Core rebalance**: IWM 8 sh = $2,400.40 vs target_core = slice $3,126.82 − CSTL $455.40 −
+10% buffer $312.68 = $2,358.74. **1.33% over target — inside the 3% band. No trade.**
+Notional slice cash $271.02 (8.67%), inside the 10% buffer.
+
+**Day P&L**: Rocket's own positions (IWM + CSTL) **-0.99%** ($2,884.37 → $2,855.80) vs
+**SPY -0.06%** today — underperformance driven by CSTL's pullback (-3.0%) plus IWM tracking
+slightly softer than SPY, not a stock-specific problem. Since rebase (7/20): Rocket +3.14%
+vs SPY +3.90% (**-0.76%**).
+
+**No trades placed today** — market_open found all screened candidates disqualified, market
+close found no exit or rebalance trigger. Flat session, no ntfy stops hit independently of
+the scheduled EOD summary.
+
+**Note**: portfolio_snapshot.py flags 12 sh NOW ($1,406) as unattributed — held at the broker
+but absent from both Rocket's and Bull's trade logs. Not sized against or acted on; this is a
+reconciliation gap for weekly_review, not a Rocket position.
+
+---
+
+## 2026-08-05 — NO TRADE (market_open) — both priority candidates disqualified
+
+No fills or stops overnight. Cash unchanged at $430.37 pooled; Rocket notional cash
+$261.41 (8.3% of $3,143.41 slice) — inside the 10% buffer, no action needed. IWM 8 sh
++ CSTL 15 sh unchanged, 91.7% invested. Checked both pre-market priorities plus fresh
+scans (`unusual_volume`, `top_movers`); no candidate qualified.
+
+- **APPS (Priority 1)** — hard-gated, lesson 15 for the third session running.
+  Premarket plan set an explicit gate: 35% off the $9.51 Tuesday close = $12.84, no
+  trade above it at decision time. Realized 9:45 AM tape: **$13.85–$13.95, +45.6% to
+  +46.6%**, only 1% off the 52-week high. The gate was breached before the session even
+  opened. **No entry.** Added to second-day watch (lesson 8) — valid continuation entry
+  tomorrow if it closes strong on the print.
+- **FTK (Priority 2)** — no entry, three independent reasons. Volume is only 0.4x avg
+  (167k vs 361k avg) on a +29% move — the opposite of the >1.5x confirmation lesson 10
+  requires. Market cap still returns `$0M`/unverified from the scanner (flagged
+  premarket, never cleared). And the 10:00 AM ET earnings call was 15 minutes away at
+  decision time — entering would mean holding through a live unscheduled binary.
+- **TBI (fresh find, top_movers)** — +20.8–26.8%, inside the gap-and-go band, but avg
+  daily volume 184k fails the 300k universe minimum outright. Disqualified on liquidity
+  before any catalyst check.
+- **AMPX / KODK** — unchanged from premarket, both remain watch-only (uncleared
+  dilution flag on AMPX; unverified catalyst on KODK).
+- **Result**: flat session, no trades placed. Per Portfolio Construction rule 7, "no
+  qualifying catalyst" means hold IWM, not go flat — Rocket is already ~92% invested
+  via core + CSTL, so no action was needed to stay compliant. No notification sent
+  (flat session, no stops hit).
+
+---
+
 ## 2026-08-04 — NO TRADE (market_open) — all four candidates disqualified
 
 No fills or stops overnight. Cash unchanged at $430.37 pooled / ~$253 Rocket notional.

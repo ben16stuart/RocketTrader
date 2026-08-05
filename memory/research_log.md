@@ -6,198 +6,210 @@ entries to `memory/archive/research_log_history.md`.
 ---
 
 ## Watchlist — Week 32 (Mon 2026-08-03 →)  ← CURRENT
-*Rebuilt 2026-08-04 premarket (6:20 AM ET) from overnight screens + Monday-night earnings.*
+*Rebuilt 2026-08-05 premarket (6:20 AM ET) from overnight screens + Tuesday-night earnings.*
 
-**Account**: shared $10,226.33 / Rocket slice (30%) **$3,067.90** / pooled cash $430.37.
-Rocket holds **IWM 8 sh = $2,368 (77.2%)** + **CSTL 15 sh = $447 (14.6%)** = **91.8%
-invested**, notional slice cash **$253 (8.2%) — inside the 10% buffer for the first time
-in four sessions.** The CSTL satellite cured the breach exactly as lesson 7a predicted.
-CRM/JPM/SCHW/SPY are Bull's. ✅ **Reconciler BALANCES.**
-Max satellite **$460** (15%); 1.5% risk = **$46**. Satellite trades this week: **1 / 5**.
+**Account**: shared $10,439.53 / Rocket slice (30%) **$3,131.86** / pooled cash $430.37.
+Rocket holds **IWM 8 sh = $2,418 (77.2%)** + **CSTL 15 sh = $465 (14.8%)** = **92.1%
+invested**, notional slice cash **$249 (7.9%) — inside the 10% buffer, second straight
+session.** CRM/JPM/SCHW/SPY are Bull's. ✅ **Reconciler BALANCES.**
+Max satellite **$470** (15%); 1.5% risk = **$47**. Satellite trades this week: **1 / 5**.
 Open satellites: **1 / 4**.
 
-🚨 **THE BINDING CONSTRAINT TODAY IS CASH, NOT CONVICTION.** Pooled cash is $430.37 and
-Rocket's *notional* share of it is only **$253**. Buying a ~$410 satellite out of the pool
-would silently spend **Bull's** cash and push Rocket over its slice. **Any entry today must
-be funded by selling 1 IWM share first** (~$296 → Rocket notional cash ~$549). That is the
-mandated funding path ("fund satellites by selling core"), not a rebalance, so it is
-allowed at the open.
+🚨 **CASH IS STILL THE BINDING CONSTRAINT, NOT CONVICTION.** Pooled cash is $430.37 but
+Rocket's *notional* share is only **$249**. A ~$460 satellite bought straight from the pool
+spends **Bull's** cash and pushes Rocket over its slice. **Any entry today must sell 1 IWM
+share first** (~$302 → Rocket notional cash ~$551). Mandated funding path ("fund satellites
+by selling core"), not a rebalance — allowed at the open.
+
+🚨 **THE 9:45 BASE WINDOW IS CONTAMINATED TODAY.** S&P Global Services PMI prints at
+**9:45 AM ET** and ISM Services at **10:00 AM ET** — the release lands *inside* the
+gap-and-go base window, not after it. This is Monday 8/03's ISM problem again, one notch
+worse. **Do not enter blind on the 9:45–9:50 bar. Require the 9:50–9:55 bar to confirm the
+base held *through* the print.** Trading a base that a data release is actively forming is
+not the setup the rule describes.
 
 ---
 
-### PRIORITY 1 — AMRC — 🚨 NO ENTRY 8/04. Closed weak — second-day setup INVALIDATED.
+### PRIORITY 1 — APPS (HIGH) — Q1 FY27 beat with the FY27 guide raised 23%
 
-**Update 8/04 market_close**: closed **$27.73**, down from the $31.93 open and further
-off the $31.93 high — full-day range $31.93/$27.33, closing near the low. That is
-continued distribution all session (2.62M shares, ~2.7x normal ADV), not a base forming.
-Still +22.0% off Monday's $22.73 close, but the close-below-open / close-near-low pattern
-fails the second-day continuation rule's "closed strong" requirement. **Do not enter
-tomorrow's open on this.** Only revisit if it bases cleanly over multiple sessions with a
-fresh volume signal — the one-day setup is dead.
+**Digital Turbine** — reported Tuesday 8/04 after the close, **+26.8% premarket to $12.06**
+from a **$9.51** close. Best catalyst on the board and the only name gapping inside the
+momentum band.
 
-### PRIORITY 1 (pre-market) — AMRC (HIGH) — Q2 beat-and-raise with a $1.2B data-center award
-
-**Ameresco** — reported Monday 8/03 after the close, **+29.8% after-hours to $29.50** from a
-$22.73 close. This is the best catalyst Rocket has screened in three weeks and it is the
-**only name on both scanner lists** (top mover AND unusual volume).
-
-- **Catalyst (8/03 post-close)**: Q2 **double beat** — revenue **$515.5M vs $463M est
-  (+11% surprise, +9% YoY)**, adj EPS **$0.20 vs $0.16**. **Backlog +32% YoY to a record
-  $6.73B.** **$1.8B of new awards in the quarter, of which $1.2B is data centers.** Power
-  Infrastructure segment **+65%**. FY26 adj EPS guide **raised $1.06–1.28 → $1.15–1.35**
-  against $1.05 consensus.
-- **Why it gapped 30% and not 10%**: this is no longer an energy-efficiency contractor
-  story, it is an **AI/data-center power infrastructure** story — the single hottest theme
-  in the tape. The backlog and the award mix are the catalyst, not the EPS line.
-- **Universe (verified 8/04)**: $1,204M cap ✓ (~$1.56B at $29.50, ceiling not a risk until
-  **$37.74**) | **float 32.0M ✓ — under the 50M low-float preference** | avg vol 603,317 ✓
-  | **NYSE** ✓ | US ✓ | price ✓.
-- **Short float**: 3.40M shares ≈ **10.6% of the 32M float** — *below* the 15% squeeze bar.
-  **Do not size this up as a squeeze** (rule 6 does not apply). It is a momentum trade.
-- **Dilution — CHECKED, CLEARS.** No offering, no ATM, no convertible found. (Ameresco does
-  carry heavy *project-level* debt — structural to an energy-infra developer, not
-  shareholder dilution. Different risk, noted below.)
-- **Entry — gap-and-go, 9:45–9:50 base, NOT the opening print** (rule 2). +29.8% sits in
-  the 20–35% band. Buy a **hold above the 9:45–9:50 base low** on **>1.5x volume read off
-  raw 5-min bars** (lesson 10). Indicative base ~$28.50–29.50.
-- 🚨 **HARD GATE — if AMRC opens above $30.69 the gap exceeds 35% and rule 2 flips to
-  "wait for second-day entry." Compute the gap off the $22.73 close before buying anything.**
-- **Stop**: 7% below the actual fill (≈ **$27.44** on a $29.50 fill). Re-strike off the fill.
-- **Targets**: +15% ≈ **$33.93** sell 1/3 | +25% ≈ **$36.88** sell 1/3 | trail final 1/3.
+- **Catalyst (8/04 post-close)**: adj EPS **$0.17 vs $0.14 est**; revenue **$166M, +27% YoY**,
+  a **+10.2% revenue surprise**; adj EBITDA **$42.5M, +69% YoY**, margin expanding to
+  **25.6%**. App Growth Platform **+56%**, DTX **+54%**, direct brand **+70%** — management
+  credits advertiser demand, better targeting and **AI-powered optimization**.
+- **The raise is the real catalyst, not the beat.** FY27 guided to **$650–670M revenue /
+  $145–155M adj EBITDA**, against FY26's guided $530–535M / $92–95M. That is **~+23% revenue
+  and ~+57% EBITDA growth guided** — a growth-rate inflection, not a one-quarter print.
+- **Universe (verified 8/05)**: $1,150M cap at $9.51 → **~$1.46B at $12.06** ✓ (**$2B ceiling
+  not hit until $15.72** — no mid-trade ejection risk, unlike VOYG yesterday) | avg vol
+  **5.88M ✓ — deepest liquidity Rocket has screened in weeks** | NasdaqCM ✓ | US ✓ | price ✓.
+- ⚠️ **Float 109.1M of 120.9M shares out — far above the <50M low-float preference.** Deep
+  liquidity cuts both ways: easy to exit, but the move will be less explosive than a
+  thin-float name. Size to the cap, expect a grind rather than a rip.
+- **Short float 9.14%, 2.16 days to cover — BELOW the 15% squeeze bar. Rule 6 does not
+  apply. Do NOT size this up as a squeeze.** It is a momentum trade.
+- **Dilution — CHECKED, CLEARS.** No offering, no ATM, no convertible found. The $430M term
+  loan was **refinanced to 2029 in Sept 2025**, retiring the Aug-2026 maturity. That is
+  leverage, not shareholder dilution — a different risk, noted below.
+- **Entry — gap-and-go, base window, NOT the opening print** (rule 2). +26.8% sits inside
+  the 20–35% band. Buy a **hold above the base low on >1.5x volume read off raw 5-min bars**
+  (lesson 10) — but per the PMI note above, **take confirmation from the 9:50–9:55 bar**.
+- 🚨 **HARD GATE — 35% off the $9.51 close is $12.84. The indication is $12.06, only 6.5%
+  under it.** Lesson 15 is the whole story here: BLZE opened compliant at +29.1% yesterday
+  and was at **+51%** by 9:45. **Recompute the extension off the realized open print AND
+  again at the moment of decision. Above $12.84 at 9:45 → no trade, second-day watch.**
+- 🚨 **RESOLVED 9:45 AM ET — GATE BREACHED, NO TRADE.** Realized tape: **$13.85–$13.95,
+  +45.6% to +46.6% off the $9.51 close**, 9.1–11.0x RelVol, volume 5.58M (1.3x avg) —
+  and only **1.0% below the 52-week high ($13.98).** This is lesson 15 for the third
+  session running: the gate was set at $12.84 and the stock is $1+ past it at the exact
+  moment of decision. **No entry.** Added to second-day watch per lesson 8 — if it closes
+  strong today on the print, tomorrow's open or first 10-min base is a valid continuation
+  entry; watchlist it, do not chase today.
+- **Stop**: 7% below the actual fill (≈ **$11.22** on a $12.06 fill). Re-strike off the fill.
+- **Targets**: +15% ≈ **$13.87** sell 1/3 | +25% ≈ **$15.08** sell 1/3 | trail final 1/3.
   Take the first third *into* the level, do not wait for the exact print (MRLN lesson).
-- **Size**: **14 sh ≈ $413 (13.5% of slice)** — under the $460 cap. **Requires selling
-  1 IWM first.** If the fill is materially higher, cut shares to keep the position ≤$460.
-- **What kills it**: revenue guidance was **REAFFIRMED, not raised** ($2.0–2.2B vs $2.11B
-  est) — only EPS went up, so the top line is doing no work here. Ameresco is a **lumpy
-  project-revenue business with a history of guidance disappointments** and material debt;
-  backlog is not revenue. A 30% one-day gap on an ~600k-share ADV name means **thin
-  liquidity into any reversal** — check the spread before sizing. No support beneath the
-  gap; a failed base is an air pocket straight back toward $23.
+- **Size**: **38 sh ≈ $458 (14.6% of slice)** — under the $470 cap. **Requires selling 1 IWM
+  first.** Re-strike off the fill as `int(469.78 / fill)`; a $12.50 fill means 37 sh, not 38.
+- **What kills it**: APPS is a **broken chart** — down from ~$90 in 2021 to $9.51, and it has
+  a documented history of guiding up and then disappointing. It is also a **repeat spiker**:
+  lesson 7 records **APPS +78%** as a prior missed catalyst, which is the same
+  already-ran-on-a-print profile that ranked BLZE down yesterday. **$430M of term debt
+  against a $1.46B cap** is real leverage. Ad-tech revenue is cyclical and advertiser demand
+  is the first thing cut. And the 109M float means no squeeze fuel beneath the move.
 
-### PRIORITY 2 — BLZE — 🚨 NO ENTRY 8/04. Closed weak — second-day setup INVALIDATED.
+### PRIORITY 2 — FTK (MEDIUM) — 100% EPS beat, and the only real squeeze profile screened
 
-**Update 8/04 market_close**: closed **$19.815**, barely above the $20.13 open and well
-off the $23.99 high — full-day range $23.99/$19.65 on 10.9M shares (~3x normal ADV), a
-hard fade from the mid-morning spike back toward the open. Same distribution pattern as
-AMRC. Still +27.1% off the $15.59 prior close, but no base — combined with the CoreWeave
-warrant overhang, this is a skip, not a watch. **Do not enter tomorrow's open on this.**
+**Flotek Industries** — Q2 reported 8/04 post-close, **+11.3% premarket to $31.39** from
+$28.21. **Earnings call is live TODAY at 10:00 AM ET** — an event inside the session.
 
-### PRIORITY 2 (pre-market) — BLZE (MEDIUM) — beat-and-raise, but the catalyst *is* the dilution
+- **Catalyst**: EPS **$0.26 vs $0.13 est — a 100% beat**, +$0.13.
+- 🚨 **THE SQUEEZE MATH IS THE BEST ON THE BOARD.** **Float 14.2M — the smallest screened,
+  deeply under the 50M preference.** Short float **17.66% — ABOVE the 15% bar** — and
+  **8.29 days to cover.** Rule 6 says size up on a squeeze setup, and this is the only
+  genuine one today.
+- **Universe**: price ✓ | NYSE ✓ | ⚠️ **avg vol 334,119 — barely clears the 300k minimum.**
+  Thin. Rocket's ~$440 position is trivially small against that, so the risk is **spread,
+  not depth — check the bid-ask before sending anything.**
+- 🚨 **Market cap came back `unknown — VERIFY MANUALLY` from the gate check.** The scanner
+  reads $1.12B, which passes, but yfinance returned no shares-outstanding figure.
+  **Confirm the cap before sizing** — never treat a missing number as a pass.
+- **+11.3% is BELOW the 20% gap-and-go band** — this needs a conventional base, not the
+  gap-and-go mechanic. Less momentum behind it than APPS.
+- **Entry (fallback only — Rocket can fund ONE satellite)**: conventional base hold on
+  >1.5x 5-min volume, and **not before the 10:00 AM call is underway** — a live call is an
+  unscheduled binary sitting on top of the position. Stop 7% below fill (≈$29.19 on $31.39).
+  Targets +15% ≈ $36.10, +25% ≈ $39.24. **Size 14 sh ≈ $440 (14.0%)**, also needs 1 IWM sold.
+- **What kills it**: **it is an energy name, and energy has been correctly called dead for
+  three sessions** — Brent unwound $91 → $80.71 and only bounced +1.70% overnight. The tiny
+  float is a **control-block artifact (ProFrac majority ownership)**, not scarcity — a
+  controlling holder is permanent latent supply, and 8.29 days to cover on a 334k ADV means
+  a squeeze would be violent in *both* directions. The 10:00 AM call can undo the print.
+- 🚨 **RESOLVED 9:45 AM ET — NO TRADE, VOLUME NOT CONFIRMING.** Realized tape: **$36.22–
+  $36.49, +28.4–29.4%** off the $28.21 close — the gap accelerated well past the premarket
+  +11.3% indication and into the 20–35% gap-and-go band, but **volume is only 167k, 0.4x
+  avg (avg 361k)** — the opposite of confirmation (need >1.5x per lesson 10). A 29% move on
+  sub-average volume is thin-tape price discovery, not accumulation. Market cap still
+  returns **`$0M` / `Company: N/A`** from the scanner — the "verify manually" flag from
+  premarket is still unresolved. And the **10:00 AM ET earnings call is 15 minutes away** —
+  entering now means holding through a live, unscheduled binary on top of an already-thin
+  tape. All three reasons independently kill it. **No entry.**
 
-**Backblaze** — Q2 reported 8/03, **+20.6% to $18.80** from $15.59.
+### PRIORITY 3 — AMPX (MEDIUM-LOW) — 126% revenue growth, but the cap ceiling is 20% away
 
-- **Catalyst**: revenue **$42.7M, +18% YoY — fastest in six quarters**; B2 cloud storage
-  **+34%**, best in seven quarters; adj EBITDA margin **30%, 700bps above the high end of
-  guidance**; EPS 300% above forecast. **FY26 revenue guide raised $161.5–163.5M →
-  $172–174M** (19% growth vs 11% prior). Anchored by a **$335M multi-year CoreWeave
-  contract — the largest in company history.**
-- **Universe**: $936M cap ✓ | avg vol 3.58M ✓ | NASDAQ ✓ | price ✓ | **float 57.5M — above
-  the <50M low-float preference** (passes the mandate, just less explosive).
-- 🚨 **DILUTION — THIS IS WHY IT IS NOT PRIORITY 1.** An **S-3 is on file registering
-  3,053,314 + 1,141,562 = 4.19M warrant shares issued to CoreWeave**, exercise price
-  **$7.60** — **147% in the money against $18.80 spot**, ≈**7.3% of float**, freshly
-  registered *for resale*. **The $335M deal and the warrant overhang are the same
-  transaction.** Add heavy SBC dilution (ROE −58.5%). The bull catalyst hands the
-  counterparty a cheap registered block; that is a real, dated supply risk.
-- **Short interest**: 2.75M shares, **0.58 days to cover** — very low. No squeeze leg.
-- **Entry — ONLY as the fallback if AMRC fails its gate. Rocket can fund ONE satellite
-  today.** Same mechanics: 9:45–9:50 base, hold above the base low on >1.5x 5-min volume,
-  stop 7% below fill. Targets +15% ≈ $21.62, +25% ≈ $23.50. **Size 21 sh ≈ $395 (12.9%)**,
-  also requires selling 1 IWM.
-- **What kills it**: the CoreWeave warrants exercised and sold into the strength; customer
-  concentration in that one contract; and it already ran on AI narrative last week (+68% on
-  a prior print — a repeat-pumper profile).
+**Amprius Technologies** — Q2 8/04, **+8.5% to $11.73** from $10.81. Call today 8:30 AM ET.
+- **Catalyst**: revenue **$34.0M vs $29.3M est (+16% surprise), +126% YoY** off $15.1M. FY26
+  guide **raised to ≥$140M**, net loss held <$10M, **positive adj EBITDA ≥$4M** — the
+  profitability crossover is the interesting part.
+- **Universe**: avg vol 8.06M ✓ | NYSE ✓ | price ✓. **Cap $1,531M at $10.81 → ~$1.66B at
+  $11.73.** 🚨 **The $2B ceiling hits at $14.13 — 20% above spot.** More headroom than VOYG
+  had yesterday, but a +25% target would eject it from the universe.
+- **Short float 20.1% — above the squeeze bar** — but **float 137.8M (97% of shares out)**
+  and only **3.84 days to cover**. A large short position that covers easily is not a
+  squeeze; FTK's 8.29-day / 14.2M-float setup is strictly better.
+- 🚨 **DILUTION FLAG — NOT CLEARED.** The release itself books a **$1.9M non-cash charge
+  from the fair-value increase on a "warrant exchange."** There is live warrant machinery
+  in this capital structure and it has not been researched. **BLZE was yesterday's lesson
+  that a great headline can carry its own supply overhang — run the check before any entry.**
+- **+8.5% is well below the band.** Ordinary gap, unprofitable pre-scale battery maker.
+  **Watch only.**
 
-### PRIORITY 3 — VOYG (MEDIUM-LOW) — real double beat, but it is about to outgrow the mandate
+### PRIORITY 4 — KODK — 🚨 WATCH ONLY. Moved on a print I could not verify.
 
-**Voyager Technologies** — Q2 reported 8/03 post-close, **+15.7% to $32.42** from $28.01.
-- **Catalyst**: revenue **$52.75M vs $48.23M est**, double beat with a strong outlook, plus
-  a separately announced **multi-million-dollar agentic-AI spectrum operations contract**
-  and a **$24.5M NASA JSC mission-management award**.
-- **Universe**: float 46.4M ✓ | avg vol 2.38M ✓ | NYSE ✓ | price ✓. **Cap $1.66B at $28.01
-  → ~$1.92B at $32.42.** 🚨 **Rocket's $2B ceiling is hit at $33.73 — only 4% above the
-  indicated premarket. A strong open ejects this name from the universe mid-trade.**
-- **+15.7% is BELOW the 20% gap-and-go band** — this is an ordinary gap needing a
-  conventional base, with less momentum behind it than AMRC or BLZE.
-- Recent IPO (June 2025) — short trading history, less reliable base structure.
-- **Verdict: watch only today.** The cap ceiling makes it un-sizable with confidence and
-  Rocket can fund one satellite. Revisit if it consolidates back under $31.
-
-### PRIORITY 4 — INSP (MEDIUM-LOW) — huge EPS swing, but not Rocket's trade
-
-**Inspire Medical**, +10.7% to $57.80 from $52.22. EPS **$0.14 vs −$0.24 consensus** (a
-$0.38 beat, swing to profit), rev $200.6M vs $194.7M, FY26 guide $1.05–1.45 vs $0.91.
-Universe passes on every gate ($1.51B cap, float 25.5M, avg vol 1.15M, NYSE). **Ranks last
-because**: +10.7% is a normal gap not a momentum setup; small-cap healthcare is the tape's
-worst sector; and one $57.80 share is 1.9% of the slice, so sizing is coarse. It is a
-multi-week margin-recovery re-rate, not a 1–5 day momentum trade. **Logged, not traded.**
-
-### AMCX — 🚨 RETIRED from the watchlist. The setup is dead.
-
-Carried as Priority 1 for four sessions; it never triggered and the thesis has decayed.
-**Closed Monday $10.90 (−2.7%) on 1.41M shares vs a 1.38M 5-day average — no accumulation
-at all**, no new high in three sessions. Monday's skip was correct (it round-tripped its
-open on ~1.4x volume — a fade, not a base). Today is the **last day of the lesson-8 3-day
-re-check window** (catalyst 7/30) and it is expiring un-triggered, which is the answer.
-The structural flaw was always there: **both raised analyst PTs ($10, $11) sit at or below
-spot**, so there is no valuation leg, and rule 4 says avoid on volume fade.
-**Removed. Do not re-enter on a bounce without a NEW catalyst.**
-
-### REPL — WATCH ONLY. PDUFA now 2 days overdue with no decision published.
-
-Goal date was **Sunday 8/02**; as of 8/04 premarket **no FDA decision is published**, and
-volume is decaying (10.3M vs 16.4M 5-day avg). **Silence past a PDUFA date is not neutral**
-— with **two prior CRLs** (7/22/25, 4/10/26) behind this BLA, an overdue action date raises
-the odds of a bad outcome. **NO ENTRY AT ANY PRICE, either direction** — Rocket does not
-hold through binaries. If approved, do not chase: wait 1–3 days for a base (lesson 8).
-If a third CRL, stand completely clear.
+**Eastman Kodak**, **+10.9% to $9.90** from $8.93. Reported Q2 8/04 post-close.
+**Two searches returned only the call announcement — I could not obtain the actual revenue
+or EPS figures.** Universe passes on every gate ($874M → ~$969M cap, avg vol 1.02M, NYSE,
+float 71.4M; short float 10.6% but a **high 7.36 days to cover**).
+**Rule 1 applies: a price move I cannot tie to verified numbers is not a validated
+catalyst.** Kodak specifically has a history of moving on **pension-surplus and
+balance-sheet accounting** rather than operations — exactly the move that needs the filing
+read before it is trusted. **No entry without confirming the print.**
 
 ### CSTL — OPEN SATELLITE, hold. No action.
 
-15 sh @ $29.99, now **$31.31 (+4.4% since entry, ~+5.1% today** off yesterday's $29.79
-close**)**. Trailing stop live at **$27.77**, well clear of price — no adjustment needed.
-No overnight news, no distribution signal. Thesis (Q2 beat-and-raise, FY guide raised to
-**$365–375M**, TissueCypher +63%, street target $42.78) is a multi-day story and remains
-**intact**. Not near either profit target (+15% = $34.49, +25% = $37.49). **Hold overnight.**
+15 sh @ $29.99, now **$31.00 (+3.4% since entry)**. **Premarket is flat at the $31.18 prior
+close — no overnight gap, no news signal.** Trailing stop live at **$27.77**, well clear.
+Thesis (Q2 beat-and-raise, FY guide raised to **$365–375M**, TissueCypher +63%, street
+target $42.78) is a multi-day story and remains **intact**. Not near either profit target
+(+15% = $34.49, +25% = $37.49). **Hold.**
+
+### AMRC / BLZE — dead, confirmed. Do not revisit.
+Both invalidated at yesterday's close (distribution all session, closed near the lows on
+2.7–3x ADV). Neither gave a base. Off the list.
+
+### REPL — WATCH ONLY. PDUFA now 3 days overdue, no decision published.
+Goal date was **Sunday 8/02**. Still nothing as of 8/05. With **two prior CRLs** behind this
+BLA, silence past an action date is not neutral. **NO ENTRY AT ANY PRICE, either
+direction** — Rocket does not hold through binaries. If approved, wait 1–3 days for a base
+(lesson 8). If a third CRL, stand clear.
 
 ### Screened and ELIMINATED
 
 | Symbol | Move | Why eliminated |
 |--------|------|----------------|
-| **XGN** | +32.7–34.6% | **8/04 market_open fresh find.** Real Q2 beat: revenue $19.94M vs $17.81M est (+16% YoY, record), EPS beat by $0.06. Gap sits inside the 20-35% band, but **avg daily volume 229k fails the 300k universe minimum** — hard disqualified regardless of catalyst quality. Thin-float ($152M cap, 13.8M float) healthcare name. |
-| **BWEN** | +14.2–15.2% | **8/04 market_open fresh find**, appeared on both scanner lists (same overlap signature that found AMRC pre-market). **No catalyst** — Q2 earnings not until 8/11; only recent news is a stale May wind-market-exit announcement. Rule 1 applies. |
-| **SATL, EBS** | +7.2%, +5.9% | **Both report 8/05 — the earnings-week rule bars entry before the print.** EBS also returned `unknown` market cap from the gate check. |
-| **WOLF, DFNS, BNAI, DUOT** | −18.3%…+6.4% | Standing avoid list, nothing changed (WOLF = active S-1 overhang; DFNS = manufactured 0.3M float). |
-| **VCX, RVI, CCXI, BCAR** | +8.5%…+12.2% | **Not operating companies** — closed-end funds, a Fundrise vehicle and SPACs. Outside the mandate entirely. |
-| **WYFI** | +7.1% | **Float 11.1M (29%) — the most explosive on the board**, but **no identifiable catalyst** and earnings 8/14. Rule 1 applies. **Flag for the 8/14 print.** |
-| **HUN, TROX, INSG, ELDN, DDD, NRXP, EVH, CVGI, CDZI, QUIK** | +3.8…+6.5% | No verifiable catalyst on any; drift or previously screened dead. |
+| **INTT** | +12.4% | Real mover, but **earnings 8/10 — the earnings-week rule bars entry before the print.** Also NYSE American, $181M cap, 10.9M float. **Flag for the 8/10 print.** |
+| **OSS** | +6.2% | **Reports TODAY 8/05** — barred before the print. $353M cap, 20.0M float, avg vol 1.67M, all clean. **Flag for tomorrow's premarket.** |
+| **TGEN** | +7.0% | **Earnings 8/12** — barred. NYSE American, $112M cap, 16.6M float. |
+| **DFNS** | +10.8%, 1.5x | **Standing HARD AVOID** — 1-for-125 reverse split → 0.3M manufactured float. The only literal both-list name today, and it is un-tradeable. |
+| **XGN** | +5.1% | Already eliminated 8/04: **avg vol 229k fails the 300k minimum.** Unchanged. |
+| **RCKT** | +1.4% at 2.7x | **Highest RelVol on the board with no price move and no identifiable catalyst.** Volume alone is not a catalyst (rule 1). |
+| **BCAR, VCX, CCXI** | +3.3…+8.7% | **Not operating companies** — SPACs and a Fundrise vehicle. Outside the mandate. |
+| **BNAI, WOLF** | — | Standing avoid list, nothing changed. |
+| **KODK** | +10.9% | Not eliminated — **watch only**, see Priority 4. Catalyst unverified. |
+| **TBI** | +20.8–26.8% | Fresh find at market_open (top_movers, not on premarket radar). **Avg daily volume 184k — fails the 300k universe minimum**, and today's volume itself is only 59k (0.3x avg). Disqualified on liquidity alone before any catalyst check. |
+| **GOLD, MNTN, SSTK, BYRN, EGY, ACH, CLDT, ORN, JFB, ELDN, NRXP** | +3.0…+5.9% | No verifiable catalyst on any; drift or previously screened dead. |
 
-**Scanner-overlap tier finally produced a real idea**: AMRC was the only quality name on
-*both* lists, and it is today's Priority 1. Note the RelVol column is meaningless at 4:20 AM
-— it reads partial premarket volume against a full-day average, which is why everything
-prints below 1.0x. **Judge volume off raw 5-min bars after the open (lesson 10).**
+⚠️ **Scanner inconsistency worth noting: APPS is the day's biggest mover at +26.8% and it
+did NOT appear on `top_movers` at all** — only on `unusual_volume`. The overlap tier
+produced exactly one name (DFNS, a hard avoid) and would have missed the entire watchlist.
+**The both-list filter is not a substitute for reading `unusual_volume` in full.** Same
+caveat as always on the 4:20 AM RelVol column — partial premarket volume against a full-day
+average, meaningless at that hour. **Judge volume off raw 5-min bars after the open.**
 
-### Theme read — an earnings-driven tape, and the theme is AI power/data centers
-- **Monday was a broad risk-on session**: S&P fut **+1.58%**, Nasdaq **+2.43%**, **Russell
-  +1.72%**. Small caps participated but *lagged* the Nasdaq — this is an AI/tech-led rally,
-  not a small-cap-breadth rally.
-- **The winning catalysts all point the same direction**: AMRC's $1.2B data-center award,
-  BLZE's $335M CoreWeave contract, VOYG's agentic-AI platform win. **Data-center/AI
-  infrastructure spending is the theme paying out**, and it is showing up in small-cap
-  *picks and shovels*, not the megacaps Rocket cannot trade.
-- **Energy stays dead — correctly called Monday.** Brent **−5.00% to $85.61**, WTI
-  **−3.60% to $81.62**, a second straight session of unwind. The Friday energy list remains
-  invalidated.
-- 🚨 **The rates contradiction is UNRESOLVED and now three sessions old: 10-yr 4.74%
-  (+1.76%)** even as crude collapses. Small-cap strength into a rising long end stays
-  fragile. It has not broken the tape yet, but it is the thing that would.
-- **Small-cap healthcare remains the worst place to be** (CLPT −16.2%, BIOA −3.6% on the
-  overnight board). CSTL and INSP are exceptions on company-specific merit, not sector.
+### Theme read — earnings are still the whole board, and the theme is still AI
+- **Every validated catalyst today is an earnings print**, second session running. There is
+  no non-earnings idea on the board worth trading.
+- **APPS's beat is explicitly AI-attributed** (AI-powered ad targeting driving a 56% AGP
+  quarter), continuing the AI-infrastructure/AI-monetization theme that produced AMRC, BLZE
+  and VOYG on Monday night. **The theme is paying; the individual names have been failing
+  to hold their gaps.** That distinction is the week's real lesson so far.
+- 🚨 **THE RATES CONTRADICTION IS RESOLVING — IN SMALL CAPS' FAVOUR. 10-yr 4.63% (−1.26%)**,
+  down from 4.74% after three straight sessions of backing up. That headwind flagged all
+  week is easing. **IWM closed +1.85% vs SPY +1.80% — small caps finally led, if barely.**
+- **Energy is bouncing but not resurrected.** Brent **$80.71 (+1.70%)**, WTI **$76.57
+  (+1.06%)** — a bounce off a collapse from $91, not a new trend. This is the single reason
+  FTK is P2 and not P1 despite better squeeze math.
+- **Gold $4,211.70 (+2.84%) with VIX *down* at 16.35** — that combination is a
+  debasement/rate-cut trade, not a fear trade. Consistent with the 10-yr falling.
 
 ### Removed / resolved
-- **AMCX** retired (above). **CMCO, BOOM, XRX, JFB, CAPR, DUOT** dead, unchanged.
-- **BLFS** Q2 **Aug 6**. **CAPR** earnings **Aug 11**. **WYFI** earnings **Aug 14** (low-float
-  watch). **SATL / EBS** earnings **Aug 5**. **URGN** UGN-103 NDA still unfiled.
+- **AMRC, BLZE** dead (above). **AMCX** retired 8/04. **CMCO, BOOM, XRX, JFB, CAPR, DUOT**
+  dead, unchanged.
+- **Upcoming prints to flag**: **OSS 8/06** (reports today, tradeable tomorrow), **BLFS
+  Aug 6**, **INTT Aug 10**, **CAPR Aug 11**, **TGEN Aug 12**, **WYFI Aug 14** (11.1M float,
+  the most explosive on the board — watch that one). **URGN** UGN-103 NDA still unfiled.
 
 ---
 
@@ -205,7 +217,7 @@ prints below 1.0x. **Judge volume off raw 5-min bars after the open (lesson 10).
 
 | Symbol | Reason |
 |--------|--------|
-| **SOC** | **NEW 7/31 — active dilution: ~$93M of stock sold at $3.08 (discounted) + $289M of 6.5% converts to refinance an Exxon term loan. HARD AVOID** despite the +18.1% / 1.9x tape. |
+| **SOC** | Active dilution: ~$93M of stock sold at $3.08 (discounted) + $289M of 6.5% converts to refinance an Exxon term loan. HARD AVOID. |
 | DFNS | 1-for-125 reverse split → 0.3M manufactured float; $27.1M net loss on $3.65M revenue; $20M private placement. HARD AVOID. |
 | DRUG | Active dilution (Jan $175M offering @ $90 + ATM on file) + ~1,500% YTD pump profile. HARD AVOID. |
 | BOT | Closed-end fund, not an operating small cap; repeated private placements. HARD AVOID. |
@@ -226,11 +238,14 @@ prints below 1.0x. **Judge volume off raw 5-min bars after the open (lesson 10).
 Full rules live in CLAUDE.md; only the operationally-forgotten ones are repeated here.
 
 - **Dilution check runs FIRST, before building the thesis** — it killed SOC in one search,
-  and it was the check left unrun on CSTL for two sessions.
+  and it is the check still **unrun on AMPX** (warrant exchange in the Q2 release).
+- **Extension is computed at decision time, not from the premarket indication** (lesson 15).
+  APPS's gate is **$12.84**; recompute off the realized open *and* again at 9:45.
 - **Volume**: >1.5x avg in the first 5–10 min, read off **raw 5-min bars**, never the
   scanner's one-line RelVol (lesson 10).
-- **Sizing**: slice ≈ $3,041; 15% max ≈ $456; 1.5% risk ≈ $46. `alpaca_client.py size` can
-  return more than Rocket's free pooled cash — verify cash first.
+- **Sizing**: slice **$3,131.86**; 15% max **$469.78**; 1.5% risk **$46.98**.
+  `alpaca_client.py size` can return more than Rocket's free pooled cash — **verify cash
+  first, and sell 1 IWM before any buy.**
 - **Partial trims use `sell SYMBOL QTY`** — `close` always fully liquidates (lesson 11).
 - **Targets**: +15% (lock 1/3), +25% (lock 1/3), trail final 1/3. **Log every exit same-day.**
 

@@ -3,6 +3,127 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-05 — MARKET CLOSE (Wednesday)
+
+**Position review**: CSTL (15 sh @ $29.99) held overnight — closed **$30.36**, up +1.2%
+since entry but **-3.0% on the day** (off yesterday's $31.31 close), a quiet pullback off
+the post-earnings pop with no distribution signature. Stop clear at $27.77 (9.3% away),
+multi-day guidance-raise catalyst still intact. **Hold.**
+
+**Core rebalance**: checked and skipped — IWM (8 sh, $2,400.40) sits **1.33% over** target
+core (slice $3,126.82 − CSTL $455.40 − 10% buffer $312.68 = $2,358.74), inside the 3% band.
+Notional cash 8.67% of slice, inside the 10% buffer. No trade.
+
+**Day P&L**: Rocket's own positions (IWM + CSTL) **-0.99%** today ($2,884.37 → $2,855.80)
+vs **SPY -0.06%** — underperformance is CSTL's overnight-earnings-pop digestion plus IWM
+tracking a touch soft, not a fresh problem. Since rebase (7/20): Rocket +3.14% vs SPY
++3.90% (**-0.76%**), consistent with the standing IWM-factor-drag note.
+
+**No trades today** — market_open found all screened candidates disqualified (see
+trade_log.md), market_close found no exit or rebalance trigger. Flat session.
+
+**Flagged, not acted on**: portfolio_snapshot.py's reconciliation now shows 12 sh NOW
+($1,406) at the broker unattributed to either Rocket's or Bull's trade log. Left alone
+per CLAUDE.md ("never re-derive ownership yourself") — worth surfacing at weekly_review
+if it's still unresolved.
+
+**Tomorrow's watch**: APPS remains on second-day watch (gate breached today at $13.85–
+$13.95, +45.6–46.6%) — check if it closed strong for a valid continuation entry. CSTL
+holds. Thin board otherwise; premarket needs a fresh screen.
+
+---
+
+## 2026-08-05 — MARKET OPEN (Wednesday)
+
+**No trades. Both premarket priorities disqualified at decision time; one fresh find
+failed on liquidity.** Account: slice $3,143.41, IWM 8 sh $2,416 + CSTL 15 sh $466 =
+91.7% invested, notional cash 8.3% — inside the buffer, no funding action needed
+(the planned "sell 1 IWM to fund an entry" never triggered since nothing qualified).
+
+- **APPS** ran straight through its own hard gate — plan said no trade above $12.84
+  (35% off $9.51), realized tape at 9:45 was **$13.85–$13.95 (+45.6–46.6%)**, 1% off the
+  52-wk high. Lesson 15 for the third session in a row: an extension gate written
+  premarket does not survive contact with an open that keeps running. Second-day watch.
+- **FTK** accelerated from the premarket +11.3% indication to **+28.4–29.4%**, but
+  **volume was only 0.4x avg** — a big move with no volume behind it is the opposite of
+  a confirmed breakout. Market cap still unverified (`$0M` from the scanner, flagged
+  since premarket). And the 10:00 AM ET call was 15 minutes out — would have meant
+  holding through a live binary. Three independent reasons to pass; any one would
+  have been enough.
+- **TBI**, a fresh top_movers name not on the premarket radar (+20.8–26.8%), failed
+  the 300k avg-volume universe minimum outright (184k) — never got to a catalyst check.
+- AMPX and KODK unchanged, still watch-only. CSTL satellite holds, no action — flat at
+  its post-earnings level, stop clear at $27.77.
+
+Full detail in trade_log.md and research_log.md. No ntfy sent (flat session, no stops
+hit).
+
+---
+
+## 2026-08-05 — PREMARKET (Wednesday)
+
+**Ran on time at 6:20 AM ET. No subagents; 6 inline searches** — lesson-12 budget
+discipline held for the third session running.
+
+**Account**: shared $10,439.53 / slice $3,131.86 / IWM 8 sh $2,418 (77.2%) + CSTL 15 sh
+$465 (14.8%) = **92.1% invested, cash 7.9%** — inside the 10% buffer a second straight
+session. Reconciler balances. Satellites 1/4, trades 1/5. Max satellite $470, 1.5% risk $47.
+
+**Watchlist built (research_log.md)** — the whole board is earnings prints again:
+- **APPS (P1, HIGH)** +26.8% to $12.06 — Digital Turbine Q1 FY27: EPS $0.17 vs $0.14, rev
+  $166M **+27% YoY** (+10.2% surprise), adj EBITDA $42.5M **+69%**. **The raise is the
+  catalyst**: FY27 guided $650–670M / $145–155M EBITDA vs FY26's $530–535M / $92–95M —
+  **~+23% revenue and ~+57% EBITDA growth guided.** Explicitly AI-attributed (AI ad
+  targeting → AGP +56%). **Dilution clears** ($430M term loan refinanced to 2029, no
+  offering/ATM/converts). Cap $1.46B, ceiling not until $15.72. **Short float only 9.1% —
+  not a squeeze, do not size it up.** Float 109M, so expect a grind not a rip.
+- **FTK (P2)** +11.3% — 100% EPS beat ($0.26 vs $0.13) and **the only real squeeze profile
+  screened: 14.2M float, 17.66% short float, 8.29 days to cover.** Ranked down anyway
+  because energy is still dead, the gap is below the 20% band, and **the market-cap gate
+  returned `unknown` — verify before sizing.** Live earnings call 10:00 AM ET.
+- **AMPX (P3)** +8.5% — rev $34.0M vs $29.3M, **+126% YoY**, FY26 raised to ≥$140M.
+  ⚠️ **Uncleared dilution flag**: its own release books a $1.9M charge on a "warrant
+  exchange." BLZE's lesson — not tradeable until checked.
+- **KODK (P4, watch only)** +10.9% — **could not verify the actual Q2 numbers in two
+  searches.** Kodak moves on pension-surplus accounting historically. Rule 1 applies.
+
+🚨 **TWO HARD GATES ON THE P1 TRADE.**
+1. **APPS 35% gate = $12.84**, and the indication is $12.06 — only 6.5% under it. Lesson 15
+   exactly: BLZE opened compliant at +29.1% yesterday and was **+51% by 9:45**. Recompute
+   off the realized open *and* at decision time.
+2. 🚨 **The 9:45 base window is contaminated today** — **S&P Global Services PMI prints at
+   9:45 AM ET**, ISM Services at 10:00. The release lands *inside* the base window, not
+   after it. **Require the 9:50–9:55 bar to confirm the base held through the print.**
+
+**Cash is still the binding constraint, not conviction** — notional slice cash is $249
+against a $470 max satellite. **Any entry must sell 1 IWM first** (~$302). Planned APPS
+size: 38 sh ≈ $458 (14.6%), re-struck off the fill as `int(469.78/fill)`.
+
+**Macro**: 🚨 **the rates contradiction is finally resolving in small caps' favour — 10-yr
+4.63% (−1.26%)**, down from 4.74% after three sessions of backing up. IWM closed **+1.85%
+vs SPY +1.80%** — small caps led for the first time this week. VIX 16.35, sizing
+unrestricted. Futures flat and directionless (S&P +0.30%, Nasdaq −0.07%, Russell +0.19%),
+so stock-specific catalysts carry the day. Gold +2.84% with VIX *down* = a debasement/
+rate-cut trade, not fear.
+
+**Theme read**: the AI theme keeps paying but **the individual names keep failing to hold
+their gaps** — AMRC and BLZE both had genuine catalysts Monday night and both closed near
+their lows Tuesday on 3x volume. Validating the catalyst is not the hard part; surviving
+day-two distribution is. That is why today's plan waits for the 9:50–9:55 confirmation.
+
+**🚨 Scanner integrity finding**: **APPS is the day's biggest mover (+26.8%) and never
+appeared on `top_movers` at all** — only on `unusual_volume`. The both-list overlap tier
+produced exactly one name (DFNS, a standing hard avoid) and would have missed the entire
+watchlist. The overlap filter is not a substitute for reading `unusual_volume` in full.
+
+**Housekeeping**: `market_context.md` now holds 4 snapshots — archive the 7/31 one at the
+next weekly_review.
+
+**No trades placed** — market closed, premarket session. No Ntfy sent: CSTL is flat at its
+$31.18 prior close with no overnight news.
+
+---
+
 ## 2026-08-04 — MARKET CLOSE
 
 **Position review**: CSTL (15 sh @ $29.99) held overnight — closed **$31.31, +5.1% on the

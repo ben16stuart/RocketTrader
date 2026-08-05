@@ -1,11 +1,104 @@
 # Rocket Market Context
 
-Last updated: 2026-08-04 (Tuesday premarket, 6:20 AM ET)
+Last updated: 2026-08-05 (Wednesday premarket, 6:20 AM ET)
 Older snapshots: `memory/archive/market_context_history.md`
 
 ---
 
-## Snapshot — 2026-08-04 Tuesday premarket  ← CURRENT
+## Snapshot — 2026-08-05 Wednesday premarket  ← CURRENT
+
+### 🚨 THE BIGGEST CHANGE IS IN RATES, AND IT FAVOURS SMALL CAPS
+**10-yr 4.63% (−1.26%)**, down from 4.74%. The rates contradiction flagged as unresolved
+for **three straight sessions** — a long end backing up while crude collapsed — is finally
+easing. That was the specific headwind identified as "the thing that would break the tape"
+for small caps, and it has turned. Confirmation in the cash tape: **IWM closed +1.85% vs
+SPY +1.80%** — small caps led, if only barely, for the first time this week. The IWM core
+is the direct beneficiary.
+
+### Macro
+- **VIX 16.35 (−0.91%)** — well under the 22 pause threshold. **Sizing unrestricted.**
+- **Futures are flat and directionless**: S&P **+0.30%**, Nasdaq **−0.07%**, Russell
+  **+0.19%**. No leadership either way. Read this as a tape waiting on the 8:15/10:00 data,
+  which means **stock-specific catalysts have to do all the work today.**
+- **Energy bounced but is not resurrected.** Brent **$80.71 (+1.70%)**, WTI **$76.57
+  (+1.06%)** — a bounce off a collapse from $91, not a new trend. Relevant because the day's
+  #2 idea (FTK) is an energy name.
+- **Gold $4,211.70 (+2.84%) with VIX *down*.** That combination is a debasement / rate-cut
+  trade, not a fear trade — and it is consistent with the 10-yr falling. Not a risk-off tell.
+- Dollar 99.84 (−0.05%), flat. Last cash closes: SPY 771.33, IWM 301.71.
+
+### 🚨 Calendar — the data lands INSIDE the entry window today
+This is the material risk of the session and it is worse than Monday's ISM problem:
+- **8:15 AM ET — ADP national employment (July).** Pre-open, digestible.
+- 🚨 **9:45 AM ET — S&P Global Services PMI (July).** This prints **inside the 9:45–9:50
+  gap-and-go base window**, not after it. **A base being formed by a data release is not
+  the base the rule describes.** Require the **9:50–9:55 bar** to confirm the base held
+  *through* the print before entering anything.
+- 🚨 **10:00 AM ET — ISM Services PMI (July), exp ~60.4 vs 60.1.** Ten minutes after. Watch
+  **Prices Paid** specifically — a hot services-inflation print reverses the 10-yr improvement
+  above and puts the IWM core straight back under pressure.
+- 10:30 AM ET — EIA petroleum inventories. Matters only for FTK.
+- 🚨 **REPL PDUFA (goal date 8/02) is now 3 days overdue with no decision published.** The
+  one live unscheduled binary. Watch only; no position either direction.
+
+### Account structure (portfolio_snapshot, 2026-08-05 10:20 UTC)
+- Shared account **$10,439.53**; Rocket slice (30%) = **$3,131.86**. Pooled cash $430.37.
+- Rocket holds **IWM 8 sh = $2,418 (77.2%)** + **CSTL 15 sh = $465 (14.8%)** = **92.1%
+  invested**; notional slice cash **$249 (7.9%)** — **inside the 10% buffer for a second
+  straight session.** The satellite cure is holding (lesson 7a).
+- ✅ Reconciler **BALANCES**; every position attributed. Satellites 1/4, trades 1/5.
+- 🚨 **Cash, not conviction, is still the binding constraint.** Rocket's *notional* share of
+  the pooled cash is only **$249** against a $470 max satellite. **Any entry must sell 1 IWM
+  share first** (~$302). Mandated funding path, not a rebalance.
+- **Rocket +3.30% since rebase vs SPY +3.94% → −0.64% relative** (improved from −0.79%).
+  ⚠️ Standing caveat: with one index ETF and one satellite, nearly all of that gap is
+  **IWM-vs-SPY factor beta, not skill** — and right now the factor is what is *costing*
+  Rocket. Do not book it either way at the weekly review.
+
+### THEME READ (8/05)
+- **Every validated catalyst on the board is an earnings print, second session running.**
+  There is no non-earnings idea worth trading. **APPS (+26.8%)** is Priority 1 — a Q1 FY27
+  beat with the **FY27 guide raised ~23% on revenue and ~57% on EBITDA**, explicitly
+  AI-attributed (AI-powered ad targeting drove a +56% App Growth Platform quarter).
+- **The AI theme keeps paying, but the individual names keep failing to hold their gaps.**
+  AMRC and BLZE both had genuine catalysts Monday night and both closed near their lows
+  Tuesday on 3x volume. **That is the week's real lesson: validating the catalyst is not the
+  hard part — surviving the distribution on day two is.** It is the reason today's plan
+  leans on the 9:50–9:55 confirmation bar rather than the 9:45 print.
+- **FTK is the only genuine squeeze profile screened** (14.2M float, **17.66% short float**,
+  **8.29 days to cover**) — better squeeze math than APPS by a distance. It is ranked P2
+  anyway because **energy is still dead** and its gap (+11.3%) sits below the momentum band.
+- ⚠️ **AMPX carries an uncleared dilution flag** — its own Q2 release books a $1.9M non-cash
+  charge on a **"warrant exchange."** BLZE was yesterday's lesson that the bull catalyst and
+  the supply overhang can be the same transaction. Not researched; not tradeable until it is.
+- ⚠️ **KODK moved +10.9% on a print whose numbers could not be verified in two searches.**
+  Kodak historically moves on **pension-surplus accounting**, not operations. Rule 1: an
+  unverified move is not a catalyst.
+- 🚨 **Scanner integrity note: APPS is the day's biggest mover and did NOT appear on
+  `top_movers` at all** — only on `unusual_volume`. The both-list overlap tier produced
+  exactly one name (**DFNS**, a standing hard avoid) and would have missed the entire
+  watchlist. **The overlap filter is not a substitute for reading `unusual_volume` in full.**
+
+### Intraday Triggers to Watch
+- VIX >22 pause, >25 reduce size, >30 no new longs (currently **16.35**, clear).
+- 🚨 **APPS 35% gate = $12.84** (off the $9.51 close). Indication is $12.06 — only 6.5%
+  under. **Lesson 15: recompute off the realized open AND again at 9:45.** Above $12.84 at
+  decision time → no trade, second-day watch. BLZE opened at +29.1% yesterday and was at
+  +51% by 9:45.
+- **APPS entry**: hold above the base low on **>1.5x volume off raw 5-min bars**, confirmed
+  on the **9:50–9:55** bar. Stop 7% below fill. **Sell 1 IWM to fund before buying.**
+- **9:45 Services PMI / 10:00 ISM Prices Paid hot** = stand down on a marginal entry; it
+  reverses the rates improvement that is currently supporting the whole small-cap bid.
+- **FTK**: fallback only, and **not before the 10:00 AM earnings call is underway**. Verify
+  its market cap first — the gate returned `unknown`.
+- **AMPX exits the universe above $14.13** ($2B cap ceiling), ~20% above spot.
+- **REPL headline** — approval or third CRL, unscheduled. Watch only, no chase either way.
+- Rates: a renewed 10-yr back-up pressures the Russell and the IWM core directly. Accepted
+  by mandate; the core is not stopped.
+
+---
+
+## Snapshot — 2026-08-04 Tuesday premarket
 
 ### The tape is risk-on and the catalyst board is the best in three weeks
 Monday was a broad rally: **S&P fut +1.58%, Nasdaq fut +2.43%, Russell fut +1.72%.** Small
