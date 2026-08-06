@@ -4,6 +4,43 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-06 — CSTL trailing stop hit + core rebalance (market_close)
+
+**CSTL — STOPPED OUT.** Trailing 7% stop filled intraday at **18:32 UTC (2:32 PM ET)**,
+discovered at end-of-day sync (not caught live — no midday session ran today). Not a
+market_close decision; the broker closed it automatically.
+- Entry: 15 sh @ $29.99 (2026-08-03)
+- Exit: **$29.94 on 2026-08-06** (stop: 7% trail off $31.73 high-water mark → trigger
+  $29.5089, filled slightly better at $29.94)
+- P&L: **-$0.75 (-0.17%)** — essentially breakeven, not a thesis failure
+- Reason for exit: trailing stop, not a decision — the post-earnings pop's high-water
+  mark ($31.73, set 8/03–8/04) pulled the 7% trail up with it, and today's session round-
+  tripped through it. Catalyst (Q2 beat-and-raise) was never invalidated; this is the
+  ordinary cost of a trailing stop giving back gains after a high print.
+- Lesson: nothing actionable — stop worked exactly as designed, protected the post-pop
+  high-water mark, exited at essentially cost. No open Rocket satellites remain (0/4).
+
+**CORE REBALANCE — BUY IWM 1 sh.** CSTL's exit returned its proceeds to cash instead of
+core per the same-session rule, opening a large gap: slice $3,105.58, satellite value
+$0 (no open satellites), 10% buffer $310.56 → target_core $2,795.02. Pre-trade IWM (8 sh)
+= $2,387.36 (13.1% short of target — outside the 3% band). Bought **1 sh @ $298.27**,
+IWM now **9 sh, avg entry $292.90 ≈ $2,684**. Residual gap ~$111 (3.6% of slice) is a
+whole-share rounding remainder, not further actionable — IWM trades in ~$298 increments
+against a ~$111 gap, so 1 share is the closest achievable fit; buying a 2nd share would
+overshoot to -6.1%. Notional slice cash after: ~$422 (13.6%), expected to normalize as
+this residual works itself into future rebalances.
+
+**Day P&L**: Rocket's total book (positions + notional cash) **-0.68%** ($3,126.82 →
+$3,105.58) vs **SPY -0.15%** today — underperformance driven by the CSTL stop-out
+(-1.38% intraday move that triggered the trail) plus IWM tracking slightly soft, not a
+fresh problem. Since rebase (7/20): Rocket +2.44% vs SPY +3.59% (**-1.15%**), the widest
+gap yet — consistent with the standing IWM-factor-drag note plus today's CSTL exit.
+
+**No new trades placed today** beyond the stop-driven exit and its core rebalance —
+market_open found all three ranked candidates disqualified; no midday session ran.
+
+---
+
 ## 2026-08-05 — NO TRADE (market_close) — CSTL held, core in band
 
 **CSTL position review**: 15 sh, entry $29.99, closed **$30.36 (+1.2% since entry)** but

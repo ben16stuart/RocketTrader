@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-08-05 19:58 UTC
+**Last Updated**: 2026-08-06 19:59 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,422.72 |
-| Rocket's Allocated Slice (30%) | $3,126.82 |
-| Cash Available (shared, pooled) | $569.12 |
-| Total Invested (both agents) | $9,853.60 |
+| Shared Account Value (Bull + Rocket) | $10,351.94 |
+| Rocket's Allocated Slice (30%) | $3,105.58 |
+| Cash Available (shared, pooled) | $719.89 |
+| Total Invested (both agents) | $9,632.05 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +3.14% |
-| SPY return since rebase | +3.90% |
-| Rocket vs SPY | -0.76% |
+| Rocket return since rebase | +2.44% |
+| SPY return since rebase | +3.59% |
+| Rocket vs SPY | -1.15% |
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -33,13 +33,12 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Current Price | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|----------------|-------|
-| CRM | 3 | $182.44 | $193.03 | $+31.78 | +5.8% |
-| CSTL | 15 | $29.99 | $30.36 | $+5.55 | +1.2% |
-| IWM | 8 | $292.23 | $300.05 | $+62.52 | +2.7% |
-| JPM | 6 | $313.30 | $359.78 | $+278.88 | +14.8% |
-| NOW | 12 | $116.96 | $117.19 | $+2.79 | +0.2% |
-| SCHW | 5 | $103.91 | $108.17 | $+21.30 | +4.1% |
-| SPY | 3 | $744.52 | $771.01 | $+79.48 | +3.6% |
+| CRM | 3 | $182.44 | $186.76 | $+12.95 | +2.4% |
+| IWM | 9 | $292.90 | $298.17 | $+47.42 | +1.8% |
+| JPM | 6 | $313.30 | $356.36 | $+258.33 | +13.7% |
+| NOW | 12 | $116.96 | $117.22 | $+3.09 | +0.2% |
+| SCHW | 5 | $103.91 | $107.65 | $+18.70 | +3.6% |
+| SPY | 3 | $746.69 | $768.35 | $+64.98 | +2.9% |
 
 ---
 
@@ -47,13 +46,13 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 🚨 **Does not balance — see reconciling items below.**
 
-- **Rocket's core** (1): IWM ($2,400)  — benchmark sleeve; no stop, exempt from position limits
-- **Rocket's satellites** (1): CSTL ($455)
-- **Bull's positions** (4): CRM ($579), JPM ($2,159), SCHW ($541), SPY ($2,313)
+- **Rocket's core** (1): IWM ($2,684)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's satellites** (0): none
+- **Bull's positions** (5): CRM ($560), JPM ($2,138), NOW ($1,407), SCHW ($538), SPY ($2,305)
 
-🚨 **UNATTRIBUTED — held at the broker but in neither trade log:**
+🚨 **MISSING — in Rocket's book but not held at the broker:**
 
-  - NOW ($1,406) — do not size against this until ownership is resolved.
+  - CSTL — likely a stop fill or manual close. Log the exit in trade_log.md.
 
 
 ---
@@ -64,7 +63,6 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 |----------|--------|------|-----|------|--------|
 | 2a17e797… | NOW | sell | 12 | trailing_stop | new |
 | 3d0e7965… | JPM | sell | 6 | trailing_stop | new |
-| 9cc7bc2f… | CSTL | sell | 15 | trailing_stop | new |
 | 3cbf3847… | CRM | sell | 3 | trailing_stop | new |
 | 8002a4e3… | SCHW | sell | 5 | trailing_stop | new |
 

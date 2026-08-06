@@ -3,6 +3,107 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-06 — MARKET CLOSE (Thursday)
+
+**CSTL stopped out intraday (2:32 PM ET), discovered at EOD sync — not a market_close
+decision.** Trailing 7% stop off the $31.73 high-water mark filled at $29.94 vs $29.99
+entry: -$0.75 (-0.17%), essentially breakeven. Catalyst was never invalidated; this is
+just the trail giving back the post-earnings pop. **0/4 satellites open now.**
+
+**Core rebalance**: CSTL's proceeds returned to cash, not core, opening a 13.1%-of-slice
+gap vs target. Bought **1 sh IWM @ $298.27** (closest whole-share fit to the $408 gap;
+2 shares would have overshot further). IWM now **9 sh ≈ $2,684**. Residual ~3.6%-of-slice
+gap is a share-granularity remainder, not an actionable miss — flagged for premarket to
+watch, not re-traded today.
+
+**Day P&L**: Rocket's total book **-0.68%** ($3,126.82 → $3,105.58) vs **SPY -0.15%** —
+the CSTL stop-out (-1.38% intraday) drove the gap. Since rebase: Rocket +2.44% vs SPY
++3.59% (**-1.15%**, widest yet).
+
+No midday session ran today; market_open found all three ranked ideas disqualified (see
+below). ntfy summary sent for today's close.
+
+---
+
+## 2026-08-06 — MARKET OPEN (Thursday)
+
+**No trades. All three ranked ideas failed confirmation at 9:45 AM ET; two fresh movers
+were too extended to enter same-day.** Checks done inline (2 web searches), no subagent.
+
+- **MRAM** flipped from premarket +8.4% to **-7.3% at $16.14** on 1.5x volume, now below
+  its MA50 — a broken base with confirming volume, not just weak confirmation. Removed
+  from active watch.
+- **APPS** -4.6% to $12.57 on only **0.2x avg volume** — nowhere near the 1.5x bar, no
+  confirmed base either direction.
+- **NNBR** +6.8% to $4.16 but also only **0.7x avg volume**; already capped MEDIUM on the
+  PIPE overhang, so this was the fallback and it didn't confirm either.
+- **Fresh finds**: **HNST** (catalyst-validated, 8/05 EPS beat) is +50.3% today on 2.5x
+  volume — 29.6% past its own second-day entry zone ceiling, too extended. **ASPN**
+  reported a genuine beat-and-raise this morning (Q3 guided $65-80M vs $49.8M delivered)
+  but is +54.3% same-day, over the 35% ceiling. Both watchlisted for a second-day/pullback
+  check tomorrow, neither enterable today per Rule 2.
+
+**Account unchanged**: slice $3,105.89, IWM 8 sh ($2,396) + CSTL 15 sh ($453) = 91.8%
+invested, notional cash 8.2% — inside the buffer, no funding action needed since nothing
+qualified. No overnight fills or stops triggered. No ntfy sent (flat session).
+
+---
+
+## 2026-08-06 — PREMARKET (Thursday)
+
+**Ran on time at 6:20 AM ET. No subagents; 8 inline searches + 1 fetch (timed out)** —
+lesson-12 budget discipline held for the fourth session running.
+
+**Account**: shared $10,380.36 / slice $3,114.11 / IWM 8 sh $2,404 (77.2%) + CSTL 15 sh
+$456 (14.6%) = **91.8% invested, cash 8.2%** — inside the 10% buffer a third straight
+session. ✅ **Reconciler balances and yesterday's unattributed NOW (12 sh, $1,369) is
+resolved to Bull.** Satellites 1/4, trades 1/5. Max satellite $467, 1.5% risk $47.
+
+**Watchlist built (5 ranked):**
+- **P1 MRAM (HIGH)** — Everspin's **highest-revenue quarter ever**: $18.7M **+42% YoY**,
+  **13% above the top of its own guide**; non-GAAP EPS $0.11 vs $0.00–0.03 guided (~4x);
+  **Q3 guided UP to $19.5–20.5M**. Driven by the $40M US prime-contractor deal converting
+  to revenue. Best structure on the board — **18.7M float, 16.53% short float (squeeze bar
+  cleared), $378M cap (no ceiling risk), 3.37M ADV**. +8.4% = below the 20% band, so
+  conventional base, not gap-and-go. ⚠️ **The muted reaction is the open question** — +8.4%
+  merely round-trips yesterday's −7.3%. Volume at 9:45 separates opportunity from tell.
+- **P2 APPS (MED-HIGH)** — second-day continuation, and **rule 3 fits cleanly for the first
+  time this week**: gapped +38.5%, closed above the midpoint (58% of range) on 3.5x ADV,
+  premarket $13.06 **inside** the 10% zone (ceiling $14.49). Catalyst + dilution already
+  validated 8/05. No squeeze (109M float); yesterday's high $14.10 is also the 52-wk high.
+- **P3 NNBR (MED)** — real beat-and-raise (+19.3% sales, +36.1% EBITDA, FY raised) plus a
+  $12–15M firearms contract and a $50M+ datacenter pipeline. 🚨 **Dilution demoted it:** the
+  "$124M deleveraging" is funded by a **$75M PIPE at $3.06 (~24.5M sh vs a 31.1M float)** —
+  BLZE again, headline and overhang are the same transaction.
+- **P4 HNST (MED-LOW)** — 100% EPS beat + raised FY + buyback, but **revenue −10.9% YoY**;
+  a margin story, not a growth story. **P5 FTK** — best close on the board (72% of range,
+  4.3x ADV) and best squeeze math, but the **market-cap gate has returned `unknown` for a
+  third session** and energy is still dead. Not tradeable until verified.
+
+**Eliminated**: **GCT** — best print screened all week (revenue $411.6M +27.6%, EPS $1.16,
+19.87% short float) but it is a **Cayman holdco operating through mainland-China
+subsidiaries → fails the US-domicile gate**; added to the standing avoid list so it is not
+re-screened on catalyst quality. **AEVA** — $115M follow-on offering, $79.6M quarterly loss
+on $6.1M revenue, deployment 2H2027, CFO exiting. **ASYS** — reaction already failed
+(closed −8.2% at 3% of range). EVH/SPIR/LENZ barred by the earnings-week rule.
+
+**Theme**: earnings are the whole board a third session, but **the new theme is DEFENSE** —
+MRAM and NNBR both printed on defense revenue the same night. Rocket's best-ever trade
+(MRLN) was a defense catalyst.
+
+**Process flags**: (1) ✅ **the entry window is clean today** — all data is pre-open, the
+first uncontaminated 9:45 base window this week; (2) 🚨 **the both-list scanner overlap
+produced one worthless name (HDSN, +3.4% at 0.1x) for the third session running** and would
+have missed the entire watchlist — every idea came from `unusual_volume` or carry-over
+second-day watch; (3) **Rocket can fund exactly ONE satellite** and any entry requires
+selling 1 IWM first; (4) **NFP tomorrow** — do not carry a marginal name into it.
+
+**Performance**: Rocket **+2.72%** since rebase vs SPY **+3.73%** → **−1.01%**, wider than
+yesterday's −0.76%. IWM −0.64% vs SPY −0.20% yesterday: the gap is the IWM factor drag, not
+stock selection. No trades placed (market closed). No ntfy sent — no breaking news on CSTL.
+
+---
+
 ## 2026-08-05 — MARKET CLOSE (Wednesday)
 
 **Position review**: CSTL (15 sh @ $29.99) held overnight — closed **$30.36**, up +1.2%
