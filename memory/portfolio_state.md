@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-08-06 19:59 UTC
+**Last Updated**: 2026-08-07 19:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,351.94 |
-| Rocket's Allocated Slice (30%) | $3,105.58 |
-| Cash Available (shared, pooled) | $719.89 |
-| Total Invested (both agents) | $9,632.05 |
+| Shared Account Value (Bull + Rocket) | $10,508.73 |
+| Rocket's Allocated Slice (30%) | $3,152.62 |
+| Cash Available (shared, pooled) | $719.86 |
+| Total Invested (both agents) | $9,788.87 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +2.44% |
-| SPY return since rebase | +3.59% |
-| Rocket vs SPY | -1.15% |
+| Rocket return since rebase | +3.99% |
+| SPY return since rebase | +4.20% |
+| Rocket vs SPY | -0.21% |
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -33,26 +33,22 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Current Price | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|----------------|-------|
-| CRM | 3 | $182.44 | $186.76 | $+12.95 | +2.4% |
-| IWM | 9 | $292.90 | $298.17 | $+47.42 | +1.8% |
-| JPM | 6 | $313.30 | $356.36 | $+258.33 | +13.7% |
-| NOW | 12 | $116.96 | $117.22 | $+3.09 | +0.2% |
-| SCHW | 5 | $103.91 | $107.65 | $+18.70 | +3.6% |
-| SPY | 3 | $746.69 | $768.35 | $+64.98 | +2.9% |
+| CRM | 3 | $182.44 | $192.61 | $+30.50 | +5.6% |
+| IWM | 9 | $292.90 | $301.58 | $+78.11 | +3.0% |
+| JPM | 6 | $313.30 | $356.95 | $+261.90 | +13.9% |
+| NOW | 12 | $116.96 | $124.82 | $+94.35 | +6.7% |
+| SCHW | 5 | $103.91 | $107.50 | $+17.98 | +3.5% |
+| SPY | 3 | $746.69 | $773.23 | $+79.62 | +3.6% |
 
 ---
 
 ## Position Reconciliation
 
-🚨 **Does not balance — see reconciling items below.**
+✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($2,684)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's core** (1): IWM ($2,714)  — benchmark sleeve; no stop, exempt from position limits
 - **Rocket's satellites** (0): none
-- **Bull's positions** (5): CRM ($560), JPM ($2,138), NOW ($1,407), SCHW ($538), SPY ($2,305)
-
-🚨 **MISSING — in Rocket's book but not held at the broker:**
-
-  - CSTL — likely a stop fill or manual close. Log the exit in trade_log.md.
+- **Bull's positions** (5): CRM ($578), JPM ($2,142), NOW ($1,498), SCHW ($538), SPY ($2,320)
 
 
 ---

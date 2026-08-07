@@ -46,7 +46,61 @@ Older observations: `memory/archive/lessons_history.md`.
     never the premarket-indicated price used to write the plan.** Zero trades resulted, but
     both names are legitimate second-day watches if they close strong.
 
+16. **`smallcap_scanner.py` is a NAME SOURCE ONLY — never read a price or a percentage off
+    it (2026-08-07).** Both `top_movers` and `unusual_volume` returned **`+0.0%` for every
+    single row**, so `top_movers` was a ranked list of zeros and the both-list overlap tier
+    produced nothing for a fourth straight session. Worse, several *prices* were wrong
+    against raw daily bars — it quoted **STLN $6.67 against a $4.99 close** and **CVRX $3.41
+    against $5.94**. A number that is merely *wrong* is more dangerous than one that errors,
+    because it renders as a plausible cell (lesson 14, same failure mode). **The entire
+    tradeable board that day came from (a) raw yfinance daily bars on carry-over names and
+    (b) the live premarket gainers page** — neither of which is the scanner. Standing
+    procedure: pull raw daily bars for carry-overs and read the live premarket gainers list;
+    use the scanner only to surface tickers worth checking.
+
+17. **Rank on the BALANCE SHEET when the board is all earnings prints (2026-08-07).** Six
+    fresh prints screened; **three died on funding structure** (SVCO's undisclosed $10M
+    convertible on $13.0M cash, STLN's 0.1% EBITDA margin on $41.1M cash, NNBR's $3.06 PIPE)
+    and one on a **guide cut** (CVRX). QNST won Priority 1 not because its growth was
+    highest but because **$130.9M of operating cash flow makes the dilution question moot by
+    construction.** Growth rate is what makes a stock gap; funding structure is what decides
+    whether it holds the gap over a 1–5 day hold. **A GAAP-profitable small cap with real
+    cash flow is a structurally different — and rarer — bet than a fast-growing one that
+    still needs the equity market.**
+
+18. **Compute the $2B universe ceiling against the PREMARKET price, not the prior close
+    (2026-08-07).** `eligibility` passed **FIGS** at a $1,878M cap — but that is the cap at
+    its $11.24 *close*; at its **$14.25 premarket print it is ~$2.38B, out of universe before
+    the bell.** The command reads the last close, so on a gapper the gate it reports is stale
+    by exactly the size of the gap. Same arithmetic retired **APPS** as untradeable despite
+    the best chart on the board: a $1,727M cap puts ejection at ~$16.55, so its **+25% target
+    sits outside the universe** — a position that cannot be held to its own plan is not a
+    position worth opening. **Always re-derive cap at the price you would actually pay, and
+    check that the +25% target still clears the ceiling.**
+
+19. **"Unverified-but-no-flag" is a to-do, not a pass — close it before the open, not
+    after (2026-08-07).** Premarket left STLN's dilution check half-run (SEC 403'd the
+    8-K). One search at market_open found an active **$15M ATM facility (424B5)** — live
+    authorization to sell stock into exactly the kind of spike STLN was having. Same
+    structural pattern as SOC and SVCO, both HARD AVOIDs. **A 403 or a paywall is not a
+    clean bill of health; it just means the check moved to the next session.** If a
+    dilution check is still open when a session ends, it must be the first thing resolved
+    at the next session before any order — it very nearly got skipped because the stock's
+    tape looked strong.
+
 ## Rules From Real Trades
+
+### 2026-08-07 — Week 32: NFP day, both ranked ideas broke on contact with the open
+- ✅ **The dilution check paid for itself a second time.** STLN's unverified ATM flag from
+  premarket resolved to CONFIRMED with one search at the open — see lesson 19. Passing
+  cost nothing; trading it risked a live equity raise into the position.
+- ✅ **Extension gates keep doing their job even when barely breached.** QNST never
+  technically closed above its 35% gate, but tapping it intraday while the analyst target
+  was already exceeded was enough to kill the trade on risk/reward alone — the gate does
+  not need to be breached to be disqualifying, just exhausted.
+- **Net result**: flat session, IWM core unchanged. Zero satellites for a second straight
+  session — not from lack of catalysts, but from both of this week's best-screened ideas
+  failing a structural check (balance sheet, extension) rather than a catalyst check.
 
 ### 2026-07-31 — Week 31: zero satellites, and the skips were right
 - ✅ **Entry triggers work even when the session doesn't.** CSTL's trigger was a hold above $28.60; it **closed $28.00**. The base broke, so the rule would have kept Rocket out regardless of the late session. A missed *setup* is not automatically a missed *trade* — check where it actually closed before calling it a miss.

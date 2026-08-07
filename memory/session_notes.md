@@ -3,6 +3,115 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-07 — MARKET CLOSE (Friday)
+
+**No trades.** 0 satellites open, nothing to review. Core rebalance checked and
+skipped: IWM 9 sh is 3.91% short of target_core (share-granularity remainder per
+lesson 7a — buying 1 sh would overshoot to 5.66% over, worse than doing nothing).
+
+**Day P&L**: book +1.51% ($3,105.58 → $3,152.62) vs SPY +0.66% — IWM itself +1.13%,
+small caps outperforming large caps today. Since rebase: Rocket +3.99% vs SPY
++4.20% (-0.21%).
+
+**Week summary**: 1 trade this week (CSTL stop-out 8/06, not a decision), 0 new
+entries — QNST and STLN both had real catalysts but failed at entry gates (extension/
+target exhausted, confirmed dilution risk). No satellites open into the weekend.
+
+---
+
+## 2026-08-07 — MARKET OPEN (Friday)
+
+**No trades. Both ranked ideas failed at decision time; no fresh mover had a confirmed
+catalyst.** Checks done inline (1 web search + raw 5-min bars), no subagent.
+
+- **QNST (P1)** ran from premarket +22.6% to **+32.8% ($20.21) by 9:45**, tapping an
+  intraday high of **$20.50 (+34.8%)** in the opening 5-min bar — a hair under the **$20.55
+  (35%) extension gate**, with essentially no room left. Worse, **spot is now above the
+  $19.00 mean analyst target** with no revision confirmed — the exact "no upside leg"
+  problem flagged in the premarket note, now realized rather than hypothetical. Base
+  structure itself was fine (higher lows $19.22→$19.74→$20.02, volume already ~0.7x full-day
+  average in 15 minutes), but risk/reward is broken: capped upside, full stop-out downside.
+  **Passed.**
+- **STLN (P2)** held up better technically — **+28.3% ($6.40), 5% under its $6.74 gate**,
+  higher lows ($6.02→$6.27→$6.40), volume already ~1.0x full-day average in 15 minutes,
+  analyst target $8.40 still +31% above spot. **But the dilution flag the premarket note
+  left unverified (SEC 403'd) is now CONFIRMED**: one search found an active **$15M ATM
+  facility** (424B5) — live authorization to sell stock into exactly this kind of spike, on
+  a company with a **0.1% EBITDA margin and only $41.1M cash**. Same pattern that killed
+  SOC and SVCO this month. **Passed** — the dilution check did its job a second time.
+- **Fresh movers** (`unusual_volume`/`top_movers`): BZH, XPOF, PUBM, INVX, NRXP, FNKO,
+  ARDX, SERV, LZ, CRSR, SSP, EMBC, TALK, INGN, BETR, WHWK, PBYI — none carried a validated
+  catalyst from premarket screening, and chasing any of them fresh would mean 5+ new
+  searches on unvetted names late in the entry window. Declined per rule 1 (no catalyst,
+  no trade) rather than force a trade to avoid a flat session.
+
+**Account unchanged**: slice $3,142.77, IWM 9 sh ($2,707, 86.1%), notional cash 13.9% —
+still outside the 10% buffer (the same share-granularity remainder flagged premarket), but
+no satellite qualified so no funding trade was triggered. No overnight fills or stops. No
+ntfy sent (flat session).
+
+---
+
+## 2026-08-07 — PREMARKET (Friday)
+
+**Ran on time at 6:20 AM ET. No subagents; 8 inline searches + 3 fetches** — lesson-12
+budget discipline held for the fifth session running.
+
+**Account**: shared $10,435.72 / slice $3,130.72 / **IWM 9 sh $2,691 (85.9%), 0 satellites**.
+✅ Reconciler balances. Satellites 0/4, trades 1/5. Max satellite $469.61, 1.5% risk $46.96.
+⚠️ Notional cash **$439.72 = 14.0%, outside the buffer** (share-granularity remainder) —
+**any full-size entry must sell 1 IWM first**, which also cures the breach. Rocket vs SPY
+improved to **−0.30%** from −1.15% as IWM recovered and CSTL stopped dragging.
+
+🚨 **BOTH SCANNERS WERE OUTRIGHT BROKEN — every row returned `+0.0%`**, so `top_movers` was
+a ranked list of zeros and the overlap tier produced nothing for a fourth straight session.
+Several scanner *prices* were also wrong vs raw bars (STLN $6.67 vs a $4.99 close; CVRX
+$3.41 vs $5.94). **The whole board came from raw yfinance daily bars on carry-overs plus the
+live premarket gainers page.** Logged as lesson 16.
+
+**Watchlist built (4 ranked, from 6 fresh prints screened):**
+- **P1 QNST (HIGH)** — QuinStreet Q4 FY26 (8/06 post-close): revenue **$373.9M +43%, above
+  the top of its own $350–370M guide**; adj EBITDA $41.4M **+87%**; **GAAP EPS $0.33**; FY26
+  op cash flow **$130.9M**; **FY27 guided to $1.45–1.55B / $150–160M EBITDA (+33–42%)**.
+  Premarket **+22.6% to $18.66 — inside the 20–35% gap-and-go band**, 35% gate $20.55.
+  $874M cap, **$2B ceiling ~87% away**. Short float 11.34%, 6.48 DTC. ✅ **Chosen P1 mainly
+  because it is GAAP profitable with real cash flow — dilution risk is absent by
+  construction**, and dilution killed three of this week's ideas.
+- **P2 STLN (MED-HIGH)** — Starling Oncology (renamed from TOI 8/04) Q2: revenue **$161.3M
+  +34.6%**, gross profit **+55.2%**, **adj EBITDA positive for the first time**, **FY26
+  raised to $650–670M**. Best upside math on the board — **blue sky 24.6% above its 52-wk
+  high**, mean target **$8.40 (+26.7%)**. 🚨 Capped at P2: **0.1% EBITDA margin on $41.1M
+  cash** = live dilution risk, **unverified** (SEC 403'd the 8-K). And **its 35% gate is
+  $6.74 vs a $6.63 premarket print — 1.7% of room, the likeliest disqualification today.**
+- **P3 APPS (WATCH)** — closed **$14.27 +8.4% at 96% of range**, new 52-wk high, Craig-Hallum
+  PT $10→$18. **Cannot be traded**: $1,727M cap puts the $2B ejection ceiling at ~$16.55, so
+  the +25% target is outside the universe. Day 3, +50% off the base. Pullback only.
+- **P4 HNST (MED-LOW)** — valid rule-3 second-day (closed above midpoint, zone ceiling
+  $5.96), but revenue −10.9% and **mean target $4.81 is BELOW the $5.42 close** (AMCX
+  signature). Fallback only.
+
+**Eliminated**: **RCEL/VATE/FRD/SRZN** — four premarket gappers of +17–34%, **all fail the
+300k ADV gate, killed in one `eligibility` call with zero searches**. **FIGS** out of
+universe at its premarket price ($1,878M cap → ~$2.38B at $14.25). **SVCO** revenue missed
+consensus and **Q3 guided BELOW the quarter just delivered** + undisclosed Micron
+convertible. **CVRX guidance CUT**. **ASPN** failed rule 3 — closed at **28% of range** on
+13.3x volume (distribution). **EVH** closed at 9% of range. **NNBR** PIPE thesis played out
+exactly as written. **REPL** — **FDA approved RP1 (TUDRIQEV) 8/06**, but priced in by the
+AdCom and **barred by earnings 8/11**; binary closed, removed from rotation.
+
+**Macro**: 🚨 **NFP 8:30 AM ET** — fcst ~80–120k vs 57k prior, U3 4.2%, AHE +3.5%. Pre-open,
+so the 9:45–9:50 base window is clean, but it is the month's biggest whipsaw. **VIX 15.28**
+(clear). 🚨 **10-yr 4.67% (+1.15%) — the rates tailwind reversed after exactly one session**;
+**IWM −0.51% vs SPY −0.16%** again. Gold $4,373 (+3.09%), 4th straight up session with VIX
+low = rate-cut positioning, not fear. Energy dead (Brent $82.14).
+
+**Open threads**: (1) **STLN dilution check unrun** — close before any order; (2) **FTK cap
+gate `unknown` a 4th session** — verify or retire; (3) scanner numeric columns broken.
+
+**No trades placed — market closed. No ntfy sent (no breaking news on a held position).**
+
+---
+
 ## 2026-08-06 — MARKET CLOSE (Thursday)
 
 **CSTL stopped out intraday (2:32 PM ET), discovered at EOD sync — not a market_close

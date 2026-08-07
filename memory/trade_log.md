@@ -4,6 +4,50 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-07 — NO TRADE (market_close) — no satellites to review, core in band
+
+**Position review**: 0 satellites open — nothing to review. Core (IWM 9 sh) is the
+only holding.
+
+**Core rebalance check**: slice $3,152.62, satellite value $0, 10% buffer $315.26 →
+target_core $2,837.36. IWM 9 sh @ $301.57 = $2,714.13 — **3.91% short of target,
+outside the 3% band.** Per lesson 7a, only trade a breach if the nearest whole-share
+move lands closer to target than doing nothing: buying 1 sh (@~$301.57) would push
+IWM to $3,015.70, **5.66% over target** — a bigger deviation than the current 3.91%
+short. **No trade** — share-granularity remainder, not actionable. Notional slice
+cash $438.49 (13.9%), same known remainder flagged the last several sessions.
+
+**Day P&L**: Rocket's book (IWM + notional cash) **+1.51%** ($3,105.58 → $3,152.62)
+vs **SPY +0.66%** today — IWM itself moved +1.13% ($298.25→$301.61), small caps
+outperforming large caps today; the extra lift in the slice figure reflects the
+shared-account cash split, not incremental Rocket P&L. Since rebase (7/20): Rocket
++3.99% vs SPY +4.20% (**-0.21%**).
+
+**No new trades placed today** — market_open found both ranked ideas (QNST, STLN)
+disqualified and no fresh mover had a validated catalyst; no midday session ran;
+market_close core rebalance is inside the actionable range (see above).
+
+---
+
+## 2026-08-07 — NO TRADE (market_open) — both ranked ideas disqualified at the open
+
+**QNST (P1)** — extension gate essentially exhausted: intraday high $20.50 (+34.8%) vs the
+$20.55 (35%) gate, and spot ($20.21) already above the $19.00 mean analyst target with no
+revision confirmed. Base held (higher lows, strong relative volume) but risk/reward broken
+— capped upside, full stop-out downside. Skipped.
+
+**STLN (P2)** — premarket-flagged dilution risk (unverified, SEC 403'd) confirmed via
+web search: active $15M ATM facility (424B5) on a company with a 0.1% EBITDA margin and
+$41.1M cash. Same structural flaw that killed SOC and SVCO this month. Skipped.
+
+**Fresh movers** (`unusual_volume`/`top_movers`) — none carried a validated catalyst;
+declined to chase unvetted names late in the entry window. Full detail in session_notes.md
+and research_log.md.
+
+No positions opened or closed. Rocket unchanged: IWM 9 sh (core), 0 satellites.
+
+---
+
 ## 2026-08-06 — CSTL trailing stop hit + core rebalance (market_close)
 
 **CSTL — STOPPED OUT.** Trailing 7% stop filled intraday at **18:32 UTC (2:32 PM ET)**,
