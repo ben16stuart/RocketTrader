@@ -1053,3 +1053,104 @@ plan of the last 9 days silently did nothing. Needs the user to load it (lesson 
   directly. Accepted by mandate; the core is not stopped.
 
 ---
+
+<!-- archived at Week 32 review, 2026-08-07 -->
+## Snapshot — 2026-08-06 Thursday premarket
+
+### ✅ THE ENTRY WINDOW IS CLEAN TODAY — first time this week
+Every release is **pre-open**: 7:30 AM ET initial jobless claims (fcst ~203k vs 197k prior),
+Challenger job cuts, Q2 preliminary nonfarm productivity (exp +0.7% vs +0.3%), June wholesale
+inventories. **Nothing lands inside the 9:45–9:50 base window.** Monday's ISM sat 10 minutes
+after it and Wednesday's Services PMI printed *inside* it; today a gap-and-go base gets to
+work or fail on its own merits. ⚠️ **NFP is tomorrow, Friday 8/07** — a reason not to carry a
+marginal position overnight, not a reason to skip today.
+
+### Macro
+- **VIX 15.92 (+0.70%)** — well under the 22 pause threshold. **Sizing unrestricted.**
+- ✅ **10-yr 4.62% (−0.22%) — the rates tailwind is HOLDING**, a second straight session of
+  easing off 4.74%. The headwind flagged every session last week is genuinely gone.
+- 🚨 **But small caps are not converting it. IWM closed −0.64% vs SPY −0.20%** — the core
+  sleeve lost to the benchmark *with rates cooperating*. Futures are near-flat and offer no
+  resolution: S&P **+0.19%**, Russell **+0.21%**, Nasdaq **−0.37%**. Russell nominally leads,
+  but by 2bps — that is noise, not leadership. **Stock-specific catalysts do all the work.**
+- **Energy stays dead.** Brent **$79.83 (+0.48%)**, WTI **$75.52 (+0.40%)** — back under $80
+  after the collapse from $91. The only reason FTK is a fallback and not a priority.
+- **Gold $4,329.50 (+1.97%) — a third straight large up session, with VIX at 15.92.** That
+  pairing is a debasement / rate-cut trade, not a fear trade, and it is consistent with the
+  10-yr falling. **Not a risk-off tell.**
+- Dollar 99.78 (+0.09%), flat. Last cash closes: SPY 769.79, IWM 299.77.
+
+### Account structure (portfolio_snapshot, 2026-08-06 10:20 UTC)
+- Shared account **$10,380.36**; Rocket slice (30%) = **$3,114.11**. Pooled cash $569.06.
+- Rocket holds **IWM 8 sh = $2,404 (77.2%)** + **CSTL 15 sh = $456 (14.6%)** = **91.8%
+  invested**; notional slice cash **$254 (8.2%)** — **inside the 10% buffer, third straight
+  session.** The satellite cure is holding (lesson 7a).
+- ✅ **RECONCILER BALANCES — and yesterday's unattributed flag is CLOSED.** NOW (12 sh,
+  $1,369) is now correctly attributed to **Bull**. Every live position has an owner.
+  Satellites 1/4, trades 1/5. Max satellite **$467**; 1.5% risk **$47**.
+- 🚨 **Cash, not conviction, is still the binding constraint.** Pooled cash is $569.06 but
+  Rocket's *notional* share is only **$254**. **Any entry must sell 1 IWM share first**
+  (~$300). Mandated funding path, not a rebalance.
+- **Rocket +2.72% since rebase vs SPY +3.73% → −1.01% relative** (worse than yesterday's
+  −0.76%). ⚠️ Standing caveat, and it matters more this week: with one index ETF and one
+  satellite, **essentially all of that gap is IWM-vs-SPY factor beta, not stock selection** —
+  and the factor has cost Rocket every session this week. Do not book it as skill either way.
+
+### THEME READ (8/06)
+- **Every validated catalyst is an earnings print, third session running.** No non-earnings
+  idea on the board is worth trading.
+- 🚨 **THE NEW THEME IS DEFENSE.** **MRAM's** record quarter is driven by a **$40M US
+  prime-contractor agreement** starting to convert to revenue; **NNBR** simultaneously signed
+  a **$12–15M firearms-components contract**. Two independent defense-revenue prints in one
+  night is a theme. Rocket's single best historical trade (**MRLN**) was a defense catalyst,
+  and lesson 5 says government milestones on small caps deserve full size.
+- **MRAM is Priority 1** — revenue **$18.7M +42% YoY**, its **highest quarter ever** and
+  **13% above the top of its own guidance**; non-GAAP EPS **$0.11 vs $0.00–0.03 guided**
+  (~4x); **Q3 guided UP to $19.5–20.5M**. Structure is the best on the board: **18.7M float,
+  16.53% short float (squeeze bar cleared), $378M cap (no ceiling risk), 3.37M ADV.**
+- ⚠️ **The MRAM reaction is muted relative to the print — only +8.4%, which merely round-trips
+  yesterday's −7.3%.** A record beat-and-raise is worth more than that. **Volume at 9:45 is
+  the only thing separating "opportunity" from "tell."**
+- **APPS is a live second-day setup (P2)** — rule 3 fits cleanly for the first time this week:
+  gapped **+38.5%**, closed **above the midpoint at 58% of range on 3.5x ADV**, and premarket
+  **$13.06 is inside the 10% entry zone** ($13.17 → $14.49 ceiling). Catalyst and dilution
+  were both fully validated 8/05.
+- 🚨 **NNBR is BLZE again — the bull headline and the supply overhang are the same
+  transaction.** Its "$124M deleveraging" is funded by a **$75M PIPE at $3.06 (~24.5M shares
+  against a 31.1M float)** plus ~$19M of preferred exchanged to common. PIPE holders are
+  already up ~39%. Genuine deleveraging, but over a 1–5 day hold the overhang dominates.
+- **GCT had the best print on the board and is out of mandate** — record Q2 (revenue $411.6M
+  **+27.6%**, EPS $1.16, adj EBITDA +39.5%) with a **19.87% short float**, but it is a
+  **Cayman-incorporated holdco operating through mainland-China subsidiaries → fails the
+  US-domicile gate.** Added to the standing avoid list so it is not re-screened.
+- **AEVA eliminated on dilution** — $6.1M revenue against a **$79.6M** GAAP quarterly loss,
+  a **$115M follow-on equity offering**, hyperscaler deployment not until **2H2027**, CFO
+  leaving 9/05. A story, not a 1–5 day catalyst.
+- 🚨 **Scanner integrity, third session: the both-list overlap tier is worthless.** It produced
+  exactly one name today — **HDSN, +3.4% at 0.1x RelVol** — and would have missed the entire
+  watchlist. Every idea came from **`unusual_volume`** or from carry-over second-day watch.
+  `top_movers` at 4:20 AM ranks on the *prior* close, so it shows sub-9% drift while the real
+  gaps are premarket. **Read `unusual_volume` in full; cross-check yesterday's closers.**
+
+### Intraday Triggers to Watch
+- VIX >22 pause, >25 reduce size, >30 no new longs (currently **15.92**, clear).
+- **MRAM entry**: conventional base — **+8.4% is below the 20% gap-and-go band**, so rule 2's
+  mechanic does not apply. Hold above the 9:45–9:50 base low on **>1.5x volume off raw 5-min
+  bars**. **No >1.5x volume = no trade, however good the print is.** Stop 7% below fill
+  (≈$16.28 on $17.50). Size **26 sh ≈ $455**. **Sell 1 IWM to fund before buying.**
+- **APPS zone ceiling $14.49** (10% above the $13.17 close). **Above it = out of the rule-3
+  zone, no trade.** Recompute off the realized open AND again at 9:45 — a premarket-written
+  gate has been breached by 9:45 three sessions running (lesson 15). Yesterday's high
+  **$14.10 is also the 52-week high** — it buys directly into resistance.
+- **Rocket can fund exactly ONE satellite.** MRAM first, APPS second, NNBR only if both fail.
+- **FTK**: not tradeable until the **market cap gate is verified** — third session returning
+  `unknown`. Best close on the board (72% of range, 4.3x ADV) and best squeeze math
+  (14.2M float, 17.66% SF, 8.29 DTC), but an unchecked gate is not a pass.
+- **REPL PDUFA now 4 days overdue** with two prior CRLs behind the BLA. Unscheduled binary,
+  watch only, **no position either direction**.
+- **NFP tomorrow (8/07)** — do not carry a marginal satellite into it.
+- Rates: a renewed 10-yr back-up pressures the Russell and the IWM core directly. Accepted
+  by mandate; the core is not stopped.
+
+---
+

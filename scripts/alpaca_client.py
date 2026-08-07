@@ -65,11 +65,29 @@ def is_market_open() -> bool:
     return clock.get("is_open", False)
 
 
-def place_market_order(symbol: str, qty: int, side: str) -> dict:
-    """Place a simple market order. side = 'buy' or 'sell'"""
+def _fmt_qty(qty) -> str:
+    """Render an order quantity for Alpaca, fractional shares included.
+
+    Alpaca accepts fractional qty (up to 9dp) on market/day orders, which is exactly
+    what place_market_order sends. Whole numbers render without a trailing '.0' so
+    integer orders look unchanged in the order JSON.
+    """
+    q = float(qty)
+    if q == int(q):
+        return str(int(q))
+    return f"{q:.9f}".rstrip("0").rstrip(".")
+
+
+def place_market_order(symbol: str, qty, side: str) -> dict:
+    """Place a simple market order. side = 'buy' or 'sell'.
+
+    qty may be fractional — the core (IWM) sleeve needs this. IWM at ~$300 against a
+    ~$3,100 slice makes one whole share 9.6% of the book versus a 3% rebalance band,
+    so whole-share-only rebalancing left ~14% permanently in idle cash (lesson 7a).
+    """
     body = {
         "symbol":        symbol.upper(),
-        "qty":           str(qty),
+        "qty":           _fmt_qty(qty),
         "side":          side,
         "type":          "market",
         "time_in_force": "day",
@@ -78,7 +96,17 @@ def place_market_order(symbol: str, qty: int, side: str) -> dict:
 
 
 def place_trailing_stop(symbol: str, qty: int, trail_percent: float = 10.0) -> dict:
-    """Sell trailing stop order — trails price by trail_percent%."""
+    """Sell trailing stop order — trails price by trail_percent%.
+
+    Alpaca rejects fractional qty on trailing stops, so satellites must be sized in
+    whole shares. Fail loudly rather than leave a position silently unprotected.
+    """
+    if float(qty) != int(float(qty)):
+        raise ValueError(
+            f"Trailing stops require whole shares; got {qty} for {symbol}. "
+            "Size satellites in whole shares — only the stopless IWM core may be fractional."
+        )
+    qty = int(float(qty))
     body = {
         "symbol":          symbol.upper(),
         "qty":             str(qty),
@@ -220,13 +248,14 @@ if __name__ == "__main__":
         print("Market is open:" if is_market_open() else "Market is closed.")
 
     elif cmd == "buy":
-        # alpaca_client.py buy SYMBOL SHARES
-        sym, shares = args[1].upper(), int(args[2])
+        # alpaca_client.py buy SYMBOL SHARES   (SHARES may be fractional, e.g. 1.47)
+        sym, shares = args[1].upper(), float(args[2])
         result = place_market_order(sym, shares, "buy")
         print(json.dumps(result, indent=2))
 
     elif cmd == "sell":
-        sym, shares = args[1].upper(), int(args[2])
+        # Partial reductions go through here — `close` always fully liquidates.
+        sym, shares = args[1].upper(), float(args[2])
         result = place_market_order(sym, shares, "sell")
         print(json.dumps(result, indent=2))
 

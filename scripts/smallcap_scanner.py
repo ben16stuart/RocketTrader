@@ -111,7 +111,9 @@ def _run_screener(filters: list, order: str = "-change", limit: int = 30) -> lis
             "company":      s.get("Company", ""),
             "sector":       s.get("Sector", ""),
             "price":        _safe_float(s.get("Price")),
-            "change_pct":   _safe_float(s.get("Change", "").rstrip("%")),
+            # Finviz renamed this header 'Change' -> 'Change %' (broke 2026-08-03,
+            # silently zeroing every row for 5 sessions). Accept both spellings.
+            "change_pct":   _safe_float(str(s.get("Change %", s.get("Change", ""))).rstrip("%")),
             "volume":       _safe_int(o.get("Volume", "").replace(",", "")),
             "avg_volume":   _parse_vol(p.get("Avg Volume", "")),
             "market_cap":   s.get("Market Cap", ""),

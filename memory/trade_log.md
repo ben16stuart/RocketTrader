@@ -4,6 +4,34 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-07 — WEEK 32 SUMMARY (weekly review) — 1 satellite closed, 2 core rebalances
+
+**Satellite trades**: 1 opened (CSTL 8/03), 1 closed (CSTL 8/06, stopped out).
+**Win rate 0/1. P&L −$0.75 (−0.17%). R-multiple −0.02R** on $31.49 of planned risk —
+a scratch, not a loss. **Core rebalances**: 2 (8/03 sell 1 IWM, 8/06 buy 1 IWM) — these
+do not count against the 4-satellite or 5-trades/week caps.
+
+**Week performance**: Rocket book $3,044.50 → $3,135.02 = **+2.97%** vs **SPY +3.51%**
+(747.03 → 773.26). **Rocket vs SPY −0.54%.** IWM +3.56%.
+
+**Attribution** — factor **+0.04%** (IWM − SPY was only +0.05%), cash drag **−0.49%**,
+satellite **−0.13%**. **Real alpha −0.13%.** The week's underperformance was idle cash,
+not stock selection.
+
+⚠️ **The `portfolio_state.md` headline figures (−0.25% vs SPY) are WRONG and always have
+been since the merge** — `portfolio_snapshot.py` derives Rocket's return from a fixed 30%
+of the *shared* account, which is algebraically the whole account's return with Bull's
+P&L included. The −0.54% above is hand-built from Rocket's own holdings and is the real
+number. See `weekly_reviews/2026-W32.md` §5.
+
+**Tooling changes shipped this session** (affect future orders):
+- `alpaca_client.py buy/sell` now accept **fractional quantities**; trailing stops raise
+  on fractional qty by design. The core can finally hit its rebalance target exactly.
+  **UNTESTED against a live order — verify the `qty` in the first fill.**
+- `smallcap_scanner.py` `Change %` column repaired (Finviz header rename).
+
+---
+
 ## 2026-08-07 — NO TRADE (market_close) — no satellites to review, core in band
 
 **Position review**: 0 satellites open — nothing to review. Core (IWM 9 sh) is the
