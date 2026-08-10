@@ -3,6 +3,112 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-10 — MARKET CLOSE (Monday, Week 33)
+
+**0 satellites open — nothing to review.** Only Rocket holding is the IWM core (9 sh
+entering the session). No positions to hold/close decisions today.
+
+**Core rebalance**: slice $3,164.97, target_core $2,848.47 (10% buffer $316.50). IWM
+9 sh @ $299.74 = $2,697.66 — **4.77% short, outside the 3% band.** Bought fractional
+**0.5031 sh @ $299.74** ($150.81 notional). Filled ~19:58 UTC; position now **9.5031
+sh, mkt value $2,848.65** — within $0.18 of target. First rebalance since the
+fractional-order fix (lesson 15/18) to close the band exactly rather than stall on a
+whole-share remainder — confirms the fix works live.
+
+**Day P&L**: Rocket's book (≈ slice) **+0.39%** ($3,152.62 Fri close → $3,164.97) vs
+**SPY −0.07%** today. Since rebase (7/20): Rocket **+4.40%** vs SPY **+4.12%**
+(**+0.28%**), chained from the 8/07 weekly-review baseline (lesson 22 caveat: hand-
+built proxy, not `portfolio_snapshot.py`'s figure, though they currently agree since
+Rocket is 100% IWM with no satellites live).
+
+**No satellite trades today** — market_open found all three ranked ideas (CRSR, QNST,
+ARCT — see below) failed at decision time; no second-day candidates worked either.
+ntfy daily summary sent and confirmed.
+
+---
+
+## 2026-08-10 — MARKET OPEN (Monday, Week 33)
+
+**No trades. All three ranked ideas failed at decision time; three fresh movers lacked a
+confirmed catalyst.** Checks done inline (3 web searches + 2 scanner re-pulls), no subagent.
+
+- **CRSR (P1) — the flagged open check resolved NO-GO, and price confirmed it.** Real
+  post-print analyst raises exist (Baird $12, Craig-Hallum $12, Wedbush $13, Roth $16) — not
+  stale as hoped, but the resulting $12–16 spread means spot ($13.98) is already above 3 of 4
+  targets. Same "no upside leg" signature that demoted QNST last week (lesson 11a), now seen
+  twice — logged as lesson 11c. Opened **-2.6% on 0.1x avg volume**, a red/thin fade rather
+  than a base. **Not entered.**
+- **QNST (P2)** confirmed real strength — **+4.9%, new 52-wk high** — but the pre-registered
+  cap-check verdict (own +15% target sits above the street high) doesn't change on a green
+  tape alone. Held to its own plan: **watch, not traded.**
+- **ARCT (P3)** opened **-2.4%** on thin volume — weakest catalyst on the board, no confirmation. Skipped.
+- **Fresh movers**: **HZO** (+45.8%, 104.8x RelVol) is a >35% gap, second-day-only per rule 2
+  — watchlist for tomorrow. **MVIS** (+22.1%) had no dated catalyst for today (stale 7/15
+  print + a reverse split, itself a mild red flag) — classic pump-prone name, skipped per
+  lesson 1. **TNXP** (+12.1%, 5.7x RelVol) reports today but results weren't out yet at
+  check time — pre-print move, barred by the earnings-week rule.
+
+**Account unchanged**: slice $3,155.56, IWM 9 sh ($2,707, ~85.8%), 0 satellites, pooled cash
+$719.86. No overnight fills or stops. No ntfy sent (flat session).
+
+---
+
+## 2026-08-10 — PREMARKET (Monday, Week 33)
+
+**No trades — market closed. Watchlist rebuilt; Friday's two open checks closed and both
+flipped the ranking.**
+
+**The overnight scan produced nothing.** Screeners returned only thin-RelVol extended-hours
+quotes (STI +14.7% — standing hard-avoid; NMAD/AMPG/INGN — no catalyst). **Every idea on
+the board is a Friday carry-over.** Correctly did not manufacture a new name to fill a slot.
+
+**Both open checks resolved — and the ranking inverted:**
+1. ⬆️ **CRSR P2 → P1.** Dilution check came back **clean and then some**: $192.2M cash vs
+   $118.3M debt = **~$75M net cash**, GAAP net income **+$9.1M**, operating cash flow **+148%
+   to $74.8M**. It does not need the equity market. Then the bigger find — **short float
+   21.94%, above the 15% squeeze bar, which Friday's board never checked at all** (lesson 9
+   is live). With a 47.4M float (44% of shares out) and a 92%-of-range close, it has the best
+   structure on the board.
+2. ⬇️ **QNST P1 → P2, on its own pre-registered rule.** Friday's bar was *"if consensus has
+   not been raised above ~$24, the upside leg is missing."* Revisions **did** land — four
+   raises on 8/07, all Buy — but consensus is only **$22.40 with a street high of $24.00**
+   against a $21.08 close. **Rocket's +15% first scale-out ($24.24) sits above every price
+   target on the street.** Balance sheet is still the cleanest on the board, so it's a smaller
+   trade, not a skip — but the rule was written in advance and was not rationalised away.
+3. 🆕 **ARCT promoted to P3** off the secondary board: $191.5M cash / 2.5-yr runway is clean
+   for clinical-stage, and **short float 30.65% on a 26.0M float** is the most explosive
+   structure available. Held back to P3 because the catalyst is a rights-reversion from CSL,
+   not a beat-and-raise, and **revenue collapsed to $2.96M from $28.3M YoY**.
+
+**A search nearly misled the QNST call.** A "Barrington raised PT to $29" headline surfaced
+with no date; verifying against the current consensus page showed Barrington **reiterating
+$24 on 8/07** — the $29 was a prior period. Taking that at face value would have kept QNST
+at P1 on a fabricated upside leg.
+
+**Dropped with reasons**: PUBM (52% range close, −1.0% pre — fade confirmed), EMBC, OABI
+(2.7% off the $3 floor, 4.45% short float — no edge), TBCH (**no catalyst ever identified**),
+GTN (**retired** — cap gate still `unknown`, an unchecked gate is not a pass), RCEL (standing
+avoid; **−4.0% premarket is validating the skip in real time**).
+
+**Macro — two things changed.** 🚨 **Russell futures flipped to −0.27%** after Friday's
++1.04%; they are the only red future while S&P/Nasdaq are green, so small-cap leadership did
+not survive the weekend. Notably **CRSR and QNST both held their gaps flat overnight anyway**
+— name-specific strength intact while the group softens. 🗓️ **CPI lands Wednesday 8:30 ET**,
+so anything bought today is open through it with the 10-yr just 9bp under the 4.75% trigger.
+**Argues for one satellite today, not two, and taking the first third promptly.**
+
+**Open for market_open**: (a) verify **CRSR post-print PT revisions** — consensus reads
+$12.33, below spot, almost certainly stale, and lesson 6 says an unresolved check is a to-do;
+(b) re-derive the **lesson-18 cap check at the actual fill** — a CRSR fill above **~$14.79**
+puts the +25% target outside $2B; (c) confirm the base on **raw 5-min bars**, not the scanner.
+
+**Funding**: only ONE full-size satellite (~$459–467) is fundable from ~$444 notional cash —
+**fund it by selling a fractional IWM slice**, satellites stay whole-share. If no entry
+happens, `market_close` must still top the core up fractionally. **Either path finally
+exercises the fractional fix, which has never run against a live order** (lesson 15).
+
+---
+
 ## 2026-08-07 — WEEKLY REVIEW (Week 32, Friday post-close)
 
 **Grade: C.** Rocket vs SPY **−0.54%** for the week (+2.97% vs +3.51%). One satellite

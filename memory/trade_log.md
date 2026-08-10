@@ -4,6 +4,33 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-10 — IWM CORE REBALANCE (market_close) — fractional buy, band closed exactly
+
+**Position review**: 0 satellites open — nothing to review. Core (IWM 9 sh) is the
+only Rocket holding.
+
+**Core rebalance check**: slice $3,164.97, satellite value $0, 10% buffer $316.50 →
+target_core $2,848.47. IWM 9 sh @ $299.74 = $2,697.66 — **4.77% short of target,
+outside the 3% band.** Bought fractional **0.5031 sh @ $299.74** (notional $150.81)
+via `alpaca_client.py buy IWM 0.5031`. **CORE REBALANCE, not a conviction trade.**
+
+- **Fill**: 0.5031 sh filled ~19:58 UTC. Position now **9.5031 sh, avg cost $293.26,
+  market value $2,848.65** — landed within $0.18 of the $2,848.47 target. First
+  fractional core rebalance to close the band exactly rather than leaving a
+  whole-share remainder (contrast 8/07 and 8/03 entries, both blocked by
+  share-granularity). Confirms lesson 15's fractional-order fix now works live.
+
+**No satellite trades today** — no candidates worked this session; core-only day.
+
+**Day P&L**: Rocket's book (IWM + notional cash, ≈ slice) **+0.39%** ($3,152.62 Fri
+close → $3,164.97) vs **SPY −0.07%** today — IWM/small caps outperformed large caps.
+Since rebase (7/20): Rocket **+4.40%** vs SPY **+4.12%** (**+0.28%**), chained forward
+from the 8/07 weekly-review baseline (lesson 22 caveat still applies — this is a
+hand-built proxy, not the raw `portfolio_snapshot.py` figure, though the two
+currently agree since Rocket is ~100% IWM with no satellites live).
+
+---
+
 ## 2026-08-07 — WEEK 32 SUMMARY (weekly review) — 1 satellite closed, 2 core rebalances
 
 **Satellite trades**: 1 opened (CSTL 8/03), 1 closed (CSTL 8/06, stopped out).
