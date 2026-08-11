@@ -4,50 +4,54 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-08-10 Monday premarket  ← CURRENT
+## Snapshot — 2026-08-11 Tuesday premarket  ← CURRENT
 
 ### Macro
 
 | Metric | Level | Δ | Read |
 |---|---|---|---|
-| **VIX** | **15.44** | **+3.62%** | Up from Friday's 14.89 but still calm. **Far under the 22 pause threshold — no volatility brake on entries.** |
-| **10-yr** | **4.66%** | −0.21% | **Unchanged from Friday. Still below the 4.75% trigger** — the core is not yet under rate pressure. |
-| S&P futures | 7,789.00 | +0.12% | Mildly green |
-| Nasdaq futures | 29,938.75 | +0.35% | Leading again |
-| 🚨 **Russell futures** | **3,033.40** | **−0.27%** | **FLIPPED NEGATIVE.** Friday was +1.04% with small caps leading; they are now the only red index future. |
-| Brent / WTI | 84.37 / 78.83 | +0.98% / +0.83% | **Brent back above $83** — first sign of life in energy in weeks. Not yet a source of momentum names; re-check if it holds. |
-| Dollar index | 99.71 | +0.11% | Flat, neutral |
-| **Gold** | **4,399.20** | **+1.35%** | Sixth straight up session. Still rate-cut/debasement positioning, not fear — VIX 15.44. |
-| SPY / IWM | 773.26 / 301.56 | +0.61% / +1.11% | Friday's closes (no Monday session yet) |
+| **VIX** | **15.53** | +0.45% | Calm, barely moved. **Far under the 22 pause threshold — no volatility brake on entries.** |
+| 🚨 **10-yr** | **4.70%** | **+0.84%** | **Up from 4.66%. Now only 5bp from the 4.75% trigger** — was 9bp yesterday. CPI tomorrow is the obvious test. |
+| S&P futures | 7,777.25 | +0.01% | Flat — the tape is waiting for CPI |
+| Nasdaq futures | 29,761.50 | +0.08% | Flat |
+| 🚨 **Russell futures** | **3,023.20** | **−0.06%** | **Red for a SECOND straight session** — the only negative index future again. |
+| 🆕 **Brent / WTI** | **89.60 / 83.99** | +2.14% / +2.26% | **Brent jumped from $84.37 → $89.60 (+6.2%) in one session.** An energy spike 24 hours before a CPI print is the single most uncomfortable item on this board. |
+| Dollar index | 99.84 | +0.03% | Flat, neutral |
+| **Gold** | **4,433.70** | **+1.65%** | Seventh straight up session, now with oil and yields rising alongside it. The debasement read is getting an inflation flavour. |
+| SPY / IWM | 773.03 / 299.98 | −0.03% / **−0.52%** | Monday's closes. **IWM lagged SPY by 0.49% on the day.** |
 
-### 🚨 The one thing that changed overnight: small caps lost the bid
+### 🚨 Two sessions of small-cap lag, and now an energy spike into CPI
 
-Friday's tape had **Russell futures +1.04%, leading every other index**. This morning they
-are **−0.27% — the only red future on the board**, while S&P and Nasdaq futures are green.
-The small-cap leadership that closed Week 32 did not survive the weekend.
+Russell futures are **red for the second consecutive session** while S&P and Nasdaq sit flat.
+Per the Week 33 trigger table, *"Russell futures stay red while S&P/Nasdaq are green"* for
+**two-plus sessions** = re-examine satellite entries and expect core drag. **That trigger has
+now fired.** Monday delivered exactly what it predicted: **IWM −0.52% vs SPY −0.03%**, a
+0.49% drag on the 90% core sleeve in a single day.
 
-**Two direct consequences:**
-1. **The IWM core (85.9% of Rocket's book) opens into a mild headwind**, with large caps bid
-   and small caps offered. Not a thesis change — the 10-yr is unchanged at 4.66%, below the
-   4.75% trigger — but attribution should expect IWM to lag SPY today.
-2. **Satellite entries lose their tailwind.** Friday's rule-3 setups (CRSR, QNST) were built
-   on a tape where small caps led. That support is absent this morning. Both names
-   nonetheless **held their gaps overnight in premarket** (CRSR $14.33 vs $14.35 close;
-   QNST $21.07 vs $21.08) — name-specific strength is intact even as the group softens.
-   **That divergence is the thing to watch at the open.**
+The new item is **oil**: Brent **+6.2% in one session to $89.60**. Combined with the 10-yr
+backing up to **4.70%** — 5bp from the trigger — the setup into tomorrow's CPI is
+inflation-leaning on both the energy and rates side at once.
 
-### 🗓️ Event risk: CPI Wednesday — a 1–5 day hold entered today runs straight into it
+**This does not change the thesis and is not a bearish thesis.** VIX is 15.53, equity futures
+are flat, and cash is still not the neutral position. It does mean:
+1. **Expect continued IWM drag in attribution** — two sessions is now a pattern, not noise.
+   Book it honestly at `weekly_review`; do not label it stock selection.
+2. **The 4.75% rate trigger is live this week.** If CPI runs hot, the 10-yr clears it and the
+   small-cap factor bet becomes a real drag on 90% of Rocket's book.
+
+### 🗓️ Event risk: CPI is TOMORROW — a hold entered today is open through it on DAY 2
 
 | Day | Event |
 |---|---|
-| **Mon 8/10** | **Nothing scheduled. Clean for entries.** |
-| **Wed 8/12, 8:30 AM ET** | **July CPI** — the week's dominant event |
+| **Tue 8/11** | **Nothing dominant. Clean for entries.** (FF holds its earnings call 12:00 ET.) |
+| 🚨 **Wed 8/12, 8:30 AM ET** | **July CPI** — the week's dominant event |
 | Thu 8/13, 8:30 AM ET | July PPI |
+| Fri 8/14 | July retail sales; prelim UMich sentiment |
 
-Rocket's holds are 1–5 days, so **anything bought today is open through CPI on day 3.** With
-the 10-yr at 4.66% — only 9bp under the 4.75% trigger — a hot print hits the IWM core and any
-small-cap satellite *at the same time*, in the same direction. This is not a reason to stand
-flat (7% stops are the defence, and cash is not the neutral position). It does argue for:
+Rocket's holds are 1–5 days, so **anything bought today is open through CPI on day 2** — a day
+tighter than yesterday's framing. A hot print hits the IWM core and any small-cap satellite at
+the same time, in the same direction. Not a reason to stand flat (7% stops are the defence).
+It does argue for:
 - **one satellite today, not two** — don't stack correlated small-cap risk into a known event;
 - **taking the first third promptly at +15%** rather than letting it round-trip through CPI
   (the MRLN lesson, with an actual catalyst attached to the date this time).
@@ -99,27 +103,28 @@ coincided with IWM lagging SPY. **A decisive move above ~4.75% would make the sm
 factor bet a live drag again.** With CPI landing Wednesday 8:30 AM ET and only 9bp of room
 to the trigger, **this week is the most likely moment yet for that threshold to be tested.**
 
-### Account posture — Monday 2026-08-10
+### Account posture — Tuesday 2026-08-11
 
-- Rocket: **IWM 9 sh ($2,707, 85.9%)**, **0 satellites**, notional slice cash ~$444 (14.1%).
-  Slice $3,151.38. Weekly trade count reset to **0 / 5**.
-- 🟢 **The 14.1% cash is still a tooling artifact, not a bearish thesis** — fractional orders
-  shipped 8/07 and have **not yet been exercised against a live rebalance**. Per lesson 15,
-  the fix is not proven until an artifact confirms it. **Today closes that loop**, one of two
-  ways: cash funds a satellite entry, or `market_close` tops the core up fractionally.
-  Either is acceptable; leaving 14.1% in cash a ninth session is not.
-- **No bearish thesis is on file, and none is warranted** — VIX 15.44, 10-yr flat, S&P and
-  Nasdaq futures green. Soft Russell futures are a one-session wobble, not a thesis. Per
-  Portfolio Construction rule 4, cash above 10% needs a written bearish view; there is none.
+- Rocket: **IWM 9.5031 sh (≈$2,851, 90.1%)**, **0 satellites**, notional slice cash
+  **$314 (9.9%)**. Slice $3,164.68. Weekly trade count **0 / 5**.
+- ✅ **The cash breach is closed.** Monday's fractional rebalance took cash from 14.1% → 9.9%,
+  **inside the 10% buffer for the first time in nine sessions.** Lesson 15's verification loop
+  is complete: the fractional-order fix was proven against a live artifact, not asserted.
+- **No bearish thesis is on file, and none is warranted** — VIX 15.53, equity futures flat.
+  Two sessions of soft Russell futures is a factor-drag signal, **not** a bearish thesis; per
+  Portfolio Construction rule 4 it does not license holding cash. Any satellite entered today
+  is funded by **selling a fractional IWM slice**, not out of an idle cash pile.
 
 ### Triggers to watch (Week 33)
 
 | Trigger | Action |
 |---|---|
-| 🗓️ **CPI Wed 8/12 8:30 ET, PPI Thu 8/13** | **The week's dominant event.** Anything entered Mon–Tue is open through it. Take the first third at +15% rather than carrying a full position into the print. |
-| 10-yr decisively >4.75% | Small-cap factor drag returns — expect IWM to lag, note it in attribution. Only 9bp away; CPI is the likely trigger. |
-| Russell futures stay red while S&P/Nasdaq are green | Small-cap leadership has broken. Two-plus sessions of this = re-examine satellite entries, and expect core drag in attribution. |
-| VIX >22 | Pause new entries. >25 reduce size, >30 no new longs. |
-| ~~QNST post-print analyst revisions~~ | ✅ **RESOLVED 8/10.** Four raises on 8/07, all Buy — but consensus only $22.40, street high $24.00. Upside leg is capped below Rocket's own +15% target → **QNST demoted to P2.** |
-| CRSR post-print analyst revisions | ❗ **STILL OPEN.** Consensus reads $12.33 (below spot) = almost certainly stale. Verify before sizing at market_open. |
+| 🗓️ **CPI Wed 8/12 8:30 ET, PPI Thu 8/13** | **Tomorrow.** Anything entered today is open through it on **day 2**. One satellite only; take the first third at +15% rather than carrying full size into the print. |
+| 🚨 **10-yr decisively >4.75%** | **Now only 5bp away (4.70%, +0.84% Monday).** Small-cap factor drag becomes real on 90% of the book. CPI is the likely trigger. |
+| ✅ **Russell red while S&P/Nasdaq flat/green** | **FIRED — two consecutive sessions.** Monday delivered IWM −0.52% vs SPY −0.03%. Re-examine satellite entries; book the core drag honestly in attribution. |
+| 🆕 **Brent $89.60 (+6.2% in a session)** | Energy spike 24h before CPI. Watch whether it feeds the print; a second leg up is an inflation-expectations problem for the core. |
+| VIX >22 | Pause new entries. >25 reduce size, >30 no new longs. Currently 15.53 — no brake. |
+| ~~CRSR post-print analyst revisions~~ | ✅ **RESOLVED 8/10 — NO-GO, and the tape confirmed it.** Raises were real ($12–16) but spot was already above 3 of 4. CRSR then closed 8/10 at **8% of range, −4.5%**. Logged as lesson 11c. |
+| ~~HZO second-day setup~~ | ✅ **RESOLVED 8/11 — permanent skip.** The +45.8% was an **all-cash $53.00 Blackstone/Safe Harbor buyout**; price is pinned at a 1.7% arb spread. No momentum edge exists. |
+| 🚨 **BW excluded by the $2B cap ceiling** | ❗ **OPEN — strategy-level, for `weekly_review`.** BW printed the best catalyst on the board (rev +130%, backlog +533%, analyst mean $24.67 vs $11.98 spot) and was excluded because its **+15% target implies $2.05B**. Second time in two weeks the ceiling killed the best name (after APPS). Do not override intraday; do examine whether the gate should scale with the target rather than the entry. |
 | NRGV (8/11), REPL (8/11), SPRY (8/13) prints | Barred by the earnings-week rule — re-screen after |

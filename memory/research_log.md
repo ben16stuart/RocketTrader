@@ -5,149 +5,157 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Week 33 (Mon 2026-08-10 premarket)  ← CURRENT
-*Rebuilt 2026-08-10 premarket. Friday's two open checks are now CLOSED and **both flipped
-the ranking**: CRSR's dilution check came back clean AND it carries a 21.94% short float
-(never checked Friday); QNST's analyst revisions came back real but capped. All prices
-from raw daily bars.*
+## market_open outcome (Tue 2026-08-11, 9:45 AM ET)
 
-**Account (8/10 premarket)**: shared $10,504.60 / Rocket slice (30%) **$3,151.38** / pooled
-cash $719.86. Rocket holds **IWM 9 sh = $2,707 (85.9%)**, nothing else.
-Open satellites **0 / 4**. Weekly trade count **0 / 5** (reset). Max satellite **$472.71**
-(15%); 1.5% risk **$47.27**.
+**FF EXECUTED** — 72 sh @ $6.61 avg ($475.92, 15.0% of slice). Opened +27.9%,
+spiked to $6.96 on the first 5-min bar, then based at $6.55–6.60 on 1.5x avg
+daily volume within 15 minutes of the open — textbook gap-and-go base, entered
+per plan (reference $6.20, cap $6.70). No new negative news; 12:00 PM ET call
+still pending. 7% trailing stop set at $6.11. Full entry in `trade_log.md`.
 
-**Overnight scan produced nothing new.** The premarket screens returned only thin-RelVol
-extended-hours quotes (STI +14.7% — standing HARD AVOID; NMAD, AMPG, INGN — no catalyst).
-**Every idea below is a Friday carry-over.** Both leaders held their gaps overnight:
-CRSR $14.33 pre vs $14.35 close, QNST $21.07 pre vs $21.08 close — no give-back.
+**APEI SKIPPED** — reversed hard at the open: $46.76, **−1.3% on the day**,
+a ~13% round-trip from the $53.50 premarket read, below MA20 ($49.89) and
+MA50 ($52.50) on just 0.2x avg volume (46k). No base ever formed; this is the
+sub-consensus-EPS-guide risk flagged in the P1 writeup playing out live, not
+noise. **Watch for a second-day reclaim of $49.76 (yesterday's planned stop
+level) only if volume returns — otherwise dead.**
 
-⚠️ **Funding**: notional slice cash is ~$444 (14.1%); a full-size satellite needs ~$460–467.
-**Sell a fractional IWM slice to fund it** (lesson 18 — satellites must be WHOLE shares,
-only the stopless core may be fractional). If no satellite is entered today, `market_close`
-must still top the core up fractionally — the 14.1% cash breach has no bearish thesis behind it.
+Per the "ONE satellite today, not two" rule (CPI print tomorrow 8/12), FF was
+the only entry regardless of APEI's outcome. QNST remains watch-only (P3, no
+new size). `unusual_volume`/`top_movers` re-scanned post-entry — FF was
+already the board's top mover; nothing else on either list carries a
+vetted catalyst. No second position opened.
 
 ---
 
-### PRIORITY 1 — CRSR (HIGH) — ⬆️ upgraded from P2. Clean balance sheet + a squeeze structure Friday missed
+## Watchlist — Week 33 (Tue 2026-08-11 premarket)  ← CURRENT
+*Fully rebuilt. **Monday's entire board is dead** — CRSR, QNST(-ish), ARCT all failed on the
+tape. Three fresh names printed Q2 **after Monday's close**, so today is their day one.*
 
-**Corsair Gaming.** Q2 reported 8/06. **Closed $14.35, +35.2%, at 92% of its range** on
-9.51M shares (3.5x) — the best close-in-range on the board (lesson 4 tiebreaker).
+**Account (8/11 premarket)**: shared $10,548.93 / Rocket slice (30%) **$3,164.68** / pooled
+cash $569.06. Rocket holds **IWM 9.5031 sh ≈ $2,851 (90.1%)**, nothing else. Notional slice
+cash **$314 (9.9%)** — at the buffer, no breach, no bearish thesis needed.
+Open satellites **0 / 4**. Weekly trade count **0 / 5**. Max satellite **$474.70** (15%);
+1.5% risk **$47.47**.
 
-- **Catalyst**: **record 33.2% gross margin** (+640bp), gross profit +21% to $104.3M, **adj
-  EBITDA $30.8M vs $8.1M** YoY, **GAAP net income $9.1M vs a −$20.3M loss**. **FY26 raised:
-  revenue $1.4–1.47B, adj EBITDA $121–131M.** Beat-AND-raise — the only version that works.
-- ✅ **DILUTION CHECK CLEARED (ran 8/10, was the open item).** $192.2M cash vs $118.3M total
-  debt = **~$75M net cash**; cash rose $74.1M sequentially; **operating cash flow +148% to
-  $74.8M**. GAAP profitable. **It does not need the equity market** — lesson-5 quality, the
-  same structural tier as QNST. The shelf hits in the search are a $38.7M *ESOP* registration
-  and an undrawn Aug-2025 $300M mixed shelf, not an RCEL-style drawn shelf on a short runway.
-- 🆕 ✅ **Short float 21.94% — ABOVE the 15% bar. Friday's board never checked this.**
-  Lesson 9 (>15% + catalyst = size up) is live. Paired with a **low float of 47.4M (only 44%
-  of 108.2M shares out)** this is the best structural setup on the board by a distance.
-- **Universe (8/10)**: cap **$1,552M** ✓ | price $14.35 ✓ | avg vol 2,776,540 ✓ | NasdaqGS ✓
-  | next earnings 11/03 ✓ — no earnings-week bar.
-- ⚠️ **Lesson-18 cap check — binding, re-derive at the fill.** +25% target = $17.94 → cap
-  ≈$1.94B, only ~3% under the ceiling. **A fill above ~$14.79 pushes the +25% target outside
-  $2B.** If filled >$14.79, take the FULL remainder at +25% rather than trailing it.
-- **Entry — RULE 3 (second-day continuation)**: gapped >25% ✓, closed at 92% of range ✓ →
-  **Monday's open is a valid entry. Zone: up to $15.79** (within 10% of close). Confirm
-  >0.75x avg volume off **raw 5-min bars** (lesson 10/16).
-- **Stop** ≈$13.35 on a $14.35 fill (7%). **Targets** +15% ≈ $16.50 sell 1/3 | +25% ≈ $17.94
-  sell 1/3 (see cap note). Take the first third *into* the level (MRLN lesson).
-- **Size** ✅ verified: **32 sh ≈ $459 (14.6%)**, risk $47.27. Re-strike as `int(472.71/fill)`.
-- 🚨 **Two honest knocks.** (1) **Revenue FELL 2% YoY** — a margin/cost story, not growth;
-  margin expansion has a shorter momentum tail than revenue acceleration. (2) **A 56.3M-share
-  resale prospectus is registered for selling securityholders** — not dilution (no new shares)
-  but real *supply overhang*, and 60.8M shares sit outside the float, so sponsors have a
-  registered path to sell into this spike.
-- ✅❌ **OPEN CHECK RESOLVED at market_open (8/10) — and it's a NO-GO.** Real post-print raises
-  found: Baird $8→$12, Craig-Hallum $10→$12, Wedbush $8→$13 (7/31), Roth Capital $15→$16 — all
-  dated, none stale. But the resulting spread ($12–$16, most below spot) means **CRSR at
-  $13.98 is already trading above 3 of 4 fresh targets**, the same "no upside leg" pattern
-  that demoted QNST (lesson 11a) — now confirmed twice in one week.
-- 🔴 **PRICE ACTION FAILED AT THE OPEN (8/10, ~9:45 ET)**: CRSR opened **$13.98, −2.6% vs
-  Friday's $14.35 close**, on **0.1x avg volume (469k vs 2.58M avg)**. This is not a base
-  forming after a gap up — it is a red, thin open on the stock that was supposed to be
-  continuing. Technically still inside the rule-3 10%-of-close zone, but the setup calls for
-  confirming strength, not fade. **NOT ENTERED.** Watch for an intraday reclaim of $14.35 on
-  real volume; otherwise stands down.
+⚠️ **Funding**: $314 notional cash does not cover a full-size satellite. Fund the balance by
+selling a **fractional** IWM slice (lesson 18 — satellites must be WHOLE shares, only the
+stopless core may be fractional). APEI 8 sh ($428) needs ~0.39 sh of IWM sold (~$117).
 
-### PRIORITY 2 — QNST (MEDIUM) — ⬇️ downgraded from P1. Revisions came, but the street caps it below Rocket's own first target
+🗓️ **CPI is TOMORROW (Wed 8/12, 8:30 ET).** Anything entered today is open through it on
+**day 2**, not day 3. Per `market_context.md`: **ONE satellite today, not two**, and take the
+first third promptly at +15% rather than carrying full size into the print.
 
-**QuinStreet.** Reported 8/06. **Closed $21.08, +38.5%, at 90% of range** on 4.90M shares (6.2x).
+⚠️ **Scanner note (lesson 16)**: today's screen prices are **premarket quotes**, and its
+`Change %` is premarket-vs-prior-close. Every figure below was re-derived from **raw daily
+bars**. Monday's regular-session closes are the reference, not the screen.
 
-- **Catalyst intact**: Q4 revenue **$373.9M (+43% YoY)** above the top of company guidance;
-  adj EBITDA **$41.4M (+87%)**; GAAP EPS $0.33; FY26 operating cash flow $130.9M. **FY27
-  guided UP: revenue $1.45–1.55B, adj EBITDA $150–160M (+33–42%).**
-- ✅ **Still the cleanest balance sheet on the board** — GAAP profitable, $130.9M operating
-  cash flow, no dilution risk by construction.
-- ✅ **Universe (8/10)**: cap $1,211M ✓ | avg vol 838,974 ✓ | next earnings 11/05 ✓.
-  **Lesson-18 passes comfortably** — +25% ($26.35) implies ~$1.51B, well inside the ceiling.
-- 🚨 **THE FRIDAY BAR FAILED — this is why it drops to P2.** The pre-registered test was:
-  *"if consensus has not been raised above ~$24, the upside leg is missing."* Revisions DID
-  land — **four raises on 8/07, all Buy, consensus "Strong Buy"** (Northland $17→$21, B.Riley
-  $23→**$24**, Barrington reiterated $24, Lake Street $15→$21). But the resulting
-  **consensus is $22.40 with a street HIGH of $24.00** against a $21.08 close.
-  → mean = **+6.3%** upside; street high = **+13.9%**.
-  → **Rocket's +15% first scale-out ($24.24) sits ABOVE every price target on the street**,
-  and +25% ($26.35) is ~10% above the high. The standard target ladder does not fit this name;
-  momentum must carry it past the entire analyst complex for the plan to pay. That is a
-  dependency CRSR does not have. Held to its own pre-registered rule, **QNST is a watch.**
-  *(A search surfaced a "Barrington $29" note — verified stale/prior-period; Barrington is at
-  $24 as of 8/07. Checking it was worth it.)*
-- **Structure**: float 52.1M of 57.4M — no low-float edge. Short float 11.34%, below the bar.
-  6.48 days-to-cover is real friction. **Momentum, not a squeeze.**
-- **If taken anyway**: entry zone up to $23.19 (rule 3), stop ≈$19.60, **size 22 sh ≈ $464**.
-  Prefer scaling the first third into ~$22.40 (consensus) rather than waiting for $24.24.
-- **Market_open check (8/10, ~9:45 ET)**: confirming at $22.10, **+4.9%, new 52-wk high**,
-  but still thin (184k / 0.1x avg). Price action is the strongest on the board today — but
-  the pre-registered cap-check verdict (own +15% target above street high) is unchanged by
-  today's strength, so it stays a **watch**, per plan, not overridden on a green tape alone.
+---
 
-### PRIORITY 3 — ARCT (MEDIUM — new) — the most explosive structure on the board, the weakest catalyst
+### PRIORITY 1 — APEI (HIGH) — the only beat-AND-raise on the board whose profit ladder fits *under* the street's targets
 
-**Arcturus Therapeutics.** Reported 8/06. **Closed $7.41, +21.9%, at 86% of range** on 1.46M
-shares (3x). Promoted off Friday's secondary board after its balance sheet came back clean.
+**American Public Education.** Q2 reported **after Monday's close**. Premarket **+12.9% to
+$53.50** (Monday regular close $47.39).
 
-- **Catalyst — strategic, not a beat-and-raise**: **regained global rights to KOSTAIVE** and
-  the self-amplifying mRNA portfolio by ending the CSL Seqirus collaboration, incl. a $12M
-  cash payment and release from ~$16M of liabilities. EPS $(0.84) beat consensus $(1.03).
-- ✅ **Dilution risk lower than assumed for clinical-stage**: **$191.5M cash, management guides
-  >2.5 years of runway through YE2028.** No active raise found. This is why it is not a skip.
-- 🆕 ✅ **Best squeeze structure on the board: short float 30.65%**, **float 26.0M (92% of a
-  28.4M share count)**, cap $211M. Lesson 9 applies with force — moves here will be violent.
-- **Universe (8/10)**: cap $211M ✓ | price $7.41 ✓ | avg vol 484,129 ✓ | NasdaqGM ✓. Reported
-  8/06, so the earnings-week bar is cleared (entry AFTER a confirmed print is allowed).
-- 🚨 **Why it is P3, not P1**: **revenue collapsed to $2.96M from $28.3M YoY** as CSL wound
-  down, on a **$23.8M quarterly net loss** (~$95M/yr burn). This is a rights-reversion story,
-  not revenue acceleration — and regaining global rights means it must eventually *fund*
-  commercialization, which is a future raise catalyst. The 2.5-yr runway is management's number.
-- **Entry** rule 3 zone up to $8.15. **Stop** ≈$6.89. **Size** 63 sh ≈ $467 (14.8%).
+- **Catalyst — beat AND raise, the only version that works**: revenue **$171.7M (+5.5%, +7.8%
+  adj. ex-divested GSUSA)** vs $170.9M est; **EPS $0.52 vs $0.36 est — a 44% beat**; net income
+  **+$9.8M, swung from a year-ago loss**; **adj EBITDA +36.8% to $20.7M, margin to 12.0%.**
+  **FY26 guidance RAISED on all four of revenue, net income, adj EBITDA and EPS.**
+- ✅ **Balance sheet (lesson 5)**: **$217.6M cash vs $153.5M debt = ~$64M net cash**, GAAP
+  profitable. It does not need the equity market. No dilution flag found.
+- ✅✅ **THE UPSIDE LEG IS REAL — this is the differentiator** (lesson 11a/11c). Analyst mean
+  **$62.17**, street high **$68.00** vs a $53.50 premarket. Rocket's **+15% ($61.53) sits BELOW
+  the mean target** and **+25% ($66.88) sits below the street high**. *The entire profit ladder
+  fits inside the analyst complex* — the exact inverse of QNST ($24.24 target above a $24.00
+  street high) and CRSR (spot above 3 of 4 targets). Both of those then stalled. And these
+  are **pre-print** targets, so revisions should run up, not down.
+- ✅ **Structure**: **float 13.87M — the lowest float Rocket has screened in weeks** (76% of
+  18.3M shares out). Short float 11.6% — below the 15% squeeze bar, so this is a momentum
+  trade, not a squeeze. 52-wk high **$61.59**, so there is clear air above to the targets.
+- ✅ **Universe (8/11)**: cap **$981M at $53.50** ✓ | price ✓ | NasdaqNMS ✓ | next earnings
+  11/09 ✓. **Lesson-12 cap check passes wide**: +25% ($66.88) ⇒ ~$1.23B, far inside $2B.
+- ⚠️ **ADV gate was a borderline FAIL — re-verified and it PASSES** (lesson 13, the RCEL rule).
+  `eligibility` returned **298,467 vs a 300,000 minimum**. Raw bars: **3-mo avg 300,406 ✓**,
+  1-mo avg **362,200 ✓**. It clears — but by 0.1% on the 3-mo. It is a genuinely thin name;
+  at 8 shares Rocket's size is not the constraint, but **check the spread before sending**.
+- 🚨 **The honest knock — do not rationalise this away.** The raised FY26 **EPS guide is
+  $2.48–$2.79 against a $2.93 street consensus.** The raise closes a gap to *its own prior
+  guide*, not to the street — EPS guidance still lands **below** where analysts sat. Q3 guide
+  $0.18–$0.29 is also soft. If the tape decides the headline beat is a one-quarter tax/margin
+  artifact rather than a trend, this fades.
+- ⚠️ Monday's **regular** session was ugly — **−7.5%, closing at 5% of its range** on 565k
+  shares. That was a pre-print dump; **lesson 4's close-in-range tiebreaker does not apply**
+  to a name that printed after the close. Today is day one. But it means there is real
+  disagreement in this name, and the gap has to prove itself on volume.
+- **Entry — gap-and-go (rule 2, gap <20%)**: **NOT the opening spike.** Enter the
+  **9:45–9:50 consolidation**, confirmed on **raw 5-min bars** at **>0.75x avg volume**
+  (lesson 10/16). Reference entry **$53.50**; do not chase above **$56.00**.
+- **Stop** **$49.76** (7% below a $53.50 fill). **Targets**: +15% **$61.53** sell 1/3 (take it
+  *into* the level — MRLN lesson, and CPI lands the next morning) | +25% **$66.88** sell 1/3 |
+  trail the last third.
+- **Size** ✅ verified: **8 sh = $428 (13.5% of slice)**, risk $47.47. Re-strike as
+  `int(474.70/fill)` at the actual fill.
+- **Conviction: HIGH.** **Risk**: the sub-consensus EPS guide is read as the real story;
+  thin ADV widens the spread on any exit; CPI hits on day 2.
 
-### Dropped from Friday's board — with the reason
+### PRIORITY 2 — FF (MEDIUM) — zero debt and a clean 52-week-high breakout, but the guide is soft and nobody covers it
 
-| Symbol | Fri close | Verdict |
-|---|---|---|
-| **PUBM** | $17.78, **52% of range** | ❌ **Dropped.** Closed at its midpoint, and premarket **−1.0% to $17.60**. Fade confirmed by the tape — lesson 4. |
-| **EMBC** | $4.42, 63% | ❌ Weakest close of the gappers; no second-day setup materialised. |
-| **OABI** | $3.08, 95% | ❌ Great close, but **2.7% off the $3.00 floor** (lesson 10), float 113.9M and **short float only 4.45%** — no structural edge at all. |
-| **TBCH** | $13.95, 74% | ❌ **No catalyst was ever identified** (lesson 1 — volume alone is never enough), and avg vol 327,743 barely clears the gate. |
-| **GTN** | $5.37, 85% | ❌ **Retired.** Market cap still returns `unknown — VERIFY MANUALLY`. An unchecked universe gate is not a pass. |
-| **RCEL** | $7.77, 86% | ❌ Standing HARD AVOID ($200M drawn shelf, <1yr runway). **Premarket −4.0% to $7.46 — the skip is being validated in real time.** |
+**FutureFuel Corp.** Q2 reported **after Monday's close**; call today **12:00 PM ET**.
+Premarket **+20.2% to $6.20** (Monday close $5.16).
+
+- **Catalyst**: revenue **$78.7M, +120.6% YoY**; **GAAP net income $11.4M ($0.25/sh) vs a
+  −$14.2M loss** — a $25.6M swing; **adj EBITDA $11.8M, a $23.2M swing.** Segment:
+  **biofuel +177.5%**, chemicals +55.5%.
+- ✅✅ **Best balance sheet on the board: ZERO total debt**, $22.4M cash, now GAAP profitable.
+  **Dilution risk is nil by construction** (lesson 5/6) — nothing to check.
+- ✅ **Chart is the cleanest available**: $6.20 premarket vs a **$5.40 52-week high** — it
+  would open **~15% above the prior 52-wk high with no overhead supply at all.**
+- ✅ **Universe (8/11)**: cap **$272M at $6.20** ✓ | price ✓ | NYSE ✓ | next earnings 11/09 ✓
+  | ADV **329,119 (raw 3-mo) ✓**, 1-mo 363,995 ✓. Cap check passes trivially (+25% ⇒ $340M).
+  Float **25.4M — low ✓** (58% of 43.9M).
+- ➖ **Short float 3.4% — no squeeze leg.** Lesson 9 does not apply. Pure momentum.
+- 🚨 **Two real knocks.** (1) **There is no raise.** Management only "anticipates positive
+  adjusted EBITDA in FY26" — a soft qualitative guide, and explicitly **"excluding non-cash
+  derivative timing differences."** Beat-without-raise is the pattern that faded SVCO.
+  (2) **Biofuel economics are policy-driven** (45Z/blender-credit timing). A +177.5% segment
+  swing off credit timing is not revenue *acceleration* — it may not repeat, and it is exactly
+  the kind of lumpy print the market re-rates once, then abandons.
+- ➖ **No analyst coverage** (no mean or high target). Neither an upside leg nor a cap — but it
+  also means no institutional validation is coming to carry it.
+- **Entry — rule 2, +20.2% is at the gap-and-go boundary**: enter the **9:45–9:50 base only**,
+  never the spike. Reference **$6.20**; do not chase above **$6.70**.
+- **Stop** **$5.77** (7%). **Targets**: +15% **$7.13** sell 1/3 | +25% **$7.75** sell 1/3.
+- **Size** ✅ verified: **76 sh = $471 (14.9%)**, risk $47.47.
+- **Conviction: MEDIUM.** **Risk**: a credit-timing quarter with no forward raise and no
+  coverage; the 12:00 ET call can break it intraday — that is a same-session event risk P1
+  does not carry.
+
+### PRIORITY 3 — QNST (WATCH ONLY — do not open) — still working, still capped
+
+Closed Monday **$22.02, +4.5%, at 83% of range**, a **new 52-week high** on 1.82M shares.
+The catalyst and balance sheet remain the cleanest on the board. **But spot has now reached
+the consensus $22.40 and is $1.98 from the $24.00 street high** — the cap problem is *worse*
+than when it was demoted, not better. Rocket's +15% ($25.32 off here) remains above every
+target on the street. **No new size. Watch only.**
+
+### Dropped today — with the reason
+
+| Symbol | Verdict |
+|---|---|
+| 🚨 **BW** | **THE BEST CATALYST ON THE BOARD, EXCLUDED BY THE UNIVERSE CEILING.** Q2 revenue **$319.7M +130%**, net income **+$14.3M vs −$58.5M**, adj EBITDA +57%, **backlog $2.6B (+533%)**, +34.9% premarket to $11.98; analyst mean $24.67 vs spot — a huge upside leg. **But 148.8M shares × $11.98 = $1.78B, so +15% ⇒ $2.05B and +25% ⇒ $2.23B — the *entire* profit ladder sits outside the $2B cap** (lesson 12, APPS precedent; BW is worse than APPS — even the FIRST scale-out is out of universe). In-universe only below **$13.43**. Not traded. **This is the second time the ceiling has cost Rocket the board's best catalyst — flag for `weekly_review`, do not override today.** |
+| **HZO** | ❌ **RESOLVED AND DEAD — closes Monday's open item.** The +45.8% was a **definitive all-cash acquisition by Blackstone's Safe Harbor at $53.00/share** ($1.5B EV, 96% premium). Monday closed $52.12 = **a 1.7% arb spread to a fixed price.** There is no momentum left; the price is pinned to a deal number. Rule 2's "second-day entry" does not apply to merger arb. **Permanent skip.** |
+| **CRSR** | ❌ **Dead.** Closed Monday **$13.71, −4.5%, at 8% of range.** The capped-ladder call (lesson 11c) was correct in real time. |
+| **ARCT** | ❌ **Dead.** Closed **$7.05, −4.9%, at 25% of range.** Weakest catalyst on the board, and the tape agreed. |
+| **PIII** | ❌ Universe **FAIL** — cap **$2,607M** (+27% premarket). Out on the ceiling, no research spent. |
+| **RILY** | ❌ **No catalyst identified** (lesson 1 — an +8.4% premarket move is not a catalyst). Short float 16.8% is interesting but **$1.5B debt** and a distress/dilution history. Skip. |
+| **SION** | ❌ **Not a long — a −91% collapse** ($51.04 → $4.50 Monday on 38M shares). It surfaced only as a 7.1x RelVol hit. Falling knife, no upside catalyst. |
+| **FULC / RCEL / FJET / BOT** | ❌ Standing **HARD AVOID** list — screened again, still excluded. |
 
 **Still barred by the earnings-week rule — re-screen after the print**: **NRGV (8/11)**,
 **REPL (8/11)**, **SPRY (8/13)**.
 
-**Fresh movers checked at market_open (8/10)** — none traded: **HZO** (+45.8%, 104.8x RelVol)
-is a >35% same-day gap, second-day-only per rule 2, watchlist for tomorrow if it holds. **MVIS**
-(+22.1%, cap $98M) — no dated catalyst found for today specifically (last news was a 7/15 print
-+ a 1-for-15 reverse split, itself a mild red flag); serial pump-prone name, no trade without
-one (lesson 1). **TNXP** (+12.1%, 5.7x RelVol) reports Q2 today at 8:30 ET but results were not
-yet out at time of check — pre-print move, barred by the earnings-week rule until the beat is
-confirmed.
-
-**Eliminated Week 32 — do not re-litigate**: ASPN, EVH, MRAM, SVCO, CVRX, NNBR (day-one
-distribution or broken prints); APPS, FIGS (out of universe on the lesson-18 cap check).
+**Eliminated Week 32/33 — do not re-litigate**: ASPN, EVH, MRAM, SVCO, CVRX, NNBR, PUBM,
+EMBC, OABI, TBCH, GTN; APPS, FIGS, BW (lesson-12 cap ceiling).
 
 ---
 
@@ -159,10 +167,11 @@ converts), **STLN** ($15M ATM), **DRUG**, **BKSY** ($250M ATM), **DFNS**, **BOT*
 **QMCO / CLNN / FJET**.
 
 **Structural / integrity — HARD AVOID**: **GCT** (Cayman holdco on mainland-China subs —
-fails US-domicile, permanent), **STI** (going concern, defaulted note — *surfaced again on
-today's premarket screen at +14.7%; still a hard no*), **TLSI** (fraud investigations +
-guide cut), **FULC / CAST** (going-concern pumps), **BNAI** (promotional AI hype),
-**SPCE** (theme dead).
+fails US-domicile, permanent), **STI** (going concern, defaulted note), **TLSI** (fraud
+investigations + guide cut), **FULC / CAST** (going-concern pumps), **BNAI** (promotional AI
+hype), **SPCE** (theme dead).
+
+**Merger-arb / pinned price — no momentum edge**: **HZO** ($53.00 all-cash, Safe Harbor).
 
 ---
 
@@ -170,14 +179,15 @@ guide cut), **FULC / CAST** (going-concern pumps), **BNAI** (promotional AI hype
 
 Full rules live in CLAUDE.md and `lessons_learned.md`. Only this week's live numbers here:
 
-- **Sizing**: slice $3,151.38 | 15% max **$472.71** | 1.5% risk **$47.27** | weekly count 0/5.
-- **Dilution check runs FIRST.** ✅ CRSR cleared 8/10. ✅ QNST clean by construction.
-  ✅ ARCT adequate (2.5yr runway). ❌ **CRSR's post-print PT revisions still unverified.**
-- **Lesson-18 cap check**: QNST and ARCT clear comfortably; **CRSR is binding — a fill above
-  ~$14.79 puts the +25% target outside $2B.** Re-derive at the actual fill.
-- **Only ONE full-size satellite is fundable** from ~$444 notional cash without selling more
-  core. Fund by selling a **fractional** IWM slice; satellites must be whole shares.
-- **Targets**: +15% (lock 1/3), +25% (lock 1/3), trail final 1/3. **Log every exit same-day.**
+- **Sizing**: slice $3,164.68 | 15% max **$474.70** | 1.5% risk **$47.47** | weekly count 0/5.
+- **ONE satellite today, not two** — CPI lands tomorrow 8:30 ET, on day 2 of the hold.
+- **Dilution check**: ✅ APEI net cash, GAAP profitable. ✅ FF **zero debt** — clean by
+  construction. Neither needs a further check before the order.
+- **Lesson-12 cap check**: APEI and FF clear wide. **BW fails outright — do not revisit.**
+- **Funding**: notional cash $314 (9.9%) is short of a full satellite. **Sell a fractional
+  IWM slice** to top it up; the satellite itself must be whole shares.
+- **Targets**: +15% (lock 1/3, take it *into* the level given CPI), +25% (lock 1/3), trail
+  the final 1/3. **Log every exit same-day** (lesson 19).
 
 ## Recently Resolved Ideas
 
@@ -185,4 +195,4 @@ Full rules live in CLAUDE.md and `lessons_learned.md`. Only this week's live num
 |--------|-------|------|-----|-------|
 | CSTL | $29.99 (Aug 3) | $29.94 (Aug 6) | −$0.75 (−0.17%) | Trailing stop off the $31.73 HWM. Thesis never broke; the trail gave back the pop. |
 | MRLN | $8.88 (Jun 5) | $8.90 (Jun 5) | +$33.40 | Catalyst real; hit +15% then round-tripped. Lock 1/3 at target. |
-| CAMP | $4.85 (Jun 16) | UNRECOVERABLE | Unknown | Closed pre-merge, exit never logged. Lessons item 9. |
+| CAMP | $4.85 (Jun 16) | UNRECOVERABLE | Unknown | Closed pre-merge, exit never logged. Lessons item 19. |

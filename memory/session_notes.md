@@ -3,6 +3,67 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-11 — MARKET CLOSE (Tuesday, Week 33)
+
+**FF stopped out mid-morning** (72 sh, $6.61 → $6.44, −2.57%, −$12.24) — clean stop
+fill, one session, small loss. Zero satellites open into the close. **IWM core within
+band** (0.29% of slice off target) — no rebalance trade. Day: Rocket ≈−0.10% vs SPY
+−0.36% (+0.26% today, +0.52% since 7/20 rebase, hand-built per lesson 22). New lesson
+23: `positions`/`portfolio_snapshot.py` round share counts for display (IWM showed
+"10" vs actual 9.5031) — pull raw positions before rebalance math. ntfy sent,
+confirmed. Full detail in `trade_log.md`.
+
+## 2026-08-11 — PREMARKET (Tuesday, Week 33)
+
+**No trades — market closed. Board fully rebuilt: Monday's entire watchlist is dead, and
+three fresh names printed Q2 after Monday's close.** 5 web searches, done inline, no subagent.
+
+**Monday's board was wiped out by the tape** — CRSR closed **8% of range (−4.5%)**, ARCT
+**25% (−4.9%)**. The lesson-11c capped-ladder call on CRSR was right in real time. QNST is
+the only survivor (new 52-wk high, 83% of range) but spot **$22.02 has now reached the $22.40
+consensus** — the cap problem is worse, so it stays a watch, not a position.
+
+**New board (all three reported AFTER Monday's close, so today is their day one):**
+1. 🥇 **APEI — P1, HIGH.** EPS **$0.52 vs $0.36** (+44% beat), revenue $171.7M, adj EBITDA
+   +36.8%, **FY26 guidance raised on all four metrics**. Net cash, GAAP profitable, **float
+   just 13.87M**. The differentiator: **its profit ladder fits *under* the street's targets**
+   (+15% = $61.53 vs a $62.17 mean; +25% = $66.88 vs a $68 high) — the exact inverse of QNST
+   and CRSR, which both stalled on capped ladders. Entry $53.50 on the 9:45 base, stop
+   $49.76, **8 sh = $428**. Honest knock recorded: the raised FY EPS guide ($2.48–2.79) still
+   lands **below** the $2.93 street consensus.
+2. 🥈 **FF — P2, MEDIUM.** Revenue **+120.6%**, swing to **+$11.4M GAAP net income**,
+   **zero total debt**, opening ~15% above its 52-wk high with no overhead supply. Held to P2
+   because there is **no raise** (soft "positive adj EBITDA" guide), no analyst coverage, and
+   biofuel is credit-timing-driven. 76 sh = $471.
+3. ❌ **BW — the best catalyst on the board, excluded by the universe ceiling.** Revenue +130%,
+   **backlog +533%**, +34.9% premarket, analyst mean $24.67 vs $11.98. But 148.8M sh × $11.98
+   = $1.78B, so **even the +15% target implies $2.05B — outside the $2B cap** (lesson 12).
+   Not traded. **Second time in two weeks the ceiling killed the best name (after APPS) —
+   flagged for `weekly_review`, not overridden today.**
+4. ❌ **HZO resolved and permanently skipped** — Monday's +45.8% was an **all-cash $53.00
+   Blackstone/Safe Harbor buyout**, price pinned at a 1.7% arb spread. Rule 2's second-day
+   entry does not apply to merger arb. Closes yesterday's open item.
+
+**Process wins worth keeping**: (a) **lesson 13 paid again** — APEI's ADV came back a FAIL at
+298,467, and raw bars put the 3-mo at **300,406 (pass)** and 1-mo at 362,200; re-verifying the
+borderline gate saved the P1 name. (b) **lesson 16 paid again** — the scanner's prices were
+premarket quotes and its `Change %` was premarket-vs-close; every number was re-derived from
+raw daily bars, which is what revealed BW/FF/APEI as after-close prints rather than Monday
+movers.
+
+**Macro**: VIX 15.53 (no brake). **10-yr 4.70%, now 5bp from the 4.75% trigger.** Russell
+futures red a **second** straight session — that trigger has fired, and Monday delivered
+**IWM −0.52% vs SPY −0.03%**. **Brent +6.2% in one session to $89.60**, 24h before CPI.
+**CPI is tomorrow 8:30 ET** — anything entered today is open through it on **day 2**, so the
+standing call is **one satellite, not two**, first third taken promptly at +15%.
+
+**Account**: slice $3,164.68, **IWM 9.5031 sh ≈ $2,851 (90.1%)**, 0 satellites, notional cash
+**$314 (9.9%) — inside the 10% buffer for the first time in nine sessions**, closing the
+lesson-15 verification loop. A full-size satellite needs ~0.39 sh of fractional IWM sold to
+fund it. No ntfy sent (no breaking news on an open position).
+
+---
+
 ## 2026-08-10 — MARKET CLOSE (Monday, Week 33)
 
 **0 satellites open — nothing to review.** Only Rocket holding is the IWM core (9 sh

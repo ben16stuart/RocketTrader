@@ -38,6 +38,7 @@ Full-text versions and older observations: `memory/archive/lessons_history.md`.
 20. **🚨 Token budget is a TRADING risk.** Bull and Rocket share one Claude quota across 10 launchd jobs. A 7/31 session limit finished premarket at 10:05 AM and cost the AMCX entry outright. **<5 searches → inline, never a subagent** (measured overhead ~171k tokens each).
 21. **A plist that exists is not a job that runs — check `launchctl list`, not `ls`.** Midday has not executed since **2026-06-15**, when it died on a 429. Absence of a recent log file is the tell.
 22. **🔴 Rocket cannot currently measure its own return** (2026-08-07). `portfolio_snapshot.py` derives Rocket's return from a fixed 30% of the *shared* account, which is algebraically the whole account's return — **Bull's P&L included**, and Bull holds 5 of 6 positions. **Trust only the hand-built attribution in the weekly review, never the snapshot table**, until this is fixed.
+23. **`alpaca_client.py positions` and `portfolio_snapshot.py` display share counts rounded to the nearest whole number** (2026-08-11) — IWM's real qty was 9.5031 but both printed "10". Cosmetic only (the underlying fill was correct), but the core-rebalance math depends on the exact fractional qty, so **pull the raw position (`_get('/v2/positions/SYMBOL')`) before computing the rebalance band**, don't eyeball the table.
 
 ## Rules From Real Trades
 

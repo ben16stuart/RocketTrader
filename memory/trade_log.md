@@ -4,6 +4,54 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-11 — FF STOPPED OUT + core rebalance check (market_close)
+
+**FF exit**: 72 sh, entry $6.61 → trailing-stop fill **$6.44** (hwm $6.9715, trail 7%,
+stop trigger $6.483495, filled 14:20:38 UTC, ~2.5 hrs after the 11:47 UTC entry). **P&L
+−$12.24 (−2.57%)**. Reason for exit: stop hit, not a discretionary close — the 12:00 PM
+ET earnings call apparently did not hold the base. Lesson: this was the P2 name (no
+raise, no analyst coverage) flagged in premarket as the weaker of the two names; the
+stop did its job cleanly, one session, small loss.
+
+**Position review**: 0 satellites open after the FF stop — nothing else to review.
+
+**Core rebalance check**: slice $3,167.34 (live portfolio_value $10,557.81 × 30%),
+satellite value $0, 10% buffer $316.73 → target_core $2,850.61. IWM actual holding
+**9.5031 sh** (not the "10" the `positions`/`portfolio_snapshot.py` display rounds
+to — raw position pull confirms 9.5031) × $300.93 = **$2,859.77 — 0.29% of slice over
+target, well within the 3% band.** No trade. **CORE REBALANCE, not a conviction
+trade** — logged as a check, not an order.
+
+**Day P&L**: FF realized −$12.24, IWM intraday unrealized +$9.03 → Rocket book
+≈ −$3.21 on the day (**−0.10%**) vs **SPY −0.36%** today — Rocket beat SPY by ~0.26%
+today, entirely because FF's small stop-loss was smaller than IWM's gain and both
+beat the broad-market pullback. Since rebase (7/20), hand-built: Rocket **≈+4.30%**
+vs SPY **+3.78%** (script-verified) → **Rocket vs SPY ≈+0.52%** (per lesson 22, the
+`portfolio_state.md` auto figure mixes in Bull's P&L and is not trustworthy for
+Rocket's own attribution).
+
+---
+
+## 2026-08-11 — FF BUY (market_open)
+
+- Shares: 72 @ $6.61 avg fill ($475.92 cost, 15.0% of slice)
+- Catalyst: Q2 earnings — revenue $78.7M (+120.6% YoY), GAAP net income $11.4M
+  ($0.25/sh) vs a $14.2M loss a year ago, zero total debt. Reported after Monday's
+  close; today is day one.
+- Stop: 7% trailing, set at $6.11 (hwm $6.57 at time of order)
+- Target: 1st $7.13 (+15%, sell 1/3) | 2nd $7.75 (+25%, sell 1/3) | trail final 1/3
+- Thesis: Cleanest balance sheet on the board (zero debt) breaking to a new
+  52-wk high on 1.5x avg volume within 15 min of the open, confirmed basing
+  ~$6.55–6.60 after an opening spike to $6.96 — entered the 9:45 base, not the
+  spike, per gap-and-go rule (20–35% gap). Risk: no analyst coverage, no forward
+  raise (only qualitative "anticipates positive adj. EBITDA"), 12:00 PM ET call
+  today is same-session event risk, CPI print tomorrow lands on day 2 of the hold.
+- Skipped APEI (P1 in premarket research): round-tripped hard at the open — down
+  1.3% on the day to $46.76 (vs. $53.50 premarket read), below both MA20/MA50 on
+  just 0.2x avg volume. The soft EPS-guide risk flagged in research_log.md played
+  out live; no gap-and-go base ever formed. Per "ONE satellite today, not two"
+  (CPI tomorrow), FF was the only entry regardless.
+
 ## 2026-08-10 — IWM CORE REBALANCE (market_close) — fractional buy, band closed exactly
 
 **Position review**: 0 satellites open — nothing to review. Core (IWM 9 sh) is the
