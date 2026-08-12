@@ -4,6 +4,62 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-12 — VELO CLOSED SAME DAY + core rebalance check (market_close)
+
+**VELO exit**: 30 sh, entry $15.27 → market close fill **$15.09** (filled 19:59:37 UTC,
+~4 hrs 20 min after the market_open entry). **P&L −$5.40 (−1.18%)**. Reason for exit:
+discretionary same-day close, not a stop (trailing stop was cancelled first — the 7%
+trail at $14.13 was never in danger). Intraday action: opened with a violent spike to
+$17.61 (initial print $17.10) then round-tripped down to $14.35 within 10 minutes —
+the 9:45 base that the entry was built on ($15.27) formed only after that whipsaw.
+From there it never reclaimed much: intraday high after entry was $15.83 (10:45 ET),
+then it faded on light, non-accumulating volume all afternoon to close in the
+**bottom ~25% of its post-entry range** ($15.09 vs range $14.88–$15.83). Per lesson 4
+(close-position-in-range tiebreaker — ASPN 28%-of-range and EVH 9%-of-range both died
+despite real catalysts, both closed weak in the final hour), this is the same pattern
+regardless of the beat-and-raise catalyst being real and multi-day. Applied the
+market_close hold/close test: down on the day, below entry, closing near the day's low
+with no thesis improvement intraday → closed rather than held overnight. **Lesson: a
+strong beat-and-raise print does not override a bottom-quartile close — the ladder and
+squeeze thesis were correct on paper, but day-one price action said sellers won the
+session. Lesson 4 is now 3-for-3.**
+
+**Position review**: 0 satellites open after the VELO close — nothing else to review.
+
+**Core rebalance check**: slice $3,168.40 (live portfolio_value $10,561.34 × 30%,
+snapshot taken post-VELO-settlement), satellite value $0, 10% buffer $316.84 →
+target_core $2,851.56. IWM (raw qty **9.5031 sh**, per lesson 23 pulled from the raw
+position endpoint) × $302.71 = **$2,876.68 — 0.79% of slice over target, well within
+the 3% band.** No trade. **CORE REBALANCE, not a conviction trade** — logged as a
+check, not an order.
+
+**Day P&L (hand-built, per lesson 22 — do not trust the portfolio_snapshot.py auto
+figure, it mixes in Bull's P&L)**: VELO realized −$5.40 (−0.17% of slice), IWM intraday
+unrealized +$16.35 (+0.52% of slice) → Rocket book ≈ **+$10.95 on the day (+0.35%)**
+vs **SPY +0.25%** today — Rocket beat SPY by ~0.10% today. Since rebase (7/20),
+hand-built running total: Rocket **≈+4.65%** vs SPY **+4.12%** (script-verified) →
+**Rocket vs SPY ≈+0.53%**.
+
+---
+
+## 2026-08-12 — VELO BUY (market_open)
+
+- Shares: 30 @ $15.27
+- Catalyst: Q2 beat-and-raise (revenue $20.7M +52.3% YoY, GAAP gross margin swung to
+  +21.5% from −11.7%, FY26 guidance raised to $65–75M from $60–70M, backlog nearly
+  doubled to $31M). Gap at open only +12.7% (Tuesday close $13.69 → $15.27 fill),
+  smaller than the after-hours +18.3% print — a normal (not gap-and-go) entry.
+- Stop: 7% trailing, initial trigger $14.13 (hwm $15.195)
+- Target: 1st $17.56 (+15%) sell 1/3, 2nd $19.09 (+25%) sell 1/3, trail final 1/3
+- Thesis: Beat+raise with an uncapped analyst ladder (consensus $23.33–23.75, both
+  profit targets sit below it) and short float >18% into a low 13.8M float — a
+  squeeze-eligible setup. Primary risk is the live $100M ATM into an 18%+ gap; not
+  disqualifying (net cash, ~2yr runway, last raise 3.5mo old) but the thing to watch.
+- Position: 30 sh = $458.10, 14.5% of Rocket's slice. Funded from pooled cash
+  ($1,326.91 available) — no IWM trim needed.
+
+---
+
 ## 2026-08-11 — FF STOPPED OUT + core rebalance check (market_close)
 
 **FF exit**: 72 sh, entry $6.61 → trailing-stop fill **$6.44** (hwm $6.9715, trail 7%,

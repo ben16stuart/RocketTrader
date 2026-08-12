@@ -3,6 +3,81 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-12 — MARKET CLOSE (Wednesday, Week 33)
+
+**VELO closed same day, −1.18%.** Entered $15.27 at the open on a genuinely strong
+beat-and-raise (see premarket below), but the stock opened with a spike to $17.61 that
+immediately round-tripped to $14.35, based at the $15.27 entry, popped to $15.83 by
+10:45 ET, then faded on light volume all afternoon to close near $15.09 — bottom ~25%
+of its post-entry range. Cancelled the trailing stop and closed discretionarily rather
+than hold into a weak close; new lesson 4a (close-position-in-range applies to
+same-day entries too, now 3-for-3 with ASPN/EVH).
+
+**Core rebalance**: 0.79% of slice over target (IWM $2,876.68 vs $2,851.56 target) —
+inside the 3% band, no trade.
+
+**Day**: Rocket ≈+0.35% vs SPY +0.25% (beat by ~0.10%). Since rebase (7/20), hand-built
+Rocket ≈+4.65% vs SPY +4.12% → **Rocket vs SPY ≈+0.53%**. Weekly trade count: 1/5
+(VELO buy+sell counts as the week's one entry).
+
+---
+
+## 2026-08-12 — PREMARKET (Wednesday, Week 33) — CPI DAY
+
+**No trades — market closed. One P1 name, VELO, and it is the best-constructed setup in weeks.**
+7 web searches, done inline, no subagent (lesson 20).
+
+**Yesterday's board fully resolved, and every skip was validated by the tape**: APEI closed
+**$45.72 (−3.5%, 27% of range)** — the sub-consensus EPS guide knock written into its own P1
+writeup is exactly what killed it. QNST closed **$20.90 (−5.1%, 35%)**, straight back through
+the $22.40 consensus it had just reached — **lesson 11c is now 3-for-3**. FF stopped out
+(−$12.24); its P2 knocks (no raise, no coverage) were the right knocks.
+
+**🥇 VELO — P1, HIGH.** Q2 after Tuesday's close: revenue **$20.7M +52.3%**, GAAP gross margin
+swung **−11.7% → +21.5%**, **FY26 guidance RAISED** to $65–75M, H2 GM guided >30%, positive
+EBITDA projected H2, **backlog nearly doubled to $31M**. The three legs that matter all point
+the same way: (a) **beat AND raise** — the only version that works per the standing theme;
+(b) **uncapped ladder** — consensus **$23.75** (high $33) vs a $16.20 entry, so **both +15%
+($18.63) and +25% ($20.25) sit below the mean**, with targets *rising* post-print;
+(c) **short float >15% on a 13.8M float** — squeeze leg live (sources disagree, 18.6% of
+shares out vs 35%+ of float; every reading clears the bar). Entry $16.20 on the 9:45 base,
+**do not chase above $17.50**, stop $15.07, **29 sh = $469.80 (14.9%)**.
+🚨 **Honest knock recorded**: a **live, undrawn $100M ATM** (S-3 effective 4/08, agreement
+5/15) — an 18% gap is exactly when a company uses one. Also still GAAP-unprofitable, and the
+6-mo high of $31.75 means this is a *recovery*, not clean-air breakout. Funding needs ~0.58
+fractional IWM shares sold.
+
+**🚨 NRGV — best headline on the board, killed by the balance sheet.** Revenue +104%, backlog
+**~$2B**, a **1.25 GW AI data center** deal, FY26 guidance raised to $270–310M. Then: **$29.7M
+GAAP loss in one quarter against $80.5M equity**, $150M converts, a $300M shelf, and an amended
+debenture convertible into **33.25M shares at a VWAP-DISCOUNTED price** — holders paid to short
+any pop. Added to the HARD AVOID list. **This produced new lesson 6a**: grade the dilution
+*structure* and **date the raise** — VWAP-discounted converts (kill) ≠ drawn shelf (kill) ≠
+undrawn ATM with runway (risk to size around) ≠ a completed raise months old (not an overhang).
+That distinction is what separated NRGV's kill from VELO's pass; the same search returns both.
+
+**Also dropped**: HYLN → watch-only (real $41.7M Navy ONR contract, but **EPS only in line**, an
+active **Pelican Way short report** contesting its $133M LOI, 125M float, and NYSE American
+listing); LENZ (beat-without-raise — product revenue just **+9% QoQ**, the SVCO pattern); JFB
+(**no catalyst** despite being the only name on both scans with real RelVol — a 5.7M-float IPO
+on unexplained volume is the manipulation profile); MGNX/TE (earnings-week bar).
+
+**Macro — three of yesterday's four worries resolved favourably.** VIX 15.38 (no brake).
+**Russell futures GREEN, breaking the two-session red streak** — and Tuesday inverted the drag:
+**IWM +0.34% vs SPY −0.32%**. **10-yr backed off to 4.68%** (7bp from trigger, was 5bp).
+**Brent got no second leg** ($88.74, −0.19%). Only gold still leans inflationary — 8 straight up
+sessions, +2.16%. **The key structural point: CPI prints 8:30 ET, an hour BEFORE the open**, so
+today's entries trade a *known* number rather than carrying it as day-2 risk. Consensus headline
++0.1% M/M / 3.4% Y/Y, core +0.2% / 2.5% Y/Y. **The "one satellite" restriction was event-driven
+and lapses with the print — but confirm the actual number at 8:30 before sizing. A hot print
+(≥~0.3% M/M) → no new satellite, hold the core, re-screen tomorrow.**
+
+**Account**: slice **$3,162.74**, **IWM 9.5031 sh = $2,866.80 (90.6%)**, 0 satellites, notional
+cash **$295.94 (9.4%) — inside the buffer a third straight session**. Weekly count 1/5. No ntfy
+sent (no breaking news on an open position).
+
+---
+
 ## 2026-08-11 — MARKET CLOSE (Tuesday, Week 33)
 
 **FF stopped out mid-morning** (72 sh, $6.61 → $6.44, −2.57%, −$12.24) — clean stop
