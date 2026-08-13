@@ -4,63 +4,67 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-08-12 Wednesday premarket  ← CURRENT
+## Snapshot — 2026-08-13 Thursday premarket  ← CURRENT
 
 ### Macro
 
 | Metric | Level | Δ | Read |
 |---|---|---|---|
-| **VIX** | **15.38** | +0.65% | Calm, drifting lower. **Far under the 22 pause threshold — no volatility brake on entries.** |
-| ✅ **10-yr** | **4.68%** | **−0.32%** | **Backed off from 4.70%. Now 7bp from the 4.75% trigger**, up from 5bp. The trigger stepped *away*, not closer — but CPI at 8:30 is the real test. |
-| S&P futures | 7,768.25 | +0.27% | Green |
-| Nasdaq futures | 29,826.50 | +0.68% | Green, leading |
-| ✅ **Russell futures** | **3,042.30** | **+0.22%** | **GREEN — the two-session red streak is broken.** |
-| ✅ **Brent / WTI** | **88.74 / 83.02** | −0.19% / −0.22% | **The energy spike did NOT get a second leg.** Brent cooled from $89.60. The most uncomfortable item on yesterday's board resolved benignly. |
-| Dollar index | 99.84 | +0.02% | Flat, neutral |
-| 🆕 **Gold** | **4,477.70** | **+2.16%** | **Eighth straight up session** and accelerating — now the only inflation-flavoured signal left standing, with oil and yields both cooling. Watch it; don't trade on it. |
-| SPY / IWM | 770.56 / 300.99 | −0.32% / **+0.34%** | Tuesday's closes. **IWM BEAT SPY by 0.66% on the day.** |
+| ✅ **VIX** | **14.63** | +0.55% | **Fell through 15 on the CPI print.** Far under the 22 pause threshold — no volatility brake on entries. |
+| ✅ **10-yr** | **4.68%** | **−0.04%** | **Did not move on CPI — the most informative number on the board.** An in-line print with cooling core left the curve untouched. Still 7bp from the 4.75% trigger. |
+| S&P futures | 7,783.75 | +0.17% | Green |
+| Nasdaq futures | 29,873.00 | +0.07% | Green |
+| ✅ **Russell futures** | **3,057.60** | **+0.16%** | **Green a second straight session.** |
+| ✅ **Brent / WTI** | **87.66 / 82.15** | **−1.48% / −1.35%** | **Energy cooling decisively** — Brent down from $89.60 two sessions ago. The July inflation-expectations worry is fully resolved. |
+| Dollar index | 99.90 | −0.11% | Flat, neutral |
+| ✅ **Gold** | **4,441.20** | **+0.73%** | **The 8-session run finally decelerated** (+0.73% vs +2.16%) and the level came *down* from $4,477.70. The last inflation-flavoured holdout is fading with oil and yields. |
+| SPY / IWM | 772.49 / 302.71 | +0.25% / **+0.57%** | Wednesday's closes. **IWM BEAT SPY by 0.32% — the second straight session of small-cap leadership.** |
 
-### ✅ The small-cap drag reversed — the trigger that fired on Tuesday has un-fired
+### ✅ CPI LANDED IN LINE AND CORE HIT A 5-YEAR LOW — the week's dominant risk is spent
 
-Yesterday this file recorded a fired trigger: Russell futures red two straight sessions,
-Monday delivering **IWM −0.52% vs SPY −0.03%**. **Tuesday inverted it — IWM +0.34% vs SPY
-−0.32%, a 0.66% tailwind on the 90% core sleeve**, and Russell futures are green this
-morning. Two of the three concerns from yesterday's board have resolved favourably:
-the **energy spike did not extend** (Brent −0.19%) and the **10-yr backed off** to 4.68%.
+**July CPI (Wed 8/12, 8:30 ET) — actual**: headline **+0.1% M/M / 3.4% Y/Y**; core **+0.2%
+M/M / 2.5% Y/Y**, down from 2.6% and **the coolest annual core since March 2021**. Every
+reading matched the Dow Jones consensus exactly.
 
-**Do not over-read one session either.** The honest statement is that the small-cap factor
-bet was a *positive* contributor on Tuesday and a negative one on Monday, roughly cancelling.
-`weekly_review` must still split IWM beta from stock selection — in both directions. Booking
-Tuesday's +0.66% as skill would be the same error as excusing Monday's −0.49% as bad luck.
+**The reaction is the part that matters, and it was a non-event in the best sense**: the
+**10-yr did not move (4.68%, −0.04%)**, VIX fell through 15 to **14.63**, all three futures
+are green, and Brent extended lower (−1.48%). An in-line print that leaves the curve
+untouched is the cleanest possible outcome for a 90% IWM core — the 4.75% trigger was tested
+by the week's biggest scheduled event and never came into play.
 
-**Gold is the one signal still pointing the other way**: eight consecutive up sessions,
-+2.16% into the print, while oil and yields cool. That divergence is worth watching, but it
-is not a bearish thesis and does not license cash.
+✅ **The event-driven "one satellite, not two" restriction has lapsed as designed.** It
+existed only to avoid stacking correlated small-cap risk into an unknown print. The print is
+now known and benign.
 
-### 🗓️ Event risk: CPI prints at 8:30 ET — ONE HOUR BEFORE THE OPEN, not on day 2
+### 🗓️ Event risk: PPI prints TODAY 8:30 ET — again an hour BEFORE the open
 
 | Day | Event |
 |---|---|
-| 🚨 **Wed 8/12, 8:30 AM ET** | **July CPI** — the week's dominant event. **Resolves before the open.** |
-| Thu 8/13, 8:30 AM ET | July PPI |
+| ✅ ~~Wed 8/12~~ | **July CPI — RESOLVED IN LINE, core 2.5%.** Yields flat, VIX down. |
+| 🗓️ **Thu 8/13, 8:30 AM ET** | **July PPI — forecast +0.2% M/M vs −0.3% prior.** Resolves before the open. |
 | Fri 8/14 | July retail sales; prelim UMich sentiment |
 
-**This is a materially better setup than yesterday's, and the difference is structural.**
-Tuesday's entries had to carry CPI as *unresolved* risk on day 2 of a 1–5 day hold. Today's
-entries trade a **known number** — the event is priced by 9:35, not hanging over the position.
+**The favourable structure repeats**: today's entry trades a *known* PPI number rather than
+carrying it as day-2 risk. **A hot PPI (≥~0.5% M/M) is the live danger** — it would push the
+10-yr toward the 4.75% trigger and hit the IWM core and any small-cap satellite in the same
+direction. If that happens: **no new satellite today**, hold the core (rule: never liquidate
+the core on macro), re-screen tomorrow. An in-line ~+0.2% removes the last macro objection to
+a full-size entry.
 
-**Consensus**: headline **+0.1% M/M, 3.4% Y/Y**; core **+0.2% M/M, 2.5% Y/Y** (cooling from
-2.6%). Prediction markets lean tame.
+### ✅ Small caps have led two sessions running — but log it as beta, not skill
 
-Consequences:
-- ✅ **The "one satellite, not two" restriction was event-driven and lapses with the print.**
-  It was never a permanent rule — it existed to avoid stacking correlated small-cap risk into
-  an unknown. **But confirm the actual number at 8:30 before sizing; do not pre-commit.**
-- 🚨 **A hot print is the live danger**, not the base case. Headline above ~0.3% M/M or core
-  above ~0.3% M/M would push the 10-yr at the 4.75% trigger and hit the IWM core and any
-  small-cap satellite together, in the same direction. If that happens: **no new satellite
-  today**, hold the core (rule: never liquidate the core on macro), re-screen tomorrow.
-- ➖ **A tame print** removes the last macro objection to a full-size satellite entry.
+**Wednesday: IWM +0.57% vs SPY +0.25% (+0.32%)**, on top of Tuesday's **+0.66%**. Russell
+futures are green a second straight morning; the "Russell red while S&P green" trigger stays
+un-fired.
+
+**Do not book this as edge.** Across Mon–Wed the factor bet ran −0.52% → +0.66% → +0.32% —
+a net positive that is entirely IWM beta on a 90% core sleeve. `weekly_review` must still
+split IWM beta from stock selection in both directions; claiming this week's small-cap
+tailwind as skill would be the same error as excusing Monday's drag as bad luck.
+
+**Gold, the last inflation holdout, is fading**: the 8-session run decelerated to +0.73% and
+the *level* fell from $4,477.70 to $4,441.20. With oil down ~1.5% and yields flat, nothing on
+this board now leans inflationary — and nothing licenses cash.
 
 ### Theme read (carried from Week 32, still current)
 
@@ -103,36 +107,39 @@ exactly what exposed the cash drag as the real problem (see `strategy.md`).
 
 ### Rates — the one thing that can break the core
 
-The 10-yr at **4.66%** is the direct threat to the IWM core sleeve, and it is **unchanged
-from Friday** after whipsawing all last week (4.62% → 4.67% → 4.66%). Each back-up has
-coincided with IWM lagging SPY. **A decisive move above ~4.75% would make the small-cap
-factor bet a live drag again.** With CPI landing Wednesday 8:30 AM ET and only 9bp of room
-to the trigger, **this week is the most likely moment yet for that threshold to be tested.**
+The 10-yr is the direct threat to the IWM core sleeve. It whipsawed all of Week 32
+(4.62% → 4.67% → 4.66%), and each back-up coincided with IWM lagging SPY. **A decisive move
+above ~4.75% would make the small-cap factor bet a live drag again.**
 
-### Account posture — Wednesday 2026-08-12
+✅ **Updated 8/13**: the threshold was tested by the week's dominant event and held —
+**CPI printed in line and the 10-yr did not move (4.68%, −0.04%)**, while IWM beat SPY on the
+day. PPI at 8:30 today is the remaining test this week.
 
-- Rocket: **IWM 9.5031 sh ($2,866.80, 90.6%)**, **0 satellites**, notional slice cash
-  **$295.94 (9.4%)**. Slice $3,162.74. Weekly trade count **1 / 5** (FF, stopped out 8/11).
-- ✅ **Cash remains inside the 10% buffer** for a third straight session — the fractional-order
+### Account posture — Thursday 2026-08-13
+
+- Rocket: **IWM 9.5031 sh ($2,882.39, 90.7%)**, **0 satellites**, notional slice cash
+  **$296.70 (9.3%)**. Slice $3,179.09. Weekly trade count **1 / 5** (VELO, closed same day 8/12).
+- ✅ **Cash remains inside the 10% buffer** for a fourth straight session — the fractional-order
   fix continues to hold (lesson 15/18).
-- **No bearish thesis is on file, and none is warranted** — VIX 15.38, all three index futures
-  green, Russell back in the black. Per Portfolio Construction rule 4, nothing here licenses
-  holding cash. Any satellite entered today is funded by **selling a fractional IWM slice**,
-  not out of an idle cash pile.
+- **No bearish thesis is on file, and none is warranted** — VIX 14.63, all three index futures
+  green, Russell green two sessions running, yields flat through CPI. Per Portfolio
+  Construction rule 4, nothing here licenses holding cash. Any satellite entered today is
+  funded by **selling a fractional IWM slice**, not out of an idle cash pile.
 
 ### Triggers to watch (Week 33)
 
 | Trigger | Action |
 |---|---|
-| 🚨 **CPI TODAY 8:30 ET** | **Resolves an hour before the open** — today's entries trade a known number, not day-2 event risk. Consensus headline +0.1% M/M / 3.4% Y/Y, core +0.2% / 2.5% Y/Y. **Hot print (headline or core ≥~0.3% M/M) → no new satellite today, hold the core, re-screen tomorrow.** Tame print → the one-satellite restriction lapses. |
-| 🗓️ **PPI Thu 8/13 8:30 ET** | Next event. A satellite entered today carries it on day 2. |
-| ⚠️ **10-yr decisively >4.75%** | **7bp away (4.68%, −0.32%)** — stepped *back* from 5bp. Still the single thing that can break the 90% core. CPI is the likely trigger either way. |
-| ✅ ~~Russell red while S&P/Nasdaq flat/green~~ | **UN-FIRED 8/12.** Tuesday inverted it: **IWM +0.34% vs SPY −0.32%**, and Russell futures are green. Monday's drag and Tuesday's tailwind roughly cancel — book both honestly, claim neither as skill. |
-| ✅ ~~Brent $89.60 (+6.2% in a session)~~ | **RESOLVED — no second leg.** Brent cooled to $88.74 (−0.19%). The inflation-expectations worry did not materialise. |
-| 🆕 **Gold 8 straight up sessions (+2.16% to $4,477.70)** | The **only** signal still leaning inflationary now that oil and yields have cooled. Watch the divergence; not tradeable on its own, not a bearish thesis. |
-| ⚠️ **VELO's live $100M ATM** | Open position-level risk if entered. S-3 effective 4/08, ATM agreement 5/15, undrawn. An 18% gap is a textbook moment to sell stock. **If an offering is announced, the thesis is broken — exit, do not wait for the stop.** |
-| VIX >22 | Pause new entries. >25 reduce size, >30 no new longs. Currently 15.38 — no brake. |
-| ✅ ~~QNST capped ladder~~ | **RESOLVED 8/11 — dead.** Closed $20.90, −5.1%, 35% of range, through the $22.40 consensus it had just reached. **Lesson 11c is now 3-for-3** (CRSR, QNST twice). Remove from watch. |
-| ✅ ~~APEI sub-consensus EPS guide~~ | **RESOLVED 8/11 — dead.** Closed $45.72, −3.5%, 27% of range. The knock written into the P1 writeup was the correct one; the skip was right. |
-| 🚨 **BW excluded by the $2B cap ceiling** | ❗ **OPEN — strategy-level, for `weekly_review`.** BW printed the best catalyst on the board (rev +130%, backlog +533%, analyst mean $24.67 vs $11.98 spot) and was excluded because its **+15% target implies $2.05B**. Second time in two weeks the ceiling killed the best name (after APPS). Do not override intraday; do examine whether the gate should scale with the target rather than the entry. |
-| MGNX (8/13), SPRY (8/13), TE (8/12) prints | Barred by the earnings-week rule — re-screen after |
+| 🗓️ **PPI TODAY 8:30 ET** | **Resolves an hour before the open** — today's entry trades a known number, not day-2 risk. Forecast **+0.2% M/M** vs −0.3% prior. **Hot print (≥~0.5% M/M) → no new satellite today, hold the core, re-screen tomorrow.** In-line → full-size entry cleared. |
+| ✅ ~~CPI Wed 8/12~~ | **RESOLVED IN LINE 8/12.** Headline +0.1%/3.4%, **core +0.2%/2.5% — coolest since March 2021**. The 10-yr did not move; VIX fell. **The one-satellite restriction has lapsed.** |
+| ⚠️ **10-yr decisively >4.75%** | **Still 7bp away (4.68%, −0.04%).** The single thing that can break the 90% core — and it **survived the week's biggest scheduled event untouched**, which is meaningful evidence, not just a reprieve. |
+| ✅ ~~Russell red while S&P/Nasdaq flat/green~~ | **STILL UN-FIRED.** IWM has beaten SPY two sessions running (+0.66%, +0.32%) and Russell futures are green again. **Book it as beta, not skill** — Mon–Wed ran −0.52% → +0.66% → +0.32%. |
+| ✅ ~~Brent $89.60 (+6.2% in a session)~~ | **RESOLVED — no second leg, and now reversing.** Brent $87.66 (−1.48%). |
+| ✅ ~~Gold 8 straight up sessions~~ | **DECELERATING — the last inflation holdout is fading.** +0.73% vs +2.16%, and the *level* fell to $4,441.20 from $4,477.70. Nothing on this board now leans inflationary. |
+| 🆕 ⚠️ **OMER's undrawn $150M ATM** | Position-level risk if entered. Renewed 2025-11-14, **fully undrawn**, but offset by a **live $100M buyback** (0.5M sh actually bought in Q2 at $11.70) and converts being retired. **If an offering is announced, the thesis is broken — exit, do not wait for the stop.** |
+| 🆕 ⚠️ **OMER Q3 sequential product revenue** | The real bear case, not the balance sheet. $32.2M in the first full launch quarter may include specialty-pharmacy stocking. **A Q3 sequential decline breaks the thesis outright.** |
+| VIX >22 | Pause new entries. >25 reduce size, >30 no new longs. Currently **14.63** — no brake. |
+| ✅ ~~VELO's $100M ATM~~ | **CLOSED 8/12** for −1.18%. Position gone; risk moot. Do not re-enter. |
+| 🚨 **$2B cap ceiling killed a third name — HLIT** | ❗ **OPEN — strategy-level, for `weekly_review`, now with three data points.** HLIT's +25% target implies **$2.007B**, 0.35% through the lid, after APPS and BW. ⚠️ **Note honestly: HLIT was independently killed by its capped analyst ladder ($15.29 mean vs $14.80 spot), so the ceiling did not cost anything this time.** Do not override intraday; do examine whether the gate should scale with the target rather than the entry. |
+| ⏳ **CURI second-day watch** | Real beat-and-raise (+48% AI licensing, record EBITDA, raised outlook) but **gapped +35.8% → second-day only** (rule 2) and the **$2.80 base is sub-$3** (lesson 10). **Check Friday; valid only if it closes today above the day's midpoint.** |
+| MGNX / IPWR / INV / SPRY (all 8/13) | Barred by the earnings-week rule — re-screen after each prints |

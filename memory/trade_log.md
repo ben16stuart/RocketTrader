@@ -4,6 +4,24 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-13 — No trades, core rebalance check (market_close)
+
+**No fills today.** 0 satellites open (nothing to review). OMER (P1, HIGH from
+premarket) was never actually evaluated — market_open logged only "waiting for the
+monitor to fire" and no follow-up ever ran (midday has been dead since 2026-06-15).
+New lesson 24. Not logged as a discretionary skip since no decision was made.
+
+**Core rebalance check**: slice $3,188.02 (portfolio_value $10,626.74 × 30%),
+satellite value $0, 10% buffer $318.80 → target_core $2,869.22. IWM (raw qty
+9.5031 sh, per lesson 23) × $303.54 = $2,884.57 — 0.50% of slice over target, within
+the 3% band. **CORE REBALANCE check, no trade.**
+
+**Day P&L (hand-built, per lesson 22)**: IWM intraday +$7.89 (+0.25% of slice) vs
+SPY +0.69% today. Since rebase (7/20): SPY +4.82% (script-verified), Rocket
+hand-built ≈+4.91% (chained approximation) → Rocket vs SPY ≈+0.09% since rebase.
+
+---
+
 ## 2026-08-12 — VELO CLOSED SAME DAY + core rebalance check (market_close)
 
 **VELO exit**: 30 sh, entry $15.27 → market close fill **$15.09** (filled 19:59:37 UTC,

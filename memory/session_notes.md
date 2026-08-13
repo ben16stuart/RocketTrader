@@ -3,6 +3,108 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-13 — MARKET CLOSE (Thursday, Week 33)
+
+**No trades. 0 satellites, core (IWM) within band — but the real story is OMER never
+got evaluated.** Premarket flagged OMER (P1, HIGH — 125% revenue beat, uncapped
+ladder ~2x, 19.7–24.2% short float) as the best-constructed setup Rocket has
+screened. The 07:45 market_open log shows it set up a monitor to wait for the
+9:45–9:50 base and then... nothing — no midday log (dead since 6/15, lesson 21), no
+follow-up decision anywhere, no trade. **New lesson 24: this is an infra failure, not
+a discretionary skip** — every prior "no trade" session logged an explicit reason at
+decision time; today just went silent. OMER closed the gap further to **$17.35**
+(+5.9% over the $16.39 premarket read that framed the entry, would already be
+approaching the +15% target at $18.85 had it been entered). Per the spirit of the
+missed-catalyst rule, **check OMER again tomorrow premarket** for a pullback or
+continuation entry if the thesis (dilution structure, ladder) still holds.
+
+**Position review**: 0 satellites open — nothing to hold/close.
+
+**Core rebalance check**: slice $3,188.02 (live portfolio_value $10,626.74 × 30%),
+satellite value $0, 10% buffer $318.80 → target_core $2,869.22. IWM (raw qty
+**9.5031 sh**, per lesson 23) × $303.54 = **$2,884.57 — 0.50% of slice over target,
+well within the 3% band.** No trade.
+
+**Day P&L (hand-built, per lesson 22 — snapshot table mixes in Bull's P&L)**: no
+satellite trades, IWM intraday unrealized **+$7.89 (+0.25% of slice)** vs **SPY
++0.69%** today — Rocket underperformed SPY today by ~0.44%, small-cap factor drag,
+not a stock-picking loss (no picks were made). Since rebase (7/20): SPY **+4.82%**
+(script-verified). Rocket hand-built, chained from 8/12's ~+4.65% base compounded
+with today's core return: **≈+4.91%** → Rocket vs SPY **≈+0.09%** since rebase. Flag
+per lesson 22: this chained figure carries rounding drift session to session: treat
+as directional, reconcile precisely at the next weekly review.
+
+**Also found**: lesson 25 — the weekly trade counter (`portfolio_snapshot.py`) shows
+"0 / 3 max" despite VELO trading this week; the `—` split-count bug undercounts to
+zero and the hardcoded cap (3) doesn't match CLAUDE.md's real 5/week guardrail.
+Flagged, not fixed (script change out of scope for market_close).
+
+---
+
+## 2026-08-13 — PREMARKET (Thursday, Week 33)
+
+**No trades — market closed. One P1 name: OMER, and it is a better-constructed setup than
+VELO on every axis but float.** 7 web searches, done inline, no subagent (lesson 20).
+
+**🥇 OMER (Omeros) — P1, HIGH.** Q2 after Wednesday's close on **YARTEMLEA**, its
+first-in-class FDA-approved TA-TMA drug: revenue **$28.5M vs $12.67M consensus — a 125%
+beat**; **product sales $32.2M in the first full launch quarter, +190% QoQ from $11.1M**;
+adjusted EPS **+$0.02 against a −$0.25 estimate** (swing to profit); **+$4.1M operating cash
+flow**; and **CMS granted NTAP reimbursement effective 10/01**. Premarket **$16.39 (+19.6%)**
+vs a $13.71 close. The legs: **(a) ladder uncapped by ~2x** — every consensus reading found
+($44.54 / $38.00 / $33.00) sits above the whole profit ladder, so +15% ($18.85) and +25%
+($20.49) clear even the *lowest* one (lesson 11d, now 3-for-3); **(b) short float 19.7–24.2%
+across three sources**, all >15% (lesson 9); **(c) the dilution structure is the best on any
+Rocket P1 to date** — the 2026 converts **matured and were paid in full 2/15**, the remaining
+9.50% notes are down to **$40.3M** and still being retired, ~**$132M cash**, and the company
+is **actively buying back stock** ($100M authorisation, 0.5M sh bought in Q2 at $11.70).
+**A live but undrawn $150M ATM is the named risk — mitigated because you don't ATM into a
+buyback.** Tape is the biggest upgrade on VELO: four tight rising closes into the print
+($13.25→$13.71) at the top of the weekly range, above MA50, and the **52-wk high is only
+$17.65 — 7.7% overhead versus VELO's 96%**. Entry on the **9:45–9:50 base, not the open**
+(VELO's spike-and-fade), do not chase above $17.75, stop $15.24, **29 sh = $475.31 (15.0%)**
+— the cap binds, risk-based sizing allowed 41. Funding needs **~0.589 fractional IWM shares**.
+⚠️ **Honest nuance**: Omeros did **not** formally raise guidance (launch-stage biotechs don't
+guide), so this is a beat + forward reimbursement catalyst, not a literal beat-and-raise; the
++190% QoQ ramp is what replaces the raise. **The real bear case is Q3 sequential product
+revenue** — $32.2M may include specialty-pharmacy stocking, and a sequential decline breaks
+the thesis outright. Single-product concentration; $17.65 sits between entry and target one.
+
+**🚨 HLIT — best headline on the board, killed by the capped ladder.** EPS **$0.24 vs $0.12**,
+revenue **$173M vs $112.9M**, broadband **+54%**, **FY26 raised a second time** to $505–525M,
+**backlog +71% to $587.6M**, video business divested = pure-play broadband. Premarket +23.3%.
+**Then the ladder: the mean was raised only to $15.29 (from $12.71) against a $14.80 price —
++3.3%. Jefferies went $10 → $15 but KEPT A HOLD.** Both Rocket targets ($17.02, $18.50) sit
+**above the entire fresh analyst complex** — the QNST/CRSR pattern exactly (lesson 11a/11c).
+**Independent second knock**: the lesson-12 cap ceiling — 108.5M sh × $18.50 = **$2.007B**,
+0.35% through the lid, the third name after APPS and BW. **Two rules, same answer** — and
+worth noting the ceiling cost nothing here, since the ladder killed it anyway.
+
+**⏳ CURI — real catalyst, not tradeable today.** Record Q2: **AI-licensing revenue +48% to
+$14.1M** (880B-token code corpus), GM **53%→73%**, adj EBITDA **$11.4M (+300%)**, **outlook
+raised** — a genuine beat-and-raise. But it **gapped +35.8%** ($2.80 → $3.80), which is
+**second-day-only** under rule 2, and the **$2.80 base is a sub-$3 stock** (lesson 10) that
+FAILS `eligibility` on last close. **Check Friday — valid only if it closes today above the
+day's midpoint.** Also dropped: **MGNX / IPWR / INV** (all report *today*, and all were
+running premarket *before* the print — exactly what the earnings-week rule exists to stop);
+**SECZ** (−15%, a decliner); ten names moving +3–7% on 0.0–0.2x RelVol with no catalyst.
+
+**Macro — the week's dominant risk is spent, benignly.** **CPI printed exactly in line:
+headline +0.1%/3.4%, core +0.2%/2.5% — the coolest annual core since March 2021.** The
+reaction matters more than the number: **the 10-yr did not move (4.68%)**, VIX fell through
+15 to **14.63**, Brent extended −1.48%, and gold's 8-session run finally decelerated. The
+4.75% trigger was tested by the biggest scheduled event of the week and never came into play.
+**The event-driven "one satellite" restriction has lapsed as designed.** 🗓️ **PPI prints
+today 8:30 ET** (forecast +0.2% vs −0.3%) — same favourable structure, resolves before the
+open; **hot ≥~0.5% → no new satellite, hold the core.** IWM beat SPY a second straight session
+(+0.57% vs +0.25%) — **logged as beta, not skill.**
+
+**Account**: slice **$3,179.09**, **IWM 9.5031 sh = $2,882.39 (90.7%)**, 0 satellites,
+notional cash **$296.70 (9.3%) — inside the buffer a fourth straight session**. Weekly count
+1/5. No ntfy sent (no open position, no breaking news).
+
+---
+
 ## 2026-08-12 — MARKET CLOSE (Wednesday, Week 33)
 
 **VELO closed same day, −1.18%.** Entered $15.27 at the open on a genuinely strong
