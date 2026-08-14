@@ -3,6 +3,130 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-14 — MARKET CLOSE (Friday, Week 33)
+
+**OMER held overnight — closed 60% of today's range, thesis intact.** Day-2 entry $17.14,
+closed $17.19 (+0.3%). Raw 5-min bars: today's range $16.54–$17.61, last print $17.18 →
+59.8% of range, above the midpoint (lesson 4 tiebreaker — this is the QNST/RCEL/CRSR
+pattern, not the ASPN/EVH bottom-quartile one). Volume faded hard from yesterday's 13.4M
+to ~3.2M today (expected day-2 cooldown, not a red flag on its own given the range close).
+Catalyst (NTAP reimbursement effective 10/01) is multi-day and unplayed — no reason to
+exit early. Known, accepted risk: Friday fill = weekend gap with no stop protection,
+flagged at entry, not new information. **Hold.**
+
+**Core rebalance — SELL, band breached.** OMER's entry (funded partly by an IWM sale)
+plus the day's drift left IWM at $2,720.61, 10.3% of slice over `target_core` — well
+outside the 3% band. Sold 1.073 sh IWM @ $304.96 ($327.22), landing IWM at $2,393.57 vs a
+$2,393.39 target (within $0.18, no granularity remainder — lesson 18 holding). Logged as
+CORE REBALANCE, not a conviction trade.
+
+**Day P&L**: IWM +$13.24 intraday (realized + unrealized) + OMER +$1.35 (day-1) ≈ **+$14.59,
++0.46% of slice**, vs SPY **−0.22%** today → Rocket beat SPY by **+0.68% today**, on IWM
+positive divergence (small-cap factor up while SPY was down) plus OMER holding flat-to-up.
+Since rebase (7/20, script-verified): Rocket +4.76%, SPY +4.61%, Rocket vs SPY **+0.15%**.
+
+**Weekly trade count (hand count, lesson 25): still 3/5** — FF (8/11), VELO (8/12), OMER
+(8/14). The IWM rebalance is not a new position and does not count against the cap.
+
+---
+
+## 2026-08-14 — MARKET OPEN (Friday, Week 33)
+
+**TRADE PLACED — OMER, 27 sh @ $17.14. Lesson 24 closed out clean: the GO/NO-GO was made
+and logged explicitly at 9:45 AM, not deferred to a monitor.** 9:40–9:45 raw 5-min bar (O
+$17.02 / H $17.38 / L $16.92 / C $17.33 on 58,327 sh, ~1.6x avg 5-min volume) held cleanly
+above the $16.85 GO threshold and never touched Thursday's $16.27 low — confirmed GO. Filled
+$17.14, stop $15.84 (7% trail), 14.6% of slice. Funded by selling 0.5822 sh IWM (core stayed
+IWM-only, no pooled-cash draw) rather than the higher, easier route of just using the $549
+pooled cash sitting free — kept Rocket's own core/satellite book clean instead. CURI (P2) was
+correctly passed — it was the explicit alternate, not a second position, and OMER hit GO.
+
+**Step 4 scan found two new names, both correctly passed.** ETON: real beat-and-raise
+(revenue +99%, EBITDA margin 43% from 16%, guidance raised to $145M+, PT raised to $65) but
+**+37.6% intraday — a >35% gap, second-day only per rule 2.** Added to watchlist for Monday
+8/17; re-verify the $2B cap clearance at a ~$70 second-day entry before sizing. NMAX: Q2 EPS
+beat but **guidance reiterated, not raised** — beat-without-raise, the exact pattern that
+stopped out FF — plus thin, undated 2-analyst coverage. Passed, not researched further.
+
+**Weekly trade count (by hand, lesson 25 — script still misreports): FF (8/11), VELO (8/12),
+OMER (8/14) = 3/5.** Two slots remain this week.
+
+---
+
+## 2026-08-14 — PREMARKET (Friday, Week 33)
+
+**No trades — market closed. Today's board is carry-overs, not new names, and that is the
+honest read: the earnings pipeline is spent.** 6 web searches, all inline, no subagent
+(lesson 20).
+
+**🥇 OMER — P1, HIGH. Same trade as yesterday, one day later, and it is fading premarket.**
+Thursday's catalyst work stands unchanged (125% revenue beat, +190% QoQ product ramp, swing
+to profit, NTAP effective 10/01) — it is on the board today only because **lesson 24**: the
+monitor died, no midday exists, and it ran untraded. Raw bars: **O $16.65 H $18.14 L $16.27
+C $17.35 on 13.4M sh (6.4x ADV), closing at 58% of range** — above the midpoint, so the
+second-day rule is live, but it gave back 43% of the intraday range and that is not QNST's
+90% conviction close. **Premarket $16.92, −2.5% — which makes the entry better, not worse**,
+pulling it back toward Thursday's planned $16.39 instead of forcing a chase through $18.14.
+Ladder re-struck at $17.00: **+15% $19.55 / +25% $21.25 vs a LOWEST analyst reading of
+$33.00 — uncapped by ~55%** (lesson 11d). Short float 19.7–24.2% ✓. Dilution re-checked:
+**no offering announced 8/13–8/14**, the named trigger has not fired; ~$132M cash, buyback
+live, $150M ATM still undrawn. Cap at target two **$1,538M**, clears the lid by 23%.
+**Entry 9:45–9:50: GO above $16.85 on >0.75x 5-min volume; NO-GO below $16.27; never chase
+above $18.14.** Stop **$15.81** (below Thursday's entire range). **28 sh = $476.00 (14.9%)**,
+funded by selling **~0.565 sh of IWM**. ⚠️ Honest marks against it: the entry is 3.4% worse
+than yesterday's, the $17.65–$18.14 band now sits between entry and target one, and a Friday
+fill is a weekend hold on a single-product biotech.
+
+**🚨 The binding rule today is lesson 24, not a market rule.** `market_open` must log an
+explicit **GO or NO-GO with the observed 9:45–9:50 bar**. No monitor deferral. Two
+consecutive sessions of this flaw would cost the same trade twice.
+
+**🥈 CURI — P2, MEDIUM, and the ALTERNATE not a second position.** It passed the exact gate
+set for it Thursday: closed **$3.99 at 57% of range** on 20.3M shares, above the midpoint,
+and now **clears the $3 price gate on its own close** rather than only on the gap. Real
+beat-and-raise (licensing +48% to $14.1M, GM 53%→73%, net income $8.9M, outlook raised).
+Dilution clean and the good kind — **no debt, dividend + buyback**. ⚠️ Two real knocks:
+**the ladder is half-capped** — a *fresh, dated, post-print* analyst **CUT to $5.00 from
+$5.50 citing "lumpy" licensing**, so +15% ($4.66) clears but **+25% ($5.06) sits on top of
+the lowest target**; and **$10.9M cash against a ~$20M/yr dividend** is the mechanism that
+turns a licensing miss into dilution. Short interest only 4.3%, falling — no squeeze leg.
+**OMER and CURI are the same structural trade** (day-2 continuation on a post-earnings gap
+that closed mid-range), so taking both is one correlated bet at double size into an
+unresolved 10:00 print. **Take CURI only if OMER hits its $16.27 no-go.**
+
+**Dropped, with the two worth naming.** **CAPR** was the biggest thing on the tape (+98% →
+$8.34, 60x RelVol, now $8.70) on the FDA signalling it will accept an amended deramiocel
+application — and it is a **hard no on three independent grounds**: a >35% gap is
+second-day-only (rule 2); **the PDUFA is 8/22, inside a 1–5 day hold, after a 9–3 AdCom vote
+against efficacy** — a coin flip no stop protects through a halt; and a doubled clinical-stage
+biotech with securities-fraud class actions will raise into the strength. **Rocket trades
+continuation, not binaries.** **IMXI** (+25%, 11.9x) is real news — NYDFS cleared the Western
+Union deal — but it is **all-cash at $16.00/share**, so **Rocket's +15% target ($16.82) sits
+above the deal consideration**: the capped-ladder logic in its purest form, where the "target"
+is a contract. Added to the merger-arb skip list beside HZO. Also resolved cleanly: **MGNX /
+IPWR / INV / SPRY** all printed 8/13 and **all four failed the day-one range check** (25% /
+**11%** — IPWR round-tripped $4.76→$5.25→$4.26 / 36% / didn't move) — the earnings-week bar
+saved the work and the range check finished them. **VOGX** has the board's best float (3.4M,
+24%) but is a two-day-old listing whose "382,500 ADV" is computed off a two-day sample while
+**Thursday's real volume was 81,000** — lesson 13 in reverse, the gate reads PASS off bad
+data. Sixteen more names moved +2.5–5.8% on 0.0–0.6x RelVol with no catalyst (lesson 1).
+
+**Macro — both of the week's big prints are spent, benignly, but today's structure is the
+week's worst.** **PPI resolved without a search**: the **10-yr rallied 4bp to 4.64%** and VIX
+fell to 14.57 — a hot producer print does not produce a bond rally, so the "no new satellite"
+brake never fired. The 4.75% trigger is now **11bp away, the widest cushion of the week**,
+after being tested twice. 🚨 **But UMich prelim lands 10:00 ET — AFTER the open**, ~10 minutes
+past the entry window, and it is the first entry this week placed into an unresolved print
+(forecast 54.1 vs 55.2; the 4.2%/3.3% inflation-expectation legs matter more than the
+headline). **Do not widen the stop for it; do have the stop working by 10:00.** ⚠️ Also
+logged honestly: **SPY beat IWM by 0.44% Thursday**, ending the two-session small-cap streak,
+and Russell futures are **−0.01%** against green S&P/Nasdaq — the "Russell red" trigger is
+**grazing for the first time but not fired**. Mon–Thu the factor bet ran −0.52% → +0.66% →
++0.32% → −0.44%, about a wash. **Booked as beta in both directions, not skill** — the same
+discipline applied to Wednesday's outperformance applies to Thursday's drag.
+
+---
+
 ## 2026-08-13 — MARKET CLOSE (Thursday, Week 33)
 
 **No trades. 0 satellites, core (IWM) within band — but the real story is OMER never

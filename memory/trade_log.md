@@ -4,6 +4,51 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-14 — CORE REBALANCE, IWM SELL (market_close)
+
+- Sold 1.073 sh IWM @ $304.96 = $327.22, filled 19:59:28 UTC.
+- Reason: post-OMER-entry IWM had drifted to $2,720.61 (10.3% of slice over target),
+  outside the 3% band. slice $3,174.87 (portfolio_value $10,582.90 × 30%), satellite
+  value (OMER) $464.00, 10% buffer $317.49 → target_core $2,393.39. New IWM qty 7.8479
+  sh = $2,393.57 — within $0.18 of target, no share-granularity remainder (lesson 18).
+- Not a conviction trade — core rebalance only.
+
+---
+
+## 2026-08-14 — OMER BUY (market_open)
+
+- Shares: 27 @ $17.14
+- Catalyst: Q2 beat (125% revenue beat, $28.5M vs $12.67M est), YARTEMLEA product sales
+  $32.2M (+190% QoQ), adjusted EPS +$0.02 vs −$0.25 est, +$4.1M operating cash flow, CMS
+  NTAP reimbursement effective 2026-10-01. Day-2 continuation entry — the catalyst work
+  was done pre-market Thursday (8/13) but the trade was missed when a monitor-based
+  market_open died silently without executing (lesson 24); this is day 2 of the 3-day
+  missed-catalyst follow-up window.
+- **GO/NO-GO call (lesson 24 — logged explicitly, not deferred)**: made at 9:45 AM ET off
+  raw 5-min bars. 9:40–9:45 bar: O $17.02 / H $17.38 / L $16.92 / C $17.33 on 58,327 sh —
+  ~1.6x the ~35.7k avg 5-min volume (2,787k avg daily / 78 bars). Held cleanly above the
+  $16.85 GO threshold, never touched the $16.27 no-go floor (Thursday's low), stayed well
+  under the $18.14 no-chase ceiling. Confirmed GO.
+- Stop: 7% trailing, initial trigger $15.8379 (hwm $17.03)
+- Target: 1st $19.71 (+15%) sell 1/3, 2nd $21.43 (+25%) sell 1/3, trail final 1/3
+- Thesis: Uncapped analyst ladder (consensus $44.54/$38.00/$33.00 — lowest reading sits
+  ~55% above entry, both profit targets clear it easily), short float 19.7–24.2% (>15%
+  bar) against a 69.6M float, dilution re-checked clean (no offering announced 8/13–8/14,
+  ~$132M cash, $100M buyback live, $150M ATM undrawn but not being drawn into strength).
+  Primary risks: day-2 entry is 3.4% above Thursday's planned $16.39, launch-quarter
+  revenue could prove lumpy (real bear case, not the balance sheet), single-product
+  concentration, undrawn $150M ATM, $17.65–$18.14 resistance sits between entry and
+  target one, and a Friday fill means a weekend hold with no stop protection overnight.
+- CURI (P2, $3.99, beat-and-raise, ladder half-capped by a fresh analyst cut) was the
+  named alternate — not taken, since OMER hit GO and both were flagged as one correlated
+  day-2-continuation bet at double size.
+- Position: 27 sh = $462.78 (14.6% of Rocket's slice). Funded by selling 0.5822 sh IWM
+  @ $303.624 ($176.77) — notional slice cash ($288) alone was short of the $462.78 needed;
+  pooled broker cash ($549.43) covered it too but was left untouched to keep Rocket's own
+  core/satellite accounting clean rather than drawing on Bull's notional cash buffer.
+
+---
+
 ## 2026-08-13 — No trades, core rebalance check (market_close)
 
 **No fills today.** 0 satellites open (nothing to review). OMER (P1, HIGH from

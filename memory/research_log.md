@@ -5,117 +5,176 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Week 33 (Thu 2026-08-13 premarket)  ← CURRENT
+## Watchlist — Week 33 (Fri 2026-08-14 premarket)  ← CURRENT
 
-*Three names printed Q2 after Wednesday's close and all three gapped. **One is the
-best-constructed setup Rocket has screened**; one is a textbook capped-ladder skip; one is
-barred by its own gap size. VELO was closed same day for −1.18% (lesson 4a) — book is flat
-satellites again.*
+*Today's board is not built from new names — it is built from **two unresolved threads
+carried in from Thursday**. OMER is the trade Rocket already researched to P1/HIGH and
+then never executed because a monitor died silently (**lesson 24**); it is now a day-2
+continuation setup and **it is fading premarket, which makes the entry better, not worse**.
+CURI passed its second-day gate. Everything genuinely new on the scanner is either a
+merger-arb, a binary-event biotech, or catalyst-free.*
 
-**Account (8/13 premarket)**: shared $10,596.96 / Rocket slice (30%) **$3,179.09** / pooled
-cash $549.43. Rocket holds **IWM 9.5031 sh = $2,882.39 (90.7%)**, nothing else. Notional
-slice cash **$296.70 (9.3%)** — inside the buffer, no bearish thesis needed.
-Open satellites **0 / 4**. Weekly trade count **1 / 5** (VELO). Max satellite **$476.86**
-(15%); 1.5% risk **$47.69**.
+**Account (8/14 premarket)**: shared $10,628.24 / Rocket slice (30%) **$3,188.47** / pooled
+cash $549.43. Rocket holds **IWM 9.5031 sh = $2,883.97 (90.5%)**, nothing else. Notional
+slice cash **$304.50 (9.5%)** — inside the buffer, no bearish thesis needed.
+Open satellites **0 / 4**. Weekly trades **1 / 5** (VELO — counted by hand per **lesson 25**;
+the script still prints 0). Max satellite **$478.27** (15%); 1.5% risk **$47.83**.
 
-✅ **CPI LANDED IN LINE AND CORE CAME IN COOL.** Headline **+0.1% M/M / 3.4% Y/Y**, core
-**+0.2% M/M / 2.5% Y/Y — the slowest since March 2021**. The 10-yr did not move (4.68%),
-VIX fell to 14.63, all three futures green. **The event-driven "one satellite" restriction
-has lapsed as designed.** 🗓️ **PPI prints today 8:30 ET, again an hour BEFORE the open**
-(forecast **+0.2% M/M** vs −0.3% prior) — today's entry trades a known number, same
-favourable structure as yesterday. A hot PPI (≥~0.5% M/M) → no new satellite, hold the core.
+✅ **PPI resolved benignly — read from the tape, not a search.** The 10-yr **fell to 4.64%
+(−0.88%)**, VIX **14.57**, S&P/Nasdaq futures green. A hot PPI does not produce a 4bp rally
+in the 10-yr. The "hot print → no new satellite" brake **did not fire**; full-size entry is
+cleared on macro.
 
-⚠️ **Scanner note (lesson 16)**: the 4:20 AM screen is **premarket quotes** — CURI printed
-63.0x RelVol, which is meaningless on premarket volume. Every figure below is re-derived
-from **raw daily bars** against Wednesday's regular-session closes.
+🗓️ **But today's structure is WORSE than the last two days, and this is the one thing that
+changed for the worse**: retail sales lands 8:30 ET (before the open, fine), **but prelim
+UMich prints 10:00 ET — AFTER the open, ~10 minutes after the 9:45–9:50 entry window.**
+Tue/Wed/Thu all traded *known* numbers. Today does not. Forecast **54.1 vs 55.2** — a soft
+print is expected and largely discounted; the whipsaw risk is a big miss in either direction.
+**Do not widen the stop for it. Do not pre-position size larger for it.**
+
+⚠️ **Scanner note (lesson 16)**: the 4:20 AM screen is **premarket quotes**. CAPR's "+98%"
+and IMXI's "+25%" are premarket prints on near-zero volume. Every figure below is re-derived
+from **raw daily bars** against Thursday's regular-session closes.
 
 ---
 
-### PRIORITY 1 — OMER (HIGH) — 125% revenue beat, swing to profit, uncapped ladder by 2x, 20%+ short float
+### PRIORITY 1 — OMER (HIGH) — the trade Rocket already validated and failed to place; now a day-2 continuation at a BETTER price
 
-**Omeros.** Commercial-stage biotech. **YARTEMLEA** (narsoplimab-wuug), the first-in-class
-FDA-approved drug for stem-cell-transplant-associated TA-TMA. Q2 printed **after Wednesday's
-close**. After-hours **+20.1% to $16.46**; premarket **$16.39 (+19.6%)** vs Wednesday's close
-**$13.71**.
+**Omeros.** The full catalyst work was done Thursday premarket and **nothing in it has
+changed** — 125% revenue beat ($28.5M vs $12.67M), YARTEMLEA product sales **$32.2M, +190%
+QoQ**, adjusted EPS **+$0.02 vs a −$0.25 estimate**, **+$4.1M operating cash flow**, and
+**CMS NTAP reimbursement effective 2026-10-01**. Not re-litigated here; see the 8/13 entry in
+`session_notes.md`. **What is new is the tape and the price.**
 
-- **Catalyst — a launch inflection, not an incremental beat.** Revenue **$28.5M vs $12.67M
-  consensus — a 125% beat**. **YARTEMLEA gross product sales $32.2M in its first full quarter
-  on the market, up from $11.1M — +190% QoQ.** Adjusted EPS **+$0.02 against a −$0.25
-  estimated loss** — a swing to profitability. **Operations produced +$4.1M cash flow.**
-  Second, dated catalyst: **CMS granted NTAP reimbursement status effective 2026-10-01**,
-  which raises hospital economics on every dose.
-- ⚠️ **Honest nuance on the "raise" leg**: Omeros did **not** formally raise guidance — a
-  launch-stage biotech does not guide. So this is a **beat plus a forward reimbursement
-  catalyst**, not a literal beat-and-raise. What replaces the raise is the **+190% QoQ
-  product ramp with NTAP landing in Q4** — a trajectory, not a flat business. That is the
-  opposite of the SVCO/FF beat-without-raise pattern (those beat on a *static* base).
-- ✅✅ **THE LADDER IS UNCAPPED BY ROUGHLY 2x — the widest Rocket has screened** (lesson
-  11a/11d, now 3-for-3). Every consensus reading found sits far above the whole profit
-  ladder: **$44.54 mean (11 analysts)**, **$38.00 (2)**, **$33.00 (3, "Buy")**. Against a
-  $16.39 entry, **+15% ($18.85) and +25% ($20.49) sit below even the LOWEST reading ($33)**.
-  ⚠️ Per lesson 11b these are undated and some reference a $10.72 spot, so treat the exact
-  figures as imprecise — but the *direction* is not close. This is the inverse of QNST/CRSR.
-- ✅✅ **Short float clears the bar on every source** (lesson 9): **19.69%**, **22.02%**, and
-  **24.15% of float** across three readings — all comfortably >15%, against **12.9–15.9M
-  shares short**. A 125% revenue beat into that is the squeeze setup. ⚠️ No low-float leg:
-  float is **69.7M of 72.4M shares (96%)**.
-- ✅✅ **Dilution structure is the best on any Rocket P1 to date — the company is a net BUYER
-  of its own stock** (lesson 6/6a, dated). **$100M buyback authorised 2025-11-29; 0.5M shares
-  actually repurchased in Q2 at $11.70 avg.** The 5.25% converts due 2026 **matured 2026-02-15
-  and were paid in full**; the remaining **9.50% converts are down to $40.3M principal**, term
-  extended into 2028, and they are **actively retiring more**. Cash **~$132M** ($2.0M cash +
-  $130.0M short-term investments) vs $40.3M converts, **with positive operating cash flow**.
-  🚨 The one live item: a **$150M ATM renewed 2025-11-14, still fully undrawn** — category
-  (iii), a named risk to size around, *not* a disqualifier. **Mitigant that VELO did not
-  have: it is hard to sell stock via ATM while executing a buyback.**
-- ✅ **Tape is clean and overhead supply is nearly absent** — the single biggest upgrade on
-  VELO. Last four closes **$13.25 → $13.62 → $13.60 → $13.71**: a tight, rising, orderly base
-  closing **at the top of the weekly range** ($13.15–$13.71) into the print, price well above
-  **MA50 $10.62**, +30.6% over the month. **52-week high is only $17.65** — 7.7% above entry,
-  versus VELO's $31.75 sitting 96% overhead. ⚠️ That $17.65 is the one resistance shelf, and
-  it sits **between the entry and the +15% target** — the trade must break to new 52-wk highs
-  to reach target one.
-- ✅ **Universe (8/13)**: NasdaqGM ✓ | cap **$992M at $13.71 → ~$1,187M at $16.39** ✓ |
-  price ✓ | ADV **1,922,640** — clears the 300k gate 6.4x, no lesson-13 borderline ✓ |
-  next earnings 11/12 (+91d) ✓. **Lesson-12 cap check passes wide**: +25% ⇒ ~$1,483M.
-- **Entry — treat as gap-and-go (rule 2).** At **+19.6%** it sits right on the 20% boundary;
-  after VELO's open-spike-and-fade, **do not buy the open.** Enter the **9:45–9:50
-  consolidation**, confirmed on **raw 5-min bars at >0.75x avg volume** (lesson 10/16).
-  Reference entry **$16.39**; **do not chase above $17.75**.
-- **Stop $15.24** (7% below a $16.39 fill). **Targets**: +15% **$18.85** sell 1/3 |
-  +25% **$20.49** sell 1/3 | trail the final third. Take the first third *into* the level
-  (MRLN lesson), and note target one requires clearing $17.65.
-- **Size** ✅ verified via `alpaca_client size`: **29 sh = $475.31 (15.0% of slice)**, risk
-  $47.69. Re-strike as `int(476.86/fill)` at the actual fill. Risk-based sizing allows 41 sh;
-  **the 15% cap binds.**
-- ⚠️ **Funding**: notional slice cash $296.70 does not cover $475.31. **Sell ~0.589 sh of IWM
-  (~$178.61 @ $303.31)** — fractional is legal on the stopless core only; the satellite must
-  be **whole shares** (lesson 18).
-- **Conviction: HIGH.** **Risk**: (1) **launch-quarter revenue is lumpy** — $32.2M may include
-  specialty-pharmacy stocking, and a Q3 sequential decline breaks the thesis outright; this is
-  the real bear case, not the balance sheet. (2) **single-product concentration** — YARTEMLEA
-  is the entire story. (3) the undrawn $150M ATM. (4) $17.65 resistance between entry and
-  target one. (5) already +30.6% in a month, so some ramp was anticipated — though a 125%
-  consensus beat says not this much.
+- 🚨 **Why this is on the board at all — lesson 24, not a fresh idea.** Thursday's
+  `market_open` deferred the entry to a monitor that never fired, no midday session exists to
+  catch it (dead since 6/15, lesson 21), and OMER ran untraded. The **missed-catalyst rule**
+  requires checking it every session for three days. **This is day 2 of 3.**
+- ✅ **Thursday's tape (raw daily bars): O $16.65 H $18.14 L $16.27 C $17.35 on 13.4M shares
+  (6.4x ADV).** Close-to-close **+26.6%**; **closed at 58% of the day's range.**
+  **Lesson 4 passes — but weakly.** Above the midpoint ✓, so the second-day rule is live; but
+  it gave back 43% of the intraday range off $18.14. This is not QNST's 90% conviction close.
+  ⚠️ Honest ambiguity: the *opening gap* was +21.4%, close-to-close was +26.6% — the ">25%
+  yesterday" leg of the second-day rule clears on the close-to-close read, not on the gap.
+- ✅ **It is FADING premarket — $16.92, −2.5% vs the $17.35 close** (thin, indicative only).
+  **This is a feature.** It brings the entry back toward Thursday's planned $16.39 rather
+  than forcing a chase through $18.14, and it is comfortably inside the second-day rule's
+  "within 10% of prior close" zone (ceiling $19.09). It also means **the continuation is not
+  yet confirming** — hence the hard go/no-go levels below.
+- ✅✅ **Ladder re-struck at the new entry and STILL uncapped by ~55%** (lesson 11a/11d, now
+  3-for-3). Consensus readings **$44.54 (11 analysts) / $38.00 (2) / $33.00 (3)**. Against a
+  $17.00 entry: **+15% ($19.55) and +25% ($21.25) both sit far below even the LOWEST reading
+  ($33.00)**. ⚠️ Per lesson 11b these are undated — but a 55% gap is not a rounding question.
+  This is the opposite of the HLIT/QNST/CRSR pattern.
+- ✅✅ **Short float clears on all three sources**: **19.69% / 22.02% / 24.15%** of a 69.7M
+  float (12.9–15.9M shares short) — all >15% (lesson 9). No low-float leg (float is 96% of
+  shares out).
+- ✅✅ **Dilution structure re-checked, and the named trigger has NOT fired.** The 8/13
+  market_context trigger was "if an offering is announced, the thesis is broken — exit, do
+  not wait for the stop." **Searched: no offering, no ATM draw announced 8/13–8/14.**
+  Standing structure is unchanged and is the best on any Rocket P1 to date: ~**$132M cash**,
+  2026 converts **matured and paid in full 2/15**, 9.50% notes down to **$40.3M** and still
+  being retired, **$100M buyback live with 0.5M shares actually bought in Q2 at $11.70**.
+  🚨 The **$150M ATM (renewed 2025-11-14) remains undrawn** — category (iii) per lesson 6a, a
+  named risk to size around, mitigated because you do not ATM into your own buyback.
+  ⚠️ A web search is not an EDGAR check; treat as clean-but-not-audited.
+- ✅ **Universe (8/14)**: NasdaqGM ✓ | price $17.35 ✓ | cap **$1,256M** ✓ | ADV **2,085,601**
+  — clears the 300k gate 7.0x ✓ | next earnings 11/12 (+90d) ✓. **Lesson-12 cap check:
+  72.4M sh × $21.25 (+25%) = $1,538M — clears the $2B lid by 23%.** (Contrast HLIT, killed
+  at $2.007B.)
+- ⚠️ **Overhead has moved.** Thursday's write-up named $17.65 (the old 52-wk high) as the one
+  shelf; **the stock traded clean through it to $18.14 and then closed back under it.** The
+  live resistance band is now **$17.65–$18.14**, and it sits between the entry and target one.
+- **ENTRY — day-2 continuation, decided at 9:45–9:50 on raw 5-min bars** (lesson 10/16).
+  Reference **$17.00**; do not chase above **$18.14** (buying through the prior day's high on
+  day 2 is the chase, not the entry).
+  - 🟢 **GO**: 9:45–9:50 base holds **above $16.85** on **>0.75x avg 5-min volume**.
+  - 🔴 **NO-GO, stand down for the day**: any break below **$16.27** (Thursday's low) —
+    that invalidates the day-2 continuation outright. Also no-go if the base forms on
+    <0.75x volume; a fading gap on dead volume is a round trip in progress.
+- **Stop $15.81** (7% below a $17.00 fill) — note this sits **below Thursday's entire range**,
+  which is good structure. **Targets**: +15% **$19.55** sell 1/3 | +25% **$21.25** sell 1/3 |
+  trail the final third. Take the first third *into* the level (MRLN lesson). Target one
+  requires clearing the $17.65–$18.14 band.
+- **Size** ✅ verified via `alpaca_client size OMER 17.00 15.81`: **28 sh = $476.00 (14.9% of
+  slice)**, risk $47.83. Re-strike as `int(478.27/fill)` at the actual fill. Risk-based sizing
+  allows 40 sh; **the 15% cap binds.**
+- ⚠️ **Funding**: notional slice cash $304.50 does not cover $476.00. **Sell ~0.565 sh of IWM
+  (~$171.50 @ $303.48)** — fractional is legal on the stopless core only; **the satellite must
+  be whole shares** (lesson 18).
+- 🚨 **EXECUTION MANDATE (lesson 24): make the call at 9:50 and WRITE IT DOWN.** Whatever
+  happens — filled or stood down — `market_open` must log an explicit GO or NO-GO with the
+  observed 5-min bar. **Do not defer this to a monitor.** There is no midday session to catch
+  a silent failure, and this is the second consecutive session that flaw could cost the trade.
+- **Conviction: HIGH.** **Risks**: (1) **it is day 2 and 3.4% above Thursday's planned entry**
+  — the trade is genuinely worse than it was, and the premarket fade may be the start of the
+  round trip rather than a gift; (2) **launch-quarter revenue is lumpy** — $32.2M may include
+  specialty-pharmacy stocking, and a Q3 sequential decline breaks the thesis outright (this
+  is the real bear case, not the balance sheet); (3) **single-product concentration**;
+  (4) the undrawn $150M ATM; (5) **$17.65–$18.14 resistance between entry and target one**;
+  (6) **weekend hold on a small-cap biotech** — Friday entry means two days of headline gap
+  risk with no stop protection overnight.
+
+### PRIORITY 2 — CURI (MEDIUM) — passed its second-day gate; the alternate, not a second position
+
+**CuriosityStream.** Thursday's watch item, and **it cleared the test that was set for it.**
+
+- ✅ **The 8/13 gate was: "valid only if it closes above the day's midpoint." It did.**
+  Raw bars: **O $3.58 H $4.31 L $3.57 C $3.99 on 20.3M shares** — **57% of range**, +42.5%
+  close-to-close. Above the midpoint ✓ (weakly, like OMER). Premarket **$4.00, flat**.
+- ✅ **The sub-$3 block has cleared, and properly.** At $3.99 it now **PASSES `eligibility`
+  on its own last close** (not merely on a gap): price $3.99 ✓ | cap $237M ✓ | ADV 490,212 ✓
+  | float 40.3M of 59.3M ✓. Per lesson 10 it is 33% above the $3 floor, not within 5% of it.
+- ✅ **Catalyst is a genuine beat-and-raise** — the version that works (Week-32 theme). Record
+  Q2: revenue **$23.2M (+22%)**, **licensing revenue +48% YoY to $14.1M** on an 880B-token
+  private code corpus, gross margin **53% → 73%**, **net income $8.9M (+1,133%)**, adj EBITDA
+  **$11.4M (+300%)**, **full-year outlook raised** to $77–82M.
+- ✅ **Dilution: clean, and the good kind** (lesson 5/6a). **No outstanding debt**, and the
+  company is a **net returner of capital** — a $5M quarterly dividend paid in June plus
+  **$600k of buybacks in the quarter**. Category (iv) or better.
+  ⚠️ **But the cash balance is genuinely thin: $10.9M**, guided to $17–22M by year-end,
+  against a dividend running ~$20M/yr. That is not dilution today; it is what *becomes*
+  dilution if licensing revenue disappoints.
+- ⚠️ **The ladder is HALF-capped, and the fresh action was a CUT** (lesson 11a/11c). Consensus
+  **$5.33** (low **$5.00**, high $6.00); another read $5.50. **Post-print and dated, an analyst
+  TRIMMED to $5.00 from $5.50, citing "lumpy" licensing** — the exact bear case. Against a
+  $4.05 entry: **+15% ($4.66) clears the whole street comfortably**, but **+25% ($5.06) lands
+  right on top of the freshest, lowest, just-lowered target.** Not the QNST kill (where target
+  *one* sat above the street) — but target two is not a real leg.
+- ❌ **No squeeze leg**: short interest **1.66M shares = 4.3%**, and *falling* (−22.1% from
+  7/31). Well under the 15% bar (lesson 9). Absent, not disqualifying.
+- **Entry**: second-day rule — gapped >25% ✓, closed above midpoint ✓ → **today's open is a
+  valid entry, within 10% of $3.99 (ceiling $4.39)**. Reference **$4.05**; do not chase above
+  **$4.31** (Thursday's high). **Stop $3.77** (7%). **Targets**: +15% **$4.66** sell 1/3 |
+  **+25% $5.06 — treat as a trail-out, not a scale-out**, since it sits on the fresh target.
+- **Size**: 118 sh = $477.90 (15.0%) at $4.05 — but see below.
+- 🚦 **CURI is the ALTERNATE, not a second position.** Both P1 and P2 are the same trade
+  structurally — a day-2 continuation on a post-earnings small-cap gap that closed
+  mid-range — so holding both is one correlated bet at double size, into an unresolved
+  10:00 UMich print. **Enter OMER. Take CURI only if OMER hits its $16.27 no-go**, and never
+  both on the same session.
+- **Conviction: MEDIUM.** **Risks**: capped target two on a just-lowered street target; $10.9M
+  cash against a ~$20M annual dividend if licensing is lumpy (the analyst's stated reason);
+  the $2.80 pre-gap base means a full fade returns it to sub-$3 spread territory (lesson 10);
+  weekend hold.
 
 ### Dropped today — with the reason
 
 | Symbol | Verdict |
 |---|---|
-| 🚨 **HLIT** | **STRONGEST HEADLINE ON THE BOARD, KILLED BY THE CAPPED LADDER** — the QNST/CRSR pattern, exactly. The print is genuinely excellent: EPS **$0.24 vs $0.12 est**, revenue **$173M vs $112.9M**, broadband revenue **$133.5M +54%** and above its own guide, **FY26 revenue raised a second time to $505–525M** (from $475–495M), adj EPS to **$0.67–0.75**, **backlog + deferred revenue $587.6M, +71%**, video business divested in June = pure-play broadband. Premarket **$14.80 (+23.3%)**. **Then the ladder: analysts raised the mean to just $15.29 (from $12.71) — only +3.3% above the premarket price. Jefferies went to $15 from $10 but KEPT A HOLD; Barclays to $15 from $11.** Rocket's **+15% ($17.02) and +25% ($18.50) both sit above the entire fresh, dated analyst complex** — a raise that still caps the trade below target one is not an upside leg (lesson 11a). **Second, independent knock**: lesson-12 cap ceiling — 108.5M shares × $18.50 = **$2.007B**, just through the $2B lid (clears only on a fill ≤$14.75). **Two rules, same answer.** Also no squeeze leg (float 102.5M of 108.5M = 95%) and it is gapping out of a downtrend (−12.2% on the month, below MA50 $13.36). Skip. |
-| ⏳ **CURI** | **REAL CATALYST, BUT NOT TRADEABLE TODAY — second-day watch (missed-catalyst rule).** Q2 was a record: EPS **$0.15**, revenue **$23.2M**, **licensing revenue +48% YoY to $14.1M** on AI-training data (a **880B-token private code corpus**), gross margin **53% → 73%**, adj EBITDA **$11.4M (+300%)**, opex −24%, **full-year outlook RAISED**. Genuine beat-and-raise. **Two hard blocks**: (1) **the gap is +35.8%** ($2.80 → $3.80) — **rule 2 makes it second-day entry only**, never a day-one chase; (2) **the base price is $2.80 — a sub-$3 stock** (lesson 10), and it FAILS `eligibility` on last close; it clears the price gate only *because* it gapped, and any fade puts it straight back under $3 with the spreads that come with it. Cap ✓ $225M at $3.80, ADV ✓ 442,608, float 40.3M. **Action: check it Friday for a second-day entry — valid only if it closes today above the day's midpoint (lesson 3/4).** |
-| **MGNX / IPWR / INV** | ❌ **Earnings-week bar — all three report TODAY 8/13** and all three were moving premarket (+5.7% / +5.9% / +7.5%) *before* the print, which is precisely what the rule exists to stop. Re-screen after each prints, never before. Gates otherwise pass on all three; IPWR is notable for a **9.8M float**. |
-| **SECZ** | ❌ **−15.0%** — a decliner, not a long setup. No work done. |
-| **KLC / NMAD / COUR / CXDO / QTRX / NAGE / ORN / JBI / ACVA / WWW** | ❌ Gates aside, all moved **+3–7% on 0.0–0.2x RelVol** with no identifiable catalyst. Lesson 1: no catalyst = no trade. Not researched further. |
-| **BNAI / SION / QMCO / WOLF / JFB** | ❌ Standing **HARD AVOID** / no-catalyst list — surfaced again, still excluded. JFB is the same unexplained micro-float move as yesterday, still with no catalyst. |
-| **VELO** | ❌ **RESOLVED — closed 8/12 for −1.18%.** Do not re-enter. The catalyst write-up was right and the tape still killed it; that produced **lesson 4a**. |
-
-**Still barred by the earnings-week rule — re-screen after the print**: **MGNX (8/13)**,
-**IPWR (8/13)**, **INV (8/13)**, **SPRY (8/13)**.
+| 🚨 **CAPR** | **BIGGEST MOVER ON THE BOARD (+98% → $8.34, 60x RelVol) — AND A HARD NO, ON THREE INDEPENDENT GROUNDS.** The catalyst is real: after Thursday's close Capricor laid out a regulatory path for **deramiocel** (DMD cardiomyopathy) and **the FDA signalled willingness to accept an amended application**, following the 7/27 briefing document that attacked the HOPE-3 statistics and a **9–3 AdCom vote against efficacy**. Premarket now $8.70 (+107%). **(1) Rule 2: a >35% gap is second-day-only** — never a day-one chase, so it is untradeable today regardless. **(2) The PDUFA date is 2026-08-22 — INSIDE a 1–5 day hold.** Entering Monday means carrying an unhedged binary FDA decision that an advisory committee just voted down 9–3. That is a coin flip, not a momentum trade, and no stop protects a halt-and-gap. **(3) Structure**: a clinical-stage biotech that just doubled will raise equity into the strength — the textbook lesson-6a overhang — and there are **multiple securities-fraud class actions** alleging misrepresentation of the trial statistics (integrity flag). **Watchlist only. Rocket does not trade binaries; it trades continuation.** Re-screen *after* 8/22, when it is a fact rather than a bet. |
+| ❌ **IMXI** | **MERGER-ARB — the pinned-price bucket, same as HZO. Add to the standing skip list.** The +25.0% premarket ($11.70 → $14.63, 11.9x RelVol) is real news: **NYDFS approved Western Union's acquisition**, the last major regulatory gate. But the deal is **all-cash at $16.00/share**, which is a *hard ceiling*, not a target. **Rocket's +15% ($16.82) sits ABOVE the deal consideration** — the trade cannot reach its own first scale-out by construction. This is the capped-ladder logic (lesson 11a) in its purest form: the "analyst target" is a contract. No momentum edge. |
+| ❌ **MGNX / IPWR / INV** | **The earnings-week bar lifted, and all three then failed lesson 4 on the same day — a clean resolution.** All reported 8/13; all closed **weak in their own range**: MGNX **25%** ($4.08, H $4.31), **IPWR 11%** ($4.26 — and a violent reversal: opened $4.76, ran $5.25, closed $4.26, i.e. it round-tripped the entire print), **INV 36%** ($3.60). Day-one distribution on all three. The rule that barred them Thursday saved the work; the range check now kills them outright. |
+| ❌ **SPRY** | Reported 8/13 and **the tape did not care** — $6.05 → $6.10, **+0.8%**, on 1.97M shares vs a 2.03M ADV. No gap, no volume expansion, no catalyst edge. A print that moves nothing is not a catalyst. |
+| ❌ **VOGX** | +10.3% to $15.54 with a **3.4M float (24% of shares)** — the lowest float on the board and normally exactly what Rocket wants. **But it is a brand-new listing with two days of bars**, no identifiable catalyst, and **Thursday's real volume was 81,000 shares** against a "382,500 ADV" computed from a two-day sample. **Lesson 13 in reverse**: the ADV gate reads PASS off unreliable data. A 3.4M float on 81k of daily volume is not a squeeze setup, it is a stock you cannot exit. No catalyst = no trade (lesson 1). |
+| ❌ **CVRX / SECZ** | Both already eliminated and neither has a new catalyst. CVRX (+6.5% to $3.13) died on a guide cut and is now a sub-$3.20 stock (lesson 10). SECZ (+5.8%) was **−15.0% yesterday** — chop, not a trend. |
+| ❌ **WHWK / PUSA / TDAY / IMMR / JFB / MAX / DUOT / OBIO / FIRY / UNCY / ELDN / EGY / EMBC / AMPX / DFH / BW** | ❌ All moved **+2.5–5.8% on 0.0–0.6x RelVol** with no identifiable catalyst. Lesson 1: no catalyst = no trade. Not researched further. JFB is the same unexplained micro-float move for the third straight session, still with no catalyst — **standing avoid**. BW and DFH also fail or crowd the lesson-12 cap ceiling ($1.44B / $1.43B). |
+| ❌ **TSSI / AMPG / MVIS / IDN / YSS / ZNTL** | **Decliners** (−12% to −28%). Not long setups. No work done. |
+| ❌ **SANA / UMAC / BRUN / RCAT** | Cap at/over the $2B lid or approaching it at target (SANA $1.10B but no catalyst; UMAC $1.54B; BRUN $1.96B — fails lesson 12 on any target; RCAT $1.67B). |
 
 **Eliminated Week 32/33 — do not re-litigate**: ASPN, EVH, MRAM, SVCO, CVRX, NNBR, PUBM,
 EMBC, OABI, TBCH, GTN, CRSR, ARCT, PIII, RILY, HZO, APEI, QNST, LENZ, HYLN, FF, VELO;
-APPS, FIGS, BW, HLIT (lesson-12 cap ceiling).
+APPS, FIGS, BW, HLIT (lesson-12 cap ceiling); MGNX, IPWR, INV, SPRY (lesson-4 range check).
 
 ---
 
@@ -132,7 +191,11 @@ fails US-domicile, permanent), **STI** (going concern, defaulted note), **TLSI**
 investigations + guide cut), **FULC / CAST** (going-concern pumps), **BNAI** (promotional AI
 hype), **SPCE** (theme dead).
 
-**Merger-arb / pinned price — no momentum edge**: **HZO** ($53.00 all-cash, Safe Harbor).
+**Merger-arb / pinned price — no momentum edge**: **HZO** ($53.00 all-cash, Safe Harbor),
+🆕 **IMXI** ($16.00/sh all-cash, Western Union — NYDFS cleared 8/13).
+
+**Binary event pending — do not hold into it**: 🆕 **CAPR** (PDUFA **2026-08-22** after a 9–3
+negative AdCom; re-screen only after the decision is a fact).
 
 ---
 
@@ -140,18 +203,41 @@ hype), **SPCE** (theme dead).
 
 Full rules live in CLAUDE.md and `lessons_learned.md`. Only this week's live numbers here:
 
-- **Sizing**: slice $3,179.09 | 15% max **$476.86** | 1.5% risk **$47.69** | weekly count 1/5.
-- **CPI resolved in line (core 2.5%, coolest since 3/2021).** The one-satellite restriction
-  has lapsed. **PPI 8:30 ET today** (forecast +0.2%) — confirm before sizing; hot ≥~0.5% → no
-  new satellite, hold the core.
-- **Dilution check**: ✅ OMER — net cash ~$132M, converts down to $40.3M, **active buyback**;
-  the $150M ATM is undrawn and is the named risk, not a disqualifier.
-- **Lesson-12 cap check**: OMER clears wide (+25% ⇒ $1,483M). **HLIT fails at $2.007B.**
-- **Funding**: notional cash $296.70 is short of a full satellite. **Sell ~0.589 sh of IWM**;
+- **Sizing**: slice $3,188.47 | 15% max **$478.27** | 1.5% risk **$47.83** | **weekly count
+  1/5, counted by hand** (lesson 25 — the script prints 0 and its cap says 3; both wrong).
+- ✅ **PPI resolved benignly** — inferred from the tape (10-yr −0.88% to 4.64%, VIX 14.57),
+  not a search. The "hot print" brake did not fire.
+- 🗓️ **UMich prelim 10:00 ET is AFTER the open** — the first unresolved-at-entry print of the
+  week. Forecast 54.1 vs 55.2. Size normally, do not widen the stop for it.
+- **Dilution check**: ✅ OMER — no offering announced 8/13–8/14, net cash ~$132M, active
+  buyback; the undrawn $150M ATM is the named risk. ✅ CURI — no debt, dividend + buyback,
+  but only $10.9M cash against a ~$20M/yr dividend.
+- **Lesson-12 cap check**: OMER clears at $1,538M (+25%). CURI clears at $300M.
+- **Lesson-11 ladder check**: OMER **uncapped by ~55%** ✓✓. CURI **capped at target two** by a
+  freshly *lowered* $5.00 target ⚠️.
+- **Funding**: notional cash $304.50 is short of a full satellite. **Sell ~0.565 sh of IWM**;
   the satellite itself must be whole shares.
+- 🚨 **Lesson 24 — the binding rule today**: `market_open` must log an explicit **GO or NO-GO
+  with the observed 9:45–9:50 bar**. No monitor deferral. No midday session exists to catch it.
 - **Targets**: +15% (lock 1/3), +25% (lock 1/3), trail the final 1/3. **Log every exit
   same-day** (lesson 19), and **run the close-in-range check at market_close even on a
   same-day entry** (lesson 4a).
+
+## Watchlist — added intraday 2026-08-14 (market_open Step 4 scan)
+
+- 🆕 **ETON** — genuine beat-and-raise: Q2 revenue +99% YoY to $37.6M (vs $26.88M est),
+  adj EPS $0.43 (vs $0.15 est), adj EBITDA margin 43% (from 16% a year ago), FY26 revenue
+  guidance raised to $145M+ (from $120M+), H.C. Wainwright PT raised to $65 (from $57).
+  **Not tradeable today — up +37.6% intraday, a >35% gap (rule 2), second-day only.**
+  Mcap $1.54B — check the +25%-target cap clearance (lesson 12) before any second-day
+  entry; $56 entry × 1.25 ≈ $70 implies ~$1.9B mcap, close to the $2B lid, re-verify share
+  count before sizing. Check Monday 8/17 for a valid second-day setup (closed-above-midpoint
+  gate applies).
+- ❌ **NMAX** (Newsmax) — passed on. Q2 EPS beat ($0.02 vs −$0.03 est) but guidance was
+  **reiterated, not raised** ($212–216M FY26, unchanged) — a beat-without-raise, the same
+  pattern that stopped out FF (lesson: "Beat-without-raise + no analyst coverage — the
+  right knocks"). Analyst coverage is thin (2 analysts, $18.50 PT, undated per lesson 11b)
+  and unreliable to lean on. Not researched further.
 
 ## Recently Resolved Ideas
 
