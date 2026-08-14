@@ -140,3 +140,26 @@ Archived 2026-07-31 (Week 31 review).
 - ✅ **Second-day entry framework WORKS**: gapped +32% after-hours on a USSOCOM defense milestone; entered next morning at $8.88 within 10% of prior close; hit $10.25 (+15%).
 - ✅ **Defense catalysts are reliable** — government milestones on aerospace/defense small caps deserve full size.
 - ❌ **PROFIT-TAKING DISCIPLINE**: hit the +15% target and was NOT scaled, then round-tripped to a $8.90 exit while the stock closed $9.10. **Sell 1/3 at +15% and 1/3 at +25%, immediately, per plan.** Targets exist to be used.
+
+---
+
+## Archived 2026-08-14 (Week 33 review) — trade lessons rotated out of lessons_learned.md
+
+### 2026-08-07 — Week 32: a scratch trade and a −0.49% plumbing leak
+- ❌ **The week's entire underperformance was infrastructure, not analysis.** Idle cash from whole-share-only rebalancing cost −0.49%; the factor bet was ~nil (IWM − SPY = +0.05%) and the only satellite cost −0.13%. **Every skip was validated by the tape.**
+- ✅ **Two root causes found and fixed**: Finviz renamed `Change` → `Change %` (five sessions of zeroed screens), and fractional orders now close the rebalance band.
+- ⚠️ **CSTL's stop filled at 2:32 PM and was not seen until EOD** — the midday routine has been dead since June 15.
+
+### 2026-08-06 — CSTL (−$0.75, −0.17%, Rocket's third closed trade)
+- ✅ **Entry discipline worked perfectly.** Held on ice from 7/31 when it closed *below* its own $28.60 trigger; bought only on the 8/03 reclaim on ~3x volume with a rising base. Dilution check run and cleared pre-entry.
+- ➖ **Neutral outcome, no rule change.** The +15% target was never reachable (high +5.8%), so there was nothing to scale. The trail did exactly its job after a post-earnings high.
+- 📌 Retrospective note added 2026-08-14: CSTL was a **same-day entry**, and is now counted as the first of Rocket's 0-for-3 same-day record.
+
+### 2026-07-31 — Week 31: zero satellites, and the skips were right
+- ✅ **A missed setup is not automatically a missed trade** — CSTL's trigger was a hold above $28.60 and it closed $28.00. The rule would have kept Rocket out regardless of the late session.
+- ❌ **The only real miss was AMCX** — it held every level the plan named and closed at its 52-week high. Lost to infrastructure, not analysis.
+
+### 2026-06-05 — MRLN (+$33.40, +0.23% position, Rocket's first trade)
+- ✅ **Second-day entry framework WORKS**, and **defense/government milestones deserve full size.**
+- ❌ **PROFIT-TAKING DISCIPLINE**: hit +15% and was not scaled, then round-tripped. **Sell 1/3 at +15% and 1/3 at +25%, immediately, per plan.**
+- 📌 Retrospective note added 2026-08-14: MRLN is the first of Rocket's 2-for-2 **second-day** record.

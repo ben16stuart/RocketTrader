@@ -4,6 +4,43 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-14 — WEEK 33 SUMMARY (weekly review) — 3 satellites opened, 2 closed, 0 winners
+
+**Satellite trades**: 3 opened (FF 8/11, VELO 8/12, OMER 8/14), 2 closed, 1 open.
+**Win rate 0/2. Realized P&L −$17.64. Avg R −0.25R** (FF −0.34R on $36.00 planned risk;
+VELO −0.16R on $34.20). No winners → no avg-winner figure. **Core rebalances: 3** (8/10 buy
+0.5031 IWM; 8/14 sell 0.5822 to fund OMER; 8/14 sell 1.073 rebalance) — these do not count
+against the 4-satellite or 5-trades/week caps.
+
+**Week performance (hand-built book, per lessons 23/23a — NOT the slice)**: $3,135.02 →
+**$3,152.16 = +0.55%** vs **SPY +0.40%** (773.26 → 776.34). **Rocket vs SPY +0.15%.**
+IWM +1.17% (301.56 → 305.09).
+
+**Attribution** — factor **+0.70%** (IWM − SPY +0.77% × ~90.7% core weight), cash drag
+**−0.04%**, satellite **−0.52%**. **Real alpha −0.52%** — the worst satellite week since the
+core sleeve existed. **The entire +0.15% headline was IWM beta, not skill.**
+
+⚠️ **Since the 7/20 rebase: Rocket +3.84% vs SPY +4.62% = −0.78%.** The chained SPY figure
+matches `market_data.py spy 2026-07-20` exactly (+4.62%), validating the hand-built chain.
+`portfolio_state.md` reads **+0.10%** — **88bp of flattery, up from 67bp last week.**
+Cumulative real alpha since rebase: **−0.65%**, never yet positive. See lesson 23a: the
+*daily* notes also drifted back onto the contaminated slice all week.
+
+**Rules shipped this week** (affect future orders):
+- **Beat WITHOUT a raise is a DISQUALIFIER**, not a demotion (3-for-3 fader: SVCO, CVRX, FF).
+- **P2 is not a substitute for a failed P1** — a failed P1 means no satellite, not the next
+  name down. FF exists only because a slot was open.
+- **An un-runnable filter is a FAIL, not a pass** — FF had no analyst coverage, so the ladder
+  check could not run, and its absence was scored as an absence.
+- **Opening-range gate**: if the 9:30–9:45 range exceeds 10% of price, defer to day 2.
+- **The 9:45–9:50 bar must close in the upper half of its own range.**
+
+**Under the core/satellite regime Rocket is 0-for-3 all-time** (CSTL, FF, VELO). Same-day
+entries 0-for-3; second-day entries 2-for-2 (MRLN, OMER). Full write-up:
+`weekly_reviews/2026-W33.md`.
+
+---
+
 ## 2026-08-14 — CORE REBALANCE, IWM SELL (market_close)
 
 - Sold 1.073 sh IWM @ $304.96 = $327.22, filled 19:59:28 UTC.
