@@ -4,19 +4,24 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-08-14 Friday close (Week 33 wrap)  ← CURRENT
+## Snapshot — 2026-08-17 Monday premarket  ← CURRENT
 
 ### Where things stand
 
 | Metric | Level | Read |
 |---|---|---|
-| ✅ **VIX** | **14.57** | Fifth straight session under 15. Far under the 22 pause threshold — **no volatility brake on entries.** |
-| ✅ **10-yr** | **4.64%** | **11bp from the 4.75% trigger — the widest cushion of the week.** Tested by both CPI and PPI and never came into play. |
-| **SPY** | **776.34** | +0.40% on the week |
-| ✅ **IWM** | **305.09** | **+1.17% on the week — IWM beat SPY by 0.77%** |
-| ⚠️ **Russell-red-while-S&P-green** | grazed −0.01% Fri | First time it has come close. **Not fired.** Watch, do not act. |
-| **Brent / WTI** | 87.15 / 81.82 | Stabilised, $2.45 below Tuesday's $89.60 scare. Neutral. |
-| ⚠️ **Gold** | 4,412 | Re-accelerating (+1.11%) but *against* falling yields and flat oil — a poor inflation confirmation. Not actionable alone. |
+| ✅ **VIX** | **14.98** (+5.12%) | Still far under the 22 pause threshold — **no volatility brake on entries.** But up 5% and the *lowness itself* is now a flagged risk: a weak VIX means little downside hedging is in place ahead of the Fed. |
+| 🚨 **10-yr** | **4.70%** (+1.19%) | **Only 5bp from the 4.75% trigger — cushion cut from 11bp to 5bp over the weekend.** 10s and 30s both rose 5bp Friday. Schwab lifted its expected range to **4.25–4.75%**, i.e. the trigger is now the top of the *consensus* range, not a tail. **Closest this has come. Check it before any entry.** |
+| **SPY** | **776.34** | S&P futures **+0.13%** |
+| **IWM** | **305.09** | Russell futures **−0.11%** |
+| 🚩 **Russell-red-while-S&P-green** | **SHOWING in futures** | Friday it grazed −0.01%; this morning Russell fut is red while S&P fut is green. **Still pre-open and not confirmed on the cash tape — do not act, but this is the second straight session and Rocket's core is ~76% IWM.** |
+| ⚠️ **Brent / WTI** | **89.51 / 83.14** (+1.12% / +0.90%) | **Back at Tuesday's $89.60 scare level**, having been $2.45 below it Friday. Round-tripped in one weekend. |
+| ⚠️ **Gold** | **4,451** (+1.62%) | Third session re-accelerating. Now rising *with* yields and *with* oil — unlike Friday, the inflation read is no longer contradictory. Watch, not actionable alone. |
+
+**Net**: nothing here stops a trade — VIX is the only hard gate and it is nowhere near it.
+But **every secondary indicator moved the wrong way over the weekend** (yields toward the
+trigger, oil back to the scare level, gold accelerating, Russell lagging). That argues for
+honouring the one-satellite discipline rather than adding two.
 
 ### Week 33's two big prints both resolved benignly
 
@@ -42,14 +47,24 @@ rather than failure.** Real alpha for the week was **−0.52%**.
 
 | Day | Event | Structure |
 |---|---|---|
-| Mon 8/17 | NAHB housing index | ✅ Quiet — **the only fully clean session**, and it is ETON's day-2 window |
-| Tue 8/18 | Building permits / housing starts | Pre-open, benign |
-| 🚨 **Wed 8/19, 2:00 PM ET** | **July FOMC minutes** | **INTRADAY.** Hits open positions, not entry decisions. |
-| Thu 8/20 | Jobless claims, Philly Fed, flash PMIs, existing home sales | Pre-open |
-| 🚨 **Fri 8/21** | **Jackson Hole symposium opens** | Headline risk across the whole session |
+| Mon 8/17 | NAHB housing index (10:00 AM, after the entry window) | ✅ Clean — ETON's day-2 window |
+| Tue 8/18 | Building permits / housing starts | ✅ Pre-open, benign — OABI's day-2 window |
+| 🚨 **Wed 8/19, 2:00 PM ET** | **July FOMC minutes** | **INTRADAY. The only real event of the week.** Hits open positions, not entry decisions. |
+| Thu 8/20 | Jobless claims, Philly Fed, flash PMIs, existing home sales | ✅ Pre-open — **clean, now that Jackson Hole has moved** |
+| Fri 8/21 | Retail earnings tail | ✅ **Clean — see the correction below** |
 
-**Standing call: one satellite into Wednesday, not two**, and take the first third promptly
-at +15%. Anything entered Mon/Tue is open through the minutes.
+🔴 **CALENDAR CORRECTION (8/17): Jackson Hole is Aug 27–29, NOT Friday 8/21.** Friday's
+Week-34 table put it this week and that was wrong. **Week 34 therefore has exactly one
+scheduled risk — Wednesday's 2:00 PM minutes — and Thu/Fri are clean entry days.**
+Jackson Hole risk belongs to **Week 35**, alongside Nvidia earnings the week after.
+
+**Standing call, restated with the corrected calendar: ONE satellite into Wednesday, not
+two** — and OMER already occupies that slot. So **Mon and Tue share a single new-satellite
+budget**; the runner-up defers to **Thu 8/20 or Fri 8/21**, which the correction reopens.
+Take the first third promptly at +15%. Anything entered Mon/Tue is open through the minutes.
+
+⚠️ **Rate path**: traders have cut the odds of a September **hike** to under one-third, but
+it is a live enough question that the minutes matter and yields are pressing 4.75%.
 
 ⚠️ **Week 33 proved this structural read matters.** Friday's UMich landed 10 minutes *after*
 the 9:45–9:50 entry window — the only entry of the week placed into an unresolved print. It
@@ -72,6 +87,17 @@ exactly what Wednesday repeats at larger scale.
   ~12 names and it separated survivors from corpses every time — CURI closed at **4% of
   range** and fell 11%; ETON closed at **87.6%** and is the P1 into Monday.
 - 🚨 **Fresh, dated analyst ladders remain the single best entry filter — 4-for-4.**
+  ✅ **Lesson 11's "targets are stale on a print day" is now confirmed in the other
+  direction (8/17).** ETON read *capped* on Friday against a $62.33 consensus struck at a
+  $41.58 price. Re-struck Monday on dated post-print actions (H.C. Wainwright $65→$70 on
+  8/14, Craig-Hallum $62→$76 on 8/13), consensus is **$71** and the name clears its gate.
+  **The filter's job is to kill bad setups, not good ones — always re-strike after a print
+  rather than skipping on a stale ladder.**
+- 🆕 **EDGAR beats a web search for rule 8, and it grades the *speed* of the risk.** A name
+  with **no S-3 on file cannot do a fast takedown** (ETON) — materially safer than a name
+  with an **effective undrawn shelf**, which can price overnight (OABI, OMER). Same lesson-8a
+  category on paper, very different overnight exposure. Check EDGAR `submissions` directly;
+  it is one call and it is definitive where a search returns nothing.
 - ⚠️ **The $2B universe ceiling is now binding on the best names.** APPS, BW, HLIT, ETON and
   UMAC were all killed or one-rung-capped by it in two weeks. **Escalated to the user as an
   open question. Not overridden.**

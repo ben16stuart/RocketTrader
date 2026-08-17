@@ -694,3 +694,52 @@ exposure calculation trusting the book was overstating deployed capital.
 do not follow the agent — open positions must be explicitly closed out or transferred
 in the book at the moment the account changes, or they become permanent phantoms.
 
+---
+
+## 2026-08-17 — ETON BUY (market_open) — Satellite #2
+
+- **Shares**: 7 @ $60.65 (filled ~13:47 UTC / 9:47 AM ET)
+- **Catalyst**: Q2 earnings beat-and-raise reported 8/13 — EPS $0.35 vs $0.12, revenue
+  $37.59M vs $27.66M (+99% YoY), adj EBITDA margin 43% from 16%, FY26 raised to
+  "exceed $145M" (from $120M+). Friday closed +44.3% at 86% of range on 4.6x volume.
+  **Second-day continuation entry** per lesson 2/rule 3 (gapped >25%, closed far above
+  midpoint) — today's open is the entry, not a fresh spike chase.
+- **Gate checks at entry**: opening range from premarket $59.33 through the 9:45–9:50
+  window stayed inside ~2% of price (well under the 10% rule-2a ceiling), price
+  climbing steadily into the print with no whipsaw — a clean base, not a fade
+  (rule 2b). Volume pace ~24% of ADV inside the first 15 minutes, consistent with a
+  confirming surge once annualized against normal opening-minute pace.
+- **Hard no-chase ceiling**: $60.80, derived from the $2B market-cap lid at 28.6M
+  shares out (rule 13) — a +15% target only clears $2B if entry ≤ $60.80. Filled at
+  $60.65, inside the ceiling by $0.15.
+- **Analyst ladder**: dated post-print consensus $71.00 (4 analysts, H.C. Wainwright
+  $70 and Craig-Hallum $76 both raised after the print) — clears rule 11.
+- **Dilution check**: EDGAR shows no S-3/424B5/S-1 in ETON's recent filing history;
+  operating CF +$15.1M, FCF +$3.3M, cash $26.8M vs debt $29.0M — cleanest dilution
+  profile screened to date (rule 8).
+- **Short float**: 6.7% — below the 15% squeeze bar, sized normally, no squeeze kicker.
+- **Stop**: 7% trailing, placed immediately, hwm $60.475, initial stop $56.24
+- **Targets**: sell 4 sh at $68.23 (+15%), trail the remaining 3 sh — **no +25% target
+  set**. $74.16 fails both the $71 consensus and the $2.12B cap lid (rule 13), so the
+  second rung is capped; this is a one-rung name.
+- **Size**: 7 sh = $424.55 (13.4% of Rocket's $3,158 slice) — cap-bound (max 7 vs
+  risk-based 11), risk ≈$30.87 (0.98% of allocated equity)
+- **Risk / what kills it**: (1) the capped upper rung caps expected payoff versus a
+  normal setup; (2) unresolved insider Form 4/144 activity (8/4, 6/23–6/26) — likely
+  routine but not verified; (3) open through Wednesday 8/19 2:00 PM FOMC minutes;
+  (4) no squeeze fuel at 6.7% short float.
+- **Slot budget note**: this fills the one Mon/Tue satellite slot per the W33-review
+  standing call — OABI (Tuesday's second-day setup) is deferred to Thu 8/20 or Fri
+  8/21 per the research log.
+
+---
+
+## 2026-08-17 — CORE REBALANCE, IWM SELL (market_close)
+
+- Sold 1.6503 sh IWM @ $304.04 = $501.68, filled 19:58:57 UTC.
+- Reason: post-ETON-entry IWM had drifted to $2,431.04 (8 sh), 15.9% of slice over
+  target and well outside the 3% band. Shared account $10,479.31 → slice $3,143.79,
+  satellite value (ETON $431.69 + OMER $468.18) $899.87, 10% buffer $314.38 →
+  target_core $1,929.54. New IWM qty ≈6.3497 sh ≈ $1,930.36 — within $0.82 of target.
+- Not a conviction trade — core rebalance only.
+

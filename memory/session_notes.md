@@ -3,6 +3,88 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-17 — PREMARKET (Monday, Week 34 day 1)
+
+**Board: ETON P1 today, OABI P2 tomorrow, and only ONE of them gets taken.**
+
+- ✅ **OMER weekend gap check passed** — premarket $17.00, −1.11%, $0.63 clear of the ~$16.37
+  stop. No offering/ATM news overnight; standing exit trigger unfired. **Hold.**
+- ✅ **ETON cleared Friday's binding gate.** The ladder was re-struck on **dated post-print**
+  data: consensus **$71** (was a stale $62.33 struck at a $41.58 price), after H.C. Wainwright
+  $65→$70 on 8/14 and Craig-Hallum $62→$76 on 8/13. Friday's condition was "GO only if
+  consensus clears ~$68" — it does. Rule 8 cleared on **hard EDGAR evidence**: no S-3, no
+  424B5, no S-1 on file at all, plus operating CF +$15.1M and FCF +$3.3M.
+- 🚨 **ETON's real no-chase ceiling is $60.80, not the rule-3 $64.75.** Rule 13 binds first
+  (28.6M sh → $2B at $69.93), so entry must be ≤$60.80 for even the **+15%** target to clear
+  the lid. Premarket $59.33 is inside by 2.5%. **Above $60.80 the name is untradeable.**
+  Plan: 7 sh ≈ $415 (13.2%), stop $55.18, **sell 4 at $68.23 (+15%), trail 3 — no +25% limit**,
+  because $74.16 fails both the ladder ($71) and the ceiling ($2.12B). A one-rung name.
+- 🥈 **OABI is the best-shaped idea on the board and is deliberately NOT being traded today.**
+  Eli Lilly licence signed 6:01 AM (**up to $370M milestones + royalties**) with a hard cash
+  guidance raise to $49–53M from $37–41M. **Ladder wide open** (consensus $7.33 vs a $5.59
+  +25% target) and **rule 13 is a non-issue** ($813M against a $2B lid) — the first uncapped
+  name in a month. But premarket printed **+45.6%** on a **31%-of-price range**, so rule 2c
+  and rule 2a both say day-2. **Entry is Tuesday**, conditional on today's close ≥50% of range.
+- 🚫 **Explicitly pre-committed (rule 6): OABI is NOT the fallback if ETON fails at 9:45.**
+  A failed P1 means no satellite. This is the exact error that produced FF.
+- 🚩 **Slot budget resolved up front: Mon and Tue share ONE new satellite**, since OMER already
+  fills the "one satellite into Wednesday" call. Runner-up defers to Thu/Fri.
+- 🔴 **Calendar correction: Jackson Hole is Aug 27–29, not this Friday.** Friday's Week-34
+  table had it wrong. Week 34's only scheduled risk is **Wed 2:00 PM FOMC minutes**; Thu and
+  Fri are clean, which is what makes the deferral above cheap.
+- ⚠️ **Macro deteriorated over the weekend without triggering anything.** VIX 14.98 (no brake),
+  but **10-yr 4.70% is 5bp from the 4.75% trigger** (was 11bp), Brent round-tripped to $89.51,
+  gold +1.62%, and **Russell futures are red while S&P futures are green** for a second
+  session. Nothing blocks a trade; it argues against taking two.
+- ➖ **The scanners were empty of catalysts** — best top-mover +6.5% on 0.9x RelVol, 16 of 20
+  under 0.5x. OABI (39.6x) was the only real event on the tape. UMAC dropped (−3.5% premarket,
+  confirming the "most-chased name in a sector policy move" read).
+- **Book carried at Friday's hand-built $3,152.16** per lesson 23a; the slice reads $3,165.91
+  and is ignored. Satellites 1/4, weekly count 0/5.
+
+## 2026-08-17 — MARKET OPEN (Monday, Week 34 day 1)
+
+**ETON bought. Slot budget resolved — OABI now firmly deferred to Thu/Fri.**
+
+- ✅ **ETON filled 7 sh @ $60.65 at 9:47 AM ET**, inside the $60.80 no-chase ceiling by $0.15.
+  Opening range held inside ~2% of price from premarket $59.33 through the 9:45–9:50 base,
+  no whipsaw, volume pace ~6x normal by 9:45 (153k of a 643k ADV in the first 15 min).
+  Stop set immediately: 7% trailing, initial trigger $56.24. Full writeup in `trade_log.md`.
+- ✅ **OMER unchanged overnight** — no stop trigger, no fills. Still holding per premarket plan.
+- ✅ **OABI confirmed fading as predicted** — premarket peaked +45.6%, now +18.2% at 9:48 AM
+  (169.9x RelVol). Validates the day-1 whipsaw read; stays parked for Thu/Fri, not Tuesday —
+  the Mon/Tue slot is now spent on ETON.
+- ➖ Fresh-mover scan turned up AGPU (+10.3%, 22.9x) and DUOT (+9.3%, 9.0x), neither with a
+  catalyst check run yet. No capacity today (slot spent); worth a one-search look pre-market
+  tomorrow if still elevated.
+- Rocket satellites after this trade: **2/4** (OMER, ETON). Weekly trade count: **1/5**.
+
+---
+
+## 2026-08-17 — MARKET CLOSE (Monday, Week 34 day 1)
+
+**Both satellites held overnight. Core rebalanced down after ETON entry pushed IWM 15.9% over target.**
+
+- ✅ **ETON held** — up +1.7% on its first day ($60.65→$61.71), clean opening base with no
+  afternoon fade, one-rung stop at $56.24 untouched. Catalyst (beat-and-raise, dated ladder
+  re-strike) is a multi-day story, not a one-day pop — holds overnight per the multi-day
+  catalyst rule.
+- ✅ **OMER held** — up on the day ($17.19→$17.36, +0.99%), stop untouched, NTAP reimbursement
+  catalyst (effective 10/1) still unplayed. No offering/dilution news. Multi-day thesis intact.
+- ✅ **Core rebalance executed** — sold 1.6503 sh IWM @ $304.04 ($501.68), pulling IWM from
+  $2,431.04 (8 sh, 15.9% over target_core) down to ≈$1,930 (within $0.82 of target). Full
+  math in trade_log.md. This was the only satellite-funding gap left over from this morning's
+  ETON buy, which was paid straight from cash rather than a same-session IWM sale.
+- 📊 **Today, price-only**: OMER +$4.59, IWM −$8.40 (8 sh × Fri $305.09 → today $304.04),
+  ETON +$7.35 (first-day mark) ≈ **+$3.54 net (~+0.11% of slice)** — flat day. SPY −0.47%
+  today, so Rocket's book beat the tape today, mostly on ETON's clean first session with OMER
+  also positive while IWM gave back less than SPY.
+- ⚠️ **Slice-vs-book caveat stands (lesson 23a)**: `portfolio_state.md`'s +3.70%/−0.43% vs
+  SPY since-rebase figures are the contaminated slice, not the hand-built book. Did not
+  reconstruct the hand-built book this session (that reconciliation is premarket/weekly_review
+  work); flagging so it isn't mistaken for validated attribution.
+- Rocket satellites unchanged: **2/4** (OMER, ETON). Weekly trade count: **1/5**.
+
 ## 2026-08-14 — WEEKLY REVIEW (Week 33, Friday post-close)
 
 **Grade C−. Rocket beat SPY by +0.15% and every basis point of it was IWM beta. Real alpha
