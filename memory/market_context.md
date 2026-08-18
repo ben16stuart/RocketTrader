@@ -4,7 +4,93 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-08-17 Monday premarket  ← CURRENT
+## Snapshot — 2026-08-18 Tuesday premarket  ← CURRENT
+
+### Where things stand
+
+| Metric | Level | Read |
+|---|---|---|
+| ⚠️ **VIX** | **15.93** (+11.79%) | **Biggest one-day jump in weeks**, and the second straight rise (14.98 → 15.93). Still **6 points under the 22 pause threshold — no brake on entries.** But the direction has changed: this is no longer a sleepy-summer tape. |
+| 🚨 **10-yr** | **4.70%** (unchanged) | **Still just 5bp from the 4.75% trigger.** It did not move overnight — the cushion neither widened nor closed. **Check it before any entry; this is the closest it has sat for a week.** |
+| **S&P fut** | **−0.48%** | Risk-off |
+| 🚨 **Nasdaq fut** | **−1.20%** | **Leading the decline by a wide margin — this is a tech-led selloff, not a broad one.** |
+| ✅ **Russell fut** | **−0.22%** | **Best of the three.** |
+| **Brent / WTI** | **90.91 / 84.14** (+0.04% / −0.43%) | Brent pushed *through* $89.60 to $90.91 but has stopped rising. Elevated, no longer accelerating. |
+| **Gold** | **4,449.50** (+0.72%) | Fourth session up, but decelerating (+1.62% → +0.72%). |
+
+### 🟢 The Russell-lagging flag has REVERSED — and it matters for the core
+
+For two sessions the flag was **"Russell red while S&P green"**, with Rocket's core ~60% IWM.
+**This morning it is the opposite: Russell −0.22% vs S&P −0.48% vs Nasdaq −1.20%.** Small caps
+are the *best*-performing leg of a risk-off tape, and IWM closed **+0.52%** against SPY
+**−0.20%** on the last cash session.
+
+⚠️ **Do not book this as a win yet.** The factor ran −0.52% → +0.66% → +0.32% → −0.44% →
++0.72% through Week 33 — **violent in both directions.** One session of small-cap outperformance
+inside a tech-led selloff is a rotation signal at best. The honest read: **the flag that argued
+for caution on the core has stopped flashing, so it should stop being cited as a reason.**
+
+### 🗓️ Today's structure is clean; Wednesday is the whole week's risk
+
+**Tue 8/18 — all pre-open, resolved before the 9:45 entry window**: building permits (est
+1.380M), housing starts (est 1.390M vs 1.427M prior), import/export prices at 8:30 AM;
+industrial production and capacity utilization at 9:15 AM. ✅ **No intraday print today.**
+
+🚨 **Wed 8/19, 2:00 PM ET — July FOMC minutes. The only real event of the week**, and it hits
+**open positions, not entry decisions.** Rocket carries **two** satellites (OMER, ETON) into
+it, against a standing call of one. That is the argument against a third, not against the two.
+
+Thu 8/20 (claims, Philly Fed, flash PMIs, existing home sales) and Fri 8/21 are **pre-open and
+clean**. **Jackson Hole is Aug 27–29 — Week 35, not this week.** Next entry day is **Thu 8/20**.
+
+### 🆕 Theme read — the AI-datacenter contract trade has arrived, and it is uninvestable here
+
+Monday's entire fresh board was one story: **AGPU announced >$1.3B of AI-infrastructure
+contracts and DUOT announced the $500M hosting side of the same deal.** Both ripped (AGPU
++28.4% closing at 92% of range on 6.4x volume; DUOT +12.7%). **Both were killed by rule 8, and
+the kill was not close.**
+
+- 🚨 **New pattern to name: the announcement-to-balance-sheet ratio.** AGPU has **$21.9M of
+  cash and declining equity** against **$1.3B of contracts** — ~60x. DUOT has **$2.7M of
+  quarterly revenue** against a **$500M** contract it must build 55 MW to service. **In this
+  theme the catalyst itself is the dilution event**: delivering the announcement requires
+  capital neither company has, and AGPU's shelf went effective 7/27 with a 424B3 already in
+  use. **Lesson 7 — rank on the balance sheet, not the growth rate — has never applied more
+  cleanly.**
+- 🚩 **Circular counterparties.** AGPU pays DUOT to host *while contemplating minority equity
+  in the DUOT SPEs it is paying.* Two small caps booking each other's side as a headline.
+  When a contract's counterparty is also its financier, the revenue is not independent.
+- 🚩 **Watch for this theme to keep producing top-of-scanner movers.** It will look like the
+  best price action available — AGPU closed at 92% of range with an 8.5M float. **The screen
+  that kills it is EDGAR, not the chart.**
+
+### ✅ An S-8 is not an offering — do not let it trip an exit trigger
+
+OMER filed an **S-8 on 8/13** that a headline described as a "$142.67M ESOP-related shelf
+registration." **An S-8 registers employee-benefit-plan shares. It is not a capital raise and
+does not draw the ATM.** OMER's $150M ATM remains **undrawn** (no 424B5 on file) and the
+standing exit trigger has **not** fired. The trigger is a **424B5 or an announced deal** —
+not any filing with "registration" in the headline.
+
+### Carried forward from Week 33 (still current)
+
+- ✅ **Beat-AND-RAISE is the only version that trades.** Beat-without-a-raise is 3-for-3 as a
+  fader (SVCO, CVRX, FF) — hard disqualifier since 8/14.
+- 🚨 **Day-one distribution still beats catalyst quality — reconfirmed 8/17 at full strength.**
+  **OABI had the best-structured thesis in a month** ($370M Lilly milestones, cash guidance
+  raise, uncapped ladder, rule 13 a non-issue) **and closed at 18% of its range**, giving back
+  the whole gap intraday. It is off the board. Meanwhile ETON, which cleared the same gate at
+  86% on Friday, closed Monday at **81%** and is green. **The gate keeps being the variable
+  that decides, and the catalyst keeps not being it.**
+- ⚠️ **The $2B universe ceiling is still binding on the best names** (APPS, BW, HLIT, ETON,
+  UMAC). **Escalated to the user as an open question. Not overridden.**
+- 🚨 **The earnings pipeline is thin.** Two straight sessions produced no tradeable print —
+  Monday's ideas came from a contract announcement, and both sides were uninvestable.
+  Expect Thursday's board to be built from second-day continuations, not fresh earnings.
+
+---
+
+## Snapshot — 2026-08-17 Monday premarket  ← superseded
 
 ### Where things stand
 

@@ -5,159 +5,162 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Mon 2026-08-17 premarket (Week 34 day 1)  ← CURRENT
+## Watchlist — Tue 2026-08-18 premarket (Week 34 day 2)  ← CURRENT
 
-**Account (carry Friday's hand-built book per lesson 23a — NOT the slice)**: **$3,152.16** =
-IWM 7.8479 sh + OMER 27 sh + notional cash $293.74. Slice reads $3,165.91 — ignore it.
-Open satellites **1/4** · weekly count **0/5** (reset today) · max satellite **$472.82** (15%)
-· 1.5% risk **$47.28** · shared cash $590.60 (pooled with Bull — fund from core, not cash).
+**Account (hand-built book per lesson 23a — NOT the slice)**: **$3,135.79** =
+IWM **6.1976 sh** ($1,878.93) + OMER 27 sh ($459.27) + ETON 7 sh ($426.72) + notional cash
+$370.87. Slice reads $3,144.14 — ignore it.
+Open satellites **2/4** · weekly count **1/5** · max satellite **$470.37** (15%)
+· 1.5% risk **$47.04** · shared cash $667.77 (pooled with Bull — fund from core, not cash).
 
-🚨 **Binding rule today is lesson 2: ENTER ON THE SECOND DAY.** Same-day 0-for-3, second-day
-2-for-2. **ETON is today's only permitted entry. OABI is tomorrow's — not today's fallback.**
+✅ **Raw IWM qty verified at 6.1976 sh**, which matches the hand-built chain exactly
+(7.8479 − 1.6503). ⚠️ **Monday's `market_close` note recorded "≈6.3497 sh" — that was an
+arithmetic error**, off by 0.152 sh (~$46). Lesson 24 says pull the raw position before
+computing a rebalance; this is the first time the *note* rather than the display was wrong.
+Carry **6.1976**, not the close note's figure.
 
-🚩 **SLOT BUDGET — resolved. ETON fired, spending the Mon/Tue slot.** Bought 7 sh @ $60.65
-at 9:47 AM ET (see trade_log.md), inside the $60.80 no-chase ceiling, clean opening base
-(range ~2% of price, no whipsaw), volume pace ~6x normal by 9:45. **OABI is now deferred to
-Thu 8/20 or Fri 8/21** per the standing call — do NOT enter OABI Tuesday even if its own
-day-2 setup looks clean; the slot is spent. Re-evaluate OABI's thesis fresh on Thu/Fri per
-`market_close`-logged closing-range data.
+🚨 **NO NEW SATELLITE TODAY — pre-committed, and the board is independently empty.**
+Two separate reasons agree, which is the cleanest kind of no-trade:
+1. **The slot budget was spent Monday on ETON.** The W33 standing call is "one satellite into
+   Wednesday's minutes"; Rocket already carries **two** (OMER + ETON). A third into a 2:00 PM
+   FOMC print is against both the letter and the spirit. **This was pre-committed in writing
+   twice — lesson 6 exists because Rocket once broke exactly this kind of pre-commitment.**
+2. **Every fresh name on the tape failed a hard gate below.** Nothing to defer, either.
 
-**9:48 AM fresh-mover scan**: OABI is already fading intraday — premarket peaked +45.6%,
-now **+18.2% at 169.9x RelVol** — consistent with the whipsaw read that kept it out of
-today's trade. AGPU (+10.3%, 22.9x) and DUOT (+9.3%, 9.0x) are unvetted movers with no
-catalyst check run yet — worth a one-search look pre-market tomorrow if still elevated, but
-no capacity today (slot spent, and neither has a confirmed catalyst yet per rule 1).
+**Next entry day is Thu 8/20**, post-minutes, on a fresh board. **Default today: hold IWM
+core, hold both satellites.**
 
 ---
 
-### 🔵 OPEN — OMER (27 sh @ $17.14)
+### 🔵 OPEN — OMER (27 sh @ $17.14) — HOLD
 
-✅ **Weekend gap check #1 PASSED.** Premarket **$17.00, −1.11%** vs Friday's $17.19 — no gap,
-and **$0.63 clear of the ~$16.37 trailing stop.** No offering or ATM draw found overnight;
-the standing exit trigger has not fired. Thesis intact (125% revenue beat, YARTEMLEA +190%
-QoQ, **CMS NTAP reimbursement effective 2026-10-01 still unplayed**, ladder uncapped ~55%,
-short float 19.7–24.2%, ~$132M cash + live buyback). **HOLD.**
+Premarket **$17.01, −2.0%** vs Monday's $17.35 close. Monday closed at **73% of its range**
+(O $17.17 H $17.51 L $16.90 C $17.35) — upper half, no distribution. **$0.64 clear of the
+~$16.37 trailing stop.**
 
+- ✅ **Standing exit trigger has NOT fired — and the near-miss is worth recording.** EDGAR
+  shows an **S-8 filed 8/13**, which a headline reported as a "$142.67M ESOP-related shelf
+  registration." **An S-8 is an employee-benefit-plan registration, not a capital raise, and
+  it does not draw the $150M ATM.** No 424B5 on file → **the ATM remains undrawn.** Do not
+  let an S-8 headline trip the offering trigger; the trigger is a 424B5 or an announced deal.
+- ⚠️ **Unresolved, carry forward**: a **144 on 8/13** and a **Form 4 on 8/17** (yesterday).
+  Insider intent not established after a +27% run. Not actionable alone — flag, don't act.
+- ✅ Ladder wide open: **H.C. Wainwright reiterated Buy, $33.00 PT** against a $17.01 price.
+- Thesis intact (125% revenue beat, YARTEMLEA +190% QoQ, **CMS NTAP reimbursement effective
+  2026-10-01 still unplayed**, short float 19.7–24.2%, ~$132M cash + live buyback).
 - **Targets $19.71 (+15%, sell 1/3) · $21.43 (+25%, sell 1/3) · trail the last 1/3.**
   🚨 MRLN hit +15% unscaled and round-tripped. **Scale on the touch, per plan.**
 - **Named bear case unchanged:** Q3 *sequential* product revenue — $32.2M may include
   stocking, and a sequential decline breaks the thesis outright.
-- **Standing exit trigger:** any announced offering or ATM draw → exit immediately, do not
-  wait for the stop. The $150M ATM is undrawn (lesson 8a cat. iii).
-- ⚠️ Open through Wednesday's 2:00 PM minutes. Accepted — it is the incumbent, not a new bet.
+- ⚠️ Open through Wednesday's 2:00 PM minutes. Accepted — incumbent, not a new bet.
 
-### ✅ EXECUTED — ETON — Q2 beat-and-raise, day-2 continuation (bought 9:47 AM ET)
+### 🔵 OPEN — ETON (7 sh @ $60.65) — HOLD
 
-**Eton Pharmaceuticals.** Q2 on 8/13: EPS **$0.35 vs $0.12**, revenue **$37.59M vs $27.66M**
-(+99% YoY), adj EBITDA margin **43% from 16%**, **FY26 raised to "exceed $145M"** (from
-$120M+). Friday **O $54.93 H $59.79 L $53.01 C $58.86 on 2.31M sh (4.6x)** — **+44.3%,
-closed at 86% of range.** Premarket **$59.33 (+0.79%)**.
+Premarket **$60.96, −1.2%** vs Monday's $61.67 close; **+0.5% on the position.** Monday
+closed at **81% of range** (O $59.15 H $62.87 L $56.65 C $61.67 on 1.17M sh) — upper
+quintile, the day-2 continuation did what it was supposed to.
 
-- **Catalyst**: Q2 earnings beat **AND** raise, 8/13 — clears the rule-5 disqualifier.
-- **Market cap** $1.68B | **Float** 22.0M sh of 28.6M out (77%) | **Short float 6.7%**
-  (below the 15% bar — **no squeeze kicker**, size normally) | ADV 501k ✓
-- ✅ **Second-day rule fully qualifies**: gapped >25% ✓, closed far above the midpoint ✓ —
-  the QNST/RCEL/CRSR pattern. **Today's open IS the entry.**
-- ✅ **THE FRIDAY GATE IS CLEARED.** Ladder re-struck on **dated post-print** data (lesson 11a):
-  consensus **$71.00** (4 analysts), range **$68–$76**. **H.C. Wainwright raised $65→$70 on
-  8/14; Craig-Hallum raised $62→$76 on 8/13** — both *after* the print. Friday's gate said
-  "GO only if consensus clears ~$68." It reads $71. **GO.** (Friday's capped-looking $62.33
-  was indeed stale, exactly as lesson 11 predicted.)
-- ✅ **Rule 8 CLEARS on hard filing evidence, not just a search.** EDGAR shows **no S-3, no
-  424B5, no S-1** in ETON's entire recent filing history — latest filings are the 8/13 10-Q
-  and 8-K. **With no shelf on file it physically cannot do a fast takedown**; it would have to
-  file first, which is visible. Financials agree: **operating CF +$15.1M, FCF +$3.3M**, cash
-  $26.8M vs debt $29.0M. This is the cleanest dilution profile Rocket has screened.
-- **Entry plan**: market/limit at the open, **but see the hard ceiling below.** Must still pass
-  **rule 2a** (9:30–9:45 range ≤10% of price) and **rule 2b** (9:45–9:50 bar closes in the
-  upper half of its own range). Fail either → **no satellite today** (rule 6).
-- 🚨 **HARD NO-CHASE CEILING $60.80 — NOT the rule-3 figure of $64.75.** Rule 13 binds first:
-  28.6M sh puts $2B at **$69.93**, so a +15% target only clears the lid if entry ≤ $60.80.
-  **Above $60.80 ETON is untradeable — target one itself breaks the ceiling.** Premarket
-  $59.33 is inside by only 2.5%. Re-verify the share count at the actual fill.
-- **Size**: **7 shares** @ ~$59.33 = **$415.31 (13.2% of book)**, risk **$29.07 (0.92%)**.
-  Cap binds before risk (risk-based would allow 11). Fund by selling ~0.40 sh IWM — **from
-  core, not from cash.**
-- **Stop**: 7% trailing → initial trigger ≈ **$55.18**.
-- **Targets**: **sell 4 sh at $68.23 (+15%)**, trail the last 3 with the 7% stop.
-  🚨 **DO NOT set a +25% limit.** $74.16 fails *both* checks: it is above consensus $71 **and**
-  $2.12B, through the $2B lid. **This is a one-rung name** — rules 11 and 13 agree, so the
-  second third gets trailed, not sold at a target.
-- **Conviction: HIGH** on structure, **MEDIUM** on payoff — the capped upper rung is real.
-- **Risk / what kills it**: (1) a gap above $60.80 makes it untradeable — most likely failure
-  mode; (2) the +25% rung is capped, so the expected payoff is genuinely smaller than a normal
-  setup; (3) **unresolved**: 8× Form 4 on 8/4 and three Form 144s (6/23–6/26) — insider intent
-  not established, likely routine grants/vesting but **not verified**, treat as a to-do not a
-  pass; (4) no squeeze fuel at 6.7% short float; (5) open through Wednesday's minutes.
+- ✅ **EDGAR clean overnight** — no filings since the 8/13 10-Q/8-K. **Still no S-3, no 424B5,
+  no S-1 on file at all**; it cannot do a fast takedown without filing first.
+- ⚠️ **Monday's intraday range was $6.22 = 10.5% of price** — wider than the 2% the opening
+  base suggested. The entry was fine, but this name moves; the 7% trail is closer to the
+  noise band than it looked (lesson 4b).
+- Stop trails from the $62.87 high-water mark → trigger ≈ **$58.47**.
+- **Targets: sell 4 sh at $68.23 (+15%), trail the last 3.** 🚨 **DO NOT set a +25% limit** —
+  $74.16 breaks both the $71 consensus and the $2B lid. **One-rung name.**
+- **Unresolved, carry forward**: 8× Form 4 on 8/4 and three Form 144s (6/23–6/26) — insider
+  intent still not verified. Same to-do as last session, still open.
+- ⚠️ Open through Wednesday's 2:00 PM minutes.
 
-### 🥈 P2 — OABI — Eli Lilly licence signed TODAY (entry is TUESDAY, not today)
+---
 
-**OmniAb.** **Today 6:01 AM ET**: global collaboration and licence with **Eli Lilly** for an
-ion channel programme — **up to $370M in R&D and commercial milestones plus tiered
-royalties**. Paired at 6:06 AM with a hard **FY26 cash guidance raise to $49–53M from
-$37–41M** (≈$12M of real upfront money, not just biobucks). Premarket **$4.47, +32.2%**,
-having printed **$4.92 (+45.6%)** — **39.6x relative volume**, the top name on both scanners.
+### ❌ OABI — DROPPED. The rule-4 gate fired, and the Monday deferral was vindicated.
 
-- **Catalyst**: contract/partnership win — a revenue-changing deal for a small company.
-  **$370M of milestones against a $491M market cap.** Fresh, dated, company-specific.
-- **Market cap** $491M at Friday's close | **Float** 118.2M of 145.4M out | **Short float 4.5%**
-  — below the bar, **but 6.0M shares short (up from 4.75M) at 13.1 days to cover**, which on a
-  +32% gap is trapped supply even without a classic squeeze. ADV 647k ✓
-- ✅ **Ladder is WIDE OPEN — the least-capped name in weeks.** Consensus **$7.33** (7 analysts,
-  all actions dated **8/7**, post-Q2), low $3, high $11. A +25% target off $4.47 is **$5.59 —
-  24% BELOW consensus.** Both rungs clear with room, and the targets **pre-date the Lilly
-  deal**, so revisions should go up.
-- ✅ **Rule 13 is a NON-ISSUE.** 145.4M sh: a +25% target is **~$813M, 59% under the $2B lid.**
-  This is the first idea in a month the ceiling does not touch. (Contrast APPS/BW/HLIT/ETON/UMAC.)
-- ⚠️ **Rule 8 — cat. (iii), a risk to size around, not a disqualifier.** EDGAR: one **S-3 shelf
-  filed 2025-09-12** (after the Aug-2025 $30M private placement) and **no 424B5 since — the
-  shelf is UNDRAWN.** Runway is long: $52M cash vs $18.9M debt, operating CF −$17.7M but
-  **FCF ≈ breakeven (−$0.285M)**, and guidance has cash *flat-to-up* on the year.
-  🚨 **Unlike ETON, the shelf is already effective — a takedown into this strength is
-  executable overnight.** Standing exit trigger, same as OMER's.
-- 🚫 **NOT A TRADE TODAY.** Premarket printed **+45.6%** (rule 2c: >35% = second-day only) and
-  the premarket range **$3.51–$4.92 is 31% of price** — that will almost certainly trip the
-  **rule 2a** opening-range gate. This is the VELO signature (22.7% opening whipsaw) and
-  Rocket is **0-for-3** buying day one.
-- 🚫 **Per rule 6, OABI is NOT the fallback if ETON fails its gate today.** A failed P1 means
-  **no satellite**, not the next name down. OABI's case is a *Tuesday day-2* case standing on
-  its own merits, not a substitute.
-- **Tuesday precondition (rule 4)**: OABI must **close today at ≥50% of its own range**. Bottom
-  quartile = distribution = dead regardless of catalyst (ASPN 28%, EVH 9%, CURI 4%). Log the
-  close-in-range at `market_close` — this is the gate, not the catalyst.
-- **Entry plan (Tue)**: open entry within 10% of Monday's close, size **~102 sh** for clean
-  thirds (≈$459 at $4.50, 14.6% of book, risk ≈$32). **Targets +15% and +25% both stand** —
-  unlike ETON, run the full three-rung ladder.
-- **Conviction: HIGH on thesis shape, deferred on timing.** Best-structured idea on the board.
-- **Risk**: (1) day-1 whipsaw — the reason it is deferred; (2) the effective undrawn shelf +
-  legacy **OABIW warrants** are a live overhang; (3) $370M is biobucks — the market may
-  re-price to the ~$12M of actual cash; (4) no squeeze fuel; (5) structurally cash-burning
-  (−$17.7M operating) unlike ETON.
+**The Tuesday precondition failed outright.** OABI had to close Monday at **≥50% of its
+range**; it closed at **18%** — O $4.18, H $4.29, **L $3.71, C $3.82** on 18.1M shares.
 
-### 🥉 WATCH — BW (unchanged: the dilution gate is still unrun)
+- It **opened at its high and gave the whole Lilly gap back intraday.** Premarket peaked
+  +45.6% at $4.92; it closed +13% at $3.82, in the bottom fifth of the range on 28x normal
+  volume. **That is distribution, not consolidation** — the exact ASPN (28%) / EVH (9%) /
+  CURI (4%) signature that rule 4 was written from.
+- ✅ **The catalyst was real and the stock still died.** $370M Lilly milestones + a hard cash
+  guidance raise, an uncapped ladder ($7.33 consensus), rule 13 a non-issue at $813M — the
+  best-*structured* idea on the board for a week. **Research quality was not the problem.**
+  This is lesson 4 restated: *validating the catalyst is no longer the hard part — surviving
+  day one is.*
+- 🥇 **Monday's decision to defer was correct and is now measurable.** A day-1 entry near the
+  $4.47 premarket print would be **−14.5%** at Monday's close. Same-day entries stay
+  **0-for-3**, and the discipline that avoided a fourth was the pre-committed rule, not a
+  judgment call made in the moment.
+- **Not deferred to Thu/Fri — dropped.** The day-2 case was conditional on Monday's close and
+  the condition failed. Re-screening it later on chart quality would be the mistake rule 4
+  forbids. Off the board unless a *new* dated catalyst appears.
 
-Premarket **$10.48 (+1.85%)**; Friday closed $10.29 at 69% of range on 1.8x. Clears the $2B
-ceiling now (149.0M sh → +25% = $1.92B ✓) and the ladder is wildly uncapped (mean $24.67).
-**But the catalyst is a week stale (8/10) and it has already had its distribution day
-(8/11: opened $11.86, closed $9.19 at 6% of range).** 🚨 **Run rule 8 FIRST — BW is
-historically levered and raises repeatedly, and this will probably kill it. Build no thesis
-before it clears.** Promote only on fresh volume expansion above **$10.60** with a clean
-dilution read. **Not a Monday candidate.**
+### ❌ AGPU — the best price action on the tape, killed by rule 8. Do not chase this.
 
-### Dropped, with reasons
+**Axe Compute.** Monday: **+28.4%, closed at 92% of its range** (O $7.81 H $10.88 L $7.39
+**C $10.62**) on **2.59M sh vs 407k ADV (6.4x)**. Float **8.5M of 11.5M shares out**. On
+price action alone this is a textbook day-2 continuation, uncapped on rule 13 (+25% target
+≈ $153M against a $2B lid), and it passes every universe gate. **It is still a hard skip.**
 
-- ❌ **UMAC — demoted from P2 to dropped.** Premarket **−3.49% to $32.87**, confirming
-  Friday's read that a *sector policy* move makes the biggest mover the most-**chased** name,
-  not the best one. Also one-rung capped (50.0M sh: +25% = $2.13B ✗). Nothing in the drone
-  tariff changes this quarter's earnings.
-- ❌ **CURI** — permanently off the board (half-capped ladder, −11.0% at 4% of range on 8/14).
-- ❌ **NMAX** — beat but guidance reiterated, not raised → hard disqualifier under rule 5.
-- ❌ **IPWR** (+4.0%, 0.2x) — failed the day-one range check 8/13; no new catalyst.
-- ❌ **CAPR** (4.5x volume, +0.7%) — on the unusual-volume screen only because of the
-  **8/22 PDUFA**. Standing skip; do not hold into a binary.
-- ➖ Monday's top-movers screen was **empty of catalysts**: best name +6.5% on **0.9x RelVol**,
-  and 16 of 20 ran under 0.5x. Rule 1 — volume alone is never enough, and there was not even
-  volume. **OABI is the only real event on the tape.**
+- **Catalyst is real**: >$1.3B in announced AI-infrastructure contracts, including Duos
+  Technologies' five-year, 55 MW hosting agreements valued at **>$500M**, signed 8/17.
+- 🚨 **RULE 8 KILL — category (i)/(ii), the worst tier.** EDGAR is unambiguous:
+  **S-3 filed 6/9, amended 7/2 and 7/20, went EFFECTIVE 7/27** — a three-week-old live shelf.
+  **424B3 filed 7/29** (a resale prospectus already in use). **424B5 takedown 5/15.** This is
+  not an undrawn ATM to size around; it is a company actively distributing stock.
+- 🚨 **The balance sheet cannot support the announcement — this is lesson 7 in its purest
+  form.** Cash **$21.9M** at 6/30. Stockholders' equity **fell** $40.3M → $34.0M in the
+  quarter. Against **$1.3B of announced contracts** requiring roughly $1B of GPU procurement.
+  **The gap is ~60x its cash.** Delivering the catalyst *requires* enormous dilution, and the
+  shelf to do it is already effective. **The growth rate made it gap; the funding structure
+  decides the 1–5 day hold — and the funding structure here is the trade's counterparty.**
+- 🚩 **SEC classifies AGPU under SIC "Finance Services", not technology** — consistent with a
+  holdco that pivoted into AI compute rather than an operator. Recent CEO appointment
+  (Christopher Miglino) and a ticker that literally spells "A-GPU". **Promotional profile,
+  same family as BNAI on the standing skip list.**
+- 🚩 **The AGPU↔DUOT structure is circular.** Both sides disclose nonbinding term sheets for
+  **AGPU to take minority equity stakes in the DUOT special-purpose entities it is
+  simultaneously paying to host with.** Money going in a circle between two small caps, each
+  booking the other's side as a headline contract. **No position on either side.**
+- **Verdict: skip, and add to the standing avoid list.** If Rocket wants this theme it needs
+  a name that can *fund* the capex.
+
+### ❌ DUOT — same deal, plus a governance red flag that stands on its own
+
+**Duos Technologies.** Monday **+12.7%, closed 61% of range** ($10.27) on 3.99M vs 802k ADV.
+Passes the universe gates. **Killed twice over.**
+
+- 🚨 **It filed an NT 10-Q — a NOTIFICATION OF LATE FILING — on 8/17, the SAME DAY it put out
+  the $500M contract press release.** A company that cannot file its quarterly financials on
+  time announcing a blockbuster contract the same morning is a pattern to walk away from, not
+  to underwrite. This alone is disqualifying.
+- 🚨 **Rule 8: 424B5 drawn 6/17/2026** — the shelf is not undrawn, it is already tapped.
+  Stockholders' equity jumped $48.6M → $106.9M, consistent with a large raise.
+- 🚨 **Scale mismatch**: quarterly revenue **$2.7M** (Q1 FY26) and negative operating cash
+  flow, signing a **$500M** contract that requires building 55 MW of data-center capacity.
+  **The contract is ~185x its quarterly revenue and larger than its entire market cap.**
+  That capex gets funded by dilution.
+- Same circular-structure flag as AGPU. **Skip both.**
+
+### ❌ XOS — universe gates fail. One search spent, then dropped per the routine.
+
+**+98.2% premarket at 101.4x RelVol**, the day's biggest mover. **Fails on the numbers before
+any catalyst work**: last close **$2.09** (min $3.00) and market cap **$30M** (min $50M).
+Rule 10 — **sub-$3 stocks are traps** — and this is one, with a **7.4M float** doing 100x
+volume. Also: Q2 earnings landed **8/13** and the stock fell **−18.6% on 8/14** ($2.58 →
+$2.10), so the print is not the catalyst; and an **amended Aljomaih note purchase agreement**
+puts debt/dilution directly in the frame. **A +98% premarket rip on a $30M shell four days
+after its earnings sold off is the pump profile rule 10 and the P&D warning describe.**
+No further research spent. Dropped.
+
+### 🥉 WATCH — BW (unchanged: the dilution gate is STILL unrun)
+
+Third session carried without the rule-8 check being run. Catalyst is now **8 days stale**
+(8/10) and it has had its distribution day (8/11: opened $11.86, closed $9.19 at 6% of
+range). 🚨 **Either run rule 8 on it Thursday or drop it outright — carrying an unchecked
+name on the board indefinitely is how it eventually gets entered without the check.**
+Promote only on fresh volume expansion above **$10.60** with a clean dilution read.
 
 ---
 
@@ -165,7 +168,18 @@ dilution read. **Not a Monday candidate.**
 
 **Active dilution**: **RCEL** ($200M shelf drawn, <1yr runway), **SOC**, **STLN** ($15M ATM),
 **DRUG**, **BKSY** ($250M ATM), **DFNS**, **BOT**, **WOLF**, **QMCO / CLNN / FJET**, **NRGV**
-($300M shelf + $150M converts + a VWAP-discounted debenture into 18% of shares out).
+($300M shelf + $150M converts + a VWAP-discounted debenture into 18% of shares out),
+🆕 **AGPU** (S-3 effective 7/27 + 424B3 in use 7/29 + 424B5 drawn 5/15; **$21.9M cash against
+$1.3B of announced contracts** — must dilute massively to deliver the catalyst),
+🆕 **DUOT** (424B5 drawn 6/17; **$2.7M quarterly revenue signing a $500M contract**).
+
+**Governance / structure** — 🆕 **DUOT** filed an **NT 10-Q (late filing notice) on 8/17, the
+same day as its $500M contract PR**. 🆕 **AGPU/DUOT are a circular pair**: AGPU pays DUOT to
+host while contemplating minority equity in the DUOT SPEs it is paying. Each books the other's
+side as a headline contract. **Both sides skipped — do not re-screen either on chart quality.**
+
+**Sub-$3 / micro-float pump profile**: 🆕 **XOS** ($2.09 close, $30M cap, 7.4M float, +98% at
+101x RelVol four days *after* its earnings sold off −18.6%; amended Aljomaih note).
 
 **Structural / integrity**: **GCT** (Cayman holdco on mainland-China subs — fails
 US-domicile, permanent), **STI** (going concern, defaulted note), **TLSI** (fraud probes +

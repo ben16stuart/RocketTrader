@@ -3,6 +3,118 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-18 — MARKET CLOSE (Tuesday, Week 34 day 2)
+
+**No trades. Both satellites held overnight. Core rebalance checked — within band, no action.**
+
+- ✅ **ETON HOLD** — up on the day (Mon close $61.66 → today's close $63.17, **+2.45%**,
+  +$10.57 on the position). Multi-day beat-and-raise thesis unchanged, no fresh EDGAR
+  filings, stop (trailing from the new $63.26 intraday high) well clear. One-day catalyst
+  test does not apply — this is a multi-session breakout story.
+- ✅ **OMER HOLD** — essentially flat (Mon close $17.36 → today's close $17.175, **−1.07%**,
+  −$5.00 on the position). CMS NTAP reimbursement (effective 10/1) still unplayed; insider
+  144 (8/13) / Form 4 (8/17) remain unresolved but not actionable alone. No offering trigger
+  fired (S-8 correctly not treated as a raise per lesson 8b). Not down enough, and thesis
+  hasn't degraded — holds.
+- ➖ **Core rebalance — within band, no trade.** Slice $3,146.79 (shared $10,489.29 × 30%),
+  satellite value ETON $442.23 + OMER $463.86 = $906.09, 10% buffer $314.68 → target_core
+  **$1,926.02**. Current IWM (raw qty **6.1976 sh**, unchanged since Monday) = **$1,860.21**.
+  Gap = **$65.81 short**, under the 3% band (**$94.40**) → **no action**, per rule 5 (avoid
+  daily churn).
+- 📊 **Today, price-only (prior close → today's close)**: ETON +$10.57, OMER −$5.00,
+  IWM −$24.17 (6.1976 sh × $304.05→$300.15) ≈ **−$18.60 net (~−0.59% of slice)**. SPY today
+  **−0.69%**. Rocket's book beat the tape today by **≈+0.11%**, on ETON's gain outweighing
+  IWM's Russell-led drag and OMER's small pullback. (Cross-checked via a second book
+  reconstruction — IWM+OMER+ETON+flat cash — Mon-close→Tue-close: **−$18.40**, consistent
+  within rounding.)
+- ⚠️ **Slice-vs-book caveat stands (lesson 23a/23)**: `portfolio_state.md`'s since-rebase
+  figures (+3.77% Rocket vs +3.38% SPY) are the contaminated slice, not the hand-built book.
+  Did not reconstruct the full cumulative hand-built book this session — that's
+  premarket/weekly_review work — flagging so today's +0.11%-vs-SPY read isn't extrapolated
+  into a since-rebase claim.
+- No new fills today (pre-committed no-trade day, per premarket/market_open notes). Weekly
+  trade count unchanged: **1/5**. Satellites unchanged: **2/4** (OMER, ETON).
+- Next entry day: **Thu 8/20**, post-FOMC-minutes, on a fresh board.
+
+## 2026-08-18 — MARKET OPEN (Tuesday, Week 34 day 2)
+
+**No trade — pre-commitment held. Both satellites confirmed healthy at the open.**
+
+- ✅ **OMER open-check**: $17.16, essentially flat, 22.1% short float, no new EDGAR filings
+  since premarket. $0.79 clear of the ~$16.37 stop. Volume light (0.0x avg by open) — normal
+  for a name with no fresh catalyst today.
+- ✅ **ETON open-check**: $61.59, **+4.6% on the day**, above Monday's $61.67 close read at the
+  premarket check. Comfortably above the $58.47 trailing-stop trigger. No EDGAR filings.
+- 🚫 **NO NEW SATELLITE — held the pre-commitment.** Fresh-mover scan surfaced **WEAV** (+31.9%,
+  123.6x RelVol, $584M cap, healthcare) — not yet screened, but entering a third satellite
+  ahead of Wednesday's 2:00 PM FOMC minutes was explicitly ruled out in writing at premarket
+  (slot budget already spent on ETON Monday). Not chasing a fresh name against a same-day
+  written pre-commitment — lesson 6 exists for exactly this. **Worth a one-search catalyst
+  check premarket Wednesday if still elevated**, alongside the standing XOS/DUOT/AGPU/OABI/CAPR
+  skips (all re-confirmed on the scan, no new evidence to revisit any of them).
+- ➖ **Unusual volume / top movers scan**: nothing else new or actionable. Rest of the list is
+  either already-killed names or sub-1x RelVol movers with no catalyst (lesson 1).
+- 💵 **Bull sold CRM overnight/premarket** (not a Rocket position) — shared cash rose
+  $667.77 → $1,249.80. No action needed on Rocket's side.
+- Rocket satellites unchanged: **2/4** (OMER, ETON). Weekly trade count: **1/5**. Next entry
+  day remains **Thu 8/20**, post-FOMC-minutes, on a fresh board.
+
+## 2026-08-18 — PREMARKET (Tuesday, Week 34 day 2)
+
+**No new satellite today — pre-committed AND the board is independently empty. Two open
+positions both held their gates. Next entry day is Thu 8/20.**
+
+- 🚨 **NO TRADE TODAY, for two independent reasons that agree.** (1) The Mon/Tue satellite slot
+  was **spent on ETON Monday**; Rocket already carries **two** satellites into Wednesday's
+  2:00 PM FOMC minutes against a standing call of **one**. (2) Every fresh name failed a hard
+  gate. **Lesson 6 exists because Rocket once entered a name simply because a slot looked open
+  — this is the opposite of that, and it was pre-committed in writing before the tape opened.**
+- ❌ **OABI DROPPED — the rule-4 gate fired and Monday's deferral is now measurable.** Required
+  ≥50% close-in-range; **closed at 18%** (O $4.18 H $4.29 L $3.71 **C $3.82**, 18.1M sh). It
+  opened at its high and gave the entire Lilly gap back intraday. **A day-1 entry near the
+  $4.47 premarket would be −14.5%.** The catalyst was real, the ladder uncapped, rule 13 a
+  non-issue — **best-structured idea in a month, and it still died on day one.** Same-day
+  entries stay 0-for-3. Not deferred to Thu/Fri; **dropped**, because the day-2 case was
+  conditional on Monday's close and the condition failed.
+- ❌ **AGPU KILLED on rule 8 — and it had the best price action on the tape.** +28.4%, **closed
+  at 92% of range** on 6.4x volume, **8.5M float**, uncapped on rule 13, passes every universe
+  gate. Real catalyst (>$1.3B AI-infrastructure contracts). **EDGAR killed it anyway: S-3
+  EFFECTIVE 7/27, 424B3 in use 7/29, 424B5 drawn 5/15 — and $21.9M of cash with equity
+  *falling* $40.3M→$34.0M against $1.3B of announced contracts (~60x).** Delivering the
+  catalyst *requires* massive dilution and the shelf is already live. SIC code is **"Finance
+  Services," not technology.** Lesson 7 in its purest form.
+- ❌ **DUOT KILLED twice.** It filed an **NT 10-Q — a LATE FILING notice — on 8/17, the same day
+  as its $500M contract PR.** Plus 424B5 drawn 6/17, and **$2.7M quarterly revenue against a
+  $500M contract** requiring a 55 MW build. 🚩 **AGPU and DUOT are a circular pair** — AGPU pays
+  DUOT to host while contemplating minority equity in the DUOT SPEs it is paying.
+- ❌ **XOS dropped on universe gates in one search.** +98.2% at 101x RelVol, the day's biggest
+  mover — but **$2.09 close (<$3) and $30M cap (<$50M)**, 7.4M float, and its Q2 print on 8/13
+  was followed by **−18.6% on 8/14**, so earnings are not the catalyst. Rule 10 pump profile.
+- ✅ **OMER HOLD — and a near-miss on the exit trigger worth recording.** A headline framed
+  OMER's **8/13 S-8** as a "$142.67M ESOP-related shelf." **An S-8 is an employee-plan
+  registration, not a capital raise; the $150M ATM is still undrawn (no 424B5).** The trigger
+  did not fire and should not have. Closed Monday at **73% of range**; premarket $17.01, $0.64
+  clear of the ~$16.37 stop. Wainwright reiterated Buy **$33**. ⚠️ Carry forward: a **144 (8/13)
+  and a Form 4 (8/17)** — insider intent unresolved after a +27% run.
+- ✅ **ETON HOLD.** Closed Monday at **81% of range** ($61.67), premarket $60.96, +0.5% on the
+  position. **EDGAR still shows no S-3/424B5/S-1 at all.** Stop trails from the $62.87 HWM →
+  ≈$58.47. ⚠️ Monday's intraday range was **10.5% of price** — wider than the 2% opening base
+  implied; the 7% trail is nearer the noise band than it looked (lesson 4b).
+- 🔢 **Book correction — the raw IWM qty is 6.1976 sh**, matching the hand-built chain exactly
+  (7.8479 − 1.6503). **Monday's `market_close` note recorded "≈6.3497 sh" — an arithmetic
+  error of 0.152 sh (~$46).** Lesson 24 warns that the *display* rounds; this time the *note*
+  was wrong. Book **$3,135.79** (IWM $1,878.93 + OMER $459.27 + ETON $426.72 + cash $370.87);
+  slice reads $3,144.14 and is ignored per lesson 23a. Satellites **2/4**, weekly **1/5**.
+- 💵 **Cash is 11.8% — just above the 10% buffer.** IWM sits **$57.29 under** target_core
+  ($1,936.22), fractionally inside the 3% band ($58.09). **Flagged for `market_close`, not
+  acted on** — rebalancing is a close-only action.
+- ⚠️ **Macro: VIX jumped +11.79% to 15.93** (second straight rise, still 6 pts under the 22
+  brake). **10-yr unchanged at 4.70%, still only 5bp from the 4.75% trigger.** 🟢 **The
+  "Russell red while S&P green" flag has REVERSED** — Russell fut −0.22% vs S&P −0.48% vs
+  **Nasdaq −1.20%**: a tech-led selloff with small caps the best leg. One session, not a trend.
+- ✅ **Today's calendar is clean** — permits/starts/import prices 8:30, industrial production
+  9:15, all pre-open. **Wednesday's 2:00 PM minutes are the week's only intraday risk.**
+
 ## 2026-08-17 — PREMARKET (Monday, Week 34 day 1)
 
 **Board: ETON P1 today, OABI P2 tomorrow, and only ONE of them gets taken.**
