@@ -124,12 +124,23 @@ Write weekly summary to `memory/weekly_reviews/[YYYY-WXX].md`.
 Send weekly Ntfy — title and body are **two positional arguments**; a bare call sends
 nothing:
 
+Build the positions table first:
+
+```bash
+POSITIONS=$(python scripts/position_table.py)
+```
+
+Then send, embedding `$POSITIONS` verbatim (its dollar columns are whole-position
+profit, not share-price moves):
+
 ```bash
 python scripts/ntfy_notify.py \
   "🚀 Rocket Weekly — Week of [DATE]" \
   "Grade: [A/B/C/D/F]
 P&L: $[+/-XX.XX] | Win rate: X/X | Avg R: X.Xx
 SPY week: [+/-X.X%] | Rocket vs SPY: [+/-X.X%]
+
+$POSITIONS
 
 Best trade: [SYMBOL] [+X.X%] — [why it worked]
 Worst trade: [SYMBOL] [-X.X%] — [what went wrong]

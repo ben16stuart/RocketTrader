@@ -119,18 +119,34 @@ Calculate:
 prints a usage error and exits 1 — it sends nothing. Run it exactly like this, with the
 message passed as the second argument:
 
+Build the positions table FIRST — do not hand-write these numbers. The script pulls
+them straight from Alpaca and filters to Rocket's own positions, so they cannot drift
+from the broker and cannot accidentally include Bull's holdings:
+
+```bash
+POSITIONS=$(python scripts/position_table.py)
+```
+
+Then send, embedding `$POSITIONS` verbatim:
+
 ```bash
 python scripts/ntfy_notify.py \
   "🚀 Rocket Daily — [DATE]" \
   "Portfolio: $X,XXX ([+/-X.XX%] today)
 SPY: [+/-X.XX%] | Rocket vs SPY: [+/-X.XX%] since start
+Cash: $XXX | Deployed: XX%
 
-Positions: X open | Trades today: X
+$POSITIONS
+
+Trades today: X
 [If trades today, one-line each: BUY/SELL SYMBOL @ $XX (+/-X.X%)]
 
 Tomorrow's watchlist: [2-3 tickers with one-word catalyst]
 Conviction: HIGH / MEDIUM / LOW"
 ```
+
+The table's dollar columns are **whole-position profit** (qty x price move), not the
+share-price change. `*` marks the IWM core sleeve.
 
 **Verify before reporting.** The command must print `Notification sent: ...`. If it
 prints a usage line, a `Failed to send` error, or nothing, the notification did NOT go
