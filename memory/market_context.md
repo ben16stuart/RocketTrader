@@ -4,7 +4,84 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-08-18 Tuesday premarket  ← CURRENT
+## Snapshot — 2026-08-19 Wednesday premarket (FOMC MINUTES DAY)  ← CURRENT
+
+### Where things stand
+
+| Metric | Level | Read |
+|---|---|---|
+| ✅ **VIX** | **15.88** (+0.25%) | **Flat — the two-day climb stalled.** 15.93 → 15.88. Still **6 points under the 22 pause threshold; no brake on entries.** Notably calm going *into* a minutes release. |
+| 🚨 **10-yr** | **4.71%** (−0.38%) | **4bp from the 4.75% trigger — the tightest it has ever sat.** It ticked *down* on the day, so the cushion widened marginally in direction while narrowing in level. **This is today's single most important number: the 2:00 PM minutes are precisely the event that resolves it either way.** |
+| **S&P fut** | **−0.03%** | Flat |
+| **Nasdaq fut** | **−0.22%** | Mildly soft |
+| **Russell fut** | **−0.14%** | Middle of the three |
+| ⚠️ **Brent / WTI** | **91.90 / 84.93** (+0.97% / −0.01%) | **Brent has now run $89.51 → $90.91 → $91.90 in three sessions**, decisively through the old $89.60 scare level and *re-accelerating* after a pause. Crude inventories 9:30 AM. |
+| **Gold** | **4,415.70** (+1.14%) | Re-accelerated (+0.72% → +1.14%) after decelerating. |
+
+### 🚨 The Russell-lagging flag has REVERSED BACK ON — one session after it reversed off
+
+Yesterday this file recorded the flag as having stopped flashing. **It resumed immediately, and
+harder: on the cash tape IWM closed −1.26% against SPY −0.68% — small caps underperformed by
+58bp and IWM closed at 4% of its daily range** (O 302.45 H 303.15 L 300.11 **C 300.23**).
+A 4%-of-range close is the same distribution signature rule 4 uses to kill satellites.
+
+⚠️ **This is the discipline point, not the datapoint.** The factor has now run
+−0.52% → +0.66% → +0.32% → −0.44% → +0.72% → **−0.58%**. **It has changed sign five times in
+six sessions.** Yesterday's note called one green session "a rotation signal at best" and
+declined to book it — **that restraint was correct and is now proven.** The rule that follows:
+**a one-session move in the IWM−SPY factor carries no information in either direction.** Stop
+reading it daily; read it weekly in the attribution, where the core's ~59% weight makes it
+matter. **Do not now over-correct and call this a bearish small-cap signal either.**
+
+### 🗓️ Today is the week's only scheduled risk — and it hits positions, not decisions
+
+🚨 **Wed 8/19, 2:00 PM ET — July FOMC minutes.** Rocket carries **two** satellites (OMER, ETON)
+plus a ~59% IWM core into it. **There is no entry decision to make today** — the pre-commitment
+to hold at two was made in writing Monday and Tuesday, and today's board is independently empty
+(top scanner mover **+5.8%, STI**, a permanent skip). Also **EIA crude inventories 9:30 AM**,
+which matters mainly because Brent is re-accelerating, not as a market-wide risk.
+
+**Thu 8/20** (claims, Philly Fed, flash PMIs, existing home sales) and **Fri 8/21** are pre-open
+and clean. **Jackson Hole is Aug 27–29 — Week 35.** Next entry day: **Thu 8/20.**
+
+### 🆕 Two filing-literacy saves in one session — the pattern is now a rule
+
+Rocket has now been misled-and-corrected by a *form type* three times in a week, in both
+directions. **The general rule: read the form and its subject line, not the form's reputation.**
+
+| Filing | Looks like | Actually is |
+|---|---|---|
+| OMER **S-8** (8/13) | "$142.67M shelf registration" headline | Employee-benefit-plan shares. **Not a raise.** Would have falsely sold a good position. |
+| BW **25-NSE** (8/13) | Delisting notice = distress | Covers the **6.50% Senior Notes due 2026** that *matured*, under Rule 12d2-2(a)(1). **Routine, does not touch the common.** |
+| BW **S-3ASR** (5/21) | Just another shelf | 🚨 **Automatic shelf — EFFECTIVE ON FILING, no SEC review.** The fastest takedown vehicle there is. **This is the one that actually killed BW.** |
+
+🆕 **New dilution tier to grade explicitly (extends lesson 8a):** an **S-3ASR sits *above*
+category (iii)** — it is an effective shelf with the delay removed, so the issuer can price
+overnight. When checking EDGAR, distinguish *no shelf* (ETON — safest) → *S-3 pending* →
+*S-3 effective* → **S-3ASR (immediate)** → *424B5 drawn*.
+
+### 🆕 Range collapse on huge volume = a pinned deal price, not a breakout
+
+**WEAV** printed **+31.9% at 123.6x RelVol** and looked like the best mover on the tape. Its
+daily bar: **O $7.29 H $7.32 L $7.28 C $7.28 on 49.4M shares.** A **$0.04 range on 34x normal
+volume** is impossible unless the price is pinned — and it was: **Francisco Partners is buying
+Weave for $650M at $7.40/share cash**, a 34% premium, closing Q4. **The bar diagnosed the deal
+before the news search did.** Check the range of any huge-RelVol gainer before spending
+research on it; upside is contractually capped and there is no momentum edge.
+
+### Carried forward (still current)
+
+- ✅ **Beat-AND-RAISE is the only version that trades.** Beat-without-a-raise 3-for-3 as a fader.
+- 🚨 **Day-one distribution beats catalyst quality** — OABI (18% of range, best-structured
+  thesis in a month) is dead; ETON cleared the same gate at 86% → 82% → **96%** and is +4.6%.
+- ⚠️ **The $2B ceiling is binding and is now biting a live position**: ETON's cap is **$1.81B**,
+  so its +15% target (~$1.95B) clears only just. **Escalated to the user; not overridden.**
+- 🚨 **The earnings pipeline is empty, not just thin** — three straight sessions with no
+  tradeable print. Thursday's board will have to be built from second-day continuations.
+
+---
+
+## Snapshot — 2026-08-18 Tuesday premarket  ← superseded
 
 ### Where things stand
 
@@ -89,101 +166,3 @@ not any filing with "registration" in the headline.
   Expect Thursday's board to be built from second-day continuations, not fresh earnings.
 
 ---
-
-## Snapshot — 2026-08-17 Monday premarket  ← superseded
-
-### Where things stand
-
-| Metric | Level | Read |
-|---|---|---|
-| ✅ **VIX** | **14.98** (+5.12%) | Still far under the 22 pause threshold — **no volatility brake on entries.** But up 5% and the *lowness itself* is now a flagged risk: a weak VIX means little downside hedging is in place ahead of the Fed. |
-| 🚨 **10-yr** | **4.70%** (+1.19%) | **Only 5bp from the 4.75% trigger — cushion cut from 11bp to 5bp over the weekend.** 10s and 30s both rose 5bp Friday. Schwab lifted its expected range to **4.25–4.75%**, i.e. the trigger is now the top of the *consensus* range, not a tail. **Closest this has come. Check it before any entry.** |
-| **SPY** | **776.34** | S&P futures **+0.13%** |
-| **IWM** | **305.09** | Russell futures **−0.11%** |
-| 🚩 **Russell-red-while-S&P-green** | **SHOWING in futures** | Friday it grazed −0.01%; this morning Russell fut is red while S&P fut is green. **Still pre-open and not confirmed on the cash tape — do not act, but this is the second straight session and Rocket's core is ~76% IWM.** |
-| ⚠️ **Brent / WTI** | **89.51 / 83.14** (+1.12% / +0.90%) | **Back at Tuesday's $89.60 scare level**, having been $2.45 below it Friday. Round-tripped in one weekend. |
-| ⚠️ **Gold** | **4,451** (+1.62%) | Third session re-accelerating. Now rising *with* yields and *with* oil — unlike Friday, the inflation read is no longer contradictory. Watch, not actionable alone. |
-
-**Net**: nothing here stops a trade — VIX is the only hard gate and it is nowhere near it.
-But **every secondary indicator moved the wrong way over the weekend** (yields toward the
-trigger, oil back to the scare level, gold accelerating, Russell lagging). That argues for
-honouring the one-satellite discipline rather than adding two.
-
-### Week 33's two big prints both resolved benignly
-
-- **CPI (Wed 8/12)** — in line: headline +0.1%/3.4%, **core +0.2%/2.5%, the coolest annual
-  core since March 2021.** The 10-yr did not move; VIX fell through 15.
-- **PPI (Thu 8/13)** — benign, and **read off the tape rather than a search**: the 10-yr
-  *rallied 4bp* through the print. A hot producer number does not produce a bond rally. The
-  "no new satellite" brake never fired.
-
-**Both dominant scheduled risks are spent and the 10-yr came down through both.**
-
-### 🚩 The factor bet was Week 33's whole story
-
-**IWM − SPY = +0.77% on the week**, and with a ~91% core weight that alone produced
-**+0.70%** — i.e. **the entire +0.15% headline beat and then some.** Day by day the factor
-ran **−0.52% → +0.66% → +0.32% → −0.44% → +0.72%** — violent in both directions, netting
-strongly positive only because of Friday.
-
-🚨 **This must be booked as beta, not skill, exactly as Week 31's −0.95% was booked as beta
-rather than failure.** Real alpha for the week was **−0.52%**.
-
-### 🗓️ Week 34 calendar — worse structure than Week 33
-
-| Day | Event | Structure |
-|---|---|---|
-| Mon 8/17 | NAHB housing index (10:00 AM, after the entry window) | ✅ Clean — ETON's day-2 window |
-| Tue 8/18 | Building permits / housing starts | ✅ Pre-open, benign — OABI's day-2 window |
-| 🚨 **Wed 8/19, 2:00 PM ET** | **July FOMC minutes** | **INTRADAY. The only real event of the week.** Hits open positions, not entry decisions. |
-| Thu 8/20 | Jobless claims, Philly Fed, flash PMIs, existing home sales | ✅ Pre-open — **clean, now that Jackson Hole has moved** |
-| Fri 8/21 | Retail earnings tail | ✅ **Clean — see the correction below** |
-
-🔴 **CALENDAR CORRECTION (8/17): Jackson Hole is Aug 27–29, NOT Friday 8/21.** Friday's
-Week-34 table put it this week and that was wrong. **Week 34 therefore has exactly one
-scheduled risk — Wednesday's 2:00 PM minutes — and Thu/Fri are clean entry days.**
-Jackson Hole risk belongs to **Week 35**, alongside Nvidia earnings the week after.
-
-**Standing call, restated with the corrected calendar: ONE satellite into Wednesday, not
-two** — and OMER already occupies that slot. So **Mon and Tue share a single new-satellite
-budget**; the runner-up defers to **Thu 8/20 or Fri 8/21**, which the correction reopens.
-Take the first third promptly at +15%. Anything entered Mon/Tue is open through the minutes.
-
-⚠️ **Rate path**: traders have cut the odds of a September **hike** to under one-third, but
-it is a live enough question that the minutes matter and yields are pressing 4.75%.
-
-⚠️ **Week 33 proved this structural read matters.** Friday's UMich landed 10 minutes *after*
-the 9:45–9:50 entry window — the only entry of the week placed into an unresolved print. It
-did no damage, but the pattern (intraday prints hitting positions rather than decisions) is
-exactly what Wednesday repeats at larger scale.
-
-### Theme read
-
-- 🚨 **The earnings pipeline is thinning fast.** By Friday the board was carry-overs plus two
-  fresh names, and one of those (UMAC) moved on a *policy* headline rather than a print.
-  Expect Week 34's ideas to come from second-day continuations and sector catalysts, not
-  from a full earnings calendar.
-- 🆕 **A policy/tariff catalyst has entered the tape.** Trump's **100% drone-import tariff**
-  (signed Thu 8/13) moved the whole group — UMAC +24%, RCAT +8%, ONDS +4%, AVAV/KTOS +1–2%.
-  **Sector-wide policy moves are momentum, not company events**: the biggest mover is the
-  most-chased name, not the best one. Rank on which company the policy actually re-prices.
-- ✅ **Beat-AND-RAISE is now the only version that trades.** Beat-without-a-raise is 3-for-3
-  as a fader (SVCO, CVRX, **FF**) and was promoted to a hard disqualifier on 8/14.
-- 🚨 **Day-one distribution still beats catalyst quality.** Week 33 ran the range check on
-  ~12 names and it separated survivors from corpses every time — CURI closed at **4% of
-  range** and fell 11%; ETON closed at **87.6%** and is the P1 into Monday.
-- 🚨 **Fresh, dated analyst ladders remain the single best entry filter — 4-for-4.**
-  ✅ **Lesson 11's "targets are stale on a print day" is now confirmed in the other
-  direction (8/17).** ETON read *capped* on Friday against a $62.33 consensus struck at a
-  $41.58 price. Re-struck Monday on dated post-print actions (H.C. Wainwright $65→$70 on
-  8/14, Craig-Hallum $62→$76 on 8/13), consensus is **$71** and the name clears its gate.
-  **The filter's job is to kill bad setups, not good ones — always re-strike after a print
-  rather than skipping on a stale ladder.**
-- 🆕 **EDGAR beats a web search for rule 8, and it grades the *speed* of the risk.** A name
-  with **no S-3 on file cannot do a fast takedown** (ETON) — materially safer than a name
-  with an **effective undrawn shelf**, which can price overnight (OABI, OMER). Same lesson-8a
-  category on paper, very different overnight exposure. Check EDGAR `submissions` directly;
-  it is one call and it is definitive where a search returns nothing.
-- ⚠️ **The $2B universe ceiling is now binding on the best names.** APPS, BW, HLIT, ETON and
-  UMAC were all killed or one-rung-capped by it in two weeks. **Escalated to the user as an
-  open question. Not overridden.**

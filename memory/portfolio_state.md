@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-08-18 19:58 UTC
+**Last Updated**: 2026-08-19 19:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,487.22 |
-| Rocket's Allocated Slice (30%) | $3,146.17 |
-| Cash Available (shared, pooled) | $482.38 |
-| Total Invested (both agents) | $10,004.84 |
+| Shared Account Value (Bull + Rocket) | $10,575.80 |
+| Rocket's Allocated Slice (30%) | $3,172.74 |
+| Cash Available (shared, pooled) | $482.34 |
+| Total Invested (both agents) | $10,093.46 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +3.77% |
-| SPY return since rebase | +3.38% |
-| Rocket vs SPY | +0.39% |
+| Rocket return since rebase | +4.65% |
+| SPY return since rebase | +3.59% |
+| Rocket vs SPY | +1.06% |
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -33,13 +33,13 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Current Price | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|----------------|-------|
-| ETON | 7 | $60.65 | $63.08 | $+17.01 | +4.0% |
-| IWM | 6 | $293.59 | $300.15 | $+40.67 | +2.2% |
-| JPM | 6 | $313.30 | $363.07 | $+298.62 | +15.9% |
-| NOW | 12 | $116.96 | $119.53 | $+30.87 | +2.2% |
-| OMER | 27 | $17.14 | $17.16 | $+0.54 | +0.1% |
-| SCHW | 5 | $103.91 | $111.62 | $+38.55 | +7.4% |
-| SPY | 4 | $759.57 | $767.19 | $+30.48 | +1.0% |
+| ETON | 7 | $60.65 | $61.45 | $+5.60 | +1.3% |
+| IWM | 6 | $293.59 | $301.41 | $+48.48 | +2.7% |
+| JPM | 6 | $313.30 | $357.08 | $+262.68 | +14.0% |
+| NOW | 12 | $116.96 | $127.26 | $+123.63 | +8.8% |
+| OMER | 27 | $17.14 | $18.41 | $+34.29 | +7.4% |
+| SCHW | 5 | $103.91 | $110.73 | $+34.12 | +6.6% |
+| SPY | 4 | $759.57 | $768.71 | $+36.56 | +1.2% |
 
 ---
 
@@ -47,9 +47,9 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($1,860)  — benchmark sleeve; no stop, exempt from position limits
-- **Rocket's satellites** (2): ETON ($442), OMER ($463)
-- **Bull's positions** (4): JPM ($2,178), NOW ($1,434), SCHW ($558), SPY ($3,069)
+- **Rocket's core** (1): IWM ($1,868)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's satellites** (2): ETON ($430), OMER ($497)
+- **Bull's positions** (4): JPM ($2,142), NOW ($1,527), SCHW ($554), SPY ($3,075)
 
 
 ---

@@ -1446,3 +1446,89 @@ Full rules live in CLAUDE.md and `lessons_learned.md`. Only this week's live num
 | FF | $6.61 (Aug 11) | $6.44 (Aug 11) | −$12.24 (−2.57%) | Stopped out same session. Beat-without-raise + no analyst coverage — the P2 knocks were the right knocks. |
 | CSTL | $29.99 (Aug 3) | $29.94 (Aug 6) | −$0.75 (−0.17%) | Trailing stop off the $31.73 HWM. Thesis never broke; the trail gave back the pop. |
 | MRLN | $8.88 (Jun 5) | $8.90 (Jun 5) | +$33.40 | Catalyst real; hit +15% then round-tripped. Lock 1/3 at target. |
+
+
+---
+
+## Archived 2026-08-19 — Week 34 kill writeups (all now on the standing skip list)
+
+### ❌ OABI — DROPPED. The rule-4 gate fired, and the Monday deferral was vindicated.
+
+**The Tuesday precondition failed outright.** OABI had to close Monday at **≥50% of its
+range**; it closed at **18%** — O $4.18, H $4.29, **L $3.71, C $3.82** on 18.1M shares.
+
+- It **opened at its high and gave the whole Lilly gap back intraday.** Premarket peaked
+  +45.6% at $4.92; it closed +13% at $3.82, in the bottom fifth of the range on 28x normal
+  volume. **That is distribution, not consolidation** — the exact ASPN (28%) / EVH (9%) /
+  CURI (4%) signature that rule 4 was written from.
+- ✅ **The catalyst was real and the stock still died.** $370M Lilly milestones + a hard cash
+  guidance raise, an uncapped ladder ($7.33 consensus), rule 13 a non-issue at $813M — the
+  best-*structured* idea on the board for a week. **Research quality was not the problem.**
+  This is lesson 4 restated: *validating the catalyst is no longer the hard part — surviving
+  day one is.*
+- 🥇 **Monday's decision to defer was correct and is now measurable.** A day-1 entry near the
+  $4.47 premarket print would be **−14.5%** at Monday's close. Same-day entries stay
+  **0-for-3**, and the discipline that avoided a fourth was the pre-committed rule, not a
+  judgment call made in the moment.
+- **Not deferred to Thu/Fri — dropped.** The day-2 case was conditional on Monday's close and
+  the condition failed. Re-screening it later on chart quality would be the mistake rule 4
+  forbids. Off the board unless a *new* dated catalyst appears.
+
+### ❌ AGPU — the best price action on the tape, killed by rule 8. Do not chase this.
+
+**Axe Compute.** Monday: **+28.4%, closed at 92% of its range** (O $7.81 H $10.88 L $7.39
+**C $10.62**) on **2.59M sh vs 407k ADV (6.4x)**. Float **8.5M of 11.5M shares out**. On
+price action alone this is a textbook day-2 continuation, uncapped on rule 13 (+25% target
+≈ $153M against a $2B lid), and it passes every universe gate. **It is still a hard skip.**
+
+- **Catalyst is real**: >$1.3B in announced AI-infrastructure contracts, including Duos
+  Technologies' five-year, 55 MW hosting agreements valued at **>$500M**, signed 8/17.
+- 🚨 **RULE 8 KILL — category (i)/(ii), the worst tier.** EDGAR is unambiguous:
+  **S-3 filed 6/9, amended 7/2 and 7/20, went EFFECTIVE 7/27** — a three-week-old live shelf.
+  **424B3 filed 7/29** (a resale prospectus already in use). **424B5 takedown 5/15.** This is
+  not an undrawn ATM to size around; it is a company actively distributing stock.
+- 🚨 **The balance sheet cannot support the announcement — this is lesson 7 in its purest
+  form.** Cash **$21.9M** at 6/30. Stockholders' equity **fell** $40.3M → $34.0M in the
+  quarter. Against **$1.3B of announced contracts** requiring roughly $1B of GPU procurement.
+  **The gap is ~60x its cash.** Delivering the catalyst *requires* enormous dilution, and the
+  shelf to do it is already effective. **The growth rate made it gap; the funding structure
+  decides the 1–5 day hold — and the funding structure here is the trade's counterparty.**
+- 🚩 **SEC classifies AGPU under SIC "Finance Services", not technology** — consistent with a
+  holdco that pivoted into AI compute rather than an operator. Recent CEO appointment
+  (Christopher Miglino) and a ticker that literally spells "A-GPU". **Promotional profile,
+  same family as BNAI on the standing skip list.**
+- 🚩 **The AGPU↔DUOT structure is circular.** Both sides disclose nonbinding term sheets for
+  **AGPU to take minority equity stakes in the DUOT special-purpose entities it is
+  simultaneously paying to host with.** Money going in a circle between two small caps, each
+  booking the other's side as a headline contract. **No position on either side.**
+- **Verdict: skip, and add to the standing avoid list.** If Rocket wants this theme it needs
+  a name that can *fund* the capex.
+
+### ❌ DUOT — same deal, plus a governance red flag that stands on its own
+
+**Duos Technologies.** Monday **+12.7%, closed 61% of range** ($10.27) on 3.99M vs 802k ADV.
+Passes the universe gates. **Killed twice over.**
+
+- 🚨 **It filed an NT 10-Q — a NOTIFICATION OF LATE FILING — on 8/17, the SAME DAY it put out
+  the $500M contract press release.** A company that cannot file its quarterly financials on
+  time announcing a blockbuster contract the same morning is a pattern to walk away from, not
+  to underwrite. This alone is disqualifying.
+- 🚨 **Rule 8: 424B5 drawn 6/17/2026** — the shelf is not undrawn, it is already tapped.
+  Stockholders' equity jumped $48.6M → $106.9M, consistent with a large raise.
+- 🚨 **Scale mismatch**: quarterly revenue **$2.7M** (Q1 FY26) and negative operating cash
+  flow, signing a **$500M** contract that requires building 55 MW of data-center capacity.
+  **The contract is ~185x its quarterly revenue and larger than its entire market cap.**
+  That capex gets funded by dilution.
+- Same circular-structure flag as AGPU. **Skip both.**
+
+### ❌ XOS — universe gates fail. One search spent, then dropped per the routine.
+
+**+98.2% premarket at 101.4x RelVol**, the day's biggest mover. **Fails on the numbers before
+any catalyst work**: last close **$2.09** (min $3.00) and market cap **$30M** (min $50M).
+Rule 10 — **sub-$3 stocks are traps** — and this is one, with a **7.4M float** doing 100x
+volume. Also: Q2 earnings landed **8/13** and the stock fell **−18.6% on 8/14** ($2.58 →
+$2.10), so the print is not the catalyst; and an **amended Aljomaih note purchase agreement**
+puts debt/dilution directly in the frame. **A +98% premarket rip on a $30M shell four days
+after its earnings sold off is the pump profile rule 10 and the P&D warning describe.**
+No further research spent. Dropped.
+

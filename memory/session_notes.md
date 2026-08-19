@@ -3,6 +3,101 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-19 — MARKET CLOSE (Wednesday, Week 34 day 3 — FOMC MINUTES DAY)
+
+**No trades. Both satellites held overnight — OMER strong, ETON pulled back on no news. Core checked, within band.**
+
+- ✅ **OMER HOLD** — $17.14 entry → **$18.39 (+7.3% on the position)**, day's biggest mover.
+  Checked for a same-day catalyst: nothing dated to 8/19 found — CHMP's negative opinion on
+  narsoplimab is **stale June 2026 news** (EU-only, doesn't touch the US NTAP thesis) and the
+  "profitable Q2" coverage recirculating today is the same 8/13 print already priced in. Read
+  this as continued momentum off the beat-and-raise + insider-activity thread, not a fresh
+  event. Insider thread (144 8/13, Form 4 8/17, Form 4 + Form 3 8/18) is now due for
+  resolution **tomorrow** per the standing note — do not let it run a fourth session unresolved.
+- ✅ **ETON HOLD** — $60.65 entry → **$61.48 (+1.4% on the position)**, but **down ~3.1% from
+  yesterday's $63.43 close.** Checked for fresh bad news: none found. A search surfaced an
+  8-K exhibit link that read as "new" in search results but resolves to the **6/8/2026** filing
+  (stale, mis-surfaced by search recency bias, not a new dilution event) — EDGAR dilution
+  profile is unchanged (still no S-3/424B5/S-1 on file). Read as ordinary FOMC-day pullback
+  on a quiet macro tape, not thesis decay. Position remains above entry, so the close-rule
+  ("down on day AND below entry") does not fire. Multi-day beat-and-raise thesis intact — holds.
+- ✅ **Core rebalance checked, no action** — slice $3,174.13, satellite value $926.89 (ETON
+  $430.36 + OMER $496.53), 10% buffer $317.41 → target_core $1,929.83. Live IWM (6.1976 sh)
+  marked at $1,870.37 — short by $59.46, **1.9% of slice**, inside the 3% no-churn band.
+- 📊 **Today (hand-built book, lesson 23a)**: $3,139.92 → **$3,168.13 (+0.90%)** vs **SPY
+  +0.17%** → **Rocket +0.73% vs SPY today**, driven almost entirely by OMER.
+- 📊 **Since rebase (7/20), hand-built book, chained forward from the 8/14 review's
+  validated +3.84%/−0.78%)**: **Rocket ≈+4.37% vs SPY +3.60% ≈ +0.77%.** ⚠️ The 8/17 leg of
+  this chain uses that session's approximate "+$3.54 net" price-only note rather than a
+  reconstructed exact book, so treat the since-rebase figure as directionally right, not
+  penny-precise — reconstruct exactly at the next weekly review. `portfolio_state.md`'s slice
+  reads **+4.65%/+3.59% = +1.06%** — still the more-flattering, contaminated figure per lesson 23.
+- Satellites unchanged **2/4** (OMER, ETON). Weekly trade count **1/5**. No new positions —
+  board stays closed until **Thu 8/20**, post-minutes, fresh scan. Carry forward: OMER insider
+  thread (resolve Thu), ETON Form 4/144 batch (resolve Thu), ARCT re-check if still elevated.
+
+## 2026-08-19 — PREMARKET (Wednesday, Week 34 day 3 — FOMC MINUTES DAY)
+
+**No new satellite — pre-committed, and the board is empty anyway. Two open threads that had
+been deferred for days were both closed out this session.**
+
+- 🚫 **NO ENTRY TODAY, three independent reasons agreeing**: (1) **2:00 PM ET FOMC minutes**,
+  the week's only scheduled event, against a standing call of *one* satellite into it — Rocket
+  carries two; (2) the board is **independently empty** (top scanner mover is **+5.8%, STI**, a
+  permanent skip; nothing else clears +4.6%); (3) the sole deferred candidate resolved to a hard
+  skip. **Next entry day remains Thu 8/20.**
+- ✅ **WEAV closed out — merger-arb, not momentum.** Yesterday's flag (+31.9%, 123.6x RelVol) is
+  a **$7.40/share all-cash take-private by Francisco Partners** ($650M, 34% premium, Q4 close).
+  🔎 **The daily bar diagnosed it before the search did**: a **$0.04 range on 49.4M shares**
+  cannot happen unless the price is pinned → **new lesson 27.** Passing yesterday cost nothing.
+- ✅ **BW closed out — ran the gate instead of deferring a fifth time.** It had been carried
+  **four sessions** with rule 8 unrun. **S-3ASR filed 5/21 = an automatic shelf, effective on
+  filing with no SEC review** — the fastest takedown vehicle there is → **new lesson 8c**, a
+  tier *above* "effective shelf." Its scary-looking **25-NSE (8/13) is benign** (matured 6.50%
+  Senior Notes, not the common) → **lesson 8d**. **Dropped**, catalyst 9 days stale.
+- ✅ **ETON HOLD — best close of the run.** $63.43, **+4.6% on the position**, at **96% of range**
+  (86% → 82% → **96%**), a new closing high on *contracting* volume (2.32M → 1.28M → 0.87M).
+  EDGAR clean, still **no shelf of any kind on file.** Stop verified live at the broker:
+  **HWM $63.5591 → stop $59.11**, price $4.32 (6.8%) clear. ⚠️ Cap now **$1.81B** — the +15%
+  target (~$1.95B) clears the $2B lid only just. **One-rung name; sell 4 sh at $68.23.**
+- ✅ **OMER HOLD.** $17.19, +0.3%, second straight **74%-of-range** close on falling volume
+  (13.4M → 3.7M → 2.5M → 1.2M) — quiet consolidation, not distribution. Stop verified live:
+  **HWM $17.59 → stop $16.3587**, price $0.83 (4.8%) clear. **No 424B5 → ATM still undrawn**,
+  exit trigger has NOT fired. ⚠️ Insider thread now **3 sessions old** and grew overnight
+  (144 8/13, Form 4 8/17, **Form 4 + Form 3 8/18** — a Form 3 is a *new* insider's initial
+  filing, normally an appointment). **Resolve Thursday or stop citing it.**
+- 🚨 **Russell-lagging flag reversed BACK ON one session after reversing off** — IWM −1.26% vs
+  SPY −0.68%, IWM closing at **4% of its range**. The factor has changed sign **five times in
+  six sessions** → **new lesson 28: a one-session factor move carries no information.** Yesterday's
+  refusal to book the green session was correct; do not now over-correct into a bearish read.
+- 🚨 **10-yr at 4.71% — 4bp from the 4.75% trigger, tightest ever.** VIX 15.88, flat, no brake.
+  Brent re-accelerating ($89.51 → $90.91 → **$91.90**). EIA inventories 9:30 AM.
+- 🧹 Trimmed `research_log.md` 222 → ~180 lines (archived the OABI/AGPU/DUOT/XOS writeups to
+  `archive/research_log_history.md`, kept one line each); archived the superseded Monday macro
+  snapshot. Satellites **2/4**, weekly count **1/5**. Book **$3,139.92** (hand-built, lesson 23a).
+
+## 2026-08-19 — MARKET OPEN (Wednesday, Week 34 day 3 — FOMC MINUTES DAY)
+
+**No trade — pre-commitment held. Positions clean, no overnight fills or stops.**
+
+- ✅ **Snapshot confirms no surprises**: ETON $62.56 (+3.1% on position), OMER $17.64 (+2.9%),
+  IWM 6 sh core unchanged, all five trailing stops still live (ETON, OMER, plus Bull's
+  JPM/NOW/SCHW). Nothing broke overnight.
+- 🚫 **NO NEW SATELLITE — held the pre-commitment** written at premarket (2:00 PM ET FOMC
+  minutes today; Rocket already carries 2 satellites against a standing 1-into-FOMC call;
+  board was independently empty).
+- ⚠️ **Fresh-mover scan surfaced ARCT** (+28.6%, 59.3x RelVol, $300M cap, healthcare) — not on
+  the premarket board. Two inline searches found only a stale Aug 6 earnings beat and an
+  already-priced-in Thermo Fisher collaboration; nothing dated to confirm a same-day catalyst.
+  **Not traded — no clean catalyst, and would be a third satellite into FOMC minutes regardless.
+  Added to watchlist for a cleaner look tomorrow (missed-catalyst rule) if still elevated.**
+- ➖ Rest of unusual_volume/top_movers: FBRX (39.4x RelVol, +0.1% — likely pinned/deal per
+  lesson 27, not investigated further), MRVI (+30.9%, $1.95B cap — brushes the Rule 13 lid,
+  no catalyst check run), OABI/DUOT/WEAV all re-appear and are already on the skip list. Top
+  movers list had nothing above 10x RelVol with a catalyst.
+- Rocket satellites unchanged: **2/4** (OMER, ETON). Weekly trade count: **1/5**. Next entry
+  day remains **Thu 8/20**, post-minutes, on a fresh board.
+
 ## 2026-08-18 — MARKET CLOSE (Tuesday, Week 34 day 2)
 
 **No trades. Both satellites held overnight. Core rebalance checked — within band, no action.**
