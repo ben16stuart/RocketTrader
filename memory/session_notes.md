@@ -3,6 +3,118 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-20 — PREMARKET (Thursday, Week 34 day 4 — post-minutes, the pre-committed entry day)
+
+**No new satellite — but a *researched* decline, not an empty board. Both carried insider
+threads resolved, in opposite directions. ETON downgraded on a CEO sale; OMER's stop is now
+above entry.**
+
+- 🚫 **NO ENTRY.** Today was the day the week was built around, and the board did not cooperate:
+  🆕 **the entire top tier of the tape is ONE theme — crypto-treasury proxies** (DFDV, HYPD,
+  USDE, SBET, ASST, ABTC, FWDI, BKKT, SECZ). **Excluded on mandate**, not judgment: CLAUDE.md
+  forbids crypto, their catalyst is "a token went up," and they are **ATM-financed by
+  construction** — issuing stock to buy tokens *is* the model, so rule 8 applies by design.
+  DFDV closed at **93% of range on 3.5x volume**, the best bar on the tape, and is still a hard
+  skip → **new lesson 31.** Second time in three sessions the prettiest action was
+  structurally uninvestable. **Default: hold IWM core + both satellites, ~100% invested, no
+  rebalance until `market_close`** (core $54 / **1.7%** short — inside the 3% band).
+- ❌ **ARCT SKIPPED — killed by the EVENT CALENDAR, a first.** The only name with a real volume
+  event (**+25.2% on 5.63M vs ~0.5M ADV ≈11x**), and it **passed everything that normally
+  kills**: uncapped dated ladder (**$18.29–$23.30 consensus, Canaccord $20** vs $10.28), rule
+  13 irrelevant ($288M cap), and the **best balance sheet screened to date — $191.5M cash
+  against a $288M market cap, runway to YE2028, S-3 undrawn** (the *inverse* of AGPU/DUOT).
+  **Skipped anyway**: (1) 🚨 **rule 1 — the catalyst doesn't exist.** The move resolves to a
+  Canaccord PT **CUT** ($21→$20) + a **conference fireside chat** + recirculated Aug-6 news;
+  (2) 🚨 **the CAPR rule — ARCT-810 Phase 2 data is guided "later in Q3 2026," undated**, i.e.
+  inside a 1–5 day hold, **and a 7% stop cannot protect against a data gap.** → **new lesson
+  29: screen the calendar as its own gate.** Re-screen only once the readout is a fact.
+- ✅ **OMER insider thread CLOSED — BENIGN, stop citing it.** Carried 4 sessions, resolved by
+  opening the filings: 8/18 Form 4 = **code A, a GRANT** of 30k options to a director; 8/17
+  Form 4 = **code M+S, a cashless exercise-and-sell** (5,000 @ $3.93 → $16.95, **~$85k against
+  a 13.4M-share day**); Form 3 = a new insider's initial statement. Compensation mechanics.
+- 🎉 **OMER — the stop is now ABOVE the entry.** 8/19: **+7.0% at 72% of range on 3.20M**,
+  volume *expanded* 2.6x. Live stop verified **HWM $18.86 → $17.5398 vs $17.14 entry — the
+  trade can no longer lose money** (worst case **+$10.79**). 🚨 **+15% rung is $19.71 and 8/19's
+  high was $18.89 — within 4.3%. SELL 9 SHARES ON THE TOUCH.** MRLN round-tripped unscaled.
+  ✅ No 424B5 → ATM undrawn, exit trigger has not fired.
+- 🚨 **ETON — the founder is selling. Outlook downgraded, position held.** 🆕 **Form 144 filed
+  8/19: CEO Sean Brynjelsen, 100,000 sh / $6,343,000**, sale date 8/19 — **16% of that day's
+  610k volume.** ⚠️ **This falsifies yesterday's `market_close` conclusion**, which searched for
+  a cause of the reversal (H $63.83 → **C $61.48 at 38% of range**), found none, and called it
+  "an ordinary FOMC-day pullback." There *was* a seller. ✅ **But a 144 is NOT dilution** —
+  secondary sale, shares out unchanged at 28,583,135, cap math and balance sheet untouched;
+  **still no S-3/424B5/S-1 on file, dilution profile still the cleanest screened.** It is
+  **supply overhang** → **honor the rung: sell 4 sh at $68.23.** Still a one-rung name. Stop
+  cushion narrowed to **3.1%** ($59.3619), sitting **$1.29 below entry.** → **new lesson 30.**
+- ✅ **10-yr resolved the right way: 4.71% → 4.65%**, widening the cushion to the 4.75% trigger
+  from **4bp to 10bp**. VIX **15.20**, no brake. 🚨 **Brent $93.90 (+2.49%), fourth straight
+  advance and accelerating — +4.9% in four sessions. Watch $95.** Gold $4,546 also making
+  highs; yields falling — an inflation-tinged backdrop.
+- ✅ **Lesson 28 vindicated one session after being written**: IWM +0.50% vs SPY +0.21% (+29bp)
+  right after −58bp — **six sign changes in seven sessions.** Not booked, correctly.
+- 🗓️ **Calendar clean for the entry window**: 8:30 AM claims + Philly Fed (pre-open), 10:00 AM
+  Leading Indicators (minor). 🔧 **Correction: existing home sales is 8/25, not today.**
+  **Jackson Hole Aug 27–29 (Week 35) is the next real event.** Earnings pipeline still empty —
+  four straight sessions; nearest are **QMLS 8/25, LTRX 8/26** (carry LTRX forward).
+- Book **$3,167.90** (hand-built, lesson 23a). Satellites **2/4**, weekly count **1/5**.
+
+## 2026-08-20 — MARKET OPEN (Thursday, Week 34 day 4 — post-minutes, the pre-committed entry day)
+
+**No trade — premarket's "no new satellite" call held. Clean overnight, one new name
+checked and correctly passed.**
+
+- ✅ **Snapshot confirms no surprises**: ETON 7 sh unchanged ($60.65→$60.87), OMER 27 sh
+  unchanged ($17.14→$18.48), IWM 6 sh core unchanged, all five trailing stops still live
+  (ETON, OMER, plus Bull's JPM/NOW/SCHW). Cash flat at $482.34. Nothing broke overnight.
+- 🚫 **NO NEW SATELLITE — held the premarket call.** The top-tier tape was still the
+  crypto-treasury theme (DFDV, USDE, BKKT, ABTC, SBET, FWDI, SECZ, plus **two new names
+  in the same bucket**: PURR/Hyperliquid Strategies, GEMI/Gemini Space Station, BTGO/BitGo
+  Holdings) — all excluded on mandate per lesson 31, none re-screened.
+- ⚠️ **Fresh-mover scan surfaced PSNL** (Personalis, healthcare, $1.77B cap) — not on the
+  premarket board, only genuinely new name outside the crypto theme and the existing kill
+  list. One inline search + scanner detail killed it on three independent grounds: (1) real
+  volume today is **0.9x avg**, not the 7.3x the premarket-timestamped scan showed — no
+  confirmation; (2) the catalyst is **16-day-old Q2 earnings (8/4)**, already priced in via
+  a +9.85% 7-day pop right after the print — stale, not fresh; (3) **analyst target
+  ($13.875) sits BELOW the current price ($16.57)** — an inverted ladder, worse than merely
+  capped, a hard fail on rule 11. Also flagged: insiders sold $7.1M in the last 3 months
+  against widening losses (Q2 net loss $31.68M vs $17.20M revenue). Not traded.
+- ➖ Rest of both scans: ARCT, OABI, QMLS, STI, BNAI, WOLF all re-appear and are already on
+  the standing skip list, no new evidence to revisit any of them.
+- Rocket satellites unchanged: **2/4** (OMER, ETON). Weekly trade count: **1/5**. Next
+  fresh board Fri 8/21 per premarket note.
+
+## 2026-08-20 — MARKET CLOSE (Thursday, Week 34 day 4 — post-minutes, the pre-committed entry day)
+
+**ETON closed on the end-of-day rule; OMER held. Core rebalanced hard after the ETON exit
+freed cash. First day-to-day move below zero this week.**
+
+- 🚫 **ETON CLOSED** — 7 sh, $60.65 entry → **$59.78 fill (-1.43%, -$6.09)**. Continued sliding
+  from 8/19's $61.48 close, crossed **below entry** for the first time, live trail down to a
+  ~0.7% cushion, thesis already downgraded on the CEO's $6.34M Form 144 (lesson 30). Small-cap
+  close rule fired cleanly: down on day + below entry + no thesis improvement → close, don't
+  wait for the trail. **New lesson 32**: the exit beat where the 7% trail would have triggered.
+- ✅ **OMER HELD** — $17.14 entry → $18.63 (+8.7% all-time, +1.3% today), new week high $18.62,
+  stop still locked above entry (worst case remains positive). Multi-day beat-and-raise thesis
+  intact, volume still constructive. No same-day catalyst, ordinary continuation — holds
+  overnight per the multi-day-thesis criterion.
+- ✅ **CORE REBALANCE — IWM BUY 1.8546 sh @ $297.53 ($551.79)**. Post-ETON-close core was
+  **17.5% of slice short** of target (slice $3,156.19, satellite value $503.28 (OMER only),
+  10% buffer $315.62 → target_core $2,337.29 vs live IWM $1,844.13) — outside the 3% band by a
+  wide margin, funded from ETON's proceeds plus existing pooled cash headroom, not new cash.
+  New IWM qty **8.0522 sh**.
+- 📊 **Today (hand-built book, lesson 23a)**: $3,167.90 → **≈$3,137.93 (-0.95%)** vs **SPY
+  -0.88%** → **Rocket ≈-0.07% vs SPY today** — small caps (IWM) underperformed SPY intraday,
+  consistent with the beta-not-skill framing (core carried the loss, OMER partially offset it).
+- 📊 **Since rebase (7/20)**: SPY **+2.79%** (script-verified, `market_data.py spy 2026-07-20`).
+  Rocket hand-built ≈**+3.38%** (chained forward from 8/19's non-penny-precise ≈+4.37%,
+  itself flagged for reconstruction at next weekly_review) → Rocket vs SPY **≈+0.6%**,
+  directional only. `portfolio_state.md` slice reads **+4.04%/+2.79% = +1.25%** — the more
+  flattering, contaminated figure per lesson 23; do not cite it as the true number.
+- Satellites now **1/4** (OMER only). Weekly trade count unaffected (core rebalance + a
+  close, no new entry) — still **1/5**. Next fresh board Fri 8/21 per premarket note.
+- ✅ ntfy daily summary sent and confirmed (`Notification sent: [default] ...`).
+
 ## 2026-08-19 — MARKET CLOSE (Wednesday, Week 34 day 3 — FOMC MINUTES DAY)
 
 **No trades. Both satellites held overnight — OMER strong, ETON pulled back on no news. Core checked, within band.**

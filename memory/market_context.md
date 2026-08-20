@@ -4,7 +4,83 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-08-19 Wednesday premarket (FOMC MINUTES DAY)  ← CURRENT
+## Snapshot — 2026-08-20 Thursday premarket (Week 34 day 4 — post-minutes)  ← CURRENT
+
+### Where things stand
+
+| Metric | Level | Read |
+|---|---|---|
+| ✅ **VIX** | **15.20** (−4.3% vs 15.88) | **Fell through the minutes.** No brake on entries — 7 points under the 22 threshold. |
+| ✅ **10-yr** | **4.65%** (−6bp) | 🎉 **THE WEEK'S KEY NUMBER RESOLVED THE RIGHT WAY.** It sat at **4.71%, 4bp from the 4.75% trigger — the tightest ever** — going into the minutes. It came **down 6bp**, widening the cushion to **10bp**. The July FOMC minutes landed benignly. **The standing rate flag stands down a notch.** |
+| **S&P fut** | **−0.03%** | Flat |
+| **Nasdaq fut** | **+0.12%** | Flat |
+| **Russell fut** | **−0.09%** | Flat — all three futures effectively unchanged |
+| 🚨 **Brent / WTI** | **93.90 / 86.64** (+2.49% / +0.94%) | **Now the most notable trend on the board.** Fourth straight advance and *accelerating*: $89.51 → $90.91 → $91.90 → **$93.90**, **+4.9% in four sessions**, decisively through the old $89.60 scare level. ⚠️ **Watch $95** — above it, crude becomes a real input to small-cap margin expectations. |
+| ⚠️ **Gold** | **4,546.00** (+1.26%) | Also re-accelerating and making highs. |
+| **Dollar** | **98.57** (−0.26%) | Soft |
+
+⚠️ **Rising crude + rising gold + falling yields** is an inflation-tinged risk backdrop.
+Not actionable today, but it is a coherent pattern rather than three separate prints.
+
+### ✅ Lesson 28 confirmed on the very next session — do not read the factor daily
+
+Cash tape 8/19: **IWM +0.50% vs SPY +0.21% — small caps outperformed by 29bp**, one session
+after underperforming by 58bp. The factor now reads **−0.52 → +0.66 → +0.32 → −0.44 → +0.72 →
+−0.58 → +0.29**: **six sign changes in seven sessions.** Lesson 28 was written yesterday and
+was vindicated immediately. **Do not book this green session as a small-cap signal**, exactly
+as yesterday's red one was correctly not booked as a bearish one. Read it **weekly in the
+attribution**, where the ~59% core weight makes it matter.
+
+### 🗓️ Today's calendar is clean for the entry window
+
+- **8:30 AM ET — jobless claims + Philly Fed.** ✅ **Pre-open, resolved before 9:35.**
+- **10:00 AM ET — Leading Indicators (July).** Minor, lagging; rarely moves the tape.
+- 🔧 **Correction to yesterday's note: existing home sales is 8/25, not today.**
+- **Fri 8/21 clean. 🚨 Jackson Hole is Aug 27–29 — Week 35**, and that is the next real event.
+
+### 🆕 Theme read — the tape's whole top tier is crypto-treasury proxies, and it is uninvestable
+
+Today's entire mover list is **one trade**: DFDV (Solana treasury), HYPD (Hyperliquid,
+ex-Eyenovia), USDE (Ethena/stablecoin), SBET (ETH), ASST (Strive/BTC), ABTC, FWDI, BKKT, SECZ.
+
+- 🚨 **Excluded on mandate, not on judgment.** CLAUDE.md forbids crypto; these are crypto with
+  an equity wrapper. **Their catalyst is "a token went up,"** which is not on the catalyst list.
+- 🚨 **They are ATM-financed by construction.** The business model *is* issuing stock at a
+  premium to NAV to buy tokens — so lesson 8a category (i)/(ii) applies **by design**, not as
+  an accident of financing. There is no version of these that passes rule 8.
+- 🚩 **They will keep winning the scanner and keep showing the best bars.** DFDV closed at
+  **93% of range on 3.5x volume** — the prettiest price action on the tape. **Exactly the
+  AI-datacenter trap from 8/18: the screen that kills it is the mandate and EDGAR, not the
+  chart.** Whole category added to the standing skip list.
+
+### 🆕 A clean balance sheet does not save a name with a hostile CALENDAR — new failure mode
+
+**ARCT** was the only name on the tape with a real volume event (+25.2% on ~11x volume) and it
+**passed every filter that normally kills**: uncapped, dated ladder ($18.29–$23.30 consensus vs
+$10.28), rule 13 irrelevant ($288M cap), and a genuinely **excellent** balance sheet —
+**$191.5M cash against a $288M market cap**, runway guided **through year-end 2028**, S-3 on
+file since 12/30/2025 but **undrawn**. It is the *inverse* of the AGPU/DUOT ratio failure.
+
+**It was skipped anyway, on two grounds**: (1) the +25% resolves to a Canaccord price-target
+**CUT** ($21→$20) plus a **conference fireside chat** — **no catalyst**, the move is
+unexplained; and (2) **ARCT-810 Phase 2 data is guided for "later in Q3 2026," undated**, i.e.
+inside any 1–5 day hold, **and a 7% trailing stop cannot protect against a data gap.**
+
+🆕 **Every prior kill this month came from the funding structure. This is the first from the
+event calendar. Screen the calendar as its own gate**, alongside dilution and the ladder.
+
+### Carried forward (still current)
+
+- ✅ **Beat-AND-RAISE is the only version that trades.** Beat-without-a-raise 3-for-3 as a fader.
+- 🚨 **Day-one distribution beats catalyst quality** — OABI (18% of range) dead; ETON cleared
+  the same gate at 86% → 82% → 96% and is green.
+- ⚠️ **The $2B ceiling remains binding** on the best names. **Escalated to the user; not overridden.**
+- 🚨 **The earnings pipeline is still empty — four straight sessions with no tradeable print.**
+  🗓️ Nearest scheduled: **LTRX 8/26**, QMLS 8/25.
+
+---
+
+## Snapshot — 2026-08-19 Wednesday premarket (FOMC MINUTES DAY)  ← superseded
 
 ### Where things stand
 

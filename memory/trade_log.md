@@ -4,6 +4,31 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-20 — ETON CLOSED (market_close) + CORE REBALANCE, IWM BUY
+
+**ETON exit**: 7 sh, entry $60.65 → market close fill **$59.78** (filled 19:59:03 UTC,
+trailing stop cancelled first). **P&L −$6.09 (−1.43%)**.
+- Reason for exit: small-cap end-of-day rule — down further on the day (8/19 close
+  $61.48 → $59.78, ≈−2.8%) and now **below entry** for the first time since the 8/17
+  fill. Thesis already downgraded this week (CEO Form 144, 100,000 sh / $6,343,000,
+  read as supply overhang not dilution) and the live trailing stop had narrowed to a
+  ~0.7% cushion above the current price — closed rather than risk a stop-out at a
+  worse level overnight.
+- Lesson: the founder-sale overhang note from premarket (lesson 30) played out inside
+  24 hours — a 144-driven downgrade with a thin stop cushion is worth closing into
+  strength of the rule rather than waiting for the trail to fire.
+
+**Core rebalance, IWM BUY**: bought 1.8546 sh @ $297.53 = $551.79, filled 19:59:43 UTC.
+- Reason: post-ETON-close cash ($900.80 pooled) left the core far short of target.
+  slice $3,156.19 (portfolio_value $10,520.63 × 30%), satellite value (OMER) $503.28,
+  10% buffer $315.62 → target_core $2,337.29. Live IWM (6.1976 sh) marked at
+  $1,844.13 — **17.5% of slice short**, outside the 3% band. New IWM qty 8.0522 sh.
+- Not a conviction trade — core rebalance only, funded from ETON's proceeds plus
+  existing pooled cash headroom, per rule "fund satellites/core from proceeds, never
+  cash."
+
+---
+
 ## 2026-08-14 — WEEK 33 SUMMARY (weekly review) — 3 satellites opened, 2 closed, 0 winners
 
 **Satellite trades**: 3 opened (FF 8/11, VELO 8/12, OMER 8/14), 2 closed, 1 open.
