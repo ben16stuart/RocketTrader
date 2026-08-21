@@ -4,6 +4,38 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-21 — OMER HELD OVERNIGHT, CORE IN BAND — NO TRADE (market_close, Week 34 day 5)
+
+**OMER position review**: 27 sh, entry $17.14, closed **$19.24 (+3.3% on the day** vs
+8/20's $18.63 close**, closing at the week high $17.19–$19.24)**. Fifth straight session
+closing strong. Trailing stop remains above entry (HWM tracked up with today's high,
+worst case still a gain). +15% rung ($19.71) not yet touched — closed 2.4% below it.
+Catalyst (Q2 beat, CMS NTAP reimbursement) unchanged, ATM still undrawn. **Hold
+overnight** — momentum sustained, multi-day thesis intact, stop protects the gain.
+
+**Core rebalance check**: slice $3,169.89 (portfolio_value $10,566.30 × 30%), satellite
+value (OMER) $519.75, 10% buffer $316.99 → target_core $2,333.15. IWM (raw qty 8.0522 sh)
+× $300.14 = **$2,416.79 — 2.64% of slice over target, inside the 3% band.** No trade.
+
+**Day P&L (hand-built book, per lesson 23a)**: 8/20 close $3,137.45 → 8/21 close
+$3,169.89 = **+1.03%** vs **SPY +0.46%** today — Rocket beat SPY by ~0.57% today, driven
+by OMER's +3.3% day plus IWM tracking with the broad small-cap tape. Position-level
+detail (script-verified, `position_table.py`): IWM +0.80%/+$19.29, OMER +3.41%/+$17.14,
+total **+$36.43** today.
+
+⚠️ **Since-rebase hand-built chain has lapsed** — last verified point was the 8/14 W33
+review (Rocket +3.84% vs SPY +4.62% = −0.78%, lesson 23). No daily note since has
+carried the chain forward; `portfolio_state.md`'s auto figure (+1.33% vs SPY since
+rebase) still mixes in Bull's P&L per lesson 23 and should not be trusted. **Rebuilding
+the hand-built since-rebase chain transaction-by-transaction is flagged for the next
+weekly_review** — not attempted here to avoid compounding a guess.
+
+**No new satellite this session** — market_open/premarket found the board falsified by
+raw bars (see research_log.md); weekly count stayed 1/5. Week 34 closes with 1 satellite
+opened (ETON, since closed) and OMER still open.
+
+---
+
 ## 2026-08-20 — ETON CLOSED (market_close) + CORE REBALANCE, IWM BUY
 
 **ETON exit**: 7 sh, entry $60.65 → market close fill **$59.78** (filled 19:59:03 UTC,

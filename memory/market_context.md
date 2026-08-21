@@ -4,7 +4,90 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-08-20 Thursday premarket (Week 34 day 4 — post-minutes)  ← CURRENT
+## Snapshot — 2026-08-21 Friday premarket (Week 34 day 5 — last session of the week)  ← CURRENT
+
+### Where things stand
+
+| Metric | Level | Read |
+|---|---|---|
+| ✅ **VIX** | **15.63** (−2.37%) | **No brake — 6+ points under the 22 threshold**, and it has been range-bound 15.2–15.9 all week. A quiet tape into a quiet Friday. |
+| 🚨 **10-yr** | **4.70%** (**+0.92%, ≈+5bp**) | ⚠️ **YESTERDAY'S RESOLUTION HAS BEEN GIVEN BACK IN ONE SESSION.** Thursday this file recorded the minutes as resolving the week's key number "the right way" (4.71% → 4.65%, cushion widened 4bp → **10bp**). It is **back to 4.70% — cushion re-narrowed to 5bp** from the 4.75% trigger. **The stand-down was premature.** 🆕 **This is lesson 28's logic applied to rates: one session of relief is not a resolution either.** Check it before any entry. |
+| ✅ **S&P fut** | **+0.33%** | Green |
+| ✅ **Nasdaq fut** | **+0.65%** | Green |
+| ✅ **Russell fut** | **+0.65%** | **Tied best of the three** — a bid under small caps after a hard red cash session. Not read as a signal (lesson 28). |
+| ⚠️ **Brent / WTI** | **93.96 / 87.27** (+0.19% / −0.64%) | ✅ **The four-session ramp has STALLED.** Brent ran $89.51 → $90.91 → $91.90 → $93.90 and then added only **+0.19%**. Still elevated and still **below the $95 watch level**, but no longer accelerating — this comes off the front burner. |
+| 🚨 **Gold** | **4,639.10** (**+2.72%**) | 🆕 **NOW THE MOST NOTABLE PRINT ON THE BOARD.** $4,415.70 → $4,449.50 → $4,546.00 → **$4,639.10** — **+5.1% in three sessions and accelerating** (+1.14% → +1.26% → **+2.72%**), making highs throughout. It has replaced crude as the board's live trend. |
+| **Dollar** | **98.66** (−0.24%) | Soft, unchanged in character |
+
+🚨 **The inflation-tinged pattern from yesterday has SHARPENED, and one leg flipped.**
+Yesterday it read *rising crude + rising gold + falling yields*. Today it is **stalling crude
++ sharply accelerating gold + yields BACK UP**. Gold making new highs **while** yields rise is
+the more uncomfortable of the two combinations — it is not a simple duration bid. **Not
+actionable at a 1–5 day horizon, and no guardrail is triggered, but it is a coherent pattern
+three sessions running and Jackson Hole is six days away.** Flag it into the weekly review.
+
+### 🗓️ The calendar is clean today — and next week is not
+
+- ✅ **Fri 8/21 has no scheduled market-moving release.** Nothing to whipsaw the entry window.
+- 🚨 **Jackson Hole is Aug 27–29 (Week 35)** — confirmed, **not** this week. Powell's keynote is
+  the week's whole risk and lands **inside** any position opened late next week.
+- 🗓️ **Next week's earnings**: **QMLS 8/25**, **LTRX 8/26**. 🚨 **The earnings pipeline has now
+  been empty for FIVE straight sessions** — the longest drought recorded. Every idea this week
+  had to come from second-day continuations or contract news, and none of it cleared.
+
+### 🚨 The scanner and the tape disagreed on EVERY non-crypto name — lesson 17 at full strength
+
+The 04:20 scan showed nine non-crypto names up +3.4% to +7.7%. **Raw daily bars falsified all
+nine**: they were **extended-hours quotes printed against red or flat 8/20 cash sessions.**
+UNCY closed at **15% of range**, LFMD at **0% of range** (on the low, 0.3x volume), HDSN at
+**4%**, OSS at **10%**; ALMU is **−20% in three sessions** and OSS **−16% in four**. BBW's open
+**was its high**. **Not one name had a genuine, fresh volume-plus-catalyst event.**
+
+🆕 **This is the cleanest demonstration yet that the scanner is a NAME SOURCE, not a signal.**
+Nine names, nine falsifications, one script call. **Run the bars before the board, always.**
+
+### 🆕 Extend rule 11a from analyst headlines to CATALYST headlines — date the news
+
+An overnight search returned **"Digital Turbine (APPS) surges 22% after hours on a
+beat-and-raise, adj EPS $0.15 vs $0.05"** — the exact catalyst type that trades, on a name
+Rocket already knows. **The article had no date.** The bars: 8/18 C **12.12** → 8/19 C **11.23
+(10% of range)** → 8/20 C **10.71 (6% of range)** on **0.5x** volume, i.e. **−11.6% in two
+sessions on below-average volume.** The print was weeks stale and long faded. **A search
+result describing an after-hours move is not evidence until it is dated against the bars** —
+the same failure mode as the QNST "Barrington raised to $29" headline that was a prior period.
+
+### 🆕 The crypto-treasury theme has topped the scanner three sessions running
+
+**USDE printed +19.3% on 26.1x RelVol** — the single largest print on the board — alongside
+DFDV, ABTC, SBET, ASST, FWDI, SECZ, BKKT, GEMI, HYPD. **Lesson 31 has stopped being an
+observation and become structural**: as long as tokens are rallying, this category *owns* the
+top of every scan, and every one of them is excluded on **mandate**, not judgment. **The
+practical consequence: the scanner's top tier is currently near-useless to Rocket, so the real
+board has to be built from the names beneath it — which is exactly where the bars-falsify-all
+problem above bites.** Three consecutive no-trade sessions is the direct result, and it is a
+board-quality problem, not a discipline failure.
+
+### ⚠️ ARCT: a correct rule is currently costing money — record it, do not relax it
+
+The 8/20 skip (lesson 29, undated ARCT-810 Phase II readout inside the hold window) has now
+been followed by **a second volume-expansion day: +6.9% at 66% of range on 2.9x.** A re-check
+confirmed **no new information entered the market** — same Aug-6 Q2/CSL material, same
+Canaccord PT **cut**. **The rule is intact and the cost is real.** Carry the tally to the
+weekly review and grade it honestly; do not quietly loosen the calendar gate because price
+went the other way.
+
+### Carried forward (still current)
+
+- ✅ **Beat-AND-RAISE is the only version that trades.** Beat-without-a-raise 3-for-3 as a fader.
+- 🚨 **Day-one distribution beats catalyst quality** — OABI (18% of range) died with the
+  best-structured thesis of the month; OMER has closed **72–85% of range four sessions running**
+  and is +8.8%.
+- ⚠️ **The $2B ceiling remains binding** on the best names (APPS, BW, HLIT, ETON, UMAC).
+  **Escalated to the user; not overridden.**
+
+---
+
+## Snapshot — 2026-08-20 Thursday premarket (Week 34 day 4)  ← superseded
 
 ### Where things stand
 
@@ -154,91 +237,5 @@ research on it; upside is contractually capped and there is no momentum edge.
   so its +15% target (~$1.95B) clears only just. **Escalated to the user; not overridden.**
 - 🚨 **The earnings pipeline is empty, not just thin** — three straight sessions with no
   tradeable print. Thursday's board will have to be built from second-day continuations.
-
----
-
-## Snapshot — 2026-08-18 Tuesday premarket  ← superseded
-
-### Where things stand
-
-| Metric | Level | Read |
-|---|---|---|
-| ⚠️ **VIX** | **15.93** (+11.79%) | **Biggest one-day jump in weeks**, and the second straight rise (14.98 → 15.93). Still **6 points under the 22 pause threshold — no brake on entries.** But the direction has changed: this is no longer a sleepy-summer tape. |
-| 🚨 **10-yr** | **4.70%** (unchanged) | **Still just 5bp from the 4.75% trigger.** It did not move overnight — the cushion neither widened nor closed. **Check it before any entry; this is the closest it has sat for a week.** |
-| **S&P fut** | **−0.48%** | Risk-off |
-| 🚨 **Nasdaq fut** | **−1.20%** | **Leading the decline by a wide margin — this is a tech-led selloff, not a broad one.** |
-| ✅ **Russell fut** | **−0.22%** | **Best of the three.** |
-| **Brent / WTI** | **90.91 / 84.14** (+0.04% / −0.43%) | Brent pushed *through* $89.60 to $90.91 but has stopped rising. Elevated, no longer accelerating. |
-| **Gold** | **4,449.50** (+0.72%) | Fourth session up, but decelerating (+1.62% → +0.72%). |
-
-### 🟢 The Russell-lagging flag has REVERSED — and it matters for the core
-
-For two sessions the flag was **"Russell red while S&P green"**, with Rocket's core ~60% IWM.
-**This morning it is the opposite: Russell −0.22% vs S&P −0.48% vs Nasdaq −1.20%.** Small caps
-are the *best*-performing leg of a risk-off tape, and IWM closed **+0.52%** against SPY
-**−0.20%** on the last cash session.
-
-⚠️ **Do not book this as a win yet.** The factor ran −0.52% → +0.66% → +0.32% → −0.44% →
-+0.72% through Week 33 — **violent in both directions.** One session of small-cap outperformance
-inside a tech-led selloff is a rotation signal at best. The honest read: **the flag that argued
-for caution on the core has stopped flashing, so it should stop being cited as a reason.**
-
-### 🗓️ Today's structure is clean; Wednesday is the whole week's risk
-
-**Tue 8/18 — all pre-open, resolved before the 9:45 entry window**: building permits (est
-1.380M), housing starts (est 1.390M vs 1.427M prior), import/export prices at 8:30 AM;
-industrial production and capacity utilization at 9:15 AM. ✅ **No intraday print today.**
-
-🚨 **Wed 8/19, 2:00 PM ET — July FOMC minutes. The only real event of the week**, and it hits
-**open positions, not entry decisions.** Rocket carries **two** satellites (OMER, ETON) into
-it, against a standing call of one. That is the argument against a third, not against the two.
-
-Thu 8/20 (claims, Philly Fed, flash PMIs, existing home sales) and Fri 8/21 are **pre-open and
-clean**. **Jackson Hole is Aug 27–29 — Week 35, not this week.** Next entry day is **Thu 8/20**.
-
-### 🆕 Theme read — the AI-datacenter contract trade has arrived, and it is uninvestable here
-
-Monday's entire fresh board was one story: **AGPU announced >$1.3B of AI-infrastructure
-contracts and DUOT announced the $500M hosting side of the same deal.** Both ripped (AGPU
-+28.4% closing at 92% of range on 6.4x volume; DUOT +12.7%). **Both were killed by rule 8, and
-the kill was not close.**
-
-- 🚨 **New pattern to name: the announcement-to-balance-sheet ratio.** AGPU has **$21.9M of
-  cash and declining equity** against **$1.3B of contracts** — ~60x. DUOT has **$2.7M of
-  quarterly revenue** against a **$500M** contract it must build 55 MW to service. **In this
-  theme the catalyst itself is the dilution event**: delivering the announcement requires
-  capital neither company has, and AGPU's shelf went effective 7/27 with a 424B3 already in
-  use. **Lesson 7 — rank on the balance sheet, not the growth rate — has never applied more
-  cleanly.**
-- 🚩 **Circular counterparties.** AGPU pays DUOT to host *while contemplating minority equity
-  in the DUOT SPEs it is paying.* Two small caps booking each other's side as a headline.
-  When a contract's counterparty is also its financier, the revenue is not independent.
-- 🚩 **Watch for this theme to keep producing top-of-scanner movers.** It will look like the
-  best price action available — AGPU closed at 92% of range with an 8.5M float. **The screen
-  that kills it is EDGAR, not the chart.**
-
-### ✅ An S-8 is not an offering — do not let it trip an exit trigger
-
-OMER filed an **S-8 on 8/13** that a headline described as a "$142.67M ESOP-related shelf
-registration." **An S-8 registers employee-benefit-plan shares. It is not a capital raise and
-does not draw the ATM.** OMER's $150M ATM remains **undrawn** (no 424B5 on file) and the
-standing exit trigger has **not** fired. The trigger is a **424B5 or an announced deal** —
-not any filing with "registration" in the headline.
-
-### Carried forward from Week 33 (still current)
-
-- ✅ **Beat-AND-RAISE is the only version that trades.** Beat-without-a-raise is 3-for-3 as a
-  fader (SVCO, CVRX, FF) — hard disqualifier since 8/14.
-- 🚨 **Day-one distribution still beats catalyst quality — reconfirmed 8/17 at full strength.**
-  **OABI had the best-structured thesis in a month** ($370M Lilly milestones, cash guidance
-  raise, uncapped ladder, rule 13 a non-issue) **and closed at 18% of its range**, giving back
-  the whole gap intraday. It is off the board. Meanwhile ETON, which cleared the same gate at
-  86% on Friday, closed Monday at **81%** and is green. **The gate keeps being the variable
-  that decides, and the catalyst keeps not being it.**
-- ⚠️ **The $2B universe ceiling is still binding on the best names** (APPS, BW, HLIT, ETON,
-  UMAC). **Escalated to the user as an open question. Not overridden.**
-- 🚨 **The earnings pipeline is thin.** Two straight sessions produced no tradeable print —
-  Monday's ideas came from a contract announcement, and both sides were uninvestable.
-  Expect Thursday's board to be built from second-day continuations, not fresh earnings.
 
 ---
