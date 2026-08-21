@@ -163,3 +163,36 @@ Archived 2026-07-31 (Week 31 review).
 - ✅ **Second-day entry framework WORKS**, and **defense/government milestones deserve full size.**
 - ❌ **PROFIT-TAKING DISCIPLINE**: hit +15% and was not scaled, then round-tripped. **Sell 1/3 at +15% and 1/3 at +25%, immediately, per plan.**
 - 📌 Retrospective note added 2026-08-14: MRLN is the first of Rocket's 2-for-2 **second-day** record.
+
+
+---
+
+## Archived 2026-08-21 (Week 34 review) — absorbed or closed-out lessons
+
+Retired from `lessons_learned.md` during the W34 trim. Reasons: VELO/FF trade
+lessons are fully absorbed into rules 2a/4a/5/6/11b; lesson 12 is absorbed into
+rule 2c and lesson 29; lesson 25 was closed out 2026-08-14; the renumber banner
+has aged out. ⚠️ The old numbering warning still applies to anything written
+before 2026-08-14: cite lessons by TEXT, not by number.
+
+
+### 2026-08-12 — VELO (−$5.40, −1.18%): right research, wrong day
+- ❌ Beat-and-raise, uncapped ladder, 33% short float, dilution graded clean — and it still lost, because the entry was into a 22.7% opening whipsaw. **See rules 2a and 4b.**
+- ✅ The same-day close beat Rocket's own trailing stop by **$11.10**.
+
+
+### 2026-08-11 — FF (−$12.24, −2.57%): the P2 that should never have been entered
+- ❌ Entered as a **substitute** for a failed P1, with a known-second-tier catalyst (no raise) and an un-runnable ladder check. **See rules 5, 6 and 11b.**
+- ✅ **The 7% trail did its job perfectly** — out at $6.44, and FF is **−13.2% below the exit** three sessions later.
+
+
+12. **Extreme moves (+100%+) with real catalysts are not noise** — but never chase the spike. Watchlist and wait 1–3 days. **Missing real catalysts has a cost too** — apply discipline to entry price, not to whether to trade at all.
+
+
+25. **🚨 A deferred intraday decision needs its own completion check** (2026-08-13). `market_open` handed OMER (P1/HIGH) to a monitor that died silently; no midday exists to catch it, and it ran **+26.6% untraded — ≈−0.70% of book, more than both losing trades combined.** **Absence of a session_notes entry between market_open and market_close on a P1 name is itself the failure signal.** ✅ Closed out 8/14: the GO/NO-GO was made and logged explicitly at 9:45 off raw bars.
+
+
+⚠️ **Renumbered 2026-08-14 (Week 33 review).** Archived notes before this date use the old
+scheme, where old-24 = "a deferred intraday decision needs a completion check" (now **25**)
+and old-25 = "the weekly trade counter is broken" (now **26**). Cite by text, not by number,
+when writing anything that will be read after a future renumber.

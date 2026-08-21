@@ -4,6 +4,88 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-21 — WEEK 34 SUMMARY (weekly review) — 1 satellite opened and closed, 0 winners
+
+**Satellite trades**: 1 opened (ETON 8/17), 1 closed (ETON 8/20). OMER (opened 8/14) still
+open. **Win rate 0/1. Realized P&L −$6.09. Avg R −0.20R** (on $30.87 planned risk).
+**Core rebalances: 2** (8/17 sell 1.6503 IWM; 8/20 buy 1.8546 IWM) — exempt from the
+4-satellite and 5-trades/week caps. Weekly count **1/5**.
+
+**Week performance (hand-built book, per lessons 23/23a — NOT the slice)**: $3,152.18 →
+**$3,173.17 = +0.67%** vs **SPY −1.37%** (776.34 → 765.72). **Rocket vs SPY +2.03%** —
+best relative week of the core/satellite regime. IWM −1.68% (305.09 → 299.96).
+
+**Attribution** — satellite **+2.18%**, cash **+0.10%** (idle cash helped; SPY fell),
+factor **−0.24%** (the core LOST to the benchmark this week). **Real alpha +2.18%.**
+✅ **The entire margin is OMER, which was opened LAST week.** Nothing opened this week
+contributed. Position P&L ties to the book change exactly: OMER +$56.16, IWM −$29.08,
+ETON −$6.09 = **+$20.99**.
+
+✅ **Hand-built since-rebase chain REBUILT this session** (flagged 8/21). Cash
+reconstructed transaction-by-transaction from the W33 close and independently confirmed
+against the 8/21 premarket research log: **$237.54**. **Since 7/20 rebase: Rocket +4.53%
+vs SPY +3.18% = +1.35%** — first positive reading since the rebase. Cumulative real alpha
+**+1.53%** (was −0.65%). ⚠️ `portfolio_state.md` reads +1.28%, only 7bp off — **a
+coincidence, not a fix.** It still measures the whole shared account; it has converged
+only because Bull's cumulative return currently sits near Rocket's. Lesson 23 stands.
+
+🚨 **The week's real finding: ETON was graded on a counterfactual nobody checked.** The
+8/20 close logged the exit as *"a materially better exit than where the 7% trailing stop
+would have triggered."* **False.** HWM $63.83 → stop **$59.36**; 8/20 low **$59.59**,
+8/21 low **$59.76** — **the stop was never touched**, and ETON closed 8/21 at **$63.47**.
+Holding = **+$19.74**; the discretionary close **cost $25.83 (0.82% of book)**. It also
+violated **lesson 30a**, written the day before, which says a Form 144 is *not* an exit
+trigger. See the ETON correction entry below.
+
+🔧 **Instrument fix**: `position_reconciler.py` had three parser bugs that were cancelling
+each other out — it opened this session reporting Rocket's only satellite (OMER) as
+**UNATTRIBUTED**. Fixed and verified balanced. Full write-up in `weekly_reviews/2026-W34.md`.
+
+**Rules shipped this week**: (a) a discretionary close may only override a trailing stop
+when the stop is **>2% away**; (b) every counterfactual in this log must cite the actual
+stop level and the actual subsequent low; (c) lesson 2's second-day record corrected
+**2-for-2 → 2-for-3**; (d) lesson 32 rewritten.
+
+**Escalated to the user, NOT self-approved**: half-size sizing for lesson-29 binary-risk
+names (ARCT skip cost +31%), and rule 13, which capped ETON's target and now blocks its
+re-entry at $63.47.
+
+---
+
+## 2026-08-21 — ETON EXIT CORRECTION (weekly review) — the 8/20 close was WRONG
+
+**Correcting entry.** The 8/20 `market_close` exit of ETON is unchanged as a *fact*
+(7 sh sold @ $59.78, −$6.09, −1.43%). What is corrected is the **grading**.
+
+The 8/20 entry justified the close as beating where the trailing stop would have fired.
+Verified against raw daily bars this session:
+
+| | |
+|---|---|
+| High-water mark (8/19 intraday high) | $63.83 |
+| 7% trailing stop therefore at | **$59.36** |
+| 8/20 low | **$59.59** — did not touch |
+| 8/21 low | **$59.76** — did not touch |
+| 8/21 close | **$63.47** |
+
+**The stop would never have fired.** Holding through Friday = **+4.65%, +$19.74**.
+**The discretionary close cost $25.83 — 0.82% of book, four times the realized loss.**
+
+**The asymmetry was knowable at the time.** The 8/20 note itself recorded the stop as
+"~0.7% cushion" below price. Closing early could therefore save at most 0.7% in the bad
+case, against unlimited forfeited upside in the good case.
+
+**Rule violated**: **lesson 30a** — "a Form 144 is NOT dilution… an argument to honor the
+scale-out rung, **not an exit trigger**." The 144 was used as the exit trigger, one day
+after that rule was written, on a name whose beat-**and**-raise catalyst was intact and
+whose dilution profile was the cleanest screened to date.
+
+**Root cause**: a counterfactual was asserted and never checked against the bars — the
+same failure mode as lesson 33 (undated headline), turned inward on Rocket's own
+self-grading. Lesson 32 has been rewritten; it previously enshrined this as a success.
+
+---
+
 ## 2026-08-21 — OMER HELD OVERNIGHT, CORE IN BAND — NO TRADE (market_close, Week 34 day 5)
 
 **OMER position review**: 27 sh, entry $17.14, closed **$19.24 (+3.3% on the day** vs

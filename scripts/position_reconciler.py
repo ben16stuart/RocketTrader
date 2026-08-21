@@ -45,13 +45,35 @@ NOT_TICKERS = {
     "POSITIONS", "POSITION", "LIQUIDATED", "RESET", "EVENT", "PORTFOLIO",
     "SYMBOL", "TRIM", "ADD", "STOP", "HIT", "PARTIAL", "FULL", "NEW", "OLD",
     "PRE", "POST", "R", "P", "L", "PL", "USD", "ET", "AM", "PM", "MDT", "UTC",
+    "CORE", "WEEK", "NO", "TRADE",
 }
+
+# Session tags name the ROUTINE that wrote the entry, not the trade. They must be
+# stripped before classification: "(market_close)" contains the substring "CLOSE",
+# so on 2026-08-21 the header "OMER HELD OVERNIGHT, CORE IN BAND — NO TRADE
+# (market_close, ...)" was replayed as a SELL of OMER and Rocket's only satellite
+# was reported UNATTRIBUTED -- "do not size against this" against a live position.
+SESSION_TAG_RE = re.compile(
+    r"\((?:market_open|market_close|premarket|midday|weekly[ _]review)[^)]*\)",
+    re.I,
+)
 
 # Header markers that identify a core-sleeve trade rather than a satellite one.
 CORE_WORDS = ("CORE REBALANCE", "CORE SLEEVE")
 
-CLOSE_WORDS = ("SELL", "CLOSED", "CLOSE", "EXIT", "LIQUIDATED", "STOPPED")
+CLOSE_WORDS = ("SELL", "CLOSED", "CLOSE", "EXIT", "LIQUIDATED", "STOPPED", "STOP HIT")
 OPEN_WORDS = ("BUY", "ENTRY", "ADD")
+
+# One header can record two events ("ETON CLOSED + CORE REBALANCE, IWM BUY").
+# The house style joins them with "+", so each side is classified independently;
+# reading the header as a single event dropped whichever half came second.
+SEGMENT_SPLIT = "+"
+
+
+def _has_word(upper_text, words):
+    """Whole-word membership test. Substring matching is what let 'market_close'
+    read as a close and 'STOPPED' fail to match 'stop hit'."""
+    return any(re.search(rf"\b{re.escape(w)}\b", upper_text) for w in words)
 
 
 def _extract_ticker(text):
@@ -110,24 +132,46 @@ def open_symbols_from_trade_log(path):
             events.append((date, "reset", None))
             continue
 
-        sym = _extract_ticker(body)
-        if not sym:
-            continue
+        for segment in body.split(SEGMENT_SPLIT):
+            seg = SESSION_TAG_RE.sub(" ", segment)
 
-        # A core-sleeve trade resizes the benchmark holding; it never opens or
-        # closes a position, so it is recorded as core and skipped in the replay.
-        if any(w in upper for w in CORE_WORDS):
-            events.append((date, "core", sym))
-            continue
+            # Parenthetical text is commentary, not the trade. Every real BUY/SELL
+            # verb in both logs sits OUTSIDE the parens, while the parens carry
+            # asides that merely mention a ticker or a verb -- "(post-NOW check)",
+            # "(band did not fire; one qualifying close left)". Reading those as
+            # trades attributed Bull's NOW satellite to its core sleeve, which
+            # would have exempted it from the position limits.
+            # Core markers are the one exception: "SPY — SELL (CORE REBALANCE)"
+            # states the sleeve inside the parens, so core is read from the whole
+            # segment.
+            bare = re.sub(r"\([^)]*\)", " ", seg)
+            bare_upper = bare.upper()
 
-        # Check close before open: "SELL" and "CLOSED" are unambiguous, whereas a
-        # closing header can still mention the original entry.
-        if any(w in upper for w in CLOSE_WORDS):
-            events.append((date, "close", sym))
-        elif any(w in upper for w in OPEN_WORDS):
-            events.append((date, "open", sym))
+            sym = _extract_ticker(bare)
+            if not sym:
+                continue
 
-    events.sort(key=lambda e: e[0])
+            # A core-sleeve trade resizes the benchmark holding; it never opens or
+            # closes a position, so it is recorded as core and skipped in the replay.
+            if _has_word(seg.upper(), CORE_WORDS):
+                events.append((date, "core", sym))
+                continue
+
+            # Check close before open: "SELL" and "CLOSED" are unambiguous, whereas a
+            # closing header can still mention the original entry.
+            if _has_word(bare_upper, CLOSE_WORDS):
+                events.append((date, "close", sym))
+            elif _has_word(bare_upper, OPEN_WORDS):
+                events.append((date, "open", sym))
+
+    # Sort by date, then by event kind -- NOT by file order. The docstring above
+    # assumed same-date entries appear chronologically in the file, but Rocket's
+    # log is written newest-first, so a same-day round trip (FF 8/11, VELO 8/12)
+    # had its close applied before its open and the position stayed open forever.
+    # Applying opens before closes within a date makes a same-day round trip net
+    # to closed regardless of which order the entries were written in.
+    KIND_ORDER = {"core": 0, "open": 1, "close": 2, "reset": 3}
+    events.sort(key=lambda e: (e[0], KIND_ORDER.get(e[1], 9)))
 
     open_syms = set()
     core_syms = set()
