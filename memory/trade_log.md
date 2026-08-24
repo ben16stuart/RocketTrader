@@ -4,6 +4,31 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-24 — MARKET_CLOSE (Monday, Week 35 day 1) — no trades, OMER held, core in band
+
+**No fills today.** IWM 8.0522 sh and OMER 27 sh both carry over unchanged from Friday.
+
+- 🟢 **OMER HELD.** Closed **$19.32**, +0.3% on the day — a flat/quiet session after five
+  straight strong closes. **+15% rung ($19.71) not approached** (today's range stayed
+  well below Friday's $19.58 high) — standing order to sell 9 sh on the touch carries
+  into tomorrow. Stop still above entry; catalyst (CMS NTAP reimbursement 2026-10-01,
+  YARTEMLEA growth) is multi-day and intact — held overnight per the multi-day-catalyst
+  rule, not a one-day news bump.
+- ✅ **Core rebalance check: no trade.** Slice $3,170.65, satellite value (OMER) $521.64,
+  10% buffer $317.07 → target_core $2,331.95. IWM $2,398.91 is $66.97 (2.1% of slice)
+  over target — inside the 3% band, no action per rule 6 of Portfolio Construction.
+- 📊 **Day** (script-verified `position_table.py`): IWM −$16.27, OMER +$1.35, **total
+  −$14.92**. Hand-built book $3,173.17 → **$3,158.25 = −0.47%** vs **SPY −0.28%** →
+  Rocket **trailed SPY by −0.19%** today — IWM underperforming SPY on a small-cap-lag
+  session (factor drag, see lesson 28 — one session is not a trend).
+- Since-rebase figure **not recomputed here** — Friday's weekly-review reading
+  (+4.53% vs SPY +3.18% = +1.35%) stands until the next `weekly_review` chains it
+  forward properly, per the 8/21 precedent (lesson 23a discipline: don't guess it
+  in a daily close).
+- Weekly count: **0/5** — no new satellite opened this week yet.
+
+---
+
 ## 2026-08-21 — WEEK 34 SUMMARY (weekly review) — 1 satellite opened and closed, 0 winners
 
 **Satellite trades**: 1 opened (ETON 8/17), 1 closed (ETON 8/20). OMER (opened 8/14) still
