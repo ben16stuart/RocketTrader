@@ -3,6 +3,20 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-25 — MARKET_CLOSE (Tuesday, Week 35 day 2)
+
+**Second quiet day — no trades, no premarket/market_open sessions ran today either.**
+
+- OMER held overnight (27 sh, $19.28, −0.2% today) — +15% rung untouched, catalyst
+  multi-day and intact, a pause after five strong closes rather than a breakdown.
+  IWM core (8.0522 sh) unchanged, within rebalance band (2.4% of slice over target,
+  band is 3%).
+- Day: book $3,158.25 → $3,168.91 = **+0.34%** vs **SPY +0.33%** → Rocket essentially
+  matched SPY today (+0.01%); IWM led (+$11.88), OMER gave back a touch (−$1.22).
+- No new satellite research happened this session (mechanical close only) — Week 35
+  premarket board (OI needs a catalyst check, CAPR PDUFA outcome from 8/22, screeners
+  re-run) is still outstanding, now two sessions running.
+
 ## 2026-08-24 — MARKET_CLOSE (Monday, Week 35 day 1)
 
 **Quiet open to the week — no trades, no premarket/market_open sessions ran today either
