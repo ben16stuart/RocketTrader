@@ -4,6 +4,54 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-26 — OMER STOPPED OUT (market_close) + CORE REBALANCE, IWM BUY
+
+**No premarket/market_open logged today either** — same quota-contention gap as
+8/24–8/25, see [[launchd-quota-contention]]. First entry of the day is this
+market_close sync.
+
+**OMER exit**: 27 sh, entry $17.14 (8/14) → **7% trailing stop filled $18.270741**
+(order submitted/filled 15:55:11 UTC intraday, well before this session started).
+**P&L +$30.53 (+6.60%)**, held 12 calendar days.
+- Reason for exit: trailing stop, not a discretionary close. HWM tracked up to
+  **$19.6497** (8/25's $19.65 high), stop triggered at $18.274221 (7% below HWM).
+  The **+15% profit rung ($19.71) was never touched** — the standing "sell 9 sh on
+  the touch" order from premarket carried three sessions and never got the chance
+  to fire; price rolled over from the high before reaching it.
+- Today's mark-to-market piece of this exit (prior close $19.28 → exit $18.270741):
+  **−$27.25** — the round-trip's lifetime P&L is positive, but today's session was a
+  loser for the position.
+- Lesson: a trailing stop and a profit rung are racing each other once a position is
+  extended near a target — this is the first time the stop won that race outright
+  (previously OMER's story was steady grinding gains). Still a net winner and still
+  the correct exit mechanism; nothing to change about sizing or the trail width.
+
+**Core rebalance, IWM BUY**: bought 1.441 sh @ $298.93 = $430.75, filled 19:58:56 UTC.
+- Reason: OMER's closure left the satellite sleeve at $0, so the core fell far short
+  of target. Slice $3,153.91 (portfolio_value $10,513.05 × 30%), satellite value $0,
+  10% buffer $315.39 → target_core $2,838.52. Live IWM (8.0522 sh) marked at
+  $2,407.04 — **13.7% of slice short**, outside the 3% band. New IWM qty **9.4932 sh**
+  (≈$2,838 at fill), landing right on target.
+- Not a conviction trade — core rebalance only, proceeds-funded per rule "fund
+  satellites/core from proceeds, never cash."
+
+**Portfolio now**: 100% core (IWM), 0 satellites, 0/4 open satellite slots used,
+0/5 new-satellite count this week (OMER was opened week 33, not this week).
+
+📊 **Day** (script-verified `position_table.py` for IWM's original 8.0522 sh + hand
+calc for OMER's mark-to-market): IWM −$2.71, OMER −$27.25 (day-change portion only,
+see above), **total −$29.96**. Hand-built book $3,168.91 → **$3,138.95 = −0.95%** vs
+**SPY −0.02%** → Rocket **trailed SPY by −0.93%** today, entirely the OMER stop-out;
+the new IWM tranche was bought at the close and contributed no day-change.
+- Since-rebase figure **not recomputed here** — 8/21 weekly-review reading (+4.53%
+  vs SPY +3.18% = +1.35%) stands until the next `weekly_review` chains it forward
+  properly, per the 8/21/8/24/8/25 precedent (lesson 23a discipline).
+- Weekly count: **0/5** — no new satellite opened this week yet. Board is empty of
+  positions for the first time since 8/14; watchlist work is now the priority for
+  the next premarket that actually runs.
+
+---
+
 ## 2026-08-25 — MARKET_CLOSE (Tuesday, Week 35 day 2) — no trades, OMER held, core in band
 
 **No fills today.** No premarket/market_open sessions ran today either (nothing logged

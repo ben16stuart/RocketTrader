@@ -3,6 +3,115 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-26 — MARKET_CLOSE (Wednesday, Week 35 day 3) — OMER stopped out, core rebalanced to 100%
+
+**No premarket/market_open ran today** (same launchd quota gap as 8/24–8/25). First
+session of the day was this market_close sync, which found OMER already gone from
+the broker — the 7% trailing stop had filled intraday at 15:55 UTC, well before
+market_close ran.
+
+- **OMER stopped out**: 27 sh, entry $17.14 (8/14) → $18.270741 (7% trail off HWM
+  $19.6497). **+$30.53 lifetime (+6.60%)**, but today's mark was −$27.25 — the stop
+  won the race against the queued +15% profit rung ($19.71), which the 8/25 high
+  ($19.65) never reached. Net: a real winner closed by the mechanism, not by
+  judgment — nothing to second-guess here.
+- **Core rebalanced to 100%**: satellite sleeve now $0, so bought 1.441 sh IWM
+  ($430.75) to bring the core from 13.7%-short to on-target ($2,838, 90% of slice
+  deployed, 10% buffer intact). Board is now IWM-only — first time since 8/14 with
+  zero satellites open.
+- **Full detail in `trade_log.md`** under "2026-08-26 — OMER STOPPED OUT + CORE
+  REBALANCE". ntfy daily summary sent and confirmed.
+- **Open thread for next premarket**: watchlist is empty. CAPR (volatility gate),
+  ARCT (data-gap gate), OI (no catalyst) were all killed this week per the 8/26
+  premarket notes below. Need a fresh scan — this is now the top priority, not a
+  nice-to-have, since Rocket is carrying zero alpha attempts into Jackson Hole week.
+
+---
+
+## 2026-08-26 — PREMARKET (Wednesday, Week 35 day 3)
+
+**First research session of the week** — no premarket/market_open has run since Fri 8/21.
+All three tasks carried for two sessions (CAPR PDUFA outcome, OI catalyst, re-run screeners)
+are **resolved and closed** below. **No trade recommended for the open.**
+
+- 🚨 **JACKSON HOLE STARTS TOMORROW (Aug 27–29)** — Powell's keynote lands **inside** any
+  1–5 day hold opened today, and a 7% trail fills at the open wherever the open is (lesson
+  29's data-gap mechanic applied to a macro event). VIX **15.70** says the tape is not
+  braced for it. **Direct argument for carrying the book, not adding to it.**
+- ✅ **CAPR — the standing PDUFA question is ANSWERED: there was no decision.** FDA extended
+  to **2026-11-22** to review a BLA amendment; the +58% (8/14) and +21.9% (8/25) moves are
+  the **analyst reaction** (Oppenheimer PT **$54**, Cantor Overweight **$28 from $3.50**).
+  Real, dated, on-list catalyst. It **cleared rules 8, 11, 13, 29** — including a **top-tier
+  dilution profile: no S-3/S-3ASR/424B5 anywhere in 2026, $237.9M cash vs a $482M cap.**
+  🚫 **Killed on rule 4b**: daily ranges of **18.6% / 26.7% / 35%** make the mandated 7%
+  trail a coin flip. 🆕 **First kill this month from INSTRUMENT VOLATILITY rather than
+  funding structure or calendar.** Also: **securities fraud class action filed 8/25** (the
+  day of the move), a **9–3 negative AdCom** on the record, and eight sessions of chop
+  ($6.01–$8.60) — **8/24 opened $8.03 and closed $6.80.** An FDA *extension* is a delay
+  being repriced as optionality, not a catalyst delivered.
+- ⚠️ **Rule 11b applied deliberately**: the dilution web search came back "could not confirm
+  the shelf." **That is a FAIL, not a pass** — so I went to EDGAR directly, verified the
+  submissions file was populated (961 filings, 56 in 2026) so a blank result couldn't be a
+  broken instrument (lesson 15), and got a genuine clean read. **Search said unknown; EDGAR
+  said clean.** Worth repeating: resolve the gap, don't score it.
+- ❌ **ARCT — gate holds a FOURTH time. Skip cost now ≈+50%** ($10.28 → $15.44). It has run
+  **+88% in five sessions** (5.1x → 2.6x → 2.0x volume, closing 54–98% of range daily) —
+  **best price action on the board by a distance.** Re-checked: **no new information**, same
+  Aug-6 material, readout still **"Q3 2026," undated**, inside any hold. **Lesson 35 says
+  that exact profile — big momentum on zero new information — is a crowded chase and a
+  reason for MORE caution.** Carry the cost to the weekly review; do not loosen the gate.
+- 🔵 **OMER — both open threads closed, both benign. HOLD.** ✅ **ATM still undrawn — no
+  424B5 anywhere in 2026** (EDGAR). ✅ **New Form 144s (8/20 $276,773, 8/21 $203,179)
+  resolved BENIGN per lesson 30** — acquired-date = sale-date, paid **cash** = cashless
+  exercise-and-sell; **0.90% and 0.41% of their days' volume**, 0.040% of shares out,
+  *vs ETON's real one at 16% of a day's volume.* Compensation mechanics, **not an exit
+  trigger (lesson 32b).** 🥇 **+15% rung $19.71 is 0.31% away — 8/25 high was $19.65.
+  SELL 9 SH ON THE TOUCH; first thing to check at the open.** Volume drying (1.0x → 0.6x
+  → 0.5x) but price holding $19.28 — a pause, not distribution.
+- ❌ **Board otherwise fails rule 1 (no catalyst)**: **OI** killed after a third session with
+  no catalyst *and below-average volume* (0.9x/0.8x) — stop carrying it. **IE** rule-13 kill
+  ($1.90B → $2.19B at +15%). **THEO** rule-27 kill — a SPAC pinned in a **$0.01 range**.
+  ANRO/ALIT/CPSH no catalyst or dead follow-through. ⚠️ **GNK is the one genuine puzzle —
+  2.8x volume three straight sessions, closed 97% of range — but +1.4%/day is drift and
+  there is no named catalyst. WATCH.**
+- 🔧 **Scanners were a broken instrument (lesson 15).** `unusual_volume` **returned nothing
+  above 0.7x RelVol** on a screen built for 3x+, its top name *down* 4.1%; `top_movers`
+  printed RelVol as `0.0x`/`—` for **15 of 20** names; **zero overlap between the two**, so
+  the routine's first-priority tier was empty. At 04:20 RelVol runs off partial premarket
+  volume. **Raw daily bars carried the session** — THEO scanned **+10.8%** against a real
+  bar of **−0.1% in a $0.01 range.**
+- 🆕 **Crypto-treasury theme went RED after four sessions on top** (USDE −4.1%, DFDV −2.8%).
+  Lesson 31 unchanged, but **lesson 36's board-quality problem has eased on its own** — the
+  board is no longer crowded out by an untradeable theme, it is **simply thin on catalysts.**
+  Different problem, and the distinction matters when grading a no-trade session.
+- 🆕 **Macro: the inflation-tinged pattern BROKE, constructively — all three legs at once.**
+  **Brent −4.22% to $84.84** (a −9.7% break from $93.96, the biggest move on the board),
+  **gold decelerating** (+2.72% → +0.85%), **10-yr −6bp to 4.64%** (cushion to the 4.75%
+  trigger widened 5bp → **11bp**). ⚠️ **Per lesson 34 this does NOT stand the rate flag
+  down — that is the exact error made 8/20, reversed the next day.** And Jackson Hole is
+  the event that will confirm or destroy it. **Note it; act only if it survives Powell.**
+  ✅ VIX 15.70, no brake. Futures flat-to-red (Russell −0.11%, no information — lesson 28).
+- Book **$3,167.56** (hand-built, lesson 23a) = IWM 8.0522 sh $2,409.46 (76.1%) + OMER
+  $520.56 (16.4%) + cash $237.54 (**7.5% — inside the buffer, no bearish thesis needed**).
+  **92.5% invested.** Satellites **1/4**, weekly count **0/5**. Core is ~2.4% of slice over
+  target, **inside the 3% band — no rebalance, and `market_close` owns that call anyway.**
+
+## 2026-08-26 — MARKET_OPEN (Wednesday, Week 35 day 3)
+
+**No trade.** Premarket already killed everything actionable (CAPR on 4b, ARCT on
+lesson 35); nothing new cleared the gate at the open either.
+
+- **OMER $18.98, −1.6%, 0.1x volume (early).** Well off the $19.71 (+15%) rung —
+  8/25's $19.65 high wasn't retested. No action; standing order stays live.
+- **`unusual_volume`/`top_movers` re-scanned** — no new names. PLAB (+6.5%, 19.1x)
+  is the one fresh print but **$1.84B cap → $2.3B at +25%, rule 13 kill**, no
+  catalyst identified. ARCT (7.8x), CAPR (2.6x), AGPU, FWDI all already-killed
+  names reappearing, not new signal.
+- **Positions unchanged from 8/25 close** — no overnight fills, no stops triggered.
+  Cash still $348.97 (pooled), satellites 1/4, weekly trades 0/5.
+- 🚨 Jackson Hole (Aug 27–29) starts tomorrow — held the book rather than adding,
+  per premarket's explicit call.
+
 ## 2026-08-25 — MARKET_CLOSE (Tuesday, Week 35 day 2)
 
 **Second quiet day — no trades, no premarket/market_open sessions ran today either.**
