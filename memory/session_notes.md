@@ -3,6 +3,95 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-27 — MARKET_CLOSE (Thursday, Week 35 day 4) — no trades, core in band
+
+Clean no-op day: 0 satellites open (unchanged since the 8/26 OMER stop-out), no
+overnight fills, no stops hit. Core rebalance check: IWM (9.4932 sh, $2,846.44) is
+1.07% of slice short of target — inside the 3% band, no trade. Day P&L: IWM
++0.29%/+$8.26 vs SPY +0.66% — Rocket trailed SPY by ~0.37% today, pure factor drag
+(small-cap IWM lagging large-cap SPY), no satellites to attribute it to. Full detail
+in `trade_log.md`. ntfy daily summary sent and confirmed. Since-rebase figure still
+not recomputed daily (lesson 23a) — carries to weekly_review.
+
+**Open thread for tomorrow (Fri 8/28, last session of Week 35)**: Warsh's Jackson
+Hole keynote ~10:00 AM ET is the day's dominant event — per premarket's own note, a
+7% trail fills at the open wherever the open is, so any fresh entry timed around it
+carries that data-gap risk. Watchlist is still empty (LTRX killed, CAPR/ARCT/OI dead
+threads) — a fresh scan is the priority, not a nice-to-have, since Rocket closes the
+week with zero satellite attempts if nothing changes.
+
+---
+
+## 2026-08-27 — MARKET_OPEN (Thursday, Week 35 day 4) — no trade, confirmed premarket decision
+
+Synced live account: **IWM 9 sh ($2,840), no satellites, no overnight fills or stops**.
+Cash $411.48 pooled, unchanged. Weekly satellite count still 0/5.
+
+Ran `unusual_volume` and `top_movers` fresh at the open — board is essentially
+unchanged from premarket: **BBW** is down **−19.5% on 15.1x** (the print already hit,
+a miss reaction, not a beat — not a candidate). LTRX and OOMA reappear at the same
+levels already triple/single-killed in premarket. Everything else new (BNC, XHLD,
+METC, REAX, IGR, BETR, SVV, TE) is sub-3x RelVol or <6% change with no named catalyst
+(rule 1), or is the same mandate-excluded crypto-treasury tier (DFDV, FWDI, ASST,
+HYPD, USDE, SECZ, BKKT — rule 31). No new candidate clears the bar.
+
+**Decision: no trade. Hold 100% IWM core**, consistent with premarket. Nothing to
+log to trade_log.md. No notification sent (flat session).
+
+---
+
+## 2026-08-27 — PREMARKET (Thursday, Week 35 day 4) — NO SATELLITE, hold 100% IWM
+
+**Book (hand-built, lesson 23a): $3,138.95** = IWM 9.4932 sh ($2,838.05, 90.4%) +
+notional cash $300.90 (9.6%). **Inside the 10% buffer — no bearish thesis required.**
+Satellites 0/4 · weekly count 0/5. **Decision: no satellite. This is a calendar
+timing call, not a market call.**
+
+- 🚨 **CORRECTED A TWO-SESSION ERROR IN ROCKET'S OWN FILES: the Jackson Hole keynote
+  is KEVIN WARSH, not Powell** — and it is **Fri 8/28 ~10:00 AM ET, his first as
+  chair.** Both `research_log.md` and `market_context.md` said "Powell" in bold on
+  8/25 and 8/26 as the top-cited risk. The risk call survived by luck; it was right
+  about the date, wrong about the event. **New lesson 39** — memory files get re-read
+  every session and never re-sourced, and the two mechanical-close days that skipped
+  research still inherited the claim. Ties to [[launchd-quota-contention]].
+- 🚫 **LTRX was the only genuine fresh catalyst and it was TRIPLE-KILLED.** FY26 Q4
+  after the 8/26 close, **$5.66 → $6.50 premarket (+14.8%)**. It *passed* the gates
+  that usually kill: universe, rule 13 ($290M), **rule 37a (ranges 4.8–6.7%, the 7%
+  stop actually fits)**, and **rule 11 uncapped** ($6.50 vs $10.33 mean, low $8.00).
+  Died on: **(1) rule 5** — EPS $0.04 vs $0.03 is a *one-cent* beat, revenue +8% YoY
+  is not acceleration, and Q1 FY27 guidance **$31–33M midpoints +2.6% QoQ with the
+  low end BELOW the quarter just reported** = beat without a raise; **(2) rule 8a** —
+  **424B5 takedowns 5/8 and 6/1/2026**, shelf drawn twice this year and still live;
+  **(3) calendar** — lesson 2 makes tomorrow's open the earliest valid entry, i.e.
+  **30 minutes before Warsh's keynote.** Tell: 8/26 into the print was **−3.4% at 29%
+  of range on 2.8x volume.**
+- 🆕 **New lesson 8e** from that #2: **LTRX's press release led with "$60 million in
+  cash and no debt"** — which is the *proceeds of the two takedowns*. A PR touting
+  cash can be advertising the dilution that created it. **Exact inverse of lesson 38**
+  (there a blank search hid a *clean* name; here a company hid a *drawn* one).
+- ❌ **OOMA killed on rule 11 in one call** — real +25% YoY print, but consensus mean
+  $23.00 and **highest target $24.00 vs a +15% rung of $25.10.** Ladder capped below
+  the first rung; also within 4% of its 52w high and its 8/21 run already faded.
+- ❌ **CRBP** — best accumulation on the board (+14.8% in four sessions, 93/84/93% of
+  range, 2.0x volume twice, short float 12.7%) but **rule 1**: the only news is a
+  Phase 3 **initiation**, "not yet recruiting" — an undated forward binary (lesson
+  29), with August PT **cuts**. Watch, don't trade.
+- 🔧 **Lesson 17a held again**: **BKSY scanned +9.4%; its real 8/26 bar was −2.1% at
+  20% of range**, mid-slide through −11% in three sessions. SPIR, HDSN, ATOM, AMPG,
+  CEPL all falsified the same way. Bars before the board.
+- ⚠️ **Crypto-treasury theme is back on top of both screens after ONE red session** —
+  yesterday's file called it "stopped topping the scanner." Same one-print error as
+  the 8/20 rate stand-down. **3 of 4 names in the overlap tier were unusable
+  (lesson 36 board-quality problem is back, not eased).**
+- ✅ **Yesterday's "crude has broken down" call half-reversed in one session** (Brent
+  $84.84 → $87.28, +2.9%). The written restraint — *note it, don't trade it* — was
+  correct. Third consecutive one-session macro read to reverse.
+- **Open thread for market_open**: nothing to execute. Re-verify the book is ≥90%
+  invested; if IWM has drifted outside the 3% band, that is a `market_close` job.
+  **Do not reach into the weak tier to fill a slot — rule 6.**
+
+---
+
 ## 2026-08-26 — MARKET_CLOSE (Wednesday, Week 35 day 3) — OMER stopped out, core rebalanced to 100%
 
 **No premarket/market_open ran today** (same launchd quota gap as 8/24–8/25). First

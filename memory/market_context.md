@@ -4,79 +4,92 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-08-26 Wednesday premarket (Week 35 day 3)  ← CURRENT
+## Snapshot — 2026-08-27 Thursday premarket (Week 35 day 4)  ← CURRENT
+
+### 🚨 CORRECTION: the Jackson Hole keynote is KEVIN WARSH, not Powell
+
+**This file said "Powell's keynote" on 8/25 and 8/26. That is wrong.** The 2026 Fed
+chair is **Kevin Warsh**, and Friday **8/28 ~10:00 AM ET** is his **first Jackson Hole
+keynote as chair**. Theme: *"Financial Innovation: Implications for Payments and Policy."*
+
+⚠️ **This makes the event MORE dangerous, not less.** A new chair's debut keynote has
+no established reaction function to price against — the market has never heard this
+person set policy tone from that podium. An error like this propagating through two
+sessions of memory files unchecked is itself the lesson (see lesson 39).
 
 ### Where things stand
 
 | Metric | Level | Read |
 |---|---|---|
-| ✅ **VIX** | **15.70** (+1.62%) | **No brake — 6+ points under the 22 threshold.** Range-bound 15.2–15.9 for two weeks straight. Notably calm *going into* Jackson Hole. |
-| ✅ **10-yr** | **4.64%** (**−1.38%, ≈−6bp**) | **Cushion to the 4.75% trigger widened from 5bp to 11bp** — the widest in two weeks. ⚠️ **Per lesson 34 this is ONE PRINT and does not stand the flag down** — that is the exact mistake made on 8/20, which reversed the next session. **Direction noted, flag stays live.** |
-| ⚠️ **S&P fut** | **−0.08%** | Flat-to-red |
-| ⚠️ **Nasdaq fut** | **−0.23%** | Softest of the three |
-| ⚠️ **Russell fut** | **−0.11%** | Middle. **One red session carries no information (lesson 28)** — not read as a small-cap signal in either direction. |
-| 🚨 **Brent / WTI** | **84.84 / 80.03** (**−4.22% / −2.83%**) | 🆕 **THE BIGGEST MOVE ON THE BOARD — crude has BROKEN DOWN, not merely stalled.** Brent ran $89.51 → $93.96 over four sessions, then **$93.96 → $84.84 = −9.7%.** The $95 watch level is now irrelevant in the other direction. |
-| ⚠️ **Gold** | **4,677.40** (+0.85%) | **Decelerating hard: +1.14% → +1.26% → +2.72% → +0.85%.** Still making highs, but the acceleration that made it last week's headline has stopped. |
-| **Dollar** | **99.00** (+0.08%) | Firm, unchanged in character |
+| ✅ **VIX** | **14.94** (−1.78%) | **No brake — 7 points under the 22 threshold, and a two-week low.** The tape is *not* braced for tomorrow. |
+| ⚠️ **10-yr** | **4.66%** (+0.54%, ≈+2bp) | Cushion to the 4.75% trigger **9bp**. Gave back a third of yesterday's 6bp rally — **exactly the give-back pattern lesson 34 warns about. Flag stays live.** |
+| ✅ **S&P fut** | **+0.43%** | Green |
+| ✅ **Nasdaq fut** | **+1.07%** | **Strongest of the three by a wide margin** |
+| ⚠️ **Russell fut** | **−0.11%** | 🆕 **The ONLY red index — and it is Rocket's benchmark-adjacent tape.** Second straight −0.11%. Per lesson 28 one session carries no information; **two flat-red sessions while Nasdaq runs +1.07% is worth noting but not yet trading.** Read it weekly in the attribution. |
+| 🆕 **Brent / WTI** | **87.28 / 82.33** (−0.64% / +0.12%) | 🚨 **YESTERDAY'S "CRUDE HAS BROKEN DOWN" CALL IS ALREADY HALF-REVERSED.** Brent $84.84 → **$87.28 = +2.9% in one session.** The −9.7% collapse was a two-day event, not a regime change. |
+| ⚠️ **Gold** | **4,631.50** (+0.72%) | **Down $46 from yesterday's 4,677.** Deceleration continues. |
+| **Dollar** | **99.23** (+0.06%) | Firm, unchanged in character |
 
-🆕 **The inflation-tinged pattern flagged all last week has BROKEN — and constructively.**
-Last Friday read *stalling crude + sharply accelerating gold + yields back up*. Today it is
-**crude collapsing −9.7% + gold decelerating + yields falling 6bp.** All three legs moved
-the disinflationary way at once. **That is a coherent reversal, not noise on one instrument.**
+### 🚨 The disinflation call made yesterday did NOT survive one session
 
-⚠️ **But do not trade it, for two reasons.** (1) Lesson 34 — the 8/20 "resolution" of the
-10-yr was given back in a single session, and this is a one-session read on all three legs.
-(2) **Jackson Hole is tomorrow**, which is precisely the event that would confirm or destroy
-this read. **Note it, carry it to the weekly review, act on it only if it survives Powell.**
+Yesterday this file recorded *"crude collapsing −9.7% + gold decelerating + yields
+falling 6bp — a coherent reversal, not noise on one instrument,"* and explicitly said
+**do not trade it** for two reasons. Both reasons were correct and one already paid:
 
-### 🚨 JACKSON HOLE IS TOMORROW — Aug 27–29
+- **Crude reversed +2.9%** — the "breakdown" was a two-day move, not a break.
+- **Yields gave back 2bp** of the 6bp rally.
+- Only gold's deceleration held.
 
-This is the whole story of the week and it **lands inside any 1–5 day hold opened today.**
-VIX at 15.70 says the tape is not braced for it. **A new satellite opened today would carry
-Powell risk it cannot stop out of** — a 7% trail fills at the open, wherever the open is
-(the same mechanic as lesson 29's data-gap risk, applied to a macro event).
-**This is a direct argument for carrying the existing book rather than adding to it.**
+✅ **The restraint was right.** This is the **third consecutive instance** of a
+one-session macro read reversing immediately (8/20 the 10-yr, 8/26 the crypto theme,
+8/27 crude). **Lesson 28/34 is now the most-confirmed rule in this file: a flag near a
+threshold stands down on a trend, never on one print — and a *reversal* is not
+declared on one print either.**
 
-### 🔧 The scanners were a broken instrument this morning — lesson 15
+### 🚨 What tomorrow means for position-taking
 
-**`unusual_volume` returned nothing above 0.7x RelVol** — a screen built to find **3x+**.
-Its top-ranked name was *down* 4.1%. **`top_movers` printed RelVol as `0.0x` or `—` for 15
-of 20 names**, and there was **ZERO overlap between the two screens**, so the routine's
-designated first-priority tier was empty. At a 04:20 scan time RelVol is computed against
-partial premarket volume — the column is not low, **it is not measuring what it claims to.**
+**VIX at 14.94 is the whole problem.** The tape is priced for nothing to happen at a
+new Fed chair's debut keynote. That is not a reason to be short — it is a reason not to
+carry a **7%-stopped small cap** through it. A trailing stop fills at the open,
+wherever the open is; it cannot protect against a macro gap any more than it can
+protect against a data gap (**lesson 29 mechanics**).
 
-✅ **Raw daily bars carried the entire session.** THEO scanned **+10.8%** and its real 8/25
-bar was **−0.1% inside a $0.01 range** (a SPAC pinned to trust value — rule 27). **Run the
-bars before the board; the scan is a name source only.**
+**This kills the second-day entry too, not just today's.** Lesson 2 says the earliest
+valid entry on last night's earnings movers is **tomorrow's open — 9:30 AM, thirty
+minutes ahead of the keynote.** So the calendar closes both doors this week.
+→ **Decision: 0 satellites, 100% IWM core.** Book is **90.4% invested / 9.6% cash**,
+inside the buffer, so **no bearish thesis is required** — this is a calendar timing
+call, not a market call.
 
-### 🆕 The crypto-treasury theme has stopped topping the scanner
+### 🆕 The crypto-treasury theme is back on top after ONE red session
 
-After **four straight sessions** owning the top tier, the group went **red**: USDE −4.1%,
-DFDV −2.8%, ASST −0.3%. **Lesson 31 is unchanged** (they remain mandate-excluded by
-construction) — but the *board-quality* problem lesson 36 described has eased on its own.
-The usable board is no longer being crowded out by an untradeable theme; **it is simply
-thin on catalysts.** Those are different problems and the distinction matters for grading
-a no-trade session.
+Yesterday's entry said the group had *"stopped topping the scanner"* after four
+sessions. **Today USDE (+9.5%, 4.2x RelVol) and DFDV (+8.0%, 2.8x) top BOTH screens
+again.** One red session was not a trend — **the same error as the 8/20 rate
+stand-down, made against a different instrument.** Lesson 31 unchanged: they remain
+mandate-excluded by construction. Lesson 36's board-quality problem is **back**, not
+eased: 3 of the 4 names in the overlap tier were unusable.
 
-### ✅ CAPR's PDUFA resolved — no decision, and the rule that killed it was 4b
+### 🔧 Scanner instrument status — degraded again, but less badly (lesson 15)
 
-The 8/22 PDUFA produced **no action**: the FDA extended to **2026-11-22** to review a BLA
-amendment. Analyst upgrades followed (Oppenheimer $54, Cantor $28 from $3.50) — a **real,
-dated, on-list catalyst** that cleared rules 8, 11, 13 and 29 (**no shelf on file anywhere
-in 2026**, $237.9M cash vs a $482M cap). **It still failed rule 4b: daily ranges of
-18.6–35% make a 7% trailing stop a coin flip.** 🆕 **First kill of the month sourced from
-INSTRUMENT VOLATILITY rather than funding structure or calendar** — worth noting as a
-distinct failure mode. An FDA review *extension* is a delay being repriced as optionality.
+`top_movers` printed RelVol as **`0.0x` or `—` for 11 of 20 names** (vs 15 of 20
+yesterday). `unusual_volume` **did** produce genuine 2.8–4.2x readings at the top this
+time — an improvement on yesterday's 0.7x ceiling — but everything below rank 4 was
+**≤1.0x**, i.e. the screen ran out of real signal almost immediately.
+✅ **Raw daily bars again carried the session and again disagreed with the scan**:
+**BKSY scanned +9.4% and its real 8/26 bar was −2.1% at 20% of range**, mid-way through
+an 11% three-session slide. **Run the bars before the board.**
 
 ### Carried forward (still current)
 
-- 🚨 **ARCT is +88% in five sessions on ZERO new information** — readout still "Q3 2026,"
-  still undated. Gate held a fourth time; skip cost now **≈+50%**. Lesson 35: that profile
-  is a crowded chase, and it argues for *more* caution, not less.
-- ✅ **Beat-AND-RAISE is the only version that trades.** Beat-without-a-raise 3-for-3 as a fader.
-- 🚨 **Day-one distribution beats catalyst quality.** CAPR is the live illustration —
-  8/24 opened $8.03, closed $6.80 at 27% of range.
-- ⚠️ **The $2B ceiling remains binding** — it killed **IE** today (+15% → $2.19B), on top of
-  APPS, BW, HLIT, ETON, UMAC. **Escalated to the user; not overridden.**
+- 🚨 **ARCT** — readout still **"Q3 2026," undated.** Gate held four times; skip cost
+  ≈+50%. Lesson 35: do not loosen a calendar gate because price went the other way.
+- ✅ **Beat-AND-RAISE is the only version that trades.** Beat-without-a-raise now
+  **4-for-4** as a kill (SVCO, CVRX, FF, **LTRX today**).
+- 🆕 **A press release touting cash can be advertising the dilution that created it** —
+  LTRX's "$60M cash, no debt" came from **two 424B5 takedowns (5/8, 6/1/2026)**. See
+  lesson 8e.
+- ⚠️ **The $2B ceiling remains binding** — APPS, BW, HLIT, ETON, UMAC, IE.
+  **Escalated to the user; not overridden.**
 
 ---

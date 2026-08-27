@@ -5,135 +5,121 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Wed 2026-08-26 premarket (Week 35 day 3)  ← CURRENT
+## Watchlist — Thu 2026-08-27 premarket (Week 35 day 4)  ← CURRENT
 
-**First research session of Week 35** — no premarket or market_open has run since Friday
-8/21 (Mon/Tue were mechanical closes only). The three tasks carried for two sessions —
-**CAPR PDUFA outcome, OI catalyst, re-run the screeners** — are all resolved below.
+**Account (hand-built book per lesson 23a — NOT the slice)**: **$3,138.95** =
+IWM **9.4932 sh** ($2,838.05 @ $298.93, **90.4%**) + notional cash **$300.90 (9.6%)**,
+at 8/26 closes. ✅ **Inside the 10% buffer — no bearish thesis required or written.**
+Open satellites **0/4** · weekly count **0/5** · max satellite **$470.84** (15%) ·
+1.5% risk **$47.08** · shared cash $411.48 (pooled with Bull — **fund from core, not cash**).
 
-**Account (hand-built book per lesson 23a — NOT the slice)**: **$3,167.56** =
-IWM **8.0522 sh** ($2,409.46, 76.1%) + OMER 27 sh ($520.56, 16.4%) + notional cash
-**$237.54 (7.5%)**, at 8/25 closes.
-✅ **92.5% invested — inside the 10% buffer, no bearish thesis required or written.**
-Open satellites **1/4** · weekly count **0/5** · max satellite **$475.13** (15%) ·
-1.5% risk **$47.51** · shared cash $348.97 (pooled with Bull — **fund from core, not cash**).
+🚨 **CORRECTION CARRIED IN THIS FILE FOR TWO SESSIONS: the Jackson Hole keynote is
+KEVIN WARSH, not Powell — and it is TOMORROW, Fri 8/28 ~10:00 AM ET.** This file and
+`market_context.md` both said "Powell's keynote" on 8/25 and 8/26. Warsh's **first
+keynote as Fed chair** is strictly *more* uncertain than an incumbent's, not less.
+Theme: "Financial Innovation: Implications for Payments and Policy."
 
-🚨 **JACKSON HOLE STARTS TOMORROW (Aug 27–29).** Powell's keynote lands **inside** any
-1–5 day hold opened today. This is the dominant risk on the board and it argues for
-carrying the existing book, not adding to it.
+### 🎯 DECISION: NO SATELLITE. Hold 100% IWM core.
 
----
-
-### 🔵 OMER — HELD, 27 sh @ $17.14. Working. (satellite 1/4)
-
-- **$19.28**, +12.5%. 8/24 closed **93% of range**, 8/25 **−0.2% at 30%** on 0.5x —
-  a pause on drying volume (1.0x → 0.6x → 0.5x), **not distribution**; price is holding.
-- 🥇 **STANDING ORDER: sell 9 sh (1/3) on a touch of $19.71 (+15%).** 8/25 high was
-  **$19.65 — 0.31% short**, closer than Friday's $19.58. **First thing to check at open.**
-  Second rung $21.43 (+25%); ladder uncapped (consensus $33–$44.54), both rungs clear.
-- ✅ **Dilution re-checked on EDGAR 8/26: NO 424B5 in all of 2026 — the $150M ATM is
-  still undrawn.** Top of the lesson-8c ladder.
-- ✅ **New Form 144s (8/20, 8/21) resolved BENIGN per lesson 30** — $276,773 and $203,179,
-  acquired-date = sale-date, paid **cash** = cashless exercise-and-sell. **0.90% and 0.41%
-  of their days' volume**; combined 1.05% of one ADV, **0.040% of shares out.** Compare
-  ETON's real one: **16% of that day's volume by the founder.** Compensation mechanics,
-  zero information — **do not let it trip an exit trigger (lesson 32b).**
-- Catalyst intact: Q2 beat (125% revenue beat), YARTEMLEA +190% QoQ, **CMS NTAP
-  reimbursement effective 2026-10-01**. Short float 19.7–24.2%.
-- Trailing stop is **above entry** — worst case is now a gain. Position is 16.4% of book
-  by appreciation (cap binds at entry, not a violation) — a second argument for the rung.
+**Not cash — the core.** The board produced exactly one genuine fresh catalyst (LTRX)
+and it was killed three separate ways. Per the standing rule, an empty watchlist is a
+reason to sit in the benchmark, never a reason to sit in cash.
 
 ---
 
-### ⚠️ CAPR — the PDUFA question is resolved, catalyst is REAL, and it still fails rule 4b
+### 🚫 LTRX — Lantronix. The only real catalyst on the board. **TRIPLE-KILLED.**
 
-**The standing 8/22 PDUFA question has an answer: there was no decision.** The FDA
-**extended the action date to 2026-11-22** to review a major BLA amendment. The stock's
-run is an **analyst reaction to that extension** — Oppenheimer PT to **$54**, Cantor to
-Overweight PT **$28 (from $3.50)**. That is a real, dated, on-list catalyst (analyst
-upgrade), and it clears filters that kill most names:
+**$5.66 close → $6.50 premarket (+14.8%)** on FY26 Q4 earnings released after the
+8/26 close. Genuinely fresh, genuinely dated, and it clears the gates that usually
+do the killing:
 
 | Gate | Read |
 |---|---|
-| Universe | $8.29, **$482M cap**, ADV 5.2M, float 45.5M — all **PASS** |
-| Rule 13 | +25% → $602M. **Clears easily** |
-| Rule 11 ladder | $8.29 vs **$28 / $54** PTs — **wildly uncapped** |
-| **Rule 8 dilution** | 🥇 **NO S-3, no S-3ASR, no 424B5 anywhere in 2026** (EDGAR, 961-filing history verified populated). **$237.9M cash vs $482M cap**, 10.7–12mo runway. **Top of the 8c ladder** — the search said "unconfirmed"; EDGAR said clean (rule 11b: I resolved it rather than scoring the gap as a pass) |
-| Rule 29 calendar | PDUFA **+88 days** — the binary is now **dated and OUTSIDE** the hold window ✅ |
+| Universe | $6.50, **$290M cap**, ADV **1.19M**, float **35.3M (<50M)** — all **PASS** |
+| Rule 13 | +25% → $363M. **Miles clear of $2B** |
+| **Rule 37a / 4b** | Daily ranges **5.8 / 6.7 / 5.4 / 4.8 / 6.0%** — typical **5.7%**. ✅ **The 7% stop FITS this instrument.** (This is the axis that killed CAPR yesterday) |
+| Rule 11 ladder | $6.50 vs consensus **$10.33** (6 analysts, low $8.00 / high $12.00). +15% = $7.48 (**clears even the low target**), +25% = **$8.13 — just $0.13 above the low target**, but far under the mean and under the 52w high $8.75. **Uncapped ✅** |
+| Short float | **5.4%** — below the 15% bar, no squeeze kicker |
 
-🚫 **KILLED ON RULE 4b — and it is not close.** CAPR's daily ranges: 8/14 **35% of
-price**, 8/24 **26.7%**, 8/25 **18.6%**. **A 7% trailing stop is deep inside this
-name's noise band** — the stop is a coin flip, not risk management, and lesson 4b says
-plainly that is *an argument against entering, not for a wider stop.* Rocket cannot
-manage risk on this instrument with its mandated stop.
+**And it still dies, three times over:**
 
-**Three more marks against, none of which were needed:**
-1. 🚨 **Securities fraud class action filed 8/25** (Hagens Berman, lead-plaintiff deadline
-   Sept 28) — the *same day* as the +21.9% move.
-2. 🚨 **A 9–3 negative FDA advisory-committee vote** already stands against the
-   cardiomyopathy claim; the upper-limb pivot is a fallback, not a win.
-3. **The bar structure is CHOP, not a base** — eight sessions locked $6.01–$8.60.
-   **8/24 opened $8.03 and closed $6.80** (−15% from the open, 27% of range); 8/20 was
-   −14.3% **at 1% of range.** This name is sold into every rally. 8/25's $8.29 close is
-   the *top of the range*, not a breakout from it.
+1. 🚫 **RULE 5 — a beat WITHOUT a raise.** Non-GAAP EPS **$0.04 vs $0.03** = a
+   **one-cent** beat. Revenue **$31.2M, +8% YoY** — that is not "revenue
+   acceleration," it does not meet the catalyst-table definition. The only hard
+   forward number is **Q1 FY27 revenue $31M–$33M** — midpoint **+2.6% QoQ** against
+   the $31.2M just reported, and **the low end is BELOW the quarter just reported.**
+   "Double-digit revenue growth in FY27" is qualitative initial guidance, not a raise
+   of a standing number. **Lesson 5 is 3-for-3 as a fader (SVCO, CVRX, FF) and calls
+   this a disqualifier, not a demotion.**
 
-**Framing worth keeping: an FDA review EXTENSION is a delay being repriced as optionality,
-not a catalyst being delivered.** Revisit only if it builds a real base — i.e. holds above
-$8.60 with the daily range compressing under ~10%.
+2. 🚨 **RULE 8a — THE SHELF IS DRAWN, TWICE, THIS YEAR.** EDGAR: **424B5 on
+   2026-05-08 and again on 2026-06-01** — two actual takedowns off the 2025-02-07
+   S-3, three months ago, shelf still live. **Lesson 8a category (ii).**
+   🆕 **The press release's "ended the year with $60 million in cash and no debt" is
+   not balance-sheet strength — it is the proceeds of selling stock twice.** An issuer
+   that has drawn its shelf twice in 2026 has every incentive to draw it again into a
+   +15% earnings gap. (EDGAR verified populated per lesson 38: **1,000 filings, 37 in
+   2026** — the absence elsewhere is real evidence, and so is the presence here.)
 
----
+3. 🚨 **CALENDAR — Warsh's first Jackson Hole keynote, tomorrow ~10:00 AM ET.**
+   Lesson 2 says the earliest valid entry is the **second day** (same-day 0-for-3) —
+   which is tomorrow, **30 minutes before a new Fed chair's debut keynote.** A 7%
+   trail fills at the open, wherever the open is (lesson 29 mechanics, macro version).
 
-### ❌ ARCT — the gate holds for the FOURTH time. Skip cost now ≈ +50%.
+**Confirming tell:** the 8/26 cash session *into* the print was **−3.4%, closed at
+29% of range, on 2.8x volume** — distribution ahead of the number.
 
-**$15.44 after four straight volume-expansion sessions** (+25.2% on 5.1x → +6.9% → +22.4%
-on 2.6x → +6.6% → +7.7% on 2.0x). **$8.21 → $15.44 = +88% in five sessions**, closing
-54–98% of range every day. **Best price action on the board by a wide margin.**
-
-**Re-checked 8/26 — still NO new information.** Same Aug-6 Q2 material: dosing complete,
-**data and regulatory plan "to be communicated in Q3 2026" — still undated**, still inside
-any 1–5 day hold. Lesson 29 + 35 stand. A 7% stop fills at the open, wherever the open is.
-
-🚨 **+88% in five sessions on ZERO new information is lesson 35's exact signature — a
-crowded chase, not a validated thesis. That is a reason for MORE caution, not less.**
-**Only trigger: the ARCT-810 data becomes a published fact.** Carry the cost to the
-weekly review and grade it honestly; **do not loosen the gate because price went the other way.**
+**Trigger to revisit:** not this week. Only if it holds above ~$6.50 *after* Warsh,
+with no new 424B5.
 
 ---
 
-### The rest of the board — all fail rule 1 (no catalyst)
+### ❌ OOMA — Ooma. **RULE 11 KILL, and it is not close.**
 
-| Name | Bars (raw daily, 8/25) | Verdict |
+$20.53 → **$21.83 premarket (+6.3%)** on Q2 FY27 (8/26 AH): revenue **$83.2M, +25%
+YoY**, FY27 guide $332–333.5M, business subs +32%. A real print. But:
+🚫 **The ladder is capped hard — consensus mean $23.00, HIGHEST target $24.00, and
+the +15% rung is $25.10.** The best analyst on the Street is below the first rung.
+Also **52w high $22.72** — the premarket is already within 4% of it — and the 8/21
+run to $22.02 **already faded to $20.53 in three sessions**, so this gap does not
+even reclaim the prior high. Debt **$67.9M vs $17.2M cash.** One clean kill, no
+further research spent (rule 37a discipline).
+
+### ❌ CRBP — Corbus. Best accumulation pattern on the board, **no on-list catalyst.**
+
+$9.84 → $11.30 = **+14.8% in four sessions**, closing **93% / 84% / 93%** of range
+with **2.0x volume twice**. Real accumulation, and short float **12.7%**. But:
+🚫 **Rule 1** — the only news is a **Phase 3 trial *initiation*** (filed 8/12, updated
+8/18) that is **"not yet recruiting."** A trial *starting* is not on the catalyst list;
+it is the definition of an undated forward binary (**lesson 29**). Analyst PTs were
+**CUT** in August (Mizuho $34→$33, Oppenheimer $52→$48) — the ladder is uncapped
+($34 mean) but pointing the wrong way. Momentum died 8/26 (**−0.1% at 58% on 0.6x**),
+and 8/24's range was **11.2%** — over rule 37a's ~10% line. **Watch, do not trade.**
+
+---
+
+### The rest of the board — bars falsified the scan again (lesson 17a)
+
+| Name | Real 8/26 bar (vs what the scanner showed) | Verdict |
 |---|---|---|
-| **OI** — O-I Glass, $1.15B | $7.51, +3.6% @ **89% of range** but **0.9x / 0.8x volume** | ❌ **Third session with NO named catalyst.** A move on *below-average* volume is not a volume event. **Rule 1 kills it — stop carrying it.** |
-| **GNK** — Genco Shipping, $1.19B | $27.32, +1.4% @ **97% of range**, **2.8x volume three straight sessions** | ⚠️ **Most interesting unexplained bar on the board** — sustained ~2.8x accumulation. But +1.4–1.6%/day is drift, not momentum, and there is **no named catalyst** (dry-bulk rates?). **WATCH — needs a catalyst before it is tradeable.** |
-| **ANRO** — Alto Neuro, $1.43B | 8/24 +5.7% @79% on 1.9x, **8/25 +0.2% — no follow-through** | ❌ Clinical-stage neuro = lesson-29 undated-readout risk by default. Momentum died on day 2. |
-| **ALIT** — Alight, $554M | +6.0% → +4.6% → **+0.6% on 0.7x** | ❌ **Decelerating into falling volume.** Move is over, no catalyst found. |
-| **IE** — Ivanhoe Electric | $11.91, **$1.90B cap** | 🚫 **Rule 13 KILL** — +15% lands at **$2.19B**, over the lid. |
-| **CPSH** — CPS Tech, $77M | $4.02, +4.1% @89% but **0.6x volume** | ❌ Rule 1 — no catalyst, below-average volume. |
-| **THEO** — BOA Acquisition II | $9.86, **8/24 range $9.86–$9.87 = $0.01** | 🚫 **Rule 27 — a pinned price.** It is a **SPAC** trading to trust value. No momentum edge, ever. |
-| **HDSN · PUMP · UNCY · TTI · LFMD · SVCO** | all red or fading on 8/25 | ❌ HDSN −0.9%, PUMP **−2.0% @ 0% of range**, TTI **+0.0% @ 0%**. SVCO/LFMD already killed (lesson 5 / 8-21 bars). |
-| Crypto-treasury tier — USDE, ASST, DFDV, ABTC, FWDI | USDE **−4.1%**, DFDV −2.8% | 🚫 Mandate-excluded (lesson 31). **Note: the theme is now FADING, not topping the scan.** |
+| **BKSY** | scanned **+9.4%**; real **−2.1% @ 20% of range on 0.7x**. $27.75 → $24.68 = **−11% in three sessions**, closing at 5% / 14% / 20% of range | ❌ **Textbook extended-hours quote against a bleeding tape** |
+| **SPIR** | scanned **+4.1%**; real **−1.4% @ 21% on 0.8x**, five flat-to-red sessions | ❌ Falsified |
+| **HDSN · ATOM · AMPG** | ATOM −1.5% @49%, AMPG **−1.9% @36% on 0.2x**, HDSN 0.1x RelVol | ❌ Rule 1, no catalyst |
+| **WOLF** | +6.5% @72% but on **0.7x volume**; ranges **17.2 / 9.2 / 8.6%** | ❌ **Rule 37a — 7% stop inside the noise band** |
+| **CEPL** | +4.2% on **0.3x volume**, ranges 5–11% | ❌ Rule 1 + below-average volume |
+| **MATV** | −0.2% @ 38% on **2.3x volume** — volume with no price | ⚠️ Unexplained, not a momentum event |
+| **AMPX · TRTX · TUSK · TRT** | AMPX +0.2% @51% (chop), TRTX **1.8% ranges** (REIT drift), TRT/TUSK volume **0.12–0.14M** | ❌ No move / below the 300k gate |
+| Crypto-treasury — **USDE +9.5% @4.2x, DFDV +8.0% @2.8x**, ASST, SBET, ABTC | 🚫 Mandate-excluded (lesson 31) | 🆕 **Back on top of BOTH screens after ONE red session.** Yesterday's file called the theme "no longer topping the scanner" — that was a one-session read and it reversed immediately, **exactly the lesson-28/34 error.** |
 
----
-
-### 🔧 Instrument note — the scanners were near-useless this morning (lesson 15)
-
-1. 🚨 **`unusual_volume` topped out at 0.7x RelVol.** A screen built to surface **3x+**
-   returned **nothing above 0.7x**. At a 04:20 scan time RelVol is computed off partial
-   premarket volume, so the column is not merely low — **it is not measuring what it
-   claims to.** Do not rank on it.
-2. 🚨 **ZERO overlap between `top_movers` and `unusual_volume`** — the routine's designated
-   first-priority tier was **empty**.
-3. `top_movers` RelVol printed **`0.0x` or `—` for 15 of 20 names.**
-4. ✅ **Raw daily bars carried the whole session** — every name above was graded on bars,
-   not on scanner output (lesson 17a). **The bars again disagreed with the scan**: THEO
-   scanned **+10.8%** and its actual 8/25 bar was **−0.1% inside a $0.01 range.**
+**Overlap tier (top_movers ∩ unusual_volume)**: USDE, DFDV, VCX, LTRX. Three of four
+are mandate-excluded or a fund; **LTRX was the only usable name in the priority tier**,
+and it was killed above.
 
 ### Scheduled catalysts
 
-- 🚨 **JACKSON HOLE Aug 27–29 — STARTS TOMORROW.** Powell's keynote is the week's whole
-  risk and lands inside any position opened today.
-- **BBW** — earnings **8/27**, inside the earnings-week rule. Not before the print.
-- **CAPR** — new PDUFA **2026-11-22** (+88 days, outside any hold window).
+- 🚨 **JACKSON HOLE Aug 27–29 — KEVIN WARSH's first keynote as Fed chair, Fri 8/28
+  ~10:00 AM ET.** Lands inside any hold opened today *or* tomorrow morning.
+- **BBW** — earnings **today 8/27**. Earnings-week rule: not before the print.
+- **CAPR** — PDUFA **2026-11-22** (+87 days). Still killed on rule 4b (18.6–35% ranges).
 - **ARCT** — ARCT-810 Phase 2 data, **"Q3 2026," undated.** The one trigger that matters.
-- Earnings pipeline still thin — **LTRX 8/26 (today)**, BBW 8/27.
+- **OOMA investor day 9/29** (AI roadmap) — outside any hold window.

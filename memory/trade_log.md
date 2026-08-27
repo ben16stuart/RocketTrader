@@ -4,6 +4,34 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-27 — NO TRADE (market_close, Thursday, Week 35 day 4) — core in band, no satellites
+
+**No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER
+stop-out). Board stayed IWM-only all session per premarket's "no satellite, hold
+100% IWM core" call — LTRX was the only fresh catalyst and it was triple-killed
+(beat without a raise, shelf drawn twice in 2026, Warsh's Jackson Hole keynote
+landing inside any hold). See `research_log.md` and `session_notes.md` premarket/
+market_open entries for full detail.
+
+**Core rebalance check**: slice $3,200.83 (portfolio_value $10,669.43 × 30%),
+satellite value $0, 10% buffer $320.08 → target_core $2,880.75. Live IWM (raw qty
+**9.4932 sh**) × $299.84 = **$2,846.44 — 1.07% of slice short, inside the 3% band.**
+No trade.
+
+**Day P&L** (script-verified `position_table.py`, IWM is 100% of Rocket's book):
+IWM **+0.29% / +$8.26** today vs **SPY +0.66%** — Rocket trailed SPY by ~0.37% today,
+entirely factor drag (small-cap IWM lagging large-cap SPY on today's tape, not a
+stock-selection issue since there are no satellites to select). Hand-built book
+(lesson 23a): $3,138.95 → **$3,147.21** (+0.29%), notional cash unchanged at $300.90
+(9.6% — no trades to move it).
+- Since-rebase figure **not recomputed here** — 8/21 weekly-review reading (+4.53%
+  vs SPY +3.18% = +1.35%) stands until the next `weekly_review` chains it forward
+  properly, per the 8/21/8/24/8/25/8/26 precedent (lesson 23a discipline).
+- Weekly count: **0/5** — no new satellite opened this week yet, one session (Friday
+  8/28, Warsh's keynote) left in Week 35.
+
+---
+
 ## 2026-08-26 — OMER STOPPED OUT (market_close) + CORE REBALANCE, IWM BUY
 
 **No premarket/market_open logged today either** — same quota-contention gap as
