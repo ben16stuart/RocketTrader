@@ -4,6 +4,38 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-28 — NO TRADE (market_close, Friday, Week 35 day 5) — core in band, no satellites, Warsh hawkish
+
+**No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER
+stop-out). Board stayed IWM-only all session per premarket's "no satellite, hold
+100% IWM core" call — the overlap screen was zero names and every top_movers print
+falsified against raw bars (seventh/eighth straight lesson-17a demonstration). See
+`research_log.md` and `session_notes.md` premarket/market_open entries.
+
+**Macro**: Kevin Warsh's first Jackson Hole keynote as Fed chair (10:00 AM ET) ran
+hawkish — inflation "still too high," refused forward guidance, majority of investors
+now pricing a September hike. Small caps (IWM) sold off harder than large caps (SPY)
+into the print, consistent with rate-sensitive small-cap reaction to hawkish Fed talk.
+
+**Core rebalance check**: slice $3,219.64 (portfolio_value $10,732.12 × 30%),
+satellite value $0, 10% buffer $321.96 → target_core $2,897.67. Live IWM (raw qty
+**9.4932 sh**) × $295.76 = **$2,807.80 — 2.79% of slice short, inside the 3% band.**
+No trade (close call — nearest to the band edge yet without crossing it).
+
+**Day P&L** (script-verified `position_table.py`, IWM is 100% of Rocket's book):
+IWM **−1.35% / −$38.40** today vs **SPY −0.18%** — Rocket trailed SPY by ~1.17% today,
+entirely factor drag from the hawkish Warsh reaction (small-cap IWM sold off harder
+than large-cap SPY; no satellites to select). Hand-built book (lesson 23a): $3,147.21
+→ **$3,108.81** (−1.22%), notional cash unchanged at $300.90 (9.68% — no trades to
+move it).
+- Since-rebase figure **not recomputed here** — 8/21 weekly-review reading (+4.53%
+  vs SPY +3.18% = +1.35%) stands until the next `weekly_review` chains it forward
+  properly, per the 8/21–8/27 precedent (lesson 23a discipline).
+- Weekly count: **0/5** — Week 35 closes with zero new satellites opened, entirely
+  a board-quality problem (no genuine catalyst signal all week), not a discipline gap.
+
+---
+
 ## 2026-08-27 — NO TRADE (market_close, Thursday, Week 35 day 4) — core in band, no satellites
 
 **No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER

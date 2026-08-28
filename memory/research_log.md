@@ -5,121 +5,113 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Thu 2026-08-27 premarket (Week 35 day 4)  ← CURRENT
+## Watchlist — Fri 2026-08-28 premarket (Week 35 day 5)  ← CURRENT
 
-**Account (hand-built book per lesson 23a — NOT the slice)**: **$3,138.95** =
-IWM **9.4932 sh** ($2,838.05 @ $298.93, **90.4%**) + notional cash **$300.90 (9.6%)**,
-at 8/26 closes. ✅ **Inside the 10% buffer — no bearish thesis required or written.**
-Open satellites **0/4** · weekly count **0/5** · max satellite **$470.84** (15%) ·
-1.5% risk **$47.08** · shared cash $411.48 (pooled with Bull — **fund from core, not cash**).
+**Account (hand-built book per lesson 23a — NOT the slice)**: **$3,147.91** =
+IWM **9.4932 sh** ($2,847.01 @ $299.90, **90.4%**) + notional cash **$300.90 (9.6%)**.
+✅ **Inside the 10% buffer — no bearish thesis required or written.**
+Open satellites **0/4** · weekly count **0/5** · max satellite **$472.19** (15%) ·
+1.5% risk **$47.22** · shared cash $411.48 (pooled with Bull — **fund from core, not cash**).
 
-🚨 **CORRECTION CARRIED IN THIS FILE FOR TWO SESSIONS: the Jackson Hole keynote is
-KEVIN WARSH, not Powell — and it is TOMORROW, Fri 8/28 ~10:00 AM ET.** This file and
-`market_context.md` both said "Powell's keynote" on 8/25 and 8/26. Warsh's **first
-keynote as Fed chair** is strictly *more* uncertain than an incumbent's, not less.
-Theme: "Financial Innovation: Implications for Payments and Policy."
+🚨 **TODAY: Kevin Warsh's first Jackson Hole keynote as Fed chair, 10:00 AM ET —
+confirmed by search, 30 minutes after the open.** PCE already landed 8/26 (Core
+**3.3%**); the keynote is the only event on the tape. VIX **14.48**.
 
 ### 🎯 DECISION: NO SATELLITE. Hold 100% IWM core.
 
-**Not cash — the core.** The board produced exactly one genuine fresh catalyst (LTRX)
-and it was killed three separate ways. Per the standing rule, an empty watchlist is a
-reason to sit in the benchmark, never a reason to sit in cash.
+**Not cash — the core.** And today this is not a judgment call about a thin board;
+**the screens returned no signal at all.** See the measurement below.
 
 ---
 
-### 🚫 LTRX — Lantronix. The only real catalyst on the board. **TRIPLE-KILLED.**
+### 📊 The board is empty by MEASUREMENT, not by opinion (lesson 36)
 
-**$5.66 close → $6.50 premarket (+14.8%)** on FY26 Q4 earnings released after the
-8/26 close. Genuinely fresh, genuinely dated, and it clears the gates that usually
-do the killing:
-
-| Gate | Read |
-|---|---|
-| Universe | $6.50, **$290M cap**, ADV **1.19M**, float **35.3M (<50M)** — all **PASS** |
-| Rule 13 | +25% → $363M. **Miles clear of $2B** |
-| **Rule 37a / 4b** | Daily ranges **5.8 / 6.7 / 5.4 / 4.8 / 6.0%** — typical **5.7%**. ✅ **The 7% stop FITS this instrument.** (This is the axis that killed CAPR yesterday) |
-| Rule 11 ladder | $6.50 vs consensus **$10.33** (6 analysts, low $8.00 / high $12.00). +15% = $7.48 (**clears even the low target**), +25% = **$8.13 — just $0.13 above the low target**, but far under the mean and under the 52w high $8.75. **Uncapped ✅** |
-| Short float | **5.4%** — below the 15% bar, no squeeze kicker |
-
-**And it still dies, three times over:**
-
-1. 🚫 **RULE 5 — a beat WITHOUT a raise.** Non-GAAP EPS **$0.04 vs $0.03** = a
-   **one-cent** beat. Revenue **$31.2M, +8% YoY** — that is not "revenue
-   acceleration," it does not meet the catalyst-table definition. The only hard
-   forward number is **Q1 FY27 revenue $31M–$33M** — midpoint **+2.6% QoQ** against
-   the $31.2M just reported, and **the low end is BELOW the quarter just reported.**
-   "Double-digit revenue growth in FY27" is qualitative initial guidance, not a raise
-   of a standing number. **Lesson 5 is 3-for-3 as a fader (SVCO, CVRX, FF) and calls
-   this a disqualifier, not a demotion.**
-
-2. 🚨 **RULE 8a — THE SHELF IS DRAWN, TWICE, THIS YEAR.** EDGAR: **424B5 on
-   2026-05-08 and again on 2026-06-01** — two actual takedowns off the 2025-02-07
-   S-3, three months ago, shelf still live. **Lesson 8a category (ii).**
-   🆕 **The press release's "ended the year with $60 million in cash and no debt" is
-   not balance-sheet strength — it is the proceeds of selling stock twice.** An issuer
-   that has drawn its shelf twice in 2026 has every incentive to draw it again into a
-   +15% earnings gap. (EDGAR verified populated per lesson 38: **1,000 filings, 37 in
-   2026** — the absence elsewhere is real evidence, and so is the presence here.)
-
-3. 🚨 **CALENDAR — Warsh's first Jackson Hole keynote, tomorrow ~10:00 AM ET.**
-   Lesson 2 says the earliest valid entry is the **second day** (same-day 0-for-3) —
-   which is tomorrow, **30 minutes before a new Fed chair's debut keynote.** A 7%
-   trail fills at the open, wherever the open is (lesson 29 mechanics, macro version).
-
-**Confirming tell:** the 8/26 cash session *into* the print was **−3.4%, closed at
-29% of range, on 2.8x volume** — distribution ahead of the number.
-
-**Trigger to revisit:** not this week. Only if it holds above ~$6.50 *after* Warsh,
-with no new 424B5.
-
----
-
-### ❌ OOMA — Ooma. **RULE 11 KILL, and it is not close.**
-
-$20.53 → **$21.83 premarket (+6.3%)** on Q2 FY27 (8/26 AH): revenue **$83.2M, +25%
-YoY**, FY27 guide $332–333.5M, business subs +32%. A real print. But:
-🚫 **The ladder is capped hard — consensus mean $23.00, HIGHEST target $24.00, and
-the +15% rung is $25.10.** The best analyst on the Street is below the first rung.
-Also **52w high $22.72** — the premarket is already within 4% of it — and the 8/21
-run to $22.02 **already faded to $20.53 in three sessions**, so this gap does not
-even reclaim the prior high. Debt **$67.9M vs $17.2M cash.** One clean kill, no
-further research spent (rule 37a discipline).
-
-### ❌ CRBP — Corbus. Best accumulation pattern on the board, **no on-list catalyst.**
-
-$9.84 → $11.30 = **+14.8% in four sessions**, closing **93% / 84% / 93%** of range
-with **2.0x volume twice**. Real accumulation, and short float **12.7%**. But:
-🚫 **Rule 1** — the only news is a **Phase 3 trial *initiation*** (filed 8/12, updated
-8/18) that is **"not yet recruiting."** A trial *starting* is not on the catalyst list;
-it is the definition of an undated forward binary (**lesson 29**). Analyst PTs were
-**CUT** in August (Mizuho $34→$33, Oppenheimer $52→$48) — the ladder is uncapped
-($34 mean) but pointing the wrong way. Momentum died 8/26 (**−0.1% at 58% on 0.6x**),
-and 8/24's range was **11.2%** — over rule 37a's ~10% line. **Watch, do not trade.**
-
----
-
-### The rest of the board — bars falsified the scan again (lesson 17a)
-
-| Name | Real 8/26 bar (vs what the scanner showed) | Verdict |
+| Screen | What it produced | Read |
 |---|---|---|
-| **BKSY** | scanned **+9.4%**; real **−2.1% @ 20% of range on 0.7x**. $27.75 → $24.68 = **−11% in three sessions**, closing at 5% / 14% / 20% of range | ❌ **Textbook extended-hours quote against a bleeding tape** |
-| **SPIR** | scanned **+4.1%**; real **−1.4% @ 21% on 0.8x**, five flat-to-red sessions | ❌ Falsified |
-| **HDSN · ATOM · AMPG** | ATOM −1.5% @49%, AMPG **−1.9% @36% on 0.2x**, HDSN 0.1x RelVol | ❌ Rule 1, no catalyst |
-| **WOLF** | +6.5% @72% but on **0.7x volume**; ranges **17.2 / 9.2 / 8.6%** | ❌ **Rule 37a — 7% stop inside the noise band** |
-| **CEPL** | +4.2% on **0.3x volume**, ranges 5–11% | ❌ Rule 1 + below-average volume |
-| **MATV** | −0.2% @ 38% on **2.3x volume** — volume with no price | ⚠️ Unexplained, not a momentum event |
-| **AMPX · TRTX · TUSK · TRT** | AMPX +0.2% @51% (chop), TRTX **1.8% ranges** (REIT drift), TRT/TUSK volume **0.12–0.14M** | ❌ No move / below the 300k gate |
-| Crypto-treasury — **USDE +9.5% @4.2x, DFDV +8.0% @2.8x**, ASST, SBET, ABTC | 🚫 Mandate-excluded (lesson 31) | 🆕 **Back on top of BOTH screens after ONE red session.** Yesterday's file called the theme "no longer topping the scanner" — that was a one-session read and it reversed immediately, **exactly the lesson-28/34 error.** |
+| **Overlap tier** (top_movers ∩ unusual_volume) | 🚨 **LITERALLY ZERO NAMES.** No symbol appears on both screens | **The priority tier does not exist today.** First time recorded |
+| **top_movers** | Top print **+5.9%**; RelVol `0.0x`/`—` for **17 of 20** | Degraded (lesson 15), and falsified below |
+| **unusual_volume** | #1 **DFDV 2.5x** (crypto, excluded), #2 **USDE 1.7x** (crypto, and **−3.1%**), **rank 3 onward ≤0.7x** | 🚨 **An "unusual volume" screen whose 3rd name is at 0.7x is showing BELOW-average volume. No signal** |
 
-**Overlap tier (top_movers ∩ unusual_volume)**: USDE, DFDV, VCX, LTRX. Three of four
-are mandate-excluded or a fund; **LTRX was the only usable name in the priority tier**,
-and it was killed above.
+**Raw daily bars falsified the entire non-crypto top_movers board — seventh straight
+demonstration of lesson 17a, run BEFORE any research was spent:**
+
+| Name | Scanner said | Real 8/27 cash bar | Verdict |
+|---|---|---|---|
+| **MGNX** | +5.9% @ $4.32 | C **$4.08** (+1.0%), **27% of range**, **0.9x** | ❌ Extended-hours quote |
+| **VYGR** | +5.8% @ $3.66 | C **$3.46** — **unchanged**, 33% of range, **0.7x** | ❌ Falsified |
+| **INSG** | +5.0% @ $4.62 | C **$4.40 (−2.7%)**, **20% of range**, **0.5x** | ❌ Falsified *and declining* |
+| **MNTS** | +4.2% @ $4.45 | C $4.27 (+0.7%), **15% of range**, 0.8x | ❌ Falsified |
+| **PYXS** | +3.9% @ $3.45 | C $3.32 (−0.6%), 64%, **0.6x**. 8/26 range **10.8%**; 8/24 low **$2.83** | ❌ No volume + rule 37a + traded under $3 this week |
+| **SIGA** | +3.6% @ $3.17 | C **$3.06** | ❌ **Rule 31 — 2% above the $3.00 floor** |
+
+**Max real move on the whole board: +1.0%. Max real RelVol: 1.1x.** Not one genuine
+volume-plus-catalyst event. Also already-dead: **AGPU** (lesson 7a, ~60x ratio),
+**OOMA** (rule 11, graded below), **UNCY/LFMD** (falsified 8/21), **FPI/AHRT/RVII/VCX**
+(REIT/fund drift), **GNK/TROX/LXU/RYAM** (no catalyst, rule 1).
+
+---
+
+### ✅ GRADING YESTERDAY'S KILLS — both were right, and by a wide margin (lesson 35/32c)
+
+**🥇 LTRX — the triple-kill was CORRECT and it was not close.** Killed on rule 5
+(beat without a raise), rule 8e (424B5 drawn twice in 2026), and the calendar.
+Its actual 8/27 bar:
+
+> **O $6.68 · H $7.07 · L $5.80 · C $6.03 — range 21.1%, closed at 18% of range, 2.3x volume**
+
+The premarket gap held into the open, ran to $7.07, then **reversed −18% to $5.80**.
+A gap-and-go entry at ~$6.68 carries a 7% trail at **$6.21** — **the $5.80 low blew
+straight through it.** The skip avoided a stopped-out loser. **Beat-without-a-raise
+goes 5-for-5 as a fader** (SVCO, CVRX, FF, LTRX, +LTRX confirmed by tape).
+
+**🥇 OOMA — the rule 11 ladder kill was CORRECT, and it is the cleanest demonstration
+of that rule yet.** Killed because consensus mean was $23.00 and the **highest target
+on the Street was $24.00**, below the +15% rung of $25.10. Its actual 8/27 bar:
+
+> **O $22.50 · H $26.19 · L $22.36 · C $23.04 — range 16.6%, closed at 18% of range**
+
+**It spiked to $26.19 — straight through the highest analyst target — and gave back
+essentially all of it, closing at $23.04, i.e. within $0.04 of the consensus mean.**
+The ladder did not just cap the advance, it named the closing price. **Rule 11 → 5-for-5.**
+
+**⚠️ ARCT — the skip now costs ≈+45% and the gate still holds.** $11.13 → **$16.17**.
+But **volume is finally exhausting: 1.3x → 1.1x → 1.0x → 1.0x → 0.5x**, and 8/27's
+range narrowed to 7.2% from 17.8%. Still **no new information**; readout still
+**"Q3 2026," undated**. Per lesson 35: carry the cost to the weekly review, do not
+loosen a calendar gate because price went the other way.
+
+**🔧 CAPR — yfinance returned NO DATA for it this session.** Per lesson 38 that is an
+**unknown, not a clean read** — recorded, not scored. Immaterial today (already dead
+on rule 37a's 18.6–35% ranges and rule 37c), but do not carry it forward as a pass.
+
+---
+
+### 🚨 The calendar closes the door a second time — and LTRX just proved the mechanism
+
+Yesterday's file said the earliest valid entry (lesson 2, second-day) on the 8/26
+earnings movers is **today's open, 9:30 AM — thirty minutes before a debut Fed chair's
+keynote**, and that a 7% trail fills at the open wherever the open is.
+
+**LTRX is now the empirical proof of exactly that failure mode, one day early**: it
+opened at its gap, printed a 21% range, and closed near the low — no macro shock even
+required. Add Warsh at 10:00 and a **weekend** on top of a 1–5 day hold.
+
+**VIX at 14.48 is the tell** — *lower* than yesterday's 14.94. The tape is priced for
+a new Fed chair to say nothing surprising at his first keynote. That is not a reason
+to be short; it is a reason not to carry a 7%-stopped small cap through it.
+
+### 🆕 Crypto-treasury tier rolled over — and that is a ONE-SESSION read (lesson 28/34)
+
+**USDE −3.1%, SBET −3.3%, ABTC −0.7%, ASST −0.7%**; only DFDV held (+0.4%). After
+owning both screens for five sessions the theme is red. ⚠️ **This file called the
+theme dead on 8/26 and was reversed inside 24 hours.** Not calling it again. They
+remain mandate-excluded (lesson 31) either way, so it changes nothing operationally.
 
 ### Scheduled catalysts
 
-- 🚨 **JACKSON HOLE Aug 27–29 — KEVIN WARSH's first keynote as Fed chair, Fri 8/28
-  ~10:00 AM ET.** Lands inside any hold opened today *or* tomorrow morning.
-- **BBW** — earnings **today 8/27**. Earnings-week rule: not before the print.
-- **CAPR** — PDUFA **2026-11-22** (+87 days). Still killed on rule 4b (18.6–35% ranges).
+- 🚨 **WARSH keynote — TODAY 10:00 AM ET.** The only event on the tape.
 - **ARCT** — ARCT-810 Phase 2 data, **"Q3 2026," undated.** The one trigger that matters.
-- **OOMA investor day 9/29** (AI roadmap) — outside any hold window.
+- **CAPR** — PDUFA **2026-11-22** (+86 days). Killed on rule 4b/37a ranges.
+- **OOMA investor day 9/29** — outside any hold window. Ladder capped regardless.
+- **LTRX** — revisit only if it holds above ~$6.50 *after* Warsh, with no new 424B5.
+  It closed **$6.03**, below that line.
