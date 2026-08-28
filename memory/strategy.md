@@ -131,13 +131,45 @@ moves larger funds cannot exploit. Rocket moves fast and manages tight.
 7. 🚫 **Beat WITHOUT a raise — DISQUALIFIED, not demoted.** 3-for-3 as a fader: SVCO,
    CVRX, FF. Promoted from "caution" to a hard skip on 2026-08-14.
 
+## 🥇 SOURCING — new 2026-08-28, and the highest-value change on this page
+
+**Rung 1 is the only catalyst that has ever made money, and it does NOT require a
+screener to find. Earnings are on a calendar, published in advance. STOP WAITING FOR
+THEM TO BUBBLE UP THROUGH A BROKEN VOLUME SCREEN.**
+
+**W35's proof: PagerDuty (PD).** Reported 8/27 after the close — revenue $124.4M beat,
+ARR through $500M, **and raised** FY revenue guidance to $494M and FY adj EPS to $1.35.
+Traded 8/28 **+9.5%, C $13.83, 69% of range, 2.7x volume.** A textbook rung-1 name.
+**It appears in none of Friday's three session notes.** Premarket called the board
+"empty by measurement" (correct on its inputs — PD hadn't gapped yet); market_open's
+overlap tier returned NABL/OSG/BBW, all three correctly killed on catalyst. **PD was
+never on the board.** It surfaced only on the post-close weekly scan.
+
+**Mandatory premarket step, ahead of the screeners:**
+1. Pull **yesterday's after-hours + this morning's before-open earnings reporters**
+   inside the small-cap universe.
+2. For each, ask the single rung-1 question: **was guidance RAISED?** Beat-only is a
+   hard skip (5-for-5 as a fader).
+3. Only the raises go to the full 5-step check. **Then** run the screeners for anything
+   the calendar missed.
+
+**Why this is cheap and why it matters:** the screener reports extended-hours quotes as
+prices (rule 17a, **eight** straight falsifications), printed `0.0x` RelVol for 17 of 20
+names on 8/28, and **returned empty output twice** in one week. **A degraded screener
+feeding an "empty board" conclusion is how a real catalyst gets missed** — the earnings
+calendar is a source that cannot silently degrade into a blank.
+
 ## The filters that actually earn their keep
 
 **1. The dilution / balance-sheet check — run it FIRST.** Rocket's most profitable rule,
 one search. Grade the *structure*, not just the existence (lesson 6a): VWAP-discounted
 converts are an automatic kill; a completed raise months old is not an overhang at all.
 
-**2. The analyst-ladder check — now 4-for-4 and the best entry filter.** Strike both profit
+**2. The analyst-ladder check — now 5-for-5 and the best entry filter.** 🥇 **W35 produced
+its cleanest demonstration yet: OOMA.** Killed because consensus mean was $23.00 and the
+**Street's highest target was $24.00**, below the +15% rung of $25.10. It then **spiked to
+$26.19 — straight through the highest target — and closed $23.04, within $0.04 of the
+consensus mean.** The ladder did not merely cap the advance; it named the closing price. Strike both profit
 targets (+15%, +25%) against a **dated** consensus. If the ladder is capped, skip. CURI was
 W33's proof: half-capped by a fresh dated cut, skipped, then **−11.0% and closed at 4% of
 range.** ⚠️ **An un-runnable ladder is a FAIL, not a pass** — FF had *no analyst coverage*,
@@ -185,17 +217,27 @@ Rocket vs SPY  =  (IWM − SPY) × core weight     ← factor, NOT alpha
                 + satellite contribution         ← the ONLY real alpha
 ```
 
-| Week | IWM − SPY | Cash drag | Rocket vs SPY | **Real alpha** |
+| Week | Factor (IWM−SPY × wt) | Cash drag | Rocket vs SPY | **Real alpha** |
 |------|-----------|-----------|---------------|----------------|
-| 30 (7/20–7/24) | — (100% cash) | — | +0.43% | **0.00%** |
+| 30 (7/20–7/24) | — (100% cash) | +0.43% | +0.43% | **0.00%** |
 | 31 (7/27–7/31) | −1.09% | −0.14% | −0.98% | **0.00%** |
 | 32 (8/03–8/07) | +0.05% | **−0.49%** | −0.54% | **−0.13%** |
-| 33 (8/10–8/14) | **+0.77%** | −0.04% | **+0.15%** | **−0.52%** |
-| **Cumulative** | | | **−0.78%** | **−0.65%** |
+| 33 (8/10–8/14) | **+0.77%** | −0.04% | +0.15% | **−0.52%** |
+| 34 (8/17–8/21) | −0.24% | +0.10% | **+2.03%** | **+2.18%** |
+| **35 (8/24–8/28)** | **−1.63%** | −0.04% | **−2.51%** | **−0.85%** |
+| **Cumulative** | **−2.14%** | −0.18% | **−1.27%** | **+0.68%** |
 
-**Week 33's +0.15% headline is 100% factor.** Weeks 30 and 33 both "beat" SPY on beta;
-Week 31 "lost" on the same beta. **Cash drag is solved. Real alpha is now the only thing
-left to fix, and it has never been positive.**
+⚠️ Columns sum to ≈−1.64% against a measured −1.27%; **residual ≈+0.37%** from arithmetic
+sums standing in for geometric chaining over six weeks. **Recorded, not reconciled away.**
+
+**🚨 REDIAGNOSED 2026-08-28 — the problem inverted.** Real alpha is **+0.68% and positive**;
+the cumulative deficit is **the core instrument**. Raw **IWM +1.18% vs SPY +3.67% since the
+rebase = −2.50%**, carried at ~90% weight. **Rocket's entire shortfall to SPY is now the
+IWM-vs-SPY factor, not stock picking.** W33's +0.15% "beat" was 100% factor and this file
+said so; **the same honesty applies now that the factor hurts** — W35's −2.51% is 65%
+factor and 35% a correct mechanical exit on a *winning* trade. Escalated to the user,
+**not self-approved**: Rocket does not get to change its own benchmark sleeve because a
+six-week drift went against it.
 
 ## Current Rules Under Observation
 
@@ -220,13 +262,22 @@ left to fix, and it has never been positive.**
   **blocks the re-entry** on a name whose beat-and-raise thesis is intact and which just
   closed at a new high. Six names in three weeks — APPS, BW, HLIT, ETON, UMAC, IQMX.
   **Not overridden. Escalation to the user stands and is now urgent.**
-- 🆕 **Should lesson-29 binary-risk names be sized at HALF rather than skipped?** ARCT was
-  correctly declined (undated Phase 2 readout inside the hold window) and ran **+31%**. The
-  gate is right — a 7% stop cannot protect against a data gap — but the rule currently
-  forces all-or-nothing at full 15% size. A deliberate half-size sleeve would have captured
-  ~+2.3% of book with the gap risk explicitly bounded. ⚠️ **Escalated to the user, NOT
-  self-approved** — lesson 35 pre-committed against loosening a calendar gate because price
-  went the other way, and that pre-commitment is being honoured.
+- 🚨 **NEW 2026-08-28 — is the IWM core costing more than the mandate-fit is worth?**
+  **IWM +1.18% vs SPY +3.67% since the rebase = −2.50% at ~90% weight**, which is the
+  **entire** cumulative deficit to the benchmark; stock selection is **+0.68% and
+  positive**. CLAUDE.md approved this tradeoff on 2026-07-27 with eyes open, and one of
+  the two reasons is **non-negotiable and unaffected by performance**: Bull holds SPY in
+  the same pooled account, so a SPY core would make the two books unattributable at the
+  broker. Any alternative has to preserve distinct tickers. ⚠️ **Escalated to the user,
+  NOT self-approved.** Six weeks is a drift, not a verdict, and lesson 28/34's whole
+  point is that Rocket does not get to re-decide its benchmark sleeve because the factor
+  recently went against it. **Re-read every weekly review; do not act on it unilaterally.**
+- 🔻 **DEMOTED — should lesson-29 binary-risk names be sized at HALF rather than skipped?**
+  ARCT was declined (undated Phase 2 readout inside the hold window) and ran +45% at its
+  peak. **The bars have now settled it against the request**: 8/28 printed **−6.1% at 50%
+  of range on 0.6x volume — the first red day, with volume exhausted from 2.1x to 0.6x
+  and the readout still undated.** The gate was right and the cost was transient. Leaving
+  the question open at low priority; **the evidence that motivated it has weakened.**
 - Second-day vs same-day: **2-for-3** vs 0-for-3, and the one second-day loss was an exit
   failure. Still the working thesis; n is still small.
 - What hold time maximizes returns? (1 vs 3 vs 5 days) — n=5 closed trades, still no signal
