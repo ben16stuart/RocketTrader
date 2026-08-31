@@ -3,6 +3,89 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-08-31 — MARKET_CLOSE (Monday, Week 36 day 1) — CORE REBALANCE, IWM BUY
+
+No satellites to review (0/4). Core rebalance triggered for the first time since
+8/26: slice **$3,221.73**, target_core **$2,899.56**, live IWM **$2,790.67 — 3.38%
+of slice short**, just outside the 3% band → bought **0.3704 sh @ $293.958**
+($108.89), landing on target at **9.8636 sh / $2,900.14**. Full detail and day P&L
+in `trade_log.md`.
+
+Day: IWM −0.55%/−$16.13 vs SPY −0.47% (~0.08% trail, factor drag on a broad
+risk-off Monday). Since-rebase figure not recomputed here — the 8/28
+weekly-review chain (**Rocket vs SPY: −1.27%**) stands until next `weekly_review`.
+ntfy sent and confirmed. No new lesson — routine mechanical rebalance.
+
+## 2026-08-31 — MARKET_OPEN (Monday, Week 36 day 1) — NO TRADE, confirms premarket
+
+Validated premarket's "no satellite" call against real open data — it held. Overlap
+tier (top_movers ∩ unusual_volume): **NEOV** (+25.1–25.6%, 11.1x scanner / 2.1x live
+avg) was the only name of substance; everything else on both lists was either a
+closed-end fund/large-financial (mandate-excluded by sector/size) or a sub-4% mover.
+
+- 🔎 **NEOV re-checked on live bars, not Friday's** — this time the move is **real**
+  (detail pull confirms +25.6%, 2.1x avg volume, not a scanner artifact). No confirmed
+  same-day catalyst found by search (candidates: Georgia plant commissioning
+  end-of-August target, an undated ~$200M BESS supply LOI) — neither pinned to today.
+  **Moot regardless: earnings print 9/02 is 2 trading days out — earnings-week
+  guardrail forbids entry before a confirmed print.** 🆕 Also surfaced an 8/11 filing
+  to sell 4.5M shares — an ungraded rule-8 dilution flag for if NEOV is re-screened
+  post-print.
+- PD and RMNI: no new information since premarket: both remain killed (ladder /
+  no dated catalyst respectively). Not re-checked at the open — nothing changed.
+
+**Result: 0/4 satellites, 100% IWM core held.** No rebalance (market_close only,
+rule 6). No notification — flat session. NEOV is the one name worth a same-time-next-
+session look, but only *after* 9/02 and only after grading the dilution filing.
+
+---
+
+## 2026-08-31 — PREMARKET (Monday, Week 36 day 1) — NO SATELLITE, hold IWM
+
+Board built, both named candidates killed on **dated** evidence. Book **$3,106.43** =
+IWM 9.4932 sh (90.3%) + $300.90 cash (9.7%, inside the buffer — no bearish thesis owed).
+Satellites 0/4, weekly 0/5. Core is **0.31% from target — well inside the 3% band**, and
+rebalancing is market_close-only regardless. **No action for the 9:35 session.**
+
+- ✅ **Lesson 41's new first step ran and worked.** Earnings calendar before any
+  screener: Monday before-open is **LX, SAIC, SY** — LX/SY China-domiciled
+  (mandate-excluded), **SAIC cap $5.3B (gate fail)**. **An empty slate from a source
+  that cannot silently go blank** — the exact distinction 41b was written for.
+- 🚫 **PD KILLED — the ladder gate was tested against Friday's own stated condition and
+  REFUTED.** Dated 9-analyst page: **mean $12.64, 8.6% BELOW Friday's $13.83 close; high
+  target $15.00 sits under the +15% rung ($15.90)**; rating **Hold**. The Street *did*
+  revise up on 8/28 (Truist $13→$15, Canaccord $10→$15, BofA $8→$9.50 **Sell**) and
+  **still landed at/below the high — marking up did not un-cap it.** This is the **OOMA
+  shape**, lesson 11's cleanest case. **Ladder 6-for-6.**
+- 🆕 **The research log's "$18.70 consensus" was undated and is off by 48%** vs a dated
+  page. **Rule 11a paid again.**
+- 🆕 **Rocket's own files over-graded the PD catalyst (lesson 39a).** Called "Rung 1, the
+  only type that has made money" — but revenue was **FLAT YoY** and the FY guide moved
+  **$492.5M → $494M = +0.3%.** ETON's was $120M+ → "exceed $145M." **A 0.3% nudge on flat
+  revenue sits nearer lesson 5's beat-without-a-raise (5-for-5 fader) than beside ETON.**
+  Label inherited across three sessions, never re-checked. Rung 1 needs a **size** bar.
+- ✅ **PD's dilution check passed cleanest-tier** — EDGAR 688 filings (populated, lesson
+  38), **no S-3/424B5/S-1 since Jan 2025**, only S-8s (8b). **A spotless balance sheet
+  did not rescue a capped ladder** — the gates are independent, and that is the point.
+- 🚫 **RMNI killed on rule 1 for the second session.** Still no dated 8/27–8/28 catalyst;
+  only "hit a 52-week high" (**a description of the move, lesson 33**) + Roth $6.50
+  (7/30) and an 8/01 upgrade, both stale. Ladder capped too: **+15% = $6.50 = exactly
+  Roth's target.**
+- 🚫 **NEOV/FLWS/SPIR killed on raw bars before any research spend** — ninth straight
+  lesson-17a demonstration. Scanner's NEOV "+11.8%, 1.9x" was really **−5.9%, 4% of
+  range, on its lowest volume in 8 sessions**, and it **reports 9/02 (+2d)** — the
+  earnings-week guardrail forbids entry before a print.
+- 🔧 **New instrument failure: `eligibility` silently omitted PD from a 6-ticker call**,
+  printed the other five, exited 0. **A missing row is indistinguishable from a clean
+  run (lesson 38).** Re-run alone it worked. **Count rows against tickers requested.**
+  `top_movers` RelVol still broken (14 of 20).
+- 🚨 **10-yr 4.72% — cushion to the 4.75% trigger is 3bp, down from 8bp.** Fourth session
+  up, hawkish Warsh behind it, **IWM at ~90% weight**, and a four-event macro week (ISM,
+  JOLTS, ADP, **jobs report 9/4**). Nothing to do — the core is stopless by design — but
+  named now rather than discovered in an attribution later.
+
+---
+
 ## 2026-08-28 — WEEKLY REVIEW (Week 35, Friday post-close) — Grade C
 
 **Book $3,173.17 → $3,108.52 = −2.04% vs SPY +0.47% → Rocket vs SPY −2.51%**, worst

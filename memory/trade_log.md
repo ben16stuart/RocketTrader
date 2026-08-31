@@ -4,6 +4,43 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-08-31 — CORE REBALANCE, IWM BUY (market_close, Monday, Week 36 day 1)
+
+**No satellites open to review** (0/4, unchanged since the 8/26 OMER stop-out).
+Board stayed IWM-only all session per premarket/market_open's "no satellite, hold
+IWM core" call — NEOV was the only name of substance and is gated by the 9/02
+earnings-week rule; PD and RMNI remain killed. See `research_log.md` and
+`session_notes.md` for full detail.
+
+**Core rebalance, IWM BUY**: bought **0.3704 sh @ $293.958 = $108.89**, filled
+19:58:56 UTC. Reason: slice **$3,221.73** (portfolio_value $10,739.11 × 30%),
+satellite value $0, 10% buffer $322.17 → target_core **$2,899.56**. Live IWM
+(raw qty **9.4932 sh**) × $293.965 = **$2,790.67 — 3.38% of slice short**,
+just outside the 3% band. New IWM qty **9.8636 sh** (≈$2,900.14 at fill),
+landing on target. Not a conviction trade — core rebalance only, funded from
+pooled cash per rule "fund satellites/core from proceeds, never cash starvation."
+
+**Portfolio now**: 100% core (IWM, 9.8636 sh), 0 satellites, 0/4 open satellite
+slots used, 0/5 new-satellite count this week.
+
+**Day P&L** (script-verified `position_table.py`, IWM is 100% of Rocket's book):
+IWM **−0.55% / −$16.13** today vs **SPY −0.47%** — Rocket trailed SPY by ~0.08%
+today, entirely factor drag (small-cap IWM lagging large-cap SPY on a broad
+risk-off Monday; no satellites to select). Hand-built book (lesson 23a):
+$3,106.43 → **$3,090.30** (−0.52%) before the rebalance trade; the $108.89
+cash→IWM transfer is a reallocation, not a P&L event.
+- Since-rebase figure **not recomputed here** — the 8/28 weekly-review chain
+  (**Rocket vs SPY: −1.27%**, W35 review, IWM vs SPY raw −2.50% since rebase)
+  stands until the next `weekly_review` chains it forward properly, per the
+  lesson 23a discipline. Do **not** cite `portfolio_snapshot.py`'s own
+  since-rebase figures (+6.20%/+2.80% today) — that calc method is known to
+  diverge from the weekly-review reconstruction; the script's live account
+  totals are authoritative for sizing trades, not for the since-rebase narrative.
+- Weekly count: **0/5** — Week 36 opens with zero new satellites, board-quality
+  problem (no genuine catalyst signal today), not a discipline gap.
+
+---
+
 ## 2026-08-28 — NO TRADE (market_close, Friday, Week 35 day 5) — core in band, no satellites, Warsh hawkish
 
 **No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER

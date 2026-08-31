@@ -4,7 +4,34 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-08-28 Friday close (end of Week 35)  ← CURRENT
+## Snapshot — 2026-08-31 Monday premarket (Week 36 day 1)  ← CURRENT
+
+| Metric | Level | Read |
+|---|---|---|
+| **VIX** | **15.21** (+5.41%) | Rising off the two-week low but **far below the 22 brake.** No size restriction |
+| 🚨 **10-yr** | **4.72%** (+1.03%) | **Cushion to the 4.75% trigger is now 3bp, down from 8bp Friday.** Fourth session grinding up, **with a hawkish new chair behind it** |
+| Russell fut | 2,976.90 (−0.02%) | Flat. No overnight directional signal |
+| SPY / IWM | 769.35 / 295.75 | Friday's closes |
+| WTI | 86.62 (**+3.86%**) | The one real overnight mover; Brent −0.35% — **divergence, treat WTI as unconfirmed** |
+
+**The 10-yr flag is now a trend, not a print — which is exactly the condition lesson 34
+says to act on** ("flags near a threshold stand down on a trend, never on one print" —
+the trend is what makes it live). 4.67% → 4.72% into a hawkish Warsh Fed, with **IWM
+carried at ~90% weight**, is the single biggest exposure Rocket has. There is nothing to
+*do* — the core carries no stop by design, and that design is backed by 33 years of
+testing — but it should be named, not discovered later in an attribution.
+
+**Hostile calendar this week**: ISM Manufacturing, JOLTS, ADP, ISM Services, and the
+**August jobs report Friday 9/4.** Rate-sensitive small caps face four repricing events
+in four days. ⚠️ A source mislabeled Labor Day as 9/1 — **Labor Day 2026 is Mon 9/7**;
+this is a full trading week (lesson 39: verify the named date).
+
+✅ **`market_data.py macro` returned a complete, clean read** — every field populated,
+first time in three sessions. The scanners did not recover (see `research_log.md`).
+
+---
+
+## Snapshot — 2026-08-28 Friday close (end of Week 35)
 
 ### 🚨 The week's event: Warsh's Jackson Hole debut ran HAWKISH
 
