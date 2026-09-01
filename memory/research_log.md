@@ -5,131 +5,147 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Mon 2026-08-31 premarket (Week 36 day 1)  ← CURRENT
+## Watchlist — Tue 2026-09-01 premarket (Week 36 day 2)  ← CURRENT
 
-**Book (hand-built, lesson 23a — NOT the slice)**: **$3,106.43** = IWM **9.4932 sh**
-($2,805.53 @ $295.53, **90.3%**) + notional cash **$300.90 (9.7%)**.
+**Book (hand-built, lesson 23a — NOT the slice)**: **$3,081.26** = IWM **9.8636 sh**
+($2,889.25 @ $292.92, **93.8%**) + notional cash **$192.01 (6.2%)**.
 ✅ **Inside the 10% buffer — no bearish thesis required or written.**
-Satellites **0/4** · weekly count **0/5** · max satellite **$465.96** (15%) · 1.5% risk
-**$46.60** · shared cash $411.48 (pooled with Bull — **fund from core, not cash**).
+Satellites **0/4** · weekly count **0/5** · max satellite **$462.19** (15%) · 1.5% risk
+**$46.22** · shared cash $1,069.76 (pooled with Bull — **fund from core, not cash**).
 
-## 🚩 VERDICT: NO SATELLITE. HOLD IWM. Both named candidates killed on dated evidence.
+## 🚩 VERDICT: ONE LIVE CANDIDATE — **YEXT**, reporting BEFORE THE OPEN today. Gates pre-committed below. Default remains hold IWM.
+
+## ✅ market_open 9/1 — YEXT KILLED on gate 1, no trade
+
+**Actual print**: Q2 revenue **$111.1M, MISSED consensus $112.2M, -2% YoY.** EPS beat
+($0.21 vs $0.17 consensus) but **no FY27 revenue guidance raise found in any source**
+(shareholder letter, stocktitan, investing.com all confirm no guidance figures raised).
+Stock +8.3–8.9% at the open on the EPS beat alone, RelVol 4.9x.
+
+**Gate 1 of the pre-committed pass/kill ("A raise, SIZED as a percentage, FY27 revenue
+guidance up >2% at the midpoint") fails outright — revenue MISSED, no raise exists.**
+Per lesson 42 ("write the kill/pass condition in advance, then hold yourself to it"),
+did not evaluate gates 2–4; all four are required and gate 1 alone is dispositive.
+**This is lesson 5's exact shape — beat (EPS) without a raise (revenue) — except worse:
+here the revenue side is a miss, not just flat.** KILL. No satellite entry.
+
+**Fresh-mover scan (unusual_volume, top_movers)**: no new catalyst names. ALMS -50.9%
+on 41.7x is a blowup, not a long setup. EMPD/DFDV are mandate-excluded crypto-treasury
+proxies (lesson 31/36). Nothing else clears rule 1 (named catalyst).
+
+**Session verdict: flat, hold IWM core.** No trade placed. Rebalance is market_close
+only (rule 6) — not evaluated here.
 
 ---
 
-### ✅ Lesson 41's new first step ran, and it came back genuinely empty
+### 🥇 The earnings calendar was the whole board again (lesson 41) — and this time it produced a name
 
-**Earnings calendar BEFORE any screener.** Monday 8/31 before-open reporters: **LX,
-SAIC, SY** (CANG after close). **LX, SY, CANG are China-domiciled → mandate-excluded
-before research.** **SAIC fails the universe gate outright — cap $5,325M vs the $2B
-ceiling.** Friday 8/28 after-close produced no small-cap beat-and-raise.
+Tuesday **9/1 BMO/AMC reporters**, screened against the universe gate. Rows counted
+against tickers requested (lesson 43): **4 requested, 4 returned.**
 
-**This is an empty slate from a source that cannot silently go blank** — which is
-exactly the distinction lesson 41b demanded. Contrast Friday, where "empty" came out of
-a degraded screener. Today the board is small because the calendar is small.
+| Name | Gate | Status |
+|---|---|---|
+| **YEXT** — Yext, BMO **today** | $6.77 ✓ · cap **$679M** ✓ (+25% → $849M, rule 13 clear) · ADV **1.18M** ✓ · NYSE ✓ · US ✓ | 🔎 **LIVE — gates pre-committed below** |
+| **ANAB** — AnaptysBio, **AMC today** | $57.03 ✓ · ADV 598k ✓ · float 19.8M ✓ · but **cap $1,689M → +25% = $2,111M, THROUGH the $2B ceiling (rule 13)** | 🚫 **One-rung at best, and AMC today → earnings-week guardrail forbids entry before the print.** Re-screen 9/02 |
+| **RGS** — Regis | **ADV 5,798** vs a 300,000 gate | 🚫 Gate fail, 52x short |
+| **SPWH** — Sportsman's Warehouse | **$1.19** (<$3) and **cap $46M** (<$50M) | 🚫 Double gate fail |
+
+**Mandate-excluded before research** (domicile/sector): NIO, ZEPP, HKD, CANG (China) ·
+SBSW, SSL, NAMM (South Africa) · CLGN (Israel) · RZLV (UK) · ZENA, ELBM (Canada) ·
+WALD, KEN, HMR, SLAI. **Large caps out on size**: PANW, DELL, MDT, MDB, CRDO, GTLB, MMED.
+
+**Monday 8/31 after-close produced exactly one reporter — CANG, China-domiciled.** Second
+straight session where the overnight slate is genuinely, verifiably empty rather than
+missing (lesson 41b).
 
 ---
 
-### 🚫 PD — PagerDuty · **KILLED ON THE LADDER.** The un-capping condition was tested and REFUTED
+### 🔎 YEXT — Yext · Q2 FY27 **before the open today**. Gates struck NOW, before the print
 
-Friday's open thread set the bar precisely: *"if the Street marks up above $17.29 the
-picture genuinely changes."* It was checked against a **dated 9-analyst page**. It did not.
+**Confirmed timing**: company IR press release states results release **Tuesday
+September 1, before market open.** So the print lands inside the premarket window and
+this is a legitimate same-day candidate under the earnings-week guardrail ("OK to enter
+AFTER a confirmed beat").
 
 | Gate | Result |
 |---|---|
-| 🚨 **Rule 11 ladder** | ❌ **FAIL, decisively.** Consensus **mean $12.64 — BELOW Friday's $13.83 close by 8.6%.** **High target $15.00 sits UNDER the +15% rung ($15.90).** +25% rung $17.29 is unreachable. Consensus rating **Hold** |
-| 8/28 post-print revisions | Truist **$13 → $15**, BofA **$8 → $9.50 (SELL maintained)**, Canaccord **$10 → $15**. ✅ The Street *did* revise up — **and still landed at or below the high.** Marking up did not un-cap it |
-| 🚨 **Rule 11a** | The research log's **"$18.70 consensus" was undated — it is refuted by a dated page at $12.64, off by 48%.** Rule 11a paid again |
-| ✅ **Rule 8 dilution** | **PASS, cleanest tier.** EDGAR **688 filings (file proven populated, lesson 38)** — **no S-3 / S-3ASR / 424B5 / S-1 since at least Jan 2025.** Only **S-8s (lesson 8b — not an offering)** |
-| ✅ Universe / calendar | $13.83 ✓ · cap **$1.09B** → +25% = $1.36B ✓ (rule 13) · ADV 1.74M ✓ · NYSE ✓ · **next earnings 11/24, +85 days — clean calendar (rule 29)** |
-| ⚠️ Rule 37a/40a | Catalyst-day range **8.5%** vs 7% trail; trailing typical **3.7%** → **2.3x** multiple |
-| ⚠️ Float / short | Float **71.4M** (>50M pref) · short **13.35%** — under the rule-9 bar, no squeeze kicker |
+| ✅ **Rule 8 dilution** | **PASS, cleanest tier on the book.** EDGAR submissions file **proven populated — 1,000 filings spanning 2018-06-22 → 2026-07-13** (lesson 38). Only offering-type filings in the entire window: **S-3ASR 2019-03-18 + 424B5 2019-03-20 — seven years old**, and an S-3ASR shelf lapses after 3 years (dead since 2022). **Everything since is S-8 only (lesson 8b — not an offering).** No S-1/S-3/424B5 in seven years |
+| ✅ Universe / rule 13 | $6.77 · cap $679M → +25% = **$849M**, nowhere near the $2B lid · ADV 1.18M · NYSE · US |
+| ⚠️ **Rule 11 ladder — the binding gate** | Dated 4-analyst page: mean **$7.50**, high **$10.00**, low $6.00, consensus **Buy**. Dated marks: **Needham reissued Buy $10.00 (8/18)**, **Zacks cut strong-buy → hold (8/21)**. At $6.77 the **+15% rung is $7.79 — ABOVE the $7.50 mean by 3.9%.** ⇒ **a zero-rung name on the mean at today's price.** Not the OOMA/PD shape (high $10.00 clears both rungs) — the softer failure. **But OOMA closed within $0.04 of its mean; a name tracking $7.50 stops at +10.8%, short of the first scale-out.** And **any gap up moves the rungs while the pre-print mean stays put** |
+| ⚠️ **Rule 40a catalyst-day range** | 11 sessions **2.2%–5.6%, mean 3.4%, median 3.0%** — comfortably under a 7% trail *on trailing bars*, which rule 40a says are **a floor, never an estimate.** PD's catalyst-day multiple was **2.3x**, LTRX's **3.7x**. Applied here: **7.8%–12.6% expected catalyst-day range vs a 7% trail. The trail sits INSIDE the range.** Rule 4b: that is an argument against entering, not for a wider stop |
+| ⚠️ **Rule 4 position-in-range** | 8/31 closed **23% of range — bottom quartile — on 1.31M vs a 650–760k norm (~1.9x).** Heavier-than-normal volume closing low *into* the print. Mild distribution ahead of the event |
+| ⚠️ Float / short | Float **66.5M** of 100.2M out (>50M, no low-float kicker) · short float **2.35%** — far under the rule-9 bar. **No squeeze fuel** |
+| 🚨 Rule 29 calendar | The print is today — but **ISM Manufacturing AND JOLTS both hit 10:00 AM ET**, 25 minutes after the 9:35 decision, with the 10-yr through 4.75%. **A two-event morning for a rate-sensitive small cap** |
 
-🆕 **And the catalyst itself was over-graded in Rocket's own files (lesson 39a).** The
-research log called PD *"Rung 1, the only type that has made money."* The actual print:
-**revenue FLAT year-on-year at $124.4M**, FY revenue guide **$492.5M → $494M = a +0.3%
-nudge.** ETON's raise — the comparison that earned rung 1 its status — was **$120M+ →
-"exceed $145M."** **A 0.3% guide bump on flat YoY revenue belongs far nearer lesson 5's
-beat-without-a-raise (5-for-5 fader) than beside ETON.** The label was inherited across
-three sessions and never re-checked.
+#### 🚨 PRE-COMMITTED PASS/KILL — written before the print (lesson 42)
 
-**Read:** this is the **OOMA shape**, the case lesson 11 calls its cleanest — the
-Street's *highest* target below the +15% rung. OOMA then spiked through that high target
-and closed within **$0.04 of the mean.** If PD tracks it, PD closes near **$12.64 —
-−8.6% from Friday, straight through a 7% trail.** A spotless balance sheet does not
-rescue a capped ladder. **Ladder now 6-for-6. Do not re-open PD without a dated mean
-above $15.90.**
+**KILL YEXT unless ALL FOUR are true.** A gate specified after seeing the data is not a gate.
 
----
+1. **A raise, SIZED as a percentage** (lesson 5a). FY27 revenue guidance up **>2% at the
+   midpoint**. PD's +0.3% nudge on flat revenue was logged as "rung 1" for three sessions
+   and was really lesson 5's 5-for-5 fader. **Write the raise as a % in the entry or the
+   label does the reasoning.**
+2. **Ladder re-struck against a DATED POST-PRINT page**: consensus mean must sit
+   **above 1.15 × the actual entry price.** Pre-print mean is $7.50, so at any entry
+   ≥ $6.53 this **requires the Street to mark up.** If it doesn't revise, gate 2 fails
+   automatically — the exact test that killed PD and paid.
+3. **Rule 2a/2b at the open**: 9:30–9:45 range **<10% of price**, AND the **9:45–9:50 bar
+   closes in the upper half of its own range.**
+4. **Rule 2c gap size**: **>35% → second-day only, no entry today.** 20–35% → gap-and-go
+   on the 9:45–9:50 base. <20% → the base rules still apply.
 
-### 🚫 RMNI — Rimini Street · **KILLED ON RULE 1, second session running**
+**Sizing if all four pass**: max satellite $462.19 (15%), 1.5% risk $46.22, 7% trail,
+whole shares only (lesson 19). Fund by selling core, never from pooled cash.
 
-Re-searched as Friday required. **Still no dated catalyst for 8/27–8/28.** All that
-exists: *"hit a new 52-week high"* — **a description of the move, not a cause (lesson
-33)** — plus Roth $6.50 (**7/30**) and a Wall Street Zen upgrade (**8/01**), both weeks
-stale. Q2 guidance was **AFFIRMED, not raised.**
-
-**Ladder is capped independently:** at $5.65, **+15% = $6.50 = exactly Roth's target**;
-**+25% = $7.06 clears every named target.** So even a catalyst appearing tomorrow leaves
-a one-rung name. Bars remain the prettiest on the board (8/28 **+5.2%, 98% of range,
-1.01M = 2.2x**; ranges **1.6–5.0%** — the 7% trail genuinely fits, still rare here).
-**Two independent kills. Watch, never an entry, until a dated catalyst exists.**
+**Honest prior: the most likely outcome is a kill on gate 2.** Conviction **MEDIUM at
+absolute best**, and only with a materially sized raise *and* a same-day Street markup.
 
 ---
 
-### 🚫 Killed on the BARS before any research spend (lesson 17a — ninth straight)
+### 🔧 Scanners: tenth straight lesson-17a/15 demonstration — worst RelVol degradation on record
 
-The 04:20 scanner reported extended-hours quotes as prices. Raw daily bars:
+- **`top_movers` printed RelVol as `—` or `0.0x` for 18 of 20 names** (17 of 20 Friday,
+  14 Monday — **worsening every session**). Biggest mover on the whole list was **QUIK
+  +8.7%** — no gap, no catalyst tier.
+- **`unusual_volume` is not measuring unusual volume**: **16 of 20 rows are BELOW 1.0x**,
+  and the **top RelVol name is a decliner** (RXT 2.1x, **−1.3%**).
+- **Overlap tier (both lists) = NEOV alone**, +2.6% at **0.2x** — Monday's real +25.6% on
+  2.1x has stopped attracting volume. **Moot anyway: NEOV reports 9/02.**
+- Mandate-excluded names still own the board (lesson 31): USDE, SBET, DFDV, SECZ, BCCQ,
+  CCXI, SCATU — crypto-treasury proxies and SPACs.
 
-| Name | Scanner claimed | **Actual 8/28 bar** | Kill |
+**The board that produced today's only candidate came from the earnings calendar. The
+screener contributed nothing, for the fourth straight session.**
+
+---
+
+### 🚩 Flag for market_close — the two rebalance bases now DISAGREE
+
+| Basis | target_core | Live IWM $2,889.25 | Band (3%) |
 |---|---|---|---|
-| **NEOV** | +11.8% @ $3.73, 1.9x | **C $3.34, −5.9%, 4% of range, 452,600 sh — its LOWEST volume of 8 sessions** | **Triple kill.** Red day closing on the low on dying volume + ranges **6.5–14.2%** vs a 7% trail (rule 37a) + **earnings 9/02 (+2d) — the earnings-week guardrail forbids entry before a print** |
-| **FLWS** | +8.3% @ $4.04 | **C $3.73, −0.3%, 9% of range, 125,800 sh** | Volume **⅓ of the 300k gate** on real bars |
-| **SPIR** | +4.5% @ $13.76 | **C $13.17, −5.9%, 19% of range** | **Rule 4 distribution** |
-| **PSQL / XLAB / VCX** | top of `unusual_volume` | **−9.6% / −15.9% / −6.3%** | Down days. `unusual_volume` is ranking decliners |
-| **USDE, ABTC, FWDI** | on both lists | — | **Mandate-excluded crypto-treasury proxies (lesson 31)** |
+| **Slice** (30% of live equity × 90%) | $2,880.60 | **+0.30%** | ✅ in band — no trade |
+| **Book** (hand-built $3,081.26 × 90%) | $2,773.13 | **+3.77%** | ❌ outside — indicates a **SELL** |
 
-⚠️ **`top_movers` printed RelVol as `—` or `0.0x` for 14 of 20 names.** Degradation
-persists. 🆕 **`eligibility` silently omitted PD from a 6-ticker call** — it printed the
-other five and exited 0. **A missing row reads identically to a clean run (lesson 38).**
-Re-run alone, PD returned fine. **Always count the rows against the tickers requested.**
-
----
-
-### 🔎 NEOV — market_open update: today's move is REAL, still un-tradeable
-
-Premarket's kill was against Friday's bars (−5.9%, dying volume). **9:45 AM check:
-this is a different, genuine move** — detail pull confirms **+25.6%, price $4.18,
-2.1x avg volume live** (not a scanner extended-hours artifact). 1-month move now
-+98.8%. No confirmed same-day catalyst found by search; closest candidates are a
-Georgia plant FEOC-compliance/commissioning milestone (targeted for end of August)
-and an Infinite Grid Capital BESS supply LOI (~$200M, undated relative to today) —
-neither confirmed as today's trigger. **Irrelevant to the decision either way:
-earnings print 9/02 is 2 trading days out, and the earnings-week guardrail forbids
-entry before a confirmed print, regardless of catalyst quality.**
-
-🆕 **New dilution flag for the file**: an 8/11 filing to sell 4.5M shares of common
-stock (resale/shelf-type) — rule 8 territory, un-graded structure/dilution-tier as
-of this session. If NEOV is re-screened after the 9/02 print, run the full rule-8
-dilution grading before anything else; a run-up into earnings plus a recent share
-sale filing is exactly the profile rule 8 exists to catch.
-
-**Verdict: still NO ENTRY. Watchable for a post-9/02 second-day setup only, and only
-after the dilution filing is graded.**
+**Lesson 23a says the hand-built book is the valid base; 8/31's market_close used the
+slice and BOUGHT.** The bases diverge because the book is carried forward transaction by
+transaction while the slice is 30% of an account containing Bull's P&L. **Not a premarket
+action — rebalancing is market_close only (rule 6). market_close must state which base it
+used and why.**
 
 ---
 
 ### Scheduled catalysts
 
-- 🚨 **Every premarket: the earnings calendar comes FIRST.** Ran today; genuinely empty.
-- **This week is macro-heavy**: ISM Manufacturing, JOLTS, ADP, ISM Services, and the
-  **August jobs report Friday 9/4** — into a hawkish Warsh Fed. *(Note: one source
-  mislabeled Labor Day as 9/1; **Labor Day 2026 is Mon 9/7** — this is a full trading
-  week. Lesson 39: verify the named date, don't copy it forward.)*
-- **ARCT** — ARCT-810 Phase 2 still **undated**. Gate paid: 8/28 −6.1%, 8/29 −1.8% on
-  **0.5x**. Re-screen only when the date is a fact.
+- 🚨 **Every premarket: the earnings calendar comes FIRST.** Ran; it produced YEXT.
+- **Today 10:00 AM ET: ISM Manufacturing + JOLTS, simultaneously.** Then ADP, ISM
+  Services, and the **August jobs report Friday 9/4**, into a hawkish Warsh Fed.
+  *(Labor Day 2026 is Mon 9/7 — this is a full trading week.)*
+- **ANAB earnings AMC 9/01** — re-screen 9/02, but **rule 13 caps it at one rung**.
+- **NEOV earnings 9/02** — eligible to screen 9/03, after the print, and **only after the
+  8/11 4.5M-share sale filing is graded under rule 8** (still ungraded).
+- **ARCT** — ARCT-810 Phase 2 still **undated**. Re-screen only when the date is a fact.
 - **CAPR** — PDUFA 2026-11-22. Dead on 4b/37a (18.6–35% ranges).
-- **NEOV earnings 9/02** — a real dated catalyst. **Eligible to screen 9/03, AFTER the
-  print**, and only if the ranges tighten toward the 7% trail.
+- **PD** — killed, ladder 6-for-6. Do not re-open without a dated mean above $15.90.
+- **RMNI** — killed on rule 1 twice. Watch, never an entry, until a dated catalyst exists.
 - **LTRX / OOMA / FRNM / SSTK / BBW / OSG / XHLD / NABL / LENZ** — killed W35, reasons in
   `archive/research_log_history.md`. Do not re-research without a new dated catalyst.

@@ -4,6 +4,36 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-01 — NO TRADE (market_close, Tuesday, Week 36 day 2) — core in band, no satellites, YEXT killed
+
+**No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER
+stop-out). YEXT (the one live candidate) was killed at market_open on gate 1 —
+Q2 revenue missed consensus and no FY27 guidance raise was found, despite an EPS
+beat (lesson 5's beat-without-a-raise shape). No fresh mover carried a validated
+catalyst. Board stayed IWM-only all session. See `research_log.md` market_open entry.
+
+**Core rebalance check**: slice **$3,179.36** (portfolio_value $10,597.88 × 30%),
+satellite value $0, 10% buffer $317.94 → target_core **$2,861.43**. Live IWM (raw qty
+**9.8636 sh**) × $290.295 = **$2,863.35 — 0.06% of slice over target, well within the
+3% band.** No trade.
+
+**Day P&L** (script-verified `position_table.py`, IWM is 100% of Rocket's book):
+IWM **−1.20% / −$34.72** today vs **SPY −0.80%** — Rocket trailed SPY by ~0.40% today,
+entirely factor drag (small-cap IWM underperforming large-cap SPY on a broad
+risk-off Tuesday; no satellites to select). Hand-built book (lesson 23a): $3,081.26
+→ **$3,046.54** (−1.13% cash-chain estimate; script's −1.20%/−$34.72 IWM figure is
+authoritative for the day-P&L number itself).
+- Since-rebase figure **not recomputed here** — the 8/28 weekly-review chain
+  (**Rocket vs SPY: −1.27%**, W35 review) stands until the next `weekly_review`
+  (due Friday 9/04) chains it forward properly, per the lesson 23a discipline. Do
+  **not** cite `portfolio_snapshot.py`'s own since-rebase figures (+4.83%/+2.31% today)
+  — that calc method mixes in Bull's P&L and is known to diverge from the
+  weekly-review reconstruction.
+- Weekly count: **0/5** — Week 36 day 2 closes with zero new satellites, board-quality
+  problem (YEXT killed cleanly on its own numbers), not a discipline gap.
+
+---
+
 ## 2026-08-31 — CORE REBALANCE, IWM BUY (market_close, Monday, Week 36 day 1)
 
 **No satellites open to review** (0/4, unchanged since the 8/26 OMER stop-out).

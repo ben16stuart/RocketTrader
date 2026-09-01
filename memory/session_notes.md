@@ -3,6 +3,50 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-01 — PREMARKET (Tuesday, Week 36 day 2) — ONE LIVE CANDIDATE: YEXT, gates pre-committed
+
+Book **$3,081.26** = IWM 9.8636 sh @ $292.92 ($2,889.25, **93.8%**) + notional cash
+$192.01 (**6.2%**, inside the buffer — no bearish thesis owed). Satellites 0/4, weekly 0/5.
+
+- 🥇 **The earnings calendar produced a name this time.** Lesson 41's first step ran before
+  any screener: today's reporters gated down to **YEXT (BMO today, in universe)** and
+  **ANAB (AMC today, killed on rule 13 — +25% target = $2,111M, through the $2B lid)**.
+  RGS (ADV 5,798) and SPWH ($1.19 / $46M cap) failed outright. **4 tickers requested, 4
+  rows returned — counted (lesson 43).** Monday 8/31 after-close had exactly one reporter,
+  CANG, China-domiciled — a second verifiably-empty overnight slate, not a missing one.
+- 🔎 **YEXT confirmed BMO today from company IR** — so the print lands in the premarket
+  window and it is a legitimate same-day candidate under the earnings-week guardrail.
+  ✅ **Dilution is the cleanest tier on the book**: EDGAR file proven populated (1,000
+  filings, 2018-06-22 → 2026-07-13), and the **only** offering-type filings in seven years
+  are a **2019 S-3ASR + 424B5** — a shelf that lapsed in 2022. S-8s only since (lesson 8b).
+- ⚠️ **But the ladder is already the binding gate before the print.** Dated 4-analyst page:
+  mean **$7.50**, high $10.00 (Needham 8/18), Zacks cut to hold 8/21. At $6.77 the **+15%
+  rung is $7.79 — above the mean.** ⇒ **zero-rung on the mean at today's price**, and any
+  gap up moves the rungs while the pre-print mean stays put. Not the OOMA/PD shape (the
+  high clears both rungs) — the softer failure. Also: **rule 40a puts the catalyst-day
+  range at 7.8–12.6% against a 7% trail** (trailing mean 3.4% × PD/LTRX multiples), and
+  8/31 **closed at 23% of range on ~1.9x volume** — mild distribution into the print.
+- 🚨 **Four pass/kill conditions written BEFORE the print (lesson 42)**: (1) FY27 revenue
+  guide raised **>2%**, stated as a %; (2) **dated post-print mean above 1.15 × actual
+  entry** — requires a same-day Street markup, the test that killed PD; (3) rule 2a/2b at
+  the open; (4) rule 2c gap size. **Honest prior: most likely a kill on gate 2.**
+- 🚨 **The 10-yr trigger BREACHED — 4.76% vs the 4.75% flag carried for four sessions**,
+  with **Brent and WTI confirming together** for the first time. The designed response is
+  **no action** (core has no stop, backed by 33 years of testing) — recorded as a decision,
+  not an omission. Monday's factor: **IWM −1.96% vs SPY −0.30% ≈ −1.55% on the book.**
+- 🆕 **Rebalance-base divergence found — flagged to market_close, not acted on (rule 6).**
+  Slice basis says IWM is **+0.30%** (in band, no trade); book basis says **+3.77%**
+  (outside the 3% band, indicates a SELL). **Lesson 23a says the book is valid; 8/31's
+  market_close used the slice and bought.** See new lesson 44.
+- 🔧 Scanners degraded further: `top_movers` RelVol unusable for **18 of 20** (14→17→18),
+  `unusual_volume` **16 of 20 rows below 1.0x with a decliner on top.** Overlap tier was
+  NEOV alone at 0.2x — and NEOV reports 9/02, so it is barred regardless.
+
+**No trades placed — market closed. No notification sent (no breaking news on an open
+position; the only position is the stopless IWM core).**
+
+---
+
 ## 2026-08-31 — MARKET_CLOSE (Monday, Week 36 day 1) — CORE REBALANCE, IWM BUY
 
 No satellites to review (0/4). Core rebalance triggered for the first time since
