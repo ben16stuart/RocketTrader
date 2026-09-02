@@ -4,7 +4,53 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-09-01 Tuesday premarket (Week 36 day 2)  ← CURRENT
+## Snapshot — 2026-09-02 Wednesday premarket (Week 36 day 3)  ← CURRENT
+
+| Metric | Level | Read |
+|---|---|---|
+| 🚨 **10-yr** | **4.80%** (+0.80%) | **Second session THROUGH the 4.75% trigger**, and it kept going (4.76% → 4.80%). Six straight sessions grinding up. Lesson 34: a flag stands down on a *trend*, never one print — this is now a trend, in the wrong direction |
+| **VIX** | **16.81** (+2.88%) | Third consecutive up day off the two-week low, but **still far below the 22 brake.** No size restriction |
+| Russell fut | 2,916.90 (−0.27%) | Risk-off but **orderly, and no longer the worst leg** — Nasdaq −0.59%, S&P −0.27% |
+| SPY / IWM | 761.78 (−0.69%) / **290.57 (−1.14%)** | Tuesday's settled closes. **Factor −0.45% on the day** |
+| Brent / WTI | 95.15 (+0.53%) / 90.51 (+0.32%) | Both up together again — **second straight confirmed session.** Brent has run $92.33 → $95.15 in one day |
+
+### The rates story is now the whole tape, and it is compounding
+
+The 4.75% flag breached Tuesday at 4.76% and is **4.80% today** — it did not mean-revert.
+Simultaneously **Brent is up ~$3 in a session with WTI confirming**, which is inflation
+pressure arriving underneath a chair who has already refused forward guidance. **Neither
+of these is a one-print artifact any more**, which is exactly the condition lesson 34 set
+for taking a flag seriously.
+
+**The designed response for the core remains no action** — the core carries no trailing
+stop, backed by 33 years of SPY testing in which every stop configuration lost to
+buy-and-hold. **A breached flag is not a licence to override a tested design.** What it
+does change: any satellite entered now is entered into a tape where the dominant variable
+is rates, not the stock's own catalyst — and today's calendar is dense.
+
+### 🚨 Today's calendar is a three-event day
+
+**ADP 8:15 AM ET** (48K expected vs 44K prior) — lands *before* the open, so it resolves
+ahead of any 9:35 decision, which is the good case. Then **Factory Orders AND Durable
+Goods at 10:00 AM** — 25 minutes after the decision window — and the **Fed Beige Book at
+2:00 PM**, the first since Warsh's hawkish Jackson Hole debut. Then **ISM Services** and
+the **August jobs report Friday 9/4**.
+
+### Factor watch
+
+IWM −1.14% vs SPY −0.69% = **−0.45% of factor Tuesday**, carried at 93.7% core weight.
+Small on its own (lesson 28: a one-session move carries no information), but it is the
+**seventh consecutive week** pointing the same way as the −2.50% since-rebase drift already
+escalated to the user. Read it properly in `weekly_review` Friday, not here.
+
+✅ **`market_data.py macro` clean for a third straight session** — every field populated.
+🔧 **The scanners degraded to a new worst**: `top_movers` returned **zero usable RelVol
+across all 20 names**, and `unusual_volume` had **19 of 20 rows below 1.0× with a
+mandate-excluded decliner on top.** See `research_log.md`.
+
+---
+
+## Snapshot — 2026-09-01 Tuesday premarket (Week 36 day 2)
 
 | Metric | Level | Read |
 |---|---|---|

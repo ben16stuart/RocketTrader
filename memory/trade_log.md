@@ -4,6 +4,41 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-02 — NO TRADE (market_close, Wednesday, Week 36 day 3) — core diverges by basis, no satellites
+
+**No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER
+stop-out). GIII/DAKT were both killed for a same-day entry at premarket (rule 37a/40a,
+catalyst-day multiple 4.4–4.7x through the 7% trail); GIII carries pre-committed
+second-day gates for 9/03 in `research_log.md`. Afternoon screens killed ALMS/EOSE/OABI
+(no fresh dated catalyst / dilution) and IRD (rule 29 — binary readout Sept 9, 7% trail
+can't protect a gap). Board stayed IWM-only all session — see `session_notes.md`.
+
+**Core rebalance check — SLICE basis** (per CLAUDE.md's written procedure, named per
+lesson 44): slice **$3,183.08** (portfolio_value $10,610.28 × 30%), satellite value $0,
+10% buffer $318.31 → target_core **$2,864.77**. Live IWM (raw qty **9.8636 sh**) ×
+$294.00 = **$2,899.90 — 1.10% of slice over target, within the 3% band.** No trade.
+
+🚩 **44/44a divergence resurfaces, and today it crosses the band.** On the **BOOK basis**
+(hand-built, lesson 23a: $3,091.91 = IWM $2,899.90 + notional cash $192.01),
+target_core = book − $0 − 10% buffer ($309.19) = **$2,782.72**. IWM is **$117.18 over**
+that target = **3.79% of book — outside the 3% band, book basis says SELL ~$117 of
+IWM.** Slice basis says hold. Same disagreement flagged 9/01 (lesson 44): Bull's P&L
+(JPM +13.6%, SCHW +4.3% today) inflates the slice; book does not. **Followed the
+documented CLAUDE.md procedure (slice) and did NOT self-resolve toward book — no trade
+taken, escalating the divergence to the user again rather than picking a side.**
+
+**Day P&L** (script-verified `position_table.py`, IWM is 100% of Rocket's book): IWM
+**+1.21% / +$34.62** today vs **SPY +0.42%** — Rocket beat SPY by ~0.79% today, entirely
+factor tailwind (small-cap IWM outperforming large-cap SPY broadly; no satellites to
+select). Hand-built book (lesson 23a): $3,058.08 → **$3,091.91** (+1.11%).
+- Since-rebase figure **not recomputed here** — stands until the next `weekly_review`
+  (due Friday 9/04) chains it forward, per the lesson 23a discipline.
+- Weekly count: **0/5** — Week 36 day 3 closes with zero new satellites, board-quality
+  problem (GIII/DAKT/ALMS/EOSE/OABI/IRD all killed cleanly on their own numbers), not a
+  discipline gap.
+
+---
+
 ## 2026-09-01 — NO TRADE (market_close, Tuesday, Week 36 day 2) — core in band, no satellites, YEXT killed
 
 **No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER

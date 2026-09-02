@@ -3,6 +3,143 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-02 — MARKET_CLOSE (Wednesday, Week 36 day 3) — NO TRADE, core basis divergence flagged
+
+**Position review**: only Rocket position is IWM core (0/4 satellites) — no stop
+applicable, nothing to close. Bull's JPM/SCHW/SPY reviewed for reconciliation only.
+
+**Core rebalance**: slice basis says hold (IWM 1.10% over target, inside 3% band);
+book basis (lesson 23a) says SELL ~$117 of IWM (3.79% over, outside band) — the
+lesson 44 divergence, now large enough to actually flip the decision. Followed the
+documented slice-basis procedure, no trade, escalated the disagreement rather than
+picking a side. Full numbers in `trade_log.md`.
+
+**Day P&L**: IWM +1.21% / +$34.62 vs SPY +0.42% — Rocket beat SPY by ~0.79% today,
+pure IWM/SPY factor tailwind, no satellites in play. Weekly count stays 0/5 — no
+qualifying catalyst cleared any screen today (GIII/DAKT/ALMS/EOSE/OABI/IRD all killed).
+
+---
+
+## 2026-09-02 — MIDDAY (Wednesday, Week 36 day 3) — NO TRADE, no cuts, no new setups
+
+**Position review**: only open position is IWM core (0/4 satellites) — **-0.7%**,
+no stop applicable (core exempt per portfolio-construction rules). Nothing to cut,
+nothing to tighten. Bull's JPM/SCHW/SPY reviewed for reconciliation only, not
+Rocket's to manage.
+
+**Afternoon scan** (`unusual_volume`): GIII now **-9.3% on 2.5x** (vs -4.2% at the
+open) and DAKT **+6.1% on 6.6x** — both consistent with the pre-committed rule
+37a/40a kill (catalyst-day range 4.4-4.7x the 7% trail); confirms the "not today"
+call, no new information for the 9/03 second-day gates already written in
+`research_log.md`. New name **IRD** (Opus Genetics) printed +12.5% on 3.4x — checked
+inline (1 search): the move is anticipatory, tied to a **September 9 data webcast
+announcement**, not delivered trial data. Rule 29 shape (binary readout ahead, 7%
+trail can't protect against the gap) — **kill, not a today catalyst.** No other
+screener name carried a same-day dated catalyst. **Result: 0/4 satellites held,
+100% IWM core, no trade.**
+
+---
+
+## 2026-09-02 — MARKET_OPEN (Wednesday, Week 36 day 3) — NO TRADE, confirms premarket
+
+Validated premarket's "no same-day entry" call against real open data — it held.
+Snapshot synced clean: no overnight fills, no stops triggered, positions unchanged
+(IWM core only, 0/4 satellites). GIII trading **−4.2%** and DAKT **+0.8%** 5 min into
+the session — both consistent with the pre-committed kill (rule 37a/40a: catalyst-day
+range 4.4–4.7× the 7% trail on their own history); no new information changes the
+9/03 second-day gates.
+
+- 🔎 **Ran `unusual_volume`/`top_movers` for fresh names not on the premarket board
+  (Step 4).** Three stood out on real RelVol: **ALMS** (+9.8%, 14.5x), **EOSE** (+9.7%,
+  8.3x), **OABI** (+13.8%, 4.3x). Checked all three inline (3 searches, under the
+  5-search subagent threshold).
+  - **ALMS**: current price/cap data ($21.32, **$2.91B**) contradicts the scanner's
+    stale read ($10.40, $1.39B) — a data discrepancy worth flagging, but **either
+    figure aside, no dated 9/02 catalyst found**, and the real cap is through the $2B
+    lid regardless. Out on both counts.
+  - **EOSE**: the move coincides with an **Aug 27 filing to sell 56.55M shares** — a
+    dilution event, not a fresh positive catalyst (rule 7/8 territory). No today-dated
+    news found. Kill.
+  - **OABI**: only identifiable driver is the **Eli Lilly collaboration, dated
+    mid-August** — stale, already priced in (lesson 33: a search result describing a
+    move is not evidence until dated to today). No fresh catalyst. Kill.
+- **Result: 0/4 satellites, 100% IWM core held.** No rebalance (market_close only,
+  rule 6). No notification — flat session, no stops hit.
+
+🚩 **Open item carried from premarket, unresolved**: the rebalance-basis divergence
+(lesson 44/44a) — slice vs. book disagree on whether IWM is in-band. `market_close`
+today must name its base explicitly.
+
+---
+
+## 2026-09-02 — PREMARKET (Wednesday, Week 36 day 3) — NO SAME-DAY ENTRY; GIII pre-committed for 9/03
+
+Book **$3,058.08** = IWM 9.8636 sh @ $290.57 settled ($2,866.07, **93.7%**) + notional cash
+$192.01 (**6.3%**, inside the buffer — no bearish thesis owed). Satellites 0/4, weekly 0/5.
+
+- 🥇 **Earnings calendar ran first (lesson 41) and was the entire board for the fifth
+  straight session.** 9/02 BMO slate gated down to **GIII** and **DAKT** (both in universe,
+  both rungs clear on rule 13). **CXM killed in one command with zero searches** — cap
+  $1,780M means even the **+15% rung is $2,047M, through the $2B lid: a zero-rung name.**
+  OLLI out on size. **5 tickers requested, 5 rows returned — counted (lesson 43).**
+- ❌ **BOTH names killed for TODAY on rule 37a/40a — and the measurement is the point.**
+  Instead of borrowing PD's 2.3× or LTRX's 3.7× multiple, I pulled each name's **own**
+  earnings-day history. **GIII: last 9 catalyst days ranged 9.8%–19.0% (median ~14.3%),
+  a 4.7× multiple — every one exceeds the 7% trail, the mildest by 1.4×.** Gaps include
+  **−11.4% (closed −18.6%)** and +15.6%. **DAKT: 4.4×, ranges 11.3%–19.4%, one gap of
+  −22.9%.** Lesson 29: a 7% trail fills at the open, wherever the open is.
+- 🥇 **GIII is the strongest second-day candidate since the rebase, and rules 2 + 40a agree.**
+  ✅ **Dilution is the cleanest tier ever screened** — 1,001 EDGAR filings proven populated
+  (2010→2026), and the only offering-type filings in *sixteen years* are an **S-3 from 2012
+  and a 424B5 from 2014**; S-8 only since (8b). Net cash +$100M, FCF $128M.
+  🚨 ✅ **Short float 28.30%** (7.59M/36.2M float), **18.17 days to cover, rising into the
+  print** — nearly 2× the rule-9 bar, on a <50M float. ⚠️ **Ladder is dated and passes rung
+  1**: Telsey Hold $38 (Aug 27), mean **$39.33**, high $40. **+15% rung $37.00 clears the
+  mean by 6.3%**; +25% rung $40.21 misses the high by $0.21 ⇒ **one-rung name**, and
+  **explicitly NOT the OOMA/PD kill shape** (their highest target sat *below* rung 1).
+  ❌ But rule 4 is against it: **two straight below-midpoint closes on elevated volume
+  into the print** (36% of range on 1.54×, then 29% on 2.0×), below MA50, −11.6% on the month.
+- 🚨 **Five pass/kill gates written BEFORE the print (lesson 42)** for a **9/03 second-day**
+  entry: (1) guidance raised **>2%, stated as a %** — a beat on $0.23/$570.37M with
+  *reaffirmed* guidance is a KILL, lesson 5's 5-for-5 fader shape; (2) dated post-print mean
+  **above 1.15× entry**, which sets a **hard no-chase ceiling of $34.20**; (3) 9/02 must
+  **close above its midpoint**; (4) rule 2a/2b on the 9/03 open; (5) rule 2c/3 gap size.
+  **Honest prior: most likely a kill on gate 1** — apparel guidance with CK/Tommy sales
+  rolling off is likelier reaffirmed than raised.
+- 🚩 **Lesson 42a said out loud**: GIII has the cleanest balance sheet *and* the best squeeze
+  fuel on the book, and **neither offsets the range gate.** Independent gates do not net out.
+- 🚩 **CORRECTED A FILE ERROR (lesson 39a).** The 9/01 log recorded "ANAB — AMC **today**
+  [9/01]" and scheduled the re-screen on that basis. **ANAB actually reports 9/02** — so it
+  is *barred by the earnings-week guardrail today*, not merely rung-capped. Second error
+  caught by 39a after the Warsh/Powell one.
+- 🚨 **LESSON 44 WAS VIOLATED THE DAY IT WAS WRITTEN, and the error has a direction.**
+  9/01's `market_close` struck target_core off the **slice** ($3,179.36) and never named the
+  base — the basis **lesson 23a says is invalid**. Two consecutive sessions on the slice now
+  (8/31 used it and *bought*). Today the bases still disagree: **slice +0.55% = in band;
+  book +3.72% = outside, indicating a SELL.** The slice is **$107.06 richer than the book,
+  and that gap is Bull's P&L** (JPM +13.2%, NOW +18.9%) — **every dollar Bull makes pushes
+  Rocket to hold more IWM**, the exact position carrying Rocket's whole deficit to SPY.
+  **The bookkeeping error and the performance problem are one problem.** Escalated, not
+  self-approved. **market_close today must name its base.**
+- 🚨 **Rates are now a trend, not a print**: 10-yr **4.80%**, second session through the
+  4.75% trigger and still climbing, with **Brent +$3 and WTI confirming** for a second day.
+  Designed response for the stopless core is **no action** — recorded as a decision.
+  **Three-event day**: ADP 8:15 (resolves pre-open), Factory Orders + Durable Goods 10:00,
+  **Beige Book 2:00 PM** — the first since Warsh's hawkish debut.
+- 🔧 **Scanners hit a new worst**: `top_movers` returned **zero usable RelVol across all 20
+  names**; `unusual_volume` had **19 of 20 rows below 1.0×** with a mandate-excluded decliner
+  (USDE) on top. Overlap tier was AGPU (standing lesson-7a kill) and TSSI (0.1×). **Eleventh
+  straight lesson-17a demonstration; fifth straight session the screener contributed nothing.**
+- 📝 **Process gap noted**: 9/01 ran three sessions but wrote **one** session note (premarket).
+  `market_open` logged to `research_log.md` and `market_close` to `trade_log.md`, both
+  skipping `session_notes.md`, which CLAUDE.md requires every session. That is how the
+  unnamed rebalance base went unnoticed for a day.
+
+**No trades placed — market closed. No notification sent** (no breaking news on an open
+position; the only position is the stopless IWM core).
+
+---
+
 ## 2026-09-01 — PREMARKET (Tuesday, Week 36 day 2) — ONE LIVE CANDIDATE: YEXT, gates pre-committed
 
 Book **$3,081.26** = IWM 9.8636 sh @ $292.92 ($2,889.25, **93.8%**) + notional cash
