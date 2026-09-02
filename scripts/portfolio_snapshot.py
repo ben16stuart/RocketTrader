@@ -118,20 +118,39 @@ def build_snapshot() -> str:
     ]
 
     if positions:
+        # Alpaca's `current_price` is the last TRADE, which outside regular hours is a
+        # thin pre/post-market print — while `avg_entry_price` in the same row is a
+        # settled fill. Printing them side by side with no session label puts two
+        # different dates in one row. Emit the session state and carry the settled
+        # prior close alongside. (Fix mirrored from OpusTrader 2026-09-02.)
+        _open = is_market_open()
+        _price_hdr = "Price (LIVE, session open)" if _open else "Price (⚠️ NOT a settled close)"
         lines += [
-            f"| Symbol | Shares | Entry Price | Current Price | Unrealized P&L | P&L % |",
-            f"|--------|--------|-------------|---------------|----------------|-------|",
+            f"| Symbol | Shares | Entry Price | {_price_hdr} | Prior Settled Close | Unrealized P&L | P&L % |",
+            f"|--------|--------|-------------|---------------|---------------------|----------------|-------|",
         ]
         for p in positions:
             sym    = p["symbol"]
             qty    = float(p["qty"])
             entry  = float(p["avg_entry_price"])
             curr   = float(p["current_price"])
+            prior  = p.get("lastday_price")
+            prior  = f"${float(prior):.2f}" if prior else "—"
             pl     = float(p["unrealized_pl"])
             pl_pct = float(p["unrealized_plpc"]) * 100
             lines.append(
-                f"| {sym} | {qty:.0f} | ${entry:.2f} | ${curr:.2f} | ${pl:+,.2f} | {pl_pct:+.1f}% |"
+                f"| {sym} | {qty:.0f} | ${entry:.2f} | ${curr:.2f} | {prior} | ${pl:+,.2f} | {pl_pct:+.1f}% |"
             )
+        if not _open:
+            lines += [
+                f"",
+                f"⚠️ **The market is CLOSED. The price column is the last trade, which outside",
+                f"regular hours can be a single thin pre/post-market print — it is NOT a settled",
+                f"close and must never be recorded as one, quoted as a session move, or used to",
+                f"decide whether a trailing stop has fired.** Alpaca trailing stops evaluate on",
+                f"regular-hours trades only. Use the **Prior Settled Close** column for anything",
+                f"written into memory; re-read live at `market_open`.",
+            ]
     else:
         lines.append("*No open positions.*")
 
