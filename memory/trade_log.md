@@ -4,6 +4,46 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-03 — NO TRADE (market_close, Thursday, Week 36 day 4) — core diverges by basis (3rd straight session), no satellites
+
+**No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER
+stop-out). Premarket screened and killed ten names (GIII/DAKT gate-3 price-action
+fails, CHPT beat-without-a-raise, TLYS liquidity-median fail, ANAB/NEOV/PHR/MEI/RARE/
+PSQL/LE/MTRX/GCO/DLTH/WLY/AGX all killed on named gates). Market_open and midday
+confirmed the same kills on fresh price action (CHPT +49.3%/116x, TLYS +21.5%/191x —
+both moves confirm rather than reopen their kills) and checked two new names (BNC
+crypto-treasury mandate-excl., JFB SPAC-merger-closing, CBIO no named catalyst) — all
+killed. Board stayed IWM-only all session. See `research_log.md`/`session_notes.md`.
+
+**Core rebalance check — SLICE basis** (documented CLAUDE.md procedure): slice
+**$3,209.93** (portfolio_value $10,699.78 × 30%), satellite value $0, 10% buffer
+$320.99 → target_core **$2,888.94**. Live IWM (raw qty **9.8636 sh**) × $294.97 =
+**$2,909.47 — $20.53 / 0.64% of slice over target, well within the 3% band.** No trade.
+
+🚩 **44/44a/44c divergence recurs a THIRD straight session, still unresolved.** On the
+**BOOK basis** (lesson 23a: prior book $3,092.00 + today's script-verified IWM gain
++$9.86 = **$3,101.86**), target_core = book − $0 − 10% buffer ($310.19) = **$2,791.67**.
+IWM is **$117.79 over** that target = **3.80% of book — outside the 3% band, book basis
+says SELL ~$118 of IWM.** Slice basis says hold. This is essentially the same dollar gap
+as 9/02 ($117.18) — it has not resolved itself, it has stabilized as a standing error.
+**Followed the documented CLAUDE.md procedure (slice) again, did NOT self-resolve toward
+book.** Per lesson 44c's own warning ("if this keeps recurring it needs a user decision
+... not another session noting it"), this is now flagged as needing an explicit user
+call on which basis governs core rebalancing — not deferred again by default.
+
+**Day P&L** (script-verified `position_table.py`, IWM is 100% of Rocket's book): IWM
+**+0.34% / +$9.86** today vs **SPY +1.01%** — Rocket trailed SPY by ~0.67% today,
+entirely factor drag (small-cap IWM lagging large-cap SPY on today's tape; no
+satellites to select). Hand-built book (lesson 23a): $3,092.00 → **$3,101.86** (+0.32%).
+- Since-rebase figure **not recomputed here** — stands at the 8/28 weekly-review chain
+  (Rocket vs SPY **−2.51%**, W35 review, grade C) until tomorrow's `weekly_review`
+  (due Friday 9/04) chains it forward, per the lesson 23a discipline.
+- Weekly count: **0/5** — Week 36 day 4 closes with zero new satellites, board-quality
+  problem (all ten screened names killed cleanly on their own numbers), not a
+  discipline gap.
+
+---
+
 ## 2026-09-02 — NO TRADE (market_close, Wednesday, Week 36 day 3) — core diverges by basis, no satellites
 
 **No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER

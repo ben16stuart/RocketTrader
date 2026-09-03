@@ -4,7 +4,64 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-09-02 Wednesday premarket (Week 36 day 3)  ← CURRENT
+## Snapshot — 2026-09-03 Thursday premarket (Week 36 day 4)  ← CURRENT
+
+| Metric | Level | Read |
+|---|---|---|
+| **10-yr** | **4.796%** (**+0.00%**) | 🆕 **The grind STOPPED.** Seven straight up sessions (4.639 → 4.796) ended in a dead-flat print. Still **through the 4.75% trigger for a third session**, so the flag stays live — but lesson 34 cuts both ways: a trend that stops trending is information too. **Watch, do not act** |
+| **VIX** | **15.38** (+1.2%) | 🆕 **The three-day rise broke.** 9/01's 16.34 spike has retraced (16.34 → 15.20 → 15.38). Far below the 22 brake. **No size restriction** |
+| Russell fut | 2,952.60 (−0.21%) | Mildly risk-off, and the **least-bad leg** — Nasdaq −0.16%, S&P −0.03% |
+| SPY / IWM | 765.16 (+0.44%) / **294.01 (+1.18%)** | Wednesday's settled closes. **Factor +0.74% — in Rocket's favour** |
+| Brent / WTI | **97.10 (+1.54%)** / 92.62 (+1.77%) | 🚨 **Third straight confirmed session, and it is accelerating: Brent $92.33 → $95.15 → $97.10 = +5.2% in three days** |
+| Gold | **4,471.40 (+2.41%)** | 🆕 Large one-day move, with the **dollar −0.34%** |
+
+### The rate story paused; the inflation story did not
+
+Two things eased overnight — the 10-yr went flat for the first time in seven sessions, and
+VIX gave back its spike. Neither is a reversal, and **lesson 34 forbids standing a flag
+down on one print** exactly as it forbade raising one. The flag stays live at 4.796%.
+
+What did **not** ease is the commodity leg: **Brent +5.2% in three sessions with WTI
+confirming every one of them**, now joined by **gold +2.41% against a falling dollar.**
+That combination — energy up, gold up, dollar down — is the market pricing *inflation*,
+not growth, underneath a chair who has refused forward guidance. It is the one input that
+has moved in a straight line all week.
+
+**The designed response for the core remains no action.** The core carries no trailing
+stop, backed by 33 years of SPY testing in which every stop configuration lost to
+buy-and-hold. A live flag is not a licence to override a tested design.
+
+### 🚨 Today's calendar, and the reason it matters more than usual
+
+**Jobless claims (205K exp vs 203K), trade balance and unit labor costs all land 8:30 AM**
+— *before* the open, which is the good case — followed by **Services PMI 8:45 AM**. Then
+🚨 **ISM Services at 10:00 AM** (54.5 exp vs 54.1), **25 minutes after the 9:35 decision
+window** — the same hostile shape as the last three sessions.
+
+🚨 **Then the August jobs report Friday 9/04.** Any satellite opened today is held
+overnight through a payrolls print. **That is an argument against a same-day entry which
+is independent of every name-specific gate** (rule 29), and it applied to a board on which
+all ten screened names were killed on their own merits anyway.
+
+### Factor watch
+
+**IWM +1.18% vs SPY +0.44% = +0.74% of factor Wednesday**, carried at 93.79% core weight
+≈ **+0.69% on the book.** This is the first meaningful session in Rocket's favour in some
+time — **and lesson 28 applies with exactly the same force as when it hurt**: a
+one-session factor move carries no information. It does **not** dent the −2.50%
+since-rebase drift escalated to the user. **Read it in `weekly_review` tomorrow, not here,
+and do not book it as recovery.**
+
+✅ **`market_data.py macro` clean for a fourth straight session** — every field populated.
+🔧 Scanners improved off a very low base: **`top_movers` unusable RelVol 13 of 20** (was
+20 of 20), **`unusual_volume` 14 of 20 below 1.0×** (was 19 of 20) — and it produced
+**one genuine 23.9× signal (TLYS)**, the first in six sessions. See `research_log.md`.
+⚠️ Note: 9/02's file recorded VIX at **16.81**; the settled 9/01 close was **16.34**. Small,
+but recorded here rather than left to propagate (lesson 39a).
+
+---
+
+## Snapshot — 2026-09-02 Wednesday premarket (Week 36 day 3)
 
 | Metric | Level | Read |
 |---|---|---|
@@ -47,48 +104,6 @@ escalated to the user. Read it properly in `weekly_review` Friday, not here.
 🔧 **The scanners degraded to a new worst**: `top_movers` returned **zero usable RelVol
 across all 20 names**, and `unusual_volume` had **19 of 20 rows below 1.0× with a
 mandate-excluded decliner on top.** See `research_log.md`.
-
----
-
-## Snapshot — 2026-09-01 Tuesday premarket (Week 36 day 2)
-
-| Metric | Level | Read |
-|---|---|---|
-| 🚨 **10-yr** | **4.76%** (+1.84%) | **THE 4.75% TRIGGER HAS BREACHED.** Flagged four straight sessions at 8bp → 3bp cushion; today it is **through, by 1bp, on the largest single-session move of the run.** Fifth session grinding up |
-| **VIX** | **15.89** (+6.50%) | Second straight +5%+ day off the two-week low, but **still far below the 22 brake.** No size restriction |
-| Russell fut | 2,942.20 (**−0.56%**) | Risk-off, but **not the worst leg** — Nasdaq −1.03%, S&P −0.60% |
-| SPY / IWM | 767.05 (−0.30%) / **293.93 (−1.96%)** | Monday's closes |
-| Brent / WTI | 92.33 (**+2.03%**) / 88.02 (**+2.64%**) | 🆕 **CONFIRMED this time — both up together.** Monday's WTI-only spike was correctly left unconfirmed; the divergence has resolved to the upside |
-
-### 🚨 The trigger fired. The designed response is "no action" — say that out loud
-
-The 4.75% flag was carried for four sessions precisely so it would not be discovered
-inside an attribution. It has now breached at **4.76%**, and **energy is confirming**
-(Brent *and* WTI up together for the first time in the run) — inflation pressure into a
-chair who has already refused forward guidance.
-
-**There is nothing to do, and that is by design, not by neglect.** The core carries no
-trailing stop; that choice is backed by 33 years of SPY testing in which every stop
-configuration lost to buy-and-hold. **A breached flag is not a licence to override a
-tested design.** What it does change: any satellite entered today is entered into a
-tape where the dominant variable is rates, not the stock's own catalyst.
-
-### The factor cost 1.5% of the book on Monday alone
-
-**IWM −1.96% vs SPY −0.30% = −1.66% of factor in ONE session**, carried at **93.8%**
-core weight ≈ **−1.55% on the book**. Lesson 28 says a one-session factor move carries
-no information — **but this one lands on top of the six-week −2.50% drift already
-escalated to the user, and in the same direction.** It is not a new signal; it is the
-existing signal getting more expensive. Read it properly in `weekly_review`, not here.
-
-**Today: ISM Manufacturing AND JOLTS, both 10:00 AM ET** — 25 minutes after the 9:35
-decision window. Then ADP, ISM Services, and the **August jobs report Friday 9/4**.
-*(Labor Day 2026 is Mon 9/7 — this is a full trading week.)*
-
-✅ **`market_data.py macro` clean for a second straight session** — every field
-populated. 🔧 **The scanners degraded further**: `top_movers` RelVol unusable for **18 of
-20** names (14 → 17 → 18 across three sessions), and `unusual_volume` returned **16 of 20
-rows below 1.0x with a decliner at the top.** See `research_log.md`.
 
 ---
 

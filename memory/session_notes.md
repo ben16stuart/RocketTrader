@@ -3,6 +3,139 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-03 — MARKET_CLOSE (Thursday, Week 36 day 4) — NO TRADE, core basis divergence recurs 3rd session running
+
+**Position review**: only Rocket position is IWM core (0/4 satellites) — no stop
+applicable, nothing to close. Bull's JPM/SCHW/SPY reviewed for reconciliation only
+(both carrying large unrealized gains, +15.6%/+6.3%, plus SPY +0.7% — not Rocket's).
+
+**Core rebalance**: slice basis says hold (IWM 0.64% over target, inside 3% band);
+book basis (lesson 23a) says SELL ~$118 of IWM (3.80% over, outside band) — same
+divergence as 9/01/9/02, essentially unchanged in dollar terms. Followed the
+documented slice-basis procedure, no trade. **Flagging explicitly per lesson 44c**:
+this is the third straight session with the same unresolved conflict — it needs a
+user decision on which basis governs, not a fourth session just noting it again.
+Full numbers in `trade_log.md`.
+
+**Day P&L**: IWM +0.34% / +$9.86 vs SPY +1.01% — Rocket trailed SPY by ~0.67% today,
+pure IWM/SPY factor drag, no satellites in play. Weekly count stays 0/5 — every
+name screened today (GIII/DAKT/CHPT/TLYS/ANAB/NEOV/PHR/MEI/RARE/PSQL/LE/MTRX/GCO/
+DLTH/WLY/AGX, plus BNC/JFB/CBIO at open/midday) was killed on its own numbers.
+
+---
+
+## 2026-09-03 — PREMARKET (Thursday, Week 36 day 4) — NO ENTRY; 10 names screened, 10 killed
+
+Book **$3,092.00** (**base NAMED, lesson 44**: hand-built book, not the slice) = IWM
+**9.8636 sh** @ $294.01 settled ($2,899.98, **93.79%**) + notional cash $192.01 (**6.21%**,
+inside the buffer — no bearish thesis owed). Satellites 0/4, weekly 0/5. Max satellite
+$463.80, 1.5% risk $46.38.
+
+- 🥇 **THE 9/02 PRE-COMMITMENT EXECUTED CLEANLY — lesson 42's best live test.** GIII's
+  five gates were written *before* the print; **gate 3 (close above midpoint) failed
+  outright**: GIII closed **$28.47, −11.5%, at 5% of its range** on 5.1× volume. DAKT
+  gapped **+11% to $21.50 and closed $19.13, also at 5% of range.** Both **KILLED, not
+  deferred** — and because gate 3 is *price action*, rule 45c's "kill converts to a date"
+  correctly does **not** apply. No temptation to re-litigate, because the bar was written first.
+- 🥇 **RULE 45 IS NOW A PREDICTOR, 2-for-2.** Forecast from each name's own catalyst-day
+  history: **GIII ≈14.3% → actual 14.6%; DAKT ≈13% → actual 14.8%.** Both ~2× a 7% trail.
+  The borrowed multiples the rule replaced (PD 2.3×, LTRX 3.7×) predicted 7–11% and would
+  have **waved both through.** Logged as 45d.
+- ❌ **CHPT — the only name to clear every universe gate, killed on rule 5a.** Real beat
+  (rev **$116.1M +18% YoY** above the $100–110M guide; adj. loss $1.35 vs $1.60; record 38%
+  GM; EBITDA loss $22.1M → $4.8M), indicated **+18.1%**. But **Q3 guide $105–115M, midpoint
+  $110M vs consensus $109.3M = +0.6%** — the same sub-1% band that killed PD (+0.3%) —
+  **no FY guidance at all**, and the midpoint is **−5.3% BELOW the quarter just reported.**
+  Compounded by: net debt **−$141.6M** with **~1.4yr runway** and **two S-3 shelves filed
+  inside 12 months** (rule 8a bad half); **median range 6.04% ≈ the trail**, own catalyst
+  days 15.9–25.6%; and an **un-runnable ladder** (no dated post-print action ⇒ 11b FAIL;
+  taken at face value the $7.00 mean puts the no-chase ceiling at **$6.09**, already through).
+  Squeeze fuel was real (**22.59% short float, 14.45 days, rising into the print**) and
+  **lesson 42a applies — it does not offset a soft guide.**
+- 🆕 🥇 **NEW LESSON 46 — the session's real finding.** The screener **finally fired**
+  (TLYS +29.7% at **23.9× RelVol**, first genuine signal in six sessions) and the name died
+  on **liquidity**. Verifying ADV per lesson 14 exposed a trap: **mean 326,038 PASSES the
+  300k gate; median is 133,200 — a 56% fail.** One 4.27M catalyst bar lifted the mean
+  through the gate by itself. **An average taken over a window containing the catalyst is
+  contaminated by the catalyst** — and it errs toward *entering* an untradeable name.
+  Verify ADV on the median. TLYS also failed 37a outright (median range 7.06% ≈ the trail).
+- Also killed: **ANAB** (reported, did nothing — +1.0% at 36% of range on below-avg volume),
+  **NEOV** (12.5–18.6% ranges, volume exhausting 10.2M→3.7M→1.6M), **MEI** (catalyst stale,
+  ~8/26), **PHR** (⚠️ sources disagree on the earnings date — **barred either way**, flagged
+  unresolved rather than scored, lesson 38), **RARE/PSQL/WLY/AGX** (cap), **LE/MTRX/GCO/DLTH**
+  (ADV 250k/228k/198k/123k).
+- 🚨 **LESSON 43 FIRED A SECOND TIME**: `eligibility` requested **8** tickers, returned
+  **7 — MEI silently omitted, exit 0.** Re-run alone it **passed every gate.** Twice now the
+  dropped row mattered. Logged as 43a: reproducible tool defect, count every call.
+- **Macro**: VIX **15.38** (spike retraced, no brake), 10-yr **4.796% FLAT** — the seven-session
+  grind stopped, though still through the 4.75% trigger. But **Brent +5.2% over three
+  sessions** with WTI confirming, **gold +2.41%**, dollar −0.34% = inflation being priced.
+  🚨 **ISM Services 10:00 AM** (25 min after the window) and the **August jobs report Friday**
+  — an argument against any same-day entry independent of every name-specific gate.
+- **Factor**: IWM +1.18% vs SPY +0.44% = **+0.74% Wednesday**, ≈+0.69% on the book. **Lesson
+  28 applied with the same force as when it hurt** — one session carries no information, and
+  this does **not** dent the −2.50% since-rebase drift. Read it in tomorrow's `weekly_review`.
+- 🚩 **Rebalance-basis divergence carried, still unresolved**: book $3,092.00 vs slice
+  $3,184.70 = **$92.70**, narrowed from $107.06 **only because IWM outran Bull's book**, not
+  because anything was fixed. Escalated 9/01 and 9/02; awaiting a user decision. No action
+  here — rebalancing is `market_close` only (rule 6).
+- **Result: 0/4 satellites, 100% IWM core, no trade, no notification.** Empty board, but
+  **not an empty measurement** — the calendar produced ten names and every one was killed
+  on a named gate.
+
+---
+
+## 2026-09-03 — MIDDAY (Thursday, Week 36 day 4) — NO TRADE, position review clean, one new name killed
+
+**Position review**: only Rocket position is IWM core (0/4 satellites, unchanged since
+8/26). IWM flat (-0.0%, $295.02 vs $295.12 entry) — no stop to tighten (core carries
+none by design), nothing to cut. No satellites, so no per-name news check applicable.
+
+**Afternoon scan** (`unusual_volume`): same names as premarket/open (CHPT, TLYS, RARE,
+BNC, GOLD, JFB, PSQL, CLYM, ALMS, IRD, MEI, DAKT) — all already killed on named gates.
+DFDV/FWDI/BTGO/ABTC/USDE are crypto-treasury proxies, mandate-excluded (rule 31), not
+re-researched. One genuinely new name: **CBIO** (Crescent Biopharma, +17.8%, 2.6x
+RelVol, cap $811M) — searched for a catalyst, found only a routine "presenting at
+investor conferences" announcement, not a named catalyst. **Killed on rule 1** (volume
+without catalyst). See `research_log.md`.
+
+**Result: 0/4 satellites, 100% IWM core, no trade, no notification.** No forced cuts —
+nothing to flag beyond the standing rebalance-basis divergence, which is a
+`market_close`-only decision (rule 6) and stays escalated, not re-litigated here.
+
+---
+
+## 2026-09-03 — MARKET_OPEN (Thursday, Week 36 day 4) — NO TRADE, confirms premarket
+
+Snapshot synced clean: no overnight fills, no stops triggered, positions unchanged
+(IWM core only, 0/4 satellites). IWM flat vs prior settled close ($295.10 vs $294.01).
+Premarket's ten kills were all structural (guidance, liquidity, price action) rather
+than "wait for the open" calls, so none needed re-checking.
+
+- CHPT now **+49.3% on 116x RelVol** — confirms rather than reopens the rule 5a/5b kill
+  (sub-1% forward guide, midpoint below the reported quarter); the move is now **2.7×**
+  the pre-market indication and further through the rule 37a range gate (median 6.04%),
+  not closer to tradeable.
+- TLYS now **+21.5% on 191x RelVol** — confirms the lesson 46 liquidity kill (median ADV
+  133,200, 56% below the 300k gate); per the research log's re-open table this name is
+  **not re-openable on a catalyst**, only on a sustained median-volume shift.
+- 🔎 **Ran `unusual_volume`/`top_movers` for fresh names not on the premarket board
+  (Step 4).** Two stood out on real RelVol not explained by CHPT/TLYS: **BNC** (CEA
+  Industries, +15.2%, 8.3x) and **JFB** (JFB Construction, +6.8%, 10.0x). Checked both
+  inline (2 searches, under the 5-search subagent threshold).
+  - **BNC**: a BNB digital-asset-treasury company (500k+ BNB held, targeting 1% of BNB
+    supply) — a crypto-treasury proxy, **mandate-excluded by lesson 31** regardless of
+    the move. Kill.
+  - **JFB**: not a momentum catalyst — it's a SPAC-style business combination (JFB +
+    XTEND Reality) closing **today**, converting to XTND and ceasing to trade on Nasdaq
+    after today's close, with share-exchange terms conditioned on the $4.00 closing
+    price (lesson 27 pinned-deal-price shape). Not Rocket's mandate. Kill.
+  - RARE (−44.9%), CLYM, PSQL, GOLD, DFDV, USDE, FWDI: cap/sector/crypto-adjacent
+    exclusions already established or self-evident, not researched individually.
+- **Result: 0/4 satellites, 100% IWM core, no trade, no notification.**
+
+---
+
 ## 2026-09-02 — MARKET_CLOSE (Wednesday, Week 36 day 3) — NO TRADE, core basis divergence flagged
 
 **Position review**: only Rocket position is IWM core (0/4 satellites) — no stop
