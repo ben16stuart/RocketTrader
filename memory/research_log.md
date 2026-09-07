@@ -5,96 +5,83 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Thu 2026-09-03 premarket (Week 36 day 4)  ← CURRENT
+## Watchlist — Fri 2026-09-04 premarket (Week 36 day 5)  ← CURRENT
 
-**Book (hand-built — BASE NAMED, lesson 23a/44)**: **$3,092.00** = IWM **9.8636 sh**
-($2,899.98 @ $294.01 *settled* close, **93.79%**) + notional cash **$192.01 (6.21%)**.
+**Book (hand-built — BASE NAMED, lesson 23a/44)**: **$3,103.64** = IWM **9.8636 sh**
+($2,911.63 @ $295.19 *settled* close, **93.81%**) + notional cash **$192.01 (6.19%)**.
 ✅ **Inside the 10% buffer — no bearish thesis required or written.**
 Satellites **0/4** · weekly count **0/5** (counted by hand, lesson 24) · max satellite
-**$463.80** (15%) · 1.5% risk **$46.38** · shared cash $1,972.89 (pooled with Bull —
+**$465.55** (15%) · 1.5% risk **$46.55** · shared cash $427.02 (pooled with Bull —
 **fund from core, not cash**).
 
-## 🚩 VERDICT: NO ENTRY. Hold IWM. Ten names screened, ten killed — and for the first time in six sessions the **screener actually fired** (TLYS 23.9× RelVol). It died on liquidity, not on absence.
+## 🚩 VERDICT: NO ENTRY. Hold IWM. Two real catalysts found — both killed, and neither came from a screener.
 
-**Confirmed at market_open**: CHPT ran to **+49.3%** (116x RelVol) and TLYS to **+21.5%**
-(191x) — both moves confirm rather than reopen their kills (5a/5b soft guide; lesson 46
-liquidity). Two fresh names screened inline: **BNC** (CEA Industries, BNB treasury proxy
-— mandate excl., lesson 31) and **JFB** (SPAC merger closing today, not a momentum
-catalyst, lesson 27 pinned-deal shape). Both killed. No entry at the open either.
-
----
-
-### 🥇 The 9/02 pre-commitment executed exactly as written — lesson 42's best live test
-
-Both names were killed on 2026-09-02 for TODAY on rule 37a/40a/45, with five gates
-pre-committed **before the print**. The tape then settled it:
-
-| Name | Pre-committed gate | 9/02 actual | Result |
-|---|---|---|---|
-| **GIII** | Gate 3: *"9/02 must close ABOVE the midpoint of its own range"* | O$32.00 H$32.44 L$28.28 **C$28.47, −11.5%, 5% of range**, 2.13M (**5.1× ADV**) | ❌ **GATE 3 FAILED. KILL — no 9/03 entry.** Gate 1 moot |
-| **DAKT** | Same rule 4 logic | Gapped **+11% to $21.50**, then **C$19.13 at 5% of range** — an 11% reversal off the high, 2.86M | ❌ **KILL.** Rule 6: P2 is not a substitute for a failed P1 |
-
-🥇 **Rule 45's measurement was near-exact, and that is the transferable result.**
-Measured on each name's *own* catalyst-day history rather than a borrowed multiple:
-
-- **GIII predicted median catalyst-day range ≈14.3%** (4.7× on a 3.0% median) → **actual 14.6%.**
-- **DAKT predicted ≈13%** (4.4×) → **actual 14.8%.**
-
-Both landed inside ~1.5 points of the forecast, and **both blew through a 7% trail by ~2×**.
-The borrowed multiples the rule replaced (PD 2.3×, LTRX 3.7×) would have predicted 7–11%
-and waved both names through. **Rule 45 is now 2-for-2 as a predictor, not just a filter.**
-Note also that rule 45c ("a kill converts to a DATE, not a pass") was **correctly not
-invoked here** — GIII failed a *price-action* gate, not the range gate, and price action
-does not improve overnight.
+**The session's finding is that rule 5a killed a third name in seven sessions, and the
+third one is the most instructive.** SWBI printed a genuinely large beat (revenue +14.1%
+vs consensus, EBITDA 2.3× consensus) and is indicated **+9.0%** — and it **beat its own
+prior quarterly guide by 12–17 points while raising the full year by ~1 point.** See new
+lesson 5d.
 
 ---
 
-### 🔎 CHPT — ChargePoint · Q2 FY27 reported 9/02 AMC, indicated **+18.1%** ($5.19 → $6.13)
+### ❌ SWBI — Smith & Wesson · Q1 FY27 reported 9/03 AMC · indicated **+9.0%** ($12.27 → ~$13.38 mid)
 
-The only name to clear the universe gates. Screened fully. **Killed on gate 1.**
+The best candidate of the session and the only name to clear every universe gate cleanly.
+**Killed on rule 5a/5c.**
 
 | Gate | Result |
 |---|---|
-| ✅ **Universe** | $5.19 ✓ · cap **$134M** ✓ (+25% → $168M, rule 13 clear on both rungs) · ADV **589,227** ✓ · float **23.7M (<50M ✓)** · NYSE ✓ · US ✓ |
-| ✅ **The beat is real** | Revenue **$116.1M, +18% YoY**, above the **$100–110M** guided range. Adj. loss **$1.35 vs $1.60** est. Non-GAAP GM **38%, a record**. Adj. EBITDA loss **$22.1M → $4.8M** |
-| ❌ **RULE 5/5a — THE KILL, and it is the PD shape exactly** | **Q3 FY27 guide $105–115M, midpoint $110M vs consensus $109.3M = +0.6%.** 🚨 **Sized as a percentage (5a), that is a sub-1% nudge — the identical band that killed PD (+0.3%)**, and PD's ladder then went 6-for-6. Worse: **no FY27 guidance was given at all**, and the $110M midpoint is **−5.3% SEQUENTIALLY below the $116.1M just reported** — the entire guided range tops out *below* the quarter it follows. **This is a beat without a raise: 5-for-5 as a fader.** Compare the shape that earned rung 1 its status — ETON's $120M+ → "exceed $145M" (**+21%**) |
-| ❌ **Rule 8 dilution — bad half of the 8a ladder** | EDGAR proven populated (lesson 38): **905 filings, 2019-05-24 → 2026-09-02.** **Two S-3 shelves filed inside 12 months** (2025-09-08, 2025-12-12 + S-3/A 12-05). No 424B5 takedown since 2022-07-13, so they read **undrawn** — but 8a's *good* tier requires "undrawn, **multi-year runway**." Actual: **cash $95.3M vs total debt $236.9M (net debt −$141.6M)**, operating CF **−$66.4M/yr ⇒ ~1.4 years.** And share count is already moving: **25.9M → ~27.0M (+4%)**. Two fresh shelves over a $66M annual burn is a loaded gun, not a clean record |
-| ❌ **Rule 37a/40a/45 range gate — measured on CHPT's own history** | **Median daily range 6.04% — 86% of the entire 7% trail before any catalyst.** Own top-10 range days run **15.9%–25.6% (2.6×–4.2×)**. The indicated **+18.1% gap is itself 2.6× the trail.** Lesson 29/45a: a 7% trail fills at the open, wherever the open is |
-| ❌ **Rule 11/11a/11b ladder — un-runnable, which is a FAIL not a pass** | **No dated post-print price-target action found** (searched). The only ladder available is yfinance's **undated, pre-print** mean **$7.00** (high $8.00, low $6.00, 4 analysts) — and **11a says an undated consensus is not evidence.** Taken at face value anyway it still kills: **+15% rung = $7.05, which MISSES the $7.00 mean**, and the 1.15× no-chase ceiling is **$6.09 — the $6.13 indication is already $0.04 through it.** Both readings kill |
-| 🚨 ✅ **Rule 9/10 — the one genuine positive** | **Short float 22.59%** (5.76M / 23.7M float), **14.45 days to cover**, base **rose 4.60M → 5.76M (+25%) into the print** |
+| ✅ **Universe** | $12.27 close ✓ · cap **$550M** ✓ (+25% → $687M, rule 13 clear on both rungs) · NASDAQ ✓ · US ✓ · shares out 44.8M, float 43.7M (**98% — a high float, not a tight one**) |
+| ✅ **Liquidity — passes on the MEDIAN, lesson 46 applied** | mean **690,862** · **median 480,000 (1.6× the gate)** · mean ex-max 626,935. **All three clear 300k** — the honest measure passes, unlike TLYS/BBCP |
+| ✅ **The beat is real and large** | Revenue **$112.6M vs $98.7M est (+14.1% beat)**, **+32.3% YoY**. Adj EPS **$0.06 vs −$0.05**. Adj EBITDA **$13.77M vs $5.99M est (2.3×)**. GM 28.7% vs 25.9%. Share gains in handguns *and* long guns; handgun ASP +9%, long-gun ASP +18% |
+| ❌ **RULE 5a — THE KILL. Sized, it is a sub-1% nudge** | Prior FY27 guide (6/17/26): revenue growth **"mid-single digits" ≈ 5%**. New guide: **"approximately 5–7%", midpoint 6%.** 🚨 **That is +1 point of growth ≈ +0.95% on the revenue number — inside the same band that killed PD (+0.3%) and CHPT (+0.6%). Rule 5a is now 3-for-3 in seven sessions.** Compare ETON's $120M+ → "exceed $145M" (**+21%**), the print that earned rung 1 its status |
+| 🚨 ❌ **RULE 5c + NEW 5d — they beat their OWN guide by 12–17 pts and did not pass it through** | Prior Q1 guide was **+15–20%**; Q1 actual **+32.3%** — a beat against their own number of **12–17 points**. The full year moved **~1 point**. And **Q2 is guided to +10%**, a **22-point guided deceleration off the quarter just reported.** Management is explicitly telling you Q1 was pull-forward, not run-rate |
+| 🚨 ❌ **Earnings QUALITY — the one-off is bigger than the profit (new 5e)** | **$2.9M non-recurring tariff refund lifted gross margin ~260bps** of the 280bps reported. **Net income was $2.6M — less than the refund itself.** Strip it and SWBI is roughly breakeven and the margin story is roughly flat YoY. **The headline beat substantially IS the one-off** |
+| ❌ **Rule 37a/40a/45 range gate — measured on SWBI's own history** | Median daily range **2.45%** — quiet, which is precisely when this gate bites (**45b**). Own catalyst-day multiple **4.17×** ⇒ **predicted catalyst-day range 10.2% = 1.46× the entire 7% trail.** Own earnings **gaps**: **−16.4%, +15.1%, −13.6%, −9.8%, +9.2%** — lesson 45a, stop placement is irrelevant against those |
+| ❌ **Rule 11b ladder — un-runnable on dated evidence = FAIL** | The only figure available is the **undated, pre-print** mean **$17.25**, and 11a says that is not evidence. *Taken at face value it would pass* (+15% rung $15.39 and +25% rung $16.73 both sit under $17.25; 1.15× no-chase ceiling $14.11 vs a $13.38 entry) — **but lesson 42a: a passing ladder is not a credit that offsets a failed guide** |
+| ⚪ **Rule 8 dilution — NOT RUN, and said plainly** | The name died on 5a with a hard number before the EDGAR check was worth a call. **Recorded as not-run, not as clean** (lesson 38: never score a gap) |
+| ⚪ **Rule 4 close-in-range** | Not yet testable — 9/03's regular session (**−4.0%, 24% of range, 2.66× volume**) came *before* the AMC print, so it reads as selling into the event, not a verdict on the news |
 
-**Lesson 42a, said plainly:** CHPT has real squeeze fuel and a real beat, and **neither
-offsets a sub-1% forward guide on a balance sheet with negative net cash.** Independent
-gates do not net out. GIII had *better* squeeze fuel (28.3%, 18.17 days) **and** the
-cleanest balance sheet ever screened, was killed anyway, and the tape proved it right the
-next day at 5% of range. **CHPT is a KILL, not a second-day deferral** — rule 45c converts
-a *range* kill into a date, but nothing converts a soft guide into a good one.
+**KILL, not a deferral.** Lesson **45e** is explicit: rule 45c converts a *range* kill into a
+date, but SWBI's primary kill is a **guidance** gate, and a guide does not improve
+overnight. Same treatment CHPT got yesterday, for the same reason.
 
 ---
 
-### 🚩 TLYS — the screener finally fired, and the name died on the liquidity gate (lesson 14, reversed)
+### ❌ BBCP — Concrete Pumping · Q3 FY26 reported 9/03 AMC · a genuine beat-AND-RAISE, killed on LIQUIDITY
 
-**TLYS was the first genuinely usable RelVol print in six sessions: +29.7% at 23.9× on
-both lists.** Tilly's reported 9/02 AMC. It is still a **KILL**, and the *reason* is the
-session's most useful finding:
+**This one hurts, and it should be recorded that way.** BBCP is the first properly-sized
+rung-1 catalyst to reach the board since PD — and it is untradeable.
 
-- ❌ **ADV: `eligibility` returned 259,352 vs the 300,000 gate — 13.5% below, outside
-  lesson 14's ±10% re-verify band.** Verified against raw bars anyway, and the result is
-  the point:
+- ✅ **The catalyst is exactly what Rocket exists to trade.** Revenue **$116.8M, +13% YoY**;
+  adj EBITDA **$30.4M, +13%**, margin **26%**. And the raise is **sized, unlike SWBI's**:
+  FY revenue **$410–425M → $425–435M** (midpoint **+3.0%**), adj EBITDA **$98–105M →
+  $103–108M** (**+3.9%**), FCF **"at least $45M" → "approximately $50M"** (**+11%**).
+  Plus a **newly initiated $0.13 quarterly dividend (~5.6% yield)**. Data-center-driven
+  US commercial and infrastructure demand. **This clears rule 5/5a/5c outright.**
+- ❌ **THE KILL — liquidity, and it is lesson 46 firing for the second straight session.**
+  `eligibility` read ADV **302,679 — a PASS by 0.9%**, i.e. inside lesson 14's ±10%
+  re-verify band. Raw 63-day bars:
 
   | Measure (63d) | Value | vs 300k gate |
   |---|---|---|
-  | **Mean, as-is** | **326,038** | ✅ **PASSES** |
-  | Mean, excluding the 9/02 catalyst bar | 262,491 | ❌ fails |
-  | **Median** | **133,200** | ❌ **fails by 56%** |
+  | **Mean, as-is** | **303,738** | ✅ passes by 1.2% |
+  | Mean, excluding the 9/03 catalyst bar | 237,360 | ❌ fails |
+  | **Median** | **179,500** | ❌ **fails by 40%** |
 
-  🚨 **The 4.27M catalyst-day bar single-handedly lifted the 63-day mean through the gate.**
-  A naive mean would have certified TLYS as liquid **on the exact day the spike created the
-  illusion.** Real liquidity is the **median: 133,200 — less than half the gate.** See new
-  lesson 46.
-- ❌ **Rule 37a independently**: median daily range **7.06%** — the trailing range *alone*
-  equals the entire 7% trail. Catalyst-day multiples on its own history reach **9.6×**.
-- Float 11.9M is *why* it moves 29.7%, and equally why it cannot be exited on a stop.
+  🚨 **And the premarket book settled it beyond argument: bid $7.00 × 100 / ask $11.46 ×
+  100 — a $4.46 spread, 44% of price.** CLAUDE.md's small-cap risk list asks "can you
+  actually exit? check the bid-ask spread before sizing." That is the answer.
+- ❌ **Fails rule 45 independently too**: median range **3.77%**, catalyst multiple
+  **2.95×** ⇒ predicted **11.1% = 1.6× the trail**. The indicated **~17% gap alone is 2.4×
+  the trail.** Note 45b — BBCP's quiet 3.77% trailing range would have waved it through on
+  a trailing-range screen alone.
+- 📌 **Standing-note addendum (not a proposed override).** At a **$465 max satellite**, a
+  BBCP position is ~44 shares — 0.02% of even a *median* day. The 300k ADV gate has little
+  economic content at Rocket's current size, and it now sits alongside rule 13's $2B
+  ceiling as a guardrail that binds on account size rather than on tradeability.
+  **Escalated as an observation only — the gate was honored, and it was not load-bearing
+  today because rule 45 killed the name anyway.**
 
 ---
 
@@ -102,80 +89,116 @@ session's most useful finding:
 
 | Name | Kill |
 |---|---|
-| **ANAB** | Reported 9/02 and **did nothing**: C$55.84 +1.0%, **36% of range**, 0.42M (*below* average). No catalyst delivered (rule 1) + sub-midpoint (rule 4). Cap $1,637M → +25% = $2,046M, rung-capped regardless |
-| **NEOV** | **Untradeable on 37a**: ranges 12.5% / **18.6%** / 7.9% over three sessions vs a 7% trail. Volume **exhausting** 10.22M → 3.68M → 1.55M. The 8/11 4.5M-share sale filing remains ungraded — moot now |
-| **PHR** | Only *other* gate-passer ($11.85, cap $732M, ADV 909k, float 49.9M). ⚠️ **Sources disagree on the date** — yfinance says reported 9/02, the calendar bucket says BMO 9/03. **Both readings bar it today**: if it reported, it printed C$11.85 **+0.1% at 17% of range** = no catalyst; if it reports this morning, the earnings-week guardrail bars entry before the print. Flagged unresolved, **not scored** (lesson 38) |
-| **MEI** | Gate-passer, but the catalyst is **stale**: next earnings 12/02, so the print was ~8/26. 9/02 closed −1.2% at **26% of range**. Lesson 33 |
-| **RARE** | −44.5% blowup. Cap $2,616M — out of universe anyway |
-| **PSQL** | Cap $2,555M **and** non-US domiciled (SA) — double fail |
-| **LE / MTRX / GCO / DLTH** | 9/03 BMO reporters, **all fail ADV**: 249,974 / 228,000 / 197,573 / 122,817 |
-| **WLY / AGX** | Cap $2,591M / $5,753M — out |
-| Large caps out on size | AVGO, SNOW, HPE, NTAP, CIEN, AI, GOLD, CPB, PVH, FIVE, WOOF. **PSNY, DOO** also foreign-domiciled |
+| **PL** (Planet Labs) | Reported 9/03 AMC. Cap **$6,540M** — out of universe |
+| **PATH · ASAN · AMBA** | 9/03 AMC reporters, all out on cap: **$9,440M / $2,326M / $2,780M** |
+| **LULU · ZS · DOCU · IOT** | 9/03 AMC / 9/04 BMO, large caps — out on size |
+| **BNC** | 3.8× RelVol, top of *both* scanners again. **Mandate-excluded** (BNB crypto-treasury proxy) — lesson 31, killed 9/03, unchanged |
+| **CHPT** | 2.1× RelVol on the follow-through, **+0.4% to $9.12**. Killed 9/03 on rule 5a (+0.6% guide midpoint). The muted follow-through is consistent with the kill |
+| **TLYS** | **−2.3% at 0.8× RelVol** the day after its 23.9× spike — ✅ the lesson-46 liquidity kill graded correct against the bars in one session |
+| **CVGI · PAL · OBIO · ORN · BKSY · BETR** | Pass universe gates but **next earnings 10/27–11/11 — no catalyst within range** (rule 1/33: a move without a dated catalyst is not a signal) |
+| **ALMU** | Passes gates, but **earnings 9/16** — the earnings-week guardrail bars entry before the print |
+| **KRO · VSTS · TTI · BW · RPC · ECAT · AHRT** | Top-movers rows with **no RelVol printed at all** (`—`) and no dated catalyst. Not screened further |
+| **OXM (−12.6%) · DBI (−6.6%)** | Decliners, not setups |
+| **USDE · DFDV · ABTC** | Crypto/stablecoin proxies — mandate-excluded, lesson 31 |
 
 ---
 
-### CBIO — Crescent Biopharma, checked at midday, killed on rule 1
+### Midday addendum (9/04) — one new name checked deep, two killed on sight
 
-New name on `unusual_volume` not on the premarket/open board: +17.8%, 2.6x RelVol,
-cap $811M, $21.83 (all inside universe gates). Searched for a catalyst — the only
-dated news is a **routine "presenting at September investor conferences"**
-announcement (Cantor 9/10, Morgan Stanley 9/14), not an earnings/data/contract event.
-**No named catalyst found for the move itself.** Rule 1: volume alone is never
-enough. Killed, not deferred — nothing to re-check tomorrow absent a real catalyst.
+- ❌ **NX (Quanex Building Products)** — reported 9/03 AMC, gapped **+20.6%** to a 52-wk
+  high on real volume (620k vs 287k avg, 1.5×, not the scanner's inflated 3.4×). Passes
+  every universe gate ($1,039M cap, $22.63, 39.4M float, 9.4% short). **Looked like the
+  session's best catalyst — killed on rule 5a, and a new sub-case worth naming (5f):**
+  the "FY26 outlook" issued today ($1.84–1.87B sales / $240–245M adj EBITDA) is **not a
+  raise — it is the identical range issued back in March**, withdrawn in Q2 for
+  visibility reasons and now simply reinstated unchanged. **A reinstated guide at the
+  same level is not a raise, even though the headline reads "beats and gives FY26
+  outlook."** Q3 revenue itself grew only **+1.3% YoY**, barely above the company's own
+  "flat to up 1%" Q3 guide, and most of the YoY operating-income jump is a comp against
+  last year's $302M goodwill impairment and Monterrey plant disruption — an easy prior-
+  year base, not organic acceleration. Also outside the sanctioned entry window (rule 2:
+  9:45–9:50 base-check), so it wasn't tradeable today even before the guide check. **Not
+  re-opened for a second-day look** — the kill is on guidance quality, which doesn't
+  improve overnight (same treatment as SWBI/CHPT, lesson 45e).
+- ❌ **TYRA** — today's strength is positioning ahead of the **Sept 9 SURF302 Phase 2
+  readout** (dabogratinib, NMIBC), not a catalyst that fired today. Rule 29: a binary
+  data gap 5 days out, a 7% trail cannot protect it. Kill, don't revisit until after 9/9.
+- ❌ **PYXS** — no dated catalyst behind today's move (only conference-attendance PR and
+  an undated MICVO Phase 1 readout mentioned in old analyst notes). Rule 1 kill.
+- Board stayed IWM-only. No trade.
+
+---
 
 ### 🔧 Instrument notes
 
-- 🆕 **The scanner produced a real signal for the first time in six sessions** — TLYS at
-  **23.9× RelVol** with the move verified against raw bars. Lesson 41a's indictment stands
-  (the *board* still came from the earnings calendar), but "the screener never works" is no
-  longer strictly true, and that should be recorded honestly in both directions.
-  `unusual_volume` still had **14 of 20 rows below 1.0×**, and `top_movers` printed `—` or
-  `0.0x` for **13 of 20**.
-- 🚨 **LESSON 43 FIRED AGAIN.** `eligibility MEI LE MTRX GCO DLTH WLY PHR AGX` requested
-  **8 tickers and returned 7 rows — MEI silently omitted, exit code 0.** Re-run alone, MEI
-  returned normally *and passed every gate.* **Second occurrence** (PD, 8/31). A missing row
-  still reads identically to a clean run. **Count the rows, every time.**
-- 🔁 **`portfolio_snapshot.py` rounded IWM to "10" against a real 9.8636** — eleventh
-  lesson-24 demonstration. Raw position pulled from the API before computing the book.
-- ✅ **`market_data.py macro` clean for a fourth straight session** — every field populated.
+- 🥇 **LESSON 41 FIRED IN ITS PUREST FORM YET.** The session's two real catalysts —
+  **SWBI and BBCP** — were both sourced from the **earnings calendar**. **SWBI did not
+  appear on either scanner at all**, and BBCP appeared only as a *corrupted* row. Running
+  the calendar first is now the only reason this session had a board.
+- 🚨 **LESSON 17a, NINTH DEMONSTRATION, AND THE WORST MARGIN SO FAR.** `top_movers` printed
+  **BBCP at "$10.62, +17.4%"**. The actual 9/03 **regular-session** close was **$9.05,
+  +1.9%** — the scanner reported an *after-hours* quote as both the price and the day's
+  change, a **15-point error** on the single most important row it produced. Raw bars first,
+  always.
+- 🔧 **Scanner quality, measured**: `top_movers` **12 of 17 rows unusable** (`—` or `0.0x`
+  RelVol); `unusual_volume` **14 of 17 below 1.0×**, and its only two rows above 1.0× were
+  a mandate-excluded name (BNC) and yesterday's kill (CHPT).
+- ✅ **Lesson 43 did NOT recur** — 8 tickers requested, **8 rows returned**; 5 requested, 5
+  returned. ⚠️ Worth recording honestly: I *first* believed it had fired a third time, but
+  the missing rows were **my own `tail -40` truncating the output**, not the tool. The
+  count must be run against the *full* output, not a piped tail.
+- ✅ **`market_data.py macro` clean for a FIFTH straight session** — every field populated.
+- ⚠️ **Yesterday's file recorded Brent at 97.10; today's settled series reads 95.44 at
+  −0.08%**, implying a prior close near 95.52. The 97.10 was an unsettled intraday print.
+  Recorded here rather than left to propagate (lesson 39a).
 
 ---
 
-### 🚩 Rebalance-basis divergence — carried, still unresolved (lesson 44/44c)
+### 🚩 Rebalance-basis divergence — carried, **WIDENED**, fourth session (lesson 44/44c)
 
 | Basis | Value | Divergence |
 |---|---|---|
-| **Book** (hand-built, lesson 23a — **the base used above**) | **$3,092.00** | — |
-| **Slice** (30% of live shared equity $10,615.68) | $3,184.70 | **slice +$92.70 richer** |
+| **Book** (hand-built, lesson 23a — **the base used above**) | **$3,103.64** | — |
+| **Slice** (30% of live shared equity $10,701.01) | $3,210.30 | **slice +$106.66 richer** |
 
-Narrowed from $107.06 on 9/02 — but **only because IWM (+1.18%) outran Bull's book on the
-day, not because anything was fixed.** The structural defect is unchanged: the slice
-carries Bull's P&L into Rocket's core target. **Escalated 9/01 and 9/02; awaiting a user
-decision on which basis governs. Not self-approved, and no action here — rebalancing is
-`market_close` only (rule 6).**
+**Widened from $92.70 back to essentially the 9/01 level ($107.06)** — and the mechanism is
+visible in the direction: Thursday **IWM +0.40% vs SPY +1.05%**, so Bull's book outran
+Rocket's core and the gap re-opened. That is lesson **44b** exactly — the gap *is* Bull's
+P&L (JPM +15.3%, SCHW +6.3%, SPY +0.8%) flowing into Rocket's core target.
+🚨 **Fourth consecutive session. Escalated 9/01, 9/02 and 9/03; still awaiting a user
+decision on which basis governs.** No action here — rebalancing is `market_close` only
+(rule 6).
 
 ---
 
 ### Scheduled catalysts
 
-- 🚨 **Every premarket: the earnings calendar comes FIRST.** Ran. Produced the entire
-  board again (CHPT, TLYS, PHR, MEI, LE, MTRX, GCO, DLTH, WLY, AGX) — **sixth straight session.**
-- **Today 9/03**: Jobless claims **205K exp vs 203K** + trade balance + unit labor costs
-  **8:30 AM** (all resolve *before* the open — the good case) · Services PMI **8:45 AM** ·
-  🚨 **ISM Services 10:00 AM** (54.5 exp vs 54.1) — **25 minutes after the 9:35 window**,
-  the same hostile shape as the last three sessions.
-- 🚨 **August jobs report Friday 9/04.** Any satellite opened today carries an unhedged
-  jobs-report gap overnight. **This is an argument against a same-day entry that is
-  independent of every name-specific gate above** (rule 29).
+- 🚨 **Every premarket: the earnings calendar comes FIRST.** Ran, and it produced the
+  entire usable board again (SWBI, BBCP, PL, PATH, ASAN, AMBA, LULU, ZS, DOCU, IOT) —
+  **seventh straight session.**
+- 🚨 **TODAY: August jobs report, 8:30 AM ET.** NFP consensus **+53K** (range +50K to
+  +58K), unemployment **4.1% expected, unchanged**. Follows July's **−23K**. Resolves
+  **before the open** — the good case — but it is the month's largest dispersion event, and
+  a **September HIKE is live** under Warsh.
+- 🚨 **LABOR DAY MONDAY 9/07 — MARKET CLOSED. Confirmed against the Alpaca calendar
+  (9/04 → 9/08).** Anything opened today is held over a **three-day weekend** on top of the
+  jobs reaction. **This is an argument against a same-day entry that is independent of every
+  name-specific gate above** (rule 29), and it is stronger than the usual overnight version.
+- **Next session is Tuesday 2026-09-08.**
+- **`weekly_review` runs today** — the six-week IWM−SPY factor read (−2.50% since rebase)
+  belongs there, not here (lesson 28).
 
 ### Re-open conditions for killed names (everything else needs a new dated catalyst)
 
 | Name | What would have to change |
 |---|---|
+| **SWBI** | A **sized** raise (>2% on the revenue number, not +1 pt of growth) **and** dated post-print targets. The Q2 +10% guide must be beaten and passed through to the year |
+| **BBCP** | ⚠️ **Not re-openable on a catalyst — the catalyst is already excellent.** Only a sustained **median** volume above 300k, or a user decision on the ADV gate |
 | **CHPT** | A **sized** raise (>2% at the midpoint) **and** a dated post-print consensus above 1.15× entry |
-| **TLYS** | **Not re-openable on a catalyst** — only a sustained *median* volume above 300k |
-| **PHR** | ⚠️ **Resolve the earnings date first** (two sources disagree). Re-screen 9/04 only if it actually printed |
+| **TLYS** | Not re-openable on a catalyst — only a sustained *median* volume above 300k |
+| **PHR** | ⚠️ **Resolve the earnings date first** (two sources disagreed 9/03). Re-screen only if it actually printed |
+| **ALMU** | Earnings **9/16** — re-screen after the print, not before |
 | **ARCT** | ARCT-810 Phase 2 **date becomes a fact** |
 | **IRD** | Sept 9 webcast is a scheduled binary, **not** a catalyst delivered (29/37c) — needs the data itself |
-| **GIII · DAKT · ANAB · NEOV · CAPR · YEXT · PD · RMNI** | Killed on the tape or on a hard gate. New dated catalyst only |
+| **GIII · DAKT · ANAB · NEOV · CAPR · YEXT · PD · RMNI · MEI · CBIO** | Killed on the tape or on a hard gate. New dated catalyst only |
 | **LTRX · OOMA · FRNM · SSTK · BBW · OSG · XHLD · NABL · LENZ · ALMS · EOSE · OABI** | Killed W35–W36, reasons in `archive/research_log_history.md` |

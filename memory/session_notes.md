@@ -3,6 +3,165 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-07 — MARKET_CLOSE (Monday, Labor Day) — SESSION SKIPPED, market closed
+
+Third and final skip of the day, same reason as market_open/midday below:
+`portfolio_snapshot.py` still reports "Market open: No", prices unchanged from
+Friday's settled close (IWM $296.01). **Step 2** (position review): no rows — 0/4
+satellites, IWM core carries no stop by design. **Step 2.5** (core rebalance):
+explicitly skipped per CLAUDE.md's own exception for a closed market; the standing
+lesson-44c slice-vs-book divergence (flagged 9/01→9/03, unresolved, needs a user
+decision) carries over unchanged — no new rebalance data was generated today to add
+to it. **Step 3**: no fills, market never opened. **Step 4**: `market_data.py
+spy-today` printed −0.39%, but that's a thin holiday print, not a settled session
+move — not recorded as today's return. **Step 5**: no notification sent — nothing
+changed to report, and a stale price print dressed as a daily summary would misstate
+a non-trading day. Logged a NO TRADE entry in `trade_log.md` for the record. Next
+real session: Tuesday 2026-09-08 premarket.
+
+## 2026-09-07 — MIDDAY (Monday, Labor Day) — SESSION SKIPPED, market closed
+
+Same holiday as this morning's `market_open` entry below — `portfolio_snapshot.py`
+still reads "Market open: No" and prices are unchanged (IWM $296.01, last settled
+close, no new trade). Nothing to review: 0/4 satellites open, and the IWM core
+carries no trailing stop by design, so Step 2 has no rows regardless of market
+state. Skipped Step 3 (news check) and Step 4 (afternoon scan) — no live price/
+volume data exists on a closed market to act on. No memory changes beyond this
+note. Next real session is Tuesday 2026-09-08's premarket.
+
+## 2026-09-07 — MARKET_OPEN (Monday, Labor Day) — SESSION SKIPPED, market closed
+
+Session was triggered on a market holiday. `research_log.md` had already flagged
+9/07 as Labor Day with the market closed (confirmed against the Alpaca calendar,
+next session Tuesday 9/08); re-verified live via `GET /v2/clock` before touching
+anything: `is_open: false`, `next_open: 2026-09-08T09:30:00-04:00`. No portfolio
+sync re-run beyond the routine snapshot, no watchlist validation, no orders placed
+— there is no live price/volume data on a closed market to validate SWBI/BBCP or
+any fresh scanner names against. This is likely a launchd trigger firing on a
+holiday it doesn't know about; see [[launchd-quota-contention]]. No action needed
+beyond noting it — next real market_open is Tuesday 2026-09-08.
+
+## 2026-09-04 — MIDDAY (Friday, Week 36 day 5) — NO TRADE, no satellites to manage
+
+Nothing to cut/tighten/hold — 0/4 satellites open (unchanged since the 8/26 OMER stop-
+out), and the only position owned (IWM core) carries no trailing stop by design, so
+Step 2's per-position review had no rows. Ran `unusual_volume` for afternoon setups
+(Step 4) and found one real catalyst worth deep-checking: **NX (Quanex)**, +20.6% on
+real 1.5x volume (not the scanner's inflated 3.4x) after a 9/03 AMC beat, 52-wk high,
+passes every universe gate. **Killed on a new rule 5a sub-case (5f):** today's "FY26
+outlook" is the **identical $1.84–1.87B/$240–245M range given in March**, withdrawn in
+Q2 and simply reinstated — a 0% change dressed as a headline raise. Q3 revenue grew
+only +1.3% YoY, and most of the YoY operating-income jump comps against last year's
+$302M goodwill impairment. Also outside the sanctioned 9:45–9:50 entry window regardless.
+Two more names checked and killed on sight: **TYRA** (rule 29 — Sept 9 binary readout,
+today's move is pre-positioning, not the catalyst) and **PYXS** (rule 1 — no dated
+catalyst behind the move). Board stayed IWM-only. Full detail in `research_log.md`.
+
+---
+
+## 2026-09-04 — MARKET_OPEN (Friday, Week 36 day 5) — NO TRADE, confirms premarket
+
+Snapshot synced clean: no overnight fills, no stops triggered, positions unchanged
+(IWM core only, 0/4 satellites). IWM $294.94 vs $295.19 prior settled close — flat,
+nothing to react to. Premarket's two kills (SWBI on rule 5a/5d guidance-sizing, BBCP
+on rule 46 liquidity) were structural, not "wait for the open" calls — neither needed
+re-checking.
+
+- 🔎 **Ran `unusual_volume`/`top_movers` for fresh names not on the premarket board
+  (Step 4).** SWBI, BBCP, CHPT, TLYS, OXM all already screened/killed. Two names stood
+  out as genuinely new: **RARE** (Ultragenyx, +6.1%, 7.4x scanner RelVol, $1.55B cap —
+  inside universe) and **GOLD** (Gold.com Inc, +3.9%, 3.3x RelVol, $1.25B cap). Checked
+  both inline (2 detail pulls, under the 5-search subagent threshold).
+  - **RARE**: `detail` shows actual volume **0.2x avg** (1.82M vs 5.02M avg) — directly
+    contradicts the scanner's 7.4x RelVol claim, another lesson-17a-shaped discrepancy,
+    now in the `unusual_volume` RelVol field itself, not just `top_movers` price/change.
+    Also **−37.7% over 5 days, −39.2% over 1 month, below both MA20/MA50** — a
+    downtrend, not a breakout. No catalyst found. Kill on rule 1 (no catalyst) and on
+    the tape (falling knife, not momentum).
+  - **GOLD**: same pattern — actual volume **0.2x avg** (128k vs 673k) against a claimed
+    3.3x RelVol. No catalyst found. Kill on rule 1.
+- **Result: 0/4 satellites, 100% IWM core held.** No rebalance (market_close only,
+  rule 6). No notification — flat session, no stops hit. Also the session ahead of the
+  Labor Day long weekend (rule 29, escalated in premarket) — an independent reason not
+  to force a marginal entry even had one of the two fresh names screened cleaner.
+
+---
+
+## 2026-09-04 — PREMARKET (Friday, Week 36 day 5) — NO ENTRY; two real catalysts found, both killed, neither from a screener
+
+Book **$3,103.64** (**base NAMED, lesson 44**: hand-built book, not the slice) = IWM
+**9.8636 sh** @ $295.19 settled ($2,911.63, **93.81%**) + notional cash $192.01 (**6.19%**,
+inside the buffer — no bearish thesis owed). Satellites 0/4, weekly 0/5. Max satellite
+$465.55, 1.5% risk $46.55.
+
+- 🥇 **LESSON 41 IN ITS PUREST FORM: both real names came from the earnings calendar, and
+  SWBI appeared on NEITHER scanner.** BBCP appeared only as a corrupted row. Running the
+  calendar first is the only reason this session had a board at all — seventh straight session.
+- ❌ **SWBI — the session's best candidate, killed on rule 5a, and it produced a new rule.**
+  Smith & Wesson reported 9/03 AMC with a large, real beat: revenue **$112.6M vs $98.7M est
+  (+14.1%), +32.3% YoY**; adj EPS **$0.06 vs −$0.05**; adj EBITDA **$13.77M vs $5.99M
+  (2.3×)**. Indicated **+9.0%** ($12.27 → ~$13.38 mid). It cleared every universe gate
+  cleanly, **including liquidity on the median** (mean 690,862 / **median 480,000**, 1.6× the
+  gate). **The kill: prior FY27 guide "mid-single digits" (≈5%) → "5–7%" (mid 6%) = +1 point
+  of growth ≈ +0.95% on revenue — the same sub-1% band as PD (+0.3%) and CHPT (+0.6%).
+  Rule 5a is now 3-for-3 in seven sessions.**
+- 🆕 🥇 **NEW LESSON 5d — the session's real finding.** SWBI had **guided Q1 to +15–20% and
+  delivered +32.3%** — a beat against its *own* number of **12–17 points** — and passed
+  **~1 point** of that to the full year, while guiding **Q2 to +10%, a 22-point deceleration
+  off the quarter just reported.** 5a says size the raise against consensus; 5d says **also
+  size it against the company's own prior guide, and check the pass-through.** Smash your own
+  quarter, raise the year by a point ⇒ management is calling the beat pull-forward.
+- 🆕 **NEW LESSON 5e — read the COMPOSITION of the beat.** A **$2.9M non-recurring tariff
+  refund** lifted SWBI's gross margin **~260bps of the 280bps reported**, and **net income was
+  $2.6M — less than the refund.** Strip it and the quarter is ~breakeven on ~flat margins.
+  **A beat assembled from a one-off does not recur, which is the whole premise of a
+  continuation trade.** Killed as a **KILL, not a deferral** — per 45e, a *guidance* gate does
+  not improve overnight (only *range* kills convert to a date).
+- ❌ **BBCP — a genuine beat-AND-RAISE, killed on liquidity, and this one hurts.** Concrete
+  Pumping reported 9/03 AMC: revenue **$116.8M +13%**, adj EBITDA **$30.4M +13%** (26% margin),
+  and unlike SWBI **the raise is properly sized** — FY revenue $410–425M → **$425–435M
+  (+3.0%)**, EBITDA $98–105M → **$103–108M (+3.9%)**, FCF → **+11%**, plus a **new $0.13
+  quarterly dividend (~5.6% yield)**. Clears rule 5/5a/5c outright. **But lesson 46 fired for
+  the second straight session**: `eligibility` read ADV **302,679 — a PASS by 0.9%**; raw bars
+  gave **mean 303,738 (passes), ex-catalyst-bar 237,360 (fails), median 179,500 (fails by
+  40%)**. 🚨 **The premarket book settled it: bid $7.00 / ask $11.46 — a 44%-of-price spread.**
+  It also failed rule 45 independently (median range 3.77% × **2.95× multiple = 11.1%
+  predicted**, 1.6× the trail; the ~17% gap alone is 2.4×).
+- 📌 **Escalated as an observation, not self-approved**: at a **$465 max satellite**, a BBCP
+  position is ~44 shares = **0.02% of a median day**. The 300k ADV gate now binds on *account
+  size* rather than tradeability — same category as rule 13's $2B ceiling. **The gate was
+  honored**, and it was not load-bearing because rule 45 killed BBCP anyway.
+- ✅ **TLYS graded correct in one session** — **−2.3% on 0.8× RelVol** the day after its 23.9×
+  spike. Yesterday's lesson-46 liquidity kill was right.
+- 🚨 **LESSON 17a, NINTH DEMONSTRATION, WIDEST MARGIN YET**: `top_movers` printed **BBCP at
+  "$10.62, +17.4%"** against a real regular-session close of **$9.05, +1.9%** — a 15-point
+  error from quoting an after-hours print, on its single most important row.
+- ✅ **Lesson 43 did NOT recur** (8→8, 5→5). ⚠️ **But I briefly thought it had — the "missing"
+  rows were my own `tail -40` truncating.** Logged as 43b: **count against the full output; a
+  count on a truncated view manufactures the false positive the rule exists to catch.**
+- **Macro**: VIX **14.21** — a two-week low, no brake, **but into the month's biggest event,
+  which is the exact 8/28 configuration** (low VIX ahead of a binary = positioning, not calm;
+  IWM then took Warsh **7× harder than SPY**). 10-yr **4.76%**, second session not rising but
+  still through the 4.75% trigger — flag live, watch not act. 🆕 **The inflation trio broke**:
+  Brent −0.08% and WTI −0.33% fell together for the first time this week and the **dollar
+  turned up**; only gold still rising.
+- 🚨 **The whole session is one number: August NFP 8:30 AM, +53K consensus, u-rate 4.1%,
+  after July's −23K — with a September HIKE live.** It resolves before the open (good case).
+  🚨 **And Monday 9/07 is LABOR DAY, market closed** (confirmed vs the Alpaca calendar,
+  9/04 → 9/08) — anything opened today carries the jobs reaction **plus a three-day weekend.**
+  Rule 29, in its strongest form yet. **Next session Tuesday 9/08.**
+- **Factor**: IWM +0.40% vs SPY +1.05% = **−0.65% Thursday** (≈−0.61% on the book), giving
+  back most of Wednesday's +0.69%. **Lesson 28 applied with the same force as when it helped** —
+  yesterday's file refused to book the gain as recovery; today's refuses to book the loss as
+  decline. Six-week read belongs in **`weekly_review`, which runs today.**
+- 🚩 **Rebalance-basis divergence carried and WIDENED — fourth straight session**: book
+  $3,103.64 vs slice $3,210.30 = **$106.66**, back to essentially the 9/01 level ($107.06),
+  **because Bull's book outran IWM Thursday** — lesson 44b's mechanism, visible in the
+  direction. Escalated 9/01, 9/02, 9/03; **still awaiting a user decision on which basis
+  governs.** No action (rule 6: `market_close` only).
+
+---
+
 ## 2026-09-03 — MARKET_CLOSE (Thursday, Week 36 day 4) — NO TRADE, core basis divergence recurs 3rd session running
 
 **Position review**: only Rocket position is IWM core (0/4 satellites) — no stop

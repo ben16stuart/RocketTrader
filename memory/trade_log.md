@@ -4,6 +4,40 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-07 — NO TRADE (market_close, Monday, Labor Day — market closed) — no session activity
+
+Market did not open today (Labor Day, confirmed against the Alpaca calendar; both
+`market_open` and `midday` sessions independently verified `is_open: false` via live
+`/v2/clock` and were skipped for the same reason — see `session_notes.md`). This
+`market_close` session found the same state: `portfolio_snapshot.py` reports **"Market
+open: No"**, prices unchanged from Friday 9/04's settled close (IWM $296.01, and Bull's
+JPM $358.64 / SCHW $109.29 / SPY $770.19 — not Rocket's).
+
+**No position review** (Step 2): 0/4 satellites, IWM core carries no stop by design —
+no rows regardless of market state.
+
+**Core rebalance skipped** (Step 2.5) — explicit CLAUDE.md exception: "Skip the
+rebalance entirely if... the market is closed." Not run. The standing lesson-44c basis
+divergence (slice vs. book, flagged 9/01→9/03, ~$118 / 3.8% of book, still needing an
+explicit user decision on which basis governs) is unchanged today — no new rebalance
+data was generated to add to it.
+
+**No fills** (Step 3) — market never opened, nothing could execute.
+
+**Daily stats** (Step 4): not computed as a real session move. `market_data.py
+spy-today` printed **−0.39%**, but this reflects a thin/stale holiday print, not a
+settled session (per the market-closed warning in `portfolio_state.md`) — recording it
+as "today's SPY return" would misstate a non-trading day. Rocket-vs-SPY since-rebase
+stands at the last chained figure (+1.76%, per Friday 9/04's sync) until Tuesday 9/08
+produces a real trading session.
+
+**No notification sent** — consistent with today's market_open/midday skips: no live
+session data exists to report, and forcing a "Daily" summary off a stale price print
+would misrepresent a closed market as a trading day. Next real session: Tuesday
+2026-09-08 premarket.
+
+---
+
 ## 2026-09-03 — NO TRADE (market_close, Thursday, Week 36 day 4) — core diverges by basis (3rd straight session), no satellites
 
 **No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER

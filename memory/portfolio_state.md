@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-09-03 19:58 UTC
+**Last Updated**: 2026-09-07 19:59 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,699.78 |
-| Rocket's Allocated Slice (30%) | $3,209.93 |
-| Cash Available (shared, pooled) | $427.03 |
-| Total Invested (both agents) | $10,272.75 |
+| Shared Account Value (Bull + Rocket) | $10,666.17 |
+| Rocket's Allocated Slice (30%) | $3,199.85 |
+| Cash Available (shared, pooled) | $427.02 |
+| Total Invested (both agents) | $10,239.15 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +5.88% |
-| SPY return since rebase | +4.16% |
-| Rocket vs SPY | +1.72% |
+| Rocket return since rebase | +5.55% |
+| SPY return since rebase | +3.79% |
+| Rocket vs SPY | +1.76% |
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -31,12 +31,19 @@ is available if Bull has open positions consuming shared cash.
 
 Ownership is reconciled below — do not re-derive it from the trade log.
 
-| Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
+| Symbol | Shares | Entry Price | Price (⚠️ NOT a settled close) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| IWM | 10 | $295.12 | $295.01 | $294.01 | $-1.12 | -0.0% |
-| JPM | 6 | $313.30 | $362.15 | $356.22 | $+293.10 | +15.6% |
-| SCHW | 5 | $103.91 | $110.41 | $108.24 | $+32.50 | +6.3% |
-| SPY | 6 | $767.97 | $772.99 | $765.16 | $+30.14 | +0.7% |
+| IWM | 10 | $295.12 | $296.01 | $296.01 | $+8.74 | +0.3% |
+| JPM | 6 | $313.30 | $358.64 | $358.64 | $+272.04 | +14.5% |
+| SCHW | 5 | $103.91 | $109.29 | $109.29 | $+26.90 | +5.2% |
+| SPY | 6 | $767.97 | $770.19 | $770.19 | $+13.34 | +0.3% |
+
+⚠️ **The market is CLOSED. The price column is the last trade, which outside
+regular hours can be a single thin pre/post-market print — it is NOT a settled
+close and must never be recorded as one, quoted as a session move, or used to
+decide whether a trailing stop has fired.** Alpaca trailing stops evaluate on
+regular-hours trades only. Use the **Prior Settled Close** column for anything
+written into memory; re-read live at `market_open`.
 
 ---
 
@@ -44,9 +51,9 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($2,910)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's core** (1): IWM ($2,920)  — benchmark sleeve; no stop, exempt from position limits
 - **Rocket's satellites** (0): none
-- **Bull's positions** (3): JPM ($2,173), SCHW ($552), SPY ($4,638)
+- **Bull's positions** (3): JPM ($2,152), SCHW ($546), SPY ($4,621)
 
 
 ---
@@ -63,4 +70,4 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 ## Weekly Trade Count
 
 Trades placed this week: 0 / 3 max
-Market open: Yes
+Market open: No
