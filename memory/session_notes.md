@@ -3,6 +3,99 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-08 — MARKET_CLOSE (Tuesday, Week 37 day 1) — NO TRADE, core in band on slice basis, book basis diverges again
+
+**Position review**: 0/4 satellites, nothing to close. IWM core held all session
+(script-verified: −0.46% / −$13.32 today vs SPY −0.56% — Rocket beat SPY by ~0.10%,
+pure factor, no stock selection to attribute).
+
+**Core rebalance (slice basis, documented procedure)**: slice $3,177.71, target_core
+$2,859.94, live IWM $2,907.00 — 1.48% over, within the 3% band. No trade. **Book basis
+(lesson 23a) disagrees again**: book $3,098.35, target_core $2,788.51, IWM is 3.82%
+over — outside band, would say SELL ~$118. Same ~$117-118 gap as 9/02–9/03, still
+unresolved, escalated again rather than self-resolved. Full numbers in
+`trade_log.md`.
+
+⚠️ **New finding: W36 `weekly_review` (due Fri 9/04) never ran** — no file in
+`memory/weekly_reviews/` and no 9/04 market_close entry in `trade_log.md`. The
+since-rebase Rocket-vs-SPY figure is now over a week stale (still the 8/28 W35 chain,
+−2.51%). Likely another [[launchd-quota-contention]] casualty — flagged in
+`lessons_learned.md` for whichever session can run the missed reconciliation.
+
+Notification sent and confirmed (`Notification sent: [default] 🚀 Rocket Daily —
+2026-09-08`).
+
+---
+
+## 2026-09-08 — MIDDAY (Tuesday, Week 37 day 1) — NO TRADE, no cuts, one new name killed on mandate
+
+**Position review**: only Rocket position is IWM core (0/4 satellites, unchanged since
+8/26), essentially flat (+0.1%, $295.48 vs $295.12 entry). No stop applicable (core
+exempt by design), nothing to cut or tighten. No per-name news check applicable with
+zero satellites.
+
+**Afternoon scan** (`unusual_volume`/`top_movers`): overlap tier is BNC (still
+mandate-excluded, +50.6%/349.6x), TLYS/CHPT (standing kills, unchanged), and EAF/NVA —
+both already killed at the open, both moves grew (EAF now +21.9%/4.0x, NVA +9.8%/4.3x)
+but neither kill reason changed; NVA also surfaced a fresh $20M dilutive raise at a 14%
+discount. One genuinely new name: **HYPD** (Hyperion DeFi, +6.2–7.7%, 5.0x) — a real,
+dated guidance raise (FY26 adj. gross profit $5–7M → $7–8M + $20M buyback) that would
+otherwise clear rule 5/5a, but it's a HYPE-token crypto treasury company (formerly
+Eyenovia) — killed on rule 31 mandate exclusion regardless of catalyst quality. Full
+detail in `research_log.md`.
+
+**Result: 0/4 satellites, 100% IWM core held, no trade, no forced cuts.** No
+notification — no breaking news on the only open position.
+
+---
+
+## 2026-09-08 — PREMARKET (Tuesday, Week 37 day 1) — NO ENTRY; earnings calendar empty, worst scanner session on record
+
+Book **$3,111.67** = IWM 9.8636 sh @ $296.01 settled (93.83%) + notional cash $192.01
+(6.17%, inside the buffer). Satellites 0/4, weekly count 0/5 (new week).
+
+- 🥇 **Earnings calendar ran first (lesson 41) and is genuinely empty in-universe.**
+  Friday 9/04 (4 reporters), the Labor Day weekend, and Tuesday 9/08 BMO (11 reporters)
+  all screened to **zero** in-universe names — 8 requested/8 returned on `eligibility`
+  (lesson 43 check held). Kills: HURC/VIRC/NTRB (ADV), AXR (ADV), AREC/ELME/UPXI/ZENA
+  (sub-$3), VZLA/WDH/CAN/DLNG (domicile), ABM/UNFI (cap). INNV/AVO report AMC today —
+  re-screen Wednesday.
+- 🚨 **WORST SCANNER SESSION ON RECORD — three sign flips, one 35-point error.** Raw
+  bars vs Friday's real settled prints: BNC scanner said +41.0%/1393.8× RelVol, real
+  bar was +6.08%/1.86×; ENOV, TROX, WTI all showed sign flips (scanner said up, real
+  bar was down). Overlap tier was BNC alone — mandate-excluded (crypto-treasury, rule
+  31) and fictional in both lists.
+- ❌ **Eight in-universe scanner movers killed in one `eligibility` call, zero research
+  spent** — all have next earnings 55–58 days out (rule 1, no dated catalyst): HLF, SG,
+  INSG, TROX, AMRC, WTI, ENOV, UPB.
+- ❌ **INSG** (prettiest bar on the board, +5.21% at 91% of range, 1.40×) killed four
+  ways: no dated catalyst (+58d), a live S-3 on a $69M cap, ADV median 265,700 fails
+  the 300k gate by 11% (mean passes — lesson 46 shape), and predicted catalyst-day
+  range 14.4% = 2.1× the 7% trail.
+- ✅ **Friday's four kills graded correct against the settled bars** (SWBI, TLYS, NX,
+  CHPT) — see `research_log.md` for the by-name detail.
+- 🔎 **Re-ran the scanners later in premarket** — new overlap name **EAF** (GrafTech)
+  passed every universe gate but killed on rule 1: the only explanation found was an
+  undated, speculative "surges on speculation of Defense Department partnership"
+  headline, next earnings +52 days, modest 1.9× volume. BNC still topped both lists,
+  now an even more extreme fiction (+61.6%, 1806.3× RelVol) — still mandate-excluded.
+- 🚩 **Rebalance-basis divergence (lesson 44/44c) carried, narrowed to $88.16** (book
+  $3,111.67 vs slice $3,199.83) — Friday's IWM +0.28% vs SPY −0.39% ran the gap the
+  other direction. Fifth consecutive session unresolved; still awaiting a user decision
+  on which basis governs. No action — rebalancing is `market_close` only.
+- **Macro**: VIX 15.33–15.70 (up from Friday's 14.21 two-week low, no brake). 🚨 **10-yr
+  4.77–4.78%, fifth session through the 4.75% trigger**, now with a hot jobs print (NFP
+  +162K vs +53K consensus, 3× beat) behind it — a September hike is more live, not
+  less. Russell fut the weakest leg (−0.16% to −0.37%), small caps leaning risk-off.
+  Brent/WTI at a new run high (+6.7% over the stretch). Designed response for the
+  stopless core remains no action. FOMC decision Wednesday 9/16 — 6 trading days out,
+  a live rule-29 gate for anything opened Thursday or later.
+- **Result: 0/4 satellites, 100% IWM core held.** Board empty by measurement (a source
+  that cannot silently go blank returned a slate and it screened clean to zero), not by
+  opinion. No notification — no breaking news on the only open position.
+
+---
+
 ## 2026-09-07 — MARKET_CLOSE (Monday, Labor Day) — SESSION SKIPPED, market closed
 
 Third and final skip of the day, same reason as market_open/midday below:

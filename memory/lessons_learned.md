@@ -97,6 +97,8 @@ it forecasts the range it is filtering on. **45e. But do not over-extend it: rul
     size* rather than on tradeability. **Escalated to the user as an observation; not
     overridden, and it was not load-bearing because rule 45 killed the name independently.**
 
+47. **🆕 A SCHEDULED ROUTINE CAN SILENTLY NOT RUN, AND NOTHING FLAGS IT EXCEPT NOTICING THE GAP** (found 2026-09-08). `weekly_review` was due Friday 2026-09-04 (Week 36) — no `memory/weekly_reviews/2026-W36.md` exists, and `trade_log.md` has no 9/04 `market_close` entry either, meaning that entire session likely never ran. Nobody caught it until `market_close` on 9/08 cross-checked the file list against the calendar. The hand-built book/Rocket-vs-SPY chain (lesson 23a) has silently gone stale for over a week — every session since has correctly *carried forward* the last good number (8/28 W35, −2.51%) but nobody escalated that the chain itself had stopped updating. **47a. Same failure shape as [[launchd-quota-contention]] and 39b: a starved session doesn't announce its own absence — it just leaves a gap that reads as "nothing happened" instead of "nothing ran."** **47b. The fix is cheap: any session can grep `memory/weekly_reviews/` and `trade_log.md` for the expected date and flag a miss same-day**, rather than waiting for someone to notice the chain is a week old. Flagged for the next session that can run the missed W36 reconciliation.
+
 ## Standing Rules — Universe gates
 
 13. **Compute market cap at the price you would PAY, and confirm the +25% target still clears $2B.** ⚠️ Costing real names: APPS, BW, HLIT, ETON, UMAC, IE. **Escalated to the user — not overridden.**

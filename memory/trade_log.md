@@ -4,6 +4,58 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-08 — NO TRADE (market_close, Tuesday, Week 37 day 1) — core in band on slice basis, book basis diverges again, no satellites
+
+**No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER
+stop-out) — Step 2 has no rows. Premarket found the earnings calendar genuinely empty
+in-universe (first time since lesson 41) and killed EAF (no dated catalyst) and NVA
+(equipment-arrival news, non-catalyst + Australian domicile mandate kill); midday
+re-confirmed both kills on bigger moves and killed one fresh name, HYPD (real dated
+guidance raise, but a HYPE-token crypto-treasury company — rule 31 mandate exclusion).
+Board stayed IWM-only all session. See `research_log.md`/`session_notes.md`.
+
+**Core rebalance check — SLICE basis** (documented CLAUDE.md procedure): slice
+**$3,177.71** (portfolio_value $10,592.36 × 30%, post-close), satellite value $0, 10%
+buffer $317.77 → target_core **$2,859.94**. Live IWM (raw qty **9.8636 sh**) ×
+$294.72 close = **$2,907.00 — $47.06 / 1.48% of slice over target, within the 3%
+band.** No trade.
+
+🚩 **44/44a/44c divergence recurs, still unresolved.** On the **BOOK basis** (lesson
+23a: prior book $3,111.67 carried from premarket + today's script-verified IWM move
+−$13.32 = **$3,098.35**), target_core = book − $0 − 10% buffer ($309.84) =
+**$2,788.51**. IWM is **$118.49 over** that target = **3.82% of book — outside the 3%
+band, book basis says SELL ~$118 of IWM.** Slice basis says hold. Same dollar gap as
+9/02 ($117.18) and 9/03 ($117.79) — it has not resolved, it has stabilized as a
+standing error. **Followed the documented CLAUDE.md procedure (slice) again, did NOT
+self-resolve toward book.** Still needs an explicit user call on which basis governs
+— not deferred again by default, escalated again this session.
+
+⚠️ **W36 `weekly_review` appears to be missing.** It was due Friday 2026-09-04; no
+`memory/weekly_reviews/2026-W36.md` exists, and no market_close entry for 9/04 exists
+in this log either — that session likely never ran (consistent with
+[[launchd-quota-contention]]). The hand-built book/Rocket-vs-SPY chain therefore still
+stands at the 8/28 W35 review (Rocket vs SPY −2.51%, grade C) with no update in over a
+week. Flagging for the next session that can run a weekly reconciliation.
+
+**Day P&L** (script-verified `position_table.py`, IWM is 100% of Rocket's book): IWM
+**−0.46% / −$13.32** today vs **SPY −0.56%** — Rocket beat SPY by ~0.10% today, entirely
+factor tailwind (small-cap IWM holding up slightly better than large-cap SPY on a
+broad down tape; no satellites to select). Hand-built book (lesson 23a): $3,111.67 →
+**$3,098.35** (−0.43%).
+- Since-rebase figure **not recomputed here** — stands at the 8/28 weekly-review chain
+  (Rocket vs SPY **−2.51%**, W35 review, grade C) until a `weekly_review` (W36, overdue)
+  chains it forward, per the lesson 23a discipline. Do **not** cite
+  `portfolio_snapshot.py`'s own since-rebase figure (+4.82%/+1.60% today) — known to
+  mix in Bull's P&L.
+- Weekly count: **0/5** — Week 37 day 1 closes with zero new satellites, board-quality
+  problem (earnings calendar measured empty in-universe, EAF/NVA/HYPD all killed
+  cleanly on their own numbers), not a discipline gap.
+
+**Notification sent** — confirmed via `ntfy_notify.py` return ("Notification sent:
+[default] 🚀 Rocket Daily — 2026-09-08").
+
+---
+
 ## 2026-09-07 — NO TRADE (market_close, Monday, Labor Day — market closed) — no session activity
 
 Market did not open today (Labor Day, confirmed against the Alpaca calendar; both
