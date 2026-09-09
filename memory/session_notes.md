@@ -3,6 +3,130 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-09 — MARKET_CLOSE (Wednesday, Week 37 day 2) — END OF DAY, escalated rebalance, no trades, clean close
+
+**Position review**: 0/4 satellites open, IWM core only. No fills overnight, no stops triggered.
+Intraday peak IWM $291.70 (slightly above settled $294.67) — rounding noise, market closed
+now at 16:01 ET. Core rebalance check flagged: IWM now **3.28% over target on slice basis**
+(first time crossing the 3% band); book basis also signals SELL but with larger magnitude
+divergence (~$146 vs $104). **Both bases now agree direction (SELL), divergence on scale.**
+Per lesson 44c, this four-session recurrence needs explicit user decision. Trade deferred
+(market closed). Documented in ntfy notification and flagged as escalation.
+
+**Day P&L**: -$40.24 on IWM (-1.39%) vs SPY -0.46% → underperformed by ~0.93% (factor).
+
+**Notification sent**: ntfy confirmed delivery. No further actions for today.
+
+---
+
+## 2026-09-09 — MIDDAY (Wednesday, Week 37 day 2) — NO TRADE, no cuts, no new setups
+
+**Position review**: 0/4 satellites open, nothing to review. Only Rocket position is
+IWM core (10 sh live, no stop by design — exempt from Step 2's cut/tighten checks).
+Rocket-only book shows IWM at −1.5% intraday ($290.79 vs settled $294.67), in line with
+a broad small-cap pullback; not a position decision (core, no stop, rebalance is
+market_close-only per Portfolio Construction rule 6).
+
+**No per-name news check** — zero satellite positions to check.
+
+**Step 4 scan** (`unusual_volume`): all four premarket earnings-calendar survivors
+(AVO $13.52, INNV $11.65/+10.7%/3.4x, OCC $12.60/−8.0%/5.5x, CAL $12.68) unchanged from
+this morning's kills — no new information, no re-open. 🆕 **IRD** (the pre-committed
+9/10 day-2 candidate) has pulled back hard intraday: scanner reads $5.57/+28.4%/77.8x
+vs the $6.56 print cited in this morning's market_open gates — roughly **−15% off that
+level already**, well before the close. Flagging for whoever runs Gate A (rule 2b,
+upper-half-of-range close) at `market_close` — a fade this size raises real doubt the
+close lands in the upper half. Not a call made here; Gate A is explicitly a
+market_close/next-premarket read. Rest of the unusual-volume list (TH, TYRA, EVMN,
+BNC, PYXS, XTND, BNED, EAF, SWMR, INBX, BBOT, ACRS, CRBP, TCPC, SHOE, PSQL) carries no
+named dated catalyst (rule 41: source from the earnings calendar, not the screener) —
+no research spent.
+
+**Result: 0/4 satellites, 100% IWM core held, no trade, no forced cuts.** No
+notification — no breaking news on the only open position, no stop actions.
+
+---
+
+## 2026-09-09 — MARKET_OPEN (Wednesday, Week 37 day 2) — NO TRADE, confirms premarket + one fresh catalyst deferred to day 2
+
+Snapshot synced clean: no overnight fills, no stops triggered, positions unchanged
+(IWM core only, 0/4 satellites). Premarket's four kills (AVO, INNV, OCC, CAL) were all
+structural (guidance sizing, cap lid, liquidity median, spread/range) — none needed
+re-checking at the open.
+
+- 🆕 **Step 4 scan surfaced IRD (Opus Genetics)** — this is the exact binary flagged
+  9/02 midday as "anticipatory... kill, not a today catalyst" (September 9 BEST1 data
+  webcast). Today it resolved: **positive** Phase 1/2 Cohort 1 data (BIRD-1 trial),
+  advancing to a higher-dose Cohort 2. Real, dated, positive trial-readout catalyst —
+  passes eligibility cleanly (avg volume 1.13M, 276% over the 300k gate; cap $546M;
+  +25% ladder ~$682M, nowhere near the $2B lid).
+- 🚫 **Killed for TODAY on extension, not on catalyst quality**: +49.6% today alone, on
+  top of +45.9% over the prior 5 days and +77.4% over the month, −0.9% off the 52-wk
+  high. Gap-size framework: >35% same-day = second-day only (rule 2c). **Pre-committed
+  five gates (A–E, rule 42) in `research_log.md` for a possible 2026-09-10 entry** —
+  close-in-range, median ADV re-verify, own-history rule-45 range multiple, and
+  explicitly the rule-29 FOMC (9/16) calendar collision that killed CAL's day-2 this
+  same session. Not asserted as a pass; gates written before the evidence.
+- Rest of `unusual_volume`/`top_movers` overlap: TH, BNED, EVMN, XTND — all negative
+  moves, no catalyst search warranted. TYRA, PYXS, GOLD, EAF, HYPD, BNC, NEOV already
+  standing kills (tape/mandate). CAL, OCC, INNV, AVO unchanged from premarket.
+- **Result: 0/4 satellites, 100% IWM core held, no trade.** No notification — flat
+  session, no stops hit, no breaking news on the only open position.
+
+---
+
+## 2026-09-09 — PREMARKET (Wednesday, Week 37 day 2) — NO ENTRY, but the board was FULL and every name died on a named gate
+
+Book **$3,098.52** = IWM 9.8636 sh @ $294.67 settled (93.80%) + notional cash $192.01
+(6.20%, inside the buffer). Satellites 0/4, weekly count 0/5. Max satellite $464.78.
+
+- 🥇 **The earnings calendar (lesson 41) paid off on its second use.** Nasdaq API returned
+  24 reporters for 9/08 AMC + 45 for 9/09 BMO → **four in-universe names with real dated
+  catalysts** (CAL, OCC, INNV, AVO), on a day the scanner's overlap tier was one usable row.
+  `eligibility` on 11 candidates: **11 requested → 11 returned** ✅ (lesson 43).
+  ⚠️ **This is the opposite of 9/08's empty board and must be written differently** —
+  "nothing qualified" after screening four dated catalysts is a real result, not 41b.
+- ❌ **AVO** (+5.8% pre): beat its own Q3 EBITDA guide by **+1.25%** then **REAFFIRMED** the
+  H2 $84–88M range = **0% raise** (new rule 5f case). Rule 5e composition check inverts it:
+  revenue +38% on volume, but **gross profit FELL**, margin **−270bps**, adj net income
+  **−18%**, GAAP net loss $6.5M. The "synergy target raised to >$30M" never reached the guide.
+- ❌ **INNV** (+14.2% pre, the biggest gap on the board) dies **four** ways: guidance
+  explicitly **in-line** and FY27 revenue guided **+7.9% against an FY26 that did +15.9%**
+  (5a/5c); 🚨 **rule 13 — at $12.01 the +25% rung is $2.04B, THROUGH the $2B lid**; median
+  ADV **288,500 fails by 3.8%** while the mean passes (lesson 46); predicted catalyst-day
+  range **25.2% = 3.6× the 7% trail**, with all ten of its widest days 15.4–34.7%.
+- 🚨 ❌ **OCC** — topped BOTH scanners (+12.5%, 4.3×) **and** reported today, the most
+  tempting row of the session, **dead three ways**: live book **bid $11.47 / ask $20.01 =
+  a 55% spread** (worse than BBCP's 44%); median ADV **236,900 fails by 21%** while the mean
+  **passes by 26.8%**; **median daily range 9.13% — larger than the entire 7% trail.**
+- ⏳ **CAL** is the only clean instrument on the board (median ADV 490,700, all three volume
+  measures agree; median range 4.82%) and its print lands BMO today. **Gates A–E
+  pre-committed in `research_log.md` BEFORE the print (rule 42).** D and E are binding and
+  are not research questions: rule 45 predicts a **16.1% catalyst-day range = 2.3× the
+  trail** → no same-day entry; 45c's day-2 date (Thu 9/10) then runs into **FOMC 9/16**
+  (rule 29). Also closed 9/08 **−3.22% at 3% of range on 1.56× volume** — distribution
+  shape into the print. **Recorded as a near-certain no-trade, not an open thread.**
+- ✅ **Yesterday's kills graded 8-of-10 correct in ONE session** — including both
+  "uncomfortable carries": **NX −3.10%** (rule 5f's first validation) and **CHPT −5.26% at
+  6% of range** (rule 5a). EAF closed **+1.61% at 2% of a 21.4% range**. INSG traded
+  **254,100 shares — under the gate**, confirming its median-ADV kill. ⚠️ **HYPD ran +8.48%
+  at 82% of range — the rule-31 mandate kill cost a real up-move, recorded not rationalised.**
+- 🆕 **Lesson 46g written**: the ±10% ADV re-verify band is a **floor, not a ceiling** (OCC's
+  mean passed by 26.8% and still hid a 21% median failure), and a wide premarket book is
+  **corroboration, not a kill** — **AVO read the same 55% spread on a median ADV that passes
+  by 189%.** A check that always fires carries no information.
+- 🚩 **Basis divergence, SIXTH session**: book $3,098.52 vs slice $3,167.65 = **slice $69.13
+  richer**, narrowed a second straight session ($106.66 → $88.16 → $69.13) for the same
+  mechanism that opens it (lesson 44b), not because anything was fixed. Escalated again.
+- 🚨 **W36 `weekly_review` STILL missing — second session flagging it.** Rocket-vs-SPY chain
+  over a week stale (8/28 W35, −2.51%). Lesson 47 / [[launchd-quota-contention]].
+
+**Result: 0/4 satellites, 100% IWM core, no trade. Macro: Brent broke $100 (new run high),
+10-yr 4.81% for a sixth session through 4.75%, VIX 16.09 (no brake), Russell fut −0.43%
+weakest leg again.** No notification — no breaking news on the only open position.
+
+---
+
 ## 2026-09-08 — MARKET_CLOSE (Tuesday, Week 37 day 1) — NO TRADE, core in band on slice basis, book basis diverges again
 
 **Position review**: 0/4 satellites, nothing to close. IWM core held all session

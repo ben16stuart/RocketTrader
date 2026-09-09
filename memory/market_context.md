@@ -4,153 +4,98 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
+## Snapshot — 2026-09-09 Wednesday premarket (Week 37 day 2)  ← CURRENT
 
-## Snapshot — 2026-09-08 Tuesday premarket (Week 37 day 1)  ← CURRENT
-
-First session after Labor Day. All "last close" figures below are **Friday 2026-09-04's
-settled closes** — Monday was a market holiday, so there is no intervening session and
-these are real settled prints, not thin holiday quotes.
+All "last close" figures are **Tuesday 2026-09-08's settled closes**.
 
 | Metric | Level | Read |
 |---|---|---|
-| 🚨 **10-yr** | **4.78%** (**+0.46%**) | **Turned back UP** after two flat/down sessions (4.796 → 4.760 → **4.78**). **Fifth session through the 4.75% trigger** — and now with a **hot** labor print behind it. Flag live and, for the first time in this stretch, the trend and the fundamentals agree |
-| **VIX** | **15.70** (+2.61%) | Up from Friday's 14.21 two-week low, but far below the 22 brake. **No size restriction** |
-| **Russell fut** | 2,965.50 (**−0.37%**) | 🚨 **The weakest leg** — S&P −0.24%, Nasdaq **+0.10%**. Small caps leaning risk-off into the open, opposite to Friday's cash tape |
-| SPY / IWM | **770.19 (−0.39%)** / **296.01 (+0.28%)** | Friday's settled closes. **Factor +0.67% — in Rocket's favour** |
-| 🚨 **Brent / WTI** | **98.53 (+2.34%)** / 93.86 (+2.60%) | **The ramp did NOT break — it paused one session and resumed at a NEW HIGH.** 92.33 → 95.15 → 97.10 → 95.44 → **98.53 = +6.7% across the run**, WTI confirming every leg |
-| Gold / Dollar | 4,439.60 (+0.22%) / 99.00 (−0.16%) | **Gold pulled back** (4,515.70 → 4,439.60 over the stretch); dollar turned back down |
+| 🚨 **Brent / WTI** | **100.50 (+2.63%)** / 95.18 (+2.31%) | 🚨 **BRENT BROKE $100** — a round number and a new run high. 92.33 → 95.15 → 97.10 → 95.44 → 98.53 → **100.50 = +8.9% across the run.** WTI has confirmed every single leg. The one-session pause on 9/04 is now clearly noise, not a break |
+| 🚨 **10-yr** | **4.81%** (**+0.46%**) | **SIXTH session through the 4.75% trigger**, and rising again (4.78 → 4.81). Lesson 34's "trend, not one print" bar was met yesterday and the trend has extended. Rates + energy now point the same way |
+| **VIX** | **16.09** (+2.35%) | Third session up off the 14.21 low, still far below the 22 brake. **No size restriction** |
+| **Russell fut** | 2,950.90 (**−0.43%**) | 🚨 **The weakest leg for a second straight session** — S&P −0.24%, Nasdaq −0.47%. Small caps still leaning risk-off, and now the whole complex is red |
+| SPY / IWM | **765.96 (−0.55%)** / **294.67 (−0.45%)** | Tuesday's settled closes. **Factor +0.10% — marginally in Rocket's favour** |
+| Gold / Dollar | 4,435.90 (+0.96%) / 98.82 (−0.02%) | Gold bid again after pulling back; dollar flat-to-down |
 
-### The jobs report was a 3× beat, and that changes the rate flag
+### The inflation trade is back to one-way, and this time it has a rates print behind it
 
-**August NFP: +162K against a +53K consensus** — the strongest print since March, the
-first up-month in five, with the **prior two months revised UP by a net +55K** (July
-**−23K → +21K**). Unemployment **4.1%, unchanged**.
-
-Friday's file called this "the whole session in one number." It resolved **hot**, which
-makes a **September hike more live, not less** — under a chair who has refused forward
-guidance. Combined with **Brent at a new run high** and the **10-yr turning back up through
-4.75% for a fifth session**, the rates flag is no longer a lone technical trigger: it now
-has a labor print and a commodity trend pointing the same way. **Lesson 34's "trend, not
-one print" bar is met on rates for the first time.**
+For a week this file has tracked energy/gold/dollar as a proxy for the market pricing
+inflation, and noted on 9/04 that two of three legs had broken. **They have re-formed, and
+Brent is now through $100 at a new run high.** Combine that with the **10-yr through 4.75%
+for a sixth session** and the **3× payrolls beat** (+162K vs +53K, prior two months revised
+up a net +55K, unemployment 4.1%), and the September hike case has three independent inputs
+pointing the same direction rather than one technical trigger.
 
 **The designed response for the core remains no action.** The core carries no trailing
 stop, backed by 33 years of SPY testing in which every stop configuration lost to
 buy-and-hold. **A live flag is not a licence to override a tested design**, and this is
 recorded as a decision, not an omission.
 
-### 🚩 Friday falsified this file's own 8/28 prediction — recorded, not buried
+### 🚨 FOMC is now 5 trading days out and it is closing entry windows
 
-Friday's snapshot argued that **VIX 14.21 into a binary was the 8/28 configuration**, where
-a hawkish surprise made **IWM take it ~7× harder than SPY (−1.35% vs −0.18%)**. The binary
-landed hawkish-adjacent (a 3× payrolls beat), and **IWM went UP +0.28% while SPY went DOWN
-−0.39% — IWM outperformed by 0.67%.** The predicted mechanism did **not** operate.
-
-The plausible read is that a growth surprise helps domestic small caps more than the
-implied rate path hurts them. **But lesson 28 bars booking one session as information —
-and it bars it in this direction exactly as it barred it when the factor hurt.** So:
-the *prediction* is marked failed (lesson 39a — do not let a claim harden by being copied
-forward), while the *explanation* is left unproven.
-
-### 🚨 The calendar for the rest of the week
-
-- **FOMC September 15–16, decision Wednesday 9/16 — 6 trading days out.** A satellite
-  opened today on a 1–5 day hold clears it; **anything opened Thursday or later carries
-  into it.** A dated rule-29 gate for the back half of this week.
-- **Today**: trade balance 8:30 AM (pre-open, the good case); Services PMI ~9:45 and **ISM
-  Services 10:00 AM — 25 minutes AFTER the 9:35 decision window.** ⚠️ **The search source
-  for today's calendar recycled stale content** (it named a Fed Vice Chair who does not hold
-  the office and labelled August data as "September"), so these times are carried as
-  **low-confidence** rather than asserted (lesson 39). The 10:00 ISM shape has held for
-  several sessions and is the part worth planning around.
-- **Wednesday 9/09 is the week's first real earnings slate** — see `research_log.md`.
+**FOMC September 15–16, decision Wednesday 9/16.** A satellite opened **today** on a 1–5 day
+hold reaches 9/16 at the far end; **anything opened Thursday or later carries into it.**
+This is no longer a background note — it is the gate that closed the day-2 entry on CAL, the
+only name that survived today's screen on instrument quality. See `research_log.md`.
 
 ### Factor watch
 
-**IWM +0.28% vs SPY −0.39% = +0.67% of factor Friday**, carried at 93.83% core weight
-≈ **+0.63% on the book.** **Lesson 28 applies with the same force as when it hurt**: one
-session carries no information, and this does not dent the −2.50% since-rebase drift
-escalated to the user. Read it in `weekly_review`.
+**IWM −0.45% vs SPY −0.55% = +0.10% of factor Tuesday**, carried at 93.80% core weight
+≈ **+0.09% on the book.** **Lesson 28: a one-session move carries no information**, and
++0.10% is inside the noise of the noise. The six-week drift (−2.50% since rebase) is the
+figure that matters and it belongs in `weekly_review`.
+
+🚨 **`weekly_review` for W36 (due Fri 9/04) STILL has not run — second session flagging it.**
+No `memory/weekly_reviews/2026-W36.md`, no 9/04 `market_close` entry in `trade_log.md`. The
+hand-built Rocket-vs-SPY chain is now **over a week stale** (last good number: 8/28 W35,
+−2.51%), and every session since has been correctly carrying it forward rather than
+updating it. Lesson 47 / [[launchd-quota-contention]].
 
 ### Instrument health
 
-✅ **`market_data.py macro` clean for a SIXTH straight session** — every field populated.
-🆕 **New calendar instrument adopted**: the **Nasdaq earnings-calendar API** returns ticker
-+ market cap + BMO/AMC in one call. Earnings Whispers and stockanalysis.com both **404'd or
-hit a login wall** via WebFetch, and three web searches produced only partial undated lists.
-**This is now the lesson-41 calendar source.**
-🚨 **WORST SCANNER SESSION ON RECORD — three sign flips and a 35-point error.**
-`top_movers` printed **BNC "+41.0%, $4.92, 1393.8× RelVol"** against a real settled bar of
-**+6.08%, $3.49, 1.86×**; **ENOV "+3.5%" was really −4.33%**, **TROX "+4.0%" really
-−1.43%**, **WTI "+3.6%" really −1.80%**. Tenth straight lesson-17a demonstration, and the
-first time the *sign* of the day's move was wrong on multiple rows. **The overlap tier was
-BNC alone — mandate-excluded, and fictional in both lists.** See `research_log.md`.
+✅ **`market_data.py macro` clean for a SEVENTH straight session** — every field populated.
+✅ **Nasdaq earnings-calendar API delivered on its second use** — 24 reporters for 9/08, 45
+for 9/09, with market cap and BMO/AMC in one call. **It produced four in-universe names with
+real dated catalysts on a day the scanner produced one usable row.** This is now the
+primary board source (lesson 41); the scanner is a name source only (17a).
+🚨 **Lesson 17a, ELEVENTH straight demonstration.** `top_movers` printed **OCC "$15.41,
++12.5%"** against a real settled close of **$13.70, −1.08% at 11% of range** — and the
+scanner ran at **04:22 ET, hours before any BMO release**, so that is a thin premarket print
+reported as both the price and the day's change. **11 of 17 rows carried RelVol `—` or
+`0.0x`; 18 of 20 `unusual_volume` rows were below 1.0×.** The overlap tier was **OCC** plus
+**USDE** (standing rule-31 mandate kill) — one real name, and its live book was **bid $11.47
+/ ask $20.01, a 55%-of-price spread.**
+🆕 **New instrument caveat (46g)**: at ~06:25 ET **every** small cap shows a broken-looking
+book — **AVO read 55% wide on a median ADV of 865,900**, passing the liquidity gate by 189%.
+**The premarket spread check corroborates a median-ADV failure; it is noise on its own.**
 
 ---
 
-## Snapshot — 2026-09-04 Friday premarket (Week 36 day 5)  ← CURRENT
+## Snapshot — 2026-09-08 Tuesday premarket (Week 37 day 1)
 
 | Metric | Level | Read |
 |---|---|---|
-| **10-yr** | **4.76%** (**−0.71%**) | **Second session not rising** (4.796 → 4.760). Still **through the 4.75% trigger for a fourth session**, so the flag stays live — but the seven-session grind has now stopped *and* backed off. Lesson 34 both ways: **watch, do not act** |
-| 🚨 **VIX** | **14.21** (−0.77%) | **A two-week low — into the month's biggest event.** No brake (22). 🚨 **But this is the exact 8/28 configuration**: VIX at a low *ahead* of a binary is **positioning, not calm**, and that read paid when Warsh ran hawkish |
-| Russell fut | 2,967.80 (−0.06%) | Flat, and **up from 2,952.60 yesterday** — the tape is not leaning either way into the print |
-| SPY / IWM | 773.17 (+1.05%) / **295.19 (+0.40%)** | Thursday's settled closes. **Factor −0.65% — against Rocket** |
-| Brent / WTI | 95.44 (−0.08%) / 91.00 (−0.33%) | 🆕 **The three-session ramp BROKE.** Both legs down together for the first time this week |
-| Gold / Dollar | **4,515.70 (+0.53%)** / 99.11 (**+0.11%**) | Gold still bid, but **the dollar has turned UP** (was −0.34%) |
+| 🚨 **10-yr** | **4.78%** (+0.46%) | Turned back UP; fifth session through the 4.75% trigger, now with a hot labor print behind it |
+| **VIX** | **15.70** (+2.61%) | Up from Friday's 14.21 two-week low, far below the 22 brake |
+| **Russell fut** | 2,965.50 (**−0.37%**) | The weakest leg — S&P −0.24%, Nasdaq +0.10% |
+| SPY / IWM | 770.19 (−0.39%) / 296.01 (+0.28%) | Friday's settled closes. **Factor +0.67% — in Rocket's favour** |
+| 🚨 **Brent / WTI** | 98.53 (+2.34%) / 93.86 (+2.60%) | The ramp did not break — it paused one session and resumed at a new high |
+| Gold / Dollar | 4,439.60 (+0.22%) / 99.00 (−0.16%) | Gold pulled back; dollar turned back down |
 
-### The inflation trade paused; the event risk did not
+**August NFP was a 3× beat: +162K vs +53K consensus**, strongest since March, first up-month
+in five, prior two months revised **up a net +55K** (July −23K → +21K). Unemployment 4.1%,
+unchanged. **A September hike is more live, not less.**
 
-Yesterday's file called out one input moving in a straight line all week: **energy up, gold
-up, dollar down** — the market pricing inflation. **Two of those three legs broke
-overnight.** Brent and WTI fell together for the first time this week, and the dollar
-turned positive. Only gold is still rising.
+🚩 **This file's own 8/28 prediction was falsified and recorded, not buried**: it argued a
+low VIX into a binary would make IWM take a hawkish result ~7× harder than SPY (the 8/28
+shape, −1.35% vs −0.18%). The binary landed hawkish-adjacent and **IWM went UP +0.28% while
+SPY fell −0.39%.** The prediction is marked failed (lesson 39a); the explanation — that a
+growth surprise helps domestic small caps more than the implied rate path hurts them — is
+left **unproven**, because lesson 28 bars booking one session as information in the
+favourable direction exactly as it bars it in the unfavourable one.
 
-**Lesson 34 forbids standing a flag down on one print exactly as it forbade raising one**,
-so nothing changes on the rates flag at 4.76% — but the honest read is that the commodity
-story is no longer the clean one-way trend it was 24 hours ago.
-
-### 🚨 The whole session is one number, and it lands at 8:30 AM
-
-**August nonfarm payrolls: +53K consensus** (street range +50K to +58K), **unemployment
-4.1% expected, unchanged**, following July's **−23K**. It resolves **before the open**,
-which is the good case — but it is the month's largest dispersion event, and it arrives
-with a **September rate HIKE genuinely in debate** under a chair who has refused forward
-guidance.
-
-🚨 **The VIX at 14.21 into that is the 8/28 setup, not comfort.** On 8/28 a two-week-low
-VIX ahead of Warsh's debut meant *nobody was positioned*, and **IWM took the result ~7×
-harder than SPY (−1.35% vs −0.18%)**. Rate-sensitive small caps repricing a hawkish
-surprise is a direct, demonstrated mechanism — and IWM is 93.8% of Rocket's book.
-
-**The designed response for the core remains no action.** The core carries no trailing
-stop, backed by 33 years of SPY testing in which every stop configuration lost to
-buy-and-hold. **A live flag is not a licence to override a tested design**, and a jobs
-print is not a reason to time the benchmark.
-
-### 🚨 Labor Day — the calendar gate is stronger than usual today
-
-**Monday 2026-09-07 is Labor Day and the market is CLOSED** (confirmed against the Alpaca
-calendar: 9/04 → 9/08). Any satellite opened today is carried through the jobs reaction
-**and a three-day weekend**. Rule 29 already argues against a same-day entry on an event
-day; the extra day makes it decisive. **Next session is Tuesday 2026-09-08.**
-
-### Factor watch
-
-**IWM +0.40% vs SPY +1.05% = −0.65% of factor Thursday**, carried at 93.81% core weight
-≈ **−0.61% on the book** — it gave back most of Wednesday's +0.69%. **Lesson 28 applies
-with the same force as when it helped**: a one-session move carries no information, and
-yesterday's file was careful not to book Wednesday's gain as recovery. The same discipline
-applies to today's loss. **The six-week read (−2.50% since rebase) belongs in
-`weekly_review`, which runs today.**
-
-✅ **`market_data.py macro` clean for a fifth straight session.**
-🔧 Scanners still poor: **`top_movers` 12 of 17 rows unusable**, **`unusual_volume` 14 of
-17 below 1.0×**. 🚨 **And `top_movers` misreported BBCP as "$10.62, +17.4%" against a real
-regular-session close of $9.05, +1.9%** — a 15-point error from quoting an after-hours
-print, lesson 17a's ninth demonstration. Both of the session's real names came from the
-**earnings calendar**, not the screener. See `research_log.md`.
-⚠️ Yesterday's file recorded **Brent 97.10**; today's settled series implies a prior close
-near **95.52**. The 97.10 was an unsettled intraday print — corrected here rather than left
-to propagate (lesson 39a).
+🚨 **Worst scanner session on record**: three sign flips and a 35-point error. `top_movers`
+printed BNC "+41.0%, $4.92, 1393.8× RelVol" against a real bar of **+6.08%, $3.49, 1.86×**;
+ENOV "+3.5%" was really −4.33%, TROX "+4.0%" really −1.43%, WTI "+3.6%" really −1.80%.
 
 ---

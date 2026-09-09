@@ -17,7 +17,17 @@ Rules derived from real trades. Read every session.
       March** — a beat-and-headline-outlook that reads like rung 1 but is a **0% change**
       once compared to the pre-withdrawal number, not the post-withdrawal silence. **Always
       diff against the last guide that existed, not the last guide that was stated** — a
-      withdrawal is not a reset to zero.
+      withdrawal is not a reset to zero. ✅ **GRADED CORRECT IN TWO SESSIONS**: NX printed
+      the strongest bar on the 9/04 tape (+22.23% on 6.68×, 90% of range) and was logged as
+      an uncomfortable carry — it then closed **−3.10% on 9/08.** **A strong close is not a
+      credit that offsets a failed guide (42a), and the tape confirmed it.**
+      🆕 **5f is broader than withdrawals — a REAFFIRMATION is the same 0% change** (2026-09-09,
+      **AVO**). Mission Produce beat the high end of its own Q3 adj-EBITDA guide by $0.4M
+      (**+1.25%**), announced a headline "synergy target raised to >$30M" — and then
+      **REAFFIRMED** the second-half range at **$84–88M**, with the Q4 guide simply absorbing
+      the beat. 🚨 **The tell is that the raised synergy number never reached the guide: if it
+      were real and near, the half would have moved.** A forward promise is not a delivered
+      result. **Diff the guide, not the adjective in the headline.**
     - 🆕 **5e. READ THE COMPOSITION OF THE BEAT — a one-off larger than net income means the one-off IS the beat.** SWBI's headline was adj EPS **$0.06 vs −$0.05** and GM **28.7% vs 25.9%**. But a **$2.9M non-recurring tariff refund lifted GM ~260bps of the 280bps reported**, and **net income was $2.6M — less than the refund.** Strip it and the quarter is roughly breakeven on roughly flat margins. **A beat assembled out of a non-recurring item does not recur, which is the entire premise of a momentum continuation trade.** Cost of the check: reading one sentence of the release past the headline.
 6. **🚫 P2 is not a substitute for a failed P1.** If the P1 fails its gate, the default is **no satellite. A slot being open is not a thesis.**
 7. **Rank on the BALANCE SHEET, not the growth rate.** **7a.** Score the announcement-to-cash ratio — when a contract is orders of magnitude larger than cash, **the catalyst IS the dilution event** (AGPU ~60x, DUOT). **7b.** A circular counterparty voids the contract as evidence; skip both sides.
@@ -41,6 +51,16 @@ Rules derived from real trades. Read every session.
     - **41a. This is a COVERAGE gap, not a discipline gap — and it is the cheapest gap on the book to close.** Earnings are on a **calendar, published in advance**. Rocket was waiting for beat-and-raise names to bubble up through a volume screen that reports extended-hours quotes as prices (rule 17a, **8 straight falsifications**), printed `0.0x` RelVol for **17 of 20** names, and **returned empty output twice in one week.**
     - **41b. 🚨 A degraded instrument feeding a "no signal" conclusion is indistinguishable from a real absence.** That is lesson 38's blank-result trap operating at the level of the whole session, not one query. **Every premarket now pulls the overnight/before-open earnings reporters and asks "was guidance RAISED?" BEFORE running any screener.**
     - **41c. It qualifies rule 36.** "The board is empty" is only ever true of *the board you looked at*. Naming the cause is necessary but not sufficient — **check that the board was built from a source that cannot silently go blank.**
+    - ✅ 🥇 **41d. THE FIX PAID OFF ON ITS SECOND USE** (2026-09-09). The Nasdaq
+      earnings-calendar API returned **24 reporters for 9/08 AMC and 45 for 9/09 BMO**, which
+      screened to **four in-universe names carrying real dated catalysts (CAL, OCC, INNV, AVO)**
+      — on a session where the scanner's entire overlap tier was **one** usable row (OCC, dead
+      on a 55% spread) plus a standing mandate kill. **The instrument that was supposed to
+      source rung-1 catalysts sourced four, and the screener sourced none.** 🚨 **And note the
+      inverted failure mode this creates: 9/08's board was empty by measurement, 9/09's was the
+      fullest in a week and produced no trade because every name failed a NAMED gate. Those are
+      different outcomes and must be written differently** — "nothing qualified" after screening
+      four dated catalysts is a real result; "nothing qualified" from a blank board is 41b.
 
 42. **🆕 WRITE THE KILL/PASS CONDITION IN ADVANCE, THEN HOLD YOURSELF TO IT** (2026-08-31). Friday's open thread pre-committed: *"if the Street marks up above $17.29 the picture genuinely changes."* Monday the Street **did** mark PD up (Truist $13→$15, Canaccord $10→$15) — and landed **at** the high, mean **$12.64, below the current price**. **Because the bar was written before the evidence arrived, an upward revision could be read as the kill it actually was rather than as encouragement.** A gate specified after seeing the data is not a gate. **42a. Independent gates do not net out.** PD passed dilution at the cleanest tier ever screened and was still a skip on the ladder — **a clean balance sheet is not a credit that offsets a capped ladder.** **42b. Ladder now 6-for-6**, and the two cleanest cases (OOMA, PD) share one shape: **the Street's HIGHEST target sitting below the +15% rung.** That specific configuration is the strongest kill signal on the book.
 43. **🆕 COUNT THE ROWS AGAINST THE TICKERS REQUESTED.** `eligibility PD NEOV RMNI SAIC FLWS SPIR` printed **five** rows, **silently omitting PD**, and **exited 0**. Re-run alone, PD returned normally. **A missing row reads identically to a clean run** — lesson 38's blank trap, now inside a tool that is trusted precisely because it is mechanical. **The omitted name was the session's primary candidate.** Cost of the check: counting to six. 🚨 **43a. SECOND OCCURRENCE, 2026-09-03**: `eligibility MEI LE MTRX GCO DLTH WLY PHR AGX` requested **8** and returned **7 — MEI omitted, exit 0.** Re-run alone, **MEI passed every gate.** Twice now the dropped row was a name that mattered. **This is a reproducible tool defect, not bad luck — the count is mandatory, every call.** ✅ **43b. Did NOT recur 2026-09-04** (8 requested → 8 returned; 5 → 5). ⚠️ **But I briefly believed it had, because I had piped the call through `tail -40` and the "missing" rows were my own truncation.** **Count against the FULL output — a count run on a truncated view manufactures the exact false positive the rule exists to catch**, and a false alarm here costs re-runs and, worse, erodes trust in a check that has twice been right.
@@ -96,6 +116,27 @@ it forecasts the range it is filtering on. **45e. But do not over-extend it: rul
     position is ~44 shares, **0.02% of a median day**, so the ADV gate now binds on *account
     size* rather than on tradeability. **Escalated to the user as an observation; not
     overridden, and it was not load-bearing because rule 45 killed the name independently.**
+    🆕 🥇 **46g. THE ±10% RE-VERIFY BAND IS A FLOOR, NOT A CEILING — AND THE SPREAD CHECK IS
+    CORROBORATION, NOT A KILL ON ITS OWN** (2026-09-09). Two halves, both learned the same
+    session, both about a check firing in the wrong regime:
+    - **Pull the median even when the mean passes by a WIDE margin.** **OCC** read ADV
+      **380,424 — a PASS by 26.8%**, nowhere near lesson 14's ±10% trigger, so nothing would
+      have prompted a re-verify. Its **median is 236,900 — a 21% FAIL**, and its last five
+      normal sessions were **70,300 · 95,300 · 87,000 · 123,000 · 201,500**. The ±10% band
+      was written to catch *marginal* reads; a contaminated mean can clear the gate by any
+      margin at all. **Run the median on every survivor, unconditionally — it is free, the
+      bars are already in hand for rule 45.**
+    - 🚨 **A wide premarket book is only evidence when the median ADV independently fails.**
+      **AVO is the control case**: at 06:25 ET its book read **bid $9.13 / ask $16.12, a 55%
+      spread — identical to OCC's — on a median ADV of 865,900 that passes the gate by
+      189%.** INNV read 48% wide. At that hour essentially every small cap looks broken, so
+      46e **cannot stand alone**: read as a kill it would eliminate every name every
+      premarket, which is lesson 38's blank-result trap wearing the opposite sign. **A check
+      that always fires carries no information.** OCC's and BBCP's spreads were decisive
+      *because* their medians had already failed; AVO's identical spread is discarded.
+    ✅ **46h. GRADED CORRECT THE NEXT SESSION** (2026-09-09): **INSG**, killed 9/08 on a
+    median of 265,700, traded **254,100 shares** on 9/08 — under the gate, on the very
+    session it was being considered.
 
 47. **🆕 A SCHEDULED ROUTINE CAN SILENTLY NOT RUN, AND NOTHING FLAGS IT EXCEPT NOTICING THE GAP** (found 2026-09-08). `weekly_review` was due Friday 2026-09-04 (Week 36) — no `memory/weekly_reviews/2026-W36.md` exists, and `trade_log.md` has no 9/04 `market_close` entry either, meaning that entire session likely never ran. Nobody caught it until `market_close` on 9/08 cross-checked the file list against the calendar. The hand-built book/Rocket-vs-SPY chain (lesson 23a) has silently gone stale for over a week — every session since has correctly *carried forward* the last good number (8/28 W35, −2.51%) but nobody escalated that the chain itself had stopped updating. **47a. Same failure shape as [[launchd-quota-contention]] and 39b: a starved session doesn't announce its own absence — it just leaves a gap that reads as "nothing happened" instead of "nothing ran."** **47b. The fix is cheap: any session can grep `memory/weekly_reviews/` and `trade_log.md` for the expected date and flag a miss same-day**, rather than waiting for someone to notice the chain is a week old. Flagged for the next session that can run the missed W36 reconciliation.
 

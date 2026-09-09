@@ -2067,3 +2067,70 @@ and do not book it as recovery.**
 but recorded here rather than left to propagate (lesson 39a).
 
 ---
+## Snapshot — 2026-09-04 Friday premarket (Week 36 day 5)  ← CURRENT
+
+| Metric | Level | Read |
+|---|---|---|
+| **10-yr** | **4.76%** (**−0.71%**) | **Second session not rising** (4.796 → 4.760). Still **through the 4.75% trigger for a fourth session**, so the flag stays live — but the seven-session grind has now stopped *and* backed off. Lesson 34 both ways: **watch, do not act** |
+| 🚨 **VIX** | **14.21** (−0.77%) | **A two-week low — into the month's biggest event.** No brake (22). 🚨 **But this is the exact 8/28 configuration**: VIX at a low *ahead* of a binary is **positioning, not calm**, and that read paid when Warsh ran hawkish |
+| Russell fut | 2,967.80 (−0.06%) | Flat, and **up from 2,952.60 yesterday** — the tape is not leaning either way into the print |
+| SPY / IWM | 773.17 (+1.05%) / **295.19 (+0.40%)** | Thursday's settled closes. **Factor −0.65% — against Rocket** |
+| Brent / WTI | 95.44 (−0.08%) / 91.00 (−0.33%) | 🆕 **The three-session ramp BROKE.** Both legs down together for the first time this week |
+| Gold / Dollar | **4,515.70 (+0.53%)** / 99.11 (**+0.11%**) | Gold still bid, but **the dollar has turned UP** (was −0.34%) |
+
+### The inflation trade paused; the event risk did not
+
+Yesterday's file called out one input moving in a straight line all week: **energy up, gold
+up, dollar down** — the market pricing inflation. **Two of those three legs broke
+overnight.** Brent and WTI fell together for the first time this week, and the dollar
+turned positive. Only gold is still rising.
+
+**Lesson 34 forbids standing a flag down on one print exactly as it forbade raising one**,
+so nothing changes on the rates flag at 4.76% — but the honest read is that the commodity
+story is no longer the clean one-way trend it was 24 hours ago.
+
+### 🚨 The whole session is one number, and it lands at 8:30 AM
+
+**August nonfarm payrolls: +53K consensus** (street range +50K to +58K), **unemployment
+4.1% expected, unchanged**, following July's **−23K**. It resolves **before the open**,
+which is the good case — but it is the month's largest dispersion event, and it arrives
+with a **September rate HIKE genuinely in debate** under a chair who has refused forward
+guidance.
+
+🚨 **The VIX at 14.21 into that is the 8/28 setup, not comfort.** On 8/28 a two-week-low
+VIX ahead of Warsh's debut meant *nobody was positioned*, and **IWM took the result ~7×
+harder than SPY (−1.35% vs −0.18%)**. Rate-sensitive small caps repricing a hawkish
+surprise is a direct, demonstrated mechanism — and IWM is 93.8% of Rocket's book.
+
+**The designed response for the core remains no action.** The core carries no trailing
+stop, backed by 33 years of SPY testing in which every stop configuration lost to
+buy-and-hold. **A live flag is not a licence to override a tested design**, and a jobs
+print is not a reason to time the benchmark.
+
+### 🚨 Labor Day — the calendar gate is stronger than usual today
+
+**Monday 2026-09-07 is Labor Day and the market is CLOSED** (confirmed against the Alpaca
+calendar: 9/04 → 9/08). Any satellite opened today is carried through the jobs reaction
+**and a three-day weekend**. Rule 29 already argues against a same-day entry on an event
+day; the extra day makes it decisive. **Next session is Tuesday 2026-09-08.**
+
+### Factor watch
+
+**IWM +0.40% vs SPY +1.05% = −0.65% of factor Thursday**, carried at 93.81% core weight
+≈ **−0.61% on the book** — it gave back most of Wednesday's +0.69%. **Lesson 28 applies
+with the same force as when it helped**: a one-session move carries no information, and
+yesterday's file was careful not to book Wednesday's gain as recovery. The same discipline
+applies to today's loss. **The six-week read (−2.50% since rebase) belongs in
+`weekly_review`, which runs today.**
+
+✅ **`market_data.py macro` clean for a fifth straight session.**
+🔧 Scanners still poor: **`top_movers` 12 of 17 rows unusable**, **`unusual_volume` 14 of
+17 below 1.0×**. 🚨 **And `top_movers` misreported BBCP as "$10.62, +17.4%" against a real
+regular-session close of $9.05, +1.9%** — a 15-point error from quoting an after-hours
+print, lesson 17a's ninth demonstration. Both of the session's real names came from the
+**earnings calendar**, not the screener. See `research_log.md`.
+⚠️ Yesterday's file recorded **Brent 97.10**; today's settled series implies a prior close
+near **95.52**. The 97.10 was an unsettled intraday print — corrected here rather than left
+to propagate (lesson 39a).
+
+---
