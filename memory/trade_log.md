@@ -4,6 +4,55 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-10 — NO TRADE (market_close, Thursday, Week 37 day 3) — core in band on slice basis (governing rule), book basis still diverges, no satellites
+
+**No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER
+stop-out) — Step 2 has no rows. Premarket's 3 earnings survivors (WLTH miss, SHOE
+guidance cut, DBI gated on rule 45's 21.7% predicted range) and market_open's 2 fresh
+movers (CMRC reaffirmation-not-a-raise, TSSI no catalyst) were all killed before the
+close; midday found nothing new. IRD closed for good on the day-2 gate-A price-action
+failure. Board stayed IWM-only all session — zero satellite attempts, Week 37 day 3.
+
+**Core rebalance check** (raw qty **9.8636 sh** — lesson 24, never the rounded "10"):
+- **Slice basis (governing per CLAUDE.md)**: portfolio_value $10,468.44 × 30% = slice
+  **$3,140.53**, satellite value $0, 10% buffer $314.05 → target_core **$2,826.48**.
+  IWM value **$2,836.82** (9.8636 sh × $287.605) = **+$10.34 / +0.33% of slice —
+  INSIDE the 3% band. HOLD, no trade.**
+- **Book basis (hand-built, lesson 23a)**: prior book $3,058.73 rolled by today's IWM
+  move (−1.01%, per `position_table.py`) → book **≈$3,028.60**, target_core
+  **≈$2,723.95** (10% buffer $302.66). IWM $2,836.82 is **≈$112.87 / 3.73% over —
+  still outside the band, book basis still says SELL ~$113.**
+- 🚩 **Divergence between the two bases persists — eighth consecutive session
+  flagged** (9/01, 9/02, 9/03, 9/04, 9/08, 9/09, 9/10 premarket, now 9/10 close).
+  Cause unchanged (lesson 44b): Bull's positions and Rocket's IWM keep moving in
+  opposite directions on the same day, so slice-basis and book-basis targets drift
+  apart. **No trade executed — CLAUDE.md's procedure is the slice basis, and slice
+  basis says HOLD.** Still awaiting an explicit user decision on which basis governs
+  long-term; W36's `weekly_review` never ran and W37's (due tomorrow, 9/11) is the
+  next scheduled point to resolve it.
+- Notional cash (book basis) **≈$191.78 (6.33%)** — inside the 10% buffer, no
+  bearish thesis required or written.
+
+**Day P&L** (`position_table.py`, IWM is 100% of Rocket's book): IWM **−1.01% /
+−$28.90** today vs **SPY −0.61%** — Rocket underperformed SPY by ~0.40% today, small-cap
+factor drag on a PPI-day pullback (lesson 28, one session, unfavourable direction).
+All-time on this IWM entry: **−2.51% / −$73.12** (entered $295.12).
+- Since-rebase figure **not recomputed here** — stands at the 8/28 weekly-review chain
+  (Rocket vs SPY **−2.51%**, W35 review, grade C) per the lesson 23a discipline; do
+  **not** cite `portfolio_snapshot.py`'s own since-rebase number (mixes in Bull's P&L
+  since the 7/20 merge). W36 review is missing, W37 due tomorrow (9/11) — that is the
+  next point this chains forward.
+- Weekly count: **0/5** — Week 37 closes day 3 with zero new satellites, a
+  board-quality outcome (three genuine dated catalysts, all killed on structural
+  gates: a miss, a guidance cut, and a rule-45 range/FOMC-timing collision), not a
+  discipline gap.
+
+**Notification sent** — confirmed via `ntfy_notify.py` return ("Notification sent:
+[default] 🚀 Rocket Daily — 2026-09-10"). Message flagged the rebalance basis
+divergence and the W37 weekly_review due tomorrow.
+
+---
+
 ## 2026-09-09 — NO TRADE (market_close, Wednesday, Week 37 day 2) — core OVERWEIGHT crossing band, rebalance escalated, no satellites
 
 **No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER

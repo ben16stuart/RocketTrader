@@ -3,6 +3,137 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-10 — MARKET_CLOSE (Thursday, Week 37 day 3) — NO TRADE, core in band on slice basis, book basis still diverges (8th session), no satellites
+
+**Step 2**: 0/4 satellites, nothing to review — IWM core has no stop by design.
+
+**Step 2.5 core rebalance**: raw qty 9.8636 sh (lesson 24). Slice basis (governing):
+target_core $2,826.48 vs IWM $2,836.82 = **+0.33% of slice, inside band — HOLD.** Book
+basis: target_core ≈$2,723.95 vs IWM $2,836.82 = **+3.73%, still outside — SELL ~$113
+on that basis.** Eighth consecutive session both bases disagree (lesson 44b: Bull's
+book and Rocket's IWM keep moving opposite directions same-day). No trade — slice
+basis is CLAUDE.md's stated procedure. Still no user decision on which basis
+governs; W37 `weekly_review` (due tomorrow, 9/11) is the next natural resolution
+point, and W36's review still never ran.
+
+**Day P&L**: IWM −1.01% / −$28.90 vs SPY −0.61% (position_table.py) — Rocket
+underperformed by ~0.40%, small-cap factor drag on the PPI-day pullback. All-time on
+this entry: −2.51% / −$73.12. Since-rebase Rocket vs SPY stands at the 8/28
+weekly-review chain (−2.51%, grade C) — not recomputed here per lesson 23a (avoids
+portfolio_snapshot.py's Bull-contaminated since-rebase figure).
+
+**Notification sent** — confirmed via ntfy_notify.py ("Notification sent: [default]
+🚀 Rocket Daily — 2026-09-10"). Flagged rebalance-basis divergence and W37 review due
+tomorrow.
+
+---
+
+## 2026-09-10 — MIDDAY (Thursday, Week 37 day 3) — NO TRADE, no cuts, no new setups
+
+**Position review**: 0/4 satellites open, nothing to review. Only Rocket position is
+IWM core (10 sh, entry $295.12, live $288.29, **−2.3%** intraday on the PPI-day
+pullback) — no stop by design, exempt from Step 2's cut/tighten checks. Broker also
+shows Bull's JPM/SCHW/SPY (+12.5%/+2.7%/−1.3%), not Rocket's.
+
+**No per-name news check** — zero satellite positions to check.
+
+**Step 4 scan** (`unusual_volume`): same names as this morning's market_open list
+(RWT, SHOE, BBOT, CMRC, TSSI, XFOR, IRD, WLTH, DBI, ...) — no fresh mover since the
+open. IRD (yesterday's day-2 candidate, already killed this morning on the gate-A
+price-action failure) is now flat-ish at +1.9%; DBI's pre-committed gates still point
+to a Friday/CPI-morning day-2 decision, not today. Nothing new to research.
+
+**Result: 0/4 satellites, 100% IWM core held, no trade, no forced cuts.** No
+notification — no breaking news, no stop actions, core has no stop to manage.
+
+---
+
+## 2026-09-10 — MARKET_OPEN (Thursday, Week 37 day 3) — NO TRADE, confirms premarket, two fresh movers killed on catalyst
+
+Snapshot synced clean: no overnight fills, no stops triggered, positions unchanged
+(IWM core only, 0/4 satellites). Shared account down to $10,474 (PPI-day pullback —
+IWM $288.39 live vs $290.64 settled, SPY $758.18 vs $762.40). Premarket's three kills
+(WLTH, SHOE, DBI) were all structural (miss, guidance cut, binding rules 45/29 gates)
+— none needed re-checking at the open. DBI is +8.1% today on its earnings pop but
+gates E/F (21.7% predicted catalyst range = 3.1× the trail; only valid day-2 entry
+lands on CPI/FOMC) are pre-committed and price-action-independent — correctly held off.
+
+- 🔎 **Step 4 scan surfaced two fresh names not on the premarket board**: **CMRC**
+  (Commerce.com, +22.3%, 13.7x RelVol) and **TSSI** (TSS Inc, +10.1%, 12.8x RelVol).
+  Checked both inline (2 searches, under the 5-search subagent threshold).
+  - **CMRC**: today's move is a cost-cutting/margin restructuring plan (targeting 20%
+    non-GAAP op margins by 2027, $60–80M annualized cost reduction, new $50M buyback)
+    with FY26 **revenue guidance REAFFIRMED** at $336.5–344.5M and op-income guide
+    raised only **$3M** — the same reaffirmation-is-not-a-raise shape as lesson 5f
+    (AVO, NX). Also a data conflict worth flagging: scanner read $3.18, a live search
+    read $2.56 — right at/below the $3 price floor either way. Killed on rule 5f.
+  - **TSSI**: no dated news found explaining today's 12.8x volume spike. Last reported
+    quarter (Q2) was a revenue **decline** (−20% YoY), EBITDA guidance merely reaffirmed
+    toward the upper end — not today's catalyst. Killed on rule 1 (no catalyst = no trade).
+- Rest of `unusual_volume` overlap: RWT (−21.1%, no long thesis), BNC (standing rule-31
+  mandate kill), IRD (already closed on price-action gate 42c), SWMR/XTND/BHVN/BBOT/
+  XFOR/ALMS/OBIO/NAC/DFDV — no dated catalyst screened, not researched individually.
+
+**Result: 0/4 satellites, 100% IWM core held, no trade.** No notification — flat
+session, no stops hit, no breaking news on the core position.
+
+---
+
+## 2026-09-10 — PREMARKET (Thursday, Week 37 day 3) — no entry, 3 survivors from 80 reporters, all dead on named gates
+
+**Board built from the earnings calendar FIRST (lesson 41)**: 41 reporters 9/09 + 39 for
+9/10 = 80 screened. 15 in-universe by cap → `eligibility` (15 requested → **15 returned**,
+lesson 43 count held) → **3 survivors: WLTH, SHOE, DBI.**
+
+- **WLTH** (Wealthfront, AMC 9/09) — **MISSED.** Non-GAAP EPS $0.10 vs $0.104 (−3.6%), net
+  income −49%. Rule 5 never gets past its first question. Best liquidity on the board
+  (median ADV 1,158,400) wasted on a miss. Also closed −1.77% **at 15% of range** into the print.
+- **SHOE** (Shoe Station, released **6:10 AM ET today**) — **GUIDANCE CUT.** Revenue −7.1%,
+  EPS $0.23 vs $0.70, FY adj EPS cut to $0.75–0.90 vs $1.90 actual (≈−55%), GM −390/410bps.
+  The inverse of the entry condition. Premarket −13.1%. Two prior sessions closed at 14%
+  and 26% of range on 3× volume — **the tape front-ran the cut.**
+- **DBI** (Designer Brands, BMO today, call 8:30 ET) — the only live name. **Six gates
+  pre-committed BEFORE the print (rule 42).** E and F are binding and neither is a research
+  question: rule 45 predicts a **21.7% catalyst-day range = 3.1× the 7% trail** (ten widest
+  days 17.8–24.3%, every one blows it), which converts to day-2 = **Friday 9/11 — CPI
+  morning**, with the hold running through **FOMC 9/16**. Live bear case: SHOE, a direct
+  peer, cut on "an increasingly promotional footwear marketplace" two hours earlier.
+
+**IRD day-2: GATE A FAILED, killed on the pre-commitment.** 9/09 settled O 5.31 / H 7.07 /
+L 5.31 / **C 5.73 (+32.03% on 53.9M)** — midpoint $6.19, **closed at 24% of range, below
+it.** Gate C also failed (predicted range 34.5%, actual 30.72%). Per **45e** a price-action
+kill does not convert to a date — **closed, not deferred.** The gate structure worked
+end-to-end: morning table at $6.56, midday flagged the fade without assuming it, settled bar
+resolved it.
+
+**Grading 9/09's kills (32c): 3 of 4 confirmed.** CAL +1.00% **at 2% of range** on 2.66×
+volume, range **15.06% vs rule 45's predicted 16.1%** — 🥇 **rule 45 now 3-for-3 as a range
+predictor.** OCC flat, 17.66% range. INNV +4.85% but at 9% of range. ⚠️ **AVO +4.27%** —
+the rule-5 kill cost a real up-move; recorded, not rationalised (closed at 34% of range).
+
+**🚨 Found an error in 9/09's `market_close`: it struck the rebalance on "raw qty 10 sh."
+The API returns 9.8636.** Corrected, IWM was **2.01% over target — INSIDE the band**, not
+3.28% outside. **The deferred SELL is withdrawn — do not carry it into `market_open`.**
+Lesson 24 firing on the exact field it was written about. Today: slice basis **+0.61% —
+hold**; book basis +3.72% — sell ~$114. **Divergence widened to $105.15 (seventh straight
+session)** because Bull's JPM +13.5% and Rocket's IWM −1.37% moved in opposite directions
+on the same day — lesson 44b at full strength. Still awaiting a user decision.
+
+**Macro**: 🚨 **PPI today 8:30 ET, CPI tomorrow 8:30 ET (last print before FOMC 9/16).**
+Brent **$102.11** at a new run high (+10.6% across the run), 10-yr **4.84%** seventh session
+through the trigger, VIX 16.47 (no size restriction). **IWM −1.37% vs SPY −0.46% = −0.91%
+factor against Rocket** — lesson 28 bars booking one session, honored in the unfavourable
+direction as it was on 9/08 in the favourable one.
+
+**Instrument health**: lesson 17a **twelfth** straight — QUIK "+5.8%" was really −2.01%,
+NMAD "+7.8%" was really −3.89%, **both also below the 300k volume gate.** Scanner overlap
+tier: **zero usable names** (BNC crypto-treasury mandate, LPA Costa Rica domicile).
+
+**Weekly count 0/5. Board stays IWM-only. No trades placed — market closed.**
+🚨 **W36 `weekly_review` still missing (third session flagging); W37's is due tomorrow.**
+
+---
+
 ## 2026-09-09 — MARKET_CLOSE (Wednesday, Week 37 day 2) — END OF DAY, escalated rebalance, no trades, clean close
 
 **Position review**: 0/4 satellites open, IWM core only. No fills overnight, no stops triggered.

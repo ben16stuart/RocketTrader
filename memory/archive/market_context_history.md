@@ -2134,3 +2134,34 @@ near **95.52**. The 97.10 was an unsettled intraday print — corrected here rat
 to propagate (lesson 39a).
 
 ---
+
+---
+
+## Snapshot — 2026-09-08 Tuesday premarket (Week 37 day 1)
+
+| Metric | Level | Read |
+|---|---|---|
+| 🚨 **10-yr** | **4.78%** (+0.46%) | Turned back UP; fifth session through the 4.75% trigger, now with a hot labor print behind it |
+| **VIX** | **15.70** (+2.61%) | Up from Friday's 14.21 two-week low, far below the 22 brake |
+| **Russell fut** | 2,965.50 (**−0.37%**) | The weakest leg — S&P −0.24%, Nasdaq +0.10% |
+| SPY / IWM | 770.19 (−0.39%) / 296.01 (+0.28%) | Friday's settled closes. **Factor +0.67% — in Rocket's favour** |
+| 🚨 **Brent / WTI** | 98.53 (+2.34%) / 93.86 (+2.60%) | The ramp did not break — it paused one session and resumed at a new high |
+| Gold / Dollar | 4,439.60 (+0.22%) / 99.00 (−0.16%) | Gold pulled back; dollar turned back down |
+
+**August NFP was a 3× beat: +162K vs +53K consensus**, strongest since March, first up-month
+in five, prior two months revised **up a net +55K** (July −23K → +21K). Unemployment 4.1%,
+unchanged. **A September hike is more live, not less.**
+
+🚩 **This file's own 8/28 prediction was falsified and recorded, not buried**: it argued a
+low VIX into a binary would make IWM take a hawkish result ~7× harder than SPY (the 8/28
+shape, −1.35% vs −0.18%). The binary landed hawkish-adjacent and **IWM went UP +0.28% while
+SPY fell −0.39%.** The prediction is marked failed (lesson 39a); the explanation — that a
+growth surprise helps domestic small caps more than the implied rate path hurts them — is
+left **unproven**, because lesson 28 bars booking one session as information in the
+favourable direction exactly as it bars it in the unfavourable one.
+
+🚨 **Worst scanner session on record**: three sign flips and a 35-point error. `top_movers`
+printed BNC "+41.0%, $4.92, 1393.8× RelVol" against a real bar of **+6.08%, $3.49, 1.86×**;
+ENOV "+3.5%" was really −4.33%, TROX "+4.0%" really −1.43%, WTI "+3.6%" really −1.80%.
+
+---

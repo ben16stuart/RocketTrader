@@ -5,306 +5,233 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Wed 2026-09-09 market_open update  ← CURRENT
+## Watchlist — Thu 2026-09-10 premarket (Week 37 day 3)  ← CURRENT
 
-### 🆕 IRD — Opus Genetics. Positive BEST1 Phase 1/2 data, the binary flagged 9/02 as anticipatory now resolved. **Too extended for today — pre-committed as a day-2 candidate.**
-
-9/02 midday logged IRD's then +12.5% move as "anticipatory, tied to a September 9 data
-webcast announcement... kill, not a today catalyst" (rule 29 shape). Today IS that date:
-BIRD-1 trial (OPGx-BEST1 gene therapy) reported **positive 3- and 6-month Cohort 1 data**,
-safety + proof-of-concept clean enough to advance to the higher-dose Cohort 2. Real,
-dated, positive regulatory/trial catalyst — not hype.
-
-| Gate | Reading |
-|---|---|
-| Universe (`market_data.py eligibility`) | ✅ price $6.56, cap $546M, **avg volume 1,128,759 — passes by 276%**, NASDAQ, next earnings +63d (no interference) |
-| 🚨 **Extension** | **+49.6% TODAY ALONE**, on top of **+45.9% over the prior 5 days** and **+77.4% over the month** — **-0.9% from the 52-wk high.** Same-day gap-size framework: **>35% = second-day only** (rule 2c). Not a today entry regardless of catalyst quality. |
-| Rule 13 (cap ladder) | ✅ Cleanest read yet — even +25% off today's price is ~$682M, nowhere near the $2B lid |
-| Float / short | 65.2M float (above the <50M preference, not a hard gate); short 14.2% — below the 15% squeeze bar |
-
-#### 🔒 Pre-committed gates for a 2026-09-10 day-2 entry (rule 42) — write BEFORE tomorrow's open
-
-| # | Gate | Kill condition |
-|---|---|---|
-| **A** | Rule 2b | 9/09 must close in the **upper half of today's range**. Below the midpoint = distribution, not continuation — kill regardless of the catalyst. |
-| **B** | Rule 46 | Re-verify ADV on the **median**, not the mean — today's volume bar will contaminate the trailing average exactly like TLYS/OCC did. |
-| **C** | Rule 45 | Pull IRD's own 2y catalyst-day history for a range multiple **before** sizing any stop — a name that just moved 49.6% in a day is a live rule-45 candidate for blowing through a 7% trail on day 2 as well. |
-| **D** | 🚨 **Rule 29** | Entry Thursday 9/10 on a 1–5 day hold can run into **FOMC 9/16** — the same calendar shape that killed CAL's day-2 this session. Check explicitly; do not assume it's clear because the catalyst already resolved. |
-| **E** | Rule 3 | Entry zone = within 10% of 9/09's close, only if gate A holds. |
-
-**Honest prior**: this is a real catalyst that was correctly anticipated a week ago and
-correctly not chased today. Whether it clears day 2 depends on tomorrow's close shape
-and gates B–D — not asserted here.
-
-🆕 **Midday update (10:15 ET)**: IRD has faded hard intraday — $5.57–5.59, +28.4% on the
-day per the scanner, **down from the $6.56 level this morning's gate table was struck
-against** (≈−15%). Still well up on the day, but the trajectory is now a fade, not a
-hold-and-base. This raises real doubt on **Gate A (rule 2b, close in upper half of
-today's range)** — flagged for whoever runs `market_close` to check the actual OHLC
-before writing the close-shape verdict, not carried forward as an assumption.
-
----
-
-## Watchlist — Wed 2026-09-09 premarket (Week 37 day 2)
-
-**Book (hand-built — BASE NAMED, lesson 23a/44)**: **$3,098.52** = IWM **9.8636 sh**
-($2,906.51 @ $294.67 *settled* close, **93.80%**) + notional cash **$192.01 (6.20%)**.
+**Book (hand-built — BASE NAMED, lesson 23a/44)**: **$3,058.73** = IWM **9.8636 sh**
+($2,866.72 @ $290.64 *settled* close, **93.72%**) + notional cash **$192.01 (6.28%)**.
 ✅ **Inside the 10% buffer — no bearish thesis required or written.**
 Satellites **0/4** · weekly count **0/5** (counted by hand — lesson 24) · max satellite
-**$464.78** (15%) · 1.5% risk **$46.48** · shared cash $427.02 (pooled with Bull —
+**$458.81** (15% of book) · 1.5% risk **$45.88** · shared cash $427.02 (pooled with Bull —
 **fund from core, not cash**).
 
-## 🚩 VERDICT: NO ENTRY TODAY. Hold IWM. **The board was NOT empty — it was the fullest in a week, and all four survivors died on named gates.**
+## 🚩 VERDICT: NO ENTRY TODAY. Hold IWM. Two of the three survivors printed the *opposite* of rule 5 — a miss and a guidance CUT — and the third cannot be entered on any date that clears the inflation calendar.
 
-This is the opposite failure mode from 9/08. The earnings calendar produced **four
-in-universe names with real dated catalysts**, and every one was killed on a gate, not on
-an absence of evidence. Two of the four (AVO, INNV) had already printed and were gapping.
+**market_open Step 4 update**: two fresh scanner names, both killed. **CMRC** (+22.3%,
+13.7x) — a cost-cutting/margin plan with revenue guidance REAFFIRMED (not raised),
+op-income guide up only $3M — rule 5f shape (reaffirmation ≠ raise); also a scanner-vs-
+live price conflict ($3.18 vs $2.56, right at the $3 floor). **TSSI** (+10.1%, 12.8x) —
+no dated catalyst found for today's move; last reported quarter was a revenue decline.
+Rule 1 kill.
 
 ---
 
-### 🥇 The earnings calendar ran FIRST (lesson 41) — and this time it delivered
+### 🥇 The earnings calendar ran FIRST (lesson 41). 80 reporters screened, 15 in-universe by cap, 3 survivors.
 
-Nasdaq earnings-calendar API (`api.nasdaq.com/api/calendar/earnings?date=…`), the source
-adopted 9/08. Tradeable slate = **9/08 AMC reporters** (gap today) + **9/09 BMO reporters**.
+Nasdaq earnings-calendar API — **41 reporters for 9/09, 39 for 9/10.** Tradeable slate =
+**9/09 AMC** (gap today) + **9/10 BMO**.
 
-| Slate | Reporters | Screened in-universe |
-|---|---|---|
-| **Tue 9/08 AMC** | 24 | INNV, AVO, CSHR, ALPS |
-| **Wed 9/09 BMO** | 45 | CAL, JILL, PPIH, OCC, HTT, NBP, ANIX |
-
-**`eligibility` on all 11: 11 requested → 11 returned** ✅ (lesson 43 count held; no
-truncation, counted against full output per 43b).
+**`eligibility` on 15: 15 requested → 15 returned** ✅ (lesson 43 count held, run against
+full output per 43b).
 
 | Killed on a hard gate — zero research spent | Kill |
 |---|---|
-| **JILL** | ADV **76,785** — 26% of the gate |
-| **PPIH** | ADV **107,613** |
-| **CSHR** | ADV **203,298** (also CoinShares — crypto proxy, rule 31 independently) |
-| **HTT** | **$2.65** under the $3 floor · ADV 217,254 |
-| **NBP** | **$1.78** |
-| **ANIX** | **$2.90** · ADV 278,140 |
-| **ALPS** | **$0.39** · ADV 124,491 |
-| **SIG $3.35B · ASO $2.79B** | Cap (SIG also Bermuda) |
-| **ODD · CGNT · NNOX** | Israel-domiciled — mandate |
-| **COE · AACG** | China-domiciled — mandate |
-| **ANAB** | Standing rule-13 kill ($1.68B → +25% = $2.10B, through the $2B lid) |
+| **ADV gate (12 names)** | KEQU 4,933 · YB 31,340 · LMNR 82,293 · SKIL 92,103 · LAKE 95,824 · LSAK 128,882 · MCFT 165,132 · VNCE 176,472 · LOVE 227,419 · TEN 247,000 · GLOO 258,406 · **FLWS 295,769 (fails by 1.4%)** |
+| **Cap** | M $5.9B · FIZZ $2.9B · AEO $2.89B · HUBG $2.2B · **UROY $1.84B (rule 13: +25% = $2.30B)** · CULP $43.5M (below floor) · ANAB (standing rule-13) |
+| **Domicile mandate** | IMPP (Greece) · DAVA · YRD · VFS · SA · and YB/TEN above |
 
-**Survivors: CAL, OCC, INNV, AVO.** All four screened below.
+**Survivors: WLTH, SHOE, DBI.** All three screened below.
 
 ---
 
-### ❌ AVO — Mission Produce. Reported AMC 9/08, +5.8% premarket. **Beat-without-a-raise, and the raise that WAS announced never reached the guide.**
+### ❌ WLTH — Wealthfront. Reported AMC 9/09. **There is no beat to size. It MISSED.**
+
+The best instrument on the board and it never reaches rule 5's first question.
 
 | Gate | Reading |
 |---|---|
-| Universe | ✅ **The cleanest liquidity on the board** — median ADV **865,900** (passes by 189%), cap $1.14B, US (Oxnard CA) |
-| 9/08 bar | **+1.50% at 81% of range** on 990,200 (1.14× median) — a firm bar into the print |
-| 🚫 **Rule 5 / 5f** | Q3 adj EBITDA **$32.4M** beat the high end of its own $28–32M guide by **$0.4M = +1.25%** — then **REAFFIRMED** the second-half range at **$84–88M. A 0% change.** Q4 guided $52–55M, which simply absorbs the Q3 beat. **Rule 5d's pass-through diagnostic: beat your own quarter, raise the half by zero → the beat was not run-rate.** |
-| 🚨 **Rule 5e** | **Read the composition and the beat inverts.** Revenue $450.0M on **+38% avocado volume** — but **gross profit FELL** ($44.7M vs $45.1M), **gross margin −270bps to 9.9%**, **adjusted net income −18%** ($15.0M/$0.18 vs $18.2M/$0.26), and GAAP was a **net loss of $6.5M (−$0.08)**. Volume bought with acquisition (Calavo) that earned *less money than last year*. |
-| ⚠️ The headline raise | "Annualized Calavo synergy target raised to **>$30M**" is a **forward promise, not a delivered result** — and the tell is that it did **not** flow into guided EBITDA. If the synergies were real and near, H2 would have moved. It didn't. |
+| Universe | ✅ **The cleanest liquidity screened this week** — median ADV **1,158,400** (passes by 286%), mean 1,487,341, ex-max 1,435,503 — **all three agree**, no lesson-46 split. Cap $1.41B, $9.46, NASDAQ, US |
+| Rule 13 | ✅ +25% → $1.77B, clears the lid |
+| Rule 37a / 45 | Median daily range 4.61% (inside the trail); top-5 multiple 3.17× → predicted catalyst range **14.6% = 2.1× the trail** |
+| 🚫 **Rule 5** | ❌ **Non-GAAP EPS $0.10 vs $0.104 consensus — a MISS of 3.6%**, and **net income fell 49%** on revenue $91.9M. Platform assets +12% to $99B and 1.51M funded clients are real growth, but **rule 5 asks "beat AND raise" and the answer to the first half is no.** |
+| 🚨 **Rule 4** | ❌ 9/09 closed **−1.77% at 15% of its range** on 4,468,000 (3.9× median) — **heavy-volume distribution going INTO the print.** The second straight such bar (9/08: +0.52% at 37% on 4.7M) |
 
-**Rule 5 stands 5-for-5 as a fader on beat-without-a-raise.** Killed. Not re-openable on
-this print.
-
----
-
-### ❌ INNV — InnovAge. Reported AMC 9/08, **+14.2% premarket** ($10.52 → $12.01). Dies FOUR ways.
-
-The largest gap on the board, and the most seductive name of the session.
-
-1. 🚫 **Rule 5a — guidance is explicitly IN-LINE (0% raise).** FY26 was genuinely strong
-   (revenue $989.7M **+15.9%**, adj EBITDA $94.6M vs $34.5M **+175%**, net loss $35.3M →
-   $0.7M). But FY27 guides revenue **$1.05–1.085B, midpoint $1.0675B = +7.9%** — against
-   an FY26 that just delivered **+15.9%**. **The company guided its own growth rate to
-   roughly half.** Adj EBITDA $105–115M (mid $110M) = +16.3% after +175%. Management also
-   flagged a *moderating* rate environment (Medicare +1.5–2% incl. V28, low-single-digit
-   Medicaid). Rule 5c: growth decelerating hard against the year just reported.
-2. 🚨 ❌ **Rule 13 — the second rung is THROUGH the $2B lid.** At the $12.01 premarket
-   price on 135.736M shares out: entry cap **$1.63B**, +15% → $13.81 = $1.87B (clears),
-   **+25% → $15.01 = $2.04B — through the lid.** A one-rung name at best, priced *after*
-   a 14% gap has already been paid for.
-3. ❌ **Lesson 46 — mean passes, MEDIAN fails.** `eligibility` read ADV **313,314, a PASS
-   by 4.4%** — inside lesson 14's ±10% re-verify band, so it was re-verified:
-
-   | Measure (63d) | Value | vs 300k gate |
-   |---|---|---|
-   | Mean, as-is | 320,840 | ✅ passes by 6.9% |
-   | Mean, ex-max bar | 304,647 | ✅ passes by 1.5% |
-   | **Median** | **288,500** | ❌ **fails by 3.8%** |
-
-   Recent sessions: 249,800 · 184,800 · 232,400 · **122,600** · 161,400 — then 535,200 on
-   earnings eve. **The one contaminated bar is doing the work again** (46b).
-4. ❌ **Rule 45 — predicted catalyst-day range 25.2% = 3.6× the 7% trail.** 2y median
-   range 5.77%, own top-5 catalyst multiple **4.37×** (widest 6.02×). Its ten widest days:
-   **15.4, 16.2, 16.5, 18.2, 18.3, 19.0, 20.9, 24.3, 27.0, 34.7%.** *Every single one*
-   blows through a 7% trail.
+**Killed at step zero.** A 49% earnings decline is not a momentum catalyst in either direction
+that Rocket trades. Not re-openable on this print.
 
 ---
 
-### 🚨 ❌ OCC — Optical Cable. **Tops BOTH scanners (+12.5%, 4.3–4.4× RelVol) AND reports BMO today — the single most tempting row of the session. Dead three ways before the print even landed.**
-
-1. 🚨 **Lesson 46e — the live book is the whole argument. Bid $11.47 / ask $20.01 = an
-   $8.54 spread, 55% of price.** Worse than BBCP's 44%, which is the precedent that made
-   this a one-call kill.
-2. ❌ **Lesson 46 — the widest mean/median split yet recorded.** `eligibility` read ADV
-   **380,424 — a PASS by 26.8%**, comfortably *outside* the ±10% band that would normally
-   trigger a re-verify. Raw bars:
-
-   | Measure (63d) | Value | vs 300k gate |
-   |---|---|---|
-   | Mean, as-is | **380,424** | ✅ passes by 26.8% |
-   | Mean, ex-max bar | 342,985 | ✅ passes by 14.3% |
-   | **Median** | **236,900** | ❌ **fails by 21%** |
-
-   Its last five normal sessions: **70,300 · 95,300 · 87,000 · 123,000 · 201,500.**
-   🚨 **46g (new): the median must be pulled even when the mean passes by a wide margin.**
-   Lesson 14's ±10% band would NOT have triggered here — 26.8% is nowhere near it — and
-   the name still trades at 79% of the gate on a typical day. **The ±10% trigger is a
-   floor for re-verification, not a ceiling.**
-3. ❌ **Rule 37a — median daily range 9.13%, LARGER than the entire 7% trail.** Predicted
-   catalyst-day range **~50%** (top-5 multiple 5.98× on an 8.49% 2y median). Float **5.9M
-   shares** — lesson 46c: the low float is precisely *why* it moves 12% and precisely why
-   a 7% stop cannot be filled.
-
----
-
-### ⏳ CAL — Caleres. The only clean instrument on the board. Print lands BMO today. **Gates pre-committed BELOW, before the evidence (rule 42).**
+### ❌ SHOE — Shoe Station Group. Reported **6:10 AM ET today**. **Guidance was CUT. This is the exact inverse of rule 5.**
 
 | Gate | Reading |
 |---|---|
-| Universe | ✅ Passes everything, and **the liquidity is genuinely good**: median ADV **490,700** (passes by 64%), mean 536,437, ex-max 518,063 — **all three agree**, no lesson-46 split. Cap $404M, $12.03, 31.8M float (95%), NYSE, US (St. Louis) |
-| Short float | **12.8%** — below the 15% squeeze bar, no kicker |
-| Rule 37a | ✅ Median daily range **4.82%** — inside the 7% trail on normal days |
-| 🚨 **Rule 45** | ❌ **2y median range 4.41%, top-5 catalyst multiple 3.64× → predicted catalyst-day range 16.1%** (widest 4.32× → 19.0%) = **2.3–2.7× the trail.** Its ten widest days: **13.0–19.0%. Every one blows a 7% trail.** |
-| 🚨 **Rule 4** | ❌ 9/08 closed **−3.22% at 3% of its range** on 765,900 (**1.56× median**) — heavy volume, dead-bottom close. **Distribution shape going INTO the print.** |
-| ⚠️ Timing | Release moved **UP one day** (was 9/10). Call at **10:00 AM ET — 25 minutes AFTER the 9:35 decision window.** Same hostile shape as ISM has had all week. |
+| Universe | ✅ Median ADV **592,500** (passes by 98%), mean 724,743 — agree. Cap $351M, $12.93, NASDAQ, US |
+| 🚫 **The print** | Revenue **$284.3M vs $306.4M, −7.1%** · comps **−7.1%** · diluted EPS **$0.23 vs $0.70, −67%** · gross margin compressing **390–410bps** |
+| 🚫 **The guide** | FY26 **LOWERED**: revenue $1.100–1.111B (−2–3% vs FY25), adj EPS **$0.75–0.90** against an FY25 actual of **$1.90 — roughly −55%**. Management named the cause: an *"increasingly promotional footwear marketplace"* and liquidation of aged inventory |
+| 🚨 **Rule 4, twice** | 9/08 **−4.90% at 14% of range**; 9/09 **−3.36% at 26% of range on 1,768,000 (3.0× median)**. Two consecutive heavy-volume bottom-of-range closes going into the print — **the tape front-ran the cut** |
+| Tape | Premarket **−13.1%** at $11.24 |
 
-**Ladder off the $12.03 settled close: +15% = $13.83 · +25% = $15.04 · 7% stop = $11.19.**
+**Dead. And note the read-across below — this is the live bear case for DBI.**
 
-⚠️ **Pre-print consensus is LOW-CONFIDENCE and conflicting** (rule 11a/33): one source gave
-consensus EPS **$0.31** / revenue **$664.17M**, another **$0.37** / **$702.5M**; price
-targets came back **$14.00 (consensus rating "Reduce")** and **$15.30 average** — the
-latter struck against "a current price of $14.06," **which is not CAL's price** ($12.03
-settled). **Undated and internally inconsistent — recorded as unresolved, not asserted.**
-Note $14.00 clears the +15% rung by only **$0.17 (1.2%)** and fails the +25% rung outright.
+---
 
-#### 🔒 Pre-committed gates for CAL — written BEFORE the print (rule 42)
+### ⏳ DBI — Designer Brands. The only live name. Print lands BMO today, call **8:30 AM ET**. **Gates pre-committed BELOW, BEFORE the print (rule 42).**
+
+| Gate | Reading |
+|---|---|
+| Universe | ✅ Median ADV **564,500** (passes by 88%), mean 590,483, ex-max 577,035 — **all three agree**, no lesson-46 split. Cap $265M, $5.22, NYSE, US (Columbus OH), float 28.7M (67%) |
+| Rule 13 | ✅ +25% → $331M, nowhere near the lid |
+| Rule 4 | ⚠️ **Neutral, and it is the best bar on the board** — 9/09 **+0.38% at 55% of range** on 868,700 (1.54× median). Not distribution, not accumulation |
+| 🚨 **Rule 37a** | ⚠️ Median daily range **6.03% — 86% of the entire 7% trail on a NORMAL day** |
+| 🚨 **Rule 45** | ❌ **2y median range 6.03%, top-5 catalyst multiple 3.60× → predicted catalyst-day range 21.7%** = **3.1× the trail.** Its ten widest days: **17.8, 17.9, 18.2, 18.4, 18.7, 19.5, 19.9, 21.4, 23.4, 24.3%. Every single one blows a 7% trail two to three times over** |
+| ⚠️ Pre-print consensus | EPS **$0.22** (vs $0.29 prior year) on revenue **$737.85M** (vs $771.9M, **−4.4%**) — **the Street is modelling a DECLINE, so "beat" here means beating a lowered bar (rule 5c).** ⚠️ **Undated in the source — low confidence, recorded not asserted (rule 11a)** |
+| 🚨 **Read-across** | **SHOE, a direct footwear-retail peer, cut FY guidance two hours earlier on an "increasingly promotional footwear marketplace."** That is DBI's market too |
+
+**Ladder off the $5.22 settled close: +15% = $6.00 · +25% = $6.53 · 7% stop = $4.85.**
+
+#### 🔒 Pre-committed gates for DBI — written BEFORE the print (rule 42)
 
 | # | Gate | Kill condition |
 |---|---|---|
-| **A** | Rule 5a/5d | FY26 guide must be raised **>2% at the midpoint** vs Caleres' **own prior guide** (it raised on 6/04, so a prior number exists — diff against *that*, not consensus). **Reaffirmation or sub-1% nudge = KILL.** State the % in the log or the label does the reasoning. |
-| **B** | Rule 5c | The new guide must not sit **below the quarter just reported**. |
-| **C** | Rule 11/42b | **Dated post-print** consensus must clear the **+15% rung ($13.83)**. If the Street's **highest** target lands below it → the OOMA/PD configuration, the strongest kill on the book. |
-| **D** | 🚨 **Rule 45** | **BINDING REGARDLESS OF A–C: a 16.1% predicted catalyst-day range is 2.3× the trail → NO SAME-DAY ENTRY.** Per 45c this converts the kill to a *date*: earliest valid entry is **day 2, Thursday 9/10**. |
-| **E** | 🚨 **Rule 29** | A Thursday **9/10** entry on a 1–5 day hold runs to **9/16 — FOMC decision day.** The calendar gate argues against the day-2 entry too. |
+| **A** | Rule 5a/5d | FY26 guide must be raised **>2% at the midpoint vs Designer Brands' OWN prior guide** — not vs consensus. **Reaffirmation, cut, or sub-1% nudge = KILL.** State the % or the label does the reasoning |
+| **B** | Rule 5c | The new guide must not sit **below the quarter just reported**, and beating a consensus that already models −4.4% revenue is **not** a raise |
+| **C** | Rule 5e | Read the composition — if a one-off (tax, inventory credit, store-closure reversal) is larger than net income, the one-off **is** the beat |
+| **D** | Rule 11/42b | **Dated post-print** consensus must clear the **+15% rung ($6.00)**. Street's highest below it → the OOMA/PD configuration, strongest kill on the book |
+| **E** | 🚨 **Rule 45 — BINDING REGARDLESS OF A–D** | **21.7% predicted catalyst-day range is 3.1× the trail → NO SAME-DAY ENTRY.** Per 45c this converts the kill to a *date*: earliest valid entry is **day 2, Friday 9/11** |
+| **F** | 🚨 **Rule 29 — BINDING** | **Friday 9/11 is CPI morning (8:30 ET)** — the last inflation print before FOMC, entered *into* an 8:30 gap that a 7% trail cannot protect against. And a 1–5 day hold from 9/11 runs **9/14–9/18, straight through FOMC 9/16** |
 
-🚩 **Honest read: D and E together mean CAL cannot be entered today, and its only valid
-entry date collides with the FOMC.** This is recorded as a near-certain no-trade, not as an
-open thread — leaving it vague would let a gate be re-specified after the data arrives,
-which rule 42 exists to prevent. Midday may confirm the print against gates A–C for the
-*record* (grading, lesson 32c), not to re-open the entry.
+🚩 **Honest read: E and F together mean DBI cannot be entered today, and its only valid entry
+date sits on top of CPI and runs into the FOMC.** Recorded as a near-certain no-trade, not an
+open thread — leaving it vague would let a gate be re-specified after the data arrives, which
+rule 42 exists to prevent. Midday may grade the print against A–D for the *record* (lesson
+32c), not to re-open the entry.
 
 ---
 
-### ✅ Yesterday's kills graded against the 9/08 settled bars (lesson 32c) — 8 of 10 confirmed in ONE session
+### ❌ IRD — Opus Genetics. **Day-2 GATE A FAILED. Killed on the pre-commitment, as written.**
 
-| Name | 9/08 settled bar | Verdict |
+Yesterday's board pre-committed: *"9/09 must close in the **upper half** of today's range.
+Below the midpoint = distribution, not continuation — **kill regardless of the catalyst**."*
+
+**9/09 settled bar: O $5.31 · H $7.07 · L $5.31 · C $5.73 · +32.03% on 53,900,800 shares.**
+Range midpoint **$6.19. It closed at $5.73 — 24% of range, well BELOW the midpoint.**
+
+| Gate | Verdict |
+|---|---|
+| **A** (rule 2b, close in upper half) | ❌ **FAILED — 24% of range.** Binding on its own |
+| **B** (rule 46, median ADV) | ✅ Passes — median **868,600** (mean 1,966,411 is contaminated by the 53.9M bar exactly as predicted) |
+| **C** (rule 45) | ❌ **FAILED — top-5 multiple 5.18× on a 6.67% median → predicted range 34.5%.** Its ten widest days: **20.9–64.2%. Every one blows a 7% trail 3–9× over**, and yesterday's actual range was **30.72%** |
+| **D** (rule 29, FOMC) | ❌ **FAILED — and worse than flagged**: a 9/10 entry now also straddles **PPI today and CPI tomorrow** |
+| **E** (rule 3, entry zone) | Moot — A failed |
+
+✅ **The gate structure did its job.** The morning table was struck against $6.56/+49.6%;
+midday flagged the fade to ~$5.58 and explicitly declined to carry it as an assumption; the
+settled bar resolved it at $5.73. **A pre-committed price-action gate was checked against
+the actual OHLC and killed the name — no re-specification.** Per **45e**, a price-action
+kill does **not** convert to a date: it does not improve overnight. **Closed, not deferred.**
+
+📌 **Missed-catalyst rule check**: IRD's +32.03% is the largest in-universe move in three
+sessions and is **under the >35% threshold**, so the 3-day recheck does not open. Rule 3's
+second-day path required a close above the midpoint and it closed at 24%. **Both doors shut
+by the same bar.**
+
+---
+
+### ✅ Yesterday's kills graded against the 9/09 settled bars (lesson 32c) — 3 of 4 confirmed
+
+| Name | 9/09 settled bar | Verdict |
 |---|---|---|
-| 🥇 **NX** | **−3.10%**, 41% of range | ✅ **Rule 5f's first graded validation.** Yesterday this was logged as "the strongest bar on the tape, and the kill still stands — an uncomfortable carry." One session later the reinstated-guide kill is paying. |
-| 🥇 **CHPT** | **−5.26% at 6% of range** on 5.4M | ✅ **Rule 5a/5b (+0.6% guide midpoint) graded correct.** The 9/03 +49.3% spike is unwinding. The second uncomfortable carry, also resolved for the kill. |
-| **EAF** | **+1.61% at 2% of range** on a **21.43% range** | ✅ Rule 1 (no dated catalyst) correct — and the 21.4% range would have blown a 7% trail **three times over** |
-| **INSG** | +2.83%, 36% of range, **volume 254,100 — under the 300k gate** | ✅ The lesson-46 median kill confirmed by the very next session's raw volume |
-| **HLF** | +0.40%, 11% of range | ✅ |
-| **SG** | +1.61%, 45% of range | ✅ |
-| **TROX** | −0.21%, 28% of range | ✅ |
-| **NVA** | +5.87%, 51% of range | ✅ (mandate kill — moot either way) |
-| ⚠️ **HYPD** | **+8.48% at 82% of range** | ⚠️ **The rule-31 mandate kill cost a real up-move — recorded, not rationalised.** Note its **13.97% range = 2× the trail**, so rule 45 kills it independently of the mandate. |
-| ⚠️ **SWBI** | +2.64%, 84% of range | ⚠️ Bounced. The 5a/5d kill (+0.95% guide) is mildly uncomfortable again after grading correct on 9/04. Carried, not re-opened (rule 42a). |
+| 🥇 **CAL** | **+1.00% at 2% of range**, range **15.06%**, on 1,303,900 (**2.66× median**) | ✅ **Rule 45's third straight validated forecast: predicted 16.1%, actual 15.06%.** And a dead-bottom close on heavy volume — the rule-4 shape held. Both gates correct |
+| **OCC** | **0.00% at 83% of range**, range **17.66%** on 1,409,100 | ✅ The instrument kill (55% spread, median ADV 236,900) confirmed — a **17.66% range is 2.5× the trail**; flat on the day |
+| **INNV** | **+4.85% but at 9% of range**, range **11.60%** | ✅ Up on the day, closed at the low. The guidance kill holds and the 11.6% range would have blown the trail |
+| ⚠️ **AVO** | **+4.27% at 34% of range**, range 9.09% | ⚠️ **The rule-5 kill cost a real up-move — recorded, not rationalised.** Mitigating: bottom-third close, and a 9.09% range exceeds the trail independently. **Rule 5's fader tally is now 5-for-6 on the next-session bar** |
 
-📌 **Missed-catalyst rule check**: nothing in-universe has run **>35%** in the last 3
-sessions. EAF's +21.9% was the largest and it closed at 2% of its range. CHPT's 9/03 +49.3%
-is now **day 4 — the 3-day recheck window has expired**, and it is under a standing
-guidance kill besides.
+🥇 **Rule 45 is now 3-for-3 as a range PREDICTOR**: GIII 14.3%→14.6%, DAKT 13%→14.8%,
+CAL 16.1%→15.06%.
 
 ---
 
-### 🚩 Rebalance-basis divergence — carried, narrowed again, **SIXTH** session (lesson 44/44c)
+### 🚨 Instrument health — lesson 17a, TWELFTH straight demonstration
 
-| Basis | Value | Divergence |
-|---|---|---|
-| **Book** (hand-built, lesson 23a — **the base used above**) | **$3,098.52** | — |
-| **Slice** (30% of live shared equity $10,558.82) | $3,167.65 | **slice +$69.13 richer** |
-
-**Narrowed for a second straight session: $106.66 → $88.16 → $69.13.** Consistent with
-lesson 44b's mechanism running in reverse — Bull's JPM gave back (+13.3% → +12.6%) while
-IWM held, so the gap Bull's P&L opens has partly closed. **It is closing for the same
-reason it opens — not because anything was fixed.** 🚨 **Sixth consecutive session.
-Escalated 9/01, 9/02, 9/03, 9/04, 9/08; still awaiting a user decision on which basis
-governs.** No action here — rebalancing is `market_close` only (rule 6).
+- **QUIK**: `top_movers` printed **"$11.35, +5.8%"** against a real settled 9/09 close of
+  **$10.73, −2.01% at 26% of range on 216,600 shares.** A sign flip, a 7.8-point error, and
+  the name **fails the 300k volume gate** besides.
+- **NMAD**: printed **"$4.00, +7.8%"** against a real bar of **$3.71, −3.89% at 0% of
+  range on 188,800.** Second sign flip, second volume-gate failure.
+- **SHOE**: the scanner's **−13.1%** is a **real** move (the 6:10 AM guidance cut) — but it
+  is still an extended-hours quote in a column labelled `Change %`. **Right by accident is
+  not right** (the 9/09 INNV note, restated).
+- `top_movers` gave **12 of 20 rows** a RelVol of `—` or `0.0x`. `unusual_volume` had
+  **19 of 20 below 1.0×.**
+- Overlap tier (both lists): **BNC** (CEA Industries — BNB crypto treasury, standing rule-31
+  mandate kill) and **LPA** (Logistic Properties of the Americas — **Costa Rica**, domicile
+  mandate kill). 🚨 **Zero usable overlap names. The screener sourced nothing again; the
+  earnings calendar sourced 80 reporters and 3 survivors** (lesson 41d, third demonstration).
 
 ---
 
-### 🚨 Instrument health — lesson 17a, ELEVENTH straight demonstration
+### 🚨 Rebalance basis — SLICE now says HOLD, and yesterday's close was WRONG (lesson 24)
 
-- **OCC**: `top_movers` printed **"$15.41, +12.5%"** against a real settled 9/08 close of
-  **$13.70, −1.08% at 11% of range.** The scanner ran at **04:22 ET — hours before any BMO
-  release** — so that is a thin premarket print reported as both the price and the day's
-  change.
-- **INNV**: scanner "+14.2%" **is** a real earnings gap (corroborated by `preMarketPrice`
-  $12.01) — but it is still an extended-hours quote in a column labelled `Change %`.
-  **Right by accident is not right.**
-- `top_movers` gave **11 of 17 rows** a RelVol of `—` or `0.0x`. `unusual_volume` had
-  **18 of 20 below 1.0×**, i.e. below average volume.
-- Overlap tier (both lists): **OCC** and **USDE** (stablecoin proxy — standing rule-31
-  mandate kill). Effectively **one real overlap name, and it had a 55% spread.**
+🚨 **`market_close` on 9/09 struck the rebalance on "raw qty 10 sh from broker." The raw
+qty is 9.8636.** The broker API returns 9.8636; only the *display* rounds — which is
+precisely what lesson 24 was written about after IWM printed "10" against a real 9.5031.
 
-### 🆕 46g — a wide premarket book is only evidence when the median ADV independently fails
+| 9/09 close, as computed | 9/09 close, corrected |
+|---|---|
+| 10 × $294.67 = $2,946.70 → **$103.67 / 3.28% over — OUTSIDE band, SELL** | 9.8636 × $294.67 = **$2,906.51 → $63.48 / 2.01% over — INSIDE the band, NO TRADE** |
 
-**AVO is the control case that proves it.** At 06:25 ET its book read **bid $9.13 / ask
-$16.12 — a 55% spread, identical to OCC's** — yet AVO's **median ADV is 865,900, passing
-the gate by 189%.** INNV read 48% wide on a median that fails by 3.8%.
+**The deferred SELL should not be carried into today's `market_open` — it does not exist on
+the slice basis.** Yesterday's claim that "both bases agree direction (SELL) for the first
+time" is **withdrawn**; it was an artifact of the rounded share count.
 
-**At this hour essentially every small cap shows a broken-looking book**, so lesson 46e's
-spread check **cannot stand alone as a kill** — it corroborates a median-ADV failure and is
-noise without one. Read the other way it would kill every name every premarket, which is
-lesson 38's blank-result trap wearing the opposite sign: **a check that always fires
-carries no information.** OCC's and BBCP's spreads were decisive *because* their medians
-had already failed; AVO's identical spread is discarded.
+**Today's figures (9/09 settled close $290.64, raw qty 9.8636):**
+
+| Basis | Book/slice | target_core | IWM value | Deviation | Call |
+|---|---|---|---|---|---|
+| **Slice** (30% × $10,546.25) | $3,163.88 | $2,847.49 | $2,866.72 | **+$19.23 = +0.61%** | ✅ **in band — HOLD** |
+| **Book** (hand-built, lesson 23a) | $3,058.73 | $2,752.86 | $2,866.72 | **+$113.86 = +3.72%** | ❌ outside band — SELL ~$114 |
+
+🚨 **Divergence WIDENED to $105.15 (slice richer), reversing three sessions of narrowing
+($106.66 → $88.16 → $69.13 → $105.15) — SEVENTH consecutive session.** Cause is lesson 44b
+running at full strength: **Bull's JPM +13.5% and SCHW +3.2% while Rocket's IWM fell
+−1.37%.** Every dollar Bull makes raises Rocket's core target on the slice basis; every
+dollar IWM loses lowers it on the book basis. The two moved in opposite directions on the
+same day. **Escalated 9/01, 9/02, 9/03, 9/04, 9/08, 9/09; still awaiting a user decision on
+which basis governs.** No action here — rebalancing is `market_close` only (rule 6).
 
 ---
 
 ### Scheduled catalysts
 
-- 🚨 **FOMC September 15–16, decision Wednesday 9/16 — 5 trading days out.** A satellite
-  opened **today** on a 1–5 day hold reaches 9/16 at the far end; **anything opened
-  Thursday or later carries into it.** Live rule-29 gate for the rest of the week, and it
-  is the gate that closes CAL's day-2 entry.
-- **Today**: CAL earnings call **10:00 AM ET** (25 min after the decision window); wholesale
-  inventories 10:00 AM. No tier-1 macro print before the open.
-- **Thu 9/10**: the week's next real slate — screen from the calendar at premarket, not the
-  scanner.
+- 🚨 **TODAY, 8:30 AM ET: PPI (August).** One hour before the open.
+- 🚨 **TOMORROW, Fri 9/11, 8:30 AM ET: CPI (August) — the LAST inflation print before the
+  FOMC decision.** This closes Friday as an entry date on top of everything else: rule 45's
+  day-2 conversions all land on it.
+- 🚨 **FOMC September 15–16, decision Wednesday 9/16 — 4 trading days out.** Anything opened
+  today at the far end of a 1–5 day hold reaches it; **anything opened Friday carries
+  through it.**
+- **Today**: DBI earnings call **8:30 AM ET** (65 min before the decision window).
+- 🚨 **`weekly_review` for W36 (due Fri 9/04) STILL has not run — third session flagging it.**
+  W37's is due **tomorrow, Fri 9/11**. Lesson 47 / [[launchd-quota-contention]].
 
 ### Re-open conditions for killed names (everything else needs a new dated catalyst)
 
 | Name | What would have to change |
 |---|---|
-| **AVO** | A **sized** raise to the H2/FY EBITDA guide (>2% at the midpoint), **and** gross margin stabilising — the −270bps with volume +38% is the actual problem |
-| **INNV** | ⚠️ **Not re-openable on this print.** Needs a sustained **median** volume above 300k **and** a price low enough that the +25% rung clears the $2B lid (≤$14.73 entry) |
-| **OCC** | ⚠️ **Not re-openable on a catalyst** — only a sustained **median** volume above 300k and a normal spread. A 9.13% median range exceeds the whole trail regardless |
-| **CAL** | Gates A–E above. **D and E are the binding ones and neither is a research question** |
-| **NX** | A **sized** raise against the **pre-withdrawal** March guide (5f), not a reinstatement |
-| **SWBI** | A **sized** raise (>2% on revenue) **and** dated post-print targets. The Q2 +10% guide must be beaten and passed through |
-| **CHPT** | A **sized** raise (>2% at the midpoint) **and** a dated post-print consensus above 1.15× entry |
-| **INSG** | A **dated** catalyst **and** a sustained *median* volume above 300k **and** the S-3 graded (8a) |
-| **EAF** | A **dated** catalyst. The "Defense Dept partnership speculation" headline was undated and explicitly speculative (rule 33) |
-| **BBCP · TLYS · JILL · PPIH · CSHR** | ⚠️ **Not re-openable on a catalyst** — only a sustained **median** volume above 300k, or a user decision on the ADV gate |
-| **CAPR** | In universe but the **PDUFA was EXTENDED Aug 22 → Nov 22** — lesson 37c: an extension is a delay repriced as optionality, **not a catalyst delivered** |
-| **HLF · SG · TROX · AMRC · WTI · ENOV · UPB** | Earnings **11/02–11/05**. No dated catalyst inside any tradeable horizon |
-| **ALMU** | Earnings **9/16** — re-screen after the print (note it collides with FOMC day) |
+| **DBI** | Gates A–F above. **E and F are the binding ones and neither is a research question** |
+| **WLTH** | ⚠️ **Not re-openable on this print** — needs an actual beat with a sized raise. Instrument quality is excellent; keep it on the calendar for the next report |
+| **SHOE** | ⚠️ **Not re-openable** — a guidance cut is the inverse of the entry condition. Needs a full cycle |
+| **IRD** | ⚠️ **Closed on a PRICE-ACTION gate (45e) — does not convert to a date.** Needs a NEW dated catalyst; Cohort 2 data would qualify when dated |
+| **CAL** | Gates A–E from 9/09. Rule 45 (16.1% predicted, **15.06% actual**) and the FOMC collision both stand |
+| **AVO** | A **sized** raise to the H2/FY EBITDA guide (>2% at the midpoint) **and** gross margin stabilising |
+| **NX · SWBI · CHPT** | A **sized** raise (>2% at the midpoint — NX against the **pre-withdrawal** March guide, 5f) **and** a dated post-print consensus above 1.15× entry |
+| **INSG** | A **dated** catalyst **and** sustained *median* volume >300k **and** the S-3 graded (8a) |
+| **EAF** | A **dated** catalyst. The "Defense Dept partnership" headline was undated and explicitly speculative (rule 33) |
+| **CAPR** | PDUFA **EXTENDED Aug 22 → Nov 22** — lesson 37c: a delay repriced as optionality |
+| **ALMU** | Earnings **9/16** — re-screen after the print (collides with FOMC day) |
 | **PHR** | ⚠️ **Resolve the earnings date first** (two sources disagreed 9/03) |
 | **ARCT** | ARCT-810 Phase 2 **date becomes a fact** |
-| **BNC · USDE · DFDV · ABTC · HYPD · CSHR** | Crypto/stablecoin proxies — **mandate-excluded, lesson 31**. Standing, not re-researched |
-| **ANAB · NVA · HTT · NBP · ANIX · ALPS · SIG · ASO · ODD · CGNT · NNOX · COE · AACG** | Killed on a hard gate or mandate this session / standing |
-| **GIII · DAKT · NEOV · YEXT · PD · RMNI · MEI · CBIO · TYRA · PYXS · RARE · GOLD** | Killed on the tape or a hard gate. New dated catalyst only |
-| **IRD** | ⚠️ **Not a stale kill anymore — see the 9/09 market_open entry above.** Real dated catalyst delivered, pre-committed day-2 gates A–E written for 2026-09-10 |
-| **LTRX · OOMA · FRNM · SSTK · BBW · OSG · XHLD · NABL · LENZ · ALMS · EOSE · OABI** | Killed W35–W36, reasons in `archive/research_log_history.md` |
+| **HLF · SG · TROX · AMRC · WTI · ENOV · UPB** | Earnings **11/02–11/05**. No dated catalyst inside any tradeable horizon |
+| ⚠️ **Liquidity-locked** — INNV (also needs entry ≤$14.73 for the lid) · OCC (9.13% median range exceeds the trail regardless) · BBCP · TLYS · JILL · PPIH · CSHR · LSAK · GLOO · LMNR · LAKE · KEQU · SKIL · MCFT · VNCE · LOVE · FLWS · QUIK · NMAD | **Not re-openable on a catalyst** — only sustained **median** volume above 300k, or a user decision on the ADV gate |
+| **Standing mandate kills** — BNC · USDE · DFDV · ABTC · HYPD (crypto, lesson 31) · LPA · TEN · YB · IMPP · DAVA · YRD · VFS · SA · ODD · CGNT · NNOX · COE · AACG · NVA (non-US) | Category-excluded. Not re-researched |
+| **Hard-gate kills** — ANAB · UROY · M · FIZZ · AEO · HUBG · SIG · ASO · CULP · HTT · NBP · ANIX · ALPS | Cap / price / volume. New instrument only |
+| **Tape kills** — GIII · DAKT · NEOV · YEXT · PD · RMNI · MEI · CBIO · TYRA · PYXS · RARE · GOLD · LTRX · OOMA · FRNM · SSTK · BBW · OSG · XHLD · NABL · LENZ · ALMS · EOSE · OABI | New dated catalyst only. W35–W36 reasons in `archive/research_log_history.md` |
