@@ -4,7 +4,89 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-09-10 Thursday premarket (Week 37 day 3)  ← CURRENT
+## Snapshot — 2026-09-11 Friday premarket (Week 37 day 4 — CPI MORNING)  ← CURRENT
+
+All "last close" figures are **Thursday 2026-09-10's settled closes**.
+
+| Metric | Level | Read |
+|---|---|---|
+| 🚨 **THE CALENDAR** | **CPI PRINTED 8:30 ET · FOMC decision 9/16 (2 trading days out)** | 🚨 **Update, midday**: actual print **headline +0.4% m/m / 3.4% y/y — in line**; **core +0.3% m/m, 0.1pt HOTTER than the +0.2% consensus** (core y/y 2.4%, in line). Stocks rallied on the print (yields eased), but **Fed funds futures moved to ~90% odds of a hike at 9/16** — up from earlier in the week. Rally + higher hike odds is not a contradiction the market has resolved for us; it sharpens rule 29's calendar gate rather than closing it. FOMC still sits in the MIDDLE of any 1–5 day hold opened today (9/11 · 9/14 · 9/15 · **9/16** · 9/17) |
+| 🚨 **10-yr** | **4.94%** (**+2.21%**) | 🚨 **EIGHTH session through the 4.75% trigger and the BIGGEST single-session jump of the run: 4.78 → 4.81 → 4.84 → 4.94, +10bps in a day.** Lesson 34's "trend, not one print" bar was met five sessions ago. **This is the cleanest, best-corroborated macro signal on the board** |
+| **VIX** | **17.09** (**−4.20%**) | Below the 22 brake — **no size restriction.** ⚠️ **But note the direction: VIX FELL 4.2% INTO CPI day.** After a week of this file flagging the CPI/FOMC pair, the options market is pricing the print as routine. Either the flag is overdone or the tape is complacent; **one print will not settle it (rule 34)** |
+| **Russell fut** | 2,911.20 (**+0.62%**) | ⚠️ **The same pattern as yesterday: a positive change print on a LOWER level** (2,925.50 → 2,911.20, −0.5% overnight). S&P +0.59%, Nasdaq +0.67% — **Russell is the laggard of the three for a third straight session** |
+| SPY / IWM | **757.83 (−0.60%)** / **287.70 (−1.01%)** | Thursday's settled closes. 🚨 **Factor −0.41% against Rocket** — second consecutive adverse session (−0.91% Wednesday) |
+| Gold / Dollar | 4,385.30 (+0.48%) / 99.15 (+0.06%) | ⚠️ **Level/change inconsistent — see instrument health.** Dollar flat and cross-checks clean |
+| ⚠️ **Brent / WTI** | **103.95 (−3.42%)** / **99.22 (−3.18%)** | ⚠️ **DO NOT ASSERT A DIRECTION FROM THIS — the print is internally inconsistent** (below). What is safe to say: **Brent is ~$104 and still clearly above $100**, up from 92.33 at the start of the run |
+
+### The rates leg is now the signal; the energy leg is unreadable this session
+
+For a week this file tracked energy + rates + gold as three independent inputs pointing at
+a September hike. **Today only the rates leg is trustworthy, and it is the strongest it has
+been: the 10-yr jumped 10bps to 4.94%, an eighth session through trigger.** The energy and
+gold prints disagree with their own levels (below), so **they are recorded as unresolved
+rather than folded into the thesis.** Honest position: one clean confirming input, one
+broken instrument, and a VIX that has stopped caring — **not the three-for-three alignment
+this file claimed yesterday.** Lesson 39a: a dated entry copied forward three times is one
+unchecked claim read three times.
+
+**The designed response for the core remains no action.** The core carries no trailing stop,
+backed by 33 years of SPY testing in which every stop configuration lost to buy-and-hold.
+**A live flag is not a licence to override a tested design** — recorded as a decision, not
+an omission.
+
+**For satellites it is the opposite**, and today rule 29 is the binding kill on the whole
+board: CPI in 2 hours, FOMC inside the hold window.
+
+### Factor watch
+
+🚨 **IWM −1.01% vs SPY −0.60% = −0.41% of factor Thursday**, carried at 93.66% core weight
+≈ **−0.38% on the book** — Rocket's whole day, since there are no satellites. **Second
+consecutive adverse session** (−0.91% Wednesday). Lesson 28 bars booking a one-session
+move as information and that is honored here; but the *direction* matches the six-week
+drift (−2.50% since rebase), which is the figure that matters and it belongs in
+`weekly_review`.
+
+🚨 **`weekly_review` W36 (due Fri 9/04) STILL has not run — FOURTH session flagging it.**
+`memory/weekly_reviews/` ends at **2026-W35**; no 9/04 `market_close` entry in
+`trade_log.md`. **W37's is due TODAY — two reviews now owed**, and three open escalations
+(rebalance basis, stop width, ADV-gate-vs-account-size) need one of them. The hand-built
+Rocket-vs-SPY chain is **ten sessions stale** (last good: 8/28 W35, −2.51%). Lesson 47 /
+[[launchd-quota-contention]].
+
+### Instrument health
+
+✅ **`macro` populated every field for a NINTH straight session** — but see the caveat below;
+populated is not the same as correct.
+⚠️ 🆕 **NEW — `macro` level-vs-change inconsistency on TWO commodity fields.** Brent prints
+**103.95 with −3.42%**, which implies a prior close of **107.63** — but this file recorded
+Brent at **102.11** yesterday. Gold prints **4,385.30 with +0.48%** against yesterday's
+recorded **4,435.40**, which is **−1.13%**, not +0.48%. **Either yesterday's readings were
+intraday prints rather than settles, or the continuous futures contract rolled.** Per lesson
+15 this is a broken instrument, not a cosmetic glitch, and per lesson 38 the gap is
+**resolved-or-flagged, never scored**. 📌 **The equity and rates fields cross-check clean
+against yesterday's recorded closes (SPY 762.40 → 757.83 = −0.60% ✅, IWM 290.64 → 287.70 =
+−1.01% ✅), so the defect is confined to the commodity rows.**
+✅ **`eligibility`: 13 requested → 13 returned** (lesson 43 count held, run against full output).
+⚠️ 🆕 **`market_data.py price REF LPTH ACVA` returned ONE row for three tickers, exit 0** —
+lesson 43's silent-omission defect, now observed on a **second** command. Re-run one ticker
+at a time, all three returned. **Count rows on every multi-ticker call, not just `eligibility`.**
+✅ **Nasdaq earnings-calendar API delivered on its fourth use** — 38 reporters for 9/10, 14
+for 9/11, with cap and BMO/AMC in one call. It sourced **three of the four survivors**
+(REF, FEIM, LPTH); the scanner sourced one (ACVA), and ACVA turned out to be a cash tender
+offer with the upside pinned.
+🚨 **Lesson 17a — THIRTEENTH straight demonstration, and `unusual_volume` is now useless.**
+`top_movers` gave **12 of 20 rows** a RelVol of `—` or `0.0x`; **`unusual_volume` had 19 of
+20 rows below 1.0×, and its top row (ACVA) printed 1.7× against a real 9/10 volume of
+19,410,000 = 6.5× median.** A list sorted by relative volume whose highest entry is 1.7×,
+on a day one of its names traded 6.5× median, is not measuring relative volume at all.
+⚠️ **ACVA is the reverse of the "right by accident" case**: the scanner's **+43.9%** was a
+**real** premarket move off the settled close — the only time in thirteen sessions the
+`Change %` column has been correct — **and the name was still a kill** (rule 27, cash
+tender). Accuracy on the price column does not make the row tradeable.
+
+---
+
+## Snapshot — 2026-09-10 Thursday premarket (Week 37 day 3)
 
 All "last close" figures are **Wednesday 2026-09-09's settled closes**.
 
@@ -70,72 +152,5 @@ guidance cut), but it is still an extended-hours quote in a `Change %` column.
 **9.8636**. Corrected, IWM was **2.01% over target — inside the band**, not 3.28% outside.
 **This is lesson 24 exactly, firing on the same field it was written about.** See
 `research_log.md`; the deferred SELL is withdrawn.
-
----
-
-## Snapshot — 2026-09-09 Wednesday premarket (Week 37 day 2)
-
-All "last close" figures are **Tuesday 2026-09-08's settled closes**.
-
-| Metric | Level | Read |
-|---|---|---|
-| 🚨 **Brent / WTI** | **100.50 (+2.63%)** / 95.18 (+2.31%) | 🚨 **BRENT BROKE $100** — a round number and a new run high. 92.33 → 95.15 → 97.10 → 95.44 → 98.53 → **100.50 = +8.9% across the run.** WTI has confirmed every single leg. The one-session pause on 9/04 is now clearly noise, not a break |
-| 🚨 **10-yr** | **4.81%** (**+0.46%**) | **SIXTH session through the 4.75% trigger**, and rising again (4.78 → 4.81). Lesson 34's "trend, not one print" bar was met yesterday and the trend has extended. Rates + energy now point the same way |
-| **VIX** | **16.09** (+2.35%) | Third session up off the 14.21 low, still far below the 22 brake. **No size restriction** |
-| **Russell fut** | 2,950.90 (**−0.43%**) | 🚨 **The weakest leg for a second straight session** — S&P −0.24%, Nasdaq −0.47%. Small caps still leaning risk-off, and now the whole complex is red |
-| SPY / IWM | **765.96 (−0.55%)** / **294.67 (−0.45%)** | Tuesday's settled closes. **Factor +0.10% — marginally in Rocket's favour** |
-| Gold / Dollar | 4,435.90 (+0.96%) / 98.82 (−0.02%) | Gold bid again after pulling back; dollar flat-to-down |
-
-### The inflation trade is back to one-way, and this time it has a rates print behind it
-
-For a week this file has tracked energy/gold/dollar as a proxy for the market pricing
-inflation, and noted on 9/04 that two of three legs had broken. **They have re-formed, and
-Brent is now through $100 at a new run high.** Combine that with the **10-yr through 4.75%
-for a sixth session** and the **3× payrolls beat** (+162K vs +53K, prior two months revised
-up a net +55K, unemployment 4.1%), and the September hike case has three independent inputs
-pointing the same direction rather than one technical trigger.
-
-**The designed response for the core remains no action.** The core carries no trailing
-stop, backed by 33 years of SPY testing in which every stop configuration lost to
-buy-and-hold. **A live flag is not a licence to override a tested design**, and this is
-recorded as a decision, not an omission.
-
-### 🚨 FOMC is now 5 trading days out and it is closing entry windows
-
-**FOMC September 15–16, decision Wednesday 9/16.** A satellite opened **today** on a 1–5 day
-hold reaches 9/16 at the far end; **anything opened Thursday or later carries into it.**
-This is no longer a background note — it is the gate that closed the day-2 entry on CAL, the
-only name that survived today's screen on instrument quality. See `research_log.md`.
-
-### Factor watch
-
-**IWM −0.45% vs SPY −0.55% = +0.10% of factor Tuesday**, carried at 93.80% core weight
-≈ **+0.09% on the book.** **Lesson 28: a one-session move carries no information**, and
-+0.10% is inside the noise of the noise. The six-week drift (−2.50% since rebase) is the
-figure that matters and it belongs in `weekly_review`.
-
-🚨 **`weekly_review` for W36 (due Fri 9/04) STILL has not run — second session flagging it.**
-No `memory/weekly_reviews/2026-W36.md`, no 9/04 `market_close` entry in `trade_log.md`. The
-hand-built Rocket-vs-SPY chain is now **over a week stale** (last good number: 8/28 W35,
-−2.51%), and every session since has been correctly carrying it forward rather than
-updating it. Lesson 47 / [[launchd-quota-contention]].
-
-### Instrument health
-
-✅ **`market_data.py macro` clean for a SEVENTH straight session** — every field populated.
-✅ **Nasdaq earnings-calendar API delivered on its second use** — 24 reporters for 9/08, 45
-for 9/09, with market cap and BMO/AMC in one call. **It produced four in-universe names with
-real dated catalysts on a day the scanner produced one usable row.** This is now the
-primary board source (lesson 41); the scanner is a name source only (17a).
-🚨 **Lesson 17a, ELEVENTH straight demonstration.** `top_movers` printed **OCC "$15.41,
-+12.5%"** against a real settled close of **$13.70, −1.08% at 11% of range** — and the
-scanner ran at **04:22 ET, hours before any BMO release**, so that is a thin premarket print
-reported as both the price and the day's change. **11 of 17 rows carried RelVol `—` or
-`0.0x`; 18 of 20 `unusual_volume` rows were below 1.0×.** The overlap tier was **OCC** plus
-**USDE** (standing rule-31 mandate kill) — one real name, and its live book was **bid $11.47
-/ ask $20.01, a 55%-of-price spread.**
-🆕 **New instrument caveat (46g)**: at ~06:25 ET **every** small cap shows a broken-looking
-book — **AVO read 55% wide on a median ADV of 865,900**, passing the liquidity gate by 189%.
-**The premarket spread check corroborates a median-ADV failure; it is noise on its own.**
 
 ---

@@ -3,6 +3,161 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-11 — MARKET_CLOSE (Friday, Week 37 day 4) — NO TRADE; core in band (slice), book basis diverges 9th+ session; W36/W37 reviews still outstanding
+
+**Step 2**: 0/4 satellites, nothing to review — IWM core has no stop by design.
+
+**Step 2.5 core rebalance**: raw qty 9.8636 sh confirmed live. Slice basis (governing):
+target_core $2,847.00 vs IWM $2,851.76 = **+0.15% of slice, deep inside band — HOLD.**
+Book basis: target_core $2,739.40 vs IWM $2,851.76 = **+3.69%, still outside — SELL
+~$112 on that basis.** Ninth-plus consecutive session both bases disagree (lesson 44b).
+No trade — slice basis is CLAUDE.md's stated procedure.
+
+**Day P&L**: IWM +0.46% / +$13.12 vs SPY +0.88% (position_table.py) — Rocket
+underperformed by ~0.42%, small-cap factor drag on a hot-core CPI day (Fed hike odds
+for 9/16 FOMC jumped to ~90%, per today's midday note). Since-rebase Rocket vs SPY
+stands at the 8/28 weekly-review chain (−2.51%, grade C) — not recomputed here per
+lesson 23a.
+
+⚠️ **W36 review (due 9/04) and W37 review (due today, 9/11) both remain unrun.** This
+was a `market_close` session, not a `weekly_review` — did not attempt either review
+here to avoid a rushed/incomplete reconciliation. Flagged again for the next session
+with budget to run it.
+
+**Notification sent** — see trade_log.md for confirmation text.
+
+---
+
+## 2026-09-11 — MIDDAY (Friday, Week 37 day 4) — NO ACTION; 0/4 satellites, CPI printed hot on core, Fed hike odds jumped to ~90%
+
+**Step 2/3 (position review/news)**: nothing to review. 0/4 satellites open (unchanged since
+the 8/26 OMER stop-out); the only holding is the IWM core, which carries no stop and is
+exempt from the cut/tighten rules by design (CLAUDE.md Core/Satellite section). No forced
+cuts, no stop changes.
+
+**CPI outcome** (premarket flagged this as the session's key event): headline **+0.4% m/m /
+3.4% y/y** in line with consensus, but **core +0.3% m/m — 0.1pt hotter than the +0.2%
+consensus** (core y/y 2.4%, in line). Stocks rallied on the print (SPY/Nasdaq snapping a
+losing streak, yields easing) but **Fed funds futures moved to ~90% odds of a hike at the
+9/16 FOMC** — up from an implied lower probability this week. This sharpens, not resolves,
+the calendar risk already flagged in `market_context.md`: FOMC sits in the middle of any
+1–5 day hold opened today, and now carries higher odds of actually moving. Reinforces
+no-new-entry bias into the weekend/FOMC window regardless of what the scanner shows.
+
+**Step 4 (afternoon scan)**: `unusual_volume` and `top_movers` both run. Nothing tradeable:
+- **ACVA** (49.0x RelVol, +44.4%) — already dead, Copart's $10.50 cash tender (rule 27),
+  not re-openable.
+- **REF** (+6.3%, 0.7x RelVol), **CMRC** (+12.7%, 2.0x), **CAL** (+6.9%, 0.9x) — all
+  previously killed on named gates (REF: three un-runnable gates 9/11 premarket; CMRC:
+  reaffirmation-not-a-raise 9/10; CAL: rule-45/FOMC collision 9/09). No new information to
+  reopen any of them.
+- New names (CEPL, USDE, LPA, BW, GOLD.com, BRR) — all ≤2.4x RelVol, no named catalyst.
+  USDE ("StableCoinX"), GOLD.com, and BRR ("ProCap Financial") read as
+  crypto/gold-treasury-proxy names, which rule 31 excludes on mandate before the chart is
+  even worth reading.
+- Confirms lesson 17d/46i again: the scanner's RelVol column is still not surfacing a real
+  signal (max non-ACVA reading 3.7x, on a stock that's down).
+
+**Result: NO ACTION. 100% IWM core held, unchanged.** No notification — no positions with
+stops to manage, no negative news on the core. Open escalations (rebalance basis lesson 44,
+satellite stop width lesson 48, ADV-gate-vs-account-size lesson 46f, and the overdue W36/W37
+`weekly_review`) are unchanged from premarket — not re-litigated here, carried to the next
+session with budget to run the review.
+
+---
+
+## 2026-09-11 — PREMARKET (Friday, Week 37 day 4, CPI MORNING) — NO ENTRY; 4 survivors, 4 named kills, and yesterday's SIX kills all closed UP
+
+**Board built from the earnings calendar FIRST (lesson 41)**: 38 reporters 9/10 + 14 for
+9/11 = 52 screened → 13 `eligibility`-tested (**13 requested → 13 returned** ✅ lesson 43,
+counted against full output) → **4 survivors: ACVA, REF, FEIM, LPTH.** The calendar sourced
+three of the four; the scanner sourced one.
+
+**Book (base NAMED, lesson 23a/44)**: **$3,029.57** = IWM **9.8636 sh** (raw qty from
+`GET /v2/positions`, lesson 24a — the formatted table still says "10") × $287.70 settled =
+$2,837.56 (**93.66%**) + notional cash $192.01 (6.34%). ✅ Inside the 10% buffer, no bearish
+thesis owed. Satellites 0/4 · weekly count 0/5 (hand-counted) · max satellite **$454.44**.
+
+**The four kills** (full gate tables in `research_log.md`):
+- **ACVA** (+43.9% premarket, the only real scanner signal in 13 sessions) — **Copart
+  all-cash tender at $10.50/sh, $1.9B, agreed 9/10.** At $10.39 that is **+1.06% of
+  remaining upside**, and **both rungs ($11.95 / $12.99) sit ABOVE the deal price.**
+  Rule 27 / the WEAV precedent. 📌 The tell was in the bars: 9/10 traded **19.4M shares =
+  6.5× median on a 5.40% range closing at 56%** — huge volume, no move, one day pre-deal.
+- **LPTH** — revenue **$21.2M +73% YoY**, beat $18.31M consensus, GM 39.4% from 22%, FY26
+  +93%, backlog +197%. **But EPS −$0.06 vs +$0.01 (a MISS) and NO FY2027 guide at all**
+  (rule 5b, the CHPT shape). Independently: **median range 7.97% EXCEEDS the whole 7%
+  trail** (37a), 45 predicts **28.6% = 4.1×**, and it closed at 8.9% then 16.9% of range
+  into the print. Premarket **−0.5%** — the market did not pay for a 73% revenue beat.
+- **REF** (Reformation) — EPS **$0.23 vs $0.20 (+15%)**, revenue **$155.2M +24.1%**, FY guide
+  $602–606M. Best-looking print on the board. **Killed because THREE gates are
+  un-runnable**: IPO'd 7/30 at $15 (now $13.15, −12.3%), so 5a has **no prior company guide
+  to diff against**, 11 has **no dated coverage**, and 45 has **30 bars with zero earnings
+  days in them**. Per 11b an un-runnable gate is a FAIL. Also **4 of its last 5 sessions
+  traded below the 300k gate** (median 316,150 is propped by IPO-window volume — 46b with
+  "IPO" substituted for "catalyst") and 9/10 closed at **19.2% of range on 2.0× median**.
+  And it is in **neither** scanner list — there is no move to trade.
+- **FEIM** — `eligibility` **passed it by 0.06%** (300,167 vs 300,000). Raw: mean 299,725
+  ❌, median **241,000 (−19.7%)**, 2y median **163,100 (−45.6%)**, and **all five recent
+  sessions below the gate.** Narrowest lesson-46 margin yet recorded; 4th occurrence.
+
+### 🚨 THE FINDING OF THE SESSION — yesterday's six kills ALL closed up, and one fact covers every one
+
+| Name | 9/10 bar | Range |
+|---|---|---|
+| **CMRC** | **+18.46%**, 62% of range, 6.8× | 13.64% |
+| **WLTH** | **+15.01%**, 91% of range, 6.3× | 14.29% |
+| **DBI** | **+14.75%, 100% of range**, 2.87× | 12.19% |
+| **TSSI** | +7.08%, 55% of range | 10.54% |
+| **IRD** | +5.93%, 80% of range | 13.84% |
+| **SHOE** | −5.03% on the day but **+20.4% FROM THE OPEN**, 92% of range, 7.8× | 18.49% |
+
+🚨 **Every single one printed a range of 10.54–18.49%. Median 13.74% = 1.96× the mandated
+7% trail; all six between 1.5× and 2.6×.** So even on the four names where the directional
+call was **wrong**, **Rocket could not have HELD any of them with a 7% trailing stop** —
+each stops out intraday regardless of the close. **The board was not empty and quality was
+not the problem: six in-universe names moved on dated catalysts and the stop width rejected
+all six.** That reframes lesson 36 from a board-quality problem into a **mandate-quality**
+one, and it is the volatility-axis twin of 46f's account-size bind.
+📌 **Escalated to the user, NOT self-approved** (lesson 28/44 precedent; rule 4b explicitly
+says a too-tight trail argues against *entering*, not for a wider stop). Open question for
+`weekly_review`: should satellite stop width scale to the instrument's measured median
+range — which rule 45 already computes for free — instead of a flat 7%?
+
+### ❌ And rule 45's magnitude forecast missed for the first time: 4-for-5
+
+**DBI predicted 21.7%, actual 12.19% — over by 78%.** Recorded as a miss, not smoothed.
+The error was biased toward **not** entering — the opposite of the bias rule 45 was written
+to fix. ⚠️ **But the gate's CONCLUSION held: 12.19% is still 1.74× the trail.** Forecast
+magnitude and forecast verdict are graded separately; one bad magnitude does not retire a
+gate that was still right about stop fit. Tally: GIII ✅ DAKT ✅ CAL ✅ IRD ✅ **DBI ❌**.
+
+**Macro** (one `macro` call, one search — no subagent): **10-yr 4.94%, +10bps, EIGHTH
+session through 4.75% and the run's biggest jump** — the one clean signal. **VIX 17.09,
+−4.2% INTO CPI day**, below the 22 brake, no size restriction, and notably complacent.
+Russell fut +0.62% but at a **lower level** than yesterday (2,925.50 → 2,911.20) — laggard
+for a third session. CPI consensus **+0.4% m/m / 3.4% y/y headline, +0.2% / 2.4% core**.
+⚠️ **Brent and Gold print level-vs-change figures inconsistent with yesterday's recorded
+levels — flagged as a broken instrument, not folded into the thesis** (lessons 15/38/39a).
+Equity and rates rows cross-check clean.
+
+**Rule 29 is the gate that covers the whole board today**: CPI 8:30 ET, and **FOMC 9/16 now
+sits in the MIDDLE of a 1–5 day hold opened today** (9/11 · 9/14 · 9/15 · **9/16** · 9/17),
+not at the far end. Stricter than yesterday, not looser.
+
+🚨 **Three open escalations, none self-approved**: (1) rebalance basis — **NINTH straight
+session of disagreement**, slice $3,159.05 vs book $3,029.57, divergence **WIDENED to
+$129.48** from $105.15 as Bull's JPM hit +13.7% while IWM fell −1.01%; slice says HOLD
+(−0.18%), book says SELL ~$111 (+3.66%). (2) satellite stop width, new today. (3) ADV gate
+binding on account size (46f). 🚨 **W36 `weekly_review` still missing — FOURTH session
+flagging it — and W37's is due today. Two reviews owed, and all three escalations need
+one.** No satellite entered since **ETON on 8/17, 18 sessions ago.**
+
+**Result: NO ENTRY. 100% IWM core held.** No notification — market closed, no breaking news
+on the core, no positions with stops to manage.
+
+---
+
 ## 2026-09-10 — MARKET_CLOSE (Thursday, Week 37 day 3) — NO TRADE, core in band on slice basis, book basis still diverges (8th session), no satellites
 
 **Step 2**: 0/4 satellites, nothing to review — IWM core has no stop by design.

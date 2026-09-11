@@ -4,6 +4,60 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-11 — NO TRADE (market_close, Friday, Week 37 day 4) — core in band on slice basis, book basis diverges 9th+ session, no satellites, CPI-day hot core / hike odds ~90%
+
+**No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER
+stop-out) — Step 2 has no rows. Premarket's four earnings survivors (ACVA cash-tender
+pinned upside, LPTH miss-without-guide, REF three un-runnable gates, FEIM liquidity
+fail-by-median) and midday's afternoon scan (ACVA re-confirmed dead, REF/CMRC/CAL
+re-confirmed prior kills, six new low-RelVol/crypto-proxy names) were all killed before
+the close. Board stayed IWM-only all session — zero satellite attempts, Week 37 day 4.
+Premarket's real finding: yesterday's six killed names (CMRC/WLTH/DBI/TSSI/IRD/SHOE)
+all closed UP, and every one printed a daily range 1.5–2.6× the 7% trail — escalated
+as a mandate-quality question for `weekly_review`, not self-resolved.
+
+**Core rebalance check** (raw qty **9.8636 sh**, confirmed live via `/v2/positions`):
+- **Slice basis (governing per CLAUDE.md)**: portfolio_value $10,544.44 × 30% = slice
+  **$3,163.33**, satellite value $0, 10% buffer $316.33 → target_core **$2,847.00**.
+  IWM value **$2,851.76** = **+$4.77 / +0.15% of slice — deep INSIDE the 3% band. HOLD,
+  no trade.**
+- **Book basis (hand-built, lesson 23a)**: prior book $3,029.57 (9/11 premarket) rolled
+  by today's IWM move → book **$3,043.77** (IWM $2,851.76 + notional cash $192.01),
+  target_core **$2,739.40** (10% buffer $304.38). IWM $2,851.76 is **$112.37 / 3.69%
+  over — still outside the band, book basis still says SELL ~$112.**
+- 🚩 **Divergence between the two bases persists — ninth-plus consecutive session
+  flagged** (9/01, 9/02, 9/03, 9/04, 9/08, 9/09, 9/10, 9/11 premarket, now 9/11 close).
+  Cause unchanged (lesson 44b): Bull's positions (JPM +13.9%, SCHW +3.2% since their
+  own entries) and Rocket's IWM keep moving independently, so slice-basis and
+  book-basis targets drift apart. **No trade executed — CLAUDE.md's procedure is the
+  slice basis, and slice basis says HOLD.** Still awaiting an explicit user decision on
+  which basis governs long-term. W36's `weekly_review` (due 9/04) and W37's (due today,
+  9/11) have both **not** run this session — this is a `market_close` routine, not a
+  `weekly_review`; both reviews remain outstanding for the next session with budget.
+- Notional cash (book basis) **≈$192.01 (6.31%)** — inside the 10% buffer, no
+  bearish thesis required or written.
+
+**Day P&L** (`position_table.py`, IWM is 100% of Rocket's book): IWM **+0.46% /
++$13.12** today vs **SPY +0.88%** — Rocket underperformed SPY by ~0.42% today, small-cap
+factor drag on a hot-core-CPI day where Fed hike odds for 9/16 FOMC jumped to ~90%
+(per midday's session note). All-time on this IWM entry: **−2.07% / −$60.10** (entered
+$295.12).
+- Since-rebase figure **not recomputed here** — stands at the 8/28 weekly-review chain
+  (Rocket vs SPY **−2.51%**, W35 review, grade C) per the lesson 23a discipline; do
+  **not** cite `portfolio_snapshot.py`'s own since-rebase number (mixes in Bull's P&L
+  since the 7/20 merge). W36 and W37 reviews are both still overdue — next point this
+  chains forward.
+- Weekly count: **0/5** — Week 37 closes with zero new satellites all week, a
+  board-quality outcome (every screened name killed on a named structural gate: cash
+  tender, miss-without-guide, un-runnable ladder/dilution gates, liquidity fail, or a
+  prior-session kill re-confirmed), not a discipline gap. Premarket's escalation stands:
+  the six kills that closed up all failed on stop-width, not catalyst judgment.
+
+**Notification sent** — see below for confirmation. Message flags the rebalance basis
+divergence (9th+ session) and the two outstanding weekly reviews (W36, W37).
+
+---
+
 ## 2026-09-10 — NO TRADE (market_close, Thursday, Week 37 day 3) — core in band on slice basis (governing rule), book basis still diverges, no satellites
 
 **No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER
