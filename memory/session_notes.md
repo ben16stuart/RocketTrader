@@ -3,6 +3,126 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-14 — MARKET_CLOSE (Monday, Week 38 day 1) — NO TRADE; core in band (slice), book basis diverges 10th+ session; `portfolio_snapshot.py` broken on `/v2/orders`
+
+**Step 1**: `portfolio_snapshot.py` failed twice — `/v2/orders?status=open` timed out
+(10s) both times. Confirmed Alpaca-side via direct `curl`: `/v2/clock`, `/v2/positions`,
+`/v2/account` all returned in <0.2s; `/v2/orders` hung the full 15s three separate times.
+Worked around with `alpaca_client.py account`/`positions` (neither touches the orders
+endpoint) plus a raw `GET /v2/positions/IWM` for the true share count. New lesson 25.
+
+**Step 2**: 0/4 satellites — no rows. **Step 2.5**: slice basis in-band (IWM $2,839.73
+vs target $2,826.57, +0.42% of slice) → HOLD, no core trade. Book basis still diverges
+(target $2,728.57, IWM $111.16/3.67% over) — 10th+ consecutive session flagged, still
+awaiting a user decision on which basis governs (lesson 44b). **Step 4**: IWM -0.33%/
+-$9.37 today vs SPY -0.44% — Rocket beat SPY by ~0.11% today on the core alone; no
+satellite contribution (none open). **Step 5**: ntfy sent, confirmed
+("Notification sent: [default] 🚀 Rocket Daily — 2026-09-14").
+
+**Result: 0/4 satellites, 100% IWM core held, no trade.** W36/W37 `weekly_review`
+backlog (lesson 47c) and the open escalations (rebalance basis, satellite stop width
+vs 48e's ELMT case, ADV-gate-vs-account-size) are unchanged — carried forward.
+
+---
+
+## 2026-09-14 — MIDDAY (Monday, Week 38 day 1) — NO ACTION; 0/4 satellites, ELMT running further but gates unchanged
+
+**Step 2/3 (position review/news)**: nothing to review. 0/4 satellites open (unchanged
+since the 8/26 OMER stop-out); the only holding is the IWM core, which carries no stop
+and is exempt from cut/tighten rules by design (CLAUDE.md Core/Satellite section). No
+forced cuts, no stop changes, no news check needed on a stopless core.
+
+**Step 4 (afternoon scan)**: `unusual_volume` run. **ELMT now +37.2% intraday** (was
++31.4% premarket) — confirms this morning's forecast-miss-low call (rule 45 forecast
+16.5%, expected to miss low; gap alone is now 2.4× that number before any intraday
+range is added). Gates unchanged: stop-width/45, undisclosed dilution terms/8/38,
+un-runnable ladder/11b, FOMC/29 all still binding; pre-committed re-open gates A–F
+(earliest Thu 9/17, post-FOMC) are unaffected by today's continued move since none of
+A/B/C/D/F can be evaluated until the FOMC gate (E) clears. CRBP (+2.5%, was +18.4%
+premarket — faded, consistent with the dead-cat kill), FEIM (−2.8%) — both previously
+killed, no new information. Rest of the board (ACP, BNC, SWMR, PHK, PDO, GRNT, PML,
+BCAT, PCN, BRR, MQY, FLWS, ECAT, ACVA, BBNX, STIM, MHD) — no fresh names, no named
+catalysts, several are closed-end funds/crypto-proxies excluded on mandate.
+
+**Result: 0/4 satellites, 100% IWM core held, no trade.** No notification — flat core,
+no stops hit, no news on the core. W36/W37 `weekly_review` backlog (lesson 47c) and the
+three open escalations (rebalance basis, satellite stop width, ADV-gate-vs-account-size)
+are unchanged — carried forward, not re-litigated here.
+
+---
+
+## 2026-09-14 — MARKET_OPEN (Monday, Week 38 day 1) — NO TRADE, confirms premarket verdict
+
+Snapshot synced clean: no overnight fills, no stops triggered, positions unchanged (IWM
+core only, 0/4 satellites). Shared account $10,485.63, IWM live $288.49 vs $288.89 settled
+(flat), cash $427.02. Premarket's verdict (NO ENTRY — ELMT killed on 4 independent gates:
+stop-width/45, undisclosed dilution terms/8/38, un-runnable ladder/11b, FOMC/29; CRBP and
+CLB also killed) was structural, not "wait for the open" — none needed re-checking.
+
+**Step 4 scan** (`unusual_volume` + `top_movers`, inline, 2 calls): zero fresh names.
+Every row at the top of both lists — ELMT, CRBP, FLWS, DBI, STIM, TLYS — is already
+researched and killed in `research_log.md`. DBI +9.1% today on continued earnings-pop
+momentum, but Gate F (rule 29 FOMC collision) doesn't clear until after 9/16 regardless
+of price action, and no new catalyst is named for today's move — not re-opened.
+Lesson 17f's RelVol-column defect (44.0x on ELMT vs a 0.48x real median) is visible again
+in this scan's raw output; Change% continues to reconcile correctly against settled prices.
+
+**Result: 0/4 satellites, 100% IWM core held, no trade.** No notification — flat session,
+no stops hit, no breaking news on the core. W36/W37 `weekly_review` backlog (lesson 47c)
+and the three open escalations (rebalance basis, satellite stop width, ADV-gate-vs-account-
+size) are unchanged from premarket — carried forward, not re-litigated here.
+
+---
+
+## 2026-09-14 — PREMARKET (Monday, Week 38 day 1) — NO ENTRY; best catalyst in weeks (ELMT, $450M Dept of War investment) killed on stop width + FOMC, not on analysis
+
+**Board**: 10 candidates eligibility-tested (10 requested → 10 returned ✅). Five survivors
+(ELMT, CRBP, CLB, STIM, FLWS); all five killed on named gates. Full write-up in
+`research_log.md`.
+
+🥇 **ELMT — the finding of the session.** The Elmet Group (tungsten/refractory metals,
+Lewiston ME) announced a **$450M committed investment from the US Department of War**
+(redeemable preferred + warrants up to 19.9%, $200M initial drawdown, DoW board seat) plus a
+separate **DLA $2B IDIQ** for National Defense Stockpile deliveries. Gapping **+31.4%** on a
+**10.1M float**. Passes rule 1, rule 2c (inside the 20–35% gap-and-go band), rule 13.
+**Killed on four independent load-bearing gates**: rule 45/37a stop fit (predicted catalyst
+range **16.5% = 2.36× the 7% trail**, and the gap alone is already +31.4%); rule 8/38 — the
+warrant strike, preferred coupon and redemption terms are **all undisclosed**, so the
+structure cannot be graded and "could not confirm" is a FAIL; rule 11b un-runnable ladder
+(~98 bars of history); rule 29 FOMC. ⚠️ Median ADV 299,600 **fails the gate by 0.13%** with
+all five recent sessions below it — flagged as **marginal and NOT load-bearing**.
+📌 **Pre-committed re-open gates A–F written in `research_log.md` BEFORE the outcome**
+(rule 42/42c — shapes, not levels). Earliest entry **Thu 9/17**, after FOMC.
+📊 Rule 45 forecast logged for grading: **16.5%**, with an explicit prediction that it will
+**miss LOW**. Recorded as-is so the 4-for-5 tally isn't retro-fitted.
+
+**Other kills**: CRBP (+18.4% bounce after −29% in five sessions, four bottom-of-range closes,
+no confirmable dated catalyst); **CLB** (no name-specific catalyst, and the Street's entire
+range is **$12.00–$12.50 against a $13.45 bid — highest target below the CURRENT PRICE**, a
+more extreme version of the OOMA/PD configuration); STIM (median range **8.29% > the whole
+trail**); FLWS (median ADV 208,200, mean propped by the −12.89% day's volume — lesson 46b).
+
+🚨 **Lesson 48 is now 7-for-7** — and the seventh was the strongest catalyst on the book.
+Escalation #2 (stop width) sharpened, **not self-approved**.
+
+**Macro**: VIX **18.03 (+13.83%)**, below the 22 brake but the biggest jump of the run.
+10-yr **4.97%**, ninth session through trigger, new run high. Brent $107 run high.
+🆕 **Futures diverge hard: ES −0.78% / NQ −1.72% / RTY +0.42%** — verified against raw
+futures independently. First session of the run where small caps are the relative winner;
+flagged to watch, **not booked as a turn** (lesson 28). FOMC **Wed 9/16, ~90% hike odds**.
+
+**Book** (base named, lesson 23a): **$3,041.51** = IWM 9.8636 sh × $288.89 = $2,849.50
+(93.69%) + cash $192.01 (6.31%). Inside the 10% buffer, no bearish thesis needed.
+Slice/book divergence **$108.84, NARROWED from $129.48** — first narrowing, and it moved
+with Bull's P&L in the favourable direction, which corroborates 44b's mechanism.
+
+⚠️ **W36 + W37 reviews still unrun (5th session flagging W36). Escalated directly to the
+user in this session's response** rather than deferred into the files again (lesson 47c).
+
+**No trades placed — market closed. No Ntfy sent** (no breaking news on an open position).
+
+---
+
 ## 2026-09-11 — MARKET_CLOSE (Friday, Week 37 day 4) — NO TRADE; core in band (slice), book basis diverges 9th+ session; W36/W37 reviews still outstanding
 
 **Step 2**: 0/4 satellites, nothing to review — IWM core has no stop by design.

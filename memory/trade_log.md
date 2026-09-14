@@ -4,6 +4,66 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-14 — NO TRADE (market_close, Monday, Week 38 day 1) — core in band on slice basis, book basis diverges 10th+ session, no satellites, `portfolio_snapshot.py` broken on `/v2/orders`
+
+**No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER
+stop-out) — Step 2 has no rows. All three earlier sessions (premarket/market_open/midday)
+independently killed the board's best catalyst in weeks (ELMT — $450M DoW anchor investment
++ $2B DLA IDIQ, +31.4% premarket → +37.2% intraday) on four independent gates: stop-width
+(rule 45/37a, predicted range 16.5% = 2.36× the 7% trail), undisclosed dilution terms
+(rule 8/38), un-runnable ladder (11b), and FOMC collision (rule 29, decision Wed 9/16). CRBP
+and CLB also killed, no new information at close. Board stayed IWM-only all session.
+
+**🔧 `portfolio_snapshot.py` failed twice this session** — `/v2/orders?status=open` timed
+out (10s) both times inside `get_open_orders()`. Confirmed via direct `curl` that this is
+Alpaca-side and specific to that one endpoint: `/v2/clock`, `/v2/positions`, and `/v2/account`
+all returned in <0.2s; `/v2/orders?status=open` hung the full 15s timeout three separate
+times. Worked around by calling `alpaca_client.py account`/`positions` directly (neither
+touches the orders endpoint) plus a raw `GET /v2/positions/IWM` for the true share count.
+Open-orders table in `portfolio_state.md` could not be refreshed this session — carried
+forward unchanged (JPM/SCHW trailing stops, both Bull's, presumed still live).
+
+**Core rebalance check** (raw qty **9.8636 sh**, confirmed live via `/v2/positions/IWM`):
+- **Slice basis (governing per CLAUDE.md)**: shared account $10,468.76 × 30% = slice
+  **$3,140.63**, satellite value $0, 10% buffer $314.06 → target_core **$2,826.57**.
+  IWM value **$2,839.73** = **+$13.16 / +0.42% of slice — deep inside the 3% band. HOLD,
+  no trade.**
+- **Book basis (hand-built, lesson 23a)**: prior book $3,041.51 (9/14 premarket, IWM
+  $2,849.50 settled + notional cash $192.01) rolled by today's IWM move → book
+  **$3,031.74** (IWM $2,839.73 + notional cash $192.01 unchanged), target_core
+  **$2,728.57** (10% buffer $303.17). IWM $2,839.73 is **$111.16 / 3.67% over — still
+  outside the band, book basis still says SELL ~$111.**
+- 🚩 **Divergence between the two bases persists — tenth-plus consecutive session
+  flagged** (9/01, 9/02, 9/03, 9/04, 9/08, 9/09, 9/10, 9/11 premarket, 9/11 close, now
+  9/14). Cause unchanged (lesson 44b): Bull's JPM/SCHW and Rocket's IWM keep moving
+  independently, so slice-basis and book-basis targets drift apart. **No trade
+  executed — CLAUDE.md's procedure is the slice basis, and slice basis says HOLD.**
+  Still awaiting an explicit user decision on which basis governs long-term. W36's
+  `weekly_review` (due 9/04) and W37's (due 9/11) both remain outstanding — this is a
+  `market_close` routine, not a `weekly_review`.
+- Notional cash (book basis) **≈$192.01 (6.34%)** — inside the 10% buffer, no
+  bearish thesis required or written.
+
+**Day P&L** (`position_table.py`, IWM is 100% of Rocket's book): IWM **-0.33% /
+-$9.37** today vs **SPY -0.44%** — Rocket outperformed SPY by ~0.11% today (small-cap
+factor held up slightly better than large-cap on an otherwise soft session ahead of
+Wednesday's FOMC). All-time on this IWM entry: **-2.45% / -$71.25** (entered $295.12351).
+- Since-rebase figure **not recomputed here** — stands at the 8/28 weekly-review chain
+  (Rocket vs SPY **-2.51%**, W35 review, grade C) per the lesson 23a discipline; do
+  **not** cite `portfolio_snapshot.py`'s own since-rebase number (mixes in Bull's P&L
+  since the 7/20 merge). W36 and W37 reviews are both still overdue.
+- Weekly count: **0/5** — Week 38 day 1, zero new satellites, board's one real catalyst
+  (ELMT) killed on stop-width/dilution/ladder/FOMC gates, not analysis. Pre-committed
+  re-open gates A–F written in `research_log.md`; earliest possible re-entry Thu 9/17,
+  post-FOMC.
+
+**Notification sent** — confirmed via `ntfy_notify.py` return ("Notification sent:
+[default] 🚀 Rocket Daily — 2026-09-14"). Message flagged the rebalance basis
+divergence (10th+ session), the broken `/v2/orders` endpoint, and the ELMT re-open
+watch for Thu 9/17.
+
+---
+
 ## 2026-09-11 — NO TRADE (market_close, Friday, Week 37 day 4) — core in band on slice basis, book basis diverges 9th+ session, no satellites, CPI-day hot core / hike odds ~90%
 
 **No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER

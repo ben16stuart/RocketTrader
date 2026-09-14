@@ -1,7 +1,14 @@
 # Portfolio State
 
-**Last Updated**: 2026-09-11 19:58 UTC
+**Last Updated**: 2026-09-14 20:00 UTC (market_close)
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
+
+**Note**: `portfolio_snapshot.py` failed both attempts this session — `/v2/orders`
+timed out repeatedly (confirmed Alpaca-side via direct curl: `/v2/clock`, `/v2/positions`,
+`/v2/account` all returned in <0.2s, `/v2/orders?status=open` hung 15s+ three times in a
+row). Figures below pulled directly via `alpaca_client.py account`/`positions` and a raw
+`/v2/positions/IWM` call, bypassing the broken endpoint. Open-orders table below could
+not be refreshed this session — carried forward from the prior snapshot.
 
 ---
 
@@ -9,14 +16,11 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,539.85 |
-| Rocket's Allocated Slice (30%) | $3,161.95 |
+| Shared Account Value (Bull + Rocket) | $10,468.76 |
+| Rocket's Allocated Slice (30%) | $3,140.63 |
 | Cash Available (shared, pooled) | $427.02 |
-| Total Invested (both agents) | $10,112.83 |
-| Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +4.30% |
-| SPY return since rebase | +3.01% |
-| Rocket vs SPY | +1.29% |
+| Total Invested (both agents) | $10,041.89 |
+| Rocket return since rebase | See trade_log.md hand-built book chain (lesson 23a) — **stale**, last computed W35 8/28: **−2.51% vs SPY**. Do NOT use `portfolio_snapshot.py`'s own since-rebase number, it mixes in Bull's P&L. W36/W37 `weekly_review` still overdue. |
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -31,12 +35,12 @@ is available if Bull has open positions consuming shared cash.
 
 Ownership is reconciled below — do not re-derive it from the trade log.
 
-| Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
+| Symbol | Shares | Entry Price | Price (LIVE, market_close) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| IWM | 10 | $295.12 | $289.10 | $287.70 | $-59.41 | -2.0% |
-| JPM | 6 | $313.30 | $356.47 | $353.56 | $+259.02 | +13.8% |
-| SCHW | 5 | $103.91 | $107.19 | $107.33 | $+16.40 | +3.2% |
-| SPY | 6 | $767.97 | $764.45 | $757.83 | $-21.10 | -0.5% |
+| IWM | 9.8636 (raw qty, lesson 24a) | $295.12 | $287.90 | $288.89 | $-71.25 | -2.4% |
+| JPM | 6 | $313.30 | $350.12 | — | $+220.92 | +11.8% |
+| SCHW | 5 | $103.91 | $107.34 | — | $+17.15 | +3.3% |
+| SPY | 6 | $767.97 | $760.79 | — | $-43.03 | -0.9% |
 
 ---
 
@@ -44,9 +48,9 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($2,852)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's core** (1): IWM ($2,839.73)  — benchmark sleeve; no stop, exempt from position limits
 - **Rocket's satellites** (0): none
-- **Bull's positions** (3): JPM ($2,139), SCHW ($536), SPY ($4,587)
+- **Bull's positions** (3): JPM ($2,107), SCHW ($537), SPY ($4,569)
 
 
 ---
