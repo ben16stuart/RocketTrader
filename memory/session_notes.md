@@ -3,6 +3,124 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-15 — MARKET_CLOSE (Tuesday, Week 38 day 2) — NO TRADE; core in band (slice), book basis diverges 11th+ session, FOMC tomorrow
+
+**Step 1/2**: `portfolio_snapshot.py` ran clean. 0/4 satellites — no rows to review;
+only holding is the IWM core (no stop, exempt from cut/tighten rules). Premarket's two
+kills (ELMT gate A fail, KMTS FOMC+stop-width) and midday's reconfirmation both held
+with nothing new by close.
+
+**Step 2.5 (core rebalance)**: raw qty **9.8636 sh** confirmed live. Slice basis
+(governing): shared account $10,440.28 × 30% = $3,132.08, target_core $2,818.88, IWM
+$2,809.20 = **-0.31% of slice — HOLD, deep in-band.** Book basis: rolled to $3,001.21
+total, target_core $2,701.09, IWM $2,809.20 is **+3.60% over — still says SELL ~$108.**
+🚩 Divergence now **eleventh-plus consecutive session** flagged (unchanged cause,
+lesson 44b — Bull's JPM/SCHW and Rocket's IWM move independently). Slice basis governs
+per CLAUDE.md — no trade. Still no user decision on which basis should govern
+long-term; W36/W37 `weekly_review` both still overdue.
+
+**Step 4 (P&L)**: IWM **-1.07% / -$30.38** vs **SPY -0.50%** — Rocket underperformed by
+~0.57% today, small-cap factor lagged large-cap on the pre-FOMC risk-off tape
+(reverses yesterday's +0.11% favorable session, flagged not booked per lesson 28).
+All-time on this entry: -3.49% / -$102.
+
+**Step 5**: ntfy summary sent, confirmed via `ntfy_notify.py` return string. Flagged
+the 11th+ session divergence, the ELMT/KMTS kills, and the KMTS re-open watch for
+Thu 9/17 post-FOMC.
+
+**Result**: 0/4 satellites, 100% IWM core held, NO TRADE. Weekly count **0/5**, Week 38
+day 2. W36/W37 `weekly_review` backlog (now 7th session flagging) and the three open
+escalations (rebalance basis, satellite stop width, ADV-gate-vs-account-size) carried
+forward unchanged.
+
+---
+
+## 2026-09-15 — MIDDAY (Tuesday, Week 38 day 2) — NO ACTION; 0/4 satellites, board stays red into FOMC
+
+**Step 2/3 (position review/news)**: nothing to review. 0/4 satellites open (unchanged
+since the 8/26 OMER stop-out); the only holding is the IWM core, which carries no stop
+and is exempt from cut/tighten rules by design. No forced cuts, no stop changes, no
+news check needed on a stopless core.
+
+**Step 4 (afternoon scan)**: `unusual_volume` run. Broadly red tape the day before FOMC
+(consistent with premarket's corrected futures read, lesson 50). ELMT **-9.9%** (already
+closed this morning on gate A — confirms the kill, not a re-open candidate). CRBP -19.1%
+and PLAY -18.4% — both previously killed, confirming rather than reopening. SWMR new,
+-25.0% on 13.6x RelVol — a large red move, not a long setup (no catalyst, wrong
+direction for a momentum long). INDP +13.8% — already killed this morning on the
+purest lesson-46 case yet (2yr median ADV 18,800, ~96% below the 300k gate). KMTS only
++2.0% (was killed on rule 29 FOMC + rule 45 stop width; nothing changed). **No name on
+the board clears rule 29 today regardless of catalyst** — any entry now is day 1 of a
+hold crossing tomorrow's FOMC decision, a structural gate, not a research question.
+
+**Result: 0/4 satellites, 100% IWM core held, no trade.** No notification — flat core,
+no stops hit, no news on the core. W36/W37 `weekly_review` backlog (lesson 47c) and the
+three open escalations (rebalance basis, satellite stop width, ADV-gate-vs-account-size)
+are unchanged — carried forward, not re-litigated here.
+
+---
+
+## 2026-09-15 — PREMARKET (Tuesday, Week 38 day 2) — NO ENTRY; **ELMT gate A FAILED → name CLOSED**; KMTS is a clean rung-1 beat-and-raise killed by FOMC + stop width; **`macro` futures roll flipped three signs**
+
+**Step 1**: `portfolio_snapshot.py` ran clean — the 9/14 `/v2/orders` timeout (lesson 25)
+did not recur. Shared account **$10,422.21**, slice $3,126.66, cash $427.02 (pooled).
+Reconciliation: Rocket = IWM core only, **0/4 satellites**; JPM/SCHW/SPY are Bull's.
+🚨 **Lesson 24a recurred a THIRD time** — table printed IWM "10", raw `GET /v2/positions/IWM`
+says **9.8636**. Book (lesson 23a, base named) = 9.8636 × $287.91 settled + $192.01 cash
+= **$3,031.84**; core 93.67%, cash 6.33% — **inside the buffer, no bearish thesis owed.**
+
+**Step 2 (scan)**: Weakest board in weeks — `top_movers` topped out at **+6.3%**, and the
+**only** overlap-tier name (both lists) was **ADNT**, an Ireland-domiciled plc = standing
+mandate kill at +1.5%. 🥇 **The Nasdaq earnings calendar sourced the session's one real
+catalyst (KMTS), which appeared on NEITHER scanner list** — lesson 41d now 3-for-4.
+
+**Step 3 (validation)**: `eligibility` 11→11 and 3→3 (lesson 43 count held on full output).
+Survivors KMTS · PLAY · EPM · INDP · FTK · SOC · EAF, then medians pulled on every one
+(46g). Killed: **INDP** (mean ADV 688k *passes by 129%*, median **156,700 fails by 48%**,
+2y median 18,800 — purest lesson-46 case yet; also 11.86% median range, $3.14 trap zone —
+**three kills, zero searches**), **EAF** (mean 377,676 passes, median 269,800 fails; median
+range **8.00% > the whole trail**), **SOC** (7.52% median range = 1.07× trail; 9/14 closed
+at **0.0% of range** on rising volume = distribution), **FTK** (best stop fit on the board —
+and the $400M PREPA contract was **terminated** 8/17 after a short report, with a live
+securities class action: rule 1 kill), **PLAY** (−11.5% premarket, verified on two sources).
+
+**🔒 ELMT — pre-committed gate A FAILED.** Settled 9/14: O 22.47 / H 25.03 / L 20.22 /
+**C 21.50**, midpoint $22.63 → **close at 26.6% of range.** Gate A said below the midpoint
+kills regardless of catalyst. **Per 42d/45e a price-action kill CLOSES the name — it does
+NOT defer to 9/17.** Gates B–F moot. The gate was struck at $21.27, survived a run to
++37.2% intraday, and still decided the trade **because it was written as a shape, not a
+level** (new 42e). 📊 Rule 45 graded honestly: predicted 16.5%, **actual 22.37% — a miss,
+too LOW, direction called in advance yesterday.** Tally **4-for-6**; verdict still right
+(3.20× the trail) for the sixth time in six (new 45i).
+
+**🥇 KMTS — the finding.** Q1 FY27 (9/14 AMC): revenue **$31.0M +60% YoY** vs $29.59M
+consensus, GM **56.5% vs 45.7%** (11th straight quarter of expansion), FY27 guide
+**$137M → $141M = +2.92%**, GM target 70% → mid-70%, cash $244.7M. 🥇 **5d's pass-through
+ratio is 284% ($4.0M added to the year on a $1.41M beat) — the exact inverse of SWBI, and
+the FIRST time rules 5a/5d have ever PASSED a name** (new 5g). ⚠️ Counterweight recorded:
+GAAP loss widened to $44.1M from $25.8M. **Killed anyway on rule 29 (FOMC tomorrow, day 2
+of the hold) and rule 45 (predicted catalyst range 18.9% = 2.70× the trail).** Premarket
+prints $21.47/$21.80 vs a $24.06 close ≈ −9.4%, but on **two zero-volume 04:40 ET bars** —
+flagged, not scored. **Pre-committed re-open gates A–F written, earliest Thu 9/17.**
+
+**Step 5 (macro)**: 🚨 **`macro`'s futures rows ROLLED — four at once (ES/NQ/RTY Sep→Dec,
+BZ Nov→Dec) and THREE printed the WRONG SIGN** (ES +0.55%→−0.33%, NQ +0.66%→−0.36%,
+RTY +0.36%→−0.40%, Brent −3.15%→+1.35%). Caught by the `_resolve_futures_contract` patch;
+**unpatched, the table would have read "risk-on into the FOMC" the day before a ~90%-hike
+decision.** New **lesson 50**. VIX 17.48 (below the 22 brake), 10-yr **4.96% — tenth
+session through trigger**. Factor **+0.11% in Rocket's favour** (IWM −0.34% vs SPY −0.45%),
+first favourable session in four — **flagged, not booked** (lesson 28). ✅ And yesterday's
+"RTY is the relative winner" counter-signal **did not survive one session** — the restraint
+in refusing to book it is vindicated.
+
+**Result: 0/4 satellites, 100% IWM core held, NO TRADE.** 🚨 **Lesson 48 is now 8-for-8**
+and the eighth was an ordinary beat-and-raise with the *lowest* catalyst multiple on the
+board (3.01×) — the arithmetic needs no dramatic stock. **W36/W37 `weekly_review` still
+unrun (SIXTH session flagging) and three escalations remain queued behind it — escalated
+directly to the user in this session's response.**
+
+---
+
 ## 2026-09-14 — MARKET_CLOSE (Monday, Week 38 day 1) — NO TRADE; core in band (slice), book basis diverges 10th+ session; `portfolio_snapshot.py` broken on `/v2/orders`
 
 **Step 1**: `portfolio_snapshot.py` failed twice — `/v2/orders?status=open` timed out

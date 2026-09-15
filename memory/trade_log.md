@@ -4,6 +4,54 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-15 — NO TRADE (market_close, Tuesday, Week 38 day 2) — core in band on slice basis, book basis diverges 11th+ session, no satellites, FOMC tomorrow
+
+**No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER
+stop-out) — Step 2 has no rows. Premarket killed the board's two real names (ELMT —
+gate A failed on a below-midpoint 9/14 close, name CLOSED not deferred; KMTS — clean
+rung-1 beat-and-raise, killed on rule 29 FOMC-day-2 and rule 45 stop-width 2.70×
+the trail) and midday reconfirmed both kills plus a broadly red pre-FOMC tape
+(ELMT −9.9%, CRBP −19.1%, PLAY −18.4%, SWMR −25.0%, INDP +13.8% — all previously
+killed or wrong-direction). Nothing new at close. Board stayed IWM-only all session.
+
+**Core rebalance check** (raw qty **9.8636 sh**, confirmed live via `/v2/positions/IWM`,
+price $284.805):
+- **Slice basis (governing per CLAUDE.md)**: shared account $10,440.28 × 30% = slice
+  **$3,132.08**, satellite value $0, 10% buffer $313.21 → target_core **$2,818.88**.
+  IWM value **$2,809.20** = **-$9.68 / -0.31% of slice — deep inside the 3% band. HOLD,
+  no trade.**
+- **Book basis (hand-built, lesson 23a)**: prior book $3,031.84 (9/15 premarket, IWM
+  $2,839.83 settled + notional cash $192.01) rolled by today's IWM move → book
+  **$3,001.21** (IWM $2,809.20 + notional cash $192.01 unchanged), target_core
+  **$2,701.09** (10% buffer $300.12). IWM $2,809.20 is **$108.11 / 3.60% over — still
+  outside the band, book basis still says SELL ~$108.**
+- 🚩 **Divergence between the two bases persists — eleventh-plus consecutive session
+  flagged** (9/01, 9/02, 9/03, 9/04, 9/08, 9/09, 9/10, 9/11 premarket, 9/11 close, 9/14
+  close, now 9/15). Cause unchanged (lesson 44b): Bull's JPM/SCHW and Rocket's IWM
+  keep moving independently, so slice-basis and book-basis targets drift apart. **No
+  trade executed — CLAUDE.md's procedure is the slice basis, and slice basis says
+  HOLD.** Still awaiting an explicit user decision on which basis governs long-term.
+  W36's `weekly_review` (due 9/04) and W37's (due 9/11) both remain outstanding —
+  this is a `market_close` routine, not a `weekly_review`.
+- Notional cash (book basis) **≈$192.01 (6.40%)** — inside the 10% buffer, no
+  bearish thesis required or written.
+
+**Day P&L** (`position_table.py`, IWM is 100% of Rocket's book): IWM **-1.07% /
+-$30.38** today vs **SPY -0.50%** — Rocket underperformed SPY by ~0.57% today
+(small-cap factor lagged large-cap on the pre-FOMC risk-off tape, reversing
+yesterday's +0.11% favorable session — flagged per lesson 28, not booked). All-time
+on this IWM entry: **-3.49% / -$102** (entered $295.12351).
+- Since-rebase figure **not recomputed here** — stands at the 8/28 weekly-review chain
+  (Rocket vs SPY **-2.51%**, W35 review, grade C) per the lesson 23a discipline; do
+  **not** cite `portfolio_snapshot.py`'s own since-rebase number (mixes in Bull's P&L
+  since the 7/20 merge). W36 and W37 reviews are both still overdue.
+- Weekly count: **0/5** — Week 38 day 2, zero new satellites, board's two real
+  catalysts (ELMT, KMTS) both killed on hard gates (price-action shape, FOMC calendar
+  + stop width), not on analysis quality. KMTS pre-committed re-open gates A–F written
+  in `research_log.md`; earliest possible re-entry Thu 9/17, post-FOMC.
+
+---
+
 ## 2026-09-14 — NO TRADE (market_close, Monday, Week 38 day 1) — core in band on slice basis, book basis diverges 10th+ session, no satellites, `portfolio_snapshot.py` broken on `/v2/orders`
 
 **No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER

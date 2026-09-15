@@ -5,204 +5,186 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Mon 2026-09-14 premarket (Week 38 day 1 — FOMC WEEK)  ← CURRENT
+## Watchlist — Tue 2026-09-15 premarket (Week 38 day 2 — FOMC IS TOMORROW)  ← CURRENT
 
-**Book (hand-built — BASE NAMED, lesson 23a/44)**: **$3,041.51** = IWM **9.8636 sh**
-(raw qty from `GET /v2/positions`, lesson 24a — the table still displays "10") × **$288.89**
-*settled* close = **$2,849.50 (93.69%)** + notional cash **$192.01 (6.31%)**.
+**Book (hand-built — BASE NAMED, lesson 23a/44)**: **$3,031.84** = IWM **9.8636 sh**
+(raw qty from `GET /v2/positions` — ⚠️ **the snapshot table printed "10" AGAIN**, lesson 24a
+third occurrence) × **$287.91** *settled* close = **$2,839.83 (93.67%)** + notional cash
+**$192.01 (6.33%)**.
 ✅ **Inside the 10% buffer — no bearish thesis required or written.**
-Satellites **0/4** · weekly count **0/5** (new week; last trade 8/26 OMER stop-out) ·
-max satellite **$456.23** (15% of book) · 1.5% risk **$45.62** · shared cash $427.02
-(pooled with Bull — **fund from core, not cash**).
+Satellites **0/4** · weekly count **0/5** (last trade 8/26 OMER stop-out) ·
+max satellite **$454.78** · 1.5% risk **$45.48** · shared cash $427.02 (pooled with Bull —
+**fund from core, not cash**).
 
-## 🚩 VERDICT: NO ENTRY TODAY. Hold IWM. But today produced the STRONGEST catalyst screened in weeks — and it died on stop width, not on analysis.
+## 🚩 VERDICT: NO ENTRY TODAY. Hold IWM. Two results matter more than the board: **ELMT's pre-committed gate A FAILED and closed the name**, and **KMTS is the cleanest rung-1 beat-and-raise since ETON — killed by the calendar and the stop, not by the analysis.**
 
 ---
 
-### 🥇 ELMT — The Elmet Group. **A $450M US Department of War anchor investment + a $2B DLA contract. Gapping +31.4%. And Rocket still cannot trade it.**
+### ✅🔒 ELMT — **GATE A FAILED. THE NAME IS CLOSED, NOT DEFERRED.** Third end-to-end validation of rule 42.
 
-This is not a marginal name. It is the best catalyst on any Rocket board since PD, and it
-is worth writing up in full precisely *because* the kill is about the mandate, not the idea.
+Yesterday's premarket pre-committed gate A *before the evidence*, when ELMT was **$21.27**:
+> *"9/14 must close in the **upper half of its own daily range.** Below the midpoint =
+> **kill regardless of the catalyst**."*
 
-**The catalyst (verified at the primary source, GlobeNewswire 9/14 — not a search summary):**
-- **$450M committed investment from the US Department of War.** $200M initial drawdown at
-  closing. DoW gets one independent director + one non-voting observer.
-- **Separately: Defense Logistics Agency $2B IDIQ** for National Defense Stockpile deliveries.
-- Company launching "Elmet Refining & Trading" to run upstream sourcing → downstream processing.
-- Q2 2026 already on the tape: revenue **+35.2% to $66.4M**, adj EPS **$0.18 vs $0.06 consensus**.
+**The settled bar: O 22.47 · H 25.03 · L 20.22 · C 21.50 · V 13,965,600.**
+Midpoint **$22.63**; close at **26.6% of range.** ❌ **Gate A fails.**
+
+🚨 **Per 42d / 45e a PRICE-ACTION kill CLOSES a name — it does not convert to a date.**
+Gates B–F (earliest 9/17, post-FOMC) are now moot: **ELMT does not re-open on 9/17.** The
+3-day missed-catalyst recheck does **not** quietly re-open what a below-midpoint close killed.
+
+📌 **Why this is the cleanest rule-42 case yet.** The gate was struck against **$21.27**; the
+stock ran to **+37.2% intraday** ($25.03 high), then closed **$21.50** — within $0.23 of the
+price the gate was written against, after a 17% round trip. **A gate written as a LEVEL would
+have been re-specified twice during the session. Written as a SHAPE, it decided the trade.**
+Rocket stood aside from a name that closed +32.8% and **was right on tradeability**: the bar
+ranged **22.37%**, and a 7% trail placed anywhere is hit on that bar.
+
+📊 **Rule 45 forecast, graded honestly — a MISS, recorded not smoothed.** Model predicted
+**16.5%**, actual **22.37% — missed LOW by 26%.** ✅ The *direction* of the miss was called
+in advance yesterday ("I expect it to miss LOW"), which is the only reason this isn't a
+retro-fit. **Tally: GIII ✅ DAKT ✅ CAL ✅ IRD ✅ DBI ❌ ELMT ❌ = 4-for-6 on magnitude.**
+⚠️ **Separate magnitude from verdict (45h):** 22.37% is **3.20× the trail**, so the gate's
+*conclusion* — a 7% trail cannot hold an ELMT catalyst day — held for the sixth time in six.
+
+---
+
+### 🥇 KMTS — Kestra Medical. **A properly sized beat-and-raise — the first to clear rule 5a/5d cleanly since ETON. Killed on the calendar and the stop, NOT on the analysis.**
 
 | Gate | Reading |
 |---|---|
-| Rule 1 — catalyst | ✅ **NAMED, DATED, PRIMARY-SOURCED.** The cleanest pass in weeks. This is *not* the EAF failure (an undated "Defense Dept partnership" headline, rule 33) — this is an 8-K-grade event with a dollar figure and a drawdown schedule |
-| Universe | ✅ $16.19, cap $493M, NASDAQ (NCM), US (Lewiston, Maine). **Float 10.1M of 30.5M = 33% — genuinely low float**, the profile that moves |
-| Rule 13 | ✅ At a $21.27 premarket, cap $649M; **+25% = $811M, nowhere near the $2B lid.** No ceiling problem |
-| Rule 2c | ✅ **+31.4% is INSIDE the 20–35% gap-and-go band — NOT second-day-only.** Stating this explicitly: the gap band does **not** kill this name. The kills below are real gates, not a convenient technicality |
-| 🚫 **Rule 45 / 37a / 48** | ❌ **THE BINDING KILL.** Median range 6.01%; **catalyst multiple 2.75× → predicted catalyst range 16.5% = 2.36× the 7% trail.** Ten widest days **26.5 · 19.8 · 17.7 · 16.9 · 16.8 · 16.2 · 15.6 · 14.1 · 13.4 · 13.3** — the top eight all blow a 7% trail 2–4× over. 🚨 **And 40a says trailing range is a FLOOR: the stock is ALREADY gapping +31.4%, roughly 2× the model's own forecast, before the opening bell.** A 7% trail here is stopped out on noise, in either direction |
-| 🚫 **Rule 8 / 8e / 38** | ❌ **The capital structure CANNOT BE GRADED.** The release discloses "redeemable preferred equity, warrants representing **up to 19.9%** of common post-transaction" — and **omits the warrant strike, the preferred coupon, the redemption terms, and the liquidation preference.** Rule 8a demands grading the *structure*; rule 38 says **"could not confirm" is a FAIL, resolve the gap never score it.** Separately, the 9/11 Blue Moon / EQ Resources letter issues **3.5M new common + 3.5M warrants against a 10.1M float** — potentially **~70% float expansion** against the exact scarcity that makes this stock move |
-| 🚫 **Rule 11b** | ❌ **Un-runnable ladder.** ELMT has ~98 trading days of history (listed ≈May 2026); there is no *dated* post-announcement consensus, and any pre-announcement target is stale by construction on the day the capital structure changed. **The FF / REF precedent: an un-runnable ladder is a FAIL, not a pass** |
-| 🚫 **Rule 29** | ❌ **FOMC decision Wednesday 9/16 with ~90% hike odds priced.** A 1–5 day hold opened today runs 9/14 · 9/15 · **9/16** · 9/17 · 9/18 — **the decision sits dead in the middle.** VIX +13.8%, Nasdaq futures −1.72% |
-| ⚠️ **Lesson 46j** | ⚠️ **Median ADV 299,600 vs a 300,000 gate — fails by 0.13%.** Last five sessions **244,300 · 257,600 · 238,900 · 223,200 · 142,900 — ALL FIVE below the gate**, Friday the lowest at 0.48× median. Its 2y median (406,950) is **entirely IPO-window volume** — 46j's REF shape exactly. 📌 **Called a FAIL on the recent-session read, but flagged HONESTLY as marginal: a 0.13% miss is the mirror of FEIM's 0.06% pass, and 46i says that label carries no information. This gate is NOT load-bearing** — the four above kill the name independently |
-| ⚠️ Rule 7a, adapted | ⚠️ **Size the contract, don't quote the headline.** "$2B IDIQ" has a **$150M guaranteed minimum** — a **13× gap between the headline and the commitment.** IDIQ is a ceiling, not an order. This is lesson 5a's discipline applied to a contract: state the real number or the label does the reasoning for you |
+| ✅ **Rule 1** | **NAMED, DATED, PRIMARY-SOURCED.** Q1 FY27 reported **9/14 AMC** (GlobeNewswire): revenue **$31.0M, +60% YoY**, gross margin **56.5% vs 45.7%** (+1,080bps, **11th straight quarter of expansion**) |
+| ✅ 🥇 **Rule 5a — SIZE THE RAISE** | **FY27 guide $137M → $141M = +2.92%.** 🚨 **Comfortably OUTSIDE the sub-1% band that killed PD (+0.3%), CHPT (+0.6%), SWBI (+0.95%) and AVO (+1.25%).** GM target also raised **70% → mid-70%** |
+| ✅ 🥇 **Rule 5d — PASS-THROUGH** | **Beat consensus by $1.41M ($31.0M vs $29.59M, +4.8%); raised the YEAR by $4.0M = 284% pass-through.** This is the **exact inverse of the SWBI failure** (beat own quarter by 15 pts, raised year by 1). The company passed through the beat *and more* — the tell that the beat is run-rate, not pull-forward |
+| ✅ **Rule 5e** | Beat is **organic revenue + structural margin**, not a one-off item. Nothing to strip |
+| ✅ **Rule 13** | $24.06, cap **$1.41B**; **+25% → $1.76B — clears $2B.** At a $21.80 entry, +25% → $1.60B. No lid problem |
+| ✅ **Rule 8 (provisional)** | **$244.7M cash/investments, ~$320M total liquidity** against a $1.41B cap. ⚠️ **Not graded — the S-3/shelf check has NOT been run.** Provisional, per rule 38 that is not yet a pass |
+| 🚫 **Rule 45 / 48** | ❌ **THE BINDING STOP KILL.** 2y median range **6.30%**, catalyst multiple **3.01×** → **predicted catalyst-day range 18.9% = 2.70× the 7% trail.** Ten widest days **18.9 · 18.4 · 18.3 · 18.3 · 16.8 · 16.7 · 16.6 · 15.6 · 15.3 · 14.5** — **all ten blow a 7% trail.** Today IS the catalyst day |
+| 🚫 **Rule 29** | ❌ **FOMC DECISION TOMORROW, 9/16, ~90% hike odds.** A 1–5 day hold opened today runs 9/15 · **9/16** · 9/17 · 9/18 · 9/21 — **the decision is on DAY 2, earlier in the window than yesterday.** A 7% trail fills at the open, wherever the open is |
+| ⚠️ **Rule 4 — flagged, NOT scored** | Premarket prints **$21.47 / $21.80 vs a $24.06 close ≈ −9.4%** — the initial reaction to a real beat-and-raise looks **negative**. 🚨 **But this is TWO bars at 04:40 ET with ZERO reported volume** — lesson 15/17 says that is a degraded instrument, so it is **flagged, not scored.** Corroborating but not decisive: KMTS has a documented history of muted/negative earnings reactions ("tepid Q3 response") |
+| ⚠️ **Rule 46** | **Median-63d ADV 311,400 — a PASS by only 3.8%.** 2-year median **254,100 fails**; **two of the last five sessions below the gate** (241,600 · 303,100). Marginal, in 46i territory. **NOT load-bearing** — 45 and 29 kill independently |
+| ⚠️ **Rule 11 — NOT RUN** | No dated post-print ladder pulled. **An un-run ladder is not a pass** (11b). Goes into the re-open gates |
+| ⚠️ **Bear case** | 🚨 **GAAP net loss WIDENED to $44.1M from $25.8M.** Growth is being bought. $244.7M cash covers it, but this is the real thesis risk and it is not small |
 
-**🚨 Verdict: NO ENTRY, on four independent load-bearing gates.** Note what is *not* being
-claimed: the directional call is **not** that ELMT falls. A sovereign anchor investment in a
-low-float critical-minerals name may well run hard — the **MP Materials / DoD precedent
-(July 2025) roughly doubled in a day.** Rocket is standing aside because **it cannot HOLD the
-instrument with a 7% trailing stop**, and because it **cannot read the terms of the dilution
-it would be buying into.** Those are different statements and both belong in the record.
+**🚨 Verdict: NO ENTRY.** ❗ **Saying which claim this is (48f): this is a TRADEABILITY verdict,
+not a directional one.** A +60% revenue quarter with a 284% guidance pass-through may well run.
+Rocket is standing aside because **the FOMC sits on day 2 of the hold** and because **a 7% trail
+does not survive an 18.9% catalyst day**.
 
-### 📌 ELMT — PRE-COMMITTED RE-OPEN GATES, written NOW, before the evidence (rule 42/42c — shapes, not levels)
+### 📌 KMTS — PRE-COMMITTED RE-OPEN GATES, written NOW, before the evidence (rule 42/42c — SHAPES, not levels)
 
-Earliest possible entry is **Thursday 9/17** (gate E is binding until FOMC clears).
-Rule 45c: a *range* kill converts into a **DATE, not a pass** — by day 2–3 the name reverts
-toward normal range. All six must pass; any one fails → closed, not deferred.
+Earliest possible entry **Thursday 9/17** (gate E binding). Rule 45c: a *range* kill converts
+to a **DATE**. All six must pass; any one fails → **closed, not deferred.**
 
 | | Gate | Pass condition |
 |---|---|---|
-| **A** | Rule 4 shape | 9/14 must close in the **upper half of its own daily range.** Below the midpoint = **kill regardless of the catalyst** (the IRD precedent, 42c) |
-| **B** | Stop fit | Intraday range must contract to **≤10% of price** on a non-catalyst session — the instrument must become holdable, not just attractive |
-| **C** | Structure | The 8-K / S-3 must **disclose the warrant strike and preferred terms**, and the strike must not be struck at a discount to the pre-announcement price. **Still undisclosed on re-check = still a FAIL** (rule 38) |
-| **D** | Liquidity | Trailing-5-session median volume **>300k measured on NON-catalyst bars** — the catalyst bar itself is excluded (46b) |
-| **E** | Calendar | **FOMC 9/16 must be PAST.** No entry 9/14–9/16 under any configuration |
-| **F** | Ladder | A **dated post-announcement** analyst target above the **+15% rung** must exist (11b) |
+| **A** | Rule 4 shape | **9/15 must close in the upper half of its own daily range.** Below the midpoint = **kill regardless of the beat-and-raise** — the ELMT/IRD precedent, and the premarket is already pointing the wrong way |
+| **B** | Stop fit | Intraday range must contract to **≤10% of price** on a **non-catalyst** session |
+| **C** | Dilution | **Run the S-3/424B5/shelf check on EDGAR.** Undrawn + multi-year runway = pass; any VWAP-discounted convert = auto-kill (8a). **Un-run is still a FAIL** (38) |
+| **D** | Liquidity | Trailing-5-session **median** volume **>300k measured on NON-catalyst bars** (46b) |
+| **E** | Calendar | **FOMC 9/16 must be PAST.** No entry 9/15–9/16 under any configuration |
+| **F** | Ladder | A **dated post-print** analyst target above the **+15% rung** must exist (11b) |
 
-📊 **Falsifiable forecast for grading (rule 45 tally now 4-for-5):** the model's official
-number for ELMT's 9/14 catalyst-day range is **16.5%**. 🚨 **I expect it to miss LOW** — the
-premarket gap alone is +31.4%. **Recording the model's number as the forecast anyway**, so
-the tally stays honest rather than being retro-fitted to the outcome (45h's precedent).
-
-📌 **Midday update**: ELMT **+37.2% intraday** (10:15 ET scan) — the miss-low call is
-already confirmed directionally before the session even settles. Gates unchanged; earliest
-re-open is still Thu 9/17 (gate E, FOMC) regardless of how far the stock runs today.
+📊 **Falsifiable forecast for grading (rule 45 tally now 4-for-6):** the model's number for
+KMTS's 9/15 catalyst-day range is **18.9%**. Recording it before the bar prints.
 
 ---
 
-### ❌ CRBP — Corbus Pharmaceuticals. Gapping +18.4% — **after falling −29% in five sessions on four bottom-of-range closes.**
-
-| Gate | Reading |
-|---|---|
-| 🚫 **Rule 1** | ❌ **No confirmable dated 9/14 catalyst.** The pipeline calendar says CRB-913 obesity Ph1b (n=240) topline "on track for September" and TEMPO-1 enrollment starting — **timelines, not an event.** Rule 33: a search result describing a move is not evidence until a dated primary source confirms it |
-| 🚫 **Rule 4** | ❌ **Four of the last five closes in the bottom third of range** — 6% · 38% · **1%** · 5% · 31% — on **rising** volume (222k → 2,028,100 = 5.7× median Friday). Textbook distribution. 9/09 alone was **−16.38% at 1% of range on a 21.11% range** |
-| 🚫 **Rule 45** | ❌ Catalyst multiple **3.84×** on a 5.21% median → **predicted 20.0% range = 2.9× the trail**; 9/09 already printed 21.11% |
-| ⚠️ Ladder | Consensus $34.03 "Strong Buy" clears both rungs on paper — but it is a **stale consensus on a stock down 29% in a week** (11a). Not credited |
-| ✅ Universe | Passes — $8.12, $157M cap, median ADV 357,100 |
-
-**Killed.** A +18% bounce off a −29% slide with no confirmed event is a dead-cat shape, not a
-momentum catalyst. **Re-open only on a dated primary-source readout.**
-
----
-
-### ❌ CLB — Core Laboratories. **The best-fitting INSTRUMENT on the board, killed by the cleanest ladder configuration on the book.**
-
-| Gate | Reading |
-|---|---|
-| 🚫 **Rule 11 / 42b** | ❌ 🥇 **The Street's range is $12.00–$12.50, consensus HOLD — and the stock is bid $13.45. The HIGHEST target sits BELOW the current price**, never mind the +15% rung ($15.47). **This is a more extreme version of the OOMA/PD configuration** (highest target below rung 1), which is the strongest kill signal in the book — here it is below rung *zero* |
-| 🚫 **Rule 1** | ❌ **No name-specific catalyst.** +7.6% on Brent/WTI at run highs = sector beta. Earnings **10/28, +44 days.** Volume alone is never enough |
-| 📌 **Worth keeping** | ✅ **Median range 3.98% = 0.57× the trail — the ONLY name screened in two weeks that actually FITS a 7% stop**, with median ADV 635,900 (passes by 112%) and a 99% float. 🚨 **Record this: the instrument is fine and the catalyst is absent — the exact inverse of ELMT.** Put the **10/28 earnings date on the calendar** |
-
----
-
-### Killed on hard gates — zero research spent
+### Killed on hard gates — near-zero research spent
 
 | Name | Kill |
 |---|---|
-| **STIM** | 🚨 **Rule 37a — median range 8.29%, GREATER than the entire 7% trail on a NORMAL day** (the LPTH shape). Multiple 4.11× → predicted **34.1% = 4.9× the trail**, ten widest days 24.7–44.5%. Also **$3.03 = 1% above the price floor** (rule 10 trap zone), earnings 11/03 |
-| **FLWS** | Median ADV **208,200 — fails by 30.6%** while the *mean* (307,749) passes by 2.6%: the mean is propped by the **945,100-share bar on 9/10, the day it fell −12.89%.** Lesson 46b exactly. Also **$3.02**, 0.7% off the floor |
-| **RFIL** | Reports BMO today — and is **liquidity-locked**: mean 288,712, **median 243,400 (−18.9%)**, 2y median 89,500 (−70%), four of five recent sessions below gate. ✅ The lesson-14 ±10% re-verify was run and **confirmed the kill rather than overturning it** |
-| **CODA** | Reports BMO today. ADV **122,409 — 59% below gate.** Dead regardless of the print |
-| **HAIN** | Reports BMO today. **Price $0.62** — price floor, not close |
-| **CATX** $2.81 · **AIV** $2.40 | Price floor. CATX also AMEX (ASE) |
-| **BNC** (CEA Industries) | Crypto-treasury proxy — **standing mandate kill, lesson 31.** Topped the scanner again; checked the mandate before the chart |
-| **CSHR** (CoinShares) | Crypto mandate kill + already liquidity-locked |
-| **BBW · TYRA · LPTH · USDE · AGPU · NMAD · DUOT · GOLD.com** | Previously killed on named gates; no new information |
-| 9/11 AMC slate | **KR** $34.9B cap · **HTLM/CMCM/MNY/CURR** non-US · **HOFT/RENT/PLCE/ZONE** ADV or price · **CELU/JVA/ENLV/IHT/LNAI** below the $50M floor · **GRFS** Spain + $5.3B · **CHRN** $2.6B · **CBAT** China · **FRGT** $560k |
-
-**Tomorrow's slate (9/14 AMC, gaps 9/15):** KMTS ($1.38B), RLGT ($384M), PLAY ($284M),
-HITI ($225M, Canada — likely mandate kill), BIOX (Argentina), HYFT. **Screen RLGT and PLAY
-on the 9/15 premarket** — both are in-universe on cap. ⚠️ **Both would still collide with
-FOMC on 9/16.**
+| **INDP** | 🥇 **Lesson 46 in its purest form.** `eligibility` read ADV **688,315 — a PASS by 129%**; **median-63d is 156,700, a FAIL by 48%**, and the **2-year median is 18,800.** The mean is one 8.46M-share bar. Also **median range 11.86% = 1.69× the entire trail** (37a) and **$3.14 = 4.7% above the price floor** (rule 10 trap zone). ⚠️ And it has run **$1.28 → $3.14 = +145% in five sessions.** Three independent kills, **zero searches spent** |
+| **EAF** | **Same shape**: `eligibility` mean **377,676 passes by 26%**; **median 269,800 FAILS by 10%** — the mean is propped by the **1,381,400-share bar on 9/08, the day it fell −11.5% to 2% of range** (46b exactly). Independently, **median range 8.00% > the WHOLE 7% trail** (37a / the LPTH-STIM shape). Still no dated catalyst (rule 33 kill stands from 9/14) |
+| **SOC** | **Median range 7.52% = 1.07× the entire trail** (37a), predicted catalyst range **45.8%**. And **9/14 closed at 0.0% of its range** on an 11.62% bar with volume rising five sessions straight (4.95M → 9.30M) — **textbook distribution** (rule 4). ✅ Liquidity is excellent (median 7.4M) and it does not save the name. Premarket **+5.1%** off a 0%-of-range close is the **CRBP dead-cat shape**, not a catalyst |
+| **FTK** | 🚨 **The instrument fits and the name is radioactive.** Median range **6.05% = 0.86× the trail**, median ADV 358,500 (passes by 19.5%), float 14.2M — **the best stop fit on the board.** But: the **$400M PREPA contract announced 8/03 was TERMINATED**, disclosed 8/17 after a Wolfpack Research short report; the stock fell **−20% in a day** and there is now an **active securities class action** (purchasers 8/03–8/17). **No bullish catalyst, an unquantified legal overhang, ~57% of backlog gone.** Rule 1 kill |
+| **PLAY** | Reported 9/14 AMC and is **−11.5% premarket** — ✅ **verified on two independent sources** (scanner $7.50 / yfinance $7.50 against a settled $8.47). A negative reaction is not a long. Predicted catalyst range **25.3% = 3.6× the trail** |
+| **VRA** $3.04, ADV 152,123 · **RLGT** ADV 146,117 · **ESP** ADV 47,717 + ASE + cap unknown · **AREC** $2.04 | Hard gates — price / volume / exchange. Dropped without research per Step 3 |
+| **EPM** | **ASE (NYSE American)** — exchange kill (the CATX precedent). Also reports **tonight**: the earnings-week rule bars entry *before* a confirmed print |
+| **ADNT** | The session's **only** top_movers ∩ unusual_volume overlap name — and **Adient plc is Ireland-domiciled: standing non-US mandate kill.** +1.5% is not a catalyst in any case |
+| **CCXI** (Churchill Capital XI) | SPAC — no operating catalyst |
+| **BNC · USDE · CSHR** | Crypto/treasury proxies — standing mandate kill (lesson 31). Topped the scanner again; **checked the mandate before the chart** |
+| **CRBP · CLB · STIM · FLWS · RFIL · CODA · HAIN · TYRA · QUIK · NVA · DUOT · AGPU · OOMA · NEOV · SVCO** | Previously killed on named gates; **no new information** |
+| 9/15 BMO/AMC slate | **TCOM** $24.6B · **FPS** $9.7B · **COE/ZENA** non-US · **ELME** REIT no catalyst · **UPXI/BRLS/AAME/SEGG/BRTX/SHPH/GTEN** below the $50M floor or shells · **ALPS** previously killed |
 
 ---
 
-## 🚨 THE FINDING THAT MATTERS: lesson 48 is now SEVEN-FOR-SEVEN, and the seventh was the best catalyst on the book
+## 🚨 THE FINDING: lesson 48 is now **EIGHT-FOR-EIGHT**, and today it took a textbook rung-1 beat-and-raise
 
-Yesterday's grading found six in-universe names killed on six different reasons, all six of
-which printed daily ranges of 1.5–2.6× the 7% trail. **ELMT makes seven** — and it is
-categorically the strongest of them: a **sovereign $450M anchor investment**, low float, a
-real Q2 beat behind it, gapping +31.4%, **passing rule 1, rule 2c and rule 13 outright.**
+48d's cheap diagnostic, run on today's board — every in-universe name, its measured range
+against the mandated 7% trail:
 
-**It still cannot be held with a 7% trailing stop.** Predicted catalyst range 16.5%, actual
-gap already +31.4%.
+| Name | Median range | ÷ 7% | Predicted catalyst range | ÷ 7% |
+|---|---|---|---|---|
+| **KMTS** | 6.30% | 0.90× | **18.9%** | **2.70×** |
+| **PLAY** | 5.36% | 0.77× | **25.3%** | **3.61×** |
+| **FTK** | 5.36% | 0.77× | **30.3%** | **4.33×** |
+| **SOC** | 7.01% | **1.00×** | **45.8%** | **6.54×** |
+| **EAF** | 8.44% | **1.21×** | **48.2%** | **6.89×** |
+| **INDP** | 9.85% | **1.41×** | — | — |
+| **ELMT** (actual, settled) | — | — | **22.37% ACTUAL** | **3.20×** |
 
-🚨 **This sharpens escalation #2 rather than softening it.** The counter-argument in 48c was
-that a wider stop on a **$456** satellite means more dollars at risk for no more upside —
-that remains true. But the evidence now says: **the catalyst screen is working, and every
-name it surfaces is forbidden by the stop width.** A screen that correctly identifies a US
-government anchor investment in a low-float critical-minerals name, and is then overruled by
-a flat percentage, is not a screen that has failed — it is a **mandate parameter that no
-longer matches the instrument class it is pointed at.**
+🚨 **Not one name on the board can be held with a 7% trailing stop on its catalyst day.** Three
+of six cannot be held on a *normal* day. **KMTS is the strongest case yet for escalation #2
+precisely because nothing else about it fails**: rule 1 ✅, rule 5a ✅ (+2.92%), rule 5d ✅
+(284% pass-through), rule 5e ✅, rule 13 ✅, liquidity marginal-pass. **The catalyst screen
+worked. The stop width forbade the result.**
 
-📌 **Still NOT self-approved.** The 7% trail is a CLAUDE.md guardrail and **a live flag is not
-a licence to override a written rule** (the 28/44 precedent). This needs a user decision.
+📌 **Still NOT self-approved.** ⚠️ **48c's counter-argument stands and must be carried**: a wider
+stop on a **$455** satellite risks more dollars for no more upside, and rule 4b says a trail
+inside the noise band is an argument against *entering*. The 7% trail is a CLAUDE.md guardrail
+and **a live flag is not a licence to override a written rule** (the 28/44 precedent).
+**Fourth consecutive session escalating this. It needs a user decision.**
 
 ---
 
 ### Scheduled catalysts
 
-- 🚨 **FOMC decision Wednesday 9/16, 2 trading days out — ~90% odds of a HIKE** priced after
-  Friday's hot core CPI (+0.3% m/m vs +0.2% consensus). **Anything opened today carries
-  through it.** This is rule 29's gate at full strength and it is binding on the entire board.
-- **ELMT re-check: gates A–F above, earliest entry Thu 9/17.** Also check daily for 3 sessions
-  under the missed-catalyst rule.
-- **9/14 AMC**: RLGT, PLAY, KMTS → screen on the 9/15 premarket.
-- **CLB earnings 10/28** — good instrument, put it on the calendar.
-- 🚨 **`weekly_review` W36 (due 9/04) AND W37 (due 9/11) BOTH still unrun — FIFTH session
-  flagging W36.** `memory/weekly_reviews/` ends at **2026-W35**. Lesson 47c: *"the next
-  session with budget must RUN the review, not flag it again."* Escalated directly to the
-  user in this session's response rather than deferred a sixth time.
+- 🚨 **FOMC DECISION TOMORROW, Wednesday 9/16 — ~90% odds of a HIKE** priced off Friday's hot
+  core CPI (+0.3% m/m vs +0.2%). **Rule 29 is board-wide binding and sits on DAY 2 of any hold
+  opened today.** This is the single most important line on the page.
+- **KMTS re-check: gates A–F above, earliest Thu 9/17.** Gate A is decided by *tonight's close*.
+- ❌ **ELMT — CLOSED on gate A. Do NOT re-open on 9/17**; the missed-catalyst recheck does not
+  override a below-midpoint close (42d).
+- **CLB earnings 10/28** — good instrument, absent catalyst. On the calendar.
+- **NB earnings 9/28** (resolve BC-domicile first) · **ALMU 9/16** (FOMC day).
+- 🚨 **`weekly_review` W36 (due 9/04) AND W37 (due 9/11) BOTH still unrun — SIXTH session
+  flagging W36.** `memory/weekly_reviews/` ends at **2026-W35**; the hand-built Rocket-vs-SPY
+  chain is **twelve sessions stale** (last good 8/28 W35, −2.51%). Lesson 47c. **Escalated
+  directly to the user again in this session's response.**
 
 ### 🚨 Open escalations awaiting a user decision — THREE, none self-approved
 
-1. **Which rebalance basis governs** (lesson 44) — **TENTH consecutive session of
-   disagreement**, but ⚠️ **the gap NARROWED for the first time**: slice $3,150.35 vs book
-   $3,041.51 = **$108.84, in from $129.48.** Cause is 44b running in the *favourable*
-   direction — the shared account fell $38.69 (Bull's SPY −$38) while Rocket's IWM rose
-   +0.41%. **That the gap tracks Bull's P&L in BOTH directions is itself confirmation of
-   44b's mechanism.** Slice says **−0.30%, HOLD**; book says **+3.69%, SELL ~$112.**
-   No action here (rule 6: rebalancing is `market_close` only).
-2. **Should satellite stop width scale to measured median range?** — **now 7-for-7**, and the
-   seventh was the strongest catalyst on the book. See above.
-3. **The ADV gate binds on account size, not tradeability** (46f) — a $456 satellite is a
-   rounding error in any name that passes. ELMT's 0.13% median miss is the same bind.
+1. **Which rebalance basis governs** (lesson 44) — **ELEVENTH consecutive session of
+   disagreement.** Slice $3,126.66 vs book $3,031.84 = **$94.82**, ⚠️ **narrowed for a second
+   straight session** (was $108.84, before that $129.48). ✅ **Cause confirmed again as 44b
+   running favourably**: the shared account fell $46.55 on **Bull's** JPM/SCHW/SPY marks while
+   Rocket's own core fell only $9.37. **That the gap tracks Bull's P&L in both directions is
+   the mechanism, demonstrated a third time.** No action here (rule 6: `market_close` only).
+2. **Should satellite stop width scale to measured median range?** — **now 8-for-8**, and the
+   eighth was a clean rung-1 beat-and-raise. See the table above.
+3. **The ADV gate binds on account size, not tradeability** (46f) — KMTS's 3.8% median pass is
+   the same bind from the other side.
 
 ### Re-open conditions for killed names (everything else needs a new dated catalyst)
 
 | Name | What would have to change |
 |---|---|
-| 🥇 **ELMT** | **Gates A–F above. Earliest 9/17.** The catalyst is real and does not expire — **the instrument and the calendar are what fail** |
-| **CRBP** | A **dated primary-source** readout (CRB-913 Ph1b topline or CRB-701 data), **and** a close in the upper half of range to clear rule 4 |
-| **CLB** | A **name-specific dated catalyst** (earnings 10/28) **and** a dated target above the +15% rung. ✅ Instrument quality is not the issue here |
-| **STIM** | ⚠️ **Not re-openable on a catalyst** — an 8.29% median range exceeds the whole trail. Needs the stop-width decision |
-| **RLGT · PLAY · KMTS** | 9/14 AMC prints — screen 9/15, but **FOMC collides 9/16** |
-| **ACVA** | ⚠️ **Never.** $10.50 cash tender caps upside below rung 1; instrument disappears on close |
-| **LPTH** | A formal FY2027 guide, sized (>2% at midpoint). **37a binding independently** (7.97% median range) |
-| **REF** | A **second** public quarter, **dated** coverage, and **median** ADV sustained >300k. Earliest ≈ the Q3 print |
-| **FEIM** | ⚠️ **Liquidity-locked** — sustained **median** volume >300k, or a user decision on the ADV gate |
+| 🥇 **KMTS** | **Gates A–F above. Earliest 9/17.** The catalyst is real and does not expire — **the calendar and the stop are what fail** |
+| ❌ **ELMT** | ⚠️ **CLOSED — gate A failed on a below-midpoint close.** Not re-openable on this catalyst (42d/45e). A **new dated catalyst** only |
+| **FTK** | ⚠️ **Not re-openable on a catalyst while the class action and the PREPA termination are live.** ✅ Instrument quality is genuinely good — keep the name, discard the situation |
+| **SOC · EAF · INDP** | ⚠️ **Not re-openable on a catalyst** — median range at or above the whole trail. Needs the stop-width decision |
+| **PLAY** | Not re-openable on this print (a negative reaction). Keep on the earnings calendar |
+| **CRBP** | A **dated primary-source** readout (CRB-913 Ph1b topline), **and** a close in the upper half of range |
+| **CLB** | A **name-specific dated catalyst** (earnings 10/28) **and** a dated target above the +15% rung |
+| **STIM** | ⚠️ Not re-openable on a catalyst — 8.29% median range exceeds the whole trail |
+| **ACVA** | ⚠️ **Never.** $10.50 cash tender caps upside below rung 1 |
+| **DBI** | Was never graded against gates A–D — **do that before re-opening** |
 | **NB** | Earnings **9/28** — re-screen then, **and resolve the BC-incorporation domicile question first** |
-| **DBI** | ⚠️ Gate F (calendar) does not clear until after **9/16**. The print was never graded against A–D — **do that before re-opening** |
-| **WLTH · SHOE** | ⚠️ Not re-openable on this print (a miss / a guidance cut). **Both instruments are good; keep them on the earnings calendar** |
-| **CMRC · TSSI · IRD** | New dated catalyst. IRD closed on a price-action gate (45e — does not convert to a date) |
-| **CAL** | Gates A–E from 9/09. Rule 45 (16.1% predicted, **15.06% actual**) and the FOMC collision both stand |
-| **AVO** | A **sized** raise to the H2/FY EBITDA guide (>2% at midpoint) **and** gross margin stabilising |
-| **NX · SWBI · CHPT** | A **sized** raise (>2% at midpoint — NX against the **pre-withdrawal** March guide, 5f) **and** a dated post-print consensus above 1.15× entry |
-| **INSG** | A **dated** catalyst **and** sustained *median* volume >300k **and** the S-3 graded (8a) |
-| **EAF** | A **dated** catalyst. The "Defense Dept partnership" headline was undated and speculative (rule 33). 📌 **Contrast with ELMT today — that is what a dated, primary-sourced defense catalyst looks like** |
-| **CAPR** | PDUFA **EXTENDED Aug 22 → Nov 22** — lesson 37c: a delay repriced as optionality |
+| **CAPR** | PDUFA **EXTENDED Aug 22 → Nov 22** — a delay repriced as optionality (37c) |
 | **ALMU** | Earnings **9/16** — collides with FOMC day |
-| **PHR** | ⚠️ **Resolve the earnings date first** (two sources disagreed 9/03) |
-| **ARCT** | ARCT-810 Phase 2 **date becomes a fact** |
-| **HLF · SG · TROX · AMRC · WTI · ENOV · UPB** | Earnings **11/02–11/05**. No dated catalyst in any tradeable horizon |
-| ⚠️ **Liquidity-locked** — FLWS · RFIL · CODA · INNV (also needs entry ≤$14.73) · OCC (9.13% median range) · BBCP · TLYS · JILL · PPIH · CSHR · LSAK · GLOO · LMNR · LAKE · KEQU · SKIL · MCFT · VNCE · LOVE · QUIK · NMAD · IBEX · ZUMZ · AENT · CSBR · HOFT · RENT · PLCE | **Not re-openable on a catalyst** — only sustained **median** volume above 300k, or a user decision on the ADV gate |
-| **Standing mandate kills** — BNC · CSHR · USDE · DFDV · ABTC · HYPD · GOLD.com · BRR (crypto/treasury proxies, lesson 31) · LPA · TEN · YB · IMPP · DAVA · YRD · VFS · SA · ODD · CGNT · NNOX · COE · AACG · NVA · CMCM · HTLM · MNY · CURR · GRFS · CBAT · HITI · BIOX (non-US) | Category-excluded. Not re-researched |
-| **Hard-gate kills** — CATX · AIV · HAIN · CHRN · FRGT · ANAB · UROY · M · FIZZ · AEO · HUBG · SIG · ASO · CULP · HTT · NBP · ANIX · ALPS · KR · ZONE | Cap / price / volume / exchange. New instrument only |
-| **Tape kills** — GIII · DAKT · NEOV · YEXT · PD · RMNI · MEI · CBIO · TYRA · PYXS · RARE · GOLD · LTRX · OOMA · FRNM · SSTK · BBW · OSG · XHLD · NABL · LENZ · ALMS · EOSE · OABI | New dated catalyst only. W35–W36 reasons in `archive/research_log_history.md` |
+| **LPTH · REF · FEIM · WLTH · SHOE · CMRC · TSSI · IRD · CAL · AVO · NX · SWBI · CHPT · INSG · PHR · ARCT · HLF · SG · TROX · AMRC · WTI · ENOV · UPB** | Named gates unchanged from W37/W38; reasons in `archive/research_log_history.md` |
+| ⚠️ **Liquidity-locked** — FLWS · RFIL · CODA · INNV · OCC · BBCP · TLYS · JILL · PPIH · CSHR · LSAK · GLOO · LMNR · LAKE · KEQU · SKIL · MCFT · VNCE · LOVE · QUIK · NMAD · IBEX · ZUMZ · AENT · CSBR · HOFT · RENT · PLCE · VRA · RLGT · ESP | **Not re-openable on a catalyst** — only sustained **median** volume above 300k, or a user decision on the ADV gate |
+| **Standing mandate kills** — BNC · CSHR · USDE · DFDV · ABTC · HYPD · GOLD.com · BRR (crypto/treasury, lesson 31) · **ADNT** · LPA · TEN · YB · IMPP · DAVA · YRD · VFS · SA · ODD · CGNT · NNOX · COE · AACG · NVA · CMCM · HTLM · MNY · CURR · GRFS · CBAT · HITI · BIOX · ZENA | Category-excluded. Not re-researched |
+| **Hard-gate kills** — CATX · AIV · HAIN · CHRN · FRGT · AREC · EPM · TCOM · FPS · ELME · ANAB · UROY · M · FIZZ · AEO · HUBG · SIG · ASO · CULP · HTT · NBP · ANIX · ALPS · KR · ZONE | Cap / price / volume / exchange. New instrument only |
+| **Tape kills** — GIII · DAKT · NEOV · YEXT · PD · RMNI · MEI · CBIO · TYRA · PYXS · RARE · GOLD · LTRX · OOMA · FRNM · SSTK · BBW · OSG · XHLD · NABL · LENZ · ALMS · EOSE · OABI · DUOT · AGPU · SVCO | New dated catalyst only |
