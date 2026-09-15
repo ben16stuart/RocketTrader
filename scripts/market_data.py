@@ -139,6 +139,62 @@ MACRO_TICKERS = [
 ]
 
 
+def _resolve_futures_contract(sym, cont):
+    """Resolve a continuous `=F` symbol to the ACTUAL contract it is quoting.
+
+    THIRD defect in macro_snapshot, found 2026-09-15, and the most damaging so far.
+    A `=F` symbol is CONTINUOUS FRONT-MONTH: on roll day it silently starts quoting
+    a different underlying contract, so `last/prev-1` compares two different
+    instruments and reports the *calendar spread* as if it were a price move. On
+    2026-09-15 FOUR of seven futures rows rolled at once (ES/NQ/RTY Sep->Dec on the
+    quarterly cycle, BZ Nov->Dec) and THREE printed the WRONG SIGN: S&P fut read
+    +0.51% on a true -0.35%, Nasdaq +0.61% on a true -0.37%, Russell +0.33% on a
+    true -0.47%, Brent -2.82% on a true +2.07%. Every one looked perfectly
+    plausible. The day before an FOMC, the table said "risk-on" when futures were
+    in fact broadly down.
+
+    Prior art: the same failure was found one session earlier (2026-09-14) on
+    `ZQ=F`, where it corrupted the magnitude of a live thesis-break test. That was
+    patched by WRITING DOWN an explicit contract pair. This is the same bug class
+    in a script, so it gets a code fix -- and a fix that needs no contract calendar,
+    because a hand-maintained calendar is just a slower version of the same defect.
+
+    Method: yfinance's `.info` names the candidate contracts (`underlyingSymbol` /
+    `underlyingExchangeSymbol` -- on a roll these two DISAGREE, one naming the old
+    contract and one the new). Pick whichever candidate's latest close sits closest
+    to the continuous symbol's latest close, then read the change off THAT
+    contract's own series. Matching is nearest-neighbour, not equality: a still
+    forming live bar can differ slightly between the continuous feed and the
+    explicit contract (RTY=F printed 2902.70 against RTYZ26's 2902.50).
+
+    Returns (contract_symbol, its_close_series) or (None, None) to fall back.
+    """
+    try:
+        info = yf.Ticker(sym).info
+    except Exception:
+        return None, None
+    cands = {info.get(k) for k in ("underlyingSymbol", "underlyingExchangeSymbol")}
+    cands = {c for c in cands if c and isinstance(c, str)}
+    if not cands:
+        return None, None
+    best, best_err, best_s = None, None, None
+    for c in sorted(cands):
+        try:
+            s = yf.Ticker(c).history(period="1mo")["Close"].dropna()
+            if len(s) < 2:
+                continue
+            err = abs(float(s.iloc[-1]) - float(cont.iloc[-1])) / abs(float(cont.iloc[-1]))
+        except Exception:
+            continue
+        if best_err is None or err < best_err:
+            best, best_err, best_s = c, err, s
+    # A resolved contract that does not actually track the quoted price is worse
+    # than no resolution at all -- fall back rather than report a mismatched series.
+    if best is None or best_err > 0.02:
+        return None, None
+    return best, best_s
+
+
 def macro_snapshot() -> str:
     """Every macro number the premarket routines need, in one batched call.
 
@@ -156,16 +212,103 @@ def macro_snapshot() -> str:
     except Exception as exc:
         return f"MACRO SNAPSHOT unavailable ({exc}) — fall back to web search."
 
-    out = ["MACRO SNAPSHOT (yfinance, last close vs prior close)"]
+    # `s.iloc[-1]` is the LATEST BAR, which in a premarket session is TODAY's
+    # partially-formed bar -- not yesterday's close. This header used to read
+    # "last close vs prior close", and every premarket session recorded the
+    # number into market_context.md as the prior day's close. Found 2026-08-13:
+    # the whole 8/5-8/11 gold series in memory was too high by $60-$135 with
+    # every error in the same direction, and 8/6 was recorded UP on a day gold
+    # actually closed DOWN -- a sign error in a macro series, from a label.
+    # Both bars are now printed with their dates so the two cannot be confused.
+    # SECOND defect in the same function, found 2026-09-01. Printing each row's
+    # own dates (the 8/13 fix above) is necessary and NOT sufficient: yfinance
+    # drops whole sessions for individual series, and when it does, that row's
+    # `change` silently spans TWO sessions while its neighbours span one. On
+    # 2026-09-01 ^TNX and IWM had no 8/28 bar at all, so 10Y read "+1.84%" and
+    # IWM "-1.96%" against 8/27 while SPY in the same table read against 8/28 --
+    # both ~3x the true one-session move. The 8/31 session had already recorded
+    # two such rows into market_context.md's "8/28 settled" column, where they
+    # were not 8/28 closes at all. Rule #30's "one table, two dates, no labels"
+    # recurring in the CHANGE column instead of the price column.
+    today = datetime.now().date()
+    rows, prev_dates, rolled = [], [], []
     for sym, label in MACRO_TICKERS:
         try:
             s = data[sym].dropna()
             last, prev = float(s.iloc[-1]), float(s.iloc[-2])
-            out.append(f"  {label:<12}{last:>11,.2f}   {(last/prev-1)*100:+6.2f}%")
+            d_last, d_prev = s.index[-1].date(), s.index[-2].date()
+            contract = None
+            if sym.endswith("=F"):
+                contract, cs = _resolve_futures_contract(sym, s)
+                if contract is not None:
+                    cd = {d.date(): float(v) for d, v in cs.items()}
+                    # A roll shows up as the continuous feed's PRIOR close
+                    # disagreeing with the resolved contract's own close on that
+                    # same date -- i.e. yesterday's number came from a different
+                    # instrument than today's. Re-read both legs off the contract.
+                    if d_prev in cd and abs(cd[d_prev] - prev) / abs(prev) > 5e-4:
+                        rolled.append((label, contract,
+                                       (last / prev - 1) * 100,
+                                       (last / cd[d_prev] - 1) * 100))
+                        prev = cd[d_prev]
+                    else:
+                        contract = None   # tracking cleanly; nothing to report
+            rows.append((label, last, prev, d_last, d_prev, contract))
+            prev_dates.append(d_prev)
         except Exception:
+            rows.append((label, None, None, None, None, None))
+
+    # Comparing prior-close DATES across rows is wrong and the first version of
+    # this check did it: futures carry a live bar dated today (prior = 8/31)
+    # while equities pre-open carry 8/31 itself (prior = 8/28), so SPY flagged
+    # as stale when it was perfectly current. The rows do not share a latest
+    # date, so they cannot share a prior date either.
+    # The actual question is whether a row SKIPPED a session, so it needs a
+    # trading calendar: SPY's own index, which defines US equity sessions.
+    try:
+        cal = [d.date() for d in data["SPY"].dropna().index]
+    except Exception:
+        cal = []
+    stale = []
+    out = ["MACRO SNAPSHOT (yfinance)",
+           "  latest bar (PARTIAL if dated today) | prior daily CLOSE | change"]
+    for label, last, prev, d_last, d_prev, contract in rows:
+        if last is None:
             out.append(f"  {label:<12}{'n/a':>11}")
+            continue
+        tag = "LIVE" if d_last >= today else "close"
+        flag = ""
+        if contract:
+            flag = f"  🔄 ROLLED — both legs re-read off {contract}"
+        skipped = [d for d in cal if d_prev < d < d_last]
+        if skipped:
+            flag += f"  🔴 MISSING BAR(S) {','.join(str(d) for d in skipped)} — change spans >1 session"
+            stale.append((label, d_prev, skipped))
+        out.append(f"  {label:<12}{last:>11,.2f} {tag:<5}{d_last}"
+                   f" | {prev:>10,.2f} close {d_prev} | {(last/prev-1)*100:+6.2f}%{flag}")
+    out.append("  ⚠️  A bar tagged LIVE is still forming. Record the PRIOR CLOSE column")
+    out.append("      into market_context.md under THE DATE PRINTED ON THAT ROW —")
+    out.append("      the rows do not all share a prior date. Never the LIVE column.")
+    if stale:
+        out.append(f"  🔴 {len(stale)} row(s) SKIPPED a session the SPY calendar shows "
+                   f"as traded, so their")
+        out.append("      % change is NOT a one-session move. Do not record it as one: "
+                   + ", ".join(f"{l} (jumps {d} → skips {','.join(str(x) for x in sk)})"
+                               for l, d, sk in stale))
+    if rolled:
+        out.append(f"  🔄 {len(rolled)} futures row(s) ROLLED to a new contract. The continuous "
+                   f"`=F` feed changed")
+        out.append("      instrument underneath the series, so the NAIVE change was a calendar "
+                   "spread, not a")
+        out.append("      price move. Both legs above are re-read off the named contract. "
+                   "Naive vs true:")
+        for label, contract, naive, true in rolled:
+            sign = " 🔴 SIGN FLIP" if naive * true < 0 else ""
+            out.append(f"      {label:<12} {contract:<12} naive {naive:+6.2f}%  →  "
+                       f"true {true:+6.2f}%{sign}")
     out.append("  (VIX >22 = pause new entries, >25 = reduce size, >30 = no new longs)")
     return "\n".join(out)
+
 
 
 def check_eligibility(symbol: str) -> str:
