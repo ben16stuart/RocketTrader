@@ -4,6 +4,65 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-16 — NO TRADE (market_close, Wednesday, Week 38 day 3 — FOMC DECISION DAY) — core dead-on-target on slice basis, book basis still diverges, no satellites
+
+**No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER
+stop-out) — Step 2 has no rows. All three earlier sessions (premarket/market_open/
+midday) independently held **NO ENTRY** on rule 29 alone — today's 2:00 PM ET FOMC
+decision made day 1 of any hold opened today *the event itself*, a structural gate
+that admitted no configuration regardless of setup quality. Premarket's real output
+was research, not a trade: **KMTS's gate A passed** (the first pre-committed gate A
+ever to), and lesson 48's range-based stop-fit diagnostic was re-measured on
+drawdown-from-high-water-mark and found wrong on the universal claim (written up as
+lesson 51) — full detail in `research_log.md`/`session_notes.md`. Board stayed
+IWM-only all session.
+
+**FOMC outcome** (confirmed via live search post-close): the Fed hiked 25bp to a new
+target range of **3.75%–4.00%**, vote **12-0**, the first hike since 2023. Chair Warsh
+called inflation "too high... for too long" and declined to rule out another hike this
+year — a hawkish delivery on an outcome the market had already priced at ~90% odds
+coming in. No position was open across the event (100% IWM core, no stop, no
+satellites), so nothing to mark against the decision itself; this is context for
+tomorrow's premarket, including KMTS's gate E (calendar), which clears for the first
+time post-FOMC.
+
+**Core rebalance check** (raw qty **9.8636 sh**, confirmed live via `/v2/positions/IWM`,
+price $283.795):
+- **Slice basis (governing per CLAUDE.md)**: shared account $10,368.59 × 30% = slice
+  **$3,110.58**, satellite value $0, 10% buffer $311.06 → target_core **$2,799.52**.
+  IWM value **$2,799.24** = **-$0.28 / -0.01% of slice — essentially exact, deep inside
+  the 3% band. HOLD, no trade.**
+- **Book basis (hand-built, lesson 23a)**: prior book $3,004.52 (9/16 premarket, IWM
+  $2,812.51 settled + notional cash $192.01) rolled by today's IWM move (-0.47%,
+  -$13.27) → book **$2,991.25** (IWM $2,799.24 + notional cash $192.01 unchanged),
+  target_core **$2,692.13** (10% buffer $299.13). IWM $2,799.24 is **$107.11 / 3.58%
+  over — still outside the band, book basis still says SELL ~$107.**
+- 🚩 **Divergence between the two bases persists — twelfth-plus consecutive session
+  flagged** (9/01, 9/02, 9/03, 9/04, 9/08, 9/09, 9/10, 9/11 premarket, 9/11 close, 9/14
+  close, 9/15 close, now 9/16). Cause unchanged (lesson 44b): Bull's JPM/SCHW and
+  Rocket's IWM keep moving independently, so slice-basis and book-basis targets drift
+  apart. **No trade executed — CLAUDE.md's procedure is the slice basis, and slice
+  basis says HOLD.** Still awaiting an explicit user decision on which basis governs
+  long-term. W36's `weekly_review` (due 9/04) and W37's (due 9/11) both remain
+  outstanding — this is a `market_close` routine, not a `weekly_review`.
+- Notional cash (book basis) **≈$192.01 (6.42%)** — inside the 10% buffer, no
+  bearish thesis required or written.
+
+**Day P&L** (`position_table.py`, IWM is 100% of Rocket's book): IWM **-0.47% /
+-$13.27** today vs **SPY -0.46%** — Rocket essentially matched SPY today (-0.01%),
+a flat pre/post-FOMC session with no factor divergence worth booking (lesson 28).
+All-time on this IWM entry: **-3.84% / -$112** (entered $295.12351).
+- Since-rebase figure **not recomputed here** — stands at the 8/28 weekly-review chain
+  (Rocket vs SPY **-2.51%**, W35 review, grade C) per the lesson 23a discipline; do
+  **not** cite `portfolio_snapshot.py`'s own since-rebase number (mixes in Bull's P&L
+  since the 7/20 merge). W36 and W37 reviews are both still overdue.
+- Weekly count: **0/5** — Week 38 day 3 closes with zero new satellites, entirely a
+  structural gate (rule 29, FOMC day) blocking entry all session, not a discipline or
+  board-quality gap — KMTS is a live, gate-A-passed candidate carried into Thursday
+  9/17 once gate E (calendar) clears post-FOMC.
+
+---
+
 ## 2026-09-15 — NO TRADE (market_close, Tuesday, Week 38 day 2) — core in band on slice basis, book basis diverges 11th+ session, no satellites, FOMC tomorrow
 
 **No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER

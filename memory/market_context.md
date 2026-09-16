@@ -4,7 +4,76 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-09-15 Tuesday premarket (Week 38 day 2 — FOMC IS TOMORROW)  ← CURRENT
+## Snapshot — 2026-09-16 Wednesday premarket (Week 38 day 3 — **FOMC DECISION DAY**)  ← CURRENT
+
+All "last close" figures are **Tuesday 2026-09-15's settled closes**.
+
+| Metric | Level | Read |
+|---|---|---|
+| 🚨 **THE CALENDAR** | **FOMC DECISION TODAY, 2:00 PM ET — ~90% odds of a HIKE** | 🚨 **Rule 29 at maximum force: day 1 of any hold opened today IS the event.** There is no configuration — no catalyst, no size, no stop — that makes a satellite entry legal this session. Every other line on this page is subordinate to this one |
+| **VIX** | **17.00** (**−1.16%**) | **Well below the 22 brake.** 18.03 → 17.10 → 17.20 → **17.00** — ⚠️ **the VIX has now drifted DOWN for three sessions into a ~90%-priced hike decision.** Either the event is genuinely pre-priced or this is complacency; **on the morning of the print there is no way to tell, and no trade depends on it.** Noted, not resolved |
+| 🚨 **10-yr** | **5.00%** (**+0.71%**) | 🚨 **ELEVENTH consecutive session through the 4.75% trigger, and a new run high ON A ROUND NUMBER** (4.78 → 4.81 → 4.84 → 4.94 → 4.97 → 4.96 → **5.00**). Lesson 34's "trend, not one print" bar was met eight sessions ago. **Still the cleanest, best-corroborated macro signal on the board — and it goes into the decision at its high** |
+| **FUTURES** | **ES +0.23% · NQ +0.45% · RTY +0.17%** | ✅ **Mildly risk-on, and the roll correction fired again**: ES/NQ/RTY all re-read off the **Z26** contracts. Naive vs true: ES **+1.11% → +0.23%**, NQ **+1.46% → +0.45%**, RTY **+0.92% → +0.17%**. 🚨 **Unpatched, this table would have overstated every equity future by ~0.8 points on FOMC morning.** Second consecutive session the patch has done real work (lesson 50) |
+| ⚠️ **Russell vs the others** | **RTY +0.17%, the WEAKEST of the three again** | Small caps lag on the pre-decision tape for a second straight session. **Lesson 28: one session carries no information — and two is not much more.** Flagged, not booked |
+| SPY / IWM | **757.39 (−0.46%)** / **285.14 (−0.70%)** | Tuesday's settled closes. 🚨 **Factor −0.24% AGAINST Rocket**, carried at 93.6% core weight ≈ **−0.22% on the book** — Rocket's whole day, since there are no satellites. ⚠️ **IWM's recorded 9/14 close disagrees with `macro`'s read of that same bar (287.91 recorded vs 287.16 now) — a 0.26% gap, plausibly an ex-dividend adjustment. Flagged, not scored** (lesson 38) |
+| **Brent / WTI** | **107.73 (−0.94%)** / **103.84 (−1.88%)** | ✅ **The Brent-below-WTI inversion flagged yesterday has RESOLVED** — Brent is back above WTI at a normal spread, and both levels now reconcile with the 9/14 readings (107.43 / 102.71). **The 9/15 file's caution against asserting a Brent level across the roll was correct and the distortion has washed out.** Crude remains elevated, both legs off their highs |
+| Gold / Dollar | 4,387.00 (+1.25%) / 99.68 (+0.03%) | Gold at a run high into the decision; dollar flat after firming for a week. Both cross-check cleanly for the first time in several sessions |
+
+### The macro thesis is unchanged and today it gets settled
+
+Rates remain the signal — **an eleventh session through trigger, at a 5.00% run high, into a
+decision that is hours away.** Energy elevated, gold at a high, dollar firm: the same four legs
+this file has tracked for two weeks, all still pointing at a hike. **Nothing about the setup is
+ambiguous. What is ambiguous is the reaction**, and rule 29 exists precisely because a 7% trail
+cannot price a policy gap — it fills at the open, wherever the open is.
+
+**The designed response for the core remains no action.** The core carries no trailing stop,
+backed by 33 years of SPY testing in which every stop configuration lost to buy-and-hold.
+**A live flag is not a licence to override a tested design** — recorded as a decision, not an
+omission. **For satellites the answer is simply no, today.**
+
+### Factor watch
+
+🚨 **IWM −0.70% vs SPY −0.46% = −0.24% of factor Tuesday**, ≈ **−0.22% on the book** at 93.6%
+core weight. Reverses Monday's +0.11%. **Lesson 28 bars booking either as information** — this
+belongs in `weekly_review`, where the ~93.6% core weight is what actually decides Rocket's year.
+
+🚨 **`weekly_review` W36 (due 9/04) AND W37 (due 9/11) BOTH remain unrun — SEVENTH session
+flagging W36.** `memory/weekly_reviews/` still ends at **2026-W35**; the hand-built
+Rocket-vs-SPY chain is **thirteen sessions stale** (last good 8/28 W35, −2.51%).
+Lesson 47c / [[launchd-quota-contention]].
+
+### Instrument health
+
+🚨 🥇 **THE BIG ONE TODAY IS NOT AN INSTRUMENT — IT IS A STATISTIC. Lesson 48's stop-fit
+diagnostic was falsified.** Eight sessions of this file have asserted, from `daily range ÷ 7%`,
+that no small-cap catalyst day can be held with a 7% trail. **A trailing stop keys on drawdown
+from the running high, not on daily range** — the same number only on a round-trip bar.
+Re-measured on 5-minute bars across all eleven names lesson 48 counted: **the trail SURVIVED 6
+and was HIT 5**, and **KMTS — the best catalyst on the board — would have held and paid +15.49%.**
+✅ **The ELMT kill is vindicated by the same test** (15.66% drawdown). ❌ **The universal claim is
+not.** Escalated to the user as a proposed change of statistic; **no gate rewritten** (rule 42).
+✅ **`macro` populated every field for a TWELFTH straight session**, and the **futures-roll patch
+corrected three rows again** (ES/NQ/RTY → Z26), tagging naive-vs-true as designed (lesson 50d).
+✅ **Brent/WTI levels reconciled** for the first time since the roll — the flagged inversion is gone.
+⚠️ **IWM's 9/14 close differs between this file (287.91) and `macro` (287.16)** — 0.26%, likely
+ex-dividend. **Flagged, not scored** (38).
+✅ **`eligibility`: 12 requested → 12 returned** (lesson 43 count held, on full output per 43b).
+🚨 **`unusual_volume`'s RelVol column is garbage for a THIRD straight session** — **19 of 20 rows
+below 1.0×**, on a day its own top name (FTFT) gapped +20%. `top_movers` gave **9 of 20 rows
+`—` or `0.0x`.** ✅ **`Change %` correct for a FOURTH consecutive session** — DTIL, RCKT and FTFT
+all reconcile exactly off Tuesday's settled closes. **Same split as 17f/17g: price usable, RelVol
+uncorrelated.** Medians pulled on every survivor regardless (rule 46).
+✅ **EDGAR delivered decisively** — it produced KMTS's **undrawn S-3ASR** (gate C), the **Bermuda
+incorporation** that opened escalation 4, and the **10b5-1 plan adoption dates** that reversed an
+apparent "insiders dumping into the print" read into scored-as-noise. 🥇 **Three separate
+findings, none available from any secondary source.**
+📌 **Nasdaq earnings calendar: 15 reporters for 9/15 + 23 for 9/16 = 38 screened, ZERO survivors.**
+Lesson 41d honest tally now **3-for-5** — calendar and screener are complements, not a hierarchy.
+
+---
+
+## Snapshot — 2026-09-15 Tuesday premarket (Week 38 day 2 — FOMC IS TOMORROW)
 
 All "last close" figures are **Monday 2026-09-14's settled closes**.
 
@@ -88,83 +157,5 @@ table.**
 📌 **Alpaca's quote/trade endpoints returned only 2026-09-14T20:00 timestamps at 06:20 ET** —
 no premarket book available, so KMTS's premarket had to be read from yfinance 5-min prepost
 bars (2 bars, **zero reported volume**). **Flagged, not scored** (lesson 15).
-
----
-
-## Snapshot — 2026-09-14 Monday premarket (Week 38 day 1 — FOMC WEEK)
-
-All "last close" figures are **Friday 2026-09-11's settled closes**.
-
-| Metric | Level | Read |
-|---|---|---|
-| 🚨 **THE CALENDAR** | **FOMC decision WEDNESDAY 9/16 — 2 trading days out, ~90% odds of a HIKE** | 🚨 **The binding gate on the entire board.** A 1–5 day hold opened today runs 9/14 · 9/15 · **9/16** · 9/17 · 9/18 — **the decision sits dead in the middle, not at the far end.** Friday's core CPI came in **+0.3% m/m against a +0.2% consensus** and futures repriced to ~90% hike odds. Rule 29: a 7% trail cannot protect against a policy gap; it fills at the open, wherever the open is |
-| 🚨 **VIX** | **18.03** (**+13.83%**) | **Still below the 22 brake — no size restriction.** But this is **the largest single-session VIX jump of the run** (15.84 → 18.03), and it is the first session in which the options market has actually priced the FOMC it has been ignoring for a week. ⚠️ Last week this file flagged that a *falling* VIX into CPI was either complacency or an overdone flag — **the tape has now answered in favour of the flag** |
-| 🚨 **10-yr** | **4.97%** (**+0.63%**) | 🚨 **NINTH consecutive session through the 4.75% trigger, and a new run high** (4.78 → 4.81 → 4.84 → 4.94 → **4.97**). Lesson 34's "trend, not one print" bar was met six sessions ago. **Still the cleanest, best-corroborated macro signal on the board** |
-| 🚨 **FUTURES — READ THIS ONE** | **ES −0.78% · NQ −1.72% · RTY +0.42%** | 🚨 🆕 **A LARGE-CAP TECH SELLOFF WITH SMALL CAPS HOLDING UP — the first session of the run where the Russell is the relative WINNER.** ✅ **Independently verified against raw futures** (ES=F 7,600.00, NQ=F 28,881.00, RTY=F 2,916.80) rather than trusted from `macro` alone — the two agree. **A 2.1-point NQ-vs-RTY spread is not noise**, and it is the exact inverse of the three-session factor drag below |
-| SPY / IWM | **764.29 (+0.85%)** / **288.89 (+0.41%)** | Friday's settled closes. ✅ **Both cross-check EXACTLY against this file's recorded prior closes** (757.83 → 764.29 = +0.85%; 287.70 → 288.89 = +0.41%). 🚨 **Factor −0.44% against Rocket — THIRD consecutive adverse session** |
-| ⚠️ **Brent / WTI** | **107.43 (+2.70%)** / **102.71 (+2.66%)** | **New run highs on both legs** — Brent 92.33 → 107.43 = **+16.4% across the run**, WTI confirming every leg. ⚠️ The level/change inconsistency flagged Friday **persists but has NARROWED** (implied prior 104.61 vs recorded 103.95 = 0.6%, in from ~3.5%). **Safe to assert: Brent is ~$107 and clearly at a run high.** Do not quote the % to the decimal |
-| ⚠️ Gold / Dollar | 4,325.20 (−0.94%) / 99.57 (+0.46%) | ⚠️ Gold's print still disagrees with its own level (implied prior 4,366 vs recorded 4,385.30 = −1.37% actual). **Flagged, not scored** (lesson 38). Dollar cross-checks clean and is firming |
-
-### The rates leg is now NINE sessions old, and the VIX has finally joined it
-
-For two weeks this file has tracked energy + rates + gold as inputs pointing at a September
-hike. Today **three of the four legs corroborate and the fourth has stopped contradicting**:
-the 10-yr at a run high for a ninth session, Brent at a run high, the dollar firming — and
-**VIX +13.8%, the first session it has priced the event.** The gold row remains broken and is
-recorded as unresolved rather than folded in (lesson 38: resolve or flag, never score).
-
-**The designed response for the core remains no action.** The core carries no trailing stop,
-backed by 33 years of SPY testing in which every stop configuration lost to buy-and-hold.
-**A live flag is not a licence to override a tested design** — recorded as a decision, not
-an omission.
-
-**For satellites it is the opposite**, and rule 29 is today the binding kill on the whole
-board — including on ELMT, the strongest catalyst screened in weeks.
-
-### Factor watch — and the first genuine counter-signal in three sessions
-
-🚨 **IWM +0.41% vs SPY +0.85% = −0.44% of factor Friday**, carried at 93.69% core weight
-≈ **−0.41% on the book** — Rocket's whole day, since there are no satellites. **Third
-consecutive adverse session** (−0.41% Thu, −0.44% Fri, −0.91% Wed).
-
-⚠️ **But Monday's futures point the other way, hard: RTY +0.42% against NQ −1.72%.** Lesson 28
-bars booking a one-session move as information and that is honored — **this is flagged as a
-thing to watch across the week, NOT booked as a turn.** It is the first evidence in six weeks
-running counter to the −2.50%-since-rebase drift, and the honest read is that one premarket
-futures print is exactly the kind of thing lesson 28 was written to stop Rocket over-reading.
-**It belongs in `weekly_review`, where the ~90% core weight makes it matter.**
-
-🚨 **`weekly_review` W36 (due 9/04) AND W37 (due 9/11) BOTH remain unrun — FIFTH session
-flagging W36.** `memory/weekly_reviews/` still ends at **2026-W35**. The hand-built
-Rocket-vs-SPY chain is **eleven sessions stale** (last good: 8/28 W35, −2.51%). Per lesson
-47c this was escalated **directly to the user in this session's response** rather than
-deferred into the files a sixth time. Lesson 47 / [[launchd-quota-contention]].
-
-### Instrument health
-
-✅ **`macro` populated every field for a TENTH straight session**, and the equity/rates rows
-cross-check **exactly** against recorded prior closes. The commodity rows remain internally
-inconsistent but **the discrepancy narrowed** (Brent 3.5% → 0.6%).
-✅ **Futures independently verified against `yfinance` raw** — ES/NQ/RTY all agree with `macro`
-to within 0.05%. Given the commodity defect, cross-checking the row the session actually
-depends on was worth one call.
-✅ **`eligibility`: 10 requested → 10 returned** (lesson 43 count held, run against full output).
-✅ **Nasdaq earnings-calendar API delivered on its fifth use** — 14 reporters for 9/11, 16 for
-9/14, with cap and BMO/AMC in one call. ⚠️ **But today it sourced ZERO survivors**: every
-9/11 and 9/14 reporter died on cap, price, domicile or ADV. **The scanner sourced the one real
-catalyst (ELMT).** Recording this honestly — lesson 41d's claim that the calendar out-sources
-the screener is **now 2-for-3, not universal**; the two instruments are complements.
-🚨 🆕 **LESSON 17 INVERTS: the `Change %` column was CORRECT ON EVERY ROW, and `RelVol` is
-the broken one.** All six top rows reconcile *exactly* to Friday's settled closes (ELMT
-16.19→21.27 = +31.4% ✓, CRBP 8.12→9.61 = +18.4% ✓, CLB 12.50→13.45 = +7.6% ✓, STIM
-3.03→3.23 = +6.6% ✓, FLWS 3.02→3.27 = +8.3% ✓). **Second consecutive session the price column
-has been right** (ACVA 9/11). ⚠️ **Meanwhile `unusual_volume` printed ELMT at 44.0× RelVol
-against a Friday bar of 142,900 shares = 0.48× its own median** — the single widest RelVol
-error yet recorded, and **ELMT never appeared in `top_movers` at all despite being the day's
-biggest gapper.** Net: **treat `Change %` as provisionally usable off settled closes; treat
-`RelVol` as pure noise and pull the median on every survivor** (rule 46).
-📌 **`GET /v2/positions` `current_price` (IWM 288.17 / SPY 758.68) does NOT match the settled
-closes (288.89 / 764.29).** Delayed or premarket quotes. **Use `macro` closes for the book,
-the positions endpoint only for raw `qty`** (lesson 24a — qty 9.8636 confirmed, table says "10").
 
 ---
