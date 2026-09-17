@@ -28,11 +28,11 @@ REBASE_DATE = "2026-07-20"
 REBASE_ALLOCATED_VALUE = 3_031.73  # Rocket's 30% slice of $10,105.77 shared value at rebase
 
 
-def get_spy_return_since_inception() -> float:
+def get_benchmark_return_since_inception() -> float:
     try:
         sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-        from scripts.market_data import get_spy_return
-        return get_spy_return(REBASE_DATE)
+        from scripts.market_data import get_benchmark_return
+        return get_benchmark_return(REBASE_DATE)
     except Exception:
         return 0.0
 
@@ -72,9 +72,29 @@ def build_snapshot() -> str:
     allocated_equity = shared_account_value * AGENT_EQUITY_PCT
     invested         = shared_account_value - cash
 
-    rocket_return = (allocated_equity - REBASE_ALLOCATED_VALUE) / REBASE_ALLOCATED_VALUE * 100
-    spy_return    = get_spy_return_since_inception()
-    vs_spy        = rocket_return - spy_return
+    rocket_return    = (allocated_equity - REBASE_ALLOCATED_VALUE) / REBASE_ALLOCATED_VALUE * 100
+    benchmark_return = get_benchmark_return_since_inception()
+    vs_benchmark     = rocket_return - benchmark_return
+
+    # Satellite-floor visibility. CLAUDE.md "Hard Guardrails" (2026-09-17) requires
+    # satellites (actively-picked stocks) to be >=50% of Rocket's slice at all times,
+    # with IWM core capped at the remaining <=50% -- IWM must never be the default
+    # parking spot for capital that should be finding stock picks. Computed here,
+    # not just in market_close's rebalance math, so the split is visible every
+    # session and can't go unnoticed the way a multi-week satellite drought did.
+    satellite_value = core_value = 0.0
+    try:
+        from scripts.position_reconciler import reconcile as _reconcile
+        _repo_for_pct = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        _rec_for_pct = _reconcile(positions, _repo_for_pct, "Rocket", "Bull")
+        _by_sym = {p["symbol"]: float(p["market_value"]) for p in positions}
+        satellite_value = sum(_by_sym.get(s, 0.0) for s in _rec_for_pct.get("matched", []))
+        core_value      = sum(_by_sym.get(s, 0.0) for s in _rec_for_pct.get("core", []))
+    except Exception:
+        pass
+    satellite_pct = (satellite_value / allocated_equity * 100) if allocated_equity else 0.0
+    core_pct      = (core_value / allocated_equity * 100) if allocated_equity else 0.0
+    floor_ok      = satellite_pct >= 50.0
 
     now_str = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
@@ -99,8 +119,21 @@ def build_snapshot() -> str:
         f"| Total Invested (both agents) | ${invested:,.2f} |",
         f"| Unrealized P&L (shared) | ${unrealized_pl:+,.2f} |",
         f"| Rocket return since rebase | {rocket_return:+.2f}% |",
-        f"| SPY return since rebase | {spy_return:+.2f}% |",
-        f"| Rocket vs SPY | {vs_spy:+.2f}% |",
+        f"| IWM return since rebase | {benchmark_return:+.2f}% |",
+        f"| Rocket vs IWM | {vs_benchmark:+.2f}% |",
+        f"",
+        f"### Deployment — Satellite Floor",
+        f"",
+        f"| Sleeve | % of slice | Rule |",
+        f"|--------|-----------|------|",
+        f"| **Satellites (stock picks)** | {satellite_pct:.1f}% | must be >= 50.0% |",
+        f"| Core (IWM) | {core_pct:.1f}% | capped at <= 50.0% |",
+        f"",
+        (f"✅ **Satellite floor met.**" if floor_ok else
+         f"🚨 **SATELLITE FLOOR BREACHED — {satellite_pct:.1f}% < 50%.** Rocket is not "
+         f"deployed in enough stock picks. This is not a market call to sit out — it is "
+         f"a research gap. Finding a qualifying name is the top priority of the next "
+         f"session, not an optional nice-to-have."),
         f"",
         f"**Rebase Date**: {REBASE_DATE} (account merged with Bull — prior standalone",
         f"history since {ORIGINAL_INCEPTION_DATE} is preserved in memory/weekly_reviews/)",
@@ -197,7 +230,7 @@ def build_snapshot() -> str:
         f"",
         f"## Weekly Trade Count",
         f"",
-        f"Trades placed this week: {weekly_trades} / 3 max",
+        f"Trades placed this week: {weekly_trades} / 5 max",
         f"Market open: {'Yes' if is_market_open() else 'No'}",
     ]
 

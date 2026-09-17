@@ -54,36 +54,59 @@ python scripts/alpaca_client.py cancel_stops SYMBOL
 
 ---
 
-### STEP 2.5 — CORE REBALANCE (IWM)
+### STEP 2.5 — CORE REBALANCE AND SATELLITE FLOOR CHECK (IWM)
 
 **This is the only session that rebalances. Never do this intraday.**
 
 The benchmark is the neutral position — see Portfolio Construction in CLAUDE.md.
-Idle cash is an active bet that the market falls, so it gets swept into core.
+Idle cash is an active bet that the market falls, so it gets swept into core — but
+**IWM is capped at 50% of slice.** It is never sized up to fill space that a stock
+pick should be filling. This changed 2026-09-17: the old rule let IWM absorb
+literally everything satellites didn't use, and that quietly hid a two-week research
+drought behind a fully-deployed-looking book.
 
 1. Read the `## Position Reconciliation` block in `memory/portfolio_state.md` to see
    which positions are **yours**. Never infer ownership yourself.
 2. Compute your slice: `slice = shared_account_value * AGENT_EQUITY_PCT`.
-3. Compute your deployed value = sum of the market value of YOUR positions
-   (satellites + any existing IWM).
-4. Compute `target_core = slice - satellite_value - (slice * 0.10)`.
-   The 0.10 is the 10% operating buffer.
-5. Compare to your current IWM holding:
+3. Compute `satellite_value` = sum of the market value of YOUR satellite positions
+   (everything reconciled to you that is NOT the IWM core).
+4. Compute `satellite_pct = satellite_value / slice`.
+
+**🚨 SATELLITE FLOOR CHECK — do this before touching IWM:**
+
+- If `satellite_pct < 50%`: this is a **Hard Guardrail breach**, not a neutral state.
+  Write an entry in `memory/lessons_learned.md`: `SATELLITE FLOOR BREACH — Nth
+  consecutive session at X%`. This is a stock-picking gap, not a bearish call — do
+  NOT write it up as if a bearish cash thesis justifies it. It doesn't.
+  - If this is the **1st** session below floor: note it, no other action required yet.
+  - If this is the **2nd consecutive** session below floor: this becomes the #1
+    priority of tomorrow's `premarket` — see CLAUDE.md rule 8 (widen the scan,
+    accept MEDIUM conviction). Say so explicitly in this session's summary.
+
+5. Compute `target_core = min(slice - satellite_value - (slice * 0.10), slice * 0.50)`.
+   The first term is the old logic (leftover after the 10% cash buffer); the `min`
+   with `slice * 0.50` is the new hard cap. **If satellites are below 50%, this
+   formula will not let IWM fill the gap** — the shortfall shows up as cash above
+   the normal buffer, which is the intended, visible discomfort (see rule above,
+   and `portfolio_snapshot.py`'s "Deployment — Satellite Floor" block).
+6. Compare to your current IWM holding:
    - **short by more than 3% of slice** → BUY IWM to close the gap
    - **over by more than 3% of slice** → SELL IWM down to target
    - **within 3%** → do nothing. The band exists to prevent daily churn.
-6. **Do NOT place a trailing stop on IWM.** It is the benchmark; a stop on it is a
+7. **Do NOT place a trailing stop on IWM.** It is the benchmark; a stop on it is a
    bet against positive drift and the backtest says that bet loses. Satellites keep
    their stops.
-7. Log any IWM trade in `memory/trade_log.md` marked `CORE REBALANCE`, so core
+8. Log any IWM trade in `memory/trade_log.md` marked `CORE REBALANCE`, so core
    activity is never mistaken for a conviction trade in weekly attribution.
 
-**Skip the rebalance entirely if**: the market is closed, a bearish cash thesis is
-active and unexpired in `research_log.md`, or the daily loss cap has been hit (which
-stops NEW positions — it never forces liquidation).
+**Skip the IWM trade (not the floor check) if**: the market is closed, a genuine
+bearish cash thesis is active and unexpired in `research_log.md`, or the daily loss
+cap has been hit (which stops NEW positions — it never forces liquidation). The
+satellite floor check itself always runs regardless.
 
-If cash is above the buffer and there is no written bearish thesis, that is a rule
-violation: either write the thesis or deploy into IWM. Do not leave it undecided.
+If cash is above the buffer, IWM is already at its 50% cap, and there is no written
+bearish thesis, that is a rule violation: either write the thesis or explain in the
+summary why the satellite floor hasn't been met yet. Do not leave it undiscussed.
 
 ---
 
@@ -108,8 +131,10 @@ For exits, complete the trade log entry:
 
 Calculate:
 - Today's Rocket P&L (sum of closed trades today + change in open positions)
-- SPY today: `python scripts/market_data.py spy-today`
-- Rocket vs SPY since inception: `python scripts/market_data.py spy [INCEPTION_DATE]`
+- IWM today: `python scripts/market_data.py benchmark-today`
+- Rocket vs IWM since inception: `python scripts/market_data.py benchmark [INCEPTION_DATE]`
+- Satellite %: pull straight from `portfolio_snapshot.py`'s "Deployment — Satellite
+  Floor" block already read at STEP 1 — don't recompute it by hand.
 
 ---
 
@@ -133,8 +158,8 @@ Then send, embedding `$POSITIONS` verbatim:
 python scripts/ntfy_notify.py \
   "🚀 Rocket Daily — [DATE]" \
   "Portfolio: $X,XXX ([+/-X.XX%] today)
-SPY: [+/-X.XX%] | Rocket vs SPY: [+/-X.XX%] since start
-Cash: $XXX | Deployed: XX%
+IWM: [+/-X.XX%] | Rocket vs IWM: [+/-X.XX%] since start
+Satellite: XX% (floor 50%) | Core: XX% | Cash: $XXX
 
 $POSITIONS
 
@@ -146,7 +171,9 @@ Conviction: HIGH / MEDIUM / LOW"
 ```
 
 The table's dollar columns are **whole-position profit** (qty x price move), not the
-share-price change. `*` marks the IWM core sleeve.
+share-price change. `*` marks the IWM core sleeve. **The Satellite % line is the
+number this whole notification exists to make visible** — it must never be omitted,
+and if it's below 50% say so plainly rather than burying it in prose.
 
 **Verify before reporting.** The command must print `Notification sent: ...`. If it
 prints a usage line, a `Failed to send` error, or nothing, the notification did NOT go

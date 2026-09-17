@@ -96,11 +96,32 @@ Write up to 5 ranked trade ideas in `memory/research_log.md`. Format each as:
 
 ---
 
-**If nothing clears the bar, the default is to hold IWM — not to hold cash.**
-An empty watchlist is a reason to sit in the benchmark, never a reason to sit in
-cash. Cash above the 10% buffer is an active bet that the market falls and requires
-a written bearish thesis here, with a trigger and an expiry date. "Nothing looked
-good" is not a bearish thesis.
+**Check the satellite floor FIRST, before deciding how hard to search.** Read
+`portfolio_snapshot.py`'s "Deployment — Satellite Floor" block (from STEP 1's
+startup run). This determines how today's watchlist gets built:
+
+- **Satellites >= 50%**: normal bar. HIGH conviction only, same as always.
+- **Satellites < 50% for the first session**: still normal bar — one thin day isn't
+  a crisis, and a forced low-conviction pick on day one is worse than waiting.
+- **Satellites < 50% for 2+ CONSECUTIVE market_close sessions**: this is now your
+  **top priority, ahead of routine scanning.** Per CLAUDE.md rule 8:
+  - Widen the scan — run all 4 screeners even if the first ones looked thin, and
+    push further down each result list than usual.
+  - **Accept MEDIUM conviction**, not just HIGH. MEDIUM still requires a real,
+    named catalyst — "if you cannot name a specific catalyst, do not trade" is
+    NOT relaxed. What relaxes is how strong that catalyst has to be, not whether
+    one has to exist. A vague, unverifiable, or pump-y setup is still a pass at
+    any conviction level.
+  - State explicitly in this session's summary: "Satellite floor breached N
+    sessions running — searched at MEDIUM-conviction bar per rule 8."
+
+**If nothing clears the bar even at the widened search, the leftover — capped at
+50% of slice — holds IWM.** An empty watchlist after a genuine widened search is
+still a legitimate outcome sometimes; an empty watchlist from a routine HIGH-only
+scan while sitting on a two-session breach is not. Cash above the 10% buffer (once
+IWM is already at its 50% cap) requires a written bearish thesis with a trigger and
+an expiry date — and that thesis has to be an actual bearish view, never a
+restatement of "nothing looked good."
 
 ---
 

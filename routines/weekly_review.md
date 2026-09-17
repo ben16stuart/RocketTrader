@@ -27,8 +27,32 @@ From `memory/trade_log.md`, calculate:
 - Win rate (% of closed trades profitable)
 - Total P&L this week
 - Average winner size vs average loser size (R-multiple)
-- SPY this week: `python scripts/market_data.py spy [MONDAY_DATE]`
-- Rocket vs SPY since inception: `python scripts/market_data.py spy [INCEPTION_DATE]`
+- IWM this week: `python scripts/market_data.py benchmark [MONDAY_DATE]`
+- Rocket vs IWM since inception: `python scripts/market_data.py benchmark [INCEPTION_DATE]`
+
+---
+
+### STEP 2.5 — SATELLITE FLOOR COMPLIANCE (grade this every week, no exceptions)
+
+This section exists because of a real failure: Rocket went roughly two weeks with
+satellites effectively at 0% — fully parked in IWM — before anyone noticed, because
+nothing in the weekly review was checking for it. Fixed 2026-09-17 with a hard >=50%
+floor (see CLAUDE.md, Hard Guardrails). Grade compliance with the same honesty as
+P&L:
+
+1. Pull each day's satellite % this week from `market_close` logs / `session_notes.md`.
+2. Count: how many of the week's sessions had satellite_pct < 50%?
+3. If any: were they logged as `SATELLITE FLOOR BREACH` entries in
+   `lessons_learned.md` at the time, per the market_close routine? If a breach
+   happened but wasn't logged, that is itself a finding — write it up.
+4. If two or more CONSECUTIVE sessions breached: did the following `premarket`
+   actually widen its search / drop to MEDIUM conviction per CLAUDE.md rule 8, or
+   did it just note the breach and move on? A logged breach with no behavioral
+   response is the exact failure mode this rule exists to prevent — grade it
+   accordingly, do not let "I flagged it" substitute for "I fixed it."
+5. State the week's average satellite % as a headline number, next to the P&L
+   headline. A profitable week sitting mostly in IWM is not a good week for a
+   stock-picking agent — say so plainly rather than let the P&L line speak for it.
 
 ---
 
@@ -138,7 +162,8 @@ python scripts/ntfy_notify.py \
   "🚀 Rocket Weekly — Week of [DATE]" \
   "Grade: [A/B/C/D/F]
 P&L: $[+/-XX.XX] | Win rate: X/X | Avg R: X.Xx
-SPY week: [+/-X.X%] | Rocket vs SPY: [+/-X.X%]
+IWM week: [+/-X.X%] | Rocket vs IWM: [+/-X.X%]
+Avg satellite deployment this week: XX% (floor 50%) | Sessions below floor: X/5
 
 $POSITIONS
 

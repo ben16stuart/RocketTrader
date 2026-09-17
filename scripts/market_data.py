@@ -24,9 +24,17 @@ def get_price_history(symbol: str, period: str = "3mo") -> pd.DataFrame:
     return df
 
 
-def get_spy_return(since_date: str) -> float:
-    """Return SPY % gain from since_date (YYYY-MM-DD) to today's close."""
-    spy = yf.Ticker("SPY")
+# Rocket is benchmarked against IWM (Russell 2000), not SPY -- see CLAUDE.md
+# "Portfolio Construction". Bull is the SPY-benchmarked agent; these two repos
+# diverged deliberately on 2026-09-17 so each agent's core IS its own benchmark,
+# which is what makes the core contribute exactly zero excess return by
+# construction (the same property Bull already had against SPY).
+BENCHMARK_SYMBOL = "IWM"
+
+
+def get_benchmark_return(since_date: str) -> float:
+    """Return IWM % gain from since_date (YYYY-MM-DD) to today's close."""
+    spy = yf.Ticker(BENCHMARK_SYMBOL)
     # end must be TOMORROW — yfinance end is exclusive, so end=today omits today's bar
     end = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
     data = spy.history(start=since_date, end=end)
@@ -40,9 +48,9 @@ def get_spy_return(since_date: str) -> float:
     return round((price_now - price_then) / price_then * 100, 2)
 
 
-def get_spy_daily_return() -> float:
-    """Return SPY % change for today (today's close vs yesterday's close)."""
-    spy = yf.Ticker("SPY")
+def get_benchmark_daily_return() -> float:
+    """Return IWM % change for today (today's close vs yesterday's close)."""
+    spy = yf.Ticker(BENCHMARK_SYMBOL)
     end = (datetime.now() + timedelta(days=1)).strftime("%Y-%m-%d")
     data = spy.history(start=(datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d"), end=end)
     # Same NaN-close guard as get_spy_return. Premarket this correctly yields the
@@ -428,7 +436,7 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     if not args:
         print("Usage: market_data.py <command> [args]")
-        print("Commands: macro, eligibility, price, fundamentals, chart, screen, spy")
+        print("Commands: macro, eligibility, price, fundamentals, chart, screen, benchmark")
         sys.exit(0)
 
     cmd = args[0].lower()
@@ -468,14 +476,14 @@ if __name__ == "__main__":
         for s in screen_momentum(top_n):
             print(f"{s['symbol']:<8} {s['price']:>8.2f} {s['mom_1m']:>+7.1f}% {s['avg_vol_m']:>9.1f}M")
 
-    elif cmd == "spy":
+    elif cmd == "benchmark":
         since = args[1] if len(args) > 1 else "2026-04-20"
-        ret = get_spy_return(since)
-        print(f"SPY return since {since}: {ret:+.2f}%")
+        ret = get_benchmark_return(since)
+        print(f"{BENCHMARK_SYMBOL} return since {since}: {ret:+.2f}%")
 
-    elif cmd == "spy-today":
-        ret = get_spy_daily_return()
-        print(f"SPY today: {ret:+.2f}%")
+    elif cmd == "benchmark-today":
+        ret = get_benchmark_daily_return()
+        print(f"{BENCHMARK_SYMBOL} today: {ret:+.2f}%")
 
     else:
         print(f"Unknown command: {cmd}")
