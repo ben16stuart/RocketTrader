@@ -141,7 +141,16 @@ Only trade securities that meet ALL of these criteria:
 - **Exchange**: NYSE or NASDAQ listed (NO OTC, NO pink sheets)
 - **Price**: $3.00+ (avoid sub-$3 micro-cap traps)
 - **Avg daily volume**: > 300,000 shares (need liquidity to exit)
-- **Country**: US-domiciled company
+- **Country**: US-domiciled company — meaning **incorporated in the US**
+  (SEC EDGAR `stateOfIncorporation`), NOT where it operates or is headquartered.
+  **Ruled 2026-09-17** after KMTS (Bermuda-incorporated, Kirkland WA HQ) exposed
+  inconsistent application: ADNT had already been excluded as an Ireland plc despite
+  being headquartered in Plymouth, Michigan — identical shape, opposite treatment.
+  "Domicile" is a legal term of art (incorporation), not a residence term (HQ), and
+  incorporation/FPI-status is what actually determines SEC reporting regime —
+  10-K/full disclosure vs 20-F/foreign-private-issuer exemptions — which is what
+  Rocket's whole catalyst-verification process (dated, primary-sourced, EDGAR-backed)
+  depends on. Check `stateOfIncorporation` via `data.sec.gov/submissions/CIK*.json`.
 - **Float**: Prefer low-float stocks (under 50M shares) — they move more
 
 **Never trade**: S&P 500 components, options, crypto, leveraged ETFs, Chinese reverse-merger stocks, stocks under $3.

@@ -174,7 +174,7 @@ before asserting the defect.
 | 🥇 **HAWK** | The best-constructed name on the board and it dies three ways. ❌ **Rule 13 is the clean one: $2B ÷ 98.0M sh ÷ 1.25 = a hard no-chase ceiling of $16.33 — premarket is $16.80, already 2.9% ABOVE it.** The +25% rung breaches $2B; a one-rung name at best, the ETON shape. ❌ **Rule 4:** 9/16 closed **−1.94% at 31% of range** on 1.02× volume. ❌ **Rule 1 / 49a:** the catalyst is a **Memorandum of Understanding with Leonardo** — an MoU has **no committed dollars at all**, which is worse than ELMT's IDIQ (that at least had a $150M guaranteed minimum). The second "catalyst" is a **Russell 2000 index addition effective 9/21** — 🥇 **a mechanical, pre-announced flow event, and one Rocket's OWN IWM CORE will capture for free.** Buying HAWK to front-run the index that Rocket already owns is paying a satellite's risk budget for beta it holds. ⚠️ Also: **IPO lock-up expired 9/01 with officer Form 144s** (30a supply pressure) and float 67.6M > 50M, so no low-float kicker |
 | **OSS** | ❌ **Rule 7a decides it in one line: the catalyst is a ~$400,000 award — 0.18% of a $224M market cap.** That is a press release, not a revenue-changing deal. ❌ **Rule 8 / 8e:** **S-3 filed 8/24 and S-3/A 8/28, three weeks old, size unconfirmed** — a company touting a contract three weeks after filing a shelf may be advertising into the raise; and an unconfirmed size is rule 38's "resolve the gap, never score it." ❌ **Rule 4:** 9/16 closed **−1.05% at 38% of range on 0.90× volume** — the tape rejected the award **on the day it was announced.** ❌ **Rule 37a:** median range **7.97% = 1.14× the entire trail on a normal day** |
 | **UNCY** | ❌ **Rule 1 — there is no bullish catalyst; the window's news flow is NEGATIVE.** Four securities class-action solicitations dated **9/14–9/16**, all referencing the **6/30/2026 FDA Complete Response Letter** on oxylanthanum carbonate. 🚨 ❌ **Rule 8 at its worst tier: the ATM was expanded to $150M on 6/05 against a $131M market cap — the authorization is LARGER THAN THE ENTIRE COMPANY.** Float 27.2M = **99% of shares out**, i.e. no insider lock and maximum supply. **A +6.5% premarket print on a post-CRL litigation name with an over-100% ATM is the pump shape lesson 1 was written for, not a catalyst** |
-| **GLAS** | ❌ **Rule 1 — no catalyst found at ALL.** The only dated items are a routine H.C. Wainwright conference slot and an **SVP insider SALE (Form 4, 9/14).** An unexplained +7.2% premarket with no verifiable cause is lesson 1's explicit AVOID. ❌ **Rule 8:** live **$100M ATM prospectus dated 7/15/2026** = 13% of a $757M cap. 🚨 ❌ **Domicile: British Columbia** — escalation 4 again, and per 38/52b unresolved = FAIL. ❌ Rule 4: 9/16 closed at 43% of range |
+| **GLAS** | ❌ **Rule 1 — no catalyst found at ALL.** The only dated items are a routine H.C. Wainwright conference slot and an **SVP insider SALE (Form 4, 9/14).** An unexplained +7.2% premarket with no verifiable cause is lesson 1's explicit AVOID. ❌ **Rule 8:** live **$100M ATM prospectus dated 7/15/2026** = 13% of a $757M cap. 🚨 ❌ **Domicile: British Columbia** — excluded (52c ruled 2026-09-17: incorporation governs). ❌ Rule 4: 9/16 closed at 43% of range |
 | **XTND** | ❌ **Lesson 46j: only EIGHT daily bars exist — the entire history IS the atypical post-listing regime, so it is un-measurable rather than passing.** ❌ **Rule 37a: median range 14.56% = 2.08× the ENTIRE trail on a normal day.** 🚨 ❌ **Rule 38: the two instruments disagree on a UNIVERSE gate by 11.7× — the scanner says cap $101.15M, `eligibility` says $1,178M** (249.1M sh × $4.73). An unresolved universe gate is a FAIL. No dated catalyst, no float, earnings date unknown |
 | **RZLT** | ❌ **The 9/09 Phase 3 sunRIZE readout MISSED its primary endpoint** — a failed readout is not a catalyst. ❌ 9/16 AMC earnings **content could not be confirmed from any primary source** → rule 38 FAIL |
 | **ALMU** | Reported 9/16 AMC and is **−14.6% in premarket.** A negative reaction — kill on rule 4/5 without further work |
@@ -206,27 +206,26 @@ one died on a named gate.**
   `memory/weekly_reviews/` ends at **2026-W35**; the hand-built Rocket-vs-SPY chain is
   **fourteen sessions stale** (last good 8/28 W35, −2.51%). Lesson 47c.
 
-### 🚨 Open escalations awaiting a user decision — FOUR
+### 🚨 Open escalations awaiting a user decision — TWO (two ruled 2026-09-17)
 
 1. **Which rebalance basis governs** (lesson 44) — **THIRTEENTH+ consecutive session.**
    Slice **$3,128.32** vs book **$2,992.32** = **$136.00**, ⚠️ **widened for a second straight
    session** (was $133.91, then $130.87). ✅ Cause re-confirmed as 44b: **Bull's** JPM/SPY marks
    rise while Rocket's IWM falls, and every dollar Bull makes mechanically raises Rocket's core
    target. No action here (rule 6: `market_close` only).
-2. ⚠️ **Satellite stop width — THE ARGUMENT WEAKENED TODAY, ON ROCKET'S OWN EVIDENCE.**
-   Yesterday this was escalated as *"MDD-from-HWM would have let Rocket hold KMTS to +15.49%."*
-   **The identical measurement on the next bar shows the trail surviving at 5.80% MDD while the
-   trade lost 4.44%.** The honest ask is therefore narrower than yesterday's: **may Rocket
-   replace `range ÷ trail` with `max drawdown from the running high` as the stop-fit statistic —
-   on ACCURACY grounds, not profit grounds?** It is free, exact, and is what the broker computes.
-   **It is not an edge and must not be sold as one.** **NOT self-approved** (42/51d).
-3. **The ADV gate binds on account size, not tradeability** (46f) — KMTS's marginal median is
+2. **The ADV gate binds on account size, not tradeability** (46f) — KMTS's marginal median is
    the same bind from the other side.
-4. **Does "US-domiciled" mean INCORPORATION or OPERATIONS?** **Still unresolved, and it hit a
-   THIRD name today: GLAS is British Columbia-incorporated** (KMTS Bermuda/Kirkland WA, ADNT
-   Ireland/Plymouth MI, NB British Columbia). Per rule 38 an unresolved mandate question is a
-   **FAIL**, so all four are blocked meanwhile — **but logged as awaiting a ruling, not as
-   killed** (52b), or the escalation disappears into the kill table and never gets decided.
+
+✅ **RULED 2026-09-17 — Satellite stop width (was #2).** Approved on the accuracy grounds
+asked for: replace `range ÷ trail` with `max drawdown from the running high` as the stop-fit
+screening statistic, effective for gates written from here forward. **The 7% trail width is
+UNCHANGED** — this is a measurement fix, not a risk change. See lesson 54c.
+
+✅ **RULED 2026-09-17 — "US-domiciled" (was #4). INCORPORATION governs, not operations/HQ.**
+`CLAUDE.md` now states this explicitly, with the SEC disclosure-regime rationale. **KMTS
+(Bermuda), GLAS (British Columbia), and NB (British Columbia) are EXCLUDED**, consistent with
+how ADNT was already treated — no prior exclusion reversed. See lesson 52c. Stop checking this
+gate case-by-case; it is now a standing rule like the rest of the universe filter.
 
 ### Re-open conditions for killed names (everything else needs a new dated catalyst)
 
@@ -236,7 +235,7 @@ one died on a named gate.**
 | **HAWK** | ⚠️ **Price ≤ $16.33** (rule 13 two-rung ceiling) **AND** a catalyst with committed dollars — an MoU converting to a signed contract with a stated value. The index add is not re-openable; it is beta Rocket already owns |
 | **OSS** | A contract **material to a $224M company** (the $400k award is 0.18%) **and** the 8/24 shelf's size and drawn/undrawn status resolved |
 | **UNCY** | ⚠️ **Effectively never at this structure** — a $150M ATM against a $131M cap, post-CRL, with live securities litigation |
-| **GLAS** | A dated primary-source catalyst **and** the escalation-4 BC-domicile ruling |
+| **GLAS** | ❌ **Never** — non-US-incorporated (British Columbia), ruled 2026-09-17 (52c). Category-excluded like ADNT. |
 | **XTND** | ⚠️ **Un-measurable, not killed** — needs ~60+ bars of post-listing history (46j) **and** the 11.7× market-cap disagreement resolved to a single number |
 | **RCKT** | A **delivered** readout, not a resumption — and a close in the upper half of range. 10/06 update |
 | **DTIL** | Sustained **median** volume >300k on non-catalyst bars, or a user decision on the ADV gate |
@@ -246,11 +245,11 @@ one died on a named gate.**
 | **PLAY** | Not re-openable on this print (negative reaction). Keep on the earnings calendar |
 | **CRBP** | A **dated primary-source** CRB-913 Ph1b topline **and** a close in the upper half of range |
 | **ACVA** | ⚠️ **Never.** $10.50 cash tender caps upside below rung 1 |
-| **NB** | Earnings **9/28** — re-screen then, **and resolve the BC-incorporation question** (escalation 4, same as GLAS) |
+| **NB** | ❌ **Never** — non-US-incorporated (British Columbia), ruled 2026-09-17 (52c). Category-excluded like ADNT. |
 | **CAPR** | PDUFA **EXTENDED Aug 22 → Nov 22** — a delay repriced as optionality (37c) |
 | **CLB** | A name-specific dated catalyst (earnings 10/28) **and** a dated target above the +15% rung |
 | **DBI · STIM · LPTH · REF · FEIM · WLTH · SHOE · CMRC · TSSI · IRD · CAL · AVO · NX · SWBI · CHPT · INSG · PHR · ARCT · HLF · SG · TROX · AMRC · WTI · ENOV · UPB** | Named gates unchanged from W37/W38; reasons in `archive/research_log_history.md` |
 | ⚠️ **Liquidity-locked** — FLWS · RFIL · CODA · INNV · OCC · BBCP · TLYS · JILL · PPIH · CSHR · LSAK · **GLOO** · LMNR · LAKE · KEQU · SKIL · MCFT · VNCE · LOVE · QUIK · NMAD · IBEX · ZUMZ · AENT · CSBR · HOFT · RENT · PLCE · VRA · RLGT · ESP · **DTIL** | **Not re-openable on a catalyst** — only sustained **median** volume above 300k, or a user decision on the ADV gate |
-| **Standing mandate kills** — BNC · CSHR · USDE · DFDV · ABTC · HYPD · HYMC · QMLS · GOLD.com · BRR · **UPXI** (crypto/treasury, lesson 31) · **ACP** (closed-end fund) · **ADNT** · **GLAS** · **NB** (⚠️ all three see escalation 4) · FTFT · LPA · TEN · YB · IMPP · **DAVA** · **YRD** · **VFS** · **IPHA** · **IH** · SA · ODD · CGNT · NNOX · COE · AACG · NVA · CMCM · HTLM · MNY · CURR · GRFS · CBAT · HITI · BIOX · ZENA · LUXE · SANG · RYDE · DSWL · SJ · YI · GURE · ISPR · GAUZ · CLGN | Category-excluded. Not re-researched |
+| **Standing mandate kills** — BNC · CSHR · USDE · DFDV · ABTC · HYPD · HYMC · QMLS · GOLD.com · BRR · **UPXI** (crypto/treasury, lesson 31) · **ACP** (closed-end fund) · **ADNT** · **GLAS** · **NB** (non-US-incorporated, ruled 2026-09-17 — 52c) · FTFT · LPA · TEN · YB · IMPP · **DAVA** · **YRD** · **VFS** · **IPHA** · **IH** · SA · ODD · CGNT · NNOX · COE · AACG · NVA · CMCM · HTLM · MNY · CURR · GRFS · CBAT · HITI · BIOX · ZENA · LUXE · SANG · RYDE · DSWL · SJ · YI · GURE · ISPR · GAUZ · CLGN | Category-excluded. Not re-researched |
 | **Hard-gate kills** — CATX · AIV · HAIN · CHRN · FRGT · AREC · EPM · TCOM · FPS · ELME · ANAB · UROY · M · FIZZ · AEO · **HUBG** · SIG · ASO · CULP · HTT · NBP · ANIX · ALPS · KR · ZONE · CVRX · TRT | Cap / price / volume / exchange. New instrument only |
 | **Tape kills** — GIII · DAKT · NEOV · YEXT · PD · RMNI · MEI · CBIO · TYRA · PYXS · RARE · GOLD · LTRX · OOMA · FRNM · SSTK · BBW · OSG · XHLD · NABL · LENZ · ALMS · EOSE · OABI · DUOT · AGPU · SVCO · ANRO · AVEX · BETR · **ALMU** · **RZLT** · **FLNC** · **TRAX** | New dated catalyst only |
