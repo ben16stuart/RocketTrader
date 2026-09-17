@@ -4,6 +4,76 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-17 — CORE REBALANCE, IWM SELL (market_close, Thursday, Week 38 day 4) — FIRST SESSION UNDER THE NEW 50% IWM CAP; core cut from 90% to 50% of slice, satellite floor still breached at 0%
+
+**No satellite fills today.** 0/4 satellites open, unchanged since the 8/26 OMER stop-out
+— Step 2 has no rows to review. Premarket killed KMTS on rule 4 (distribution close) and
+five other names on catalyst-quality gates (new lesson 53); midday found one real,
+web-verified catalyst — **PAAI** (+271% on a $1B Roundtable MediaOS deal) — but it is
+barred from a same-day entry by the >35% rule and carries into tomorrow's premarket as a
+live second-day candidate. Full detail in `research_log.md`/`session_notes.md`.
+
+**🆕 CORE REBALANCE, IWM SELL — this is the first `market_close` to run under this
+morning's CLAUDE.md rewrite (commit 348cc06), which caps IWM core at <=50% of slice
+instead of letting it absorb 100% of whatever satellites don't use.** With satellites at
+$0, the old formula would have left IWM at ~90% of slice (where it in fact was, unchanged
+across all of Week 38); the new formula caps it at 50% regardless.
+
+- Raw qty pre-trade **9.8636 sh** (confirmed live via `GET /v2/positions/IWM`, never the
+  rounded display — lesson 24), price **$285.56**, market value **$2,816.65**.
+- Slice **$3,126.67** (shared account $10,422.24 × 30%), satellite value $0, 10% buffer
+  $312.67 → old-formula target **$2,814.00**. New cap: **slice × 50% = $1,563.34**.
+  `target_core = min(2814.00, 1563.34) = $1,563.34`.
+- Current IWM value $2,816.65 vs target $1,563.34 = **$1,253.31 over, 40.1% of slice —
+  nowhere close to the 3% band.** SELL.
+- **Sold 4.389 sh @ $285.585443 = $1,253.55 proceeds**, filled 19:59:12 UTC (order
+  `6ddc3042…`). New IWM qty **5.4746 sh**, value **$1,564** — lands almost exactly on the
+  new cap (`portfolio_snapshot.py` confirms Core = 50.0% of slice post-trade).
+- Proceeds went to **pooled cash**, not to a satellite — there is no open satellite to fund
+  (rule 4 of Portfolio Construction: fund satellites by selling core, but only when a
+  satellite exists to fund). This is the **intended, uncomfortable outcome** CLAUDE.md
+  describes: "if satellites are below 50% and IWM is already at its 50% cap, the excess
+  sits as cash above the normal 10% buffer." Rocket's book cash is now **≈$1,563 / ~50% of
+  slice** — far above the 10% buffer, and **no bearish thesis is written for it**, because
+  none applies: this is the stock-picking gap made visible by design, not a market call
+  (CLAUDE.md is explicit that this exception is never for "nothing qualified").
+- Not a conviction trade — mechanical enforcement of the new cap, logged as `CORE
+  REBALANCE` per the standing convention so it isn't mistaken for a discretionary call in
+  weekly attribution.
+
+**🚨 Satellite floor check — 1st session under the new guardrail.** Satellites **0.0% <
+50%** = a Hard Guardrail breach per this morning's CLAUDE.md rewrite. This is the **first**
+`market_close` the floor has existed as a named guardrail (previously 0% satellites just
+meant "IWM absorbs everything," not a breach) — per rule 8, a 1st-session breach requires
+only noting it, no escalation yet. **If tomorrow's (9/18, Friday) `market_close` also shows
+satellites <50%, that is the 2nd consecutive session and triggers Monday 9/21 premarket's
+top-priority gap-closing mandate** (widen scan, accept MEDIUM conviction, catalyst
+requirement unchanged). PAAI's live second-day setup is the best chance to avoid that
+before it's forced.
+
+**Day P&L** (hand-computed, book basis — `position_table.py`'s intraday_pl column
+understates today because it's keyed to the *post-sale* 5.4746 sh remaining, not the
+9.8636 sh actually held most of the session): value at yesterday's settled close
+(9.8636 sh × $283.92) = $2,800.31; value now (5.4746 sh × $285.60 + $1,253.55 sale
+proceeds) = $2,817.09. **IWM day P&L +$16.78 / +0.60%**, matching `market_data.py`'s IWM
+today (+0.60%) exactly — the rebalance itself is P&L-neutral, only the day's price move
+counts. vs **IWM +0.60%** (Rocket's own book is now the same instrument, so today's
+book-vs-benchmark spread is by construction ~0%, as expected on a no-satellite day under
+the new IWM-benchmark regime).
+- Since-rebase figure **not recomputed here.** The hand-built chain (lesson 23a) stands at
+  the 8/28 W35 review (Rocket vs **SPY** −2.51%, grade C) — stale, **and now measured
+  against the wrong benchmark**, since CLAUDE.md switched Rocket's benchmark from SPY to
+  IWM this morning (same commit as the satellite floor). **W36 (due 9/04), W37 (due 9/11),
+  and W38 (due tomorrow 9/18) are all outstanding — three owed** — and the next
+  `weekly_review` that runs needs to both catch up the chain and re-baseline it against
+  IWM, not SPY. `portfolio_snapshot.py`'s own since-rebase number (+3.14%, mixes Bull's
+  P&L) remains not authoritative per lesson 23.
+- Weekly count: **0/5** — Week 38 day 4 closes with zero new satellites; PAAI is a
+  genuine, verified, dated catalyst (lesson 41's "don't let a real catalyst go untraded"
+  applies directly) carried into tomorrow, not a board-quality gap today.
+
+---
+
 ## 2026-09-16 — NO TRADE (market_close, Wednesday, Week 38 day 3 — FOMC DECISION DAY) — core dead-on-target on slice basis, book basis still diverges, no satellites
 
 **No fills today.** No satellites open to review (0/4, unchanged since the 8/26 OMER

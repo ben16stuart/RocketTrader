@@ -3,6 +3,148 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-17 — MARKET_CLOSE (Thursday, Week 38 day 4) — CORE REBALANCE (IWM SELL), first session under the new 50% cap; satellite floor breached 0%, 1st session
+
+No satellite positions to review (0/4, unchanged since 8/26). The real event: this
+morning's CLAUDE.md rewrite (commit 348cc06) caps IWM core at <=50% of slice instead of
+letting it absorb everything satellites don't use. With satellites at $0, IWM had drifted
+to ~90% of slice over the last three weeks under the old rule — the new formula put target
+at $1,563.34 vs a live $2,816.65, **40.1% of slice over, nowhere near the 3% band.** Sold
+**4.389 sh IWM @ $285.585443 = $1,253.55**, landing core exactly on the new 50% cap
+(confirmed via `portfolio_snapshot.py`'s Satellite Floor block). Proceeds went to pooled
+cash — there's no satellite to fund it into — which pushed Rocket's book cash from ~6% to
+**~50% of slice** in one session. No bearish thesis written; per CLAUDE.md this is the
+stock-picking gap made visible on purpose, not a market call. Full arithmetic in
+`trade_log.md`; new lesson 56 in `lessons_learned.md`.
+
+Day P&L (hand-computed, book basis, since `position_table.py`'s post-sale qty understates
+it): **IWM +$16.78 / +0.60%**, matching the benchmark exactly — the rebalance itself is
+P&L-neutral. Satellite floor is breached (0% < 50%) but this is only the **1st session**
+the guardrail has formally existed (it wasn't a named breach under the old rule) — no
+escalation required yet. **If tomorrow's close is also <50%, Monday 9/21 premarket must
+prioritize closing the gap.** PAAI (real, verified $1B deal, barred only by the >35%
+same-day rule) is the live second-day candidate best positioned to close it first — carries
+into tomorrow's premarket.
+
+Notification sent — see `trade_log.md` for confirmation status.
+
+---
+
+## 2026-09-17 — MIDDAY (Thursday, Week 38 day 4) — NO ACTION; 0 satellites (core-only book), one real catalyst (PAAI) barred by the 35% same-day rule
+
+Position review trivial: Rocket owns only the IWM core (no stop by design, exempt from
+position limits) — JPM/SCHW/SPY on the shared account confirmed Bull's via
+`position_reconciler`. Nothing to cut, nothing to tighten.
+
+Re-scanned `unusual_volume` for afternoon setups. One name worth recording: **PAAI**
+(Paradium.AI, fka The Arena Group) spiked **+271%** ($0.90 → $3.34) on a real, dated,
+web-verified catalyst — a 10-year **$1B Roundtable MediaOS deal** plus an $89M/49%
+minority investment. Ran the lesson-17/55 reconciliation before trusting it: raw yfinance
+bars confirm the move is genuine (31.76M volume vs a 13.1M float — 2.4x turnover), not a
+scanner artifact. **Not tradeable today** — CLAUDE.md's >35% rule requires a second-day
+entry, and every close in the trailing 5 sessions was under $3.00 (today is the first bar
+to clear the price floor, on the spike itself). Logged in research_log.md as a 3-day
+missed-catalyst watch per the standing rule. Rest of the board was mandate-kills
+(USDE, BRR — crypto/treasury), liquidity-locked (GLOO), or already-closed names
+(ACVA, ALMU). No trade.
+
+Satellite floor remains breached (0% < 50%, portfolio_state.md) — unchanged from premarket.
+
+**Open thread for market_close**: no rebalance action expected beyond the usual core
+band check; PAAI carries into tomorrow's premarket as a live second-day candidate.
+
+---
+
+## 2026-09-17 — PREMARKET (Thursday, Week 38 day 4 — **first post-FOMC session**) — NO ENTRY; **rule 29 lifted and the board died on catalyst quality instead**; KMTS gates B+E passed and rule 4 CLOSED it
+
+**Book (hand-built, lesson 23a — BASE NAMED per rule 44): $2,992.32** = IWM **9.8636 sh**
+($2,800.31 @ the settled 9/16 close of $283.92, **93.58%**) + notional cash **$192.01 (6.42%)**.
+✅ **Inside the 10% buffer — no bearish thesis required.** Satellites 0/4 · weekly 0/5 ·
+max satellite $469.25 · 1.5% risk $46.92. Raw fractional qty pulled from
+`GET /v2/positions/IWM` per lesson 24a/24d — **the snapshot table printed "10" for a FOURTH time.**
+
+- ✅ **FOMC delivered 25bp as priced. Rule 29's three-session board-wide block is LIFTED** —
+  and **seven in-universe names were then screened and killed on their own merits.**
+- 🥇 **THE FINDING: for the first time in nine sessions, stop width was NOT the binding
+  constraint — and that is evidence AGAINST Rocket's own lesson 48a.** 48a/48e/48g reframed
+  lesson 36 from a *board-quality* problem into a *mandate-quality* one: "the catalyst screen
+  works and the stop width forbids everything it finds." Run 48d's diagnostic on today's
+  survivors' **normal-day median ranges**: **UNCY 5.56% (0.79×), GLAS 5.61% (0.80×), KMTS
+  6.30% (0.90×), DUOT 6.84% (0.98×), HAWK 6.87% (0.98×)** — **five of seven FIT inside a 7%
+  trail.** The board still produced nothing, because the catalysts were **an MoU with zero
+  committed dollars (HAWK), a $400,000 award against a $224M cap (OSS), an unexplained
+  cannabis premarket print (GLAS), and a class-action-adjacent bounce off a CRL (UNCY).**
+  **The two constraints are separable and today separated them. 48a was over-claimed.**
+  Written against Rocket's own argument (45h/51e) → **new lesson 53.**
+- 🚨 **THE SECOND FINDING: yesterday's MDD statistic now cuts AGAINST the change Rocket asked
+  for.** Lesson 51 argued MDD-from-HWM should replace `range ÷ trail` on the evidence that
+  KMTS's 9/15 bar had a **6.18% MDD** — trail survives, **+15.49%.** Measured identically on
+  the next bar, **KMTS 9/16 MDD = 5.80% (77 five-min bars): the trail survived AGAIN and the
+  trade lost 4.44% open-to-close.** 51's *correctness* is untouched; **the claim attached to
+  it is not. MDD removes a false veto; it does not supply an edge.** Escalation 2 re-stated on
+  **accuracy grounds only** → **new lesson 54.**
+- ❌ **KMTS CLOSED — and it cleared two more gates on the session that killed it.** Gate **B**
+  ✅ (9/16 range **6.10%** ≤10%, held exactly as written per 42/51d despite 51 proving it
+  measures the wrong thing) and gate **E** ✅ (FOMC done). 🚨 **Rule 4 is the binding kill:
+  9/16 closed −4.37% at 15.0% of its range on 825,000 sh = 2.58× the 63d median / 3.25× the
+  2y median.** Distribution. **SPY −0.44% and IWM −0.43% do not explain a −4.37% day.** Also
+  the day-2 continuation window is spent (catalyst 9/14 AMC → day 1 9/15 → day 2 9/16 gave it
+  back; today is day 3). **CLOSED, not deferred** (42d/45e). Gate G (Bermuda) still owed.
+  🥇 **The gate stack repeating 5g's shape: KMTS is the only name ever to pass the guidance
+  gate, gate A, gate B and gate E — and a fifth gate killed it. Independent gates do not net
+  out (42a); accumulated passes do not earn a trade.**
+- ❌ **HAWK — the best-constructed name on the board, dead three ways.** **Rule 13 is the clean
+  one: $2B ÷ 98.0M sh ÷ 1.25 = a hard no-chase ceiling of $16.33; premarket is $16.80, already
+  2.9% ABOVE it** — the +25% rung breaches $2B. **Rule 4:** 9/16 closed −1.94% at 31% of range.
+  **Rule 1/49a:** the catalyst is a **Memorandum of Understanding** — *no committed dollars at
+  all*, worse than ELMT's IDIQ (which at least carried a $150M minimum). 🥇 **And the second
+  "catalyst" is a Russell 2000 addition effective 9/21 — a pre-announced mechanical flow event
+  that Rocket's OWN IWM CORE will capture for free. Buying HAWK would spend a satellite's risk
+  budget on beta already held.** Lock-up expired 9/01 with officer Form 144s (30a).
+- ❌ **OSS killed by rule 7a in one line: a ~$400,000 award = 0.18% of a $224M market cap.**
+  A press release, not a revenue-changing deal. Compounded: **S-3 filed 8/24 + S-3/A 8/28,
+  size unconfirmed** (8e — touting a contract three weeks after filing a shelf), **9/16 closed
+  −1.05% at 38% of range on 0.90×** (the tape rejected it the day it was announced), and
+  **median range 7.97% = 1.14× the whole trail on a normal day.**
+- ❌ **UNCY is the session's clearest AVOID.** No bullish catalyst — the window's news flow is
+  **four securities class-action solicitations (9/14–9/16) referencing the 6/30 FDA Complete
+  Response Letter.** 🚨 **And rule 8 at its worst tier ever recorded: the ATM was expanded to
+  $150M on 6/05 against a $131M market cap — the authorization is LARGER THAN THE COMPANY.**
+  Float 99% of shares out. **A +6.5% premarket on that structure is the pump shape, not a catalyst.**
+- ❌ **GLAS: no catalyst found AT ALL** (rule 1) — only a routine conference slot and an **SVP
+  insider SALE.** Live **$100M ATM (7/15)** = 13% of cap. 🚨 **British Columbia-incorporated —
+  escalation 4 hits a THIRD name.** ❌ **XTND: only 8 daily bars (46j, un-measurable), median
+  range 14.56% = 2.08× the trail, and the scanner/`eligibility` disagree on market cap by
+  11.7× ($101M vs $1,178M)** — rule 38 FAIL on a universe gate. ❌ **RZLT: 9/09 Phase 3
+  sunRIZE MISSED its primary endpoint**, and the 9/16 print could not be confirmed (38).
+  ❌ **ACP killed on reading the company name — a closed-end fund, not an operating small cap.**
+- 🥇 **NEAR-MISS OF THE SESSION — this file was one step from recording a FALSE instrument
+  defect.** The scanner's rows looked badly wrong against 9/16 closes: GLAS "+7.2%" vs −0.12%,
+  **SOC "+2.8%" vs −7.66%**, HAWK "+3.9%" vs −1.94%, OSS "+5.4%" vs −1.05% — **four apparent
+  sign flips, lesson 17b's exact signature.** ✅ **All correct.** Every row reconciles
+  **exactly** as a **9/17 premarket quote against the 9/16 settled close — eleven for eleven.**
+  📌 **Thirteen sessions of documented scanner defects had primed the conclusion and the
+  arithmetic refused it. A prior of "the instrument is broken" is still a prior** → **lesson 55.**
+- ✅ **Macro:** VIX **16.04 (−9.43%)** — textbook post-event vol crush, well below the 22 brake.
+  Futures risk-on (**ES +0.82% · NQ +1.08% · RTY +0.79%**, all four rows roll-corrected;
+  unpatched they would have read +1.71/+2.10/+1.53 and Brent −6.01%). 🚨 **But the 10-yr rose
+  to a new run high of 5.01% — TWELFTH session through trigger, the day AFTER the hike landed.
+  Equities are trading the removal of uncertainty; the long end is not trading a peak.**
+  Brent broke below $100. ✅ **Factor +0.01% — dead flat, nothing to book** (lesson 28).
+- 🚨 **W36 (9/04) and W37 (9/11) reviews STILL unrun — EIGHTH session flagging W36 — and W38
+  falls due TOMORROW, which makes THREE owed.** Chain fourteen sessions stale (8/28, −2.51%).
+  **Four escalations queued behind it**; rebalance-basis divergence widened a second straight
+  session to **$136.00** (slice $3,128.32 vs book $2,992.32), THIRTEENTH+ consecutive session.
+
+**Open thread for market_open (9:35)**: **hold IWM, no satellite.** KMTS is closed — do not
+let a missed-catalyst recheck quietly re-open a name a below-midpoint close already killed
+(42d). **HAWK only re-opens at ≤$16.33 with a committed-dollar contract** — and its index add
+is beta Rocket already owns. **Watch for the inverse error today:** rule 29 lifting is not
+permission to reach into a weak tier to fill an empty slot (rule 6 — a slot being open is not
+a thesis). Re-open the question only on a genuinely fresh, dated, primary-sourced catalyst.
+
+---
+
 ## 2026-09-16 — MARKET_CLOSE (Wednesday, Week 38 day 3 — **FOMC DECISION DAY**) — NO TRADE; core dead-on-target (slice basis), book basis diverges 12th+ session, FOMC hiked 25bp as priced
 
 **Step 1/2**: `portfolio_snapshot.py` ran clean. 0/4 satellites — no rows to review;

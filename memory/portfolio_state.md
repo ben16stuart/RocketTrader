@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-09-16 20:00 UTC
+**Last Updated**: 2026-09-17 19:59 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,23 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,372.30 |
-| Rocket's Allocated Slice (30%) | $3,111.69 |
-| Cash Available (shared, pooled) | $1,935.21 |
-| Total Invested (both agents) | $8,437.09 |
+| Shared Account Value (Bull + Rocket) | $10,423.59 |
+| Rocket's Allocated Slice (30%) | $3,127.08 |
+| Cash Available (shared, pooled) | $3,188.64 |
+| Total Invested (both agents) | $7,234.95 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +2.64% |
-| SPY return since rebase | +1.62% |
-| Rocket vs SPY | +1.02% |
+| Rocket return since rebase | +3.14% |
+| IWM return since rebase | -2.04% |
+| Rocket vs IWM | +5.18% |
+
+### Deployment — Satellite Floor
+
+| Sleeve | % of slice | Rule |
+|--------|-----------|------|
+| **Satellites (stock picks)** | 0.0% | must be >= 50.0% |
+| Core (IWM) | 50.0% | capped at <= 50.0% |
+
+🚨 **SATELLITE FLOOR BREACHED — 0.0% < 50%.** Rocket is not deployed in enough stock picks. This is not a market call to sit out — it is a research gap. Finding a qualifying name is the top priority of the next session, not an optional nice-to-have.
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -31,19 +40,12 @@ is available if Bull has open positions consuming shared cash.
 
 Ownership is reconciled below — do not re-derive it from the trade log.
 
-| Symbol | Shares | Entry Price | Price (⚠️ NOT a settled close) | Prior Settled Close | Unrealized P&L | P&L % |
+| Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| IWM | 10 | $295.12 | $283.93 | $285.14 | $-110.41 | -3.8% |
-| JPM | 6 | $313.30 | $348.92 | $352.49 | $+213.72 | +11.4% |
-| SCHW | 5 | $103.91 | $105.16 | $107.79 | $+6.25 | +1.2% |
-| SPY | 4 | $767.97 | $754.27 | $757.39 | $-54.79 | -1.8% |
-
-⚠️ **The market is CLOSED. The price column is the last trade, which outside
-regular hours can be a single thin pre/post-market print — it is NOT a settled
-close and must never be recorded as one, quoted as a session move, or used to
-decide whether a trailing stop has fired.** Alpaca trailing stops evaluate on
-regular-hours trades only. Use the **Prior Settled Close** column for anything
-written into memory; re-read live at `market_open`.
+| IWM | 5 | $295.12 | $285.61 | $283.92 | $-52.08 | -3.2% |
+| JPM | 6 | $313.30 | $349.48 | $348.92 | $+217.05 | +11.5% |
+| SCHW | 5 | $103.91 | $104.64 | $105.16 | $+3.65 | +0.7% |
+| SPY | 4 | $769.55 | $762.82 | $754.05 | $-26.93 | -0.9% |
 
 ---
 
@@ -51,9 +53,9 @@ written into memory; re-read live at `market_open`.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($2,801)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's core** (1): IWM ($1,564)  — benchmark sleeve; no stop, exempt from position limits
 - **Rocket's satellites** (0): none
-- **Bull's positions** (3): JPM ($2,094), SCHW ($526), SPY ($3,017)
+- **Bull's positions** (3): JPM ($2,097), SCHW ($523), SPY ($3,051)
 
 
 ---
@@ -69,5 +71,5 @@ written into memory; re-read live at `market_open`.
 
 ## Weekly Trade Count
 
-Trades placed this week: 0 / 3 max
-Market open: No
+Trades placed this week: 0 / 5 max
+Market open: Yes
