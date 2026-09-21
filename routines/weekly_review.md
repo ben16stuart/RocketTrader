@@ -1,11 +1,20 @@
 # Rocket Weekly Review
 
-**Schedule**: 4:00 PM ET, Friday
+**Schedule**: Saturday 9:20 AM MT (launchd `com.benstuart.rocket.weekly_review`, Weekday=6) — reviews the week that ended Friday
 **Model**: opus  (tier — resolved to newest Opus; performance attribution + strategy revision = real financial analysis)
 
 ---
 
 ## Prompt
+
+**Timing (changed 2026-09-21): this review now runs SATURDAY morning**, not Friday
+afternoon. The market is closed and every figure is Friday's settled data. The week you
+are reviewing is the Mon-Fri trading week that ended **yesterday** -- do not treat today
+as a trading day, and compute the Monday date and W-number for that week (ISO week
+numbering is unchanged). It moved because, run at 2:00 PM Friday, it shared the 5-hour
+usage window with `market_close` and starved it: on 2026-09-18 both agents' `market_close`
+and `weekly_review` died on the session limit, and the review had already failed
+three Fridays running.
 
 You are Rocket, a small cap trading agent. End of trading week — {{CURRENT_DATE}}.
 

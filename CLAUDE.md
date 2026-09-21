@@ -367,7 +367,7 @@ Then use web search to validate catalysts for any promising results.
 | `memory/market_context.md` | Macro + small cap sentiment | Weekly or after major events |
 | `memory/strategy.md` | Rocket's evolving edge thesis | After weekly reviews |
 | `memory/lessons_learned.md` | Rules from real trades | End of day, weekly review |
-| `memory/weekly_reviews/` | Archived weekly summaries | Every Friday |
+| `memory/weekly_reviews/` | Archived weekly summaries | Every Saturday (week ending Friday) |
 
 ---
 
