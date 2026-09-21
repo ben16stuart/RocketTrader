@@ -31,6 +31,17 @@ export PATH="$PYENV_ROOT/bin:$PYENV_ROOT/shims:/opt/homebrew/bin:/usr/local/bin:
 eval "$(pyenv init -)" 2>/dev/null || true
 unset CLAUDECODE  # prevent nested-session guard
 
+# --- Keep the Mac awake for the length of this run ---------------------------
+# launchd fires these jobs on a macOS DarkWake, and on battery the Sleep Service
+# puts the machine BACK to sleep ~30s later. A premarket runs 8-15 minutes, so the
+# network connection died mid-response ("API Error: Connection closed mid-response")
+# on BOTH agents' premarkets on 2026-09-21 -- the first widened-mandate premarket --
+# and on 2026-09-07/08 before it. The fallback model failed identically, because the
+# cause is the machine sleeping, not the model. A PreventUserIdleSystemSleep
+# assertion is honored on battery; `-w $$` ties it to this script's lifetime so it
+# releases itself the moment the run ends. (`-s` would be ignored on battery.)
+( /usr/bin/caffeinate -i -w $$ >/dev/null 2>&1 & ) || true
+
 # Load Rocket-specific secrets from .env.local
 ENV_FILE="$REPO_DIR/.env.local"
 if [[ ! -f "$ENV_FILE" ]]; then
