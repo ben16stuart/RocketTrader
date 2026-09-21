@@ -61,6 +61,10 @@ SESSION_TAG_RE = re.compile(
 # Header markers that identify a core-sleeve trade rather than a satellite one.
 CORE_WORDS = ("CORE REBALANCE", "CORE SLEEVE")
 
+# First header segment of a session-status entry (not a trade).
+SESSION_LABELS = {"MARKET_OPEN", "MARKET_CLOSE", "PREMARKET", "MIDDAY", "STOPS",
+                  "WEEKLY_REVIEW", "MARKET OPEN", "MARKET CLOSE"}
+
 CLOSE_WORDS = ("SELL", "CLOSED", "CLOSE", "EXIT", "LIQUIDATED", "STOPPED", "STOP HIT")
 OPEN_WORDS = ("BUY", "ENTRY", "ADD")
 
@@ -127,6 +131,18 @@ def open_symbols_from_trade_log(path):
         if "SUPERSEDED" in upper:
             continue
         body = header[10:]  # everything after the ISO date
+
+        # Session-status headers are prose ABOUT a session, not a trade record:
+        #   "## 2026-09-18 -- MARKET_OPEN -- no trade ... MDB entry stays cancelled"
+        # Words like "entry" and any ticker named inside them were being replayed
+        # as an OPEN, so a name that was only ever *discussed* became a phantom
+        # position, reported MISSING and flagging the whole book "does not balance"
+        # on every snapshot (MDB, 2026-09-17 onward). Match the FIRST segment
+        # exactly, not a substring: Rocket's real trade headers carry
+        # "(market_close)" as a location tag and must not be skipped.
+        _first = next((s.strip().upper() for s in body.split("\u2014") if s.strip()), "")
+        if (_first in SESSION_LABELS) or "NO TRADE" in upper or "SKIPPED" in upper:
+            continue
 
         if "ALL POSITIONS" in upper or "LIQUIDATED" in upper or "RESET" in upper:
             events.append((date, "reset", None))
