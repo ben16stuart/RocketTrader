@@ -236,6 +236,30 @@ on DBI was rule 29 (calendar), not 45, so the bad forecast was **not load-bearin
     (CLAUDE.md rule 8). PAAI (verified $1B deal, barred from same-day entry only by the
     >35% rule) is the live candidate most likely to close the gap first.
 
+57. **🆕 🥇 "CONFIRMED VIA WEB SEARCH" IS NOT CONFIRMED — AND THE 8-K's *ITEM NUMBER* IS ITSELF EVIDENCE** (2026-09-18, **PAAI**). The 9/17 midday session logged Paradium.AI's catalyst as *"real, dated, verified... a 10-year **$1B** MediaOS deal with Roundtable, plus an **$89M** minority-stake investment for ~49% of the company. **Confirmed via web search, not scanner text alone.**"* It was carried into 9/18 as the live candidate most likely to close the satellite-floor gap. **Every material element of that entry is wrong, and the issuer's own filing says so.**
+    - 🚨 **The $1B figure appears NOWHERE in PAAI's press release.** The release states no committed dollar value at all — it describes a revenue-share/services arrangement. **Secondary coverage supplied a number the issuer never printed.** This is rule 49a (*"the headline size and the committed size are different numbers, and only one of them is real"*) in its most extreme form: **the committed size was never disclosed.**
+    - 🚨 **The company receives ZERO dollars.** Verbatim: *"a private transaction between Roundtable and Simplify... **will not involve the issuance of new Paradium.AI shares or result in proceeds to Paradium.AI. Paradium.AI is not a party to the transaction.**"* The "$89M investment **in** the company" was a **secondary block sale between two other parties.** A trade thesis built on "the company just raised $89M" was inverted from the facts.
+    - ⚠️ **Nothing is effective.** *"not yet effective"*, *"conditions precedent, **including funding requirements to be satisfied by Roundtable**"*, close targeted Q4 2026, *"no assurance."* And PAAI's consideration is **Roundtable stock** *"subject to... Nasdaq minimum pricing requirements"* — **rule 7b's circular counterparty**: the buyer must first fund itself, then pays in its own equity.
+    - 🥇 **57a. READ THE ITEM NUMBER — THE DISCLOSURE ROUTE IS A SIGNAL, AND IT IS FREE.** The deal was **furnished under Item 7.01 (Regulation FD)**, not **filed under Item 1.01 (Entry into a Material Definitive Agreement)**, and there is **no Item 3.02** (Unregistered Sales of Equity Securities) because there is no issuance. The 8-K says the Item 7.01 material *"shall not be deemed 'filed'... nor subject to the liabilities of [Section 18]."* **A company announcing a genuinely material, executed agreement files it under Item 1.01 and accepts Section 18 liability. Choosing Item 7.01 is the issuer telling you what it is willing to stand behind.** Cost of the check: reading one line of the 8-K's table of contents. **This generalises past PAAI — check the Item number on every 8-K catalyst, every time.**
+    - **57b. The general rule: a catalyst is confirmed when the ISSUER'S OWN FILING states it, not when a search result describes it.** Lesson 33 already said *"a search result describing a move is not evidence until the bars confirm the date"*; **57 extends the same discipline from the DATE to the CONTENT.** Bars confirm when; only the filing confirms what. ⚠️ **And note the failure mode 39a predicted exactly: the wrong entry was written once and read twice, and it was the SECOND reading that caught it** — a log entry saying "confirmed" is a claim, not a clearance.
+    - 📌 **57c. What it cost and what it saved.** PAAI independently failed rule 46 (**63-day median ADV 84,400 vs a 300,000 gate — mean 441,426 manufactured by a single 31.76M-share bar, a 5.2× mean/median ratio, the widest contamination margin recorded**) and rule 51/54c (**9/17 max drawdown from the running high 37.38%** — a 7% trail is gone many times over). **So the false catalyst was not load-bearing** — the same discipline 45h/46f applies: say when a corrected error did not actually change the verdict, or the correction gets credited with more than it earned.
+
+58. **🆕 SATELLITE FLOOR BREACH — 2nd actual `market_close` session, 0.0% < 50%** (2026-09-21).
+    Still a stock-picking gap, not a bearish call. **This is only the second real
+    `market_close` to log the breach — 9/17 (1st) and today (2nd) — not the "9/17, 9/18"
+    pair `research_log.md`'s 9/21 `market_open`/`midday` entries cited.** No `market_close`
+    session ran on 2026-09-18 at all (no entry in `trade_log.md` or `session_notes.md` for
+    that date — a [[launchd-quota-contention]] gap, only MIDDAY and MARKET_OPEN ran that
+    day). The rule-8 escalation ("2nd consecutive breach → next premarket opens at the
+    MEDIUM-conviction bar") had already fired this morning on the inflated count, but the
+    breach was continuously true across the gap regardless (no trades 9/18–9/20, both of
+    today's earlier sessions reconfirmed 0% independently) — so the MEDIUM bar's activation
+    is substantively correct even though its stated session count was off by one. **Lesson:
+    a missing session is not a session that ran and found nothing — don't let an absence get
+    silently counted as a confirming data point.** Cross-check `trade_log.md`/`session_notes.md`
+    for an actual dated entry before citing "Nth consecutive session," especially across a
+    weekend or a known quota-contention window.
+
 ## Standing Rules — Universe gates
 
 13. **Compute market cap at the price you would PAY, and confirm the +25% target still clears $2B.** ⚠️ Costing real names: APPS, BW, HLIT, ETON, UMAC, IE. **Escalated to the user — not overridden.**

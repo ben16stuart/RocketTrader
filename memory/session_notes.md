@@ -3,6 +3,149 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-21 — MARKET_CLOSE (Monday, Week 39 day 1) — NO TRADE; core in band, satellite floor breach logged (2nd real `market_close` session, corrected from a miscounted "2nd of 9/17,9/18")
+
+**Step 2**: No Rocket satellite positions to review (0/4, unchanged since 8/26 OMER
+stop-out) — no rows. IWM core (5.4746 sh) unchanged; JPM/SCHW/SPY reconciled to Bull.
+
+**Step 2.5**: Core rebalance check — IWM $1,564.26 vs target $1,577.91 (min of the 10%
+buffer formula and the new 50% cap) = -0.43% of slice, well inside the 3% band. **HOLD,
+no trade.** Satellite floor still breached at 0% — flagged as lesson 58: this is only
+the **2nd actual `market_close` session** to log the breach (9/17, now 9/21), not the
+"9/17, 9/18" pair cited earlier today — **no `market_close` ran on 9/18** (quota gap).
+The MEDIUM-conviction bar already active since this morning stands on its own merits
+regardless of the off-by-one. Full detail in `trade_log.md`/`lessons_learned.md`.
+
+**Step 3**: No fills to log.
+
+**Step 4**: Day P&L (`position_table.py`): IWM +0.54% / +$8.38, matching the benchmark
+(+0.57%, `market_data.py`) within timing noise — ~0% spread by construction, no
+satellites. Since-rebase chain not recomputed (stale, three weekly_reviews owed:
+W36/W37/W38).
+
+**Step 5**: ntfy summary sent — see confirmation below.
+
+---
+
+## 2026-09-21 — MIDDAY (Monday, Week 39 day 1) — NO TRADE; no Rocket positions to review, afternoon scan found nothing new
+
+**Step 1/2**: `portfolio_snapshot.py` synced clean. Rocket owns only the IWM core
+(5.4746 sh, $1,566, 49.7% of slice, no stop by design) — zero satellites open, so
+Step 2's position review had **no rows**. JPM/SCHW/SPY confirmed Bull's (reconciliation
+balanced). No cuts, no stop changes.
+
+**Step 3**: N/A — no Rocket satellite positions to news-check.
+
+**Step 4**: Re-ran `unusual_volume`/`top_movers`. Overlap tier unchanged from
+market_open (PRTH, NUAI, OPTX, SECZ — all already killed on hard gates this morning).
+Scanned the rest of `top_movers` for a fresh RelVol-confirmed mover: only **EAF**
+(+9.1%, 1.9x) had both a real move and volume; web search turned up no dated catalyst
+for today, consistent with its standing no-catalyst kill history — not re-opened.
+Everything else on the list moved on <1.5x RelVol (no volume confirmation). **No new
+candidate found.** Full detail in `research_log.md`'s midday addendum.
+
+**Step 5**: Satellite floor still breached at 0% (unchanged since 9/17, now the 2nd+
+consecutive close under the MEDIUM-conviction bar). No forced cuts made — no
+notification sent per routine (only required on a forced cut).
+
+---
+
+## 2026-09-21 — MARKET_OPEN (Monday, Week 39 day 1) — NO TRADE; **no premarket ran today**, 4 fresh names screened inline, all killed on hard gates
+
+**Step 1**: `portfolio_snapshot.py` synced clean — no overnight fills, no stops
+triggered. IWM core unchanged, JPM/SCHW/SPY confirmed Bull's. Shared account
+$10,479.87 → $10,477.53 across the session, slice ~$3,143, cash $1,665.04 (pooled).
+Satellites still 0/4 — **floor breached for the 2nd consecutive `market_close` (9/17,
+9/18)**, so rule 8's MEDIUM-conviction bar is active for any new candidate today.
+
+**⚠️ No `premarket` session exists for today** — `research_log.md`'s last entry was
+Friday 9/18. Per [[launchd-quota-contention]]/lesson 47a this reads as a starved
+session rather than "nothing to research." Did the discovery work inline here instead
+of only validating a queued list, per Step 2/4 combined.
+
+**Screened 4 names, killed all 4 on hard structural gates** (full gate detail in
+`research_log.md`): **PRTH** — all-cash take-private at $8.05, live $7.78 = pinned
+3.5% spread, rule 27. **OPTX** — Space Force optics order, but avg volume 258k fails
+the 300k liquidity gate and the only quantified contract figure found ($1.9M) is
+immaterial against the $340M cap (rule 49a). **NUAI** — real dated Vistra/Luminant PPA,
+but a Macquarie waiver **mandates** New Era establish a $100M ATM within 60 days
+(lender-forced, not discretionary — worse than any self-initiated shelf graded so far),
+stacked with −82.5% revenue, non-cash consideration, 2027 delivery, and an already
++41.2%/5-day extended tape. **SECZ** (Friday's re-open candidate) — ran to $1.873B
+market cap (+44% 5-day, +79.3% 1-month), now within ~6.8% of the $2B universe ceiling;
+rule 13 kills it cleanly regardless of the still-unresolved lock-up question. Fresh-
+mover scan overlap tier was entirely standing crypto/treasury mandate kills and
+standing liquidity/tape kills — nothing else cleared a first read.
+
+**Result: 0/4 satellites, 100% IWM core held, NO TRADE.** No notification — flat
+session, no stops hit, no news on the core. The MEDIUM bar (rule 8) had nothing to
+admit: every kill today was a hard gate (liquidity, pinned deal price, mandated
+dilution, cap ceiling), not a conviction judgment call, so widening the bar changed
+nothing. Floor breach carries to today's `market_close` for a 3rd-consecutive-session
+count if unresolved by midday. `weekly_review` backlog now **three** owed (W36/W37/W38)
+— unchanged, carried forward. Two open escalations (rebalance basis, ADV-gate-vs-
+account-size) also carried forward; both unchanged since 9/17.
+
+---
+
+## 2026-09-18 — MIDDAY (Friday, Week 38 day 5) — NO ACTION; core-only book, no new candidates
+
+**Step 2**: Rocket owns only the IWM core (5 sh, $1,548, 49.7% of slice, no stop by
+design) — JPM/SCHW/SPY on the shared account confirmed Bull's via `position_reconciler`
+(Position Reconciliation block). Nothing to cut, nothing to tighten. IWM is down modestly
+intraday (prior settled close $285.43 → live $282.77, ≈-0.93%) with no news event behind
+it — ordinary tape noise, no override.
+
+**Step 4 (afternoon scan)**: `unusual_volume` + `top_movers`, inline. Overlap tier BNC ·
+DFDV · USDE · HYPD · SECZ, plus new prints GLOO, CYPH, GEMI, ABTC, QMLS, FWDI, XTND, ALMU,
+ARRY, FLNC — every one is either a standing crypto/treasury mandate kill (lesson 31: BNC,
+DFDV, USDE, HYPD, ABTC, GEMI, QMLS, CYPH, FWDI are all crypto exchanges/miners/treasury
+proxies), a standing liquidity/tape kill already on today's premarket board (GLOO, XTND,
+ALMU, ARRY, FLNC), an S&P 500 component (FMC — mandate-excluded regardless of the print),
+or a closed-end fund (PML). **SECZ** (the one real catalyst on the board) is unchanged
+from premarket — still blocked on the pre-committed re-open condition (lock-up schedule +
+float reconciliation, `research_log.md`), neither leg resolved since this morning. No
+genuinely new candidate.
+
+**Result: 0/4 satellites, floor still breached (0% < 50%), NO TRADE.** No notification —
+no stops hit, no forced cut, no news on the core. This is the 2nd session today (after
+market_open) independently confirming nothing qualifies; the breach carries to
+`market_close` for the 2nd-consecutive-session count, which per rule 8 opens Monday
+9/21 premarket at the MEDIUM conviction bar if still breached at today's close.
+
+---
+
+## 2026-09-18 — MARKET_OPEN (Friday, Week 38 day 5) — NO TRADE, confirms premarket's NO ENTRY
+
+**Step 1**: `portfolio_snapshot.py` synced clean — no overnight fills, no stops
+triggered. IWM core unchanged (5 sh live, book raw qty carried from premarket),
+JPM/SCHW/SPY confirmed Bull's. Shared account $10,387.37, slice $3,116.21, cash
+$3,188.64 (pooled). Satellites still 0/4 — floor breach unresolved (0% < 50%).
+
+**Step 2**: Nothing to validate — premarket's verdict was NO ENTRY on both live
+candidates. PAAI is CLOSED (catalyst falsified at the primary source, lesson 57).
+SECZ's re-open condition (lock-up schedule + float reconciliation) was not met
+this morning — still pending, not re-checked here since nothing new arrived.
+
+**Step 4 (fresh-mover scan)**: `unusual_volume` + `top_movers`, inline, 2 calls.
+Every row is already accounted for: standing mandate kills (BNC, USDE, DFDV,
+HYPD, QMLS, BKKT — crypto/treasury, lesson 31), standing tape/liquidity kills
+(GLOO, CYPH, XTND, RARE, RCAT, ALMU, FLNC, LTRX, CHPT, PLAY), or today's own
+premarket kills (SECZ, AHRT). **FWDI (+10.6%, 3.4x RelVol) was the one name not
+already on a list** — checked inline (one search): it's a Solana-treasury
+company (Forward Industries pivoted to a SOL treasury strategy), so it's the
+same crypto/treasury mandate kill as BNC/USDE/DFDV before any chart is worth
+reading (lesson 31). No genuinely new candidate on the board.
+
+**Result: 0/4 satellites, 100% IWM core held, NO TRADE.** No notification —
+flat session, no stops hit, no news on the core. Satellite floor breach carries
+to today's market_close for the 2nd-consecutive-session count (research_log.md);
+if still breached at close, Monday 9/21 premarket opens at the MEDIUM bar per
+rule 8. Escalations (rebalance basis, ADV-gate-vs-account-size) and the
+W36/W37/W38 `weekly_review` backlog are unchanged — carried forward.
+
+---
+
 ## 2026-09-17 — MARKET_CLOSE (Thursday, Week 38 day 4) — CORE REBALANCE (IWM SELL), first session under the new 50% cap; satellite floor breached 0%, 1st session
 
 No satellite positions to review (0/4, unchanged since 8/26). The real event: this
@@ -1742,6 +1885,67 @@ board-quality outcome (lesson 36), and watch for the opposite failure, reaching 
 the weak tier to fill a slot (rule 6). Only re-open the question if a genuinely fresh,
 dated catalyst appears at the open *and* clears the Warsh timing problem — which
 realistically means Monday, not today.
+
+
+---
+
+## 2026-09-18 Friday premarket (Week 38 day 5) — NO ENTRY. Two real catalysts, both dead on supply structure
+
+**Book (base NAMED, 23a)**: IWM **5.4746 sh** (raw API qty — table printed "5", **lesson 24a
+fifth recurrence, 9.5% error, largest yet**) × $285.43 settled = **$1,562.62 = 50.02% of
+slice** — dead on the new 50% core cap. Slice $3,124.06. **Notional cash ~$1,561 = ~50% of
+slice, ~40 points above the 10% buffer, no bearish thesis (none applies)** — the floor gap in
+dollars, per lesson 56. Satellites 0/4 · weekly 0/5.
+
+- 🥇 **THE FINDING — Rocket's own 9/17 log entry on PAAI was falsified by the issuer's 8-K,
+  filed this morning.** The log said *"$1B deal + $89M investment for ~49%, confirmed via web
+  search."* The filing says the company gets **zero proceeds**, is **not a party** to the
+  equity transaction (a secondary block sale between two other holders), states **no dollar
+  figure anywhere**, and was **furnished under Item 7.01 rather than filed under Item 1.01** —
+  i.e. the issuer declined Section 18 liability on its own headline. **New lesson 57 + 57a
+  (read the Item number; the disclosure route is free evidence).** Lesson 39a's predicted
+  shape: written once, read twice, caught on the second reading.
+- ❌ **PAAI CLOSED** — and **not load-bearing**, because it independently failed rule 46
+  (**median ADV 84,400 vs 300k; mean 441,426 manufactured by one 31.76M bar = 5.2× mean/median,
+  the widest contamination margin ever recorded**) and rule 51/54c (**9/17 MDD-from-HWM 37.38%**).
+- 🥈 **SECZ was the best catalyst in weeks and still died.** Genuine, dated, primary-regulator
+  catalyst: **SEC exemptive order 9/17 permitting limited tokenized US-stock trading, 5-year
+  term** — Securitize is the direct beneficiary. Passed universe, domicile (DE), ADV (median
+  1.38M), rule 13 (by 1.7%). ❌ **Killed on a TWO-BRANCH supply argument that needs no
+  resolution**: S-1 registers **151.6M resale shares (92.8% of shares out), effective 8/07**,
+  and the closing 8-K says only **~38.2% of shares are locked up** → **~100.9M unlocked
+  registered shares against a reported 8.7M float.** Either the float is right (**11.6× the
+  float is sellable today**) or it is wrong (**the low-float thesis doesn't exist**). Both kill.
+  **Re-open condition pre-committed in the research log** (lock-up schedule from the proxy
+  p.123 **and** the float reconciled — both, not either).
+- 🚨 **53a CONFIRMED A SECOND CONSECUTIVE SESSION — the stop was not the binding gate.**
+  On the corrected MDD statistic: **six of seven in-universe names fit inside a 7% trail**
+  (SECZ 0.78× · ASPN 0.70× · HDSN 0.50× · AHRT 0.26× · GSIT 0.86× · ATOM 0.98×) and the board
+  produced nothing anyway. 🥇 **The newly-approved statistic (54c) PASSED SECZ's stop fit on
+  its first live use — and SECZ died on supply anyway. Lesson 54a demonstrated live: it
+  removes a false veto, it does not supply an edge.** Recorded against Rocket's own escalation.
+- ❌ **Rest of board all rule 1 (no dated catalyst)**: AHRT (+7.2% on a REIT with a 1.81%
+  median range and **zero news** — only a BofA **SELL** reaffirm 8/10; closed 15% of range),
+  ASPN (investor deck ≠ catalyst; PT raise 6 weeks stale), ATOM, GSIT, HDSN, TTI, NRGV, ALIT,
+  UAMY, TDOC. **USDE/BNC/DFDV = standing crypto mandate kills, checked before the chart.**
+- 📌 **Earnings calendar: 22 reporters (15 on 9/17, 7 on 9/18), ZERO survivors**, every one on
+  a named gate. Lesson 41d tally **3-for-7**.
+- ✅ **Macro is permissive and that matters**: VIX **15.36** (multi-week low), futures flat,
+  crude easing, rule 29 blocks nothing. **No macro excuse for the zero — this was research and
+  supply.** ⚠️ **10-yr 4.95%, first decline in 13 sessions — lesson 34: stand down on a trend,
+  not one print. Still flagged.** 🚨 **Factor −0.60% against Rocket Thursday, but at the new
+  50% core weight that is ≈−0.30% on the book — the IWM cap halved an adverse factor day.**
+- 🔧 Instruments: `macro` clean 14th session, roll patch corrected **5 rows incl. a Russell
+  sign flip**. Scanner `Change %` **12-for-12, fifth clean session** (55b check run first).
+  RelVol unusable 5th session. `eligibility` 8→8 (43 held).
+
+**🚨 Open thread — ONE breach is on the record (9/17); today's close would make it 2.** Today
+ran at the NORMAL/HIGH bar, correctly — rule 8 needs two consecutive closes. If satellites are still <50% at today's
+`market_close`, **Monday 9/21 premarket opens at the MEDIUM-conviction bar (CLAUDE.md rule 8)**:
+widen to all four screeners, push deeper down each list, accept MEDIUM — **but the catalyst
+requirement does NOT relax.** SECZ is the named first stop if its two-part condition resolves.
+**And `weekly_review` W36/W37/W38 are ALL owed as of today — three reviews, ninth session
+flagging W36.**
 
 ---
 ## Session Archives

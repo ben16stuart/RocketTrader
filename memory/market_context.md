@@ -4,7 +4,92 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-09-17 Thursday premarket (Week 38 day 4 — **FIRST POST-FOMC SESSION**)  ← CURRENT
+## Snapshot — 2026-09-18 Friday premarket (Week 38 day 5 — **1 breach recorded; today's close would be #2**)  ← CURRENT
+
+All "last close" figures are **Thursday 2026-09-17's settled closes**.
+
+| Metric | Level | Read |
+|---|---|---|
+| **VIX** | **15.36** (**−0.52%**) | ✅ **Well below the 22 brake — no size restriction.** 17.71 → 16.04 → **15.36.** The post-FOMC vol crush is holding and extending, now at the lowest level on this table in weeks |
+| 🥇 **10-yr** | **4.95%** (**−1.18%**) | 🚨 **THIRTEENTH consecutive session above the 4.75% trigger — but the FIRST DECLINE of the entire run** (4.94 → 4.97 → 4.96 → 5.00 → 5.01 → **4.95**). ⚠️ **Lesson 34 governs exactly here: flags near a threshold stand down on a TREND, never on one print.** One down-tick off a run high after twelve up-sessions is **not** a resolution. **Still flagged, not cleared** |
+| **FUTURES** | **ES +0.13% · NQ +0.37% · RTY −0.06%** | ⚠️ **Flat-to-mildly-positive — the relief tape has stalled.** 🚨 **The roll patch fired on FIVE rows** (ES/NQ/RTY → Z26, Brent → BZZ26, **WTI → CLX26**) **and produced a SIGN FLIP on the Russell: naive +0.67% → true −0.06%.** Also ES +1.01%→+0.13%, NQ +1.38%→+0.37%, Brent −5.87%→−1.26%, WTI −5.56%→−1.02%. **Unpatched, this table would have read "small caps up 0.67%" on a tape where they are flat-to-down** — fourth consecutive session the patch has done real work (lesson 50) |
+| **Russell vs the others** | **RTY −0.06%, the WEAKEST of the three** | Small caps lag again, and are the only negative equity row. **Lesson 28: one session carries no information** — and this specific read has now reversed sign in five of the last seven sessions. **Flagged, not booked** |
+| 🚨 **SPY / IWM** | **762.60 (+1.13%)** / **285.43 (+0.53%)** | Thursday's settled closes. 🚨 **Factor −0.60% AGAINST Rocket** — the widest adverse single-session factor gap in over a week, and it lands on the session Rocket's core was cut to 50%. ✅ **Silver lining that is worth stating plainly: at the NEW 50% core weight that is ≈ −0.30% on the book, not −0.56%. The IWM cap halved the damage from an adverse factor day** — the first concrete benefit of the 9/17 rule change |
+| **Brent / WTI** | **98.67 (−1.26%)** / **96.24 (−1.02%)** | ✅ **Spread normal** (Brent above WTI by ~$2.4, both legs off the new contracts). **Crude continuing to ease — WTI now below $100 as well**, both legs ~10% off their highs |
+| Gold / Dollar | 4,419.10 (+0.44%) / 100.35 (+0.13%) | Gold firming back toward its run high; dollar flat and holding above 100. Both cross-check cleanly against yesterday's recorded levels |
+
+### The tape is quiet and the constraint is elsewhere
+
+VIX at a multi-week low, futures flat, crude easing, and the 10-yr finally ticking down.
+**There is no macro reason not to trade today** — rule 29 blocks nothing, the VIX brake is
+far away, and the FOMC is behind us. **That is precisely why today's zero-entry result is a
+research/supply finding rather than a calendar one.** See the research log: the binding
+kills were **a falsified catalyst (PAAI), a 17.4×-float resale overhang (SECZ), and plain
+catalyst absence** on everything else.
+
+⚠️ **The one live macro caution is the 10-yr.** It declined for the first time in thirteen
+sessions, and lesson 34 exists to stop exactly that print being read as the turn. Twelve
+sessions up, one session down, still 20bp through trigger — **nothing has stood down.**
+
+### 🚨 The stop-width escalation weakened for a SECOND consecutive session
+
+53a (written 9/17) held that stop width and catalyst quality are separable and that which
+one binds **must be re-measured each session**. Re-measured today on the **corrected**
+MDD-from-HWM statistic (54c, approved 9/17): **SECZ median MDD 5.44% = 0.78× the trail ·
+ASPN 0.70× · HDSN 0.50× · AHRT 0.26× · GSIT 0.86× · ATOM 0.98×.** **Six of seven in-universe
+names fit inside a 7% trail, and the board still produced zero entries.**
+
+🥇 **And the new statistic's first live use went the honest way: it PASSED SECZ's stop fit**
+(the old `range ÷ trail` test would have killed it on a 9.42% median range) **— and SECZ
+then died on supply structure anyway.** That is lesson 54a demonstrated in a live session:
+**an accuracy fix removes a false veto; it does not supply an edge.** Recorded against
+Rocket's own standing escalation (48c), per 53b.
+
+### Factor watch
+
+🚨 **IWM +0.53% vs SPY +1.13% = −0.60% of factor Thursday** — carried at the **new 50% core
+weight ≈ −0.30% on the book.** Lesson 28 bars booking a one-session move as information.
+It belongs in `weekly_review`, where the core weight decides Rocket's year — **and note that
+weight is now 50%, not ~93%, so factor drift matters materially less from here.**
+
+🚨 **`weekly_review` W36 (9/04), W37 (9/11) AND W38 (due TODAY 9/18) — THREE now owed.**
+`memory/weekly_reviews/` still ends at **2026-W35**; the hand-built chain is **fifteen
+sessions stale** (last good 8/28 W35, −2.51%). **NINTH session flagging W36.**
+Lesson 47c / [[launchd-quota-contention]].
+
+### Instrument health
+
+🥇 **THE FINDING OF THE SESSION IS A DATA-INTEGRITY ONE AND IT WAS IN ROCKET'S OWN FILES.**
+The 9/17 research log recorded PAAI's catalyst as a *"$1B deal plus an $89M investment,
+confirmed via web search."* **The 8-K filed this morning says the company receives ZERO
+proceeds, is NOT a party to the equity transaction, states no dollar value anywhere, and
+furnished the whole thing under Item 7.01 rather than filing it under Item 1.01.** Lesson
+39a: a dated entry read twice is one unchecked claim — **this is the second reading, and it
+caught it.** Secondary coverage supplied a number the issuer never printed.
+✅ **`macro` populated every field for a FOURTEENTH straight session**, and the futures-roll
+patch corrected **five** rows (ES/NQ/RTY → Z26, BZ → BZZ26, **CL → CLX26**), **including a
+sign flip on the Russell** — tagged naive-vs-true as designed (50d).
+✅ 🥇 **Scanner `Change %` correct on TWELVE of twelve checkable rows — a FIFTH consecutive
+clean session.** Every row reconciles exactly as a 9/18 premarket quote against the 9/17
+settled close: SECZ 9.63/8.93 ✓, AHRT 6.68/6.23 ✓, ASPN 5.48/5.13 ✓, ATOM 4.16/3.98 ✓,
+GSIT 5.33/5.22 ✓, HDSN 5.25/5.15 ✓, TTI 6.34/6.15 ✓, NRGV 4.34/4.23 ✓, ALIT 12.68/12.29 ✓,
+UAMY 4.70/4.61 ✓. **Lesson 55b's one-line check, run before writing any defect.**
+⚠️ **`unusual_volume`'s RelVol column unusable for a FIFTH straight session** — 17 of 20 rows
+below 1.0×. `top_movers` gave **9 of 20 rows `—`.** Medians pulled on every survivor (rule 46).
+🚨 🥇 **RULE 46 PRODUCED ITS WIDEST CONTAMINATION MARGIN EVER RECORDED — PAAI.**
+`eligibility` mean ADV **441,426 (PASS)**; 63-day **MEDIAN 84,400 (FAILS by 72%)** —
+**a 5.2× mean/median ratio**, past TLYS (2.4×) and BBCP (1.7×). **One 31.76M-share bar
+carried the mean through the gate by itself**, and all five prior sessions traded under it.
+✅ **`eligibility`: 8 requested → 8 returned** (lesson 43 count held, on full output per 43b).
+🚨 **Lesson 24a/24d RECURRED A FIFTH TIME:** `portfolio_snapshot.py` printed IWM as **"5"**;
+raw `GET /v2/positions/IWM` says **5.4746** — a **9.5% error**, the largest yet. Standing
+property of the tool; raw qty pulled from the API for every calculation here.
+📌 **Nasdaq earnings calendar: 15 reporters for 9/17 + 7 for 9/18 = 22 screened, ZERO
+survivors** — every one dead on a named gate. Lesson 41d honest tally now **3-for-7**.
+
+---
+
+## Snapshot — 2026-09-17 Thursday premarket (Week 38 day 4 — **FIRST POST-FOMC SESSION**)
 
 All "last close" figures are **Wednesday 2026-09-16's settled closes**.
 
