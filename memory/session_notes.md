@@ -3,6 +3,150 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-22 — MARKET_CLOSE (Tuesday, Week 39 day 2) — NO TRADE; core in band, satellite floor breached 3rd consecutive `market_close` session (lesson 61)
+
+**Step 1/2**: `portfolio_snapshot.py` synced clean. No satellite positions to review (0/4)
+— Step 2 had no rows. Only position is IWM core, 5.4746 sh, -3.49%/-$56.84 all-time.
+
+**Step 2.5**: Core rebalance check — IWM $1,572.09 vs new-cap target $1,565.70, +0.20% of
+slice, well within the 3% band. **HOLD, no trade.** Satellite floor: 0% < 50%, **3rd
+consecutive actual `market_close` breach** (9/17, 9/21, 9/22 — 9/18 never ran, lesson 58).
+Rule 8's MEDIUM bar was already active all session (premarket/market_open/midday) and
+carries unchanged into 9/23 premarket. Logged as lesson 61 — CLAUDE.md defines no
+escalation past "2 consecutive," so this session's action was logging the pattern for
+`weekly_review` to grade.
+
+**Step 3**: No fills to log.
+
+**Step 4**: Day P&L IWM +0.55%/+$8.60 vs IWM benchmark +0.53% (spread ~0 by construction,
+no satellites). Weekly count 0/5.
+
+**Step 5**: ntfy summary sent — see confirmation below.
+
+**Step 6**: memory pushed to GitHub.
+
+---
+
+## 2026-09-22 — MIDDAY (Tuesday, Week 39 day 2) — NO TRADE; no Rocket satellites to review, 4 afternoon movers checked and killed (new lesson 60)
+
+**Step 1/2**: `portfolio_snapshot.py` synced clean. Rocket owns only the IWM core (5 sh,
+$1,569, 50.1% of slice, no stop by design) — zero satellites open, Step 2's position
+review had **no rows**, no cuts, no stop changes. SPY confirmed Bull's.
+
+**Step 3**: N/A — no Rocket satellite positions to news-check.
+
+**Step 4**: `unusual_volume` re-run, four names checked inline (web search, <5 lookups,
+no subagent). **GRML** (+73.6%, 44.7×) had a real catalyst (Sarfartoq rare-earth land
+expansion + US-Denmark-Greenland security deal) but killed on two independent grounds:
+EDGAR shows a **serial-rebrand shell** (Redwoods Acquisition Corp → ANEW Medical →
+Klotho Neurosciences → Greenland Mines, 3 renames since 2022) with a **blank
+`stateOfIncorporation`** and stale SIC code — an unconfirmable domicile gate, lesson 38
+FAIL — and the stock is already **+474% over 4 sessions**, far past any fresh-setup
+window. Written up as new **lesson 60**. **EAF** reconfirmed the standing no-catalyst
+kill (scanner artifact — stock actually closed red today). **SVIA** (ticker rebrand,
+BRR→SVIA) killed on rule 1 — a name change is not a catalyst type. **CYPH** reconfirmed
+the standing rule 31 crypto-treasury mandate exclusion. **No new candidate found.**
+
+**Step 5**: Satellite floor still breached at 0% — unchanged since 9/17. If still 0% at
+today's `market_close`, that's the 3rd consecutive breach (escalation territory per rule
+8 for tomorrow's premarket). No forced cuts made, no notification sent (routine only
+requires one on a forced cut).
+
+---
+
+## 2026-09-22 — MARKET_OPEN (Tuesday, Week 39 day 2) — NO ENTRY; MLKN closed on Gate A (guide cut, not raised); widened board found nothing
+
+**MLKN's Q1 FY27 print (8-K ex-99.1, primary source): revenue $923.4M missed BOTH consensus
+($943.3M) AND MLKN's own guide floor ($928M); net sales −3.4% YoY organic; NA Contract
+−5.2% organic, Intl Contract −6.2% organic.** GAAP EPS $0.38 beat $0.35 consensus — the
+only clean beat. **FY27 guide: revenue range CUT $3.93–4.13B → $3.88–4.03B (≈−1.9% at
+midpoint); adj EPS range UNCHANGED $1.85–2.15 (reaffirmation, lesson 5f = 0% change).**
+Gate A ("guide must be RAISED >1.0%... a reaffirmation is a KILL") fails outright — this is
+worse than a reaffirmation, it's a top-line cut. Stock +1.7%, below MA20/MA50 — the tape
+confirms the weak print. **CLOSED**, gates B–F never reached.
+
+**Widened per rule 8's MEDIUM bar** (satellite floor still 0%, 2 consecutive breaches):
+checked `unusual_volume`/`top_movers` inline for anything with real volume + a named
+catalyst. **MAZE** (+28.2%, biggest mover) had no dated catalyst — IR page's latest item is
+9/02 investor-conference attendance; its one real data readout is 6 months stale. **VFF**
+($3.09, CEO bought $101K/35k sh, +0.36% of his stake) — catalyst too thin, and real volume
+is 0.9x avg despite the scanner's screener printing 4.5x RelVol (another RelVol/reality
+mismatch, lesson 17g — real volume, not the RelVol column, is what's authoritative). **FOSL**
+— no news since Q2, reiterated guidance, not a catalyst. All three killed on rule 1 (no
+named catalyst) or volume-not-confirming. Macro context ruled out a beta explanation: SPY
++0.08%, IWM +0.61%, a mildly green tape, not a risk-on day.
+
+**Verdict: NO ENTRY.** Satellites remain 0/4, 0% of slice. If still 0% at today's
+`market_close`, that's the 3rd consecutive breach. Full detail: `research_log.md` MLKN
+close-out + widen section.
+
+## 2026-09-22 — PREMARKET (Tuesday, Week 39 day 2) — NO ENTRY; **the entire `top_movers` board was fiction and lesson 55b's check passed anyway** (new lesson 59); ONE live candidate queued (MLKN, BMO today)
+
+**Satellite floor breached 2 sessions running (9/17, 9/21 `market_close`) — searched at the
+MEDIUM-conviction bar per rule 8**: all four screeners run, pushed deeper down each list, plus
+the earnings calendar ahead of any screener (41b). Satellites 0/4 · weekly 0/5 · no trades.
+
+- 🥇 **THE FINDING — `top_movers` reconciled 8-for-8 under lesson 55b and every row was still
+  built on a price at which nothing traded.** Actual tape (Alpaca `sip`, 08:00Z→10:23Z):
+  **six of eight names had ZERO premarket trades** (FBRT, GOSS, QTRX, QUIK, SIGA, ACCO);
+  **EVMN's "+7.2%" is a single 202-share print** (306 sh / $3,081 all session); and **BBW,
+  printed at $26.03/+5.2%, actually traded 500 sh at $24.74 = −0.0%.** **55b tests the
+  scanner's arithmetic, never the liquidity behind the numerator.** → **New lesson 59**, and
+  **59b names it as the mirror of 55a: a false instrument PASS is more seductive than a false
+  kill, because a passing check feels like evidence.**
+- 🚨 **59c — the check nearly became its own opposite.** The first liquidity pull used Alpaca's
+  **`iex` feed, which returns ZERO premarket bars for every name including SPY/IWM/AAPL.**
+  Uncorrected, "zero volume everywhere" would have been a fabricated finding off the wrong
+  feed — **lesson 38's blank-result trap occurring inside the check built to catch it.** The
+  `sip` control exposed it in one call. **Always run a liquid control before believing a
+  blank, especially when the blank is the answer you expected.**
+- 📌 **59d — NOT load-bearing.** All eight independently failed a **named** gate anyway:
+  EVMN a **FAILED Phase 2b** (EVO756 in AD missed every endpoint, 9/08 — the only dated news
+  is bearish; the 9/15 item is a deck, per the ASPN precedent) · BBW a **guidance cut** at a
+  fresh 52-wk low · FBRT a CEO shuffle + routine $0.20 dividend · **GOSS** real FDA progress
+  but **up to $250M of structured financing against a $69M cap ≈3.6× the company** on a 3.8M
+  float (rule 7a/49b) · CURR unresolved issuer identity (rule 38).
+- 🎯 **THE ONE LIVE CANDIDATE: MLKN (MillerKnoll), Q1 FY27 BMO today** — sourced from the
+  **earnings calendar, not a screener** (41d now 4-for-8). Gates cleared: domicile **MI** ✅ ·
+  rule 13 (+25% → $1,746M, clears $2B) ✅ · **rule 46 median ADV 627,900, passes by 109%, all
+  5 recent sessions above gate — clean on every cut** ✅ · **rule 8 dilution: NO live shelf, no
+  ATM, no 424B5; last S-3ASR 2017, everything since is S-8 only (8b)** ✅ · **rule 11 ladder:
+  +15% $23.37 / +25% $25.40 both clear a dated $35.00 target with room** ✅ (⚠️ only 1–2
+  analysts, quoted avg/low internally inconsistent — thin, passes weakly).
+- ⚠️ **What can kill MLKN, stated in advance**: (1) 🚨 **GAP risk, not range.** Its own 2-y
+  earnings gaps include **−25.83%** and −9.45% — **a 7% trail cannot price that; it fills at
+  the open** (45a/29). Predicted catalyst range 11.60% = **1.66× the trail** — the *closest to
+  fitting* any catalyst name has come in weeks (cf. KMTS 2.70× · FTK 4.33× · EAF 6.89×), but
+  the range figure is the optimistic half of the history. (2) 🚨 **Consensus is a LOWERED bar**
+  — Street EPS **cut 14.6% in three months ($0.41 → $0.35)**, so rule 5c applies: **grade
+  against MLKN's own Q1 guide ($928–968M), not consensus.**
+- 📌 **Six gates pre-committed for `market_open` as SHAPES not levels** (42c/42e): A size the
+  raise >1.0% vs MLKN's OWN prior FY27 guide · B pass-through · C **close in upper half of
+  range or KILL** · D gap rules · E composition (5e) · F **open/unresolved**: four Form 144s
+  and heavy Form 4 clusters post-10-K, **10b5-1 flag NOT yet read — flagged, not scored** (30b).
+- 🥇 **The old "factor watch" framing is retired.** Since the benchmark became IWM (9/17), the
+  core contributes **zero excess return by construction** — IWM-vs-SPY is no longer a drag.
+  **What replaces it is the real cost of the breach: ~49.6% IWM + ~50% idle cash against a
+  100% IWM benchmark, so every 1% IWM gains costs Rocket ≈0.5% of relative performance.
+  Monday IWM +0.52% → ≈ −0.26% vs benchmark in one session.** Not a market call; a
+  stock-picking gap being paid for daily.
+- ✅ **Macro permissive, rule 29 blocks nothing**: VIX **14.80** (new low), futures mildly green
+  with **RTY the strongest of the three for the first time in weeks** (lesson 28 — flagged, not
+  booked), **crude breaking down hard, WTI through $90**, 10-yr 4.96% still ~21bp through
+  trigger but no longer making highs. **No macro excuse for the zero — this was supply.**
+- 🔧 Instruments: `macro` clean 18th session (WTI roll patch fired, naive −6.60% → true
+  −3.15%). `eligibility` 8→8 twice (43 held). **RelVol unusable 6th straight session**;
+  `breakouts` **errored on Finviz**. ⚠️ **EDGAR ticker lookup resolved `CURR` to the wrong
+  company (Avenir Wellness, DE)** — verify the returned `name`, a ticker→CIK map is not
+  authoritative.
+
+**🚨 Open threads**: `weekly_review` **W36/W37/W38 all still owed** — 19+ sessions stale,
+tenth session flagging W36 (lesson 47c). Two escalations unchanged (rebalance basis, ADV-vs-
+account-size — **note MLKN does not raise the latter**; a ~$470 satellite fills trivially in a
+628k-ADV name).
+
+---
+
 ## 2026-09-21 — MARKET_CLOSE (Monday, Week 39 day 1) — NO TRADE; core in band, satellite floor breach logged (2nd real `market_close` session, corrected from a miscounted "2nd of 9/17,9/18")
 
 **Step 2**: No Rocket satellite positions to review (0/4, unchanged since 8/26 OMER

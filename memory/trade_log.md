@@ -4,6 +4,53 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-22 — NO TRADE (market_close, Tuesday, Week 39 day 2) — core in band, satellite floor breached 3rd consecutive `market_close` session
+
+**No fills today.** No satellite positions to review (0/4, unchanged since the 8/26 OMER
+stop-out) — Step 2 has no rows. Premarket ran at rule 8's MEDIUM-conviction bar (active
+since the 9/21 breach) and found the entire `top_movers` board was fabricated — 8-for-8
+arithmetically self-consistent but 6 of 8 rows had ZERO real premarket trades (new lesson
+59). The one live candidate, **MLKN** (Q1 FY27, BMO today), closed clean at `market_open`
+on Gate A — guide **cut**, not raised, worse than a reaffirmation. Widened screens at
+`market_open` (MAZE, VFF, FOSL) and `midday` (GRML, EAF, SVIA, CYPH) all killed on named
+gates — no dated catalyst, thin insider buy, extension/shell-domicile (new lesson 60), or
+reconfirmed standing kills. Full detail in `research_log.md`/`session_notes.md`.
+
+**Core rebalance check** (raw qty **5.4746 sh**, confirmed live via `GET /v2/positions/IWM`,
+price **$287.16**, market value **$1,572.09**):
+- Shared account **$10,438.03** × 30% = slice **$3,131.41**, satellite value $0, 10%
+  buffer $313.14 → old-formula target $2,818.27. New cap: slice × 50% = **$1,565.70**.
+  `target_core = min(2818.27, 1565.70) = $1,565.70`.
+- Current IWM value $1,572.09 vs target $1,565.70 = **+$6.39 / +0.20% of slice — well
+  within the 3% band ($93.94).** HOLD, no trade.
+
+**🚨 Satellite floor check — 3rd consecutive actual `market_close` session at 0%.**
+Sequence of real `market_close` sessions logging the breach: 9/17 (1st), 9/21 (2nd), 9/22
+(3rd) — no `market_close` ran 9/18 (lesson 58). Rule 8's MEDIUM-conviction bar was already
+active for all three of today's sessions (triggered by the 9/21 close) and carries
+unchanged into tomorrow's 9/23 premarket — CLAUDE.md does not define a further escalation
+past "2 consecutive," so this session's action is logging the pattern (new lesson 61) for
+the next `weekly_review` to grade: 4 full sessions (9/17→9/22) of genuine, MEDIUM-bar
+research producing zero satellites, not a discipline gap in any single session — every
+screened name individually cleared or failed on its own numbers.
+
+**Day P&L** (`position_table.py`, IWM is 100% of Rocket's book): IWM **+0.55% / +$8.60**
+today vs **IWM benchmark +0.53%** (`market_data.py`, small timing/rounding gap, same
+instrument) — Rocket's book-vs-benchmark spread is ~0% by construction on a no-satellite
+day, as expected under the IWM-benchmark regime. All-time on this IWM entry: **-3.49% /
+-$56.84** (entered $297.53).
+- Since-rebase figure **not recomputed here** — stands at the stale 8/28 W35 chain
+  (Rocket vs SPY -2.51%, grade C), now measured against the wrong pre-switch benchmark.
+  **W36 (due 9/04), W37 (due 9/11), W38 (due 9/18) all remain outstanding — three owed** —
+  the next `weekly_review` needs to catch up the chain and re-baseline against IWM.
+  `market_data.py`'s IWM-since-7/20-rebase: -1.52% (not the Rocket-vs-IWM figure; that
+  chain is still owed).
+- Weekly count: **0/5** — Week 39 day 2 closes with zero new satellites; the underlying
+  research gap (no satellite found since 8/26) persists, and rule 8's MEDIUM-conviction
+  bar carries into tomorrow's premarket unchanged.
+
+---
+
 ## 2026-09-21 — NO TRADE (market_close, Monday, Week 39 day 1) — core in band (2nd of two actual market_close sessions), satellite floor breached, 2nd real consecutive market_close session
 
 **No fills today.** No satellite positions to review (0/4, unchanged since the 8/26
