@@ -3,6 +3,85 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-23 — MARKET_CLOSE (Wednesday, Week 39 day 4) — HOLD RARE overnight, core in band, satellite floor breached 4th consecutive `market_close` session
+
+**Step 1/2**: `portfolio_snapshot.py` synced clean. RARE (31 sh @ $15.08, day-1) at
+$14.895, -1.23% from entry, well clear of the $14.00 trailing stop. FDA-approval
+catalyst is explicitly multi-day (breakout thesis) — held overnight per the
+close-rule's multi-day exception, same conclusion midday already reached. IWM core
+5.4746 sh, -5.2%/-$84.79 all-time, no stop by design.
+
+**Step 2.5**: Core rebalance check — IWM $1,544.08 vs target $1,552.08 (new-cap
+formula), -0.26% of slice, well within the 3% band. **HOLD, no trade.** Satellite
+floor: 14.9% < 50%, **4th consecutive actual `market_close` breach** (9/17, 9/21,
+9/22, 9/23). Rule 8's MEDIUM bar has been active since 9/21 and stays active. Logged
+as lesson 63 — cash above the 10% buffer (~35% of slice) is the mechanical byproduct
+of IWM at its cap with only 1/4 satellite slots filled, not a bearish call.
+
+**Step 3**: No new fills to log — RARE already logged at this morning's `market_open`.
+
+**Step 4**: Day P&L (`position_table.py`) IWM -1.82%/-$28.58, RARE -1.39%/-$6.51,
+book total -$35.09/-1.13% of slice, vs IWM benchmark today -1.80%. Weekly count 1/5.
+
+---
+
+## 2026-09-23 — MIDDAY (Wednesday, Week 39 day 4) — HOLD RARE, no cuts, no afternoon entries
+
+**Step 1**: `portfolio_snapshot.py` synced clean. Rocket holds IWM core (5 sh, -4.9%,
+no stop by design) and RARE satellite (31 sh @ $15.08, now $14.91/-1.1%). Satellite
+floor still 14.9% (breached, unchanged since this morning's buy — one satellite can't
+close a 50% floor alone).
+
+**Step 2**: RARE reviewed against the cut/tighten/hold criteria — down only 1.1% from
+entry (well inside the 5% cut threshold), FDA approval catalyst (UX111/Fayuvi, 9/17)
+unchanged, not up enough to tighten the trail. **HOLD**, stop unchanged at $14.00 (7%
+trail, HWM $15.055).
+
+**Step 3**: News check on RARE surfaced a Pomerantz Law Firm "investor alert" dated
+9/22–9/23 and stale coverage of the Phase 3 Aspire trial miss for **apazunersen**
+(Angelman syndrome) — an **unrelated drug program** that crashed the stock 44% on
+9/2–9/3, three weeks before Rocket's entry and already fully priced into the base the
+9/17 breakout traded off. The "investigation" is a plaintiff-firm solicitation ad
+referencing that same stale trial miss, not new information, and does not bear on the
+UX111 catalyst. **Assessed as noise, not a negative-news cut trigger** — new lesson 62.
+
+**Step 4**: `unusual_volume` scan checked for afternoon setups. Two positive movers
+with real volume: **NNBR** (+11.4%, upper-half-of-range guidance language, no hard
+numeric raise, already up 190% YTD and extended intraday — soft-raise shape, not a
+rung-1 catalyst) and **CBRL** (Q4 beat but FY revenue guide **0.8% below consensus** —
+fails rule 5c's "guide below consensus is not a raise in any framing" outright). Both
+killed. No new entries.
+
+**Step 5**: No position changes to `portfolio_state.md` (already fresh from this
+session's `portfolio_snapshot.py` sync). Lesson 62 added to `lessons_learned.md`.
+
+---
+
+## 2026-09-23 — MARKET_OPEN (Wednesday, Week 39 day 4) — RARE BUY; satellite floor breach closes from 4 consecutive sessions
+
+**Step 1**: `portfolio_snapshot.py` synced clean. No overnight fills/stops on the IWM core
+or Bull's SPY. Cash $1,902.82 pooled, market open, 0/5 weekly trades used.
+
+**Step 2**: Premarket's sole candidate, **RARE** (Ultragenyx — FDA full approval of Fayuvi,
+9/17, MEDIUM conviction, entry conditional on volume confirmation per lesson 59), checked at
+the 9:45 ET checkpoint: price $15.06 (+2.8%), a fresh weekly high, holding cleanly above the
+$14.51–$14.65 base; volume 278k vs ~259k expected pace by that point (~1.07x) — real
+regular-hours trades, confirms it wasn't a premarket quote artifact. Cleared all universe/
+guardrail checks (mcap $1,485M, price, ADV 6.725M avg, DE domicile already confirmed
+pre-market).
+
+**Step 3**: Sized at the 15% cap (31 sh, $466.86) via `alpaca_client.py size`. Bought 31 sh
+@ $15.08 avg fill. 7% trailing stop live at $14.00 (HWM $15.055). Logged to `trade_log.md`.
+
+**Step 4**: `unusual_volume`/`top_movers` rerun — only GRML crossed both lists again
+(40.3x/+12.5%), reconfirmed as a standing kill (lesson 60, stale EDGAR domicile record,
+further extended). INNV (-10.8%) not a long candidate. No second entry.
+
+**Step 5**: Final `portfolio_snapshot.py` sync — satellite floor moves **0.0% → 14.9%** of
+slice (still breached; one satellite at the 15% position cap cannot close a 50% floor alone,
+more entries needed). Rocket positions 1/4 (RARE), combined account positions 2 (RARE, IWM)
++ Bull's SPY = 3/7. ntfy trade notification sent.
+
 ## 2026-09-22 — MARKET_CLOSE (Tuesday, Week 39 day 2) — NO TRADE; core in band, satellite floor breached 3rd consecutive `market_close` session (lesson 61)
 
 **Step 1/2**: `portfolio_snapshot.py` synced clean. No satellite positions to review (0/4)
@@ -2090,6 +2169,38 @@ widen to all four screeners, push deeper down each list, accept MEDIUM — **but
 requirement does NOT relax.** SECZ is the named first stop if its two-part condition resolves.
 **And `weekly_review` W36/W37/W38 are ALL owed as of today — three reviews, ninth session
 flagging W36.**
+
+---
+
+## 2026-09-23 — PREMARKET (Wednesday, Week 39 day 3)
+
+- **Satellite floor breach now 3 consecutive logged `market_close` sessions** (9/17, 9/21,
+  9/22). Rule 8's MEDIUM bar remains active. Full board run: both screeners, universe gate
+  on every mover, catalyst validation by search on survivors.
+- **GRML** (only both-lists mover, +43.2%/17.7×) — **re-confirmed standing kill.** Pulled
+  EDGAR fresh rather than trusting memory: `stateOfIncorporation` still blank, SIC still
+  "Biological Products" six months after the March rebrand. Now further extended on top of
+  the prior +474%.
+- **TPB, AGPU, ONT** — all killed on rule 1 (stale catalysts, 1–8 weeks old, already
+  digested; TPB additionally showed internally inconsistent price data across sources —
+  flagged, not booked as a new instrument defect since it wasn't independently confirmed).
+- 🎯 **RARE (Ultragenyx) is the one survivor** — first-ever FDA approval of Fayuvi (UX111)
+  for Sanfilippo syndrome Type A, dated 9/17, with same-day Citi ($32 PT) and MS ($20 PT)
+  target raises. Clears every universe gate (cap $1,539M, domicile DE confirmed via EDGAR),
+  clean on dilution (no shelf filing in 2+ years), short float ~17% (squeeze-flag territory,
+  though float itself isn't low). Priced-in check passes — both analyst targets sit well
+  above the current $15.62. **The one open question is entry timing**: the initial gap was
+  only 12.6%, which doesn't cleanly match the gap-and-go (20–35%) or continuation (>25%/>35%)
+  rules — it's now a 3-day-base breakout on top of a real catalyst. Written up as MEDIUM
+  conviction, entry conditional on volume confirmation at `market_open`, not force-fit into
+  a rule that doesn't quite apply.
+- Macro clean and permissive (VIX 14.16, new low; Russell fut −0.28%, the one soft spot).
+  No macro block on entries.
+- **No trades placed — market closed, this is the pre-market research session.** If RARE
+  doesn't fill at the open, today's `market_close` would be the 4th consecutive breach.
+- Archived the full 9/22 research_log and all three dated market_context snapshots (9/17,
+  9/18, 9/22) to their respective history files — both were running well over their stated
+  line-count targets.
 
 ---
 ## Session Archives

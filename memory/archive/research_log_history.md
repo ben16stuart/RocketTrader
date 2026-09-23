@@ -2966,3 +2966,36 @@ veto; it does not supply an edge."* **First live confirmation, and it went the h
 | **Standing mandate kills** — BNC · CSHR · USDE · DFDV · ABTC · HYPD · HYMC · QMLS · GOLD.com · BRR · **UPXI** (crypto/treasury, lesson 31) · **ACP** (closed-end fund) · **ADNT** · **GLAS** · **NB** (non-US-incorporated, ruled 2026-09-17 — 52c) · FTFT · LPA · TEN · YB · IMPP · **DAVA** · **YRD** · **VFS** · **IPHA** · **IH** · SA · ODD · CGNT · NNOX · COE · AACG · NVA · CMCM · HTLM · MNY · CURR · GRFS · CBAT · HITI · BIOX · ZENA · LUXE · SANG · RYDE · DSWL · SJ · YI · GURE · ISPR · GAUZ · CLGN | Category-excluded. Not re-researched |
 | **Hard-gate kills** — CATX · AIV · HAIN · CHRN · FRGT · AREC · EPM · TCOM · FPS · ELME · ANAB · UROY · M · FIZZ · AEO · **HUBG** · SIG · ASO · CULP · HTT · NBP · ANIX · ALPS · KR · ZONE · CVRX · TRT | Cap / price / volume / exchange. New instrument only |
 | **Tape kills** — GIII · DAKT · NEOV · YEXT · PD · RMNI · MEI · CBIO · TYRA · PYXS · RARE · GOLD · LTRX · OOMA · FRNM · SSTK · BBW · OSG · XHLD · NABL · LENZ · ALMS · EOSE · OABI · DUOT · AGPU · SVCO · ANRO · AVEX · BETR · **ALMU** · **RZLT** · **FLNC** · **TRAX** | New dated catalyst only |
+
+---
+
+## Watchlist — Tue 2026-09-22 (Week 39 day 2 — satellite floor breached; MEDIUM bar active per rule 8; market_open NO ENTRY) — ARCHIVED 2026-09-23
+
+**Satellites 0/4, floor breached 0% < 50% at two logged `market_close` sessions (9/17, 9/21
+— per lesson 58's corrected count).** Rule 8's MEDIUM-conviction bar is active:
+**searched at the MEDIUM bar — all 4 screeners run plus the earnings calendar, pushed deeper
+down each list.** The catalyst requirement itself does not relax, and nothing was admitted
+without one.
+
+### VERDICT: NO ENTRY TODAY — but ONE live candidate queued for `market_open`
+
+**LESSON 59 (instrument finding):** Every "mover" reconciled 8-for-8 under lesson 55b's
+arithmetic check — and six of the eight had ZERO premarket trades (EVMN single 202-share
+print, FBRT/GOSS/QTRX/QUIK/SIGA/ACCO zero trades, BBW printed $26.03/+5.2% on a real trade of
+500sh @ $24.74 = −0.0%). Named catalyst kills independent of the volume finding: EVMN (failed
+Phase 2b, bearish), FBRT (CEO reappointment + routine dividend, not a catalyst type), BBW
+(guidance cut, 52w low), GOSS (financing 3.6× market cap), CURR (unresolved EDGAR identity),
+USDE (standing crypto kill). Midday: GRML (serial-rebrand shell, blank stateOfIncorporation,
++474% over 4 sessions), EAF (scanner artifact, actually closed red), SVIA (name change, not a
+catalyst type), CYPH (crypto-treasury kill).
+
+### MLKN — MillerKnoll Q1 FY27 — CLOSED at market_open, Gate A failed on the print
+
+Q1 FY27 actual revenue $923.4M missed both consensus ($943.3M) and MLKN's own guide floor
+($928M). FY27 guide CUT (not raised) — Gate A dispositive KILL, not dated for a recheck.
+Market_open widen (rule 8 MEDIUM bar): MAZE (no dated catalyst, stale Phase 2 data), VFF
+(CEO buy too small + volume not confirming), FOSL (no catalyst since Q2) — all killed on
+rule 1.
+
+**Verdict: NO ENTRY at market_open. 3rd consecutive satellite-floor breach logged at
+market_close 9/22.**

@@ -4,6 +4,77 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-23 — RARE BUY (market_open, Wednesday, Week 39 day 4)
+
+- **Shares**: 31 @ $15.08 avg fill
+- **Catalyst**: First-ever FDA full approval of Fayuvi (UX111) gene therapy for pediatric
+  Sanfilippo syndrome Type A, announced 2026-09-17 (primary-sourced, dated). Same-day PT
+  raises: Citi $32 (Buy), Morgan Stanley $20 (Equal-Weight) — both above current price.
+- **Stop**: 7% trailing, live at $14.00 (HWM $15.055)
+- **Target**: 1st 1/3 at +15% ≈ $17.34, 2nd 1/3 at +25% ≈ $18.85, final 1/3 rides to stop
+- **Thesis**: Breakout-from-a-short-base on top of a durable FDA catalyst — 3 sessions
+  tightly based ($14.51–$14.65) then a fresh breakout to a weekly high on real regular-hours
+  volume (278k by 9:45, ~1.07x expected pace — confirms genuine trading, not a premarket
+  quote artifact per lesson 59). MEDIUM conviction (rule 8 MEDIUM bar, active since 9/21
+  breach) — entry timing doesn't cleanly fit a pre-defined gap-size rule, though the catalyst
+  itself is rung-1 quality (dated FDA approval + two same-day analyst PT raises above spot).
+- **Closes the satellite-floor breach**: satellites were 0.0% for 4 consecutive sessions
+  (9/17, 9/21, 9/22, and today's premarket) — this trade seeds the floor.
+- **Risk / what kills it**: (1) move is 6 sessions old — if $14.51–$14.65 base fails to hold
+  on any pullback, the setup is exhausted; (2) float (80.4M sh) is not low, capping squeeze
+  upside despite ~18% short interest; (3) biotech binary risk on any adverse post-approval
+  news (label restriction, manufacturing, etc.) not currently flagged.
+
+## 2026-09-23 — NO TRADE (market_close, Wednesday, Week 39 day 4) — RARE held overnight, core in band, satellite floor breached 4th consecutive `market_close` session (14.9%)
+
+**Step 2 — position review.** RARE (31 sh @ $15.08, day-1 hold) reviewed against the
+close-rule criteria: currently $14.895, -1.23% from entry, -4.61% on the day (lastday
+$15.615 → $14.895) but nowhere near the 7% trailing stop ($14.00, HWM $15.055 —
+current price is still ~6.5% above the stop). The FDA-approval catalyst (UX111/Fayuvi)
+is an explicit multi-day breakout thesis, not a one-day news pop — CLAUDE.md's "hold
+overnight" exception ("catalyst is multi-day... multi-session breakout") applies
+directly. Midday already reached the same HOLD conclusion after clearing a Pomerantz
+law-firm alert as stale noise unrelated to the entry catalyst (lesson 62). **HOLD**,
+stop unchanged at $14.00.
+
+**Step 2.5 — core rebalance check** (raw qty IWM **5.4746 sh** confirmed live via
+`GET /v2/positions/IWM`, price $282.045, value $1,544.08; RARE raw qty 31, value
+$461.75):
+- Shared account **$10,347.21** × 30% = slice **$3,104.16**, satellite value $461.75,
+  10% buffer $310.42 → old-formula target $2,331.99. New cap: slice × 50% =
+  **$1,552.08**. `target_core = min(2331.99, 1552.08) = $1,552.08`.
+- Current IWM $1,544.08 vs target $1,552.08 = **-$8.00 / -0.26% of slice — well within
+  the 3% band ($93.12).** HOLD, no trade.
+
+**🚨 Satellite floor check — 4th consecutive actual `market_close` session below
+floor.** Satellite % = $461.75 / $3,104.16 = **14.9% < 50%**. Sequence: 9/17 (1st,
+0%), 9/21 (2nd, 0%), 9/22 (3rd, 0%), 9/23 (4th, 14.9% — this morning's RARE buy closed
+part of the gap but one satellite at the 15% position cap cannot clear a 50% floor
+alone). CLAUDE.md defines no escalation past "2 consecutive" (fired 9/21, MEDIUM bar
+active since and unchanged by today's entry). Logged as lesson 63. **Not a bearish
+cash call** — cash above the 10% buffer (~35% of slice) is the mechanical result of
+IWM already at its 50% cap with only 1/4 satellite slots filled, the intended,
+visible discomfort CLAUDE.md describes.
+
+**Step 3**: No new fills today beyond this morning's RARE buy (already logged in the
+9/23 `market_open` entry above). Nothing to add.
+
+**Step 4 — Daily stats** (`position_table.py`): IWM **-1.82% / -$28.58** today (core),
+RARE **-1.39% / -$6.51** today (satellite, day 1) → Rocket book total **-$35.09**
+today = **-1.13% of slice**. IWM benchmark today (`market_data.py benchmark-today`):
+**-1.80%** — Rocket's book roughly tracked the benchmark today, satellite drag
+smaller than core drag. All-time on IWM entry: -5.2% / -$84.79 (entered $297.53).
+All-time on RARE: -1.23% / -$5.74 (entered today, $15.08).
+- Since-rebase figure **not recomputed here** — stands at the stale 8/28 W35 chain
+  (Rocket vs SPY -2.51%, grade C), still measured against the pre-switch benchmark.
+  W36 (due 9/04), W37 (due 9/11), W38 (due 9/18) all remain outstanding — three owed
+  — per the lesson 23a discipline; `weekly_review` now runs Saturday mornings, next
+  due 2026-09-26.
+- Weekly count: **1/5** — Week 39's RARE buy is the only new satellite this week;
+  satellite floor still breached (14.9% < 50%).
+
+---
+
 ## 2026-09-22 — NO TRADE (market_close, Tuesday, Week 39 day 2) — core in band, satellite floor breached 3rd consecutive `market_close` session
 
 **No fills today.** No satellite positions to review (0/4, unchanged since the 8/26 OMER

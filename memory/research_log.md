@@ -5,165 +5,90 @@ entries to `memory/archive/research_log_history.md`.
 
 ---
 
-## Watchlist — Tue 2026-09-22 (Week 39 day 2 — **satellite floor breached; MEDIUM bar active per rule 8; market_open NO ENTRY, see MLKN close + widen below**)  ← CURRENT
+## Watchlist — Wed 2026-09-23 (Week 39 day 4 — **satellite floor breached 4 consecutive `market_close` sessions (9/17, 9/21, 9/22, 9/23 at 14.9%); MEDIUM bar active per rule 8**)  ← CURRENT
 
-**Satellites 0/4, floor breached 0% < 50% at two logged `market_close` sessions (9/17, 9/21
-— per lesson 58's corrected count).** Rule 8's MEDIUM-conviction bar is active:
-**searched at the MEDIUM bar — all 4 screeners run plus the earnings calendar, pushed deeper
-down each list.** The catalyst requirement itself does not relax, and nothing was admitted
-without one.
+**Satellites 0/4.** Full board run: `top_movers` + `unusual_volume` screeners, universe
+eligibility gate on every mover of note, then catalyst validation by web search on survivors.
 
-### 🚩 VERDICT: NO ENTRY TODAY — but ONE live candidate queued for `market_open`
+**Screener board**: only **GRML** appeared in both `top_movers` (+43.2%) and `unusual_volume`
+(17.7×) — the "first priority tier" per the routine. **Standing kill, reconfirmed**: pulled
+EDGAR `CIK0001907223` fresh this session — `stateOfIncorporation` is **still blank**,
+`sicDescription` still reads "Biological Products" (the record has not caught up to the
+March rebrand). Lesson 60 stands. The stock is now **further extended** on top of the prior
++474%/4-session run. No re-open condition met.
 
-🚨 **THE FINDING OF THE SESSION IS AN INSTRUMENT ONE AND IT INVALIDATES THE WHOLE
-`top_movers` BOARD.** See lesson 59 (new). Every "mover" below reconciled **8-for-8** under
-lesson 55b's arithmetic check — and **six of the eight had ZERO premarket trades.**
+Universe-gate + catalyst check on the rest of the movers:
 
-| Scanner printed | Reality (Alpaca `sip`, 08:00Z→10:23Z) |
+| Name | Verdict |
 |---|---|
-| EVMN +7.2% @ $10.13 | **306 shares total, $3,081 notional.** The $10.13 IS a single 202-share print |
-| FBRT +6.1% @ $8.18 | **ZERO premarket trades.** No trade occurred at that price |
-| BBW +5.2% @ $26.03 | **500 sh @ $24.74 = −0.0%.** The scanner's price does not exist |
-| GOSS +3.5% @ $11.67 | **ZERO trades** |
-| QTRX / QUIK / SIGA / ACCO / CURR +2.3–2.9% | **ZERO trades each** |
+| **TPB** (+15.7% printed) | ❌ **Rule 1 — no fresh dated catalyst, and price data is internally inconsistent across sources** (scanner $69.74, yfinance eligibility $60.28, a cited "last close" of $108 from a stale secondary page). The only concrete items found — a Q2 EPS miss, a Sept 18 $0.08 dividend ex-date, prior analyst PT raises — are all weeks old and already priced in. Not enterable without a corroborated same-day source for the move itself. |
+| **AGPU** | ❌ **Rule 1 — catalyst is stale.** Real news exists (Blackwell B300 $1.5B contract, $317M prepayments) but it is all **June/July**, already fully digested; today's +6.5% carries only 0.7× RelVol (not actually unusual volume). No fresh news found. |
+| **ONT** | ❌ **Rule 1 — catalyst too old/too small.** A C$9M contract award is dated 9/14 (9 days stale) and immaterial against an $840–900M FY revenue guide (<0.5%); the larger item (board-led strategic review) is dated 8/05, six weeks stale. Neither explains today's move. |
+| **HSDT / VUZI** | ❌ **Universe FAIL** — HSDT avg volume 296,911 (min 300,000); VUZI price $2.96 (min $3.00). |
+| ZSTK, BYRN, TNXP | ❌ Weak, unremarkable moves (≤3.5%, RelVol ≤0.1×) with no catalyst surfaced — rule 1 default fail, not worth further search spend. |
 
-**BBW is the clean falsification**: the arithmetic was perfectly self-consistent around a
-price at which nothing traded. ⚠️ **And the check nearly died on its own instrument** — the
-Alpaca `iex` feed returns **zero premarket bars even for SPY**; only the `sip` control run
-(lesson 38) revealed the real tape. A blank on the wrong feed reads exactly like a finding.
+**Midday update (9/23):** Position held. News check surfaced a Pomerantz law-firm
+"investor alert" (9/22–9/23) — resolves to a 3-week-stale Phase 3 Aspire trial miss
+for an unrelated drug (apazunersen), already priced into the base; not a new catalyst
+event, no cut (lesson 62). Afternoon `unusual_volume` scan checked NNBR (extended,
+soft guide language) and CBRL (guide below consensus, rule 5c kill) — both killed, no
+new satellite entries.
 
-### Named catalyst kills (independent of the volume finding)
+**Market_close update (9/23):** Held overnight — $14.895, -1.23% from entry, clear of
+the $14.00 stop; multi-day FDA catalyst qualifies for the CLAUDE.md hold-overnight
+exception. Satellite floor still 14.9% < 50% (4th consecutive `market_close` breach,
+lesson 63) — 3 more satellite slots need filling; that's tomorrow's premarket job.
 
-| Name | Kill |
-|---|---|
-| **EVMN** | ❌ **Rule 1 + the only dated news is BEARISH.** Phase 2b of EVO756 in atopic dermatitis **MISSED primary and secondary endpoints at every dose** (9/08); development in AD ceased. The 9/15 item is a **corporate deck** — ASPN precedent: a deck is not a catalyst |
-| **FBRT** | ❌ **Rule 1 — not a catalyst type.** CEO reappointment (Byrne back, Comparato resigned 9/15) + a routine **$0.20 dividend, ex-9/30.** Neither is on the catalyst list |
-| **BBW** | ❌ **Rule 5 disqualifier — guidance CUT**, FY26 revenue to $500–525M (−3.3% at midpoint); PT cut $61.25 → $43.00. Trading at a **fresh 52-week low ($24.15)**. A bounce off a low on no news is rule 1's trap shape |
-| **GOSS** | ❌ **Rule 7a / 8a — the catalyst IS the dilution event.** Real regulatory progress (FDA called the PROSERA effect size a *review* issue not a *filing* issue; seralutinib NDA planned this month). But the financing is **up to $250M gross against a $69M market cap ≈ 3.6× the entire company**, structured and milestone-contingent ($25M at close, ~$125M on NDA acceptance, $100M on approval) — against a **3.8M float** (rule 49b). Auto-kill tier |
-| **CURR** | ❌ **Rule 38 — unresolved identity/domicile.** EDGAR's ticker lookup for `CURR` resolves to **Avenir Wellness Solutions (DE)**, a different company from Currenc Group. An unresolved gate is a FAIL, not a pass. Zero premarket volume and no catalyst regardless |
-| **USDE** (only `unusual_volume` row >1.0×, 2.5×) | ❌ Standing **crypto/treasury mandate kill** (lesson 31) |
+### 🎯 RARE — Ultragenyx Pharmaceutical: the one name that clears the catalyst bar
 
-**Rest of board**: `unusual_volume` printed **19 of 20 rows below 1.0×** (RelVol unusable, 6th
-straight session). `breakouts` errored on Finviz and returned 3 rows, all <2.5%.
-`short_squeeze` — high short floats (WOLF 70.7%, WYFI 55.7%, FRMM 48.0%) but **no catalyst on
-any of them and near-zero RelVol**; rule 9/10 requires short float **+ a catalyst**, and the
-catalyst leg is missing on all 20. Standing kills carried: BNC, DFDV, CYPH, FWDI, ABTC, NUAI,
-OPTX, DUOT, ALMU.
+- **Catalyst**: **First-ever FDA full approval of Fayuvi (UX111)** gene therapy for pediatric
+  Sanfilippo syndrome Type A, announced **2026-09-17** (primary source: FDA/company
+  announcement; stock gapped from $12.88 close 9/16 to $14.50 close 9/17, +12.6% on 12.4M
+  shares vs ~4–5M normal). Same day, **Citigroup raised PT to $32 (from $31, Buy)** and
+  **Morgan Stanley raised PT to $20 (from $18, Equal-Weight)** — both dated 9/18.
+- **Universe**: price $15.62 ✅ · market cap $1,539M ✅ · avg volume 3.72M ✅ · **domicile DE**
+  (confirmed via EDGAR submissions JSON) ✅ — clears every gate.
+- **Price action since the catalyst**: based tightly for 3 sessions (9/18 close $14.51, 9/21
+  close $14.65 — a ~1% range) and is **now breaking out to $15.62**, a fresh high since the
+  approval. This is a *breakout-from-a-short-base* shape layered on top of the FDA catalyst,
+  not a textbook fit for any single named entry rule (initial gap was only 12.6%, below the
+  20–35% gap-and-go band and well below the >35%/>25% continuation thresholds) — flagged
+  explicitly rather than force-fit into a rule that doesn't quite apply.
+- **Short interest**: ~16.8–18% of float (dated data, 8/31–9/08) — **>15% + a live catalyst**
+  qualifies as a squeeze flag, though float itself (80.4M sh, 82% of shares out) is not low.
+- **Priced in?** No — both dated analyst targets ($20 / $32) sit well above the current
+  $15.62; MS's more conservative target still implies +28%.
+- **Dilution**: checked EDGAR (CIK 0001515673) — **no S-3/424B filing in over 2 years**
+  (last 424B5 2024-06-14, last S-3ASR 2024-02-21). Clean.
+- **Entry plan**: only on confirmation at `market_open` that volume is genuinely elevated
+  (not a premarket-quote artifact, lesson 59) — entry zone **$15.10–$15.80** on a hold above
+  the 9/18–9/21 base ($14.51–$14.65). Do **not** chase if it gaps materially above this zone.
+- **Stop**: 7% trail from entry (~$14.51 at a $15.60 entry — coincides with the base support).
+- **Targets**: +15% ≈ $17.94 (1st third) · +25% ≈ $19.50 (2nd third) · ride final third to stop.
+- **Conviction**: **MEDIUM** (rule 8 bar). Catalyst quality is genuinely strong — the entry
+  timing is what keeps this off HIGH, since it doesn't cleanly match a pre-defined pattern.
+- **Risk / what kills it**: (1) the move is 5 sessions old — if it fails to hold the
+  $14.51–$14.65 base at the open, the setup is exhausted, not fresh; (2) float is not low, so
+  squeeze upside is capped despite the short-interest %; (3) confirm real volume behind any
+  breakout print before treating it as valid (lesson 59's premarket-quote trap).
 
-### MIDDAY afternoon scan (10:15 ET) — 4 movers checked, all killed
+**Macro context** (`market_data.py macro`): VIX 14.16 (**−4.77%**, new multi-week low, well
+below the 22 brake) · Russell futures **−0.28%** (mildly negative, small caps the weak leg
+today) · SPY fut +0.05% · 10-yr 4.96% (still through the 4.75% trigger, unchanged read) ·
+crude both legs down on the roll-adjusted read. **No macro block on entries.**
 
-`unusual_volume` re-run mid-session. Four names web-searched for a fresh dated catalyst
-(inline, <5 searches, no subagent per the token-cost rule):
+**Verdict: NO ENTRY PRE-MARKET (market closed) — RARE queued as the sole `market_open`
+candidate, MEDIUM conviction, entry conditional on volume confirmation.** If RARE also fails
+at the open, this would be the **4th consecutive satellite-floor breach at today's
+`market_close`**, still a stock-picking gap per lesson 61, not a market call.
 
-| Name | Kill |
-|---|---|
-| **GRML** (+73.6%, 44.7×) | ❌ **Un-gradeable + massively extended, not a fresh setup.** Real news exists (Sarfartoq rare-earth land expansion, US-Denmark-Greenland security deal, high-case NPV $2.05B) but the **issuer is a serial-rebrand shell**: EDGAR CIK 0001907223 = Redwoods Acquisition Corp (2022) → ANEW Medical (2024) → Klotho Neurosciences (2024) → Greenland Mines Ltd (2026-03-10), **3 name/business changes in under 2 years**, `stateOfIncorporation` blank and SIC still reads "Biological Products" — the record has not caught up to the rebrand. Rule 38: an unconfirmable domicile is a FAIL, not a pass. Independently, the stock is **already +474% over 4 sessions** ($2.85 on 9/18 → $16.35 today) — this is deep into a parabolic blow-off, not a base or a first/second-day gap (rule 2/2c don't apply this many days out). Two independent kills, neither needed the other. |
-| **EAF** (+16.9% on this scan, but settled **−5.78%** on the day per live search) | ❌ Standing no-catalyst kill reconfirmed — no news since the Q2 miss (EPS $1.54 vs $1.65 consensus); today's print was a scanner artifact, the stock actually closed red |
-| **SVIA** (formerly ProCap Financial/BRR) | ❌ **Rule 1 — not a catalyst type.** Today's news is a **ticker/name change** (BRR → SVIA) plus a marketing claim about AI benchmark performance; neither is earnings, FDA, contract, upgrade, or insider buying |
-| **CYPH** | ❌ Reconfirms the standing **rule 31 crypto-treasury mandate exclusion** — "digital asset strategy anchored by Zcash." Today's news (a board appointment) is not a catalyst type regardless |
-
-**Verdict: NO ENTRY.** No forced cuts (0 satellites open). Satellite floor still 0% — if
-unchanged at today's `market_close`, that is the **3rd consecutive breach**, which per rule 8
-is escalation territory for tomorrow's premarket, not just a note.
-
----
-
-## 🎯 MLKN — MillerKnoll Q1 FY2027, reports BMO **today 2026-09-22**
-
-- **Catalyst**: Q1 FY27 earnings, **pre-market today**. Sourced from the earnings calendar,
-  not a screener (lesson 41). Consensus **EPS $0.35 on revenue $943.3M**; company's own Q1
-  guide is **net sales $928–968M, GM 38.7–39.7%**.
-- **Market cap**: $1,397M | Float: 66.7M sh (97% — **not** a low-float name) | Price $20.32
-- **Universe**: price ✅ · cap ✅ · **rule 13: +25% → $1,746M, still clears $2B with ~15%
-  headroom** ✅ · **domicile MI (Michigan), US-incorporated** ✅ (rule 52c, read from EDGAR)
-- **Rule 46 (median ADV, run unconditionally per 46g)**: 63-day **median 627,900 — passes the
-  300k gate by 109%**; mean 740,474; 2-y median 544,000; **all five most recent sessions above
-  the gate** (652k · 556k · 662k · 1.67M · 1.28M). ✅ **No contamination — clean on every cut**
-- **Rule 8 (dilution) — the cleanest tier available**: **no live shelf.** No S-3, no ATM, no
-  424B5. Last S-3ASR was **2017** (long expired); the only 424B3 is the **2021 Knoll merger**.
-  Everything since is **S-8 only — rule 8b: an S-8 is not an offering** ✅
-- **Rule 45 (catalyst-day multiple, measured on its OWN 2-y history)**: median daily range
-  **2.94%** (a quiet name — 45b says the gate is *strictest* here). Catalyst multiple **3.94×**
-  → **predicted catalyst range 11.60% = 1.66× the 7% trail.** 📌 **That is the closest to
-  fitting a 7% trail any catalyst name has come in weeks** (cf. KMTS 2.70× · PLAY 3.61× ·
-  FTK 4.33× · SOC 6.54× · EAF 6.89×)
-- **Rule 11 (analyst ladder)**: entry ~$20.32 → **+15% rung $23.37 · +25% rung $25.40.**
-  Dated Street target (9/20) **$35.00**, range $35.35–36.75. ✅ **Both rungs clear with large
-  room** — the inverse of the OOMA/PD kill shape. ⚠️ **Coverage is only 1–2 analysts and the
-  quoted avg/low/high are internally inconsistent ($35.00 avg vs $35.35 low)** — thin ladder,
-  passes but weakly (11b)
-- **Conviction**: **MEDIUM**, pending the print. Not enterable now — *"OK to enter AFTER a
-  confirmed beat, NOT before."*
-
-### 🚩 MLKN CLOSED at `market_open` 9/22 — Gate A failed on the print, primary-sourced (8-K ex-99.1)
-
-**Q1 FY27 actual**: revenue **$923.4M — missed BOTH consensus ($943.3M) AND MLKN's own Q1
-guide floor ($928M)**; net sales **down 3.4% YoY (organic −3.3%)**; NA Contract sales
-**−5.2% organic**, orders −1.6%; Intl Contract sales **−6.2% organic** despite orders +17.9%.
-GAAP EPS $0.38 / adj EPS $0.53 vs $0.35 consensus — the only clean beat in the print.
-
-**Gate A (must be)**: FY27 guide RAISED >1.0% vs MLKN's own prior guide. **Actual: revenue
-range CUT $3.93–4.13B → $3.88–4.03B (≈−1.9% at midpoint); adjusted EPS range UNCHANGED
-$1.85–2.15.** Per lesson 5f a reaffirmation is a 0% change, not a raise — this is worse, a
-guide **cut** on the top line with EPS merely reaffirmed. **KILL, no ambiguity.** Gates B–F
-never reached — Gate A alone is dispositive. Stock reaction muted (+1.7%, below MA20/MA50),
-consistent with the actual print, not the headline EPS beat. **CLOSED, not dated for a
-recheck (rule 5's beat-without-raise is a disqualifier, not a demotion).**
-
-### Market_open widen (rule 8 MEDIUM bar) — three more checked inline, all killed
-
-Macro context: SPY +0.08%, IWM +0.61%, Russell fut +0.70% — a mildly green tape, not a
-risk-on day that would explain moves by beta alone.
-
-- **MAZE** (+28.2%, 0.8x actual volume despite unusual_volume printing 9.9x RelVol —
-  another RelVol/reality mismatch, lesson 17g) — **no dated catalyst found.** Company's own
-  IR news page's most recent item is 9/02 (investor-conference attendance, not a catalyst);
-  the only real data readout (Phase 2 HORIZON, MZE829) is from **3/25/26, six months stale.**
-  Rule 1 fail — volume/price alone, no named catalyst.
-- **VFF** ($3.09, +7.1%, real volume 0.9x avg despite 4.5x printed RelVol — same RelVol
-  mismatch) — catalyst candidate was a CEO open-market buy, but **only $101,258 (35,000 sh,
-  +0.36% of his existing 9.73M-share stake)** — too small to be signal, and **actual volume
-  is NOT confirming** (below average, not "unusual"). Price $3.09 is a hair above the
-  sub-$3 trap floor. Kill on both volume-not-confirming and catalyst-too-thin.
-- **FOSL** (+5.1%, 3.7x RelVol) — no news since Q2 earnings (reiterated FY guidance, not
-  raised); no dated catalyst today. Kill on rule 1.
-
-**Verdict: NO ENTRY at market_open.** Satellite floor still breached at 0%; escalates to a
-3rd consecutive `market_close` breach if nothing is found by close. Widened board (screener
-+ earnings calendar + inline movers check) produced zero names clearing rule 1's catalyst
-bar — this is 36's "board quality" problem, not a discipline failure, and it is stated as
-such rather than defaulting to 48a's framing without re-measuring (per lesson 53).
-
-### ⚠️ The two things that can kill it, stated in advance
-
-1. 🚨 **GAP RISK IS THE REAL RISK, NOT RANGE** (rule 45a/29). MLKN's own earnings-day gaps
-   over 2 years include **−25.83% (2026-03-26)** and **−9.45%**, alongside +9.02% and +5.80%.
-   **A 7% trail cannot price a −25.8% gap — it fills at the open, wherever the open is.**
-   The 1.66× range figure is the *optimistic* half of this name's history.
-2. 🚨 **CONSENSUS IS A LOWERED BAR** (rule 5c). Street EPS was **cut 14.6% in three months,
-   $0.41 → $0.35.** A "beat vs $0.35" is a beat against a number that was walked down to meet
-   the company. **The firm reference is MLKN's own Q1 guide ($928–968M), not consensus.**
-
-### 📌 Pre-committed gates for `market_open` — written as SHAPES, not levels (rule 42c/42e)
-
-- **Gate A — size the raise (5a/5d).** FY27 guide must be **RAISED >1.0% against MLKN's OWN
-  prior FY27 guide**, not against consensus. **State the raise as a percentage.** A
-  reaffirmation, a withdrawal-restoration, or a sub-1% nudge is a **KILL** (PD +0.3% · CHPT
-  +0.6% · SWBI +0.95% · AVO +1.25% — rule 5a is 4-for-4 as a kill in that band).
-- **Gate B — pass-through (5d).** If Q1 beat its own guide, the year must absorb it. **Beat
-  the quarter, decline to raise the year → the beat is pull-forward → KILL.**
-- **Gate C — price action (rule 4).** **9/22 must close in the UPPER HALF of its own daily
-  range. Below the midpoint = KILL regardless of catalyst** — and per 42d/45e a price-action
-  kill **CLOSES** the name, it does not date it for a recheck.
-- **Gate D — the gap (2c/45a).** Gap **>35% → second-day entry only.** Gap **DOWN materially
-  → dead**, do not attempt to catch it; the trail cannot price this name's gap history.
-- **Gate E — composition (5e).** Read past the headline: if a **non-recurring item is larger
-  than net income**, the one-off IS the beat → KILL.
-- **Gate F — open item, unresolved (30/30b).** Four **Form 144s** (7/02, 7/16, 8/04, 8/05)
-  plus heavy Form 4 clusters (7/16, 7/23, 8/03) sit right after the 7/20 10-K. **The
-  transaction CODE and the `<aff10b5One>` plan-adoption date have NOT been read.** Per 30b
-  the flag *reverses* the read, so this is **flagged as unresolved, not scored either way.**
-  Cheap to close: fetch the raw Form 4 `.xml` (never the `xslF345X06/` rendered page).
+**✅ EXECUTED at `market_open` (2026-09-23, 9:45 AM ET).** Volume confirmed genuine at the
+9:45 checkpoint (278k shares, ~1.07x expected pace by that point in the session — real
+regular-hours trades, not a premarket quote artifact per lesson 59), price $15.06 holding
+cleanly above the $14.51–$14.65 base and printing a fresh weekly high. Bought 31 sh @ $15.08
+avg, 7% trailing stop live at $14.00. See `trade_log.md` for full entry. Satellite floor
+moves from 0.0% to 14.9% of slice — floor still breached (one satellite at the 15% cap
+cannot close it alone) but the research gap is no longer a complete zero.
 
 ---
 
@@ -171,14 +96,13 @@ such rather than defaulting to 48a's framing without re-measuring (per lesson 53
 
 1. **Which rebalance basis governs** (lesson 44) — slice vs. book. Non-binding while IWM sits
    at/near the 50% cap (the cap governs regardless of basis).
-2. **The ADV gate binds on account size, not tradeability** (46f). ⚠️ **Note MLKN does NOT
-   raise this one** — at a median 627,900 ADV a ~$470 satellite is trivially fillable.
+2. **The ADV gate binds on account size, not tradeability** (46f). Non-binding on RARE — at
+   3.72M avg volume a satellite this size is trivially fillable.
 
 ### Scheduled catalysts
 
-- **MLKN Q1 FY27 — BMO TODAY 9/22** (above) · **RCKT program update 10/06** ·
+- **RARE** — Fayuvi approval live, see above · **RCKT program update 10/06** ·
   **CLB earnings 10/28** · **DTIL 11/02** (ADV-locked).
-- **THO, KBH, WOR, AZO** also report 9/22 — **all FAIL rule 13's $2B cap**, not screenable.
 - **SECZ** — re-open only if it pulls back materially below the $2B cap AND the lock-up
   primary source (Proxy "Other Transaction Agreements — Lock-Up Agreements," p.123) is
   actually read, not summarized secondhand.
