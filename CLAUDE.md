@@ -127,7 +127,14 @@ Rules:
   defaults to `opus`, which quietly burns the expensive tier on mechanical work.
   (`weekly_review.md` shipped without one and did exactly that until 2026-07-25.)
 - Any routine doing genuine analysis gets **opus**. Fetch-and-report work gets **sonnet**.
-- Rate-limit fallback steps down one tier (opus→sonnet→haiku), also resolved live.
+- **Fallback is tier-preserving first.** If the newest model is rejected by the installed
+  Claude Code (HTTP 400 "does not support this model" -- Opus 5.5 vs CLI 2.1.212 on
+  2026-09-23), `run_agent.sh` tries the next-older model in the SAME tier before anything
+  else. Only a genuine failure (session/rate limit, overload) steps down a tier
+  (opus→sonnet→haiku), and that is logged as `TIER DOWNGRADE` and pushed as a
+  high-priority ntfy alert -- it must never be silent. Every log records `Ran on:`, the
+  model that actually ran. The old code called every failure a rate limit and ran two days
+  of Opus-tier analysis on Sonnet without anyone noticing.
 - `claude-fable-*` is never used by these agents.
 - To hard-pin a model temporarily, put the full ID in the header — it passes through
   unresolved. Remove the pin afterward or the agent stops tracking new releases.

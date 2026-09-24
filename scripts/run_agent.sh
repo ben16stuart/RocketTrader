@@ -128,34 +128,74 @@ if [[ -z "${CLAUDE_CODE_OAUTH_TOKEN:-}" ]]; then
 fi
 echo "  ✅ Auth token loaded (${CLAUDE_CODE_OAUTH_TOKEN:0:16}...)" | tee -a "$LOG_FILE"
 
-# If the primary model hits a rate limit (or any failure), retry once with a
-# lighter model rather than letting the whole session die with no output.
-# Resolved from the tier below the primary, so the chain also stays version-proof.
-case "$MODEL" in
-  claude-opus-*)   FALLBACK_TIER="sonnet" ;;
-  claude-sonnet-*) FALLBACK_TIER="haiku" ;;
-  *)               FALLBACK_TIER="" ;;
-esac
-FALLBACK_MODEL=""
-if [[ -n "$FALLBACK_TIER" ]]; then
-  FALLBACK_MODEL=$(python3 "$REPO_DIR/scripts/resolve_model.py" "$FALLBACK_TIER" 2>>"$LOG_FILE" || true)
-fi
+# >>> model attempt chain
+# Two failure kinds need DIFFERENT responses:
+#   unsupported  the installed Claude Code is too old to know the model and returns HTTP
+#                400 "does not support this model". 2026-09-23: the catalog returned
+#                claude-opus-5-5 (released 9/21) but the CLI was 2.1.212 and needs >= 2.1.280.
+#                The old code treated ANY failure as a rate limit and dropped to Sonnet, so
+#                the Opus-tier analysis silently ran on Sonnet for two days. The right
+#                response is the next-older model in the SAME tier.
+#   other        rate/session limit, overload, network. A sibling model in the same tier hits
+#                the same wall (limits are account-wide), so step down a tier as before.
+if [[ "$(basename "$REPO_DIR")" == "OpusTrader" ]]; then AGENT_LABEL="Bull"; else AGENT_LABEL="Rocket"; fi
+ATTEMPT_OUT="$(mktemp -t agent_attempt.XXXXXX)"
+trap 'rm -f "$ATTEMPT_OUT"' EXIT
 
 run_claude() {
-  claude \
+  "${CLAUDE_CMD:-claude}" \
     --model "$1" \
     --dangerously-skip-permissions \
     -p "$PROMPT_CONTENT" \
-    2>&1 | tee -a "$LOG_FILE"
+    2>&1 | tee -a "$LOG_FILE" | tee "$ATTEMPT_OUT"
   return "${PIPESTATUS[0]}"
 }
 
-if ! run_claude "$MODEL"; then
-  if [[ -n "$FALLBACK_MODEL" ]]; then
-    echo "  ⚠️  $MODEL failed (likely rate limit) — retrying with fallback: $FALLBACK_MODEL" | tee -a "$LOG_FILE"
-    run_claude "$FALLBACK_MODEL"
+LAST_FAILURE=""
+RAN_MODEL=""
+# try_tier <tier>: walk that tier newest -> oldest. 0 = a model ran; 1 = failed, LAST_FAILURE says why.
+try_tier() {
+  local tier="$1" m
+  local chain=()
+  while IFS= read -r m; do
+    if [[ -n "$m" ]]; then chain+=("$m"); fi
+  done <<< "$(python3 "$REPO_DIR/scripts/resolve_model.py" "$tier" --all 2>>"$LOG_FILE" || true)"
+  if [ "${#chain[@]}" -eq 0 ]; then chain=("$tier"); fi
+  for m in "${chain[@]}"; do
+    RAN_MODEL="$m"
+    echo "  🤖 Attempt: $m" | tee -a "$LOG_FILE"
+    if run_claude "$m"; then return 0; fi
+    if grep -qiE "does not support this model|version [0-9.]+ or newer is required" "$ATTEMPT_OUT"; then
+      LAST_FAILURE="unsupported"
+      echo "  ⚠️  $m is rejected by this Claude Code install (run 'claude update') — trying the next-older $tier model" | tee -a "$LOG_FILE"
+      continue
+    fi
+    LAST_FAILURE="other"
+    return 1
+  done
+  return 1
+}
+
+if ! try_tier "$MODEL_TIER"; then
+  case "$MODEL_TIER" in
+    opus|claude-opus-*)     FALLBACK_TIER="sonnet" ;;
+    sonnet|claude-sonnet-*) FALLBACK_TIER="haiku" ;;
+    *)                      FALLBACK_TIER="" ;;
+  esac
+  if [[ -n "$FALLBACK_TIER" ]]; then
+    echo "  🚨 TIER DOWNGRADE: $MODEL_TIER failed ($LAST_FAILURE) — retrying on $FALLBACK_TIER. This session's analysis is NOT on the intended tier." | tee -a "$LOG_FILE"
+    if [[ -z "${AGENT_TEST_MODE:-}" ]]; then
+      # A silent downgrade is how Opus-tier analysis ran on Sonnet for two days unnoticed.
+      (cd "$REPO_DIR" && python3 scripts/ntfy_notify.py \
+        "⚠️ $AGENT_LABEL $ROUTINE is running on $FALLBACK_TIER, not $MODEL_TIER" \
+        "$MODEL_TIER failed ($LAST_FAILURE) so the session was retried a tier down. See logs/." \
+        --priority high >/dev/null 2>&1) || true
+    fi
+    try_tier "$FALLBACK_TIER" || true
   fi
 fi
+echo "  🤖 Ran on: ${RAN_MODEL:-unknown}" | tee -a "$LOG_FILE"
+# <<< model attempt chain
 
 echo "── Done: $ROUTINE — $(date) ──" | tee -a "$LOG_FILE"
 
