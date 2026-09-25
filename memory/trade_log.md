@@ -4,6 +4,80 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-25 — NO TRADE (market_close, Friday, Week 39 day 6) — RARE held overnight, core in band, satellite floor breached 5th consecutive `market_close` session (14.4%), PRME CLOSED on Gate A
+
+**Step 1 — startup.** `portfolio_snapshot.py` synced clean: shared account **$10,372.88**,
+Rocket slice **$3,111.86**, cash $1,435.34 (pooled with Bull), market open through the close.
+Reconciliation balanced — Rocket's core IWM 5.4746 sh ($1,544.30), Rocket's satellite RARE 31
+sh ($449.66), Bull's SPY 9 sh.
+
+**Step 2 — RARE position review.** 31 sh @ $15.08 entry, live **$14.505** (raw API, confirmed
+via `GET /v2/positions/RARE`): **−1.79% today** (lastday $14.77 → $14.505), **−3.81% from
+entry.** Live trailing stop confirmed via `GET /v2/orders`: **stop $14.0616, HWM $15.12, trail
+7%** — current price is **3.1% clear of the stop**, more room than midday's 1.5% read (lesson
+67). CLAUDE.md's close-rule criterion ("down on the day AND below entry → strongly consider
+closing") is technically met on both legs, same as it has been most sessions since entry. Web
+search for fresh Ultragenyx news found **no negative news, no halt** — only continued analyst
+support (Evercore ISI $18 PT 9/21, Barclays $35 PT 9/21, both far above spot) and the standing
+FDA approval catalyst (9/17, Fayuvi/UX111), which remains an explicit multi-day breakout
+thesis per CLAUDE.md's "hold overnight" exception, not a one-day pop needing daily
+reconfirmation. Consistent with the 9/23 `market_close` and today's `midday` precedent at
+similar or worse intraday reads. **HOLD**, stop unchanged at $14.0616.
+
+**🚨 Pre-committed gate grading — PRME (Prime Medicine), carried from 9/24 premarket as a
+day-2 Monday 9/28 candidate contingent on Gates A–D.** Gate A (`market_close`-graded, per
+42d): 9/25 5-min bars (IEX) show the session opened at its high ($3.42), sold off all day to a
+low of $2.875, and settled at $2.905 — **5.5% of the day's own range up from the low**, far
+below the required upper-half close. **Gate A FAILS → PRME CLOSED, not deferred.** Gate B
+(dilution) checked anyway: no EDGAR filings of any kind since before 9/20 — clean, but moot.
+Gate C (forecast calibration): predicted 9/25 range 19.2% vs actual 17.75% (close); predicted
+MDD-from-high ≈11.5% vs actual **15.94%** — worse than predicted, matching the premarket
+stop-fit table's historical worst case almost exactly. The pre-committed shape gate worked
+exactly as designed — full detail and lesson 68 in `research_log.md`/`lessons_learned.md`.
+**No entry taken; PRME removed from the active board.**
+
+**Step 2.5 — core rebalance check** (raw qty IWM **5.4746 sh**, confirmed live via
+`GET /v2/positions/IWM`, price $282.085, value $1,544.30; RARE raw qty 31, value $449.66):
+- Shared account **$10,372.88** × 30% = slice **$3,111.86**, satellite value $449.66, 10%
+  buffer $311.19 → old-formula target $2,351.01. New cap: slice × 50% = **$1,555.93**.
+  `target_core = min(2351.01, 1555.93) = $1,555.93`.
+- Current IWM $1,544.30 vs target $1,555.93 = **−$11.63 / −0.37% of slice — well within the
+  3% band ($93.36).** HOLD, no trade.
+
+**🚨 Satellite floor check — 5th consecutive actual `market_close` session below floor.**
+Satellite % = $449.66 / $3,111.86 = **14.4% < 50%.** Sequence of real `market_close` sessions:
+9/17 (1st, 0%), 9/21 (2nd, 0%), 9/22 (3rd, 0%), 9/23 (4th, 14.9%), 9/25 (5th, 14.4% — no
+`market_close` ran 9/24, per lesson 58 an absent session doesn't count). Rule 8's
+MEDIUM-conviction bar has been active since the 9/21 breach; CLAUDE.md defines no escalation
+past "2 consecutive." **Not a bearish cash call** — cash above the 10% buffer (~35.9% of
+slice, ≈$1,118) is the mechanical result of IWM already at its 50% cap with only one satellite
+slot filled, the intended, visible discomfort CLAUDE.md describes. With PRME now closed, the
+board that would have closed part of the gap is gone — logged as lesson 69, and the research
+gap (3+ more qualifying satellites needed) carries into tomorrow's `premarket` unchanged.
+
+**Step 3**: No new fills today. RARE (9/23) and the IWM core already reflect the only live
+positions; nothing to add.
+
+**Step 4 — Daily stats** (`position_table.py`): IWM **+0.12% / +$1.86** today (core), RARE
+**−1.79% / −$8.21** today (satellite) → Rocket book total **−$6.35** today = **−0.20% of
+slice**. IWM benchmark today (`market_data.py benchmark-today`): **+0.14%** — Rocket's book
+trailed the benchmark by ~0.34%, entirely RARE's intraday drag on an otherwise flat core day.
+IWM since 2026-07-20 rebase (`market_data.py benchmark 2026-07-20`): **−3.26%**. All-time on
+IWM entry: −5.22% / −$85.04 (entered $297.53). All-time on RARE: −3.81% / −$17.82 (entered
+9/23, $15.08).
+- Since-rebase Rocket-vs-IWM figure **not recomputed here** — stands at the stale 8/28 W35
+  chain (Rocket vs SPY −2.51%, grade C), still measured against the pre-switch benchmark.
+  W36–W39 all remain outstanding — four owed now — per the lesson 23a discipline; do not cite
+  `portfolio_snapshot.py`'s own since-rebase figure (+5.87% as of this morning's sync) as
+  authoritative, per lesson 23 (it mixes Bull's P&L).
+- Weekly count: **1/5** — Week 39's RARE buy (9/23) remains the only new satellite this week;
+  satellite floor still breached (14.4% < 50%), and PRME's closure removes the one live
+  candidate that would have helped.
+
+**Notification**: see below for `ntfy_notify.py` confirmation.
+
+---
+
 ## 2026-09-23 — RARE BUY (market_open, Wednesday, Week 39 day 4)
 
 - **Shares**: 31 @ $15.08 avg fill

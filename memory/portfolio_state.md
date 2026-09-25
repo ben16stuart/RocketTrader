@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-09-23 19:58 UTC
+**Last Updated**: 2026-09-25 20:03 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,23 +9,23 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,347.92 |
-| Rocket's Allocated Slice (30%) | $3,104.38 |
+| Shared Account Value (Bull + Rocket) | $10,372.97 |
+| Rocket's Allocated Slice (30%) | $3,111.89 |
 | Cash Available (shared, pooled) | $1,435.34 |
-| Total Invested (both agents) | $8,912.58 |
+| Total Invested (both agents) | $8,937.63 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +2.40% |
-| IWM return since rebase | -3.27% |
-| Rocket vs IWM | +5.67% |
+| Rocket return since rebase | +2.64% |
+| IWM return since rebase | -3.29% |
+| Rocket vs IWM | +5.93% |
 
 ### Deployment — Satellite Floor
 
 | Sleeve | % of slice | Rule |
 |--------|-----------|------|
-| **Satellites (stock picks)** | 14.9% | must be >= 50.0% |
-| Core (IWM) | 49.7% | capped at <= 50.0% |
+| **Satellites (stock picks)** | 14.4% | must be >= 50.0% |
+| Core (IWM) | 49.6% | capped at <= 50.0% |
 
-🚨 **SATELLITE FLOOR BREACHED — 14.9% < 50%.** Rocket is not deployed in enough stock picks. This is not a market call to sit out — it is a research gap. Finding a qualifying name is the top priority of the next session, not an optional nice-to-have.
+🚨 **SATELLITE FLOOR BREACHED — 14.4% < 50%.** Rocket is not deployed in enough stock picks. This is not a market call to sit out — it is a research gap. Finding a qualifying name is the top priority of the next session, not an optional nice-to-have.
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -40,11 +40,18 @@ is available if Bull has open positions consuming shared cash.
 
 Ownership is reconciled below — do not re-derive it from the trade log.
 
-| Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
+| Symbol | Shares | Entry Price | Price (⚠️ NOT a settled close) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| IWM | 5 | $297.53 | $282.00 | $287.21 | $-85.01 | -5.2% |
-| RARE | 31 | $15.08 | $14.88 | $15.62 | $-6.36 | -1.4% |
-| SPY | 9 | $769.31 | $767.51 | $773.38 | $-16.19 | -0.2% |
+| IWM | 5 | $297.53 | $282.21 | $281.66 | $-83.89 | -5.1% |
+| RARE | 31 | $15.08 | $14.50 | $14.77 | $-17.98 | -3.8% |
+| SPY | 9 | $769.31 | $771.46 | $767.18 | $+19.36 | +0.3% |
+
+⚠️ **The market is CLOSED. The price column is the last trade, which outside
+regular hours can be a single thin pre/post-market print — it is NOT a settled
+close and must never be recorded as one, quoted as a session move, or used to
+decide whether a trailing stop has fired.** Alpaca trailing stops evaluate on
+regular-hours trades only. Use the **Prior Settled Close** column for anything
+written into memory; re-read live at `market_open`.
 
 ---
 
@@ -52,9 +59,9 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($1,544)  — benchmark sleeve; no stop, exempt from position limits
-- **Rocket's satellites** (1): RARE ($461)
-- **Bull's positions** (1): SPY ($6,908)
+- **Rocket's core** (1): IWM ($1,545)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's satellites** (1): RARE ($450)
+- **Bull's positions** (1): SPY ($6,943)
 
 
 ---
@@ -70,4 +77,4 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 ## Weekly Trade Count
 
 Trades placed this week: 0 / 5 max
-Market open: Yes
+Market open: No

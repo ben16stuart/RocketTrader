@@ -2999,3 +2999,122 @@ rule 1.
 
 **Verdict: NO ENTRY at market_open. 3rd consecutive satellite-floor breach logged at
 market_close 9/22.**
+
+### RARE — Ultragenyx Pharmaceutical (executed 9/23, held into 9/24 premarket)
+
+Catalyst: first-ever FDA full approval of Fayuvi (UX111) gene therapy, Sanfilippo A,
+2026-09-17; Citi PT $32, MS PT $20 (both 9/18). Domicile DE, dilution clean (EDGAR
+CIK 0001515673, no S-3/424 in 2+ yrs), short float ~17%, breakout-from-3-session-base
+shape. Bought 31 sh @ $15.08 avg at market_open 9/23 on confirmed real volume (278k by
+9:45, lesson 59), 7% trail at $14.00. Held overnight under the multi-day FDA catalyst
+exception. Settled close 9/23: $14.88 (portfolio_snapshot / market_data.py chart,
+confirmed via direct pull — a web-search paraphrase same session claimed a $14.76 close
+at 2% of range and was discarded per lesson 33, unverified against the actual bar).
+Satellite floor moved 0.0% → 14.9% of slice — still breached, 4th consecutive
+`market_close` session at that reading.
+
+9/23 board (screeners + widen): only GRML overlapped both screener lists (standing
+kill, blank stateOfIncorporation, reconfirmed fresh). TPB (inconsistent price data
+across sources, stale catalyst), AGPU (June/July contract already digested), ONT
+(9-day-old immaterial contract), HSDT/VUZI (universe FAIL), ZSTK/BYRN/TNXP (no
+catalyst) — all killed on named gates. No second satellite found.
+
+---
+
+## Archived: 2026-09-25 — the 2026-09-24 (Thu, Week 39 day 5) watchlist section
+
+Archived from research_log.md during the 2026-09-25 premarket compaction. Board was
+genuinely widened per rule 8 (all 4 screeners + earnings/FDA/analyst searches) and produced
+no entry; XTND was the one full workup, killed on three independent gates.
+
+## Watchlist — Thu 2026-09-24 (Week 39 day 5 — **satellite floor breached 4 consecutive `market_close` sessions (9/17, 9/21, 9/22, 9/23 at 14.9–14.8%); MEDIUM bar active per rule 8**)  ← CURRENT
+
+**Satellites 1/4 (RARE only).** Full detail on the RARE entry (catalyst, gates, dilution,
+sizing) archived to `memory/archive/research_log_history.md` — position is live and tracked
+in `portfolio_state.md`/`trade_log.md`, not re-derived here. RARE settled 9/23 at **$14.88**
+(confirmed via `market_data.py chart`, direct bar pull — a same-session web-search summary
+claimed a $14.76/2%-of-range close and was discarded per lesson 33, unverified against the
+actual bar), clear of the $14.00 stop.
+
+**Premarket board (04:20 ET) — widened per rule 8, all 4 screeners run:**
+`top_movers` and `unusual_volume` overlap only on **TSSI** (+2.8%, RelVol 1.0x — not
+actually unusual) and **AGPU** (+1.8%, RelVol 0.4x) — neither a real volume signal; both are
+standing kills (TSSI: extended/soft guide, killed midday 9/23; AGPU: stale June/July
+contract, reconfirmed, still no fresh news). `breakouts` returned one immaterial name
+(OPRT +0.7%). `short_squeeze` returned high-short-float names (WOLF 70.7%, WYFI 55.6%, SVRA
+40.2%, ...) but **none carry fresh volume or a dated catalyst** — perpetually-shorted names
+sitting flat-to-down premarket, not squeeze setups.
+
+**Off-screener sourcing (earnings calendar / FDA calendar / analyst-initiation searches, per
+lesson 41):** no small-cap beat-and-raise reporter found for today; FDA calendar shows
+nothing dated 9/24; analyst initiations found only **MGTX** (Goldman, Neutral — not a
+bullish catalyst) and **RSI** (Stifel Buy, but dated 9/22 and **market cap $5.0B — Rule 2
+universe FAIL**, `eligibility` confirms).
+
+**One real lead, killed on three independent gates — XTND (Xtend AI Robotics):**
+9/23-dated press releases (Phase III USSOCOM Modular Kinetic Drone award, on top of a
+Drone Dominance/Gauntlet II selection). Checked and killed:
+1. **Rule 38/49 — contract value undisclosed in either release.** Un-gradeable is a FAIL;
+   cannot size the announcement against cash.
+2. **Rule 46j — ADV is unmeasurable.** SPAC merger completed ~9/4; the stock has ~3 weeks of
+   total trading history, so its entire avg-volume window (1.40M, nominally PASS) is the
+   atypical post-merger regime, identical shape to REF (46j).
+3. **No price confirmation.** `market_data.py chart XTND`: price **$3.95 sits at the low of
+   its own week range ($3.95–$4.74)**, below its 50-day MA — the stock **fell after** two
+   contract-win headlines, and it did not print in today's `top_movers`/`unusual_volume` at
+   all. A catalyst with no positive price or volume reaction is not a trade (rule 1's
+   spirit — the market has already voted). Domicile checked anyway for completeness: DE ✅.
+
+**Macro context** (`market_data.py macro`): VIX **16.39 LIVE (+7.97%** vs 15.18 close 9/23) —
+still well below the 22 brake but a real uptick off the multi-week low. Futures broadly soft:
+S&P **−0.62%**, Nasdaq **−1.07%**, Russell **−0.45%**. 10-yr printed 5.11% but the tool
+flagged a skipped 9/22 bar, so the +3.04% delta spans two sessions, not one — read the level
+(above the 4.75% trigger, unchanged) not the one-session change. Crude both legs up. **No
+macro block on entries** (VIX nowhere near 22), but tone is mildly risk-off, small caps the
+soft leg.
+
+**Verdict: NO NEW SATELLITE — board genuinely widened (4 screeners + earnings/FDA/analyst
+searches + one full-diligence workup on XTND) and nothing cleared rule 1.** This is the
+**5th consecutive session** the satellite floor will be breached at `market_close` if nothing
+changes intraday — a stock-picking gap per lesson 61, not a market call. IWM core sits at its
+50% cap; no cash-thesis exception applies since no bearish view is being made.
+
+**`market_open` re-scan (~9:35 AM ET) — both screeners re-run live, 5 movers checked in
+detail, nothing cleared rule 1 even at the MEDIUM bar:**
+- **GLND** (Greenland Energy) — the one name overlapping both lists, +31.7%/25.0x on the
+  list view. Killed on three independent grounds: (1) the "catalyst" is an overnight Trump
+  Greenland-security-deal headline hitting a basket of tickers (CRML/GLND/GRML) — geopolitical
+  speculation, not a company-specific catalyst off Rocket's approved list; (2) the actual
+  company news dated today is a farm-out **deadline extension** (2026/2027 → 2028), i.e. a
+  delay, not a win; (3) price data was internally inconsistent across sources ($3.92 scanner
+  detail vs $2.93 in a live news pull) and float showed as 0.0M — the same shape as a thinly
+  traded, high-volatility meme/pump name (52-wk range $1.09–$23, -83% off high, +226.7% in 5
+  days). Matches the CLAUDE.md pump-and-dump warning; avoided.
+- **ZSQR** — list showed 3.3x RelVol; `detail` showed actual volume at **0.4x avg** (155k vs
+  441k). Below both MA20 and MA50, -17.2% over 1 month. No catalyst, no real volume
+  confirmation — the list-view RelVol was simply wrong.
+- **NWCL** (newcleo **plc**) — UK-incorporated, fails domicile (Rule 2) outright; also $2.285B
+  market cap fails the size cap independently. List RelVol 2.6x vs `detail`'s actual 0.1x —
+  same data-reliability issue as ZSQR.
+- **DNA, AIAI** — both showed real volume at ~0.0–0.1x avg (154k/1559k avg and 25k/661k avg
+  respectively) despite modest price upticks; no catalyst on either. AIAI below both MAs,
+  -35.2% on the month.
+
+**New standing note: the screener's list-view RelVol column is unreliable intraday** — it
+disagreed with `detail`'s actual-volume-vs-avg figure by 10–25x on three separate names this
+session (GLND 25.0x list vs 0.2x detail, ZSQR 3.3x vs 0.4x, NWCL 2.6x vs 0.1x). Always
+cross-check list RelVol against `detail` before treating a volume signal as real.
+
+**No trade placed at `market_open`.** Satellite floor remains breached; will hit its 6th
+consecutive session at today's `market_close` absent an intraday find. IWM core sits at cap,
+no cash-thesis exception applies.
+
+**`midday` check (~12:15 PM ET) — position review only, no new entry.** RARE reconfirmed
+HOLD: $14.58, -3.3% from entry (well inside the 7% band, stop untouched at $14.00), no fresh
+news found (search turned up only stale/general RARE coverage, nothing negative dated today).
+`unusual_volume` re-run: **GLND independently re-killed** on the same three grounds market_open
+already used (deadline-extension "catalyst" isn't revenue-moving, recent-IPO/S-1 volume shape,
+pump-pattern +51.5%/34.3x) — second independent confirmation same day. No other name on the
+list cleared even a first look (TRT/KYTX/RZLT/TLSI/ZURA/CGEM/GLAS all red and declining; TSSI
+a standing kill; QMCO/VOYG/NUV/MYI/NAC/PML/PCN/GLOO not small-cap catalyst shapes). **No trade.**
+Satellite floor unchanged at ~14.6%, 5th consecutive session live absent an afternoon find.
