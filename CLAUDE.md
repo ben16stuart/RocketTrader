@@ -136,7 +136,11 @@ Rules:
   memory and must never be blindly rerun. It never silently downgrades to a weaker model. A
   run that produces nothing logs `── FAILED:` (not `── Done:`), exits non-zero, and sends a
   high-priority ntfy stating the reason and whether anything may have executed. Every
-  success logs `Ran on:` with the model that actually ran.
+  success logs `Ran on:` with the model that actually ran. **`market_close` only:** on failure
+  the runner also runs `scripts/degraded_close.py` (no LLM, **no orders**), which still delivers
+  the daily summary, the books-vs-broker check and the memory push, and says plainly that stop
+  review, rebalance and fill logging were NOT done. It prepends a `DID NOT RUN [automated]` note
+  to `session_notes.md`: read it, and treat any rebalance it flags as still owed.
 - `claude-fable-*` is never used by these agents.
 - To hard-pin a model temporarily, put the full ID in the header — it passes through
   unresolved. Remove the pin afterward or the agent stops tracking new releases.

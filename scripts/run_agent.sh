@@ -224,7 +224,20 @@ report_failure() {
     hint="It ran ${FAIL_ELAPSED}s before failing, so some steps may already have executed. Check positions and open orders before rerunning."
   fi
   echo "  🚨 FAILED: $why $hint" | tee -a "$LOG_FILE"
-  if [[ -z "${AGENT_TEST_MODE:-}" ]]; then
+
+  # market_close has a no-LLM fallback. What matters most from it (the daily summary, the
+  # books-vs-broker check, the memory push) is deterministic, so it can still be delivered while
+  # Claude is unavailable. It places NO orders. If it delivers its summary, that message carries
+  # the failure banner itself, so the generic alert below is skipped: one message, not two.
+  DEGRADED_SENT=0
+  if [[ "$ROUTINE" == "market_close" && -f "$REPO_DIR/scripts/degraded_close.py" ]]; then
+    echo "  🛟 running the no-LLM degraded close (no orders will be placed)" | tee -a "$LOG_FILE"
+    # ${DEGRADED_ARGS:-} is deliberately unquoted so a test can pass flags such as --dry-run.
+    if (cd "$REPO_DIR" && DEGRADED_WHY="$why" DEGRADED_HINT="$hint" python3 scripts/degraded_close.py ${DEGRADED_ARGS:-}) 2>&1 | tee -a "$LOG_FILE"; then
+      DEGRADED_SENT=1
+    fi
+  fi
+  if [ "$DEGRADED_SENT" -eq 0 ] && [[ -z "${AGENT_TEST_MODE:-}" ]]; then
     (cd "$REPO_DIR" && python3 scripts/ntfy_notify.py \
       "🚨 $AGENT_LABEL $ROUTINE FAILED — no output" "$why $hint" --priority high >/dev/null 2>&1) || true
   fi
