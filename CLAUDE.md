@@ -127,14 +127,16 @@ Rules:
   defaults to `opus`, which quietly burns the expensive tier on mechanical work.
   (`weekly_review.md` shipped without one and did exactly that until 2026-07-25.)
 - Any routine doing genuine analysis gets **opus**. Fetch-and-report work gets **sonnet**.
-- **Fallback is tier-preserving first.** If the newest model is rejected by the installed
-  Claude Code (HTTP 400 "does not support this model" -- Opus 5.5 vs CLI 2.1.212 on
-  2026-09-23), `run_agent.sh` tries the next-older model in the SAME tier before anything
-  else. Only a genuine failure (session/rate limit, overload) steps down a tier
-  (opus→sonnet→haiku), and that is logged as `TIER DOWNGRADE` and pushed as a
-  high-priority ntfy alert -- it must never be silent. Every log records `Ran on:`, the
-  model that actually ran. The old code called every failure a rate limit and ran two days
-  of Opus-tier analysis on Sonnet without anyone noticing.
+- **Failure handling is deliberate, not a blanket fallback.** `run_agent.sh` classifies each
+  failure: *unsupported model* (CLI too old: Opus 5.5 vs CLI 2.1.212 on 2026-09-23) → the
+  next-older model in the SAME tier; *session limit* → **no fallback at all**, because every
+  Claude model shares the account-wide limit (Haiku failed identically at the 2026-09-24
+  close); *transient* (529 / 5xx / dropped connection) → retry the same model, but only if it
+  failed within 30s, since a run that died mid-way may already have placed an order or edited
+  memory and must never be blindly rerun. It never silently downgrades to a weaker model. A
+  run that produces nothing logs `── FAILED:` (not `── Done:`), exits non-zero, and sends a
+  high-priority ntfy stating the reason and whether anything may have executed. Every
+  success logs `Ran on:` with the model that actually ran.
 - `claude-fable-*` is never used by these agents.
 - To hard-pin a model temporarily, put the full ID in the header — it passes through
   unresolved. Remove the pin afterward or the agent stops tracking new releases.

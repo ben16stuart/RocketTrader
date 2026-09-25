@@ -129,18 +129,29 @@ fi
 echo "  ✅ Auth token loaded (${CLAUDE_CODE_OAUTH_TOKEN:0:16}...)" | tee -a "$LOG_FILE"
 
 # >>> model attempt chain
-# Two failure kinds need DIFFERENT responses:
-#   unsupported  the installed Claude Code is too old to know the model and returns HTTP
-#                400 "does not support this model". 2026-09-23: the catalog returned
-#                claude-opus-5-5 (released 9/21) but the CLI was 2.1.212 and needs >= 2.1.280.
-#                The old code treated ANY failure as a rate limit and dropped to Sonnet, so
-#                the Opus-tier analysis silently ran on Sonnet for two days. The right
-#                response is the next-older model in the SAME tier.
-#   other        rate/session limit, overload, network. A sibling model in the same tier hits
-#                the same wall (limits are account-wide), so step down a tier as before.
+# How a run FAILS decides what happens next. Getting this wrong was expensive twice:
+#   2026-09-23  Opus 5.5 shipped; this CLI (2.1.212) rejects it. Every failure was treated as
+#               a rate limit, so Opus-tier analysis silently ran on Sonnet for two days.
+#   2026-09-24  Session limit hit at the close. The runner fell to Haiku, which shares the same
+#               account-wide limit, failed identically, and the log still said "Done".
+#
+#   unsupported    CLI too old for the model -> next-older model in the SAME tier.
+#   session_limit  Account-wide: every Claude model shares it, so NO fallback helps. Fail loudly.
+#   transient      529 / 5xx / dropped connection -> retry the SAME model after a pause, but only
+#                  if it failed almost immediately (see below). Never downgrade to a weaker model:
+#                  a Sonnet-grade "Opus" session quietly corrupts what is being measured.
+#   other          Fail loudly.
+#
+# A run is only ever retried if it failed within FRESH_SECS. In `-p` mode nothing is printed until
+# the end, so a long run that dies mid-way looks identical to one that died at the first call --
+# but it may already have placed an order or edited memory, and a blind rerun would repeat that.
 if [[ "$(basename "$REPO_DIR")" == "OpusTrader" ]]; then AGENT_LABEL="Bull"; else AGENT_LABEL="Rocket"; fi
 ATTEMPT_OUT="$(mktemp -t agent_attempt.XXXXXX)"
 trap 'rm -f "$ATTEMPT_OUT"' EXIT
+
+FRESH_SECS="${AGENT_FRESH_SECS:-30}"
+RETRY_SLEEP="${AGENT_RETRY_SLEEP:-60}"
+FAIL_KIND=""; FAIL_DETAIL=""; FAIL_ELAPSED=0; RAN_MODEL=""; RUN_OK=0
 
 run_claude() {
   "${CLAUDE_CMD:-claude}" \
@@ -151,53 +162,91 @@ run_claude() {
   return "${PIPESTATUS[0]}"
 }
 
-LAST_FAILURE=""
-RAN_MODEL=""
-# try_tier <tier>: walk that tier newest -> oldest. 0 = a model ran; 1 = failed, LAST_FAILURE says why.
+classify_failure() {
+  FAIL_KIND="other"
+  if grep -qiE "does not support this model|version [0-9.]+ or newer is required" "$ATTEMPT_OUT"; then
+    FAIL_KIND="unsupported"
+  elif grep -qiE "hit your .{0,30}limit|session limit|usage limit" "$ATTEMPT_OUT"; then
+    FAIL_KIND="session_limit"
+  elif grep -qiE "API Error: (5[0-9]{2}|Connection closed|Unable to connect)|overloaded|ENOTFOUND|ECONNRESET|ETIMEDOUT|Could not resolve" "$ATTEMPT_OUT"; then
+    FAIL_KIND="transient"
+  fi
+  FAIL_DETAIL="$( { grep -ioE "resets [0-9]{1,2}(:[0-9]{2})?[ap]m \([A-Za-z_/]+\)" "$ATTEMPT_OUT" || true; } | head -1 )"
+  return 0
+}
+
+# try_tier <tier>: 0 = a model ran; 1 = failed (FAIL_KIND / FAIL_DETAIL / FAIL_ELAPSED say why).
 try_tier() {
-  local tier="$1" m
+  local tier="$1" m n started
   local chain=()
   while IFS= read -r m; do
     if [[ -n "$m" ]]; then chain+=("$m"); fi
   done <<< "$(python3 "$REPO_DIR/scripts/resolve_model.py" "$tier" --all 2>>"$LOG_FILE" || true)"
   if [ "${#chain[@]}" -eq 0 ]; then chain=("$tier"); fi
   for m in "${chain[@]}"; do
-    RAN_MODEL="$m"
-    echo "  🤖 Attempt: $m" | tee -a "$LOG_FILE"
-    if run_claude "$m"; then return 0; fi
-    if grep -qiE "does not support this model|version [0-9.]+ or newer is required" "$ATTEMPT_OUT"; then
-      LAST_FAILURE="unsupported"
-      echo "  ⚠️  $m is rejected by this Claude Code install (run 'claude update') — trying the next-older $tier model" | tee -a "$LOG_FILE"
-      continue
-    fi
-    LAST_FAILURE="other"
-    return 1
+    n=0
+    while :; do
+      n=$((n + 1)); RAN_MODEL="$m"
+      echo "  🤖 Attempt: $m (try $n)" | tee -a "$LOG_FILE"
+      started=$SECONDS
+      if run_claude "$m"; then return 0; fi
+      FAIL_ELAPSED=$((SECONDS - started))
+      classify_failure
+      case "$FAIL_KIND" in
+        unsupported)
+          echo "  ⚠️  $m is rejected by this Claude Code install (run 'claude update') — trying the next-older $tier model" | tee -a "$LOG_FILE"
+          break ;;
+        transient)
+          if [ "$FAIL_ELAPSED" -le "$FRESH_SECS" ] && [ "$n" -lt 3 ]; then
+            echo "  ⏳ transient API error ${FAIL_ELAPSED}s in — retrying $m in ${RETRY_SLEEP}s" | tee -a "$LOG_FILE"
+            sleep "$RETRY_SLEEP"
+            continue
+          fi
+          return 1 ;;
+        *) return 1 ;;
+      esac
+    done
   done
   return 1
 }
 
-if ! try_tier "$MODEL_TIER"; then
-  case "$MODEL_TIER" in
-    opus|claude-opus-*)     FALLBACK_TIER="sonnet" ;;
-    sonnet|claude-sonnet-*) FALLBACK_TIER="haiku" ;;
-    *)                      FALLBACK_TIER="" ;;
+report_failure() {
+  local why hint
+  case "$FAIL_KIND" in
+    session_limit) why="Claude session limit${FAIL_DETAIL:+ ($FAIL_DETAIL)}. Every Claude model shares it, so there is no fallback." ;;
+    unsupported)   why="No $MODEL_TIER model is supported by this Claude Code. Run 'claude update'." ;;
+    transient)     why="API error persisted (last failure ${FAIL_ELAPSED}s in)." ;;
+    *)             why="Unrecognized failure. See the log." ;;
   esac
-  if [[ -n "$FALLBACK_TIER" ]]; then
-    echo "  🚨 TIER DOWNGRADE: $MODEL_TIER failed ($LAST_FAILURE) — retrying on $FALLBACK_TIER. This session's analysis is NOT on the intended tier." | tee -a "$LOG_FILE"
-    if [[ -z "${AGENT_TEST_MODE:-}" ]]; then
-      # A silent downgrade is how Opus-tier analysis ran on Sonnet for two days unnoticed.
-      (cd "$REPO_DIR" && python3 scripts/ntfy_notify.py \
-        "⚠️ $AGENT_LABEL $ROUTINE is running on $FALLBACK_TIER, not $MODEL_TIER" \
-        "$MODEL_TIER failed ($LAST_FAILURE) so the session was retried a tier down. See logs/." \
-        --priority high >/dev/null 2>&1) || true
-    fi
-    try_tier "$FALLBACK_TIER" || true
+  if [ "$FAIL_ELAPSED" -le "$FRESH_SECS" ]; then
+    hint="It failed before doing any work: nothing was executed."
+  else
+    hint="It ran ${FAIL_ELAPSED}s before failing, so some steps may already have executed. Check positions and open orders before rerunning."
   fi
+  echo "  🚨 FAILED: $why $hint" | tee -a "$LOG_FILE"
+  if [[ -z "${AGENT_TEST_MODE:-}" ]]; then
+    (cd "$REPO_DIR" && python3 scripts/ntfy_notify.py \
+      "🚨 $AGENT_LABEL $ROUTINE FAILED — no output" "$why $hint" --priority high >/dev/null 2>&1) || true
+  fi
+}
+
+if try_tier "$MODEL_TIER"; then
+  RUN_OK=1
+  echo "  🤖 Ran on: $RAN_MODEL" | tee -a "$LOG_FILE"
+else
+  report_failure
 fi
-echo "  🤖 Ran on: ${RAN_MODEL:-unknown}" | tee -a "$LOG_FILE"
 # <<< model attempt chain
 
-echo "── Done: $ROUTINE — $(date) ──" | tee -a "$LOG_FILE"
+if [ "$RUN_OK" = 1 ]; then
+  echo "── Done: $ROUTINE — $(date) ──" | tee -a "$LOG_FILE"
+else
+  # Not "Done": a run that produced nothing must never read as a success in the log.
+  echo "── FAILED: $ROUTINE — ${FAIL_KIND:-unknown} — $(date) ──" | tee -a "$LOG_FILE"
+fi
 
 # Keep only last 30 log files per routine
 ls -t "$LOG_DIR/${ROUTINE}_"*.log 2>/dev/null | tail -n +31 | xargs rm -f 2>/dev/null || true
+
+# Exit non-zero on failure so launchd's last-exit code reflects it.
+if [ "$RUN_OK" != 1 ]; then exit 1; fi
