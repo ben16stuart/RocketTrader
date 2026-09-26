@@ -4,6 +4,17 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-26 — WEEK 39 SUMMARY (weekly review) — 1 satellite opened, 0 closed, book cash corrected
+
+- **Fills this week:** RARE BUY 31 @ $15.08 (9/23). No sells. Weekly count 1/5.
+- **Book 9/18 → 9/25:** $3,000.89 → $2,971.25 (**−$29.64 / −0.99%**) vs IWM −0.75% → **−0.24%**.
+- 🔧 **Cash-chain correction (lesson 23a):** $300.90 (W35) − $108.89 (8/31 IWM buy) = $192.01,
+  + $1,253.55 (9/17 IWM sale) = **$1,445.56**, − $467.48 (RARE) = **$978.08**. The 9/17 entry's
+  "book cash ≈$1,563" is superseded. The W35 $0.81 residual is still carried.
+- Open: IWM 5.4746 sh (core), RARE 31 sh (stop $14.0616).
+
+---
+
 ## 2026-09-25 — NO TRADE (market_close, Friday, Week 39 day 6) — RARE held overnight, core in band, satellite floor breached 5th consecutive `market_close` session (14.4%), PRME CLOSED on Gate A
 
 **Step 1 — startup.** `portfolio_snapshot.py` synced clean: shared account **$10,372.88**,

@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-09-25 20:03 UTC
+**Last Updated**: 2026-09-26 15:20 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,372.97 |
-| Rocket's Allocated Slice (30%) | $3,111.89 |
+| Shared Account Value (Bull + Rocket) | $10,370.66 |
+| Rocket's Allocated Slice (30%) | $3,111.20 |
 | Cash Available (shared, pooled) | $1,435.34 |
-| Total Invested (both agents) | $8,937.63 |
+| Total Invested (both agents) | $8,935.32 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +2.64% |
+| Rocket return since rebase | +2.62% |
 | IWM return since rebase | -3.29% |
-| Rocket vs IWM | +5.93% |
+| Rocket vs IWM | +5.91% |
 
 ### Deployment — Satellite Floor
 
@@ -42,9 +42,9 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Price (⚠️ NOT a settled close) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| IWM | 5 | $297.53 | $282.21 | $281.66 | $-83.89 | -5.1% |
-| RARE | 31 | $15.08 | $14.50 | $14.77 | $-17.98 | -3.8% |
-| SPY | 9 | $769.31 | $771.46 | $767.18 | $+19.36 | +0.3% |
+| IWM | 5 | $297.53 | $281.97 | $281.97 | $-85.20 | -5.2% |
+| RARE | 31 | $15.08 | $14.50 | $14.50 | $-17.98 | -3.8% |
+| SPY | 9 | $769.31 | $771.35 | $771.35 | $+18.37 | +0.3% |
 
 ⚠️ **The market is CLOSED. The price column is the last trade, which outside
 regular hours can be a single thin pre/post-market print — it is NOT a settled
@@ -59,9 +59,9 @@ written into memory; re-read live at `market_open`.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($1,545)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's core** (1): IWM ($1,544)  — benchmark sleeve; no stop, exempt from position limits
 - **Rocket's satellites** (1): RARE ($450)
-- **Bull's positions** (1): SPY ($6,943)
+- **Bull's positions** (1): SPY ($6,942)
 
 
 ---
