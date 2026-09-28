@@ -3,6 +3,70 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-28 — MARKET_CLOSE (Monday, Week 40 day 1) — HOLD RARE overnight; core in band, no rebalance; satellite floor breached 6th consecutive close (14.4%)
+
+- Snapshot synced 19:58 UTC. Slice $3,090.41, cash $1,435.34 (pooled). RARE $14.35 (-4.8% from entry,
+  -0.97% today), stop $14.0616 ~2.0% below — 32a (override only a stop >2% away) → HOLD, thesis
+  (UX111 approval) intact, no fresh negative news. Cutting would also zero the satellite sleeve.
+- Core: IWM $1,533 vs target_core $1,545 (min(leftover, 50% cap)) — within the 3% band, no trade.
+- No fills today. Rocket book -$15.40 (IWM -$11.06, RARE -$4.34); IWM -0.72%; vs IWM +5.92% since 7/20.
+- Ntfy sent (confirmed). Weekly count 0/5. Watchlist: ANGO (10/01). Satellite floor gap stays a
+  research gap, not a bearish call.
+
+---
+
+## 2026-09-28 — MIDDAY (Monday, Week 40 day 1) — no cuts, no new entry; RARE held under 32a (stop 0.3% away)
+
+- Snapshot synced clean. Slice $3,087.40, cash $1,435.34 (pooled), market open. Satellites
+  14.2% (RARE only) — floor breach day 8 running.
+- RARE $14.11, **-6.4% from entry** — crosses the midday routine's literal "-5% = cut" line,
+  but live stop (`GET /v2/orders`) is $14.0616, HWM $15.12 — only **0.34% below price**. Per
+  32/32a (only override a stop >2% away) and the 9/25 precedent for this exact conflict
+  (lesson 67), did not manually cut — let the stop trigger on its own. IWM core (-6.1%
+  session) untouched by design, no stop, rebalance only at `market_close`.
+- News check: no fresh negative RARE news today — top hits were the stale 9/2 Angelman
+  (GTX-102) trial failure, unrelated to the UX111 entry catalyst. No halt. Confirms HOLD.
+- Afternoon scan (`unusual_volume`): list dominated by muni bond closed-end funds (outside
+  mandate) plus a broadly red tape (OCUL -20.2%, GLND -22.0%, CYPH -15.3%, CYPH a standing
+  kill) — no named dated catalyst on any name. Nothing clears rule 1. No new entry.
+- No trade placed. No ntfy sent (no forced cut).
+
+---
+
+## 2026-09-28 — MARKET_OPEN (Monday, Week 40 day 1) — no trade; two fresh movers checked and killed on rule 1
+
+- Snapshot synced 13:45 UTC. No overnight fills, no stop triggers. RARE $14.24 vs $14.0616
+  stop (~1.2% cushion, 32a — stop >2% away rule N/A, no override needed). IWM $279.85, SPY
+  $767.44. Satellite floor still 14.3% vs 50% (breach day 8 running).
+- Premarket board was already EMPTY (0/5 candidates); no pre-market ideas to validate at open.
+- Step 4 fresh-mover scan (unusual_volume + top_movers, inline, 2 searches): AMPX/TONX/GLND/
+  GLOO/TLYS/GLAS/USDE/DFDV/NB all standing kills (crypto, liquidity, foreign domicile).
+  Two new names checked: **INNV** killed — catalyst stale (8-K 9/08), only dated recent news
+  (9/22–23) is a PE-sponsor secondary sale, not a bullish trigger (rule 1). **PUSA** killed —
+  catalyst dated 9/18 (10d stale, Pakistan MoD drone order); today's volume reads as
+  anticipation of the pending SPAC-style combination closing "early October" — binary/pending
+  -deal risk (29), pinned-deal-price concern (27), not a fresh dated catalyst. SWMR/NXH
+  declining, not buy setups. SG RelVol 1.6x doesn't clear the unusual-volume bar.
+- No trades placed. No ntfy sent (flat session). ANGO (10/01) remains the week's only live plan.
+
+---
+
+## 2026-09-28 — PREMARKET (Monday, Week 40 day 1) — board EMPTY; widened rule-8 search found 0 catalysts; RARE held 1.8% above stop
+
+- **Satellite floor breached 7 sessions running — searched at the MEDIUM-conviction bar per rule 8.**
+  Satellites 14.3% (RARE) · IWM 49.6% (at cap) · slice $3,095.07 · shared cash $1,435.34.
+- Funnel: calendar → FDA → initiations → 4 screeners → EDGAR. ~30 names → 11 eligibility →
+  5 in universe → **0 catalysts.** Binding constraint = board quality (53a).
+- CLOSED: QMCO (no catalyst for 9/24 run), ACCO (Form 4s = derivative awards), STLN (stale Q2).
+  Killed: FTK (62), AMPX (1), crypto initiations SBET/FLD/ABTC/DRK (31). Gate fails: MIRM, KOD,
+  BFRI, IA.
+- ANGO domicile read: DE ✓. The 10/01 plan stands. Even with ANGO, the floor needs 2 more names.
+- Macro: VIX 16.31 LIVE, RTY −0.70% LIVE, Brent >$100 (roll sign-flip caught). Rule 29 clear.
+- Scanner price/Change % broken again (ACCO, AMPX). Names only.
+- No trades, no ntfy (RARE has no news).
+
+---
+
 ## 2026-09-26 — WEEKLY REVIEW (Week 39, Saturday) — Grade D; W36–W38 chain rebuilt; files compressed
 
 - **W39:** book −0.99% vs IWM −0.75% = **−0.24%**. Satellites averaged **8.8%** (5/5 sessions

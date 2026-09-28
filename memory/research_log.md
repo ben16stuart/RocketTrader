@@ -13,7 +13,36 @@ floor.** The breach has run 7 trading sessions straight (market_close logs: 9/17
 "≈$1,563" figure was wrong, see W39 §1). Two to three new satellites are needed.
 **Rule 70 applies to every entry: state the prior settled close and today's % against it.**
 
+### 🔄 Mon 9/28 premarket: board EMPTY for 9:35 after a widened rule-8 search
+**No entries today.** Sources run in 41 order: Nasdaq calendar (9/25 AMC + 9/28 BMO) → FDA
+tape → analyst initiations → all 4 screeners → EDGAR on every gate survivor.
+Funnel: ~30 names → 11 through `eligibility` (10/10 rows returned) → 5 in universe → **0 with a
+dated, primary-sourced catalyst.** The binding constraint was board quality (53a).
+
+| Name | Source | Verdict | Why |
+|---|---|---|---|
+| Calendar 9/28 | Nasdaq | — | In-cap reporters: IDT/TRAK (ADV kills), KNDI/CBAT/CURR/AIAI (foreign/China), NTWK/POCI (~$55M, ADV unverified), SANG (Canadian), AIV. Nothing tradeable |
+| SBET/FLD/ABTC/DRK | Jones Trading initiations 9/28 | **KILL (31)** | All crypto-treasury. FLD is sub-$1 and DRK is a $32M cap |
+| MIRM | AZURE-1 Ph3 topline 9/28 | **FAIL cap** | $5.8B |
+| BFRI | Ameluz PDUFA 9/28 | **FAIL** | $1.18, $18M cap |
+| KOD | DAYBREAK Ph3 pending | **FAIL cap** | $2.03B. Also a binary readout (29) |
+| QMCO | breakouts (W39 "check Monday") | **CLOSED (1)** | +13.6% 9/24 with no catalyst filing. EDGAR Sept shows only 8-K 5.07/5.02 and a 9/25 S-8 (not an offering, 8b). Last PT raise was Lake Street 9/14, stale |
+| ACCO | top_movers / breakouts | **CLOSED (1, 30)** | Scanner +8.2%/$4.66 is broken (real $4.31). The raise was Q2/August. The 8 Form 4s on 9/10 are all derivative awards, not open-market buys |
+| STLN (Oncology Institute renamed) | breakouts +5% | **CLOSED (1)** | Q2 raise was August (stale). Only Sept filing is 8-K 5.02. DE ✓ |
+| FTK | top_movers | **KILL (62, 7b)** | A law-firm class-action ad over a disputed $400M PREPA contract |
+| AMPX | top_movers + unusual_vol | **KILL (1)** | A product launch (SiCore 500) isn't on the catalyst list. The raise was August. The +6.7% print is a scanner artifact; the real close was +0.6% |
+| IA | unusual_volume | **FAIL ADV** | 288k mean |
+| TONX, USDE, BNC, DFDV, FWDI, BKKT, CYPH, GLND | screeners | standing kills | crypto (31) / pump (1) |
+
+**ANGO domicile ✓ DE** (EDGAR 52c, read 9/28). No Sept filings. Still the week's only live
+plan: 10/01 print → needs a RAISED FY guide >1% on the 8-K → day-2 entry 10/02 on Gate A shape.
+**Floor math:** RARE alone = 14.3%. ANGO at max size takes it to ~29%. Two more names are still
+needed, and today's widened search didn't find any.
+
 ### Held
+- **RARE** — 9/28 premarket indicative $14.32 (IEX, lesson 66: indicative only) vs stop
+  $14.0616 = ~1.8% cushion. No new dated news (searched 9/28). Stop governs (32a); don't
+  pre-empt it at the open.
 - **RARE** (Ultragenyx): 31 sh @ $15.08. 9/25 settled close $14.50 (−3.8%). Trailing stop
   **$14.0616** (HWM $15.12, 7%), 3.0% below the close. Catalyst: Fayuvi FDA approval, 9/17.
   **HOLD, let the stop govern** (32a). Cut only on NEW dated negative news (62). Profit

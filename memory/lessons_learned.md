@@ -62,3 +62,4 @@ through.** Tool defects go under Instruments.
 - **W35 (8/24–28):** −2.51% vs SPY, 65% of it factor. PD (a beat-and-raise) was never on the board, which is why rule 41 exists.
 - **W34 (8/17–21):** +2.03% vs SPY, all from OMER. ETON lost $25.83 on a discretionary exit ahead of an untouched stop, which is why rule 32 exists.
 - **W33 (8/10–14):** Research 4/4. The losses were execution (OMER monitor miss, FF P2, VELO same-day).
+- SATELLITE FLOOR BREACH — 6th consecutive `market_close` (9/28) at 14.4%. Research gap, not a bearish call; RARE held under 32a.

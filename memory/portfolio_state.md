@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-09-26 15:20 UTC
+**Last Updated**: 2026-09-28 19:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,370.66 |
-| Rocket's Allocated Slice (30%) | $3,111.20 |
+| Shared Account Value (Bull + Rocket) | $10,301.38 |
+| Rocket's Allocated Slice (30%) | $3,090.41 |
 | Cash Available (shared, pooled) | $1,435.34 |
-| Total Invested (both agents) | $8,935.32 |
+| Total Invested (both agents) | $8,866.04 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +2.62% |
-| IWM return since rebase | -3.29% |
-| Rocket vs IWM | +5.91% |
+| Rocket return since rebase | +1.94% |
+| IWM return since rebase | -3.98% |
+| Rocket vs IWM | +5.92% |
 
 ### Deployment — Satellite Floor
 
@@ -40,18 +40,11 @@ is available if Bull has open positions consuming shared cash.
 
 Ownership is reconciled below — do not re-derive it from the trade log.
 
-| Symbol | Shares | Entry Price | Price (⚠️ NOT a settled close) | Prior Settled Close | Unrealized P&L | P&L % |
+| Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| IWM | 5 | $297.53 | $281.97 | $281.97 | $-85.20 | -5.2% |
-| RARE | 31 | $15.08 | $14.50 | $14.50 | $-17.98 | -3.8% |
-| SPY | 9 | $769.31 | $771.35 | $771.35 | $+18.37 | +0.3% |
-
-⚠️ **The market is CLOSED. The price column is the last trade, which outside
-regular hours can be a single thin pre/post-market print — it is NOT a settled
-close and must never be recorded as one, quoted as a session move, or used to
-decide whether a trailing stop has fired.** Alpaca trailing stops evaluate on
-regular-hours trades only. Use the **Prior Settled Close** column for anything
-written into memory; re-read live at `market_open`.
+| IWM | 5 | $297.53 | $279.95 | $281.97 | $-96.26 | -5.9% |
+| RARE | 31 | $15.08 | $14.35 | $14.50 | $-22.79 | -4.9% |
+| SPY | 9 | $769.31 | $765.39 | $771.35 | $-35.27 | -0.5% |
 
 ---
 
@@ -59,9 +52,9 @@ written into memory; re-read live at `market_open`.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($1,544)  — benchmark sleeve; no stop, exempt from position limits
-- **Rocket's satellites** (1): RARE ($450)
-- **Bull's positions** (1): SPY ($6,942)
+- **Rocket's core** (1): IWM ($1,533)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's satellites** (1): RARE ($445)
+- **Bull's positions** (1): SPY ($6,889)
 
 
 ---
@@ -77,4 +70,4 @@ written into memory; re-read live at `market_open`.
 ## Weekly Trade Count
 
 Trades placed this week: 0 / 5 max
-Market open: No
+Market open: Yes
