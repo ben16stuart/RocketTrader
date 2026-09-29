@@ -63,3 +63,4 @@ through.** Tool defects go under Instruments.
 - **W34 (8/17–21):** +2.03% vs SPY, all from OMER. ETON lost $25.83 on a discretionary exit ahead of an untouched stop, which is why rule 32 exists.
 - **W33 (8/10–14):** Research 4/4. The losses were execution (OMER monitor miss, FF P2, VELO same-day).
 - SATELLITE FLOOR BREACH — 6th consecutive `market_close` (9/28) at 14.4%. Research gap, not a bearish call; RARE held under 32a.
+- SATELLITE FLOOR BREACH — 7th consecutive `market_close` (9/29) at 30.4% (RARE + AGEN; up from 14.4% after the AGEN day-2 entry). Research gap, not a bearish call. Escalation already active (rule 8); keep widening at MEDIUM bar.

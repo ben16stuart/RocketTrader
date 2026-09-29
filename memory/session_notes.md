@@ -3,6 +3,60 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-29 — MARKET_CLOSE (Tuesday, Week 40 day 2) — HOLD RARE + AGEN; core in band, no rebalance; satellite floor breached 7th consecutive close (30.4%)
+
+- Snapshot 19:58 UTC. Slice $3,096.51, pooled cash $974.27. Satellites $942 (RARE $477 +2.0% from entry, +6.7% today; AGEN $465 +0.6%) = 30.4%. Both trailing stops live.
+- Core IWM $1,527 vs target_core $1,548 (50% cap binds) — 0.7% of slice, inside 3% band, no trade. Rocket cash ~$627 (20%) is above buffer because IWM is capped: research gap, not a bearish thesis.
+- Rocket +$27 today (IWM core -$5.58); IWM -0.37%; vs IWM +6.45% since 7/20. No fills beyond the AGEN buy already logged. Ntfy sent (confirmed).
+- Next: QTTB post-EADV 10/01 plan, ANGO 10/01; keep searching at MEDIUM bar to close the floor gap.
+
+---
+
+## 2026-09-29 — MIDDAY (Tuesday, Week 40 day 2) — HOLD RARE + AGEN, no trades
+
+- Snapshot 16:15 UTC. Slice $3,078.78, pooled cash $974.27, satellites 29.3% (RARE + AGEN) vs 50% floor.
+- **RARE** $14.20, -5.9% from entry, -1.4% today (prior settled close $14.41). Live stop $14.0616
+  (HWM $15.12, trail 7%) is **0.98% below** price. -5% cut criterion met, but 32a (override only a
+  stop >2% away) → HOLD, let the stop work. Same open conflict as lesson 67. News: no negative
+  catalyst/halt; UX111 approval intact.
+- **AGEN** $9.80, -0.1% vs $9.81 entry; stop $9.207 (HWM $9.90). Nothing new since Rodman/Chardan
+  initiations. HOLD. No stop tightening (nobody is up >15%).
+- Afternoon scan (`unusual_volume`): SDEV (+99%, stablecoin shell → rule 31 mandate exclusion, >35%
+  same-day) and PWP (+14%, only *reported* Piper Sandler takeover talks → not issuer-confirmed (57),
+  deal-pinned price risk (27), $1.59B cap so +25% target ≈ $2.0B ceiling (13)) killed. Rest: no
+  dated catalyst / falling. No entry. Ntfy not sent (no forced cut).
+
+---
+
+## 2026-09-29 — MARKET_OPEN (Tuesday, Week 40 day 2) — BOUGHT AGEN 47 @ $9.81 (day-2 entry), stop set
+
+- Prior settled close $9.435; open $9.66; 9:30–9:45 range 3.9% (2a ✓); 9:45–9:50 bar closed $9.84 in
+  upper half (2b ✓); entry $9.81 = +4.0% vs prior close, under $10.37 ceiling. Waited for the 9:50 bar
+  before buying (not at the 9:35 open). IEX quote was junk (bid 8.47/ask 10.10); last trade $9.84 confirmed.
+- Size 47 sh (15% cap; risk-based 67). 7% trailing stop placed (status new). Trade logged, ntfy sent.
+- Satellites now 29.1% (RARE + AGEN) vs 50% floor. Weekly count 1/5. RARE untouched (32a, stop $14.06).
+- Step 4 scans: unusual_volume / top_movers had no dated catalyst (scanner timestamp 07:50, stale
+  fields, rule 17); nothing added. QTTB stays a 10/01 plan (EADV 9/30 blocks, rule 29).
+
+---
+
+## 2026-09-29 — PREMARKET (Tuesday, Week 40 day 2) — board: AGEN (MEDIUM, day-2 entry) + QTTB (post-EADV 10/01 plan)
+
+- **Satellite floor breached 6 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 14.4% (RARE) · IWM 49.6% (at cap) · slice $3,090.49 · shared cash $1,435.34.
+- Funnel: calendar → FDA → initiations → premarket gainers → 4 screeners → EDGAR. ~45 names → 12
+  eligibility (12/12 rows) → 8 in universe → **2 catalysts** (both dated 9/28 Buy initiations).
+- **AGEN** (Rodman Buy/$19): 9/28 close $9.43 +10.4% vs $8.54, 77% of range, 3.6× median vol. Day-2
+  entry on 2a/2b shape, no-chase $10.37, fail-line $9.43. ~46 sh at the 15% cap. Bear case = July PIPE
+  (~54.9M ITM warrants @ $4.02/$5.03, resale-registered) overhang.
+- **QTTB** (Clear Street Buy/$38): blocked today by EADV bempikibart data 9/30 (29; date from Seeking
+  Alpha, confirm at issuer). Pre-committed 10/01 entry shape logged in research_log.
+- KILLED: MX (NVTS sympathy + 9/28 distribution close, 4), IIPR (no catalyst, blank inc), FRNM (stale).
+- Macro: VIX 16.07 close, RTY flat LIVE, 10Y 5.24%. MU + CNXC report tonight. ANGO 10/01 still live.
+- No trades (market closed). No ntfy (RARE has no news).
+
+---
+
 ## 2026-09-28 — MARKET_CLOSE (Monday, Week 40 day 1) — HOLD RARE overnight; core in band, no rebalance; satellite floor breached 6th consecutive close (14.4%)
 
 - Snapshot synced 19:58 UTC. Slice $3,090.41, cash $1,435.34 (pooled). RARE $14.35 (-4.8% from entry,

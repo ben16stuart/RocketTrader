@@ -4,6 +4,20 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-29 — AGEN BUY (market_open, Tuesday, Week 40 day 2)
+- Shares: 47 @ $9.81 (market order 9:50 ET, filled ~13:50 UTC; order a8b0c54a…)
+- **Prior settled close $9.435 (9/28); entry is +4.0% vs it** (rule 70). Open $9.66 (+2.4%),
+  9:30–9:45 range $9.655–$10.03 = 3.9% (2a pass); 9:45–9:50 bar $9.795–$9.85 closed $9.84,
+  upper half (2b pass). Under the $10.37 no-chase ceiling; never lost $9.43.
+- Catalyst: Rodman & Renshaw initiation Buy/PT $19 (9/28). Day-1 close +10.4% at 77% of range on 3.6× median volume; this is the day-2 entry.
+- Stop: 7% trailing (trailing_stop order placed, status new) ≈ $9.12 at fill
+- Target: 1st $11.28 (+15%), 2nd $12.26 (+25%)
+- Thesis: Day-2 continuation after a strong-close initiation with a 15.2% short float. Bear case is PIPE/warrant supply overhang (~55M warrants deep ITM); MEDIUM conviction under rule 8.
+- Size: 15% cap bound (risk-based 67 sh, cap 47). ~$461 = 14.9% of slice. Book cash ≈ $978 → ≈ $517.
+- Satellites after fill: RARE + AGEN ≈ 29% of slice vs 50% floor (still breached). Weekly count 1/5.
+
+---
+
 ## 2026-09-26 — WEEK 39 SUMMARY (weekly review) — 1 satellite opened, 0 closed, book cash corrected
 
 - **Fills this week:** RARE BUY 31 @ $15.08 (9/23). No sells. Weekly count 1/5.
