@@ -4,6 +4,14 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-09-30 — NO TRADE (market_close, Wednesday, Week 40 day 3) — AGEN + RARE held overnight, core in band, satellite floor breached 8th consecutive close (30.3%)
+
+- No fills. AGEN $9.99 (+1.8% from entry, +0.91% today), RARE $15.06 (-0.1% from entry, -1.66% today); both multi-day catalysts intact, trailing stops live. HOLD both.
+- Core check: slice $3,091.68, satellites $936.39, target_core = min($1,846.12, $1,545.84) = $1,545.84; IWM $1,523 = -$22.86 / -0.7% of slice, inside 3% band. No trade.
+- Stats: book -$8.05 (-0.26% of slice) vs IWM -0.29%. Weekly count 1/5.
+
+---
+
 ## 2026-09-29 — AGEN BUY (market_open, Tuesday, Week 40 day 2)
 - Shares: 47 @ $9.81 (market order 9:50 ET, filled ~13:50 UTC; order a8b0c54a…)
 - **Prior settled close $9.435 (9/28); entry is +4.0% vs it** (rule 70). Open $9.66 (+2.4%),

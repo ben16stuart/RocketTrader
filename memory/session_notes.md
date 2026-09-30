@@ -3,6 +3,54 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-09-30 — MARKET_CLOSE (Wednesday, Week 40 day 3) — HOLD RARE + AGEN; core in band, no rebalance; satellite floor breached 8th consecutive close (30.3%)
+
+- Snapshot 19:58 UTC. Slice $3,091.68, pooled cash $974.26. Satellites $936 (AGEN $470 +1.8% from entry; RARE $467 -0.1%) = 30.3%. Both trailing stops live (`new`). Both multi-day catalysts intact, no news, HOLD.
+- Core IWM $1,523 vs target_core $1,546 (50% cap binds) = -0.7% of slice, inside 3% band, no trade. Rocket cash ~$627 above buffer: research gap, not a bearish thesis.
+- Book -$8.05 today (-0.26% of slice) vs IWM -0.29%; +6.56% vs IWM since 7/20 (snapshot figure). No fills. Weekly count 1/5 (snapshot printed 0/5; AGEN 9/29 is the 1).
+- Day-2 plans for 10/01: VNDA $4.91 (-2.4% vs $5.03) and QTTB $8.26 (-13%) failed the upper-half-close gate; CAPR $9.47 (+10.5%, faded from +14.6%) conditional, not issuer-confirmed. ANGO earnings 10/08. Ntfy sent (confirmed).
+
+---
+
+## 2026-09-30 — MIDDAY (Wednesday, Week 40 day 3) — NO TRADES; both satellites held, no cuts, no stop changes
+
+- Positions (12:15 ET, `alpaca_client.py positions`): **AGEN $9.83 (+0.2% vs $9.81 entry; −0.6% vs $9.89 prior close)**, **RARE $15.27 (+1.3% vs entry; −0.3% vs $15.32)**, IWM 279.48 (core, no stop). Both trailing stops live (`new`). Neither is near the −5% cut line or the +15% tighten line → HOLD both.
+- News (2 inline searches): AGEN — no negative news; IGCS poster (BOT+BAL) 10/1–3, Chardan Buy/$40 + Rodman initiation still the standing catalyst. RARE — nothing dated 9/30; only the earlier Angelman failure (9/2) and FDA approvals already priced in. No halts.
+- Afternoon scan (`unusual_volume`, name source only per 17): **QTTB −11.8% on 4.6× vol** — the 10/01 day-2 plan's upper-half-close condition is now unlikely (re-grade at close, not dropped yet, 42d). **CAPR +11.8%** (faded from +14.6% at open), still not issuer-confirmed and day 1 → no entry (rule 2). SCTX −18.8%, TARA −5.5%, GLAS −15.8% wrong direction. VNDA flat +0.5%. Nothing new clears rule 1.
+- Satellites 30.1% of slice; floor breach continues, no qualifying same-day entry (all day 1). Weekly count 1/5 (AGEN). No ntfy (no forced cut).
+
+---
+
+## 2026-09-30 — MARKET_OPEN (Wednesday, Week 40 day 3) — NO TRADES; all 3 plans are day 1, deferred to 10/01 per rule 2
+
+- Snapshot 13:45 UTC: slice $3,105.68, satellites 30.5% (breach continues), pooled cash $974.26. AGEN/RARE trailing stops live, no overnight fills.
+- Open vs prior settled close (rule 70) via `detail` (scanner fields indicative only, 17): **VNDA $5.05 (+0.4% vs $5.03)** — premarket +7.4% pop fully faded, 0.9× avg vol; **CAPR $9.82 (+14.6% vs $8.57)** — premarket +30.7% faded to +14.6%, 2.8× avg vol, still no issuer confirmation checked (57); **QTTB $9.83 (+3.1% vs $9.53)** — EADV data out at 9:15 ET, 1.3× vol, muted.
+- Fresh movers: CTNM +13.3% on 3× vol — one search found no dated catalyst (only Sept price-target cuts, PIPE-307 MDD setback) → PASS (1). DNA/SWMR/others: no catalyst checked, day 1 anyway.
+- Binding constraint again entry timing (rule 2 same-day 0-for-3), not board quality. Slots for 10/01 unchanged: VNDA > QTTB > CAPR, conditional on their 9/30 close shapes (42).
+- No trades, no ntfy.
+
+---
+
+## 2026-09-30 — PREMARKET (Wednesday, Week 40 day 3) — board: 0 day-1 entries; 3 pre-committed day-2 plans for 10/01 (VNDA, QTTB, CAPR)
+
+- **Satellite floor breached 7 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 30.4% (RARE + AGEN) · IWM 49.3% (at cap) · slice $3,097.68 · shared cash $974.26 · book cash ≈$517.
+- Funnel: calendar (nothing in universe) → clinical tape → all 4 screeners → EDGAR. ~35 names → 8
+  eligibility (8/8 rows) → 8 in universe → **4 dated catalysts** (all biotech data 9/29 AMC–9/30) → 0 today.
+  **Binding: entry timing / stop fit (53a), not board quality.**
+- **VNDA** positive Ph3 HETLIOZ/DSWPD (issuer PR 9/29 AMC), PM +7.4% vs $5.03 close; clean dilution,
+  stop fits → day-2 10/01 if 9/30 closes upper half on ≥2× median. Ranked #1.
+- **QTTB** EADV oral 9:15 AM ET today (29 blocks) → 10/01 plan unchanged. PM +12% into the event.
+- **CAPR** HOPE-3 24-mo/OLE data at WMS, PM +30.7% vs $8.57; 37% short float. **Not issuer-confirmed (57)**;
+  **stop fit fails day 1** (60-day 5-min MDD 10–26% on big days); live ~$47.5M ATM. Day-2 only, conditional.
+- **SGMT** PASS: positive OLE data but a 424B3 today **suspends its ATM** → likely underwritten deal imminent.
+- 🔧 **ANGO earnings are 10/08 BMO (issuer), not 10/01** — the W39-carried date was wrong (39). Moved to W41.
+- Held: AGEN close $9.89, stop $9.3558 (HWM $10.06); RARE close $15.32, stop $14.415 (HWM $15.50). No news.
+- Macro: VIX 16.04, RTY flat, 10Y 5.26%. ADP 8:15 + core PCE/GDP 8:30 = open whipsaw risk (respect 2a).
+- No trades (market closed). No ntfy (no breaking news on held names).
+
+---
+
 ## 2026-09-29 — MARKET_CLOSE (Tuesday, Week 40 day 2) — HOLD RARE + AGEN; core in band, no rebalance; satellite floor breached 7th consecutive close (30.4%)
 
 - Snapshot 19:58 UTC. Slice $3,096.51, pooled cash $974.27. Satellites $942 (RARE $477 +2.0% from entry, +6.7% today; AGEN $465 +0.6%) = 30.4%. Both trailing stops live.

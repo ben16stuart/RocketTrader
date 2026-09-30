@@ -3342,3 +3342,68 @@ Pump/shell shape: **GLND** (3× killed), **GRML** (lesson 60). PAAI CLOSED (cata
 at the primary source, 9/18). PRTH CLOSED (rule 27, pinned deal price). NUAI CLOSED
 (lender-mandated $100M ATM). **SCHL CLOSED** (miss + widened loss + affirmed-only guide, 9/24).
 **PRME CLOSED** (Gate A price-action kill, closed bottom-5.5%-of-range on 9/25, lesson 68).
+
+---
+
+## Archived 2026-09-30 premarket — Tue 9/29 board (AGEN entered 9/29; QTTB plan carried forward)
+
+
+### 🔄 Tue 9/29 premarket: board = 1 entry (AGEN, MEDIUM) + 1 post-event plan (QTTB 10/01)
+**Satellite floor breached 6 consecutive closes (9/28 = 14.4%) — searched at the MEDIUM bar per rule 8.**
+Sources in 41 order: Nasdaq calendar (9/28 AMC 19 rows + 9/29 BMO 18 rows) → FDA tape (9/28 approvals
+all large-cap: Lilly, AbbVie tavapadon) → analyst initiations → premarket gainers → all 4 screeners →
+EDGAR on every survivor. Funnel: ~45 names → 12 through `eligibility` (**12/12 rows, 43 ✓**) →
+8 in universe → **2 with a dated, primary-sourced catalyst** → 1 enterable today. Binding: board quality (53a).
+
+### Tue 9/29 midday: AGEN entered at open (47 sh @ $9.81, now $9.80 flat); SDEV and PWP killed
+SDEV +99% (stablecoin shell, rule 31 + >35% same-day). PWP +14% on *reported* Piper Sandler talks
+(not issuer-confirmed, 57; deal-pinned, 27; +25% target ≈ $2.0B cap ceiling, 13). QTTB stays a 10/01 plan.
+
+## AGEN — Rodman & Renshaw initiation, Buy, PT $19 (9/28) → day-2 entry today
+- Catalyst: Rodman & Renshaw initiated Buy/$19 on **Mon 9/28** (gurufocus, dated). Chardan Buy/$40
+  also on record (date NOT confirmed — don't lean on it). Day-1 reaction: **9/28 settled close $9.43,
+  +10.4% vs 9/25's $8.54** (rule 70), range $8.47–$9.71, **closed at 77% of range** (rule 4 pass) on
+  2.76M sh = **3.6× the 20d median** (772k). Premarket indicative $9.88 (+4.8%, IEX — 66).
+- Market cap: ~$426M (45.2M sh) | Float: 40.2M | Short float: **15.2%** (squeeze flag, barely, 9/10)
+- Domicile: **DE ✓** (EDGAR). Earnings 11/05. No binary event found this week (29 clear).
+- Dilution (8, graded): July 13 PIPE $85M upfront @ $3.69 + **~54.9M Series A/B warrants @ $4.02/$5.03,
+  deep ITM** (expiry triggers tied to ROBBIN dosing milestones, 2027). Resale S-3/424B3 in Aug → PIPE
+  holders are registered and sitting on +155%. Not a VWAP convert (not a kill), but a **real supply
+  overhang**. Ocean 1181 note $24.75M, 13%, half-interest paid in stock (small). 9/11 S-3 = 221k-sh resale.
+- Entry plan: day 2 (rule 2). 9:30–9:45 range must be ≤10% (2a); the 9:45–9:50 bar must close in its
+  upper half (2b). **No-chase ceiling $10.37** (+10% vs $9.43 prior close, rule 3 logic). If it opens
+  ≥$10.37 or fades below **$9.43** (yesterday's close) before 9:50 → PASS for today, recheck midday.
+- Stop: 7% trailing. Worked example @ $9.90: stop $9.21.
+- Target: @ $9.90 → +15% $11.39 / +25% $12.38. Dated Rodman $19 clears both (11). Cap at +25% ≈ $560M (13 ✓).
+- Size: 15% cap binds → ~$463 ≈ **46 sh @ $9.90** (risk-based 66). Book cash $978 covers it.
+- Conviction: **MEDIUM** (rule 8 bar). An initiation is the weakest catalyst on the list; Rodman is a
+  small bank. What lifts it: day-1 volume/close shape was strong.
+- Risk / what kills it: PIPE/warrant holders selling into strength (overhang is the bear case); a
+  one-analyst initiation fading in 2–3 days; biotech tape. Kill shape: close below $9.43 on heavy volume.
+
+## QTTB — Clear Street initiation Buy/$38 (9/28) + EADV data 9/30 → NO entry today (rule 29)
+- Catalyst: Clear Street Buy/$38 on **9/28** (BioTuesdays, dated). 9/28 settled close **$9.23, +5.2% vs
+  9/25's $8.77**, range $8.77–$9.44, closed 69% of range on 983k (1.8× median 554k). Premarket $9.89 (IEX).
+- **Blocked today: bempikibart data presentation at EADV reported for Wed 9/30** (Seeking Alpha; date
+  not yet read at the issuer — confirm). A binary readout = no entry (29).
+- Market cap $275M | Float **14.4M** (low) | Short float **18%** (squeeze flag) | DE ✓ | cash $106M vs
+  $5M debt, runway guided into 1H28. No offering filings since Aug (last 8-K 9/14 = CMO/CDO hires).
+  Consensus $39.6 (5 analysts) — ladder trivially runnable (11). Down ~43% in a month (downtrend).
+- **Plan (pre-committed shape, 42):** if 9/30 data is read as positive AND 9/30 closes in the upper half
+  of its range on ≥2× median volume → 10/01 open / 9:45 base entry, 7% trail, +15%/+25% rungs.
+  Close below midpoint on heavy volume (4) or a gap >35% (2c → day 2 only) changes the date or kills it.
+- Conviction: MEDIUM (conditional on data). Risk: data disappoints → another leg of the downtrend.
+
+| Name | Source | Verdict | Why |
+|---|---|---|---|
+| MX | premarket +7.4% / 8-K 9/21 | **KILL (4, 1)** | Catalyst = Navitas $5M strategic stake @ $3.42 (8-K 1.01/3.02, 9/18–21, stale). Today's pop is sympathy with NVTS +11.7% premarket. **9/28 closed $3.79 at 34% of range on 6.7M sh** = distribution (4) |
+| IIPR | top_movers +7.9% | **PASS (1, 60)** | No dated catalyst. 424B5 offering 9/01. EDGAR `stateOfIncorporation` blank (MD REIT) |
+| FRNM | breakouts | **CLOSED (1)** | Catalysts are July FDA / Aug initiations — stale |
+| ANGI / OIS / MASS | screeners | **PASS (1)** | No dated catalyst (ANGI 9/23 8-K = 5.02 exec change) |
+| QNCX / POCI / AREC / CLSK | initiations / calendar | **FAIL gates** | QNCX $29M & 31k ADV; POCI $50M & 48k; AREC $1.83; CLSK $3.4B |
+| SANG | premarket +36% | standing kill | Canadian (52c) |
+| Calendar 9/29 | Nasdaq | — | CNXC (tonight AMC, ceiling-bound, track). TMQ/IPX/ZENA foreign; rest sub-$50M |
+
+**ANGO (10/01 print → 10/02 day-2) still live.** Floor math: RARE 14.4% + AGEN ~15% = ~29%; +ANGO or
+QTTB ≈ 44%. The floor still needs all four slots (escalation 1).
+_Mon 9/28 premarket: board empty after widened search (~30 names → 0 catalysts); detail in session_notes._

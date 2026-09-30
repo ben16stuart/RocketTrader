@@ -4,34 +4,28 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-09-29 Tuesday premarket (Week 40 day 2 — **floor breached 6 closes; MEDIUM bar active**)  ← CURRENT
+## Snapshot — 2026-09-30 Wednesday premarket (Week 40 day 3 — **floor breached 7 closes; MEDIUM bar active**)  ← CURRENT
 
-"Close" figures are **Mon 2026-09-28 settled closes** except where noted. LIVE = indicative only.
+"Close" figures are **Tue 2026-09-29 settled closes** except the 10-yr. LIVE = indicative only.
 
 | Metric | Level | Read |
 |---|---|---|
-| **VIX** | **16.07 close 9/28** → 16.13 LIVE | Flat. Far below the 22 brake. No size restriction |
-| **10-yr** | **5.24% close 9/28** (5.18% 9/25) | Still above the 4.75% trigger and rising. Standing flag (34) |
-| **FUTURES** | ES −0.01% · NQ +0.14% · **RTY −0.06%** LIVE | Flat open after Monday's risk-off. No information (28) |
-| **Brent / WTI** | **97.83 / 92.60 close 9/28** (LIVE 97.29 / 92.20) | 🔄 Brent roll corrected by the tool (naive −7.59% → true −0.55%, 50). Back under $100 |
-| Gold / Dollar | 4,168 / 101.20 close 9/28 | Quiet |
-| **SPY / IWM** | **765.61 / 280.02 close 9/28** (−0.74% / −0.69%) | Small caps in line with large on Monday's dip |
+| **VIX** | **16.04 close 9/29** → 16.01 LIVE | Flat, far below the 22 brake. No size restriction |
+| **10-yr** | **5.26% close 9/29** (5.24% 9/28) | Grinding higher, above the 4.75% trigger. Standing flag (34) |
+| **FUTURES** | ES +0.06% · NQ −0.05% · **RTY −0.04%** LIVE | Flat. No information (28) |
+| **Brent / WTI** | **96.16 / 89.38 close 9/29** (LIVE 97.23 / 90.31) | 🔄 Brent roll caught by the tool (naive −5.22% → true +1.11%, sign flip, 50) |
+| Gold / Dollar | 4,179.70 / 101.37 close 9/29 | Gold +0.9% LIVE, dollar −0.2% |
+| **SPY / IWM** | **764.20 / 279.01 close 9/29** (−0.18% / −0.36%) | Small caps lagged slightly again |
 
-**Rule 29:** no Fed/CPI blocker found. **MU reports tonight (9/29 AMC)** — semis tape risk for Wed.
-CNXC also tonight (ceiling-bound, track only). Name-level binary: QTTB EADV data 9/30.
-**Binding constraint (53a): board quality.** ~45 names → 12 eligibility → 8 in universe → 2 catalysts
-(AGEN, QTTB) → 1 enterable today (AGEN).
+**Rule 29 / event risk today:** not FOMC day (no blocker), but a heavy pre-open print cluster — **ADP 8:15,
+Aug core PCE + personal income/spending + final Q2 GDP 8:30**, multiple Fed speakers. With the 10-yr at
+5.26%, a hot PCE is the open's main whipsaw risk → respect 2a at the 9:45 read. **MU reported 9/29 AMC**
+(semis tone). PRGS tonight (ceiling-bound). Name-level: **QTTB EADV oral 9:15 AM ET**, **SGMT KOL 1 PM ET**.
+**Binding constraint (53a): entry timing / stop fit** — 4 dated biotech catalysts, 0 enterable day 1.
 
 ### Instrument health
-- ✅ `eligibility` 12/12 rows (43 ✓). ✅ `macro` complete, Brent roll corrected.
-- ⚠️ Scanner ran at 04:20 ET on Monday data; RelVol ≤1.0× on every `unusual_volume` row and
-  `breakouts` Finviz returned "No results" on one query (17/64). Names only.
-- ⚠️ yfinance `totalCash` for AGEN ($18.7M) predates the July $85M PIPE — stale field, don't size off it.
-- ✅ Nasdaq earnings API reachable (19 rows 9/28, 18 rows 9/29).
-
-## Instrument health
-- ⚠️ **Scanner Change %/price is broken again (17/64).** ACCO printed +8.2% @ $4.66; eligibility
-  and web quotes say $4.31. AMPX printed +6.7% @ $10.40; the real 9/25 close was $9.75 (+0.6%).
-  RelVol is <1.0× on 18/20 `unusual_volume` rows. Names only.
-- ✅ `eligibility` returned 8/8, then 2/2 rows (43 ✓). ✅ `macro` complete, roll corrected.
-- ✅ Nasdaq earnings API reachable (21 rows on 9/28, 12 on 9/25).
+- ✅ `eligibility` 8/8 rows (43 ✓). ✅ `macro` complete, Brent roll corrected.
+- ⚠️ Scanner ran 04:20 ET; Change %/price/RelVol reflect **premarket vs 9/29 close**, not the settled
+  session (CAPR "+30.9% 11.9×" settled 9/29 at −1.6%, 0.8×). `breakouts` Finviz main query "No results" (17/64).
+- ✅ Nasdaq earnings API reachable (14 rows 9/29, 19 rows 9/30). ✅ EDGAR submissions API OK.
+- ⚠️ Capricor IR page shows no 9/29–30 release — rule 57 gate open on CAPR.
