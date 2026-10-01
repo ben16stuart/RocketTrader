@@ -3,6 +3,54 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-01 — MARKET_CLOSE (Thursday, Week 40 day 4) — RARE HELD, IWM IN BAND, NO TRADES
+
+- RARE $14.78 (−2.0% vs entry, −1.66% today), live stop $14.4336 (2.4% clear). HOLD under 32a. IWM 5.4746 sh $1,527 vs target $1,543 (−0.5% of slice), in band, no trade.
+- Satellites 14.8%, 9th consecutive breach, research gap not a bearish call. Book −0.06% vs IWM +0.39%. ntfy sent (confirmed). Week-40 count 1/5.
+- Slip: ntfy quoted RARE stop as ~$14.06 (stale 9/25 value) instead of $14.4336 — verify stop via /v2/orders before writing it.
+- Next premarket: still the #1 job is widening the scan for satellites; W36–W40 reviews still owed.
+
+## 2026-10-01 — MIDDAY (Thursday, Week 40 day 4) — AGEN STOPPED OUT (−2.5%); RARE held; no new entries
+
+- **AGEN** trailing stop filled 47 sh @ $9.56 at 9:49 ET (stop $9.5883, HWM $10.31), −$11.75. Snapshot flagged it MISSING; logged in trade_log. Live $9.03 (−9.1% vs $9.93 close) — stop saved ~$25. A web search showed $9.94 (stale); `market_data.py price` confirmed $9.03 (rule 17).
+- **RARE** $14.88 (−1.3% vs entry, −1.0% vs $15.03 close), stop $14.4336 = 3.0% clear. No −5% cut trigger. News: only a Pomerantz alert (ad, rule 62) and the old Angelman failure. HOLD (32a).
+- Scan (`unusual_volume`): SDEV (31), INSG (ADV), NKTR −21.8%, TDAY (no catalyst), GLAS/PUSA wrong direction, rest SPAC/closed-end funds. Nothing clears rule 1. No new entry.
+- Satellites ≈15% of slice (RARE only), IWM 49.4%, cash above buffer. Research gap, not a bearish call. Rebalance decision at close. Weekly count 1/5. No ntfy (stop fill is routine, not a forced cut).
+
+---
+
+## 2026-10-01 — MARKET_OPEN (Thursday, Week 40 day 4) — NO TRADE; ACHV failed shape (b), GLUE sold the news
+
+- Snapshot 13:45 UTC (9:45 ET). Slice $3,086.98, pooled cash $974.26. Satellites 30.0% (floor breached, 9th session pending close). No stops hit; AGEN $9.71 (-2.2% vs $9.93 close, stop $9.5883), RARE $15.11 (+0.5% vs $15.03, stop $14.4336). HOLD both (32a).
+- **ACHV** (prior settled close $8.09): 9:30-9:45 bars $7.90-$7.97, closed $7.94 on ~1k shares (IEX), detail -1.6% / 0.1x. Fails pre-committed (b): can't hold the 9/30 close. Low $7.90 still above the $7.87 kill, but no entry. Re-grade at close; not carried as a maybe.
+- **GLUE** (prior settled close $11.93): premarket +21.5% faded to $11.55 (-3.2%) by 9:45, after opening $12.04. Sell-the-news shape, the pre-committed kill. 10/02 plan DEAD unless 10/01 close reverses on heavy volume (unlikely).
+- Fresh movers: TDAY (+11.9% scanner, search shows +2.9% to $7.04 - the scanner field conflicts, rule 17) and EFOR (+10.1% scanner, search +1.05%) - no dated catalyst found. PASS (1). SDEV stablecoin (31). INSG ADV fail (46). NKTR/ORN no catalyst checked.
+- Funnel: 2 planned + ~20 scanner rows -> 0 entries. Binding: board quality (53a) + price action (42d).
+- Trades 0. No ntfy (no trades, no stops).
+
+---
+
+## 2026-10-01 — PREMARKET (Thursday, Week 40 day 4) — board: ACHV (MEDIUM, conditional day-2 entry today) + GLUE (day-2 plan 10/02); CAPR/VNDA/QTTB dead
+
+- **Satellite floor breached 8 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 30.0% (RARE + AGEN) · IWM 49.2% (at cap) · slice $3,091.06 · shared cash $974.26 · book cash ≈$517.
+- **All 3 pre-committed 10/01 plans died on the 9/30 close (rule 4):** CAPR 5% of range on 7.6×, VNDA 3% on
+  4.1×, QTTB 16% on 8.8×. Gate 42 kept three distribution days out of the book.
+- Funnel: calendar (thin; PRGS/HUBG ceiling-bound) → FDA/clinical → 9/30 initiations → all 4 screeners →
+  EDGAR. ~30 names → 13 eligibility (13/13 rows) → 9 in universe → 2 live → 1 enterable today.
+  **Binding: board quality (53a).**
+- **ACHV**: Stifel Buy/$18 (9/30). Day 1 +5.2%, 54% of range, 1.6× (weak). Short 15.6%, raise done 8/14,
+  cash $187M, stop fits. Enter only if 2a ✓ and the 9:45–9:50 bar closes upper half AND ≥ $8.09, ≤ $8.90;
+  dead below $7.87. 57 sh at cap.
+- **GLUE**: GFORCE-1 data 8:00 AM today, premarket +21.5% vs $11.93. Day 1 + stop fit fails → 10/02 plan:
+  issuer numbers + upper-half close on ≥2× median + no offering (S-3ASR auto-shelf live).
+- PASS/FAIL: KURA (JPM init, no reaction), SRRK/TWST (cap), CVEO/INSG (ADV), SPIR/TARA/XRX/OSUR/DBI/FTK (no dated catalyst).
+- Held: AGEN close $9.93, stop $9.5883 (HWM $10.31); RARE close $15.03, stop $14.4336 (HWM $15.52). No news.
+- Macro: VIX 16.34, RTY −0.17% LIVE, 10Y 5.29% (bond rout). Claims 8:30, ISM 10:00, heavy Fedspeak.
+- No trades (market closed). No ntfy (no breaking news on held names).
+
+---
+
 ## 2026-09-30 — MARKET_CLOSE (Wednesday, Week 40 day 3) — HOLD RARE + AGEN; core in band, no rebalance; satellite floor breached 8th consecutive close (30.3%)
 
 - Snapshot 19:58 UTC. Slice $3,091.68, pooled cash $974.26. Satellites $936 (AGEN $470 +1.8% from entry; RARE $467 -0.1%) = 30.3%. Both trailing stops live (`new`). Both multi-day catalysts intact, no news, HOLD.

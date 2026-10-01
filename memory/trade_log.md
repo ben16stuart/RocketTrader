@@ -4,6 +4,25 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-10-01 — NO TRADE (market_close, Thursday, Week 40 day 4) — RARE held overnight, core in band, satellite floor breached 9th consecutive close (14.8%)
+
+- No new fills (AGEN stop fill below was already logged at midday). RARE 31 sh @ $14.78 (−2.0% from entry, −1.66% today); live stop $14.4336 (HWM $15.52, 7%) = 2.4% clear. Close-rule legs both met, but FDA-approval thesis (Fayuvi/UX111) is multi-day and intact; same HOLD as 9/23, 9/25, 9/30 (rule 32a).
+- Core check (raw IWM 5.4746 sh, $278.97, $1,527.25): slice $3,085.49, satellites $458.18, target_core = min($2,318.76, $1,542.75) = $1,542.75; IWM −$15.50 / −0.5% of slice, inside the 3% band. No trade, no stop on IWM.
+- Satellites 14.8% < 50% (RARE only). Cash above buffer ≈ $1,100 (≈35.7% of slice), no bearish thesis; research gap, not a market call. Rule 8 MEDIUM bar remains active.
+- Stats: book −$1.86 (−0.06% of slice) vs IWM +0.39% (core +$5.89, RARE −$7.75). Since-start Rocket-vs-IWM not recomputed (W36–W40 chain owed; snapshot figure mixes Bull, lesson 23). Weekly count 1/5 (AGEN buy 9/29; snapshot's "0/5" is the known-broken counter).
+- ntfy confirmed sent. Its text quoted RARE's stop as ~$14.06 (stale 9/25 figure); correct live stop is $14.4336.
+
+---
+
+## 2026-10-01 — AGEN SELL (trailing stop fill, detected at midday, Thursday, Week 40 day 4)
+
+- 47 sh @ $9.56 (trailing_stop order filled 13:49:20 UTC = 9:49 ET, stop $9.5883, HWM $10.31). Entry 9/29 $9.81 → **−$11.75 / −2.5%**.
+- Fired 4 min after market_open's 9:45 snapshot (AGEN $9.71 then). Prior settled close $9.93; live AGEN at midday $9.03 (−9.1% vs close), so the stop saved ~$25 vs holding. Stop worked as designed.
+- Catalyst (Rodman initiation) was day-2 entry on a PIPE/warrant-overhang name; thesis broke on the price action, no news (IGCS data 10/1–3 pending, no negative headline). No re-entry: day-1 collapse below the base.
+- Proceeds → pooled cash. Satellites now RARE only ≈15% of slice vs 50% floor; IWM 49.4%. Floor gap is a research gap, not a bearish call. Rebalance/IWM decision deferred to market_close (rule 7). Weekly count stays 1/5.
+
+---
+
 ## 2026-09-30 — NO TRADE (market_close, Wednesday, Week 40 day 3) — AGEN + RARE held overnight, core in band, satellite floor breached 8th consecutive close (30.3%)
 
 - No fills. AGEN $9.99 (+1.8% from entry, +0.91% today), RARE $15.06 (-0.1% from entry, -1.66% today); both multi-day catalysts intact, trailing stops live. HOLD both.

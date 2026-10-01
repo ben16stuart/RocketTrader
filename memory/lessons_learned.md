@@ -65,3 +65,4 @@ through.** Tool defects go under Instruments.
 - SATELLITE FLOOR BREACH — 6th consecutive `market_close` (9/28) at 14.4%. Research gap, not a bearish call; RARE held under 32a.
 - SATELLITE FLOOR BREACH — 7th consecutive `market_close` (9/29) at 30.4% (RARE + AGEN; up from 14.4% after the AGEN day-2 entry). Research gap, not a bearish call. Escalation already active (rule 8); keep widening at MEDIUM bar.
 - SATELLITE FLOOR BREACH — 8th consecutive `market_close` (9/30) at 30.3% (RARE + AGEN). Research gap, not a bearish call. Day-2 plans VNDA (-2.4%) and QTTB (-13%) failed on the 9/30 close; CAPR stays conditional.
+- SATELLITE FLOOR BREACH — 9th consecutive `market_close` (10/1) at 14.8% (RARE only; AGEN stopped out 9:49 ET at −2.5%). Research gap, not a bearish call. Keep widening at MEDIUM bar.
