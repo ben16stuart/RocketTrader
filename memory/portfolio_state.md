@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-10-01 19:58 UTC
+**Last Updated**: 2026-10-02 19:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,23 +9,23 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,283.22 |
-| Rocket's Allocated Slice (30%) | $3,084.97 |
-| Cash Available (shared, pooled) | $1,423.58 |
-| Total Invested (both agents) | $8,859.64 |
+| Shared Account Value (Bull + Rocket) | $10,363.76 |
+| Rocket's Allocated Slice (30%) | $3,109.13 |
+| Cash Available (shared, pooled) | $1,423.56 |
+| Total Invested (both agents) | $8,940.20 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +1.76% |
-| IWM return since rebase | -4.32% |
-| Rocket vs IWM | +6.08% |
+| Rocket return since rebase | +2.55% |
+| IWM return since rebase | -3.46% |
+| Rocket vs IWM | +6.01% |
 
 ### Deployment — Satellite Floor
 
 | Sleeve | % of slice | Rule |
 |--------|-----------|------|
-| **Satellites (stock picks)** | 14.8% | must be >= 50.0% |
-| Core (IWM) | 49.5% | capped at <= 50.0% |
+| **Satellites (stock picks)** | 15.2% | must be >= 50.0% |
+| Core (IWM) | 49.6% | capped at <= 50.0% |
 
-🚨 **SATELLITE FLOOR BREACHED — 14.8% < 50%.** Rocket is not deployed in enough stock picks. This is not a market call to sit out — it is a research gap. Finding a qualifying name is the top priority of the next session, not an optional nice-to-have.
+🚨 **SATELLITE FLOOR BREACHED — 15.2% < 50%.** Rocket is not deployed in enough stock picks. This is not a market call to sit out — it is a research gap. Finding a qualifying name is the top priority of the next session, not an optional nice-to-have.
 
 **Rebase Date**: 2026-07-20 (account merged with Bull — prior standalone
 history since 2026-04-20 is preserved in memory/weekly_reviews/)
@@ -42,9 +42,9 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| IWM | 5 | $297.53 | $278.96 | $277.89 | $-101.68 | -6.2% |
-| RARE | 31 | $15.08 | $14.77 | $15.03 | $-9.61 | -2.1% |
-| SPY | 9 | $769.31 | $763.83 | $762.63 | $-49.31 | -0.7% |
+| IWM | 5 | $297.53 | $281.46 | $279.02 | $-87.99 | -5.4% |
+| RARE | 31 | $15.08 | $15.23 | $14.75 | $+4.80 | +1.0% |
+| SPY | 9 | $769.31 | $769.66 | $763.99 | $+3.16 | +0.0% |
 
 ---
 
@@ -52,9 +52,9 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($1,527)  — benchmark sleeve; no stop, exempt from position limits
-- **Rocket's satellites** (1): RARE ($458)
-- **Bull's positions** (1): SPY ($6,874)
+- **Rocket's core** (1): IWM ($1,541)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's satellites** (1): RARE ($472)
+- **Bull's positions** (1): SPY ($6,927)
 
 
 ---

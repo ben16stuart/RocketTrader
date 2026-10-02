@@ -3,6 +3,49 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-02 — MARKET_CLOSE (Friday, Week 40 day 5) — RARE HELD, IWM IN BAND, NO TRADES
+
+- RARE $15.24 (+1.0% vs entry, +3.3% today), live stop $14.4336 (HWM $15.52, 5.3% clear, verified via `/v2/orders`). HOLD under 32a. IWM raw 5.4746 sh = $1,540.96 vs target $1,554.54 (slice $3,109.07, sat $472.44) → short 0.44% of slice, inside the 3% band, no trade.
+- Satellites 15.2%, **10th consecutive breach**, research gap not a bearish call. ~$1,096 (35% of slice) is cash above the buffer with no bearish thesis, flagged not hidden. IWM at the 50% cap so it cannot fill the gap.
+- Book +$28.53 today (+0.92% of slice) vs IWM +0.88%. ntfy sent (confirmed). Week-40 count 1/5. No fills today.
+- Next premarket (W41): still #1 job is the satellite gap. Plans IRD (PDUFA 10/17 run-up, exit by 10/15). Still owed: W36–W40 weekly reviews, floor-arithmetic escalation.
+
+---
+
+## 2026-10-02 — MIDDAY (Friday, Week 40 day 5) — RARE HELD (+0.4% vs entry); no new entry; NNBR/AZTA PASS
+
+- **RARE** $15.14 (+0.4% vs $15.08 entry, +2.6% vs $14.75 close), stop $14.4336 (HWM $15.52, 7%) = 4.7% clear, confirmed via `/v2/orders`. No cut or tighten trigger. News: EMA validated the UX111 MAA (10/2, positive, not a new catalyst); no negative news. HOLD.
+- Scan (`unusual_volume`): **NNBR** (+14.7%, 4.9x) firearm-components contract manufacturing, undisclosed terms (49), same-day (2), and the search price ($3.52) conflicts with the scanner ($4.16) (17). **AZTA** (+13.1%) search result is a misdated earnings piece (33), and the +25% target (~$48.75) breaches the $2B cap (13). FEAM carried from open (PASS), SDEV (31), TH/THRM/IART/NKTR negative. Nothing clears rule 1.
+- Satellites 15.1% of slice (RARE only), IWM 49.6%. 10th breach pending at close. Research gap, not a bearish call. Rebalance decision at close. Weekly count 1/5. No trades, no ntfy.
+
+---
+
+## 2026-10-02 — MARKET_OPEN (Friday, Week 40 day 5) — no entry; FEAM new name, PASS
+
+- Snapshot 9:45 ET: slice $3,112.49, shared cash $1,423.56, satellites 14.8% (RARE only), IWM at cap. RARE stop order live (ca4a062c…). No overnight fills or stops.
+- Scanned unusual_volume + top_movers. Only new in-universe name: **FEAM** ($3.56, +10% vs prior settled close ~$3.23, 0.7× avg vol at 9:45, cap $148M, +128% 1-month). Catalyst = Searles Valley acquisition CLOSED 10/2 (known deal; prior "$9.6M acquisition" sold off). PASS: same-day (rule 2), volume unconfirmed, extended, dilution/domicile unread (8, 52c). Not a W41 plan unless a day-2 base forms with dilution cleared.
+- BETR +15% / 4.7× already PASS (1) at premarket; TH/THRM/LIME/QMCO negative; rest crypto/funds (31).
+- Binding constraint: board quality (no dated catalyst with a live shape). Floor breach continues (10th at close unless changed) — research gap, not a bearish call.
+- No trades, no ntfy.
+
+---
+
+## 2026-10-02 — PREMARKET (Friday, Week 40 day 5) — board EMPTY after widened search; no entry today; W41 plans IRD/UNCY
+
+- **Satellite floor breached 9 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 14.8% (RARE only) · IWM 49.5% (at cap) · slice $3,096.55 · shared cash $1,423.56.
+- Funnel: earnings calendar (19 rows, 0 in universe) → FDA/PDUFA tape → 10/01 initiations → all 4 screeners →
+  PM movers. ~65 scanner rows → 9 eligibility (9/9) → 5 in universe → **0 live**. **Binding: price action (42d/4).**
+- UNCY (NDA resubmitted 9/29) closed 10/01 at 2% of range on 1.5× → dead. LBRX (Needham init) 11%/1.0× → no
+  reaction. IRD (PDUFA 10/17) closed at the lows 2 days → W41 run-up plan only, exit by 10/15 (29).
+- ACHV (~$7.53 < $7.87 kill) and GLUE (sold the news) DEAD. RCKT fails price ($2.59) → dropped. SLS fails cap.
+- Held: RARE 10/01 ~$14.77, stop $14.4336 (from `/v2/orders` on 10/01; re-read at open). No news searched today.
+- Macro: VIX 16.00 LIVE, RTY +0.50% LIVE, 10Y 5.24%. **Payrolls 8:30 ET** (cons. +90k).
+- No trades (market closed). No ntfy (no breaking news on held names).
+- Still owed: the W36–W40 weekly reviews; the floor-arithmetic escalation (W39 §6).
+
+---
+
 ## 2026-10-01 — MARKET_CLOSE (Thursday, Week 40 day 4) — RARE HELD, IWM IN BAND, NO TRADES
 
 - RARE $14.78 (−2.0% vs entry, −1.66% today), live stop $14.4336 (2.4% clear). HOLD under 32a. IWM 5.4746 sh $1,527 vs target $1,543 (−0.5% of slice), in band, no trade.
