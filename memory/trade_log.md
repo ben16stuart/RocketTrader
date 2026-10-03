@@ -4,6 +4,16 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-10-03 — WEEK 40 SUMMARY (weekly review) — 1 satellite opened and closed, 0/1 win rate
+
+- **Fills this week:** AGEN BUY 47 @ $9.81 (9/29), AGEN SELL 47 @ $9.56 (10/01, trailing stop) = **−$11.75 / −0.36R**. New positions 1/5.
+- **Book 9/25 → 10/02 (23a):** $2,971.25 → **$2,979.36 (+$8.11 / +0.27%)** vs IWM −0.16% (281.97 → 281.52) → **+0.43%**.
+  Cash chain: $978.08 − $461.07 + $449.32 = **$966.33**.
+- **Since rebase 7/20:** book −1.85% vs IWM −3.69% → **+1.84%**.
+- Open: IWM 5.4746 sh (core, no stop), RARE 31 sh (stop $14.4336, HWM $15.52).
+
+---
+
 ## 2026-10-01 — NO TRADE (market_close, Thursday, Week 40 day 4) — RARE held overnight, core in band, satellite floor breached 9th consecutive close (14.8%)
 
 - No new fills (AGEN stop fill below was already logged at midday). RARE 31 sh @ $14.78 (−2.0% from entry, −1.66% today); live stop $14.4336 (HWM $15.52, 7%) = 2.4% clear. Close-rule legs both met, but FDA-approval thesis (Fayuvi/UX111) is multi-day and intact; same HOLD as 9/23, 9/25, 9/30 (rule 32a).

@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-10-02 19:58 UTC
+**Last Updated**: 2026-10-03 15:20 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,363.76 |
-| Rocket's Allocated Slice (30%) | $3,109.13 |
+| Shared Account Value (Bull + Rocket) | $10,363.35 |
+| Rocket's Allocated Slice (30%) | $3,109.01 |
 | Cash Available (shared, pooled) | $1,423.56 |
-| Total Invested (both agents) | $8,940.20 |
+| Total Invested (both agents) | $8,939.79 |
 | Unrealized P&L (shared) | $+0.00 |
 | Rocket return since rebase | +2.55% |
-| IWM return since rebase | -3.46% |
-| Rocket vs IWM | +6.01% |
+| IWM return since rebase | -3.44% |
+| Rocket vs IWM | +5.99% |
 
 ### Deployment — Satellite Floor
 
@@ -40,11 +40,18 @@ is available if Bull has open positions consuming shared cash.
 
 Ownership is reconciled below — do not re-derive it from the trade log.
 
-| Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
+| Symbol | Shares | Entry Price | Price (⚠️ NOT a settled close) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| IWM | 5 | $297.53 | $281.46 | $279.02 | $-87.99 | -5.4% |
-| RARE | 31 | $15.08 | $15.23 | $14.75 | $+4.80 | +1.0% |
-| SPY | 9 | $769.31 | $769.66 | $763.99 | $+3.16 | +0.0% |
+| IWM | 5 | $297.53 | $281.52 | $281.52 | $-87.66 | -5.4% |
+| RARE | 31 | $15.08 | $15.22 | $15.22 | $+4.34 | +0.9% |
+| SPY | 9 | $769.31 | $769.64 | $769.64 | $+2.98 | +0.0% |
+
+⚠️ **The market is CLOSED. The price column is the last trade, which outside
+regular hours can be a single thin pre/post-market print — it is NOT a settled
+close and must never be recorded as one, quoted as a session move, or used to
+decide whether a trailing stop has fired.** Alpaca trailing stops evaluate on
+regular-hours trades only. Use the **Prior Settled Close** column for anything
+written into memory; re-read live at `market_open`.
 
 ---
 
@@ -70,4 +77,4 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 ## Weekly Trade Count
 
 Trades placed this week: 0 / 5 max
-Market open: Yes
+Market open: No

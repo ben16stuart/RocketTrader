@@ -1,8 +1,8 @@
 # Rocket Strategy — Evolving Edge Thesis
 
-Last updated: 2026-09-26 (W39 review). **The binding constraint is now THROUGHPUT.** Rocket
-enters almost nothing: 1 satellite in 19 sessions. Research quality and exits are not the
-problem.
+Last updated: 2026-10-03 (W40 review). **The binding constraint is still THROUGHPUT.** Two
+full-effort weeks: satellites averaged 8.8% (W39) and 21.0% (W40). 2 entries in 24 sessions.
+W40's gate counterfactual (7/7 shape kills would have lost) shows the filters are NOT the leak.
 Prior version (W34 era, incl. same-day vs second-day evidence, filter write-ups, SPY-era
 attribution): `memory/archive/strategy_history.md`.
 
@@ -12,14 +12,15 @@ attribution): `memory/archive/strategy_history.md`.
 
 | Constraint | Status |
 |---|---|
-| **Throughput (entries per week)** | 🔴 **Binding.** 1 entry in W36–W39; satellites avg ≈2% over 4 weeks, 8.8% in W39 |
+| **Throughput (entries per week)** | 🔴 **Binding.** 1 entry in W36–W39, 1 in W40. Satellites avg 8.8% (W39), 21.0% (W40). Funnel W40: ~205 → 53 eligible → ~35 in universe → 8 live → 1 entry |
 | **Satellite-floor design** | 🔴 **Unreachable unless 4/4 slots are full at the 15% cap** (3 × 15% = 45%). Escalated to Ben (W39 §6) |
 | **Gate accretion** | 🔴 69 lessons, almost all new kills. File compressed 2026-09-26. New rule: a lesson must replace a check or state what it lets through |
-| **Stale-reference errors inside a session** | 🔴 NEW (lesson 70): RARE's entry quoted +2.8% "breakout" against the wrong prior close. It was −3.6% |
+| Stale-reference errors inside a session | 🟢 Rule 70 applied cleanly on AGEN (9/29). One stale stop quoted in a 10/01 ntfy |
+| **Shape gates (rules 4/42)** | ✅ **7/7 W40 kills would have lost** (ACHV −10.5%, GLUE −12%, UNCY −7.3%, VNDA, CAPR, QTTB, LBRX) |
 | Research / catalyst verification | ✅ Strong. SCHL 8-K save, PRME Gate A, PAAI falsification |
 | Exit discipline | ✅ No discretionary errors since ETON (W34). 32a applied correctly to RARE |
 | Performance measurement | 🟡 Hand-built book chain rebuilt through W39. Snapshot's figure still invalid (lesson 23) |
-| Routine completion | 🔴 W36–W38 reviews never ran. 9/21 premarket and 9/24 market_close never ran ([[launchd-quota-contention]]) |
+| Routine completion | 🟢 W40: all 20 routines ran. (W36–W38 reviews and two W39 sessions were lost to quota, [[launchd-quota-contention]]) |
 | Instruments | 🟡 Scanner RelVol unusable (17g/64). No `sip` premarket data (66). Nasdaq calendar can invert beats (65) |
 
 ## Core Edge
@@ -39,24 +40,27 @@ construction.** Every basis point of "Rocket vs IWM" comes from satellites plus 
 | W36 (8/31–9/04) | +0.10% | +0.09% | +0.01% | 0% | cash timing |
 | W37 (9/08–9/11) | −2.26% | −2.41% | +0.15% | 0% | cash buffer in a down week |
 | W38 (9/14–9/18) | −1.34% | −1.66% | +0.32% | 0% | 9/17 sale to cash before 9/18 drop |
-| **W39 (9/21–9/25)** | **−0.99%** | **−0.75%** | **−0.24%** | **8.8%** | RARE −0.38%, cash +0.14% |
-| Since rebase 7/20 | −2.12% | −3.54% | **+1.42%** | | mostly W34 OMER + pre-IWM cash |
+| W39 (9/21–9/25) | −0.99% | −0.75% | −0.24% | 8.8% | RARE −0.38%, cash +0.14% |
+| **W40 (9/28–10/02)** | **+0.27%** | **−0.16%** | **+0.43%** | **21.0%** | RARE +0.78%, AGEN ≈ −0.24%, idle cash ≈ −0.10% |
+| Since rebase 7/20 | −1.85% | −3.69% | **+1.84%** | | W34 OMER, pre-IWM cash, W40 RARE |
 
 Pre-W36 attribution vs SPY (W30–W35) lives in `archive/strategy_history.md`. Stock picking
-was +0.68% cumulative through W35. It has added **nothing** since.
+was +0.68% cumulative through W35, ≈ −0.24% in W39, ≈ +0.54% in W40 (RARE + AGEN).
 
 ## Catalyst Hierarchy (from real results)
 
 1. **Earnings beat + guidance RAISED, sized as a %, day 2.** Still the only type with realized
    winners (OMER, ETON's entry). Source it from the **earnings calendar first**, then
    **confirm on the issuer's 8-K**, never on the calendar row (lesson 65).
-2. **FDA/regulatory approval or clearance.** 🆕 Produced **both** live candidates in W39
-   (RARE, PRME). This is the most productive sourcing channel right now. Never inside a
-   PDUFA window.
+2. **FDA/regulatory APPROVAL or clearance.** RARE (approval 9/17) is the only satellite
+   adding excess right now. Never inside a PDUFA window.
+2b. 🆕 **Clinical DATA readouts are not approvals.** W40: VNDA, CAPR, QTTB, GLUE all sold the
+   data within a session (0/4). Day-2 only, default sell-the-news; needs a clean upper-half close.
 3. Government contract / named funding: grade the **committed** dollars, not the headline (49a).
 4. Unusual volume + breakout (next day). Treat the scanner as a name source only.
 5. Short squeeze + catalyst.
-6. Analyst initiation: must be a Buy, dated, and in-universe. In W39 all 6 of 6 failed the universe.
+6. Analyst initiation: must be a Buy, dated, and in-universe. W39: 6/6 failed the universe. W40:
+   0/4 worked (KURA, LBRX no reaction; AGEN, ACHV reacted then failed).
 7. 🚫 Beat without a raise, or with a sub-1% raise or a reaffirmation: disqualified (5/5a/5f).
 
 ## Entry Framework
@@ -70,6 +74,9 @@ was +0.68% cumulative through W35. It has added **nothing** since.
   yesterday and today is red, that's a day-2 fade: apply rule 2b/4 to it. It is not
   "a fresh high."
 - **Stop fit uses max drawdown from the running high** (54c), not range ÷ trail.
+- 🆕 **At the MEDIUM bar, a named dilution overhang is the tiebreaker against entry** (ITM
+  warrants, live ATM, fresh resale S-3). AGEN (W40) lost on the overhang it had written down.
+  Lets through: MEDIUM catalysts with clean structures, unchanged.
 - **Late-catalyst decay:** a catalyst more than ~3 sessions old needs a fresh trigger (a new
   base plus a green day-of print), not just "the thesis is intact."
 
@@ -93,15 +100,17 @@ median ADV (46) · issuer filing over any secondary source (57b/65) · 8-K Item 
 
 ## Open questions / escalations (awaiting Ben)
 
-- 🚨 **Satellite floor arithmetic** (W39 §6): recommend counting open slots (≥2 of 4) or a ~30%
-  floor. As written, 50% needs all four slots full at max size.
+- 🚨 **Satellite floor arithmetic** (W39 §6, W40 §7): recommend counting open slots (≥2 of 4) or a
+  ~30% floor. As written, 50% needs all four slots full at max size. Two full-effort weeks: 8.8%, 21.0%.
 - **Rebalance basis, slice vs book** (lesson 44). Not binding while IWM is at the 50% cap.
 - **$2B ceiling vs +25% ladder** (lesson 13). It blocks CNXC and PRGS for W40 by construction.
-- **Midday flat "−5% = cut" vs stop distance** (lesson 67).
+- **Midday flat "−5% = cut" vs stop distance** (lesson 67). RARE tally favors 32a by ≈$31.
 - **Premarket liquidity check needs `sip` data** (lesson 66). Without it the check is aspirational.
 
 ## Rules under observation
 
-- 32a (only override a stop >2% away): applied to RARE 9/25 midday. Pending outcome.
-- Rule 70 (name the prior settled close): new.
+- 32a: RARE held 9/25, 9/28, 9/29 with the stop <2% away; recovered to +0.9%. First data point positive.
+- Rule 70: applied cleanly on AGEN 9/29.
+- Screeners: `unusual_volume` surfaced the W40's two biggest movers (NNBR, FEAM) at midday 10/02 —
+  useful as a name source for next-day plans. `breakouts` Finviz query working again 10/03.
 - Late-catalyst decay: new; test on the next FDA name.

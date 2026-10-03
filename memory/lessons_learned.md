@@ -36,8 +36,8 @@ through.** Tool defects go under Instruments.
 60. **A blank `stateOfIncorporation` on a recently renamed shell = FAIL.** Serial rebrands into a hot story are a second kill.
 62. **Law-firm "investor alerts" are ads.** Date the underlying event.
 65. **The Nasdaq calendar's eps fields can turn a miss into a beat.** Always read the 8-K exhibit for revenue, EPS basis and the guidance verb.
-67. **(open)** The midday "−5% = cut" rule conflicts with 32a when the stop is <2% away. Escalated. Held RARE 9/25 under 32a.
-🆕 70. **Name the prior SETTLED close in the entry log line and quote today's % against it** (2026-09-26, RARE). Market_open 9/23 logged "$15.06, +2.8%, fresh weekly high" against 9/21's close ($14.65). The real prior close was 9/22's $15.615 (high $16.12), so the entry was **−3.6% on the day, into the fade after the breakout**. It then closed at 35% of range. Premarket had the right number; the next session didn't carry it. **This check makes a good day-2 entry easier to see, as well as blocking a bad one.**
+67. **(open)** The midday "−5% = cut" rule conflicts with 32a when the stop is <2% away. Escalated. Tally so far favors 32a: RARE held 9/25, 9/28, 9/29 → +≈$31 vs cutting.
+70. **Name the prior SETTLED close in the entry log line and quote today's % against it** (2026-09-26, RARE: logged "+2.8%, fresh high" vs the wrong close; it was −3.6%, a day-2 fade). Applied cleanly on AGEN 9/29. It makes a good day-2 entry easier to see, as well as blocking a bad one.
 
 ## Standing Rules — Satellite floor
 56–69 (breach logs). **One line per breach in session notes; a breach isn't a lesson.** The design problem is escalated (W39 §6): 3 × 15% = 45% < 50%, so the floor needs all 4 slots full at max size. **Rule 8 relaxes catalyst quality, which is rarely what binds.** Widen the SOURCES (calendar, FDA, analyst), not only the screeners. A missing session is not a confirming data point (58).
@@ -57,13 +57,7 @@ through.** Tool defects go under Instruments.
 50. **Continuous futures roll**, so a naive % is a calendar spread. `macro` corrects it and prints naive vs true.
 
 ## Rules From Real Trades — 5 most recent
-- **W39 (9/21–25):** D. Book −0.99% vs IWM −0.75%. Satellites averaged 8.8% (5/5 sessions below the floor). RARE was entered on a stale reference close (70). PRME Gate A and the SCHL 8-K check each kept a loser out.
-- **W36–W38:** No satellites. The chain was rebuilt in W39 (+0.48% vs IWM combined, all from cash timing). The reviews never ran.
-- **W35 (8/24–28):** −2.51% vs SPY, 65% of it factor. PD (a beat-and-raise) was never on the board, which is why rule 41 exists.
-- **W34 (8/17–21):** +2.03% vs SPY, all from OMER. ETON lost $25.83 on a discretionary exit ahead of an untouched stop, which is why rule 32 exists.
-- **W33 (8/10–14):** Research 4/4. The losses were execution (OMER monitor miss, FF P2, VELO same-day).
-- SATELLITE FLOOR BREACH — 6th consecutive `market_close` (9/28) at 14.4%. Research gap, not a bearish call; RARE held under 32a.
-- SATELLITE FLOOR BREACH — 7th consecutive `market_close` (9/29) at 30.4% (RARE + AGEN; up from 14.4% after the AGEN day-2 entry). Research gap, not a bearish call. Escalation already active (rule 8); keep widening at MEDIUM bar.
-- SATELLITE FLOOR BREACH — 8th consecutive `market_close` (9/30) at 30.3% (RARE + AGEN). Research gap, not a bearish call. Day-2 plans VNDA (-2.4%) and QTTB (-13%) failed on the 9/30 close; CAPR stays conditional.
-- SATELLITE FLOOR BREACH — 9th consecutive `market_close` (10/1) at 14.8% (RARE only; AGEN stopped out 9:49 ET at −2.5%). Research gap, not a bearish call. Keep widening at MEDIUM bar.
-- SATELLITE FLOOR BREACH — 10th consecutive `market_close` (10/2) at 15.2% (RARE only). Research gap, not a bearish call. Board had no live catalyst shape (NNBR undisclosed terms, AZTA misdated + $2B cap, FEAM same-day/extended). IWM at 49.6% (cap), ~35% of slice sits as cash above buffer, deliberately flagged. Still owed: W36–W40 reviews and the floor-arithmetic escalation.
+- **W40 (9/28–10/02):** D+. Book +0.27% vs IWM −0.16% (+0.43%, all RARE). Satellites averaged 21.0% (5/5 closes below floor, all logged). AGEN was a clean day-2 entry, stopped −2.5%, and the stop saved ~$57 vs the close. The loss came from the named warrant overhang. **At the MEDIUM bar, a named dilution overhang is the tiebreaker** (lets through: clean-structure MEDIUM catalysts). All 7 shape kills would have lost (rules 4/42 validated). Clinical-data day-2 plans went 0/4.
+- **W39 (9/21–25):** D. Book −0.99% vs IWM −0.75%. Satellites averaged 8.8% (5/5 below floor). RARE was entered on a stale reference close (70). PRME Gate A and the SCHL 8-K check each kept a loser out.
+- **W34–W38:** OMER carried W34; ETON's discretionary exit → rule 32; PD missed → rule 41; W36–W38 had no satellites.
+- Breach log: **10 consecutive `market_close` breaches through 10/02** (W40 detail in `weekly_reviews/2026-W40.md` §2). Append one line per new breach below; the weekly review folds them.

@@ -645,3 +645,20 @@ on DBI was rule 29 (calendar), not 45, so the bad forecast was **not load-bearin
 - ❌ The +0.15% headline was **100% IWM factor**; real alpha −0.52% on an 0-for-2 record.
 - ✅ **Research quality is a strength** — 4/4 skips validated. **The losses were execution, not analysis.**
 - ❌ Ranked by cost: the 8/13 OMER miss (≈−0.70%, infrastructure) > FF (−0.39%, discipline) > VELO (−0.17%, timing).
+
+
+---
+
+# Archived 2026-10-03 (W40 review) — prior "Rules From Real Trades" block
+
+## Rules From Real Trades — 5 most recent
+- **W39 (9/21–25):** D. Book −0.99% vs IWM −0.75%. Satellites averaged 8.8% (5/5 sessions below the floor). RARE was entered on a stale reference close (70). PRME Gate A and the SCHL 8-K check each kept a loser out.
+- **W36–W38:** No satellites. The chain was rebuilt in W39 (+0.48% vs IWM combined, all from cash timing). The reviews never ran.
+- **W35 (8/24–28):** −2.51% vs SPY, 65% of it factor. PD (a beat-and-raise) was never on the board, which is why rule 41 exists.
+- **W34 (8/17–21):** +2.03% vs SPY, all from OMER. ETON lost $25.83 on a discretionary exit ahead of an untouched stop, which is why rule 32 exists.
+- **W33 (8/10–14):** Research 4/4. The losses were execution (OMER monitor miss, FF P2, VELO same-day).
+- SATELLITE FLOOR BREACH — 6th consecutive `market_close` (9/28) at 14.4%. Research gap, not a bearish call; RARE held under 32a.
+- SATELLITE FLOOR BREACH — 7th consecutive `market_close` (9/29) at 30.4% (RARE + AGEN; up from 14.4% after the AGEN day-2 entry). Research gap, not a bearish call. Escalation already active (rule 8); keep widening at MEDIUM bar.
+- SATELLITE FLOOR BREACH — 8th consecutive `market_close` (9/30) at 30.3% (RARE + AGEN). Research gap, not a bearish call. Day-2 plans VNDA (-2.4%) and QTTB (-13%) failed on the 9/30 close; CAPR stays conditional.
+- SATELLITE FLOOR BREACH — 9th consecutive `market_close` (10/1) at 14.8% (RARE only; AGEN stopped out 9:49 ET at −2.5%). Research gap, not a bearish call. Keep widening at MEDIUM bar.
+- SATELLITE FLOOR BREACH — 10th consecutive `market_close` (10/2) at 15.2% (RARE only). Research gap, not a bearish call. Board had no live catalyst shape (NNBR undisclosed terms, AZTA misdated + $2B cap, FEAM same-day/extended). IWM at 49.6% (cap), ~35% of slice sits as cash above buffer, deliberately flagged. Still owed: W36–W40 reviews and the floor-arithmetic escalation.
