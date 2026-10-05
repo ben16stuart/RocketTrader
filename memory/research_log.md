@@ -14,15 +14,22 @@ fundable from book cash before any IWM sale (rule 3). **Rule 70 on every entry.*
 _W40 board (UNCY/LBRX/IRD/ACHV/GLUE/AGEN notes) archived to `archive/research_log_history.md` 2026-10-03._
 W40 gate counterfactual: all 7 pre-committed shape kills would have lost by 10/02 (W40 review §3). Keep the gates.
 
-### Monday 10/05 — day-2 plan (42, pre-committed as shapes)
-- **FEAM** (5E Advanced Materials, $162M, float 22.4M, ADV 767k, **DE** via 10-K cover; EDGAR field blank).
-  Catalyst: Searles Valley asset acquisition **closed 10/01** (8-K 1.01/2.01/2.03). 10/02: +20.1% to **$3.88**,
-  94% of range ($3.25–$3.92) on 6.1× median. **Conviction MEDIUM, conditional.**
-  - BEFORE sizing (premarket): read the 9/15 8-K (Item 3.02 unregistered sale, 8) and compute 60-day 5-min
-    MDD (daily ranges 14–21%, so stop fit is the likely kill, 37).
-  - Enter only if 2a ✓, the 9:45–9:50 bar closes upper half, and price is $3.88–$4.27. **Dead below $3.585**.
-  - Bear: 8.3M stock-consideration shares (~20%) issued; $10M 8% PIK bridge due ~6/2027 → a raise is likely;
-    going-concern language; pre-revenue; +128% in a month. **At the MEDIUM bar, dilution is the tiebreaker.**
+### Monday 10/05 midday — **RARE CLOSED by stop (−4.4%, $14.42, 10:26 ET).** Catalyst intact but no live position; re-entry needs a fresh dated catalyst + day-2 shape. Book is IWM-only again (satellites 0%). Midday scan: DNA/MNTK/SDEV/XRPN/PUSA all fail (1, 10, 31); no new names.
+
+### Monday 10/05 — premarket result: **NO ENTRY TODAY** (board empty after widened rule-8 search)
+- **FEAM → PASS (closed as a day-2 plan).** Pre-committed checks run:
+  - 9/15 8-K (Items 1.01/3.02): 8.3M seller shares issued under 4(a)(2), **company agreed to register their resale
+    "following the consummation" — closing was 10/01, so a resale S-1/S-3 is due now.** 8.3M = **37% of the 22.4M
+    float**, no lock-up disclosed. Plus $10M 8% PIK bridge, **270-day maturity** + $1M fee, and a $6.2M 14.5% PIK note.
+    A named, imminent seller overhang → the MEDIUM-bar dilution tiebreaker (W40) applies.
+  - Stop fit (37): 60-day 5-min MDD from the post-9:50 running high: median 5.7%, p75 8.2%, **37% of days >7%**
+    (9/23 11.3%, 9/29 11.9%). Roughly a 1-in-3 chance per day of a noise stop-out.
+  - Claim made (48f): "it will fall" (resale supply) + "can't hold it" (stop fit). Reopen only if the resale
+    registration is filed AND absorbed (a session closing upper half after the S-1/S-3 goes effective).
+- **TBCH → PASS (closed).** The "B. Riley Buy/$21, Oct 2" item is dated **2025-10-20** at source (Yahoo/Insider
+  Monkey, rating 2025-10-02). No 2026 catalyst; the 10/02 +9.4%/4.2× has no dated cause (1, 33).
+- Scanner "movers" PNNT/ESRT/NUCL/FULC/DBI/ABEO: settled 10/02 bars show **no move** (PNNT closed at its low,
+  ESRT +1%). Scanner Change % is broken again (17). No catalysts. Out.
 
 ### W41 scheduled catalysts (Nasdaq/nextearningsdate rows; confirm on the 8-K, never the row, 65)
 | Name | Date | Gates | Conviction | Plan |
@@ -36,12 +43,12 @@ Out (cap): PENG, NEOG, NRIX, AEHR, AZZ. Out (ADV): APOG, RELL, ODC, VLGEA, BSET.
 ### Conditional plans
 - **IRD — PDUFA 10/17.** Entry only if a session 10/05–10/13 closes **upper half on ≥1.5× median (~3.4M)** AND
   ≥ $4.84. **Exit by 10/15 close** (29). Kill: closes < $4.40 on heavy volume. 10/02 $4.58 (59%, 0.8×) — no trigger.
-  Dilution: S-3 filed 8/07, effective 8/14 — read the shelf size before sizing.
+  Dilution: S-3 filed 8/07, effective 8/14 — read the shelf size before sizing (EDGAR ticker atom query returned
+  empty 10/05; use the CIK path).
 - **UNCY — NDA acceptance PR** (≤30 days from 9/29). Day-2 only on an upper-half close ≥2× median. 10/02 $4.22, sliding.
-- **TBCH** ($251M, float 10.8M, short 32%, NV ✓): +9.4% 10/02 on 3.7×. The only catalyst found ("B. Riley Buy/$21")
-  reads like a misdated 2025 article (33); no 8-K since 8/06. Date it at the source or PASS (1).
 
 ### Closed this session
+- **FEAM** (10/05: 37%-of-float resale registration owed + stop fit), **TBCH** (10/05: catalyst is a 2025 article).
 - **NNBR** FAIL: undisclosed contract terms (49) + authorized shares doubled 90M→180M on 9/30 (8) + Form 144s
   9/23, 9/29, 10/02. **NEOV** FAIL (8): 4.5M-share resale 424B3 + new S-3 10/02; no catalyst found for +21%.
 

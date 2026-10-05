@@ -4,6 +4,15 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-10-05 — RARE SELL (trailing stop fill, detected at midday, Monday, Week 41 day 1)
+
+- 31 sh @ $14.42 (trailing_stop order filled 14:26:48 UTC = 10:26 ET; stop $14.4336, HWM $15.52, 7%). Entry 9/23 $15.08 → **−$20.46 / −4.4%**. Held 8 sessions.
+- Fired after market_open's 13:45 UTC snapshot (RARE $14.96 then). Prior settled close $15.22. Live RARE at midday $14.57, so holding to now would have been +$4.65 better than the fill (intraday dip below the stop, partial recovery). Stop worked as designed (32a: no override).
+- Catalyst (9/17 FDA approval of Fayuvi) not invalidated; no negative news found (only old Pomerantz ad, rule 62). Price-action exit, no re-entry (needs a fresh dated catalyst).
+- Proceeds → pooled cash (book cash ≈ $966.33 + $447.02 = $1,413.35). Satellites now 0% vs 50% floor; IWM ≈49.7%. Research gap, not a bearish call. Rebalance decision deferred to market_close (rule 7). Weekly count 1/5 (W41: 0 new buys).
+
+---
+
 ## 2026-10-03 — WEEK 40 SUMMARY (weekly review) — 1 satellite opened and closed, 0/1 win rate
 
 - **Fills this week:** AGEN BUY 47 @ $9.81 (9/29), AGEN SELL 47 @ $9.56 (10/01, trailing stop) = **−$11.75 / −0.36R**. New positions 1/5.

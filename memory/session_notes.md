@@ -3,6 +3,55 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-05 — MARKET_CLOSE — DID NOT RUN [automated fallback, no LLM]
+
+The market_close routine produced no output: Claude session limit (resets 3pm (America/Denver)). It failed before doing any work: nothing was executed.
+A no-LLM fallback (`scripts/degraded_close.py`) ran instead. It placed **no orders** and touched no file except this note and `portfolio_state.md`.
+
+- **Done by the fallback:** portfolio snapshot synced, books reconciled, automated ntfy summary sent, memory commit and push attempted (the ntfy states the result).
+- **NOT done today:** stop review, core rebalance, fill logging in `trade_log.md`, lessons, and tomorrow's research priorities. Broker-side stops were unaffected.
+- Day (as of 13:58 MDT): +0.27% (+$8) vs IWM +0.54%. Satellites 0.0% (floor 50% 🚨 breached) | Core 49.7% | Cash 50.3% of slice.
+- Books vs broker: ✅ Balanced.
+- Orders today: none.
+- Stops armed: none needed (no satellites).
+- Rebalance drift, informational and NOT executed: IWM $1,550 vs target $1,558 -> in band. The core rebalance only runs at `market_close`, so it is still owed if outside the band.
+
+---
+## 2026-10-05 — MIDDAY (Monday, Week 41 day 1) — RARE STOPPED OUT (−4.4%); no new entry; satellites 0%
+
+- **RARE** stop filled 10:26 ET @ $14.42 (stop $14.4336) → −$20.46 / −4.4% vs $15.08. Detected at midday via snapshot ("MISSING: RARE") + `/v2/orders` closed. RARE $14.57 at midday (above fill); no new negative news (only the old Pomerantz ad). Logged in trade_log. No ntfy (routine stop fill, not a forced cut).
+- Scan (`unusual_volume`, 10:15 stamp): DNA +19.2% (already FAIL at open: no dated catalyst, ladder fails), MNTK +10.9% at $3.18 (floor trap, no catalyst), SDEV/XRPN/BEAG/PUSA crypto/SPAC/floor (31, 10), VELO/CWH/FDMT/PCT negative. Nothing clears rule 1. No entry.
+- Satellites **0%** of slice, IWM ≈49.7%, cash above buffer ≈ $1,100+ with no bearish thesis: research gap, not a market call. 11th breach pending at close; rebalance/IWM check at close (rule 7). Binding constraint: board quality. Next catalysts: RGP 10/07, ANGO/BYRN 10/08.
+
+---
+
+## 2026-10-05 — MARKET_OPEN (Monday, Week 41 day 1) — no entry; RARE held; board still empty
+
+- Open (13:45 UTC snapshot): RARE $14.96 LIVE vs 10/02 settled $15.22 (−1.7%), stop $14.4336 is 3.5% away → HOLD, 32a (no override >2% only applies when closer; not engaged). Floor 14.9% (breach #11 pending at close). IWM 49.4%.
+- Scanner data stale (stamped 07:45, RARE RelVol 0.0x) → name source only (17). Unusual-volume list: crypto/SPAC/pinned (SDEV, XRPN, BEAG, USDE, GRML), VELO −18% (down), PUSA $3.11 (floor trap, no catalyst). Movers: only DNA +9.8%.
+- **DNA FAIL (1):** one inline search — no dated catalyst; Q2 revenue −48%, TD Cowen Hold/PT $9, BTIG Sell/PT $5 (rule 11 ladder fails; analyst targets below price). "Curious rally" shape.
+- FEAM 3.2× RelVol, −0.3% at $3.87 — plan closed premarket, stays closed (no resale filing seen).
+- No trades. No ntfy. Binding constraint: board quality.
+
+---
+
+## 2026-10-05 — PREMARKET (Monday, Week 41 day 1) — board EMPTY after widened search; FEAM + TBCH closed; no entry today
+
+- **Satellite floor breached 10 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 15.2% (RARE only) · IWM 49.6% (at cap) · slice $3,104.15 · shared cash $1,423.56.
+- Funnel: earnings calendar (5 rows, 0 in universe) → FDA tape (nothing dated 10/02–10/04 in universe) → initiations
+  (no 2026-dated small-cap results) → all 4 screeners → ~60 rows → 8 eligibility (8/8) → 7 in universe → **0 live**.
+- **FEAM PASS:** the 9/15 8-K obliges registering the resale of 8.3M seller shares (37% of float) after the 10/01 close.
+  Also a 270-day PIK bridge. 5-min stop fit: 37% of days >7% MDD. Closed unless the resale is filed and absorbed.
+- **TBCH PASS:** the B. Riley "Buy/$21 Oct 2" item is from 2025 (dated at source). No 2026 catalyst.
+- Scanner Change % is wrong again (PNNT/ESRT "+12–15%" had no settled move) (17).
+- Held: RARE 10/02 settled $15.22, stop $14.4336 (re-read via `/v2/orders` at open). No news searched (no trigger).
+- Macro: VIX 15.31 close / 16.30 LIVE; RTY −0.18% LIVE; 10Y 5.28%. ISM Services 10:00 ET; FOMC minutes this week. **Binding: board quality.**
+- Rest of the week: RGP 10/07, ANGO 10/08 BMO (day-2 10/09), BYRN 10/08; IRD run-up trigger (exit by 10/15); UNCY NDA PR.
+- No trades (market closed). No ntfy.
+
+---
+
 ## 2026-10-03 — WEEKLY REVIEW (Week 40, Saturday) — Grade D+; floor 21.0% avg; W41 board built
 
 - Book +0.27% vs IWM −0.16% (**+0.43%**, all RARE). AGEN 0/1 (−0.36R, clean entry, stop saved ~$57). Satellites avg **21.0%**, 5/5 closes below floor, all logged; rule 8 acted on (sources widened, MEDIUM bar used).
