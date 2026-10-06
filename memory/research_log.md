@@ -14,6 +14,22 @@ fundable from book cash before any IWM sale (rule 3). **Rule 70 on every entry.*
 _W40 board (UNCY/LBRX/IRD/ACHV/GLUE/AGEN notes) archived to `archive/research_log_history.md` 2026-10-03._
 W40 gate counterfactual: all 7 pre-committed shape kills would have lost by 10/02 (W40 review §3). Keep the gates.
 
+### Tuesday 10/06 — premarket result: **NO ENTRY TODAY** (board empty after widened rule-8 search, 11 breaches)
+- Funnel: earnings calendar 10/05 (3 rows, 0 in universe: AEHR >$2B) + 10/06 BMO/AMC (11 rows; **WS FAIL ADV 263k**,
+  **SAR FAIL ADV 166k**, APOG/VLGEA ADV-out, rest >$2B or micro) → FDA tape search (nothing dated 10/02–10/05)
+  → initiations (Benzinga 403/redirect; **source broken, not a real absence**, 41b) → all 4 screeners → 11 eligibility (11/11 rows, 43 ✓).
+- **Scanner Change % wrong again (17):** AHRT "+7.8%" settled −1.2%, VOYG "+5.4%" −2.4%, SVRA "+6.1%" −0.6%, RYAM
+  "+5.6%" −2.5%, FBRT/ARLO/XPER/SXC flat-to-down. None moved on 10/05. Out (no move, no catalyst).
+- **CRVO → PASS.** Settled 10/05 +9.6%, 86% of range, 4.1× median, BUT: no dated October catalyst found (latest is the
+  Sept ISFTD late-breaker acceptance = a clinical-data presentation, the 0/4 category); $3.31 is within 10% of the $3 floor
+  and $50M cap sits ON the cap floor (10, 13); a "$10M offering" headline in recent news (8). Volume without a named cause = rule 1.
+- **IRD — 10/05 closed $4.38 (13% of range, 1.3× median)**, below the $4.40 kill level but under the 1.5× "heavy" bar, so
+  the pre-committed kill did not fire on its shape. The entry trigger ($4.84, +10.5%) is now distant. Plan stands; one
+  more close <$4.40 on ≥1.5× kills it (34: a trend, not one print).
+- ANGO 10/05 $15.54 (+2.8%, 87% of range) — plan unchanged, 10/08 BMO → day-2 10/09.
+
+### Tuesday 10/06 market_open (9:45 ET) — **NO TRADE.** IRD $4.37 (<$4.84 trigger, 0.0x vol at check), UNCY $4.19 (no ≥2× upper-half close). Scanner movers: DNA (closed 10/05), PRME (Gate A), PACB +18%/8.9× ($3.39, near $3 floor) — one search, no named dated catalyst → rule 1; same-day entry → rule 2. SDEV/XRPN/PUSA/AVBP fail (mandate/ADV/drop). Satellite floor breach continues (12th).
+
 ### Monday 10/05 midday — **RARE CLOSED by stop (−4.4%, $14.42, 10:26 ET).** Catalyst intact but no live position; re-entry needs a fresh dated catalyst + day-2 shape. Book is IWM-only again (satellites 0%). Midday scan: DNA/MNTK/SDEV/XRPN/PUSA all fail (1, 10, 31); no new names.
 
 ### Monday 10/05 — premarket result: **NO ENTRY TODAY** (board empty after widened rule-8 search)
@@ -74,9 +90,9 @@ Out (cap): PENG, NEOG, NRIX, AEHR, AZZ. Out (ADV): APOG, RELL, ODC, VLGEA, BSET.
 ---
 
 ### Open escalations awaiting a user decision
-1. **Satellite floor arithmetic** (W39 §6, W40 §7: 8.8% then 21.0% at full effort). 50% needs 4/4 slots at the 15% cap. Recommend
-   counting slots (≥2 of 4) or a ~30% floor.
-2. **Rebalance basis** (lesson 44). Not binding at the 50% IWM cap.
+1. **Satellite floor arithmetic** — IWM cap LIFTED 2026-10-06 (Ben chose option 1). RULED 2026-10-06: per-slot cap (15%) and 50% floor stay UNCHANGED —
+   no proven edge to size up (last 2 entries stopped out); revisit after >=8 closed satellite trades.
+2. **Rebalance basis** (lesson 44). Now binding — IWM fills to the 90% line.
 3. **ADV gate vs account size** (46f).
 4. **$2B ceiling vs the +25% ladder** (13). It blocks CNXC and PRGS this week.
 5. **Midday −5% cut vs stop distance** (67).

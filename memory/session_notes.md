@@ -3,6 +3,28 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-06 — MARKET CLOSE (Tuesday, Week 41 day 2)
+
+- **Satellite floor breached 12 sessions running** (0.0% of slice) — research gap, not a bearish call. Under rule 8 the next premarket's #1 job is widening the scan.
+- Rocket holds IWM core only (10 sh, 89.8% of slice, cash 10.2%). Target core $2,813 vs actual $2,813: in band, **no rebalance needed**. No satellites, so no stop review.
+- IWM today -0.75%; Rocket core -$20.80. Rocket vs IWM +6.61% since rebase. Only trade today was the Ben-ordered IWM buy (already logged). ntfy sent (confirmed).
+
+## 2026-10-06 — PREMARKET (Tuesday, Week 41 day 2) — board EMPTY after widened search; no entry today
+
+- **Satellite floor breached 11 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 0.0% · IWM 49.7% (at cap) · slice $3,122.03 · shared cash $1,870.56. Breach #11 = 10/05 close (fallback didn't log it).
+- 10/05 fallback close: rebalance flagged "in band" (IWM $1,550 vs $1,558 target), so **no rebalance is owed**. RARE stop fill already logged at midday.
+- Funnel: earnings calendar (14 rows → 0 tradeable; WS/SAR fail ADV) → FDA tape (nothing dated) → initiations (Benzinga 403,
+  source down) → 4 screeners (~60 rows) → 11 eligibility (11/11) → settled bars → **1 real mover (CRVO) → 0 live**.
+- **CRVO PASS:** +9.6% / 4.1× on 10/05 with no dated cause; $3.31 near the price floor, $50M on the cap floor; offering in recent news.
+- Scanner Change % wrong for 8 of 9 checked names (17). Breakouts Finviz query empty again (64).
+- IRD closed $4.38 (<$4.40 kill level) on 1.3×, under the 1.5× heavy bar → kill shape not met; one more such close on ≥1.5× kills it.
+- Macro: VIX 15.52 close / 15.43 LIVE; RTY +0.05% LIVE; 10Y 5.31%; oil −1.8%. Not FOMC. **Binding: board quality.**
+- Ahead: RGP 10/07 AMC (day-2 10/09), ANGO 10/08 BMO (day-2 10/09), BYRN 10/08; IRD run-up trigger; UNCY NDA PR.
+- No trades (market closed). No ntfy (no held satellites).
+
+---
+
 ## 2026-10-05 — MARKET_CLOSE — DID NOT RUN [automated fallback, no LLM]
 
 The market_close routine produced no output: Claude session limit (resets 3pm (America/Denver)). It failed before doing any work: nothing was executed.
@@ -159,3 +181,9 @@ A no-LLM fallback (`scripts/degraded_close.py`) ran instead. It placed **no orde
 - `memory/archive/session_notes_2026-07.md` — July 2026
 - `memory/archive/session_notes_2026-06.md` — June 2026
 - `memory/archive/session_notes_may2026.md` — May 2026
+
+## 2026-10-06 — MIDDAY (Tuesday, Week 41 day 2) — no satellites, no action
+
+- Book: IWM core only (≈9.98 sh after this morning's 10:23 ET buy; snapshot display shows stale 10 sh/rounded). SPY 9 sh is Bull's. No satellite positions → nothing to cut/tighten, no holdings news check needed.
+- Scanner (name source only, rule 17): ITG +19.3% (same-day gap, rule 2: day-2 only), BRUN +9.1%, CGEM +7.6%, PRME +9.3% (closed on Gate A 9/25). No dated catalyst verified for any; no entry. Others were big decliners (AVBP −49%, XRPN −52%, DNA −17%).
+- Satellite floor still breached (0%); breach is a research gap. ITG/BRUN are candidates for tomorrow's premarket catalyst check if a dated catalyst exists.

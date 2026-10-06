@@ -4,6 +4,14 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-10-06 — CORE REBALANCE, IWM BUY (manual, ordered by Ben via the desktop session, Tuesday, Week 41 day 2) — FIRST BUY UNDER THE UNCAPPED IWM RULE
+
+- **4.5017 sh @ $282.3767** (market order, filled 10:23 ET; order id 852472fb). Fractional, no stop (core carries none).
+- Pre-trade IWM 5.4746 sh = $1,545.92 (49.4% of slice); post-trade ~9.9763 sh ≈ $2,817 (90% of the $3,130 slice).
+- **Why:** Ben lifted the 50% IWM cap this morning (CLAUDE.md rule 2, commit 666fc61). With 0% satellites, ~50% of the slice was idle cash — an unintended bet that small caps fall. The sweep brings Rocket to the 90% invested line, leaving the 10% buffer.
+- Placed intraday rather than waiting for `market_close` because yesterday's close hit the Claude session limit and the no-LLM fallback places no orders, so the rebalance could have slipped a day. This is a one-time policy transition, not a precedent for intraday rebalancing.
+- Satellite floor is **still breached (0% vs 50%)** — this changes where the idle money sits, not the research obligation. Pooled cash after ≈ $599, covering Rocket's ~$313 buffer and Bull's.
+
 ## 2026-10-05 — RARE SELL (trailing stop fill, detected at midday, Monday, Week 41 day 1)
 
 - 31 sh @ $14.42 (trailing_stop order filled 14:26:48 UTC = 10:26 ET; stop $14.4336, HWM $15.52, 7%). Entry 9/23 $15.08 → **−$20.46 / −4.4%**. Held 8 sessions.
