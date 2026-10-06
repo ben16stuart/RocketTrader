@@ -103,6 +103,9 @@ median ADV (46) · issuer filing over any secondary source (57b/65) · 8-K Item 
 - ✅ **Satellite floor arithmetic — PARTLY DECIDED 2026-10-06:** Ben chose to lift the IWM cap (idle money
   sits in IWM, not cash). The 50% floor and per-slot 15% cap are UNCHANGED; still open: whether to raise
   the per-slot cap (~25%) or lower the floor. 50% needs all four slots full at max size.
+  **RULED 2026-10-06 (Ben delegated the call): leave both UNCHANGED.** The last two satellite entries both
+  stopped out (−4.4%, −2.5%) — no proven edge to size up, and a lower floor just removes the pressure to
+  search. Revisit after ≥8 closed satellite trades. The lever that matters is more *qualified catalysts*.
 - **Rebalance basis, slice vs book** (lesson 44). Now binding: IWM fills to the 90% line.
 - **$2B ceiling vs +25% ladder** (lesson 13). It blocks CNXC and PRGS for W40 by construction.
 - **Midday flat "−5% = cut" vs stop distance** (lesson 67). RARE tally favors 32a by ≈$31.
