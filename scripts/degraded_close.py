@@ -48,7 +48,7 @@ ME, SIB = ("Bull", "Rocket") if IS_BULL else ("Rocket", "Bull")
 BENCH = "SPY" if IS_BULL else "IWM"          # each agent's benchmark, and its core sleeve
 NOTES = os.path.join(REPO, "memory", "session_notes.md")
 
-SAT_FLOOR_PCT = None if IS_BULL else 50.0     # Rocket's hard guardrail (CLAUDE.md, 2026-09-17)
+SAT_FLOOR_PCT = 50.0   # both agents: >=50% of slice in stock picks (Rocket 2026-09-17, Bull 2026-10-06)
 BUFFER = 0.10                                 # 10% operating cash buffer
 BAND = 0.03                                   # rebalance band, as a fraction of slice
 
@@ -68,8 +68,8 @@ def bench_return():
 def rebalance_line(slice_, sat_val, core_val, core_qty, core_px):
     """Would the core rebalance have traded? Informational: this script never trades."""
     target = slice_ - sat_val - BUFFER * slice_
-    # Rocket's IWM cap (50%) was lifted 2026-10-06: idle money sits in IWM, not cash.
-    # The 50% satellite floor is still reported (SAT_FLOOR_PCT) but no longer caps the core.
+    if not IS_BULL:
+        target = min(target, 0.50 * slice_)   # Rocket's IWM cap
     target = max(target, 0.0)
     drift = core_val - target
     in_band = abs(drift) <= BAND * slice_
