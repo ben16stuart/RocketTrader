@@ -115,11 +115,11 @@ startup run). This determines how today's watchlist gets built:
   - State explicitly in this session's summary: "Satellite floor breached N
     sessions running — searched at MEDIUM-conviction bar per rule 8."
 
-**If nothing clears the bar even at the widened search, the leftover — capped at
-50% of slice — holds IWM.** An empty watchlist after a genuine widened search is
+**If nothing clears the bar even at the widened search, the leftover holds IWM
+(no cap since 2026-10-06 — idle money sits in the benchmark, not in cash).** An empty watchlist after a genuine widened search is
 still a legitimate outcome sometimes; an empty watchlist from a routine HIGH-only
-scan while sitting on a two-session breach is not. Cash above the 10% buffer (once
-IWM is already at its 50% cap) requires a written bearish thesis with a trigger and
+scan while sitting on a two-session breach is not. Cash above the 10% buffer
+requires a written bearish thesis with a trigger and
 an expiry date — and that thesis has to be an actual bearish view, never a
 restatement of "nothing looked good."
 

@@ -78,8 +78,9 @@ def build_snapshot() -> str:
 
     # Satellite-floor visibility. CLAUDE.md "Hard Guardrails" (2026-09-17) requires
     # satellites (actively-picked stocks) to be >=50% of Rocket's slice at all times,
-    # with IWM core capped at the remaining <=50% -- IWM must never be the default
-    # parking spot for capital that should be finding stock picks. Computed here,
+    # with the unfilled remainder parked in IWM (the old <=50% IWM cap was lifted
+    # 2026-10-06 -- it only produced idle cash). The breach is still flagged here and
+    # escalated by the routines, so it cannot hide. Computed here,
     # not just in market_close's rebalance math, so the split is visible every
     # session and can't go unnoticed the way a multi-week satellite drought did.
     satellite_value = core_value = 0.0
@@ -127,13 +128,14 @@ def build_snapshot() -> str:
         f"| Sleeve | % of slice | Rule |",
         f"|--------|-----------|------|",
         f"| **Satellites (stock picks)** | {satellite_pct:.1f}% | must be >= 50.0% |",
-        f"| Core (IWM) | {core_pct:.1f}% | capped at <= 50.0% |",
+        f"| Core (IWM) | {core_pct:.1f}% | absorbs the leftover (no cap since 2026-10-06) |",
+        f"| Cash | {max(0.0, 100.0 - satellite_pct - core_pct):.1f}% | buffer only (<= 10%) |",
         f"",
         (f"✅ **Satellite floor met.**" if floor_ok else
          f"🚨 **SATELLITE FLOOR BREACHED — {satellite_pct:.1f}% < 50%.** Rocket is not "
-         f"deployed in enough stock picks. This is not a market call to sit out — it is "
-         f"a research gap. Finding a qualifying name is the top priority of the next "
-         f"session, not an optional nice-to-have."),
+         f"deployed in enough stock picks (the shortfall sits in IWM, not cash). This is "
+         f"not a market call to sit out — it is a research gap. Finding a qualifying "
+         f"name is the top priority of the next session, not an optional nice-to-have."),
         f"",
         f"**Rebase Date**: {REBASE_DATE} (account merged with Bull — prior standalone",
         f"history since {ORIGINAL_INCEPTION_DATE} is preserved in memory/weekly_reviews/)",

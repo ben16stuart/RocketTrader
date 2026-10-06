@@ -100,9 +100,10 @@ median ADV (46) · issuer filing over any secondary source (57b/65) · 8-K Item 
 
 ## Open questions / escalations (awaiting Ben)
 
-- 🚨 **Satellite floor arithmetic** (W39 §6, W40 §7): recommend counting open slots (≥2 of 4) or a
-  ~30% floor. As written, 50% needs all four slots full at max size. Two full-effort weeks: 8.8%, 21.0%.
-- **Rebalance basis, slice vs book** (lesson 44). Not binding while IWM is at the 50% cap.
+- ✅ **Satellite floor arithmetic — PARTLY DECIDED 2026-10-06:** Ben chose to lift the IWM cap (idle money
+  sits in IWM, not cash). The 50% floor and per-slot 15% cap are UNCHANGED; still open: whether to raise
+  the per-slot cap (~25%) or lower the floor. 50% needs all four slots full at max size.
+- **Rebalance basis, slice vs book** (lesson 44). Now binding: IWM fills to the 90% line.
 - **$2B ceiling vs +25% ladder** (lesson 13). It blocks CNXC and PRGS for W40 by construction.
 - **Midday flat "−5% = cut" vs stop distance** (lesson 67). RARE tally favors 32a by ≈$31.
 - **Premarket liquidity check needs `sip` data** (lesson 66). Without it the check is aspirational.

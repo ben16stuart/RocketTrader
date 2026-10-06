@@ -72,6 +72,25 @@ Position sizing:
 python scripts/alpaca_client.py size SYMBOL ENTRY_PRICE STOP_PRICE
 ```
 
+**Fund the entry from IWM first (core funding sale).** Idle money sits in IWM, not
+cash (CLAUDE.md rule 3), so Rocket's own sleeve usually cannot pay for a satellite
+out of its cash buffer. Before the BUY:
+
+1. `cost = SHARES x entry_price`.
+2. Rocket's spendable cash = its 10% buffer above zero = `slice * 0.10` plus any cash
+   already above that (read `portfolio_snapshot.py`; the account cash is POOLED with
+   Bull — never treat Bull's cash as yours).
+3. If `cost` exceeds that, SELL the shortfall in IWM (fractional is fine) and wait for
+   the fill, THEN place the buy:
+   ```
+   python scripts/alpaca_client.py sell IWM QTY
+   ```
+   Never sell more IWM than the entry needs. Do not place a stop on IWM.
+4. Log the sale in `memory/trade_log.md` as `CORE FUNDING — IWM SELL for [SYMBOL]`.
+   The reconciler treats core trims as non-exits, so this will not be mistaken for a
+   closed position. It is the one permitted intraday core trade — everything else
+   waits for `market_close`.
+
 Place order:
 ```
 python scripts/alpaca_client.py buy SYMBOL SHARES

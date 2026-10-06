@@ -68,8 +68,8 @@ def bench_return():
 def rebalance_line(slice_, sat_val, core_val, core_qty, core_px):
     """Would the core rebalance have traded? Informational: this script never trades."""
     target = slice_ - sat_val - BUFFER * slice_
-    if not IS_BULL:
-        target = min(target, 0.50 * slice_)   # Rocket's IWM cap
+    # Rocket's IWM cap (50%) was lifted 2026-10-06: idle money sits in IWM, not cash.
+    # The 50% satellite floor is still reported (SAT_FLOOR_PCT) but no longer caps the core.
     target = max(target, 0.0)
     drift = core_val - target
     in_band = abs(drift) <= BAND * slice_

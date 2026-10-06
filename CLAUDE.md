@@ -196,7 +196,7 @@ If you cannot name a specific catalyst, **do not trade**.
 |------|-------|
 | Max **satellite** position size | 15% of Rocket's allocated slice (30% of shared account) |
 | Max open **satellite** positions | 4 simultaneously |
-| **Minimum satellite deployment** | **>= 50% of Rocket's slice, always.** Core (IWM) is capped at <= 50% — it is never a substitute for stock-picking. See Portfolio Construction. |
+| **Minimum satellite deployment** | **>= 50% of Rocket's slice, always.** Any shortfall is parked in IWM (never cash), is flagged every session, and escalates under rule 8 — it is never a substitute for stock-picking. See Portfolio Construction. |
 | Max new Rocket positions per week | 5 |
 | Daily loss cap | 5% of Rocket's allocated slice → **stop opening new positions. NEVER liquidate.** |
 | Trailing stop on **satellites** | 7% below entry (tighter than Bull — small caps volatile) |
@@ -229,16 +229,19 @@ Fixed on 2026-09-17 with a hard floor:
 | Sleeve | What it is | Instrument | Rule |
 |--------|------------|------------|------|
 | **Satellite** | Catalyst-driven small-cap picks. The actual job. | Researched names | **>= 50% of slice, always** |
-| **Core** | The leftover, when satellites are genuinely full. | **IWM** (Russell 2000) | **<= 50% of slice, capped** |
+| **Core** | Everything the satellites do not use, up to the 10% buffer. | **IWM** (Russell 2000) | **No cap — fills the leftover** |
 | **Cash** | An explicit bearish call, never a default. | — | <= 10% operating buffer |
 
-Note what changed: IWM's ceiling used to be "whatever satellites don't use," which
-could be 100%. **It is now capped at 50%, full stop** — regardless of how thin the
-watchlist looks. If satellites are below 50% and IWM is already at its 50% cap, the
-excess sits as cash above the normal 10% buffer. That is *deliberately* uncomfortable
-and is flagged every session (`portfolio_snapshot.py`'s "Deployment — Satellite
-Floor" block) rather than quietly absorbed — the discomfort is the point. It is the
-forcing function that stops a quiet week from becoming a quiet month.
+Note the history: IWM's ceiling was "whatever satellites don't use" (up to 100%),
+which hid a two-week research drought. On 2026-09-17 it was capped at 50% so the gap
+would be uncomfortable. **On 2026-10-06 (Ben's call) that cap was lifted.** It had
+not produced a single extra pick in three weeks — it only turned an unfilled
+satellite floor into ~50% idle cash, and cash is an active bet that small caps fall,
+which is exactly what "always deployed" rules out. What forces the research is the
+**floor itself**: it is still a Hard Guardrail, still measured and flagged every
+session (`portfolio_snapshot.py`'s "Deployment — Satellite Floor" block), still
+graded in `weekly_review`, and still escalates under rule 8. The *discomfort* now
+comes from the visible breach and the escalation, not from forcing idle cash.
 
 **A satellite-floor breach is a stock-picking gap, not a market call.** Do not treat
 it like the bearish-cash-thesis exception — that exception is for a *deliberate* view
@@ -265,19 +268,27 @@ must never be written up as if it were.
 
 1. **Satellites must be >= 50% of slice at all times.** This is a Hard Guardrail,
    not a target to trend toward — see the guardrails table above.
-2. **IWM is capped at <= 50% of slice.** It absorbs the leftover ONLY after the
-   satellite floor is respected — it is never sized up to paper over a research gap.
+2. **IWM absorbs the leftover — there is no cap.** Whatever the satellites do not
+   use, minus the 10% buffer, sits in IWM, never in cash. A floor shortfall is still
+   a breach to flag and escalate; it is just not paid for with idle cash.
 3. **Fund satellites by selling core**, never by sitting in cash waiting for a setup.
-4. **When a satellite exits, proceeds return to core the same session** — not to
-   cash — UNLESS that exit drops satellites below 50%, in which case those proceeds
-   are the seed capital for the next satellite entry, not a core top-up. Read that
-   as: an exit that breaches the floor should be replaced by a new pick before its
-   proceeds ever touch IWM.
+   Because IWM now holds the idle money, a new satellite entry usually needs cash
+   raised first: **SELL the IWM shortfall (fractional market order) immediately
+   before the BUY, same session.** This is a *funding sale*, not a rebalance — it is
+   tied to a specific entry and is the one permitted intraday core trade. Log it as
+   `CORE FUNDING` in `trade_log.md`. The account is margin (4x), so proceeds are
+   usable at once.
+4. **When a satellite exits, proceeds return to core at that session's
+   `market_close`** — not to cash. (A stop that fires intraday leaves the proceeds as
+   cash until the close sweep; that is fine, it is one session.)
 5. **Cash above the 10% buffer requires a written bearish thesis** in
    `research_log.md`, with a trigger and an expiry date — and see the note above:
-   this is for a genuine bearish call, never for "nothing qualified."
+   this is for a genuine bearish call, never for "nothing qualified." Under the
+   new rule 2 there is no longer a mechanical reason for cash to exceed the buffer,
+   so any that does is a violation to explain.
 6. **The core does not count** against max satellite size or max open positions.
-7. **Rebalance at `market_close` only** — never intraday.
+7. **Rebalance at `market_close` only** — never intraday. The one exception is the
+   rule-3 funding sale, tied to a specific satellite entry.
 8. **A satellite-floor breach escalates, it does not reset.** If satellites are
    below 50% at two consecutive `market_close` sessions, the next `premarket`'s
    first job is closing that gap: widen the scan, and accept MEDIUM-conviction

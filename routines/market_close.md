@@ -56,14 +56,15 @@ python scripts/alpaca_client.py cancel_stops SYMBOL
 
 ### STEP 2.5 — CORE REBALANCE AND SATELLITE FLOOR CHECK (IWM)
 
-**This is the only session that rebalances. Never do this intraday.**
+**This is the only session that rebalances. Never do this intraday** (the single
+exception is the market_open core *funding sale* tied to a specific satellite entry).
 
 The benchmark is the neutral position — see Portfolio Construction in CLAUDE.md.
-Idle cash is an active bet that the market falls, so it gets swept into core — but
-**IWM is capped at 50% of slice.** It is never sized up to fill space that a stock
-pick should be filling. This changed 2026-09-17: the old rule let IWM absorb
-literally everything satellites didn't use, and that quietly hid a two-week research
-drought behind a fully-deployed-looking book.
+Idle cash is an active bet that the market falls, so it is swept into IWM. **As of
+2026-10-06 IWM has no 50% cap** (Ben's decision): the old cap turned an unfilled
+satellite floor into ~50% idle cash without producing a single extra pick. The floor
+is still a Hard Guardrail — it is measured, logged and escalated below — but its
+shortfall is parked in IWM, not cash.
 
 1. Read the `## Position Reconciliation` block in `memory/portfolio_state.md` to see
    which positions are **yours**. Never infer ownership yourself.
@@ -83,12 +84,10 @@ drought behind a fully-deployed-looking book.
     priority of tomorrow's `premarket` — see CLAUDE.md rule 8 (widen the scan,
     accept MEDIUM conviction). Say so explicitly in this session's summary.
 
-5. Compute `target_core = min(slice - satellite_value - (slice * 0.10), slice * 0.50)`.
-   The first term is the old logic (leftover after the 10% cash buffer); the `min`
-   with `slice * 0.50` is the new hard cap. **If satellites are below 50%, this
-   formula will not let IWM fill the gap** — the shortfall shows up as cash above
-   the normal buffer, which is the intended, visible discomfort (see rule above,
-   and `portfolio_snapshot.py`'s "Deployment — Satellite Floor" block).
+5. Compute `target_core = slice - satellite_value - (slice * 0.10)` — everything
+   the satellites do not use, minus the 10% cash buffer. **There is no 50% cap.**
+   A floor breach does not change this number; it is flagged (above) and escalated
+   at tomorrow's premarket instead.
 6. Compare to your current IWM holding:
    - **short by more than 3% of slice** → BUY IWM to close the gap
    - **over by more than 3% of slice** → SELL IWM down to target
@@ -104,9 +103,11 @@ bearish cash thesis is active and unexpired in `research_log.md`, or the daily l
 cap has been hit (which stops NEW positions — it never forces liquidation). The
 satellite floor check itself always runs regardless.
 
-If cash is above the buffer, IWM is already at its 50% cap, and there is no written
-bearish thesis, that is a rule violation: either write the thesis or explain in the
-summary why the satellite floor hasn't been met yet. Do not leave it undiscussed.
+If cash is above the buffer after the rebalance and there is no written bearish
+thesis, that is a rule violation: either write the thesis or explain in the summary
+why. Do not leave it undiscussed. Separately, every session where satellites are
+below 50% must say so in the summary — the breach is a research gap and is still
+reported even though the shortfall now sits in IWM rather than cash.
 
 ---
 
