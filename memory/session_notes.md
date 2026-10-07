@@ -3,6 +3,21 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-07 — PREMARKET (Wednesday, Week 41 day 3) — board EMPTY after widened search; no entry today
+
+- **Satellite floor breached 12 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 0.0% · IWM 89.8% · cash 10.2% · slice $3,118.41 · shared cash $1,048.98.
+- Funnel: calendar (15 rows → 1 in universe, RGP AMC tonight) → Alpaca news tape (~50 headlines + premarket-movers list)
+  → 3 web searches (FDA/initiations/movers: nothing dated) → 4 screeners → 21 settled bars → 7 eligibility (7/7) → **0 entries**.
+- Real catalysts all **>$2B (13)**: NEOG beat+raise, PENG beat+guide, NLST patent deal. Escalation #4 is binding again.
+- Scanner Change % wrong for every checked mover (17). Breakouts Finviz query empty (64, 7th session).
+- ANGO −7.2%/1.6× closed at 13% of range into 10/08 BMO (distribution flag). BYRN dropped: median ADV 265k (46).
+- Macro: VIX 15.01 close / 15.50 LIVE; RTY −0.48% LIVE; 10Y 5.27%; Brent 101.9. **FOMC minutes 2:00 PM ET today (29).**
+- Ahead: ANGO 10/08 BMO (day-2 10/09), RGP 10/07 AMC (day-2 10/09), IRD trigger window to 10/13, UNCY NDA PR.
+- No trades (market closed). No ntfy (no held satellites).
+
+---
+
 ## 2026-10-06 — MARKET CLOSE (Tuesday, Week 41 day 2)
 
 - **Satellite floor breached 12 sessions running** (0.0% of slice) — research gap, not a bearish call. Under rule 8 the next premarket's #1 job is widening the scan.
@@ -187,3 +202,13 @@ A no-LLM fallback (`scripts/degraded_close.py`) ran instead. It placed **no orde
 - Book: IWM core only (≈9.98 sh after this morning's 10:23 ET buy; snapshot display shows stale 10 sh/rounded). SPY 9 sh is Bull's. No satellite positions → nothing to cut/tighten, no holdings news check needed.
 - Scanner (name source only, rule 17): ITG +19.3% (same-day gap, rule 2: day-2 only), BRUN +9.1%, CGEM +7.6%, PRME +9.3% (closed on Gate A 9/25). No dated catalyst verified for any; no entry. Others were big decliners (AVBP −49%, XRPN −52%, DNA −17%).
 - Satellite floor still breached (0%); breach is a research gap. ITG/BRUN are candidates for tomorrow's premarket catalyst check if a dated catalyst exists.
+
+## 2026-10-07 — MIDDAY (Wednesday, Week 41 day 3) — no satellites, no action
+
+- Book: IWM core only (~9.98 sh). The snapshot's AMD/BNY/DELL/NUE/SPY rows are Bull's. No satellites, so nothing to cut or tighten and no holdings news check.
+- Scanner `unusual_volume` (name source only, rule 17): XRPN +25% (SPAC, Armada Acquisition II; no operating catalyst), PRME +9.1% (closed on Gate A 9/25), AVBP/CBIO/ACRS/DNA/PRG/BETR/MNTS/EARN have no dated catalyst checked. No entry. No searches run, to save tokens.
+- Satellite floor still 0% vs 50%. Breach is a research gap, not a bearish call. Idle money is in IWM. No trades, no ntfy.
+
+## 2026-10-07 — MARKET CLOSE (Wednesday, Week 41 day 3)
+- Satellite floor breached 13 sessions running (0.0%) — research gap; rule 8 escalation binding tomorrow.
+- IWM core only (10 sh, 89.1%, cash 10.9%). Target core ~$2,797 vs $2,777: in band, no rebalance. IWM -1.31%; core -$36.76. Rocket vs IWM +7.29%. No trades. ntfy sent.

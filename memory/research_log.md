@@ -14,6 +14,24 @@ fundable from book cash before any IWM sale (rule 3). **Rule 70 on every entry.*
 _W40 board (UNCY/LBRX/IRD/ACHV/GLUE/AGEN notes) archived to `archive/research_log_history.md` 2026-10-03._
 W40 gate counterfactual: all 7 pre-committed shape kills would have lost by 10/02 (W40 review §3). Keep the gates.
 
+### Wednesday 10/07 — premarket result: **NO ENTRY TODAY** (board empty after widened rule-8 search, 12 breaches)
+- Funnel: Nasdaq calendar 10/06 AMC (11 rows → 0: PENG $3.3B, NEOG $2.6B cap FAIL, WS/SAR ADV, rest micro/large) +
+  10/07 (4 rows; only RGP in universe, **AMC tonight** → day-2 earliest 10/09) → Alpaca news tape 16:00Z 10/06–10:15Z 10/07
+  (~50 headlines + Benzinga premarket-movers list: all sub-$3/China/offerings or >$2B) → web FDA/initiation searches
+  (nothing dated; same thin-source caveat as 41b) → 4 screeners → 21 names on settled bars → 7 eligibility (7/7 rows, 43 ✓).
+- **Out on cap (13):** NEOG (beat + raised FY27 sales guide, +11% pre → ~$2.9B at the price paid), PENG ($3.3B),
+  NLST ($2.3B, Micron patent deal). Real catalysts, wrong universe.
+- **Scanner Change % wrong again (17):** UNCY "+5.9%" settled +1.0%/0.9×; ZURA "+8.6%" +0.8%; EVMN, DFH, DDD, ADIG, INSG
+  flat-to-down. TMCI settled **−10.7% on 3.4×** (and ADV 189k FAIL). No name moved on a catalyst on 10/06.
+- **ANGO flag:** 10/06 **−7.2% on 1.6×, closed 13% of range** — pre-print distribution ahead of 10/08 BMO. Plan unchanged
+  (day-2 10/09 needs raised guide >1% on the 8-K + upper-half close), but the stock now has to reclaim, not just hold.
+- **BYRN → FAIL ADV on the median (46):** 20-day median 265k < 300k (the eligibility mean 661k is contaminated). Dropped.
+- IRD 10/06 $4.38 (66%, 1.2×) — no trigger, no kill (not ≥1.5× below $4.40). UNCY $4.23 (56%, 0.9×) — no trigger.
+- **Event: FOMC minutes today 2:00 PM ET (29).** Any intraday entry must be done and stopped before 2:00 or wait.
+- Binding constraint (36/53): **board quality** — today's real catalysts were all above the $2B ceiling.
+
+### Wednesday 10/07 market_open — **NO TRADE.** IRD $4.40 (<$4.84 trigger, 0.1x vol), UNCY $4.14 (-2.2%, 0.1x, no >=2x upper-half close). Scanner unusual_volume/top_movers: MNTS/XRPN/MFM/AVBP/DNA/FWDI/FEAM already failed or no catalyst; movers flat, no named catalyst (rule 1). Satellite floor breach continues (13th). FOMC minutes 2PM ET.
+
 ### Tuesday 10/06 — premarket result: **NO ENTRY TODAY** (board empty after widened rule-8 search, 11 breaches)
 - Funnel: earnings calendar 10/05 (3 rows, 0 in universe: AEHR >$2B) + 10/06 BMO/AMC (11 rows; **WS FAIL ADV 263k**,
   **SAR FAIL ADV 166k**, APOG/VLGEA ADV-out, rest >$2B or micro) → FDA tape search (nothing dated 10/02–10/05)
@@ -51,8 +69,8 @@ W40 gate counterfactual: all 7 pre-committed shape kills would have lost by 10/0
 | Name | Date | Gates | Conviction | Plan |
 |---|---|---|---|---|
 | **ANGO** | **10/08 BMO** (issuer) | $635M, ADV 496k, DE ✓ | MEDIUM | Raised FY guide >1% (5a) → day-2 **10/09** if upper-half close |
-| **RGP** | 10/07 | $134M, $3.89, ADV 413k, DE ✓ | watch | Beat + raise on 8-K only. Near $3 floor (10) |
-| **BYRN** | 10/08 | $81M, $3.48, ADV 661k, DE ✓ | watch | Same. Near $3 floor (10) |
+| **RGP** | 10/07 **AMC** (Nasdaq) | $127M, $3.69, ADV 413k, DE ✓ | watch | Beat + raise on 8-K only → day-2 **10/09**. $3.69 is 23% above floor (10) |
+| ~~BYRN~~ | 10/08 BMO | **median ADV 265k** | FAIL (46) | dropped 10/07 |
 | ~~HELE~~ | 10/08 | EDGAR inc D0 = **Bermuda** | FAIL (52c) | |
 Out (cap): PENG, NEOG, NRIX, AEHR, AZZ. Out (ADV): APOG, RELL, ODC, VLGEA, BSET.
 

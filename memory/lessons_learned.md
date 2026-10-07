@@ -61,3 +61,6 @@ through.** Tool defects go under Instruments.
 - **W39 (9/21–25):** D. Book −0.99% vs IWM −0.75%. Satellites averaged 8.8% (5/5 below floor). RARE was entered on a stale reference close (70). PRME Gate A and the SCHL 8-K check each kept a loser out.
 - **W34–W38:** OMER carried W34; ETON's discretionary exit → rule 32; PD missed → rule 41; W36–W38 had no satellites.
 - Breach log: **10 consecutive `market_close` breaches through 10/02** (W40 detail in `weekly_reviews/2026-W40.md` §2). Append one line per new breach below; the weekly review folds them.
+
+## 2026-10-07 — SATELLITE FLOOR BREACH — 13th consecutive session at 0.0%
+Research gap, not a bearish call. Widened MEDIUM-bar scan at premarket found 0 in-universe catalysts (real ones all >$2B). Shortfall sits in IWM (89.1%). Rule 8 escalation remains binding for 10/08 premarket.
