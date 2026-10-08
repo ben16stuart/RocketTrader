@@ -14,6 +14,30 @@ fundable from book cash before any IWM sale (rule 3). **Rule 70 on every entry.*
 _W40 board (UNCY/LBRX/IRD/ACHV/GLUE/AGEN notes) archived to `archive/research_log_history.md` 2026-10-03._
 W40 gate counterfactual: all 7 pre-committed shape kills would have lost by 10/02 (W40 review §3). Keep the gates.
 
+### Thursday 10/08 market_open — **NO TRADE.** PCRX +44%/252x ($36.30, $1.45B) = gap >35% same day (2c) and one search found no dated cause (rule 1) → watch for 10/09 only if a primary-sourced catalyst is found and it closes upper half. TLRY −5.5% ($3.52, below MAs, 0.7x) → day-2 plan dead. FEAM +11% (resale overhang, closed). WOLF cap ceiling (13). Satellite floor breach continues (14th).
+
+### Thursday 10/08 — premarket result: **NO ENTRY TODAY** (board empty after widened rule-8 search, 13 breaches)
+- Funnel: Nasdaq calendar 10/07 AMC (4 rows) + 10/08 (10 rows) → Alpaca news tape 19:30Z 10/07–10:17Z 10/08
+  (~200 headlines, 4 pages) → 2 scanners → 16 eligibility (16/16 rows, 43 ✓) → 7 survivors → settled 10/07 bars → **0 entries**.
+- **ANGO → CLOSED (5f).** Q1 beat (adj EPS −$0.04 vs −$0.11; sales $80.9M vs $80.5M) but FY27 guide **AFFIRMED**
+  ($336–341M) = a 0% raise. Also a CEO change (Honroth, eff. 11/02). Plus the pre-print distribution (10/06 13% / 10/07 16% of range).
+- **RGP → CLOSED.** Q2 sales guide $95–100M vs $107M est; −13% AH, ~$3.16 premarket (near the $3 floor, 10).
+- **WOLF → OUT (13 + 49).** $1.5B **conditional** DoD/OSC loan commitment (10/07 4:08 PM ET), +17–27% AH. Real, dated,
+  but: cap at ~$36.70 = **$1.94B**; +15% = $2.23B breaches the ceiling (13). Debt financing, not revenue, and "conditional"
+  is not committed (49a). Claim: mandate excludes it, not "it will fall".
+- **ELMT → stays CLOSED (42d).** Needham PT $28 (10/08) after Canaccord PT $26 (10/06): maintained Buys, not
+  initiations/upgrades. 10/07 −6.6%, closed 28% of range. Gate A closed the name 9/15; a PT raise doesn't reopen it.
+- **VSTM PASS (1):** 10/07 +6.7%/1.9×, 87% of range, no dated cause (BTIG/HCW reiterations only; biomarker data = 0/4 category).
+- **Out, no catalyst:** TRAX (sliding, 5% of range), OSUR, EVC (affiliation renewal isn't a catalyst).
+- **Out on gates:** CATX (Fast Track, $2.46 price), VYLR ($52B), PROF (ADV 121k; FTG-style prelim beat), DTI (price/ADV,
+  share-funded deal), PKE (ADV 257k), DKI/MRNO/GLE (micro). BHVN = BVI (52c). HELE Bermuda, BYRN median ADV (already out).
+- **Scanner (04:20):** WOLF +17% was the AH move, real this time. RGP/ANGO/TRAX fields mixed; reconcile on bars (17).
+- **Watch: TLRY** (BMO today, not yet reported at 10:17Z; $549M, $3.71, ADV 4.1M, DE). Day-2 **10/09** only if the 8-K
+  shows a beat AND a raised FY guide >1% (5a) AND today closes upper half. $3.71 sits 24% above the floor (10).
+- IRD 10/07 $4.41 (39%, 0.9×): no trigger ($4.84), no kill. UNCY $4.18 (71%, 0.7×): no trigger.
+- Macro: VIX 15.08 close / 15.72 LIVE; **RTY −0.84% LIVE**; Brent +4.3% (Pentagon prepping Iran strikes). Fed: Barkin/Bowman
+  8:30, Schmid 11:30, Daly 1:00 ET. No FOMC. **Binding: board quality** (the one real catalyst, WOLF, sits at the cap ceiling).
+
 ### Wednesday 10/07 — premarket result: **NO ENTRY TODAY** (board empty after widened rule-8 search, 12 breaches)
 - Funnel: Nasdaq calendar 10/06 AMC (11 rows → 0: PENG $3.3B, NEOG $2.6B cap FAIL, WS/SAR ADV, rest micro/large) +
   10/07 (4 rows; only RGP in universe, **AMC tonight** → day-2 earliest 10/09) → Alpaca news tape 16:00Z 10/06–10:15Z 10/07
@@ -68,8 +92,9 @@ W40 gate counterfactual: all 7 pre-committed shape kills would have lost by 10/0
 ### W41 scheduled catalysts (Nasdaq/nextearningsdate rows; confirm on the 8-K, never the row, 65)
 | Name | Date | Gates | Conviction | Plan |
 |---|---|---|---|---|
-| **ANGO** | **10/08 BMO** (issuer) | $635M, ADV 496k, DE ✓ | MEDIUM | Raised FY guide >1% (5a) → day-2 **10/09** if upper-half close |
-| **RGP** | 10/07 **AMC** (Nasdaq) | $127M, $3.69, ADV 413k, DE ✓ | watch | Beat + raise on 8-K only → day-2 **10/09**. $3.69 is 23% above floor (10) |
+| ~~ANGO~~ | 10/08 BMO | | CLOSED 10/08 | Guide AFFIRMED = 0% raise (5f) |
+| ~~RGP~~ | 10/07 AMC | | CLOSED 10/08 | Q2 guide $95–100M vs $107M est |
+| **TLRY** | **10/08 BMO** | $549M, $3.71, ADV 4.1M, DE ✓ | watch | Beat + raise >1% on 8-K + upper-half close → day-2 **10/09** |
 | ~~BYRN~~ | 10/08 BMO | **median ADV 265k** | FAIL (46) | dropped 10/07 |
 | ~~HELE~~ | 10/08 | EDGAR inc D0 = **Bermuda** | FAIL (52c) | |
 Out (cap): PENG, NEOG, NRIX, AEHR, AZZ. Out (ADV): APOG, RELL, ODC, VLGEA, BSET.

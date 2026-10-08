@@ -3,6 +3,21 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-08 — PREMARKET (Thursday, Week 41 day 4) — board EMPTY after widened search; no entry today
+
+- **Satellite floor breached 13 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 0.0% · IWM 88.9% · cash 11.1% · slice $3,088.34 · shared cash $1,045.19.
+- Funnel: calendar (14 rows) → Alpaca news tape (~200 headlines) → 2 scanners → 16 eligibility (16/16) → 7 survivors → **0 entries**.
+- **ANGO CLOSED (5f):** beat, but FY27 guide affirmed (0% raise) + CEO change. **RGP CLOSED:** Q2 guide well below consensus, −13% AH.
+- **WOLF OUT (13/49):** $1.5B *conditional* DoD loan, +17–27% AH, but ~$1.94B cap at the price paid → +15% breaches $2B.
+- ELMT stays closed (PT raises ≠ upgrade; 42d). VSTM no dated cause (1). TRAX/OSUR/EVC no catalyst.
+- Watch: **TLRY** BMO today → day-2 10/09 only on a beat + >1% FY raise on the 8-K + upper-half close. IRD/UNCY: no trigger.
+- Macro: VIX 15.08 close / 15.72 LIVE; **RTY −0.84% LIVE**; Brent +4.3% (Iran-strike reports); 10Y 5.28%. Fed speakers 8:30–1:00.
+- Cash 11.1% is 1.1 pts over the buffer with no bearish thesis — flag for the close sweep (rule 4/5), not a market call.
+- No trades (market closed). No ntfy (no held satellites).
+
+---
+
 ## 2026-10-07 — PREMARKET (Wednesday, Week 41 day 3) — board EMPTY after widened search; no entry today
 
 - **Satellite floor breached 12 sessions running — searched at MEDIUM-conviction bar per rule 8.**
@@ -212,3 +227,9 @@ A no-LLM fallback (`scripts/degraded_close.py`) ran instead. It placed **no orde
 ## 2026-10-07 — MARKET CLOSE (Wednesday, Week 41 day 3)
 - Satellite floor breached 13 sessions running (0.0%) — research gap; rule 8 escalation binding tomorrow.
 - IWM core only (10 sh, 89.1%, cash 10.9%). Target core ~$2,797 vs $2,777: in band, no rebalance. IWM -1.31%; core -$36.76. Rocket vs IWM +7.29%. No trades. ntfy sent.
+
+## 2026-10-08 — MIDDAY (Thursday, Week 41 day 4) — no satellites, no action
+
+- Book: IWM core only. AMD/BNY/DELL/NUE/SPY rows are Bull's. No satellites, so nothing to cut or tighten and no holdings news check.
+- Scanner `unusual_volume` (name source only, rule 17): PCRX +44% on 77.8× ($1.45B cap, in universe by size). One search found no dated catalyst for today's move (only old patent-settlement stories). Same-day >35% is day-2 only (rule 2c), and a catalyst can't be confirmed from a search result (57). No entry. Candidate for 10/09 premarket: find the 8-K/PR first. BYRN +9.9% and HNRG +11% have no dated catalyst checked. ANGO −21% and the rest are decliners.
+- Satellite floor still 0% vs 50%, a research gap and not a bearish call. Idle money is in IWM. No trades, no ntfy.

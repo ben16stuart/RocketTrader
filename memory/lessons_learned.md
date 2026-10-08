@@ -64,3 +64,7 @@ through.** Tool defects go under Instruments.
 
 ## 2026-10-07 — SATELLITE FLOOR BREACH — 13th consecutive session at 0.0%
 Research gap, not a bearish call. Widened MEDIUM-bar scan at premarket found 0 in-universe catalysts (real ones all >$2B). Shortfall sits in IWM (89.1%). Rule 8 escalation remains binding for 10/08 premarket.
+
+## 2026-10-08 — SATELLITE FLOOR BREACH — 14th consecutive session at 0.0%
+
+Stock-picking gap, not a bearish call. IWM core $2,777 vs target $2,787 (within 3% band, no rebalance). No trades today. Escalation (rule 8) remains the #1 premarket job: widen scan, accept MEDIUM-conviction catalysts.
