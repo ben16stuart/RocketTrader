@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-10-08 19:58 UTC
+**Last Updated**: 2026-10-09 19:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,321.04 |
-| Rocket's Allocated Slice (30%) | $3,096.31 |
+| Shared Account Value (Bull + Rocket) | $10,364.73 |
+| Rocket's Allocated Slice (30%) | $3,109.42 |
 | Cash Available (shared, pooled) | $1,045.19 |
-| Total Invested (both agents) | $9,275.85 |
+| Total Invested (both agents) | $9,319.54 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +2.13% |
-| IWM return since rebase | -4.74% |
-| Rocket vs IWM | +6.87% |
+| Rocket return since rebase | +2.56% |
+| IWM return since rebase | -4.30% |
+| Rocket vs IWM | +6.86% |
 
 ### Deployment — Satellite Floor
 
@@ -43,12 +43,12 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| AMD | 1 | $646.48 | $620.99 | $645.86 | $-25.49 | -3.9% |
-| BNY | 6 | $141.86 | $143.65 | $142.72 | $+10.74 | +1.3% |
-| DELL | 1 | $573.43 | $575.00 | $578.96 | $+1.57 | +0.3% |
-| IWM | 10 | $290.69 | $277.71 | $277.70 | $-129.53 | -4.5% |
-| NUE | 3 | $248.90 | $246.27 | $246.44 | $-7.89 | -1.1% |
-| SPY | 5 | $769.43 | $773.76 | $777.22 | $+20.78 | +0.6% |
+| AMD | 1 | $646.48 | $607.85 | $620.68 | $-38.63 | -6.0% |
+| BNY | 6 | $141.86 | $142.63 | $143.61 | $+4.62 | +0.5% |
+| DELL | 1 | $573.43 | $589.36 | $574.55 | $+15.93 | +2.8% |
+| IWM | 10 | $290.69 | $279.02 | $277.57 | $-116.46 | -4.0% |
+| NUE | 3 | $248.90 | $250.54 | $246.14 | $+4.92 | +0.7% |
+| SPY | 5 | $769.43 | $778.50 | $773.93 | $+43.45 | +1.2% |
 
 ---
 
@@ -56,9 +56,9 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($2,771)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's core** (1): IWM ($2,784)  — benchmark sleeve; no stop, exempt from position limits
 - **Rocket's satellites** (0): none
-- **Bull's positions** (5): AMD ($621), BNY ($862), DELL ($575), NUE ($739), SPY ($3,709)
+- **Bull's positions** (5): AMD ($608), BNY ($856), DELL ($589), NUE ($752), SPY ($3,731)
 
 
 ---

@@ -3,6 +3,24 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-09 — PREMARKET (Friday, Week 41 day 5) — board EMPTY after widened search; KOPN conditional for 10/12
+
+- **Satellite floor breached 14 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 0.0% · IWM ~89.5% · cash ~10.5% · slice $3,109.14 · shared cash $1,045.19.
+- Funnel: calendar (14 rows) → Alpaca news tape (275 headlines + premarket movers) → 3 web searches → 2 scanners →
+  26 settled bars → 7 eligibility (7/7) → 4 survivors (ALMS, ACRS, KOPN, TRIN) → **0 entries**.
+- **PCRX CLOSED:** +44% was a $36.50 cash takeover (pinned, 27). **TLRY CLOSED:** beat on EPS, sales miss, no raise.
+- ALMS pass (data presentation, 0/4 category; reopen on NDA-submission PR). ACRS pass (bounce, no cause). PKE beat but ADV 268k.
+- **KOPN conditional (MEDIUM):** +$18.6M Army IBAS award PR 10/08 AMC. Day-2 Mon 10/12 only if 10/09 closes upper half
+  on ≥1.5× and >$4.19; read the shelf for an ATM first. Kill on a lower-half close or <$4.00.
+- IRD no trigger ($4.45). UNCY sliding (14% of range, 1.4×) → one more ≥1.5× low close kills it.
+- Macro: VIX 15.41 close / 15.21 LIVE; RTY +0.35% LIVE; 10Y 5.23% (off highs); Brent 104.28 close, −1.2% LIVE.
+  No major data found for today (thin source). Hurricane Isaias (Cat 2, Gulf) = energy/airline headline risk.
+- Cash ~10.5% is ~0.5 pts over the buffer with no bearish thesis → sweep to IWM at the close (rule 4/5).
+- No trades (market closed). No ntfy (no held satellites).
+
+---
+
 ## 2026-10-08 — PREMARKET (Thursday, Week 41 day 4) — board EMPTY after widened search; no entry today
 
 - **Satellite floor breached 13 sessions running — searched at MEDIUM-conviction bar per rule 8.**
@@ -233,3 +251,9 @@ A no-LLM fallback (`scripts/degraded_close.py`) ran instead. It placed **no orde
 - Book: IWM core only. AMD/BNY/DELL/NUE/SPY rows are Bull's. No satellites, so nothing to cut or tighten and no holdings news check.
 - Scanner `unusual_volume` (name source only, rule 17): PCRX +44% on 77.8× ($1.45B cap, in universe by size). One search found no dated catalyst for today's move (only old patent-settlement stories). Same-day >35% is day-2 only (rule 2c), and a catalyst can't be confirmed from a search result (57). No entry. Candidate for 10/09 premarket: find the 8-K/PR first. BYRN +9.9% and HNRG +11% have no dated catalyst checked. ANGO −21% and the rest are decliners.
 - Satellite floor still 0% vs 50%, a research gap and not a bearish call. Idle money is in IWM. No trades, no ntfy.
+
+## 2026-10-09 — MIDDAY (Friday, Week 41 day 5) — no satellites, no action
+
+- Book: IWM core only. Other snapshot rows are Bull's. No satellites, so nothing to cut or tighten and no holdings news check.
+- Scanner `unusual_volume` (name source only, rule 17): PCRX flat (-0.2%, no day-2 follow-through on the 10/08 +44%), CABO -34%, ALHC -15%, DNA +12.8% and PRME +12.1% (no dated catalyst checked; PRME closed on Gate A 9/25). No entry. No searches run.
+- KOPN day-2 plan is a close check only (upper half on ≥1.5× median, above $4.19), handled at market_close. Floor still 0% vs 50%, a research gap and not a bearish call. No trades, no ntfy.

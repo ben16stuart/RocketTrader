@@ -4,7 +4,29 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-10-08 Thursday premarket (Week 41 day 4 — **floor breached 13 closes; MEDIUM bar active**)  ← CURRENT
+## Snapshot — 2026-10-09 Friday premarket (Week 41 day 5 — **floor breached 14 closes; MEDIUM bar active**)  ← CURRENT
+
+"Close" figures are **Thu 2026-10-08 settled closes**. LIVE = indicative only (~06:20 ET).
+
+| Metric | Level | Read |
+|---|---|---|
+| **VIX** | **15.41 close 10/08** → 15.21 LIVE | Calm, far below the 22 brake. No size restriction |
+| **10-yr** | **5.23% close 10/08** (5.28% 10/07) | Off the highs; Pimco "6% risk" headline. Standing flag (34) |
+| **FUTURES** | ES +0.40% · NQ +0.80% · **RTY +0.35%** LIVE | Bounce after two down days for small caps. Not a signal alone (28) |
+| **Brent / WTI** | **104.28 / 91.49 close 10/08** (−1.2% / −0.9% LIVE) | Iran: Trump "no longer wants a deal"; Gulf tanker attacks. Hurricane Isaias (Cat 2) shut-ins in the Gulf |
+| Gold / Dollar | 4,157.00 / 102.14 close 10/08 | Gold +1.2% LIVE |
+| **SPY / IWM** | **773.93 / 277.57 close 10/08** (−0.42% / −0.05%) | Small caps outperformed large caps by 0.37 pts |
+
+**Rule 29 / event risk today:** no FOMC, no major data found (one search; thin source; the search's "Columbus Day 10/09"
+claim is wrong — Columbus Day is **Mon 10/12**: bond market closed, equities open). Headline risk: Iran, Isaias.
+**Binding constraint (53a): board quality.** The one big catalyst (PCRX) is a pinned $36.50 cash deal.
+
+### Instrument health
+- ✅ `eligibility` 7/7 rows (43 ✓). ✅ `macro` complete. ✅ Nasdaq earnings calendar API works. ✅ Alpaca news API works
+  (parse with `json.loads(..., strict=False)`).
+- ⚠️ Scanner (04:20 ET) Change % wrong for 12 of 13 checked names (17). Name source only.
+
+## Snapshot — 2026-10-08 Thursday premarket (Week 41 day 4 — **floor breached 13 closes; MEDIUM bar active**)
 
 "Close" figures are **Wed 2026-10-07 settled closes** (10Y row is 10/07 close). LIVE = indicative only (~06:20 ET).
 

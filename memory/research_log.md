@@ -14,6 +14,38 @@ fundable from book cash before any IWM sale (rule 3). **Rule 70 on every entry.*
 _W40 board (UNCY/LBRX/IRD/ACHV/GLUE/AGEN notes) archived to `archive/research_log_history.md` 2026-10-03._
 W40 gate counterfactual: all 7 pre-committed shape kills would have lost by 10/02 (W40 review §3). Keep the gates.
 
+### Friday 10/09 — premarket result: **NO ENTRY TODAY** (board empty after widened rule-8 search, 14 breaches)
+- Funnel: Nasdaq calendar 10/08 AMC + 10/09 (14 rows → 0: PKE beat but **ADV 268k FAIL**, ODC ADV-out, HELE Bermuda,
+  HIFS/GLDG/HOVR not tradeable) → Alpaca news tape 19:30Z 10/08–10:17Z 10/09 (275 headlines + Benzinga premarket-movers
+  list) → 3 web searches (FDA/initiations/ACRS: nothing dated, same thin-source caveat as 41b) → 2 scanners → 26 names on
+  settled 10/08 bars → 7 eligibility (7/7 rows, 43 ✓) → 4 survivors → **0 entries**.
+- **PCRX → CLOSED (27).** The +44% was the Viatris **$36.50 cash takeover** (10/08 7:47 ET, close by YE26). Pinned deal
+  price; Jefferies/Needham cut to Hold, PT $36. Nothing to ride.
+- **TLRY → CLOSED (5).** Adj EPS −$0.02 vs −$0.20 beat, but sales **$257.1M MISSED** $267.8M; no raise seen. 10/08 −3.4%.
+- **ALMS PASS (0/4 category).** 10/09 08:20Z "new Phase 3 ONWARD data" builds on the already-public 54% PASI 100 wk-48
+  read = a clinical-data presentation, not a fresh topline. NDA "on track 4Q26". Reopen on the **NDA-submission PR**
+  (regulatory, dated), with a day-2 shape. $902M, ADV 2.4M, float 97M.
+- **ACRS PASS (1).** 10/08 +11.8%/2.9×, 95% of range, after −16%/−14%/−8% legs down. No dated cause on the tape or one
+  search. A dead-cat bounce with no named catalyst is the rule-1 shape.
+- **Scanner Change % wrong again (17):** TRTX/BBOT/BV/PACK/EVMN/BETR/LXEO/TWI/DDD/LENZ/AMRC/XPER all settled
+  −4%..+2.5% on 10/08. ZIP +4.6% (100% of range, 1.1×) has no catalyst. ROC/UONE print 0 IEX volume (illiquid).
+- **VEEA PASS (1/pump):** +34% premarket on regaining Nasdaq compliance (not a catalyst); 5-session swings +60%/+73%/−14%/−18%.
+- **TRIN PASS (1):** Q3 originations $880M (10/08 AMC) is a BDC activity update, not a listed catalyst; 10/08 +0.4%/1.2×.
+- ALHC −24% (CMS 3.5-star downgrade): long-only, not a setup. HUM is >$2B.
+- IRD 10/08 $4.45 (87% of range, 0.7×) — no trigger ($4.84), no kill. UNCY $4.05 (**14% of range, 1.4×**) — sliding,
+  just under the 1.5× heavy bar; one more low close ≥1.5× = distribution (4) → close it.
+- **NEW conditional — KOPN (MEDIUM, day-2 Mon 10/12).** Catalyst: +$18.6M U.S. Army IBAS award for color microLED
+  (PR 10/08 4:32 PM ET; total IBAS now $34M). DE ✓, $781M, $4.20, ADV 3.9M, float 171M. Dated analyst ladder:
+  Oppenheimer initiated Outperform **$7** (9/17) → +15% $4.83 / +25% $5.25 both under target ✓ (11).
+  **Against it:** 10/08 closed −8.2%, 17% of range on 1.4× BEFORE the PR (distribution shape, 4); award is ~2.4% of
+  cap (incremental funding, not a new program); no 8-K yet (57: PR only). Shelf: POS AM effective 5/29 — **read it for
+  an ATM before sizing (8).** **Pre-committed shape:** entry 10/12 only if 10/09 closes **upper half on ≥1.5× median
+  AND above $4.19** (10/08 close); 2b on the 9:45–9:50 bar. **Kill:** 10/09 closes lower half or below $4.00 → closed.
+- Binding constraint (53a): **board quality** — the one big catalyst (PCRX) is a pinned cash deal; the rest are
+  presentations, bounces, or misses.
+
+### Friday 10/09 market_open — **NO TRADE.** Premarket board empty. IRD $4.58 (<$4.84 trigger), UNCY $4.11 (no ≥2× upper-half close), KOPN $4.47 +6.3% (above $4.19, 3.1×) — plan is day-2 Mon 10/12 only if 10/09 closes upper half ≥1.5× (re-check at close; read POS AM shelf for ATM first, 8). Scanner movers/volume: IMMR/FEAM/GLAS/BBOT/ANGO etc. no named dated catalyst or already closed (1). Satellite floor breach continues (15th).
+
 ### Thursday 10/08 market_open — **NO TRADE.** PCRX +44%/252x ($36.30, $1.45B) = gap >35% same day (2c) and one search found no dated cause (rule 1) → watch for 10/09 only if a primary-sourced catalyst is found and it closes upper half. TLRY −5.5% ($3.52, below MAs, 0.7x) → day-2 plan dead. FEAM +11% (resale overhang, closed). WOLF cap ceiling (13). Satellite floor breach continues (14th).
 
 ### Thursday 10/08 — premarket result: **NO ENTRY TODAY** (board empty after widened rule-8 search, 13 breaches)
@@ -94,7 +126,8 @@ W40 gate counterfactual: all 7 pre-committed shape kills would have lost by 10/0
 |---|---|---|---|---|
 | ~~ANGO~~ | 10/08 BMO | | CLOSED 10/08 | Guide AFFIRMED = 0% raise (5f) |
 | ~~RGP~~ | 10/07 AMC | | CLOSED 10/08 | Q2 guide $95–100M vs $107M est |
-| **TLRY** | **10/08 BMO** | $549M, $3.71, ADV 4.1M, DE ✓ | watch | Beat + raise >1% on 8-K + upper-half close → day-2 **10/09** |
+| ~~TLRY~~ | 10/08 BMO | | CLOSED 10/09 | Sales $257.1M missed $267.8M; no raise (5) |
+| ~~PCRX~~ | 10/08 | | CLOSED 10/09 | Viatris $36.50 cash deal = pinned (27) |
 | ~~BYRN~~ | 10/08 BMO | **median ADV 265k** | FAIL (46) | dropped 10/07 |
 | ~~HELE~~ | 10/08 | EDGAR inc D0 = **Bermuda** | FAIL (52c) | |
 Out (cap): PENG, NEOG, NRIX, AEHR, AZZ. Out (ADV): APOG, RELL, ODC, VLGEA, BSET.
