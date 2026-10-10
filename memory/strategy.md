@@ -1,8 +1,9 @@
 # Rocket Strategy — Evolving Edge Thesis
 
-Last updated: 2026-10-03 (W40 review). **The binding constraint is still THROUGHPUT.** Two
-full-effort weeks: satellites averaged 8.8% (W39) and 21.0% (W40). 2 entries in 24 sessions.
-W40's gate counterfactual (7/7 shape kills would have lost) shows the filters are NOT the leak.
+Last updated: 2026-10-10 (W41 review). **The binding constraint is still THROUGHPUT, specifically the
+SUPPLY of dated catalysts inside $50M–$2B.** Satellites averaged 8.8% (W39), 21.0% (W40), **0.0% (W41)**.
+2 entries in 29 sessions. Gate counterfactuals: 7/7 (W40) and 9/9 (W41) graded in-universe kills were flat-to-down (best +2.7%),
+so the filters are NOT the leak. W41's real catalysts landed above $2B (PENG, NEOG, NLST, WOLF) or were pinned (PCRX).
 Prior version (W34 era, incl. same-day vs second-day evidence, filter write-ups, SPY-era
 attribution): `memory/archive/strategy_history.md`.
 
@@ -12,15 +13,15 @@ attribution): `memory/archive/strategy_history.md`.
 
 | Constraint | Status |
 |---|---|
-| **Throughput (entries per week)** | 🔴 **Binding.** 1 entry in W36–W39, 1 in W40. Satellites avg 8.8% (W39), 21.0% (W40). Funnel W40: ~205 → 53 eligible → ~35 in universe → 8 live → 1 entry |
+| **Throughput (entries per week)** | 🔴 **Binding.** 1 entry in W36–W39, 1 in W40, **0 in W41** (funnel ~180 → 49 eligible → ~19 survivors → 0). Satellites avg 8.8% (W39), 21.0% (W40). Funnel W40: ~205 → 53 eligible → ~35 in universe → 8 live → 1 entry |
 | **Satellite-floor design** | 🔴 **Unreachable unless 4/4 slots are full at the 15% cap** (3 × 15% = 45%). Escalated to Ben (W39 §6) |
 | **Gate accretion** | 🔴 69 lessons, almost all new kills. File compressed 2026-09-26. New rule: a lesson must replace a check or state what it lets through |
 | Stale-reference errors inside a session | 🟢 Rule 70 applied cleanly on AGEN (9/29). One stale stop quoted in a 10/01 ntfy |
-| **Shape gates (rules 4/42)** | ✅ **7/7 W40 kills would have lost** (ACHV −10.5%, GLUE −12%, UNCY −7.3%, VNDA, CAPR, QTTB, LBRX) |
+| **Shape gates (rules 4/42)** | ✅ **W41: 9/9 graded in-universe kills flat-to-down (best +2.7%)** (ANGO −26%, RGP −25%). **7/7 W40 kills would have lost** (ACHV −10.5%, GLUE −12%, UNCY −7.3%, VNDA, CAPR, QTTB, LBRX) |
 | Research / catalyst verification | ✅ Strong. SCHL 8-K save, PRME Gate A, PAAI falsification |
 | Exit discipline | ✅ No discretionary errors since ETON (W34). 32a applied correctly to RARE |
-| Performance measurement | 🟡 Hand-built book chain rebuilt through W39. Snapshot's figure still invalid (lesson 23) |
-| Routine completion | 🟢 W40: all 20 routines ran. (W36–W38 reviews and two W39 sessions were lost to quota, [[launchd-quota-contention]]) |
+| Performance measurement | 🔴 Hand-built chain is current through W41. **The snapshot's "Rocket vs IWM" includes Bull and went out in every daily ntfy (+6.6–7.3% vs a true +0.93%).** Escalated |
+| Routine completion | 🟡 W41: 19/20 ran (10/05 close was lost to quota → fallback). The 10/08 and 10/09 closes wrote no session note, and 10/09 skipped the KOPN check. W40: all 20 ran. (W36–W38 reviews and two W39 sessions were lost to quota, [[launchd-quota-contention]]) |
 | Instruments | 🟡 Scanner RelVol unusable (17g/64). No `sip` premarket data (66). Nasdaq calendar can invert beats (65) |
 
 ## Core Edge
@@ -42,7 +43,8 @@ construction.** Every basis point of "Rocket vs IWM" comes from satellites plus 
 | W38 (9/14–9/18) | −1.34% | −1.66% | +0.32% | 0% | 9/17 sale to cash before 9/18 drop |
 | W39 (9/21–9/25) | −0.99% | −0.75% | −0.24% | 8.8% | RARE −0.38%, cash +0.14% |
 | **W40 (9/28–10/02)** | **+0.27%** | **−0.16%** | **+0.43%** | **21.0%** | RARE +0.78%, AGEN ≈ −0.24%, idle cash ≈ −0.10% |
-| Since rebase 7/20 | −1.85% | −3.69% | **+1.84%** | | W34 OMER, pre-IWM cash, W40 RARE |
+| **W41 (10/05–10/09)** | **−1.83%** | **−0.92%** | **−0.91%** | **0.0%** | RARE stop-out ≈ −0.88%, idle cash ≈ −0.04% |
+| Since rebase 7/20 | −3.65% | −4.57% | **+0.93%** | | W34 OMER, pre-IWM cash, W40 RARE, W41 RARE stop |
 
 Pre-W36 attribution vs SPY (W30–W35) lives in `archive/strategy_history.md`. Stock picking
 was +0.68% cumulative through W35, ≈ −0.24% in W39, ≈ +0.54% in W40 (RARE + AGEN).
@@ -87,9 +89,10 @@ median ADV (46) · issuer filing over any secondary source (57b/65) · 8-K Item 
 
 ## Throughput commitments (new 2026-09-26)
 
-1. **The board has three sources every premarket, in this order:** earnings calendar
-   (confirm on the 8-K), FDA/regulatory news, then screeners. The screeners have
-   contributed 0 entries in 4 weeks.
+1. **The board has four sources every premarket, in this order:** earnings calendar
+   (confirm on the 8-K), the **Alpaca news tape** (added W41; it surfaced KOPN and PCRX first),
+   FDA/regulatory news, then screeners. The screeners have contributed 0 entries in 5 weeks.
+   Intraday, check the news tape before a web search (a search missed the 2-hour-old PCRX deal 10/08).
 2. **A kill must name ONE binding gate.** If a name fails only a soft gate, write the
    entry plan anyway and let market_open decide it on the tape. Soft gates are ladder
    headroom, short-float, and float size.
@@ -118,3 +121,8 @@ median ADV (46) · issuer filing over any secondary source (57b/65) · 8-K Item 
 - Screeners: `unusual_volume` surfaced the W40's two biggest movers (NNBR, FEAM) at midday 10/02 —
   useful as a name source for next-day plans. `breakouts` Finviz query working again 10/03.
 - Late-catalyst decay: new; test on the next FDA name.
+- 🆕 **7% trail on approval names:** RARE was stopped at $14.42 on 10/05 (intraday dip) and closed $15.49 by 10/09.
+  Tally: 1 stop-out that later reclaimed entry. Don't change on one outcome (35). Check the 5-min MDD stop fit (37) on
+  the next approval entry before sizing.
+- 🆕 **The $2B ceiling's cost, measured (escalation 13):** W41's cap-blocked catalysts went PENG +18%, WOLF and NEOG
+  faded their AH pops, NLST unread. That is 1 winner in 3 read, so no case yet for moving the ceiling.

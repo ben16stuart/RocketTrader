@@ -4,6 +4,17 @@ Append-only record of all Rocket trades. Never delete entries.
 
 ---
 
+## 2026-10-10 — WEEK 41 SUMMARY (weekly review) — 0 satellites opened, 1 closed (RARE stop), 0/1 win rate
+
+- **Fills this week:** RARE SELL 31 @ $14.42 (10/05, trailing stop) = **−$20.46 / −4.4% / −0.63R** (planned risk $32.72).
+  IWM CORE BUY 4.5017 @ $282.3767 (10/06, Ben-ordered sweep under the uncapped-IWM rule; core, not counted). New satellite positions **0/5**.
+- **Book 10/02 → 10/09 (23a):** $2,979.36 → **$2,924.96 (−$54.40 / −1.83%)** vs IWM −0.92% (281.52 → 278.94) → **−0.91%**.
+  Cash chain: $966.33 + $447.02 − $1,271.18 = **$142.17**. IWM raw qty 9.9763 (`/v2/positions`).
+- **Since rebase 7/20 (base $3,035.65):** book −3.65% vs IWM −4.57% (292.31 → 278.94) → **+0.93%**. (The snapshot's +6.85% includes Bull; lesson 23.)
+- Open: IWM 9.9763 sh (core, no stop). No satellites.
+
+---
+
 ## 2026-10-06 — CORE REBALANCE, IWM BUY (manual, ordered by Ben via the desktop session, Tuesday, Week 41 day 2) — FIRST BUY UNDER THE UNCAPPED IWM RULE
 
 - **4.5017 sh @ $282.3767** (market order, filled 10:23 ET; order id 852472fb). Fractional, no stop (core carries none).

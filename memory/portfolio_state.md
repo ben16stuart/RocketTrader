@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-10-09 19:58 UTC
+**Last Updated**: 2026-10-10 15:20 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,14 +9,14 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,364.73 |
-| Rocket's Allocated Slice (30%) | $3,109.42 |
+| Shared Account Value (Bull + Rocket) | $10,361.08 |
+| Rocket's Allocated Slice (30%) | $3,108.32 |
 | Cash Available (shared, pooled) | $1,045.19 |
-| Total Invested (both agents) | $9,319.54 |
+| Total Invested (both agents) | $9,315.89 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +2.56% |
-| IWM return since rebase | -4.30% |
-| Rocket vs IWM | +6.86% |
+| Rocket return since rebase | +2.53% |
+| IWM return since rebase | -4.32% |
+| Rocket vs IWM | +6.85% |
 
 ### Deployment — Satellite Floor
 
@@ -41,14 +41,21 @@ is available if Bull has open positions consuming shared cash.
 
 Ownership is reconciled below — do not re-derive it from the trade log.
 
-| Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
+| Symbol | Shares | Entry Price | Price (⚠️ NOT a settled close) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| AMD | 1 | $646.48 | $607.85 | $620.68 | $-38.63 | -6.0% |
-| BNY | 6 | $141.86 | $142.63 | $143.61 | $+4.62 | +0.5% |
-| DELL | 1 | $573.43 | $589.36 | $574.55 | $+15.93 | +2.8% |
-| IWM | 10 | $290.69 | $279.02 | $277.57 | $-116.46 | -4.0% |
-| NUE | 3 | $248.90 | $250.54 | $246.14 | $+4.92 | +0.7% |
-| SPY | 5 | $769.43 | $778.50 | $773.93 | $+43.45 | +1.2% |
+| AMD | 1 | $646.48 | $608.10 | $608.10 | $-38.38 | -5.9% |
+| BNY | 6 | $141.86 | $142.71 | $142.71 | $+5.10 | +0.6% |
+| DELL | 1 | $573.43 | $586.06 | $586.06 | $+12.63 | +2.2% |
+| IWM | 10 | $290.69 | $278.94 | $278.94 | $-117.26 | -4.0% |
+| NUE | 3 | $248.90 | $250.33 | $250.33 | $+4.29 | +0.6% |
+| SPY | 5 | $769.43 | $778.57 | $778.57 | $+43.81 | +1.2% |
+
+⚠️ **The market is CLOSED. The price column is the last trade, which outside
+regular hours can be a single thin pre/post-market print — it is NOT a settled
+close and must never be recorded as one, quoted as a session move, or used to
+decide whether a trailing stop has fired.** Alpaca trailing stops evaluate on
+regular-hours trades only. Use the **Prior Settled Close** column for anything
+written into memory; re-read live at `market_open`.
 
 ---
 
@@ -56,9 +63,9 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($2,784)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's core** (1): IWM ($2,783)  — benchmark sleeve; no stop, exempt from position limits
 - **Rocket's satellites** (0): none
-- **Bull's positions** (5): AMD ($608), BNY ($856), DELL ($589), NUE ($752), SPY ($3,731)
+- **Bull's positions** (5): AMD ($608), BNY ($856), DELL ($586), NUE ($751), SPY ($3,732)
 
 
 ---
@@ -77,4 +84,4 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 ## Weekly Trade Count
 
 Trades placed this week: 1 / 5 max
-Market open: Yes
+Market open: No

@@ -57,17 +57,8 @@ through.** Tool defects go under Instruments.
 50. **Continuous futures roll**, so a naive % is a calendar spread. `macro` corrects it and prints naive vs true.
 
 ## Rules From Real Trades — 5 most recent
-- **W40 (9/28–10/02):** D+. Book +0.27% vs IWM −0.16% (+0.43%, all RARE). Satellites averaged 21.0% (5/5 closes below floor, all logged). AGEN was a clean day-2 entry, stopped −2.5%, and the stop saved ~$57 vs the close. The loss came from the named warrant overhang. **At the MEDIUM bar, a named dilution overhang is the tiebreaker** (lets through: clean-structure MEDIUM catalysts). All 7 shape kills would have lost (rules 4/42 validated). Clinical-data day-2 plans went 0/4.
-- **W39 (9/21–25):** D. Book −0.99% vs IWM −0.75%. Satellites averaged 8.8% (5/5 below floor). RARE was entered on a stale reference close (70). PRME Gate A and the SCHL 8-K check each kept a loser out.
-- **W34–W38:** OMER carried W34; ETON's discretionary exit → rule 32; PD missed → rule 41; W36–W38 had no satellites.
-- Breach log: **10 consecutive `market_close` breaches through 10/02** (W40 detail in `weekly_reviews/2026-W40.md` §2). Append one line per new breach below; the weekly review folds them.
-
-## 2026-10-07 — SATELLITE FLOOR BREACH — 13th consecutive session at 0.0%
-Research gap, not a bearish call. Widened MEDIUM-bar scan at premarket found 0 in-universe catalysts (real ones all >$2B). Shortfall sits in IWM (89.1%). Rule 8 escalation remains binding for 10/08 premarket.
-
-## 2026-10-08 — SATELLITE FLOOR BREACH — 14th consecutive session at 0.0%
-
-Stock-picking gap, not a bearish call. IWM core $2,777 vs target $2,787 (within 3% band, no rebalance). No trades today. Escalation (rule 8) remains the #1 premarket job: widen scan, accept MEDIUM-conviction catalysts.
-
-## 2026-10-09 — SATELLITE FLOOR BREACH — 15th consecutive session at 0.0%
-Stock-picking gap, not a bearish call. No satellite held; IWM core $2,784 (89.5% of slice) within 3% band of target ($2,798) — no rebalance. Escalation (rule 8) already in force: widen scan, accept MEDIUM conviction at next premarket.
+- **W41 (10/05–10/09):** D−. Book −1.83% vs IWM −0.92% (**−0.91%**, all RARE). Satellites **0.0%** at 5/5 closes. RARE stopped at $14.42 (−4.4%, −0.63R) on an intraday dip and closed 10/09 at $15.49: a noise stop-out on a 7% trail. **Not a reason to widen stops on one outcome (35).** Tally for stop-outs that later reclaimed entry: 1 (RARE). Re-check after 5. All 9 graded in-universe kills were flat-to-down (best +2.7%) by Friday. **Snapshot "Rocket vs IWM" includes Bull (23). The ntfy printed +6.6–7.3% against a true +0.93%. Never quote it** (lets through: nothing new; it enforces 23 on the ntfy).
+- **W40 (9/28–10/02):** D+. Book +0.27% vs IWM −0.16% (+0.43%, all RARE). Satellites 21.0%. AGEN was a clean day-2 entry, stopped −2.5%; the loss came from the named warrant overhang. **At the MEDIUM bar, a named dilution overhang is the tiebreaker** (lets through: clean-structure MEDIUM catalysts). Clinical-data day-2 plans went 0/4.
+- **W39 (9/21–25):** D. Book −0.99% vs IWM −0.75%. Satellites 8.8%. RARE was entered on a stale reference close (70). PRME Gate A and the SCHL 8-K check each kept a loser out.
+- **A handed-off check is owed by the routine it was handed to** (10/09: market_close was told to grade KOPN's close and didn't). If a plan says "checked at close", that close's session note must show the result. If it doesn't, the next session does the check first.
+- Breach log: **15 consecutive `market_close` breaches through 10/09** (W41 detail in `weekly_reviews/2026-W41.md` §2). Append one line per new breach below. The weekly review folds them.

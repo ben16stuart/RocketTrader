@@ -662,3 +662,18 @@ on DBI was rule 29 (calendar), not 45, so the bad forecast was **not load-bearin
 - SATELLITE FLOOR BREACH — 8th consecutive `market_close` (9/30) at 30.3% (RARE + AGEN). Research gap, not a bearish call. Day-2 plans VNDA (-2.4%) and QTTB (-13%) failed on the 9/30 close; CAPR stays conditional.
 - SATELLITE FLOOR BREACH — 9th consecutive `market_close` (10/1) at 14.8% (RARE only; AGEN stopped out 9:49 ET at −2.5%). Research gap, not a bearish call. Keep widening at MEDIUM bar.
 - SATELLITE FLOOR BREACH — 10th consecutive `market_close` (10/2) at 15.2% (RARE only). Research gap, not a bearish call. Board had no live catalyst shape (NNBR undisclosed terms, AZTA misdated + $2B cap, FEAM same-day/extended). IWM at 49.6% (cap), ~35% of slice sits as cash above buffer, deliberately flagged. Still owed: W36–W40 reviews and the floor-arithmetic escalation.
+
+
+---
+
+## Archived at W41 review 2026-10-10
+- **W34–W38:** OMER carried W34; ETON's discretionary exit → rule 32; PD missed → rule 41; W36–W38 had no satellites.
+## 2026-10-07 — SATELLITE FLOOR BREACH — 13th consecutive session at 0.0%
+Research gap, not a bearish call. Widened MEDIUM-bar scan at premarket found 0 in-universe catalysts (real ones all >$2B). Shortfall sits in IWM (89.1%). Rule 8 escalation remains binding for 10/08 premarket.
+
+## 2026-10-08 — SATELLITE FLOOR BREACH — 14th consecutive session at 0.0%
+
+Stock-picking gap, not a bearish call. IWM core $2,777 vs target $2,787 (within 3% band, no rebalance). No trades today. Escalation (rule 8) remains the #1 premarket job: widen scan, accept MEDIUM-conviction catalysts.
+
+## 2026-10-09 — SATELLITE FLOOR BREACH — 15th consecutive session at 0.0%
+Stock-picking gap, not a bearish call. No satellite held; IWM core $2,784 (89.5% of slice) within 3% band of target ($2,798) — no rebalance. Escalation (rule 8) already in force: widen scan, accept MEDIUM conviction at next premarket.
