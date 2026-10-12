@@ -3,6 +3,22 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-12 — PREMARKET (Monday, Week 42 day 1, Columbus Day) — no entry today; TRAX conditional for 10/13
+
+- **Satellite floor breached 15 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 0.0% · IWM ~89.5% · cash ~10.5% · slice $3,107.30 · shared cash $1,045.19.
+- Funnel: calendar (0 in-universe BMO) → Alpaca tape (275) → 3 searches → all 4 scanners → 15 eligibility (15/15) →
+  13 in universe → **0 entries today**. **Binding constraint (53): board quality.** No in-universe earnings before the 10/13 banks.
+- **TRAX (MEDIUM, conditional for 10/13):** Phase 1b ANB033 celiac topline due today. Binary event, so no entry today (29). Day-2
+  only on a primary-endpoint hit read on the PR, an upper-half close on ≥1.5×, and no AH offering. Clinical day-2 plans are 0/4.
+- HUBG CLOSED (upgrade PT under +15%, delinquent filer, distribution). SVC LOW (non-binding TKO proposal for an asset, no 8-K yet).
+  QNRX/ASBH fail the gates. IRD/UNCY no trigger. IRD exit-by-10/14 plan unchanged.
+- Macro: VIX 14.84 close 10/09 / 15.47 LIVE; RTY +0.04% LIVE; 10Y 5.24%; Brent 104.72 close, +0.8% LIVE. Bond market closed
+  (Columbus Day), so volume is thin. CPI/inflation data is due this week (date not confirmed).
+- No trades (market closed). No ntfy (no held satellites).
+
+---
+
 ## 2026-10-10 — WEEKLY REVIEW (Week 41, Saturday) — Grade D−; satellites 0.0% avg; W42 board built
 
 - Book **−$54.40 / −1.83%** vs IWM −0.92% (281.52 → 278.94) = **−0.91%**. All of it came from RARE (stopped $14.42 on 10/05, then closed $15.49 on 10/09) plus a little idle-cash drag. No new entries; 0/1 closed (RARE −0.63R).
@@ -81,3 +97,17 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - `memory/archive/session_notes_2026-07.md` — July 2026
 - `memory/archive/session_notes_2026-06.md` — June 2026
 - `memory/archive/session_notes_may2026.md` — May 2026
+
+## 2026-10-12 market_open — no trade
+- Snapshot: satellites 0.0% (breach, no new data point beyond premarket); book = IWM core only; no stops hit, no overnight fills.
+- TRAX: $37.72 / +18.4% vs 10/09 settled $31.85 (70), 1.9× avg early, cap $1.35B. Same-day entry barred (rule 2 day-2, rule 29). Day-2 plan for 10/13 unchanged: needs primary-endpoint hit on the PR/8-K, upper-half close ≥1.5× median, no AH offering.
+- Fresh scan (unusual_volume/top_movers): CTNM −19.5% on 43× (decline, no entry); GRML pump (standing kill); rest fails or no catalyst. Funnel: 2 scanners → 0 qualifying → 0 entries. No CORE FUNDING sale made.
+
+## 2026-10-12 — MIDDAY (Monday, Week 42 day 1) — no satellites, no action
+- Book: IWM core only; other snapshot rows are Bull's. No satellites, so nothing to cut or tighten and no holdings news check.
+- Scanner `unusual_volume` (name source only, rule 17): TRAX +6.8% on 15.2× at $34.01 (faded from +18.4% at the open; same-day entry still barred, day-2 plan for 10/13 unchanged — a fade from the open is a point against the upper-half-close condition). CTNM −28%, SRZN −22%, SVC −15% are decliners. Rest are funds/no catalyst. No searches, no entry.
+- Floor still 0% vs 50%, a research gap and not a bearish call. No trades, no ntfy.
+
+## 2026-10-12 — MARKET_CLOSE (Monday, Week 42 day 1)
+- Satellites 0.0% (breach, escalated). IWM core 89.6%, within band, no rebalance. No trades. IWM -0.38%; Rocket +2.06% vs IWM -4.69% since rebase (+6.75%).
+- 10/13 premarket: rule-8 gap closing; TRAX day-2 plan (primary-endpoint on PR/8-K, upper-half close, no AH offering — note it faded from +18.4% to +6.8%).

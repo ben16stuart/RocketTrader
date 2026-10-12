@@ -18,6 +18,35 @@ were out of mandate: PENG +18% ($3.3B, 13) and VEEA +48% (pump, 1). WOLF/NEOG (c
 
 **Mon 10/12 = Columbus Day: the bond market is closed and equities are open.** Thin-volume day; the ADV and RelVol reads are weaker.
 
+### 10/12 PREMARKET UPDATE (Mon, Columbus Day). Board: **0 entries today, 1 new conditional (TRAX, for 10/13)**
+Funnel: calendar (3 rows 10/12, 14 rows 10/13, 0 in-universe BMO) → Alpaca tape (275 headlines) → 3 searches → 4 scanners →
+15 eligibility (**15/15 rows, 43 ✓**) → 13 in universe → 0 entries. Fails: QNRX $22M cap; ASBH ADV 259k (Piper Overweight initiation).
+
+## TRAX — Phase 1b ANB033 celiac Cohort 1 topline, due TODAY 10/12 (per Benzinga premarket; company guided "Q4 2026")
+- Catalyst: binary clinical readout today (n=30 gluten-challenge, 1:1 vs placebo). Fast Track. **No entry today (29: binary event).**
+- Market cap: $1.14B at $31.85 (10/09 settled close, 45% of range, 1.0×) | Float: 26.2M | Short float: not checked
+- Premarket +16% to ~$37 (indicative, 66). At $37, cap ≈ $1.32B; +25% ≈ $1.65B → under $2B (13 ✓).
+- **Day-2 plan for Tue 10/13 (MEDIUM, rule 8):** only if (a) the PR shows a hit on the primary endpoint (mucosal damage
+  prevention vs placebo), read on the PR/8-K itself (57), (b) 10/12 closes in the **upper half on ≥1.5× median**, (c) **no
+  offering** announced 10/12 AH (post-data follow-ons are the common kill; read the shelf first, 8). Entry = 10/13 open if
+  within 10% of the 10/12 close (rule 3), otherwise the 9:45–9:50 base (2b).
+- Stop: 7% trail. Example at $37.00 → stop $34.41; targets $42.55 (+15%) / $46.25 (+25%).
+- Kill: a miss or a mixed primary endpoint; a close below the midpoint on heavy volume (4); an AH offering.
+- Risk: data-readout day-2 plans have gone 0/4 (W40). A Phase 1b on n=30 is a small sample. "Sell the news" fades.
+
+### 10/12 kills / passes
+- **HUBG CLOSED:** Baird upgrade to Outperform ($29 PT = +12.8% < the +15% strike, rule 11). It's also a serial restatement name
+  (2023–25 financials non-reliance, 2025 10-K and Q2 10-Q still unfiled per web search) with three distribution closes 10/07–10/09
+  (6% / 39% / 4% of range on 2.2–3.1×, rule 4). Can't verify financials, so a catalyst can't be graded (57).
+- **SVC → LOW, no entry.** Cause found: an unsolicited $2.0B TKO cash proposal for the hospitality portfolio (Benzinga 10/12); the
+  board "will review." **No 8-K on EDGAR as of 10/12 premarket** (last filing 9/21), so 57 is not met. A non-binding proposal for an
+  asset is not on the catalyst list. 10/09 bar: spiked to $7.93, closed $7.14 (56% of range, 11×), a 10% fade from the high, which a 7%
+  trail can't survive. Reopen only on a definitive agreement + 8-K.
+- KLRA (+16% 10/09, 88%, 2.1×), MEI (5.7× reversal 10/07), SVRA, IMRX: no dated catalyst on the tape or in search → out (1).
+- IRD 10/09 $4.64 / 64% / 0.8× → no trigger (needs ≥$4.84 upper-half ≥1.5×). UNCY 36% / 1.1× → no trigger, not yet distribution.
+  ALMS 10/09 Phase 3 ONWARD data PR is a data presentation, not the NDA submission → stays closed.
+- Out of mandate: YMAT/LNKS/VCIG etc. (sub-$3 premarket pumps), CCC (GTCR/Elliott deal talk, large cap), IREN (cap), SKYA (tender).
+
 ### Conditional plans (carried forward; re-read the settled bars every premarket)
 - **IRD — PDUFA 10/17 (a SATURDAY → the FDA can act Fri 10/16 or earlier).** Entry only if a session through
   **10/13** closes **upper half on ≥1.5× median** AND ≥ **$4.84**. **Exit by the 10/14 close** (moved up a day from

@@ -62,3 +62,6 @@ through.** Tool defects go under Instruments.
 - **W39 (9/21–25):** D. Book −0.99% vs IWM −0.75%. Satellites 8.8%. RARE was entered on a stale reference close (70). PRME Gate A and the SCHL 8-K check each kept a loser out.
 - **A handed-off check is owed by the routine it was handed to** (10/09: market_close was told to grade KOPN's close and didn't). If a plan says "checked at close", that close's session note must show the result. If it doesn't, the next session does the check first.
 - Breach log: **15 consecutive `market_close` breaches through 10/09** (W41 detail in `weekly_reviews/2026-W41.md` §2). Append one line per new breach below. The weekly review folds them.
+
+## 2026-10-12 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
+Research gap, not a bearish call. IWM core $2,772 (89.6%) is within the 3% band of target (~$2,785); no rebalance. Rule 8 escalation already in force: 10/13 premarket #1 job is closing the gap (TRAX day-2 check, widen scan, MEDIUM conviction OK; catalyst still required).

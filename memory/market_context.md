@@ -4,7 +4,28 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-10-09 Friday premarket (Week 41 day 5 — **floor breached 14 closes; MEDIUM bar active**)  ← CURRENT
+## Snapshot — 2026-10-12 Monday premarket (Week 42 day 1, Columbus Day — **floor breached 15 closes; MEDIUM bar active**)  ← CURRENT
+
+"Close" figures are **Fri 2026-10-09 settled closes** (10Y = 10/09). LIVE = indicative only (~06:20 ET).
+
+| Metric | Level | Read |
+|---|---|---|
+| **VIX** | **14.84 close 10/09** → 15.47 LIVE | Calm. No size restriction |
+| **10-yr** | **5.24% close 10/09** | Flat. The bond market is CLOSED today (Columbus Day) |
+| **FUTURES** | ES +0.09% · NQ −0.10% · **RTY +0.04%** LIVE | Flat open expected |
+| **Brent / WTI** | **104.72 / 91.85 close 10/09** (+0.8% LIVE) | Iran calls the US response to its peace terms "inadequate"; Iranian shipping strikes now number over a dozen |
+| Gold / Dollar | 4,216.30 / 102.21 close 10/09 | |
+| **SPY / IWM** | **778.57 / 278.94 close 10/09** (+0.60% / +0.49%) | Dow posted a weekly gain |
+
+**Rule 29 / event risk:** no FOMC today. Equities are open on thin volume. Big-bank earnings start Tue 10/13 (JPM/GS/WFC/C).
+Inflation data is due this week (headline 10/11: "yields stabilize ahead of inflation data"; date not verified).
+**Binding constraint (53): board quality.**
+
+### Instrument health
+- ✅ `eligibility` 15/15 (43 ✓). ✅ `macro`. ✅ Nasdaq calendar. ✅ Alpaca news (strict=False). ✅ EDGAR submissions.
+- ⚠️ Scanners (04:20 ET) show RelVol blank or 0.0× for most rows and stale Change % (17). Name source only.
+
+## Snapshot — 2026-10-09 Friday premarket (Week 41 day 5 — **floor breached 14 closes; MEDIUM bar active**)
 
 "Close" figures are **Thu 2026-10-08 settled closes**. LIVE = indicative only (~06:20 ET).
 
