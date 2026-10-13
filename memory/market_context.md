@@ -4,7 +4,30 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-10-12 Monday premarket (Week 42 day 1, Columbus Day — **floor breached 15 closes; MEDIUM bar active**)  ← CURRENT
+## Snapshot — 2026-10-13 Tuesday premarket (Week 42 day 2 — **floor breached 16 closes; MEDIUM bar active**)  ← CURRENT
+
+"Close" figures are **Mon 2026-10-12 settled closes** (SPY/IWM/10Y also 10/12). LIVE = indicative only (~06:20 ET).
+
+| Metric | Level | Read |
+|---|---|---|
+| **VIX** | **15.21 close 10/12** → 15.28 LIVE | Calm. No size restriction |
+| **10-yr** | **5.24% close 10/12** | Flat |
+| **FUTURES** | ES +0.06% · NQ −0.48% · **RTY +0.47%** LIVE | Small caps leading. Memory names (MU/SNDK) are dragging NQ on China CXMT news. One session, no signal (28) |
+| **Brent / WTI** | **106.65 / 93.74 close 10/12** (−2.1% LIVE) | Bessent: Iran's economy "collapsing". Houthi airport strike in Saudi Arabia |
+| Gold / Dollar | 4,190.60 / 102.58 close 10/12 | |
+| **SPY / IWM** | **778.10 / 277.90 close 10/12** (−0.06% / −0.37%) | |
+
+**Rule 29 / event risk:** big-bank earnings today (JPM/GS/WFC/C; UNH beat and raised). Fed: Waller, Barkin, Collins today.
+**CPI Wed 10/14 8:30 ET** (consensus +0.6% m/m, 3.6% y/y vs 3.4% prior, per investinglive). PPI, retail sales and claims Thu 10/15.
+CPI is pre-open, so it is not a binary inside the session, but expect a gap.
+**Binding constraint (53): board quality.** The in-universe earnings rung is still banks and ADV-locked names.
+
+### Instrument health
+- ✅ `eligibility` 10/10 (43 ✓). ✅ `macro`. ✅ Nasdaq calendar. ✅ Alpaca news (strict=False). ✅ EDGAR submissions.
+- ⚠️ EDGAR `browse-edgar?ticker=OIG` returned a **stale CIK (1108967, a 2023 shell)**. Resolve tickers via `company_tickers.json`.
+- ⚠️ Scanners (04:20 ET): RelVol blank, Change % stale (17). The Finviz breakouts query returned no results. Name source only.
+
+## Snapshot — 2026-10-12 Monday premarket (Week 42 day 1, Columbus Day — floor breached 15 closes)
 
 "Close" figures are **Fri 2026-10-09 settled closes** (10Y = 10/09). LIVE = indicative only (~06:20 ET).
 

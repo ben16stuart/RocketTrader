@@ -65,3 +65,6 @@ through.** Tool defects go under Instruments.
 
 ## 2026-10-12 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
 Research gap, not a bearish call. IWM core $2,772 (89.6%) is within the 3% band of target (~$2,785); no rebalance. Rule 8 escalation already in force: 10/13 premarket #1 job is closing the gap (TRAX day-2 check, widen scan, MEDIUM conviction OK; catalyst still required).
+
+## 2026-10-13 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
+17th consecutive session below floor. Research gap, not a bearish call. OIG day-2 bar failed (close $9.13 < $9.20). Rule 8 escalation stays #1 premarket priority.

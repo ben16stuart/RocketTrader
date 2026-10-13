@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-10-12 19:58 UTC
+**Last Updated**: 2026-10-13 19:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,22 +9,22 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,313.87 |
-| Rocket's Allocated Slice (30%) | $3,094.16 |
-| Cash Available (shared, pooled) | $1,042.74 |
-| Total Invested (both agents) | $9,271.13 |
+| Shared Account Value (Bull + Rocket) | $10,264.19 |
+| Rocket's Allocated Slice (30%) | $3,079.26 |
+| Cash Available (shared, pooled) | $1,311.04 |
+| Total Invested (both agents) | $8,953.15 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +2.06% |
-| IWM return since rebase | -4.69% |
-| Rocket vs IWM | +6.75% |
+| Rocket return since rebase | +1.57% |
+| IWM return since rebase | -5.08% |
+| Rocket vs IWM | +6.65% |
 
 ### Deployment — Satellite Floor
 
 | Sleeve | % of slice | Rule |
 |--------|-----------|------|
 | **Satellites (stock picks)** | 0.0% | must be >= 50.0% |
-| Core (IWM) | 89.6% | absorbs the leftover (no cap since 2026-10-06) |
-| Cash | 10.4% | buffer only (<= 10%) |
+| Core (IWM) | 89.7% | absorbs the leftover (no cap since 2026-10-06) |
+| Cash | 10.3% | buffer only (<= 10%) |
 
 🚨 **SATELLITE FLOOR BREACHED — 0.0% < 50%.** Rocket is not deployed in enough stock picks (the shortfall sits in IWM, not cash). This is not a market call to sit out — it is a research gap. Finding a qualifying name is the top priority of the next session, not an optional nice-to-have.
 
@@ -43,16 +43,16 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| AMD | 1 | $646.48 | $594.49 | $608.10 | $-51.99 | -8.0% |
-| BNY | 6 | $141.86 | $142.77 | $142.71 | $+5.46 | +0.6% |
-| DELL | 1 | $573.43 | $574.86 | $586.06 | $+1.43 | +0.2% |
-| FTNT | 4 | $195.98 | $192.88 | $194.75 | $-12.40 | -1.6% |
-| ILMN | 3 | $276.76 | $276.56 | $278.17 | $-0.61 | -0.1% |
-| IWM | 10 | $290.69 | $277.89 | $278.94 | $-127.73 | -4.4% |
-| NTRS | 5 | $170.45 | $169.05 | $168.21 | $-7.00 | -0.8% |
-| NUE | 3 | $248.90 | $252.01 | $250.33 | $+9.33 | +1.2% |
-| SPY | 1 | $769.43 | $777.97 | $778.57 | $+5.53 | +1.1% |
-| TGT | 5 | $152.86 | $153.26 | $153.64 | $+2.00 | +0.3% |
+| AMD | 1 | $646.48 | $605.13 | $594.24 | $-41.35 | -6.4% |
+| BNY | 6 | $141.86 | $140.96 | $142.85 | $-5.40 | -0.6% |
+| DELL | 1 | $573.43 | $572.27 | $576.76 | $-1.16 | -0.2% |
+| FTNT | 4 | $195.98 | $190.59 | $192.94 | $-21.58 | -2.8% |
+| ILMN | 3 | $276.76 | $271.21 | $276.67 | $-16.64 | -2.0% |
+| IWM | 10 | $290.69 | $276.76 | $277.90 | $-139.01 | -4.8% |
+| NTRS | 5 | $170.45 | $167.49 | $169.21 | $-14.80 | -1.7% |
+| NUE | 3 | $248.90 | $253.70 | $251.83 | $+14.40 | +1.9% |
+| SPY | 0 | $773.99 | $777.76 | $778.10 | $+1.14 | +0.5% |
+| TGT | 5 | $152.86 | $151.75 | $153.62 | $-5.55 | -0.7% |
 
 ---
 
@@ -60,9 +60,9 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($2,772)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's core** (1): IWM ($2,761)  — benchmark sleeve; no stop, exempt from position limits
 - **Rocket's satellites** (0): none
-- **Bull's positions** (9): AMD ($594), BNY ($857), DELL ($575), FTNT ($772), ILMN ($830), NTRS ($845), NUE ($756), SPY ($504), TGT ($766)
+- **Bull's positions** (9): AMD ($605), BNY ($846), DELL ($572), FTNT ($762), ILMN ($814), NTRS ($837), NUE ($761), SPY ($236), TGT ($759)
 
 
 ---

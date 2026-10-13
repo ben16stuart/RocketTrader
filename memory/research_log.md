@@ -18,21 +18,40 @@ were out of mandate: PENG +18% ($3.3B, 13) and VEEA +48% (pump, 1). WOLF/NEOG (c
 
 **Mon 10/12 = Columbus Day: the bond market is closed and equities are open.** Thin-volume day; the ADV and RelVol reads are weaker.
 
+### 10/13 PREMARKET UPDATE (Tue). Board: **0 entries today, 1 new conditional (OIG, for 10/14)**
+Funnel: calendar (13 rows 10/13, 1 in universe: UNTY) → Alpaca tape (261 headlines since 10/12 15:30 ET) → all 4 scanners
+(stale: RelVol blank, SXC "+6.6%" vs settled +1.2%, rule 17) → 10 eligibility (**10/10 rows, 43 ✓**) → 2 in universe (OIG, CYRX) → 0 entries.
+Fails: NRIX $2.3B (huge Q3 "beat" anyway looks like a one-off collaboration milestone, 5e), UNTY ADV 59k, ICCC ADV 21k, NVTS $2.6B,
+SMTC $15.7B, BMEA/POLA/FMFC sub-$3. CYRX = BTIG PT raise on a maintained Buy, which is not an upgrade (42d) → pass.
+**Handed-off checks done:** TRAX killed (rule 4, below). IRD 10/12 $4.64 at 14% of range, 0.9× → no trigger; the plan's own window
+(trigger by the 10/13 close, exit by the 10/14 close) leaves at most a one-day hold → **IRD CLOSED.** SVC 10/12 $5.93 at 12% of range
+on 5.0× = distribution (4) → **CLOSED.** UNCY 10/12 $4.05, 50%, 1.3× → no trigger, no kill. ALMS: no NDA PR → stays parked.
+
+### 10/13 MARKET_OPEN: 0 entries. OIG day-2 plan is for 10/14 (not today). Scanner timestamps were 07:45 (stale, rule 17).
+BMBL +56.6% on 176× (gap >35%, same-day entry barred by rule 2c). Cause not verified; if a catalyst is found at premarket 10/14, it is a day-2 candidate only.
+
+## OIG — Goldman Sachs initiates Buy, $13 PT (10/13, 5:08 ET) — end of IPO quiet period
+- Catalyst: analyst initiation (dated 10/13). **Weak form:** Goldman was a book-runner on the 9/18 IPO, so this is the routine
+  syndicate quiet-period wave. Expect RBC/UBS/Raymond James (the leads) today as well. Read them all; they are one event, not several.
+- Universe: $886M cap at $8.95 (10/12 settled) ✓ · ADV: 5-session median ~382k (IPO window, rule 46; 10/12 only 259k) ✓ but thin ·
+  **FL-incorporated** (EDGAR CIK 2124472) ✓ · float ~20M IPO shares + insiders · short float not checked.
+- Setup: IPO **priced $12, cut from the $15–17 range**. Opened $11.50 and slid to a $7.78 low 10/07. The stock is a busted IPO at −25%.
+  Ladder (11): from $9.00, +15% = $10.35 and +25% = $11.25, both under the $13 PT ✓ and under the $12 IPO price (supply zone above).
+- Dilution (8): fresh IPO, 180-day lock-up (~mid-March 2027). An S-8 filed 9/21 is not an offering (8b). Clean for the hold window.
+- **Day-2 plan, Wed 10/14 (MEDIUM, rule 8):** only if 10/13 closes **upper half on ≥1.5× median (≥~960k sh)** AND ≥ $9.20.
+  Entry = the 10/14 open if within 10% of the 10/13 close (rule 3), else the 9:45–9:50 base (2b). Rule 70: quote vs the 10/13 settled close.
+  CPI is 10/14 at 8:30 ET (pre-open, not FOMC). Defer the entry if the 9:30–9:45 range is >10% (2a).
+- Stop: 7% trail. Example at $9.30 → $8.65; targets $10.70 (+15%) / $11.63 (+25%).
+- Kill (shape): a 10/13 close in the lower half on heavy volume (initiation sold = 4); a close under $8.50.
+- Risk: E&S Florida homeowners book in **hurricane season** (Isaias is in the Gulf). A storm headline is an un-stoppable gap (29).
+  Underwriter notes carry little information. Thin ADV for exits.
+
 ### 10/12 PREMARKET UPDATE (Mon, Columbus Day). Board: **0 entries today, 1 new conditional (TRAX, for 10/13)**
 Funnel: calendar (3 rows 10/12, 14 rows 10/13, 0 in-universe BMO) → Alpaca tape (275 headlines) → 3 searches → 4 scanners →
 15 eligibility (**15/15 rows, 43 ✓**) → 13 in universe → 0 entries. Fails: QNRX $22M cap; ASBH ADV 259k (Piper Overweight initiation).
 
-## TRAX — Phase 1b ANB033 celiac Cohort 1 topline, due TODAY 10/12 (per Benzinga premarket; company guided "Q4 2026")
-- Catalyst: binary clinical readout today (n=30 gluten-challenge, 1:1 vs placebo). Fast Track. **No entry today (29: binary event).**
-- Market cap: $1.14B at $31.85 (10/09 settled close, 45% of range, 1.0×) | Float: 26.2M | Short float: not checked
-- Premarket +16% to ~$37 (indicative, 66). At $37, cap ≈ $1.32B; +25% ≈ $1.65B → under $2B (13 ✓).
-- **Day-2 plan for Tue 10/13 (MEDIUM, rule 8):** only if (a) the PR shows a hit on the primary endpoint (mucosal damage
-  prevention vs placebo), read on the PR/8-K itself (57), (b) 10/12 closes in the **upper half on ≥1.5× median**, (c) **no
-  offering** announced 10/12 AH (post-data follow-ons are the common kill; read the shelf first, 8). Entry = 10/13 open if
-  within 10% of the 10/12 close (rule 3), otherwise the 9:45–9:50 base (2b).
-- Stop: 7% trail. Example at $37.00 → stop $34.41; targets $42.55 (+15%) / $46.25 (+25%).
-- Kill: a miss or a mixed primary endpoint; a close below the midpoint on heavy volume (4); an AH offering.
-- Risk: data-readout day-2 plans have gone 0/4 (W40). A Phase 1b on n=30 is a small sample. "Sell the news" fades.
+- **TRAX CLOSED 10/13 (rule 4):** 10/12 opened $39.45 (+24%), high $40.50, closed **$34.05 at 14% of range on 11.2× median**.
+  That is distribution, and the pre-committed kill fired. Data read is moot. Clinical day-2 plans: 0/5.
 
 ### 10/12 kills / passes
 - **HUBG CLOSED:** Baird upgrade to Outperform ($29 PT = +12.8% < the +15% strike, rule 11). It's also a serial restatement name
@@ -48,7 +67,7 @@ Funnel: calendar (3 rows 10/12, 14 rows 10/13, 0 in-universe BMO) → Alpaca tap
 - Out of mandate: YMAT/LNKS/VCIG etc. (sub-$3 premarket pumps), CCC (GTCR/Elliott deal talk, large cap), IREN (cap), SKYA (tender).
 
 ### Conditional plans (carried forward; re-read the settled bars every premarket)
-- **IRD — PDUFA 10/17 (a SATURDAY → the FDA can act Fri 10/16 or earlier).** Entry only if a session through
+- ~~IRD~~ **CLOSED 10/13** (no trigger inside the window). Was: PDUFA 10/17 (a SATURDAY → the FDA can act Fri 10/16 or earlier).** Entry only if a session through
   **10/13** closes **upper half on ≥1.5× median** AND ≥ **$4.84**. **Exit by the 10/14 close** (moved up a day from
   10/15, rule 29: the decision can land Friday or earlier). Kill: a close < $4.40 on heavy volume. 10/09: $4.64, 64% of range,
   light volume → no trigger. Read the S-3 (effective 8/14) shelf size via the CIK path before sizing (8).

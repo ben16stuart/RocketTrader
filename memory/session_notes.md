@@ -3,6 +3,31 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-13 — MARKET_CLOSE (Tuesday) — no trades; floor breached 17th session
+
+- Satellites 0.0% · IWM 89.7% ($2,761 vs target ~$2,771, inside 3% band, no rebalance) · cash 10.3%. Rocket +1.57% vs IWM -5.08% since rebase.
+- **OIG graded: FAILED** the 10/13 bar. Last $9.13 < $9.20 floor. Day-2 entry off for 10/14 unless it re-qualifies.
+- IWM today -0.41%. CPI Wed 10/14 8:30 ET. Premarket: widen scan per rule 8.
+
+---
+
+## 2026-10-13 — PREMARKET (Tuesday, Week 42 day 2) — no entry today; OIG conditional for 10/14
+
+- **Satellite floor breached 16 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 0.0% · IWM ~89.6% · cash ~10.4% · slice $3,097.28 · shared cash $1,042.66.
+- The 10/12 market_close wrote **no session note** (breach line in lessons only). Second skip in four closes (47c).
+- Handed-off checks done first: **TRAX killed** (10/12 closed at 14% of range on 11.2×, rule 4). **IRD CLOSED** (no trigger,
+  window exhausted). **SVC CLOSED** (12% of range on 5×). UNCY no trigger. ALMS parked.
+- Funnel: calendar (1 in universe, UNTY ADV 59k) → Alpaca tape (261) → 4 scanners (stale) → 10 eligibility (10/10) →
+  2 in universe → **0 entries**. **Binding constraint (53): board quality.**
+- **OIG (MEDIUM, conditional for 10/14):** Goldman Buy $13 initiation. This is the underwriter quiet-period wave on a busted IPO
+  ($12 → $8.95). Day-2 only on an upper-half 10/13 close on ≥1.5× (~960k) and ≥$9.20. **market_close: grade the OIG 10/13 bar
+  and write the result here (handed-off check).**
+- Macro: VIX 15.21 close / 15.28 LIVE; RTY +0.47% LIVE; 10Y 5.24%; Brent 106.65 close, −2.1% LIVE. **CPI Wed 10/14 8:30 ET.**
+- No trades (market closed). No ntfy (no held satellites).
+
+---
+
 ## 2026-10-12 — PREMARKET (Monday, Week 42 day 1, Columbus Day) — no entry today; TRAX conditional for 10/13
 
 - **Satellite floor breached 15 sessions running — searched at MEDIUM-conviction bar per rule 8.**
@@ -111,3 +136,8 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 ## 2026-10-12 — MARKET_CLOSE (Monday, Week 42 day 1)
 - Satellites 0.0% (breach, escalated). IWM core 89.6%, within band, no rebalance. No trades. IWM -0.38%; Rocket +2.06% vs IWM -4.69% since rebase (+6.75%).
 - 10/13 premarket: rule-8 gap closing; TRAX day-2 plan (primary-endpoint on PR/8-K, upper-half close, no AH offering — note it faded from +18.4% to +6.8%).
+
+## 2026-10-13 — MIDDAY (Tuesday, Week 42 day 2) — no satellites, no action
+- Book: IWM core only (10 sh, -5.0% vs Bull-shared entry basis; core has no stop). Other snapshot rows are Bull's. No satellites, so nothing to cut or tighten and no holdings news check.
+- Scanner `unusual_volume` (name source only, rule 17): BMBL +56.3% on 59.7x at $5.94 ($784M cap). Same-day >35% is day-2 only (rule 2c); catalyst not yet confirmed from a primary source (57). Candidate for 10/14 premarket: find the 8-K/PR first. ZURA +2.2% on 21.7x, no catalyst checked. FUN/SNDX/GLAS/CEPL are decliners. Rest are funds/no catalyst. No searches, no entry.
+- Floor still 0% vs 50%, a research gap and not a bearish call. No trades, no ntfy.
