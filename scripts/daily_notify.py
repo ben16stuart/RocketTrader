@@ -44,6 +44,17 @@ def pts(a, b):
     return "" if a is None or b is None else f"{100 * (a - b):+.2f}"
 
 
+TIE_PTS = 0.05   # |agent - benchmark| under 0.05 percentage points counts as a tie
+
+
+def verdict(a, b):
+    """🟢 beat / 🟡 tied / 🔴 lost the benchmark today; ⚪ if either number is missing."""
+    if a is None or b is None:
+        return "⚪"
+    d = 100 * (a - b)
+    return "🟡" if abs(d) < TIE_PTS else ("🟢" if d > 0 else "🔴")
+
+
 def money(x):
     return f"{'+' if x >= 0 else '-'}${abs(x):,.0f}"
 
@@ -154,10 +165,10 @@ def build(notes=None, banner=None, extra=None):
         mix += f" — 🚨 below 50% floor" + (f", day {streak}" if streak else "")
 
     # ---- title and preview lines
-    title = f"{ICON} {ME} {pct(t)} vs {BENCH} {pct(b)} today"
+    title = f"{verdict(t, b)} {ICON} {ME} {pct(t)} vs {BENCH} {pct(b)} today"
     lead = []
     if banner:   # automated fallback close: flag it in the title, explain it first in the details
-        title = "⚠️ " + title + " (auto)"
+        title = title.replace(f" {ICON} ", f" ⚠️ {ICON} ", 1) + " (auto)"
     if since:
         lead.append(f"Since 7/20: {pct(since['ret'])} vs {BENCH} {pct(since['bench'])} ({pts(since['ret'], since['bench'])} pts)")
     lead += [activity, mix]
