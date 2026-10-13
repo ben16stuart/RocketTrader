@@ -60,6 +60,27 @@ def count_weekly_trades(trade_log_path: str) -> int:
         return 0
 
 
+
+def own_book_rows(agent, bench):
+    """Rows for this agent's OWN performance (agent_performance.py), or [] if unavailable.
+
+    Added 2026-10-13. The 'return since rebase' rows below are the SHARED account's
+    return (each slice is a fixed % of the whole account), identical for Bull and
+    Rocket, so they say nothing about either agent's own picks.
+    """
+    try:
+        from scripts.agent_performance import compute
+        r = compute()
+    except Exception as exc:
+        return [f"| ⚠️ Own-book performance unavailable | {str(exc)[:60]} |"]
+    rows = []
+    for k, lab in (("since_rebase", "since 7/20"), ("since_reset", "since 10/6 (new rules)"), ("week", "this week")):
+        v = r.get(k)
+        if v:
+            rows.append(f"| **{agent} own book {lab}** | **{100 * v['ret']:+.2f}%** vs {bench} "
+                        f"{100 * v['bench']:+.2f}% → **{100 * (v['ret'] - v['bench']):+.2f} pts** |")
+    return rows
+
 def build_snapshot() -> str:
     account   = get_account()
     positions = get_positions()
@@ -119,9 +140,10 @@ def build_snapshot() -> str:
         f"| Cash Available (shared, pooled) | ${cash:,.2f} |",
         f"| Total Invested (both agents) | ${invested:,.2f} |",
         f"| Unrealized P&L (shared) | ${unrealized_pl:+,.2f} |",
-        f"| Rocket return since rebase | {rocket_return:+.2f}% |",
+        *own_book_rows("Rocket", "IWM"),
+        f"| Rocket return since rebase (SHARED account, not own book) | {rocket_return:+.2f}% |",
         f"| IWM return since rebase | {benchmark_return:+.2f}% |",
-        f"| Rocket vs IWM | {vs_benchmark:+.2f}% |",
+        f"| Shared account vs IWM (not Rocket's own — use the bold rows) | {vs_benchmark:+.2f}% |",
         f"",
         f"### Deployment — Satellite Floor",
         f"",
@@ -174,7 +196,7 @@ def build_snapshot() -> str:
             pl     = float(p["unrealized_pl"])
             pl_pct = float(p["unrealized_plpc"]) * 100
             lines.append(
-                f"| {sym} | {qty:.0f} | ${entry:.2f} | ${curr:.2f} | {prior} | ${pl:+,.2f} | {pl_pct:+.1f}% |"
+                f"| {sym} | {qty:g} (${qty * curr:,.0f}) | ${entry:.2f} | ${curr:.2f} | {prior} | ${pl:+,.2f} | {pl_pct:+.1f}% |"
             )
         if not _open:
             lines += [

@@ -204,19 +204,30 @@ def main():
     banner = (f"⚠️ Today's close did not run: {why_short}. This is an AUTOMATED summary: no stop "
               f"review, rebalance or trade logging was done. {hint}").strip()
 
-    title = f"{'📊 Bull' if IS_BULL else '🚀 Rocket'} — {now.strftime('%a %Y-%m-%d')} ⚠️ AUTOMATED"
+    # Same lock-screen layout as the normal close (scripts/daily_notify.py), with the
+    # warning banner first. The hand-built message below is only the fallback if that fails.
+    try:
+        from scripts.daily_notify import build as build_daily
+        title, body, _info = build_daily(
+            banner=banner,
+            extra=[f"Rebalance (NOT executed): {rb_txt}",
+                   *([f"⚠️ Stages that failed: {'; '.join(problems)}"] if problems else [])])
+    except Exception as exc:
+        problems.append(f"daily layout: {str(exc)[:80]}")
+        title = f"{'📊 Bull' if IS_BULL else '🚀 Rocket'} — {now.strftime('%a %Y-%m-%d')} ⚠️ AUTOMATED"
+        body = "\n".join([
+            banner, "",
+            f"Day: {day_pct:+.2f}% ({money(day_pl, True)}) vs {BENCH} {bench_txt} -> {vs}   (as of {stamp})",
+            mix, "", table, "",
+            f"Books: {books}",
+            f"Orders today: {orders_txt}",
+            f"Stops armed: {stops_txt}",
+            f"Rebalance (NOT executed): {rb_txt}",
+            *([f"⚠️ Stages that failed: {'; '.join(problems)}"] if problems else []),
+        ])
+
     if a.test:
         title = "🧪 TEST — " + title
-    body = "\n".join([
-        banner, "",
-        f"Day: {day_pct:+.2f}% ({money(day_pl, True)}) vs {BENCH} {bench_txt} -> {vs}   (as of {stamp})",
-        mix, "", table, "",
-        f"Books: {books}",
-        f"Orders today: {orders_txt}",
-        f"Stops armed: {stops_txt}",
-        f"Rebalance (NOT executed): {rb_txt}",
-        *([f"⚠️ Stages that failed: {'; '.join(problems)}"] if problems else []),
-    ])
 
     note = "\n".join([
         f"## {today} — MARKET_CLOSE — DID NOT RUN [automated fallback, no LLM]",

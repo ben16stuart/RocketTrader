@@ -139,48 +139,29 @@ Calculate:
 
 ---
 
-### STEP 5 — SEND NTFY SUMMARY
+### STEP 5 — SEND DAILY NTFY SUMMARY
 
-`ntfy_notify.py` takes **two positional arguments: title, then body.** Calling it bare
-prints a usage error and exits 1 — it sends nothing. Run it exactly like this, with the
-message passed as the second argument:
+**The layout is fixed by script — do not hand-compose the message** (changed 2026-10-13).
+Ben reads the lock-screen preview, so the title and first three lines are always:
+performance vs IWM today, since-7/20 vs IWM, today's activity, and deployment. Every number
+comes from the broker or `agent_performance.py` (this agent's own book, not the shared
+account), so it cannot drift.
 
-Build the positions table FIRST — do not hand-write these numbers. The script pulls
-them straight from Alpaca and filters to Rocket's own positions, so they cannot drift
-from the broker and cannot accidentally include Bull's holdings:
-
-```bash
-POSITIONS=$(python scripts/position_table.py)
-```
-
-Then send, embedding `$POSITIONS` verbatim:
+Your only input is `--notes`: **2–4 short plain-English lines.** Say what you did today and
+why (or why nothing), anything Ben should know, and tomorrow's plan. Do not repeat numbers
+the script already prints.
 
 ```bash
-python scripts/ntfy_notify.py \
-  "🚀 Rocket Daily — [DATE]" \
-  "Portfolio: $X,XXX ([+/-X.XX%] today)
-IWM: [+/-X.XX%] | Rocket vs IWM: [+/-X.XX%] since start
-Satellite: XX% (floor 50%) | Core: XX% | Cash: $XXX
-
-$POSITIONS
-
-Trades today: X
-[If trades today, one-line each: BUY/SELL SYMBOL @ $XX (+/-X.X%)]
-
-Tomorrow's watchlist: [2-3 tickers with one-word catalyst]
-Conviction: HIGH / MEDIUM / LOW"
+python scripts/daily_notify.py --notes "Line one.
+Line two.
+Tomorrow: ..."
 ```
 
-The table's dollar columns are **whole-position profit** (qty x price move), not the
-share-price change. `*` marks the IWM core sleeve. **The Satellite % line is the
-number this whole notification exists to make visible** — it must never be omitted,
-and if it's below 50% say so plainly rather than burying it in prose.
-
-**Verify before reporting.** The command must print `Notification sent: ...`. If it
-prints a usage line, a `Failed to send` error, or nothing, the notification did NOT go
-out — say so plainly in your summary. Do not write "ntfy sent" unless you saw that
-confirmation. Composing the text, writing it to a file, or echoing it to stdout is not
-sending it.
+**Verify before reporting.** The command must print `Notification sent: ...`. If it prints
+an error or nothing, the notification did NOT go out: say so plainly in your summary.
+Composing text or echoing it is not sending it. If the script itself crashes, fall back to
+`python scripts/ntfy_notify.py "🚀 Rocket — [DATE]" "[short summary]"` and report the
+crash.
 
 ---
 
