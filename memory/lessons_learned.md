@@ -68,3 +68,6 @@ Research gap, not a bearish call. IWM core $2,772 (89.6%) is within the 3% band 
 
 ## 2026-10-13 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
 17th consecutive session below floor. Research gap, not a bearish call. OIG day-2 bar failed (close $9.13 < $9.20). Rule 8 escalation stays #1 premarket priority.
+
+## 2026-10-14 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
+18th consecutive session below floor. Research gap, not a bearish call. IWM core $2,703 (89.6%) within 3% band of target (~$2,716); no rebalance, no trades today. Rule 8 escalation stays #1 premarket priority.

@@ -3,6 +3,20 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-14 — PREMARKET (Wednesday, Week 42 day 3) — CODI MEDIUM tape-confirmed candidate; VSTM/OIG conditional for 10/15
+
+- **Satellite floor breached 17 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 0.0% · IWM 90.0% · cash ~10% · slice $3,077.08 · shared cash $1,311.02.
+- Handed-off checks: OIG failed the 10/13 bar (done at the close) and re-qualifies only on a 10/14 close. BMBL (midday flag) → $6.05 cash deal, **CLOSED**.
+- Funnel: Alpaca tape (869) → 2 scanners (stale) → 16 eligibility (16/16) → 10 in universe → **1 candidate (CODI)**. Binding constraint (53): board quality.
+- **CODI (MEDIUM):** Ladenburg Buy, $17 PT, 10/13 AMC. Entry only on a break of $11.20 with an upper-half 9:45–9:50 bar and ≥1.5× volume pace.
+  40 sh, stop $10.51, CORE FUNDING sale first. Risk: lender restrictions from Lugano.
+- **market_close owes:** the VSTM 10/14 close check (≥$8.00, upper half, ≥1.5×) and the OIG re-qualify check (≥$9.20, upper half, ≥1.5×).
+- Macro: VIX 15.27 close / 15.25 LIVE; RTY +0.30% LIVE; 10Y 5.22%; Brent 105.69 close. **CPI 8:30 ET.**
+- No trades (market closed). No ntfy (no held satellites).
+
+---
+
 ## 2026-10-13 — MARKET_CLOSE (Tuesday) — no trades; floor breached 17th session
 
 - Satellites 0.0% · IWM 89.7% ($2,761 vs target ~$2,771, inside 3% band, no rebalance) · cash 10.3%. Rocket +1.57% vs IWM -5.08% since rebase.
@@ -140,4 +154,14 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 ## 2026-10-13 — MIDDAY (Tuesday, Week 42 day 2) — no satellites, no action
 - Book: IWM core only (10 sh, -5.0% vs Bull-shared entry basis; core has no stop). Other snapshot rows are Bull's. No satellites, so nothing to cut or tighten and no holdings news check.
 - Scanner `unusual_volume` (name source only, rule 17): BMBL +56.3% on 59.7x at $5.94 ($784M cap). Same-day >35% is day-2 only (rule 2c); catalyst not yet confirmed from a primary source (57). Candidate for 10/14 premarket: find the 8-K/PR first. ZURA +2.2% on 21.7x, no catalyst checked. FUN/SNDX/GLAS/CEPL are decliners. Rest are funds/no catalyst. No searches, no entry.
+- Floor still 0% vs 50%, a research gap and not a bearish call. No trades, no ntfy.
+
+## 2026-10-14 MARKET_OPEN (Sonnet) — 0 entries
+- CODI (Ladenburg initiation) at 9:45 ET: $10.95, −0.8% vs $11.05 settled close (rule 70), vol 9k, below MA20/MA50. Plan said no entry if open flat/red → **NO ENTRY**. Not a kill; initiation was a weak form anyway.
+- Scanners stale (07:45 timestamps, rule 17); movers are GLND/GRML (pumps, out), AADX ($1.95B cap, +25% > $2B, rule 13). No fresh catalyst-backed mover.
+- Conditionals VSTM / OIG remain owed a 10/14 close check at market_close. Satellite floor still 0% (breach continues; binding constraint = board quality).
+
+## 2026-10-14 — MIDDAY (Wednesday, Week 42 day 3) — no satellites, no action
+- Book: IWM core only (10 sh, no stop). Other snapshot rows are Bull's (AMD/DELL −10%+ are Bull's). Nothing to cut or tighten; no holdings news check.
+- Scanner `unusual_volume` (name source only, rule 17): VSTM +11.3% on 22.7× at $8.28 (above the $8.00 offering price; conditional for 10/15 still needs an upper-half close ≥1.5× median — graded at market_close). GLND/GRML pumps (out). BMBL flat (−0.2%) after yesterday's +56%, no day-2 follow-through. Rest decliners/no catalyst. No searches, no entry.
 - Floor still 0% vs 50%, a research gap and not a bearish call. No trades, no ntfy.

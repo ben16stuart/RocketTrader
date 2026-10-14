@@ -4,7 +4,28 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-10-13 Tuesday premarket (Week 42 day 2 — **floor breached 16 closes; MEDIUM bar active**)  ← CURRENT
+## Snapshot — 2026-10-14 Wednesday premarket (Week 42 day 3 — **floor breached 17 closes; MEDIUM bar active**)  ← CURRENT
+
+"Close" figures are **Tue 2026-10-13 settled closes**. LIVE = indicative only (~06:20 ET).
+
+| Metric | Level | Read |
+|---|---|---|
+| **VIX** | **15.27 close 10/13** → 15.25 LIVE | Calm. No size restriction |
+| **10-yr** | **5.22% close 10/13** | Slightly lower |
+| **FUTURES** | ES +0.19% · NQ −0.06% · **RTY +0.30%** LIVE | Small caps firm ahead of CPI. One session (28) |
+| **Brent / WTI** | **105.69 / 94.14 close 10/13** (+0.7% / +1.2% LIVE) | IRGC: container ship sank after hitting a mine south of Hormuz |
+| Gold / Dollar | 4,177.30 / 102.18 close 10/13 | |
+| **SPY / IWM** | **778.01 / 276.70 close 10/13** (−0.01% / −0.43%) | Small caps lagged |
+
+**Rule 29 / event risk:** **CPI 8:30 ET** (headline +0.6% m/m / 3.6% y/y expected, core +0.2% / 2.5%). It is pre-open, so not a binary inside the
+session, but expect a gap. Fed's Collins wants rates "a bit further" higher before year-end. BAC/MS earnings today. PPI, retail sales and claims Thu 10/15.
+**Binding constraint (53): board quality.**
+
+### Instrument health
+- ✅ `eligibility` 16/16 (43 ✓). ✅ `macro`. ✅ Alpaca news (strict=False). ✅ EDGAR submissions via `company_tickers.json`.
+- ⚠️ Scanners (04:20 ET): RelVol blank for most rows. DBI/VRA "+10–12%" have no IEX print since the 10/13 close (17). Name source only.
+
+## Snapshot — 2026-10-13 Tuesday premarket (Week 42 day 2 — **floor breached 16 closes; MEDIUM bar active**)
 
 "Close" figures are **Mon 2026-10-12 settled closes** (SPY/IWM/10Y also 10/12). LIVE = indicative only (~06:20 ET).
 

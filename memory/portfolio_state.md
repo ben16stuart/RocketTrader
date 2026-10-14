@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-10-13 19:58 UTC
+**Last Updated**: 2026-10-14 19:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,22 +9,25 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,264.19 |
-| Rocket's Allocated Slice (30%) | $3,079.26 |
-| Cash Available (shared, pooled) | $1,311.04 |
-| Total Invested (both agents) | $8,953.15 |
+| Shared Account Value (Bull + Rocket) | $10,060.82 |
+| Rocket's Allocated Slice (30%) | $3,018.25 |
+| Cash Available (shared, pooled) | $1,016.98 |
+| Total Invested (both agents) | $9,043.84 |
 | Unrealized P&L (shared) | $+0.00 |
-| Rocket return since rebase | +1.57% |
-| IWM return since rebase | -5.08% |
-| Rocket vs IWM | +6.65% |
+| **Rocket own book since 7/20** | **-6.24%** vs IWM -7.30% → **+1.07 pts** |
+| **Rocket own book since 10/6 (new rules)** | **-3.31%** vs IWM -3.69% → **+0.38 pts** |
+| **Rocket own book this week** | **-2.57%** vs IWM -2.86% → **+0.30 pts** |
+| Rocket return since rebase (SHARED account, not own book) | -0.44% |
+| IWM return since rebase | -7.06% |
+| Shared account vs IWM (not Rocket's own — use the bold rows) | +6.62% |
 
 ### Deployment — Satellite Floor
 
 | Sleeve | % of slice | Rule |
 |--------|-----------|------|
 | **Satellites (stock picks)** | 0.0% | must be >= 50.0% |
-| Core (IWM) | 89.7% | absorbs the leftover (no cap since 2026-10-06) |
-| Cash | 10.3% | buffer only (<= 10%) |
+| Core (IWM) | 89.6% | absorbs the leftover (no cap since 2026-10-06) |
+| Cash | 10.4% | buffer only (<= 10%) |
 
 🚨 **SATELLITE FLOOR BREACHED — 0.0% < 50%.** Rocket is not deployed in enough stock picks (the shortfall sits in IWM, not cash). This is not a market call to sit out — it is a research gap. Finding a qualifying name is the top priority of the next session, not an optional nice-to-have.
 
@@ -43,16 +46,15 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| AMD | 1 | $646.48 | $605.13 | $594.24 | $-41.35 | -6.4% |
-| BNY | 6 | $141.86 | $140.96 | $142.85 | $-5.40 | -0.6% |
-| DELL | 1 | $573.43 | $572.27 | $576.76 | $-1.16 | -0.2% |
-| FTNT | 4 | $195.98 | $190.59 | $192.94 | $-21.58 | -2.8% |
-| ILMN | 3 | $276.76 | $271.21 | $276.67 | $-16.64 | -2.0% |
-| IWM | 10 | $290.69 | $276.76 | $277.90 | $-139.01 | -4.8% |
-| NTRS | 5 | $170.45 | $167.49 | $169.21 | $-14.80 | -1.7% |
-| NUE | 3 | $248.90 | $253.70 | $251.83 | $+14.40 | +1.9% |
-| SPY | 0 | $773.99 | $777.76 | $778.10 | $+1.14 | +0.5% |
-| TGT | 5 | $152.86 | $151.75 | $153.62 | $-5.55 | -0.7% |
+| AMD | 1 ($571) | $646.48 | $570.69 | $605.53 | $-75.79 | -11.7% |
+| BNY | 6 ($825) | $141.86 | $137.43 | $141.03 | $-26.58 | -3.1% |
+| FTNT | 4 ($735) | $195.98 | $183.84 | $190.76 | $-48.56 | -6.2% |
+| ILMN | 3 ($816) | $276.76 | $271.98 | $271.18 | $-14.34 | -1.7% |
+| IWM | 9.9763 ($2,703) | $290.69 | $270.98 | $276.70 | $-196.72 | -6.8% |
+| NTRS | 5 ($813) | $170.45 | $162.67 | $167.48 | $-38.90 | -4.6% |
+| NUE | 3 ($771) | $248.90 | $256.96 | $253.80 | $+24.18 | +3.2% |
+| SPY | 1.343 ($1,033) | $770.04 | $768.89 | $778.01 | $-1.54 | -0.1% |
+| TGT | 5 ($777) | $152.86 | $155.44 | $151.99 | $+12.90 | +1.7% |
 
 ---
 
@@ -60,9 +62,9 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($2,761)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's core** (1): IWM ($2,703)  — benchmark sleeve; no stop, exempt from position limits
 - **Rocket's satellites** (0): none
-- **Bull's positions** (9): AMD ($605), BNY ($846), DELL ($572), FTNT ($762), ILMN ($814), NTRS ($837), NUE ($761), SPY ($236), TGT ($759)
+- **Bull's positions** (8): AMD ($571), BNY ($825), FTNT ($735), ILMN ($816), NTRS ($813), NUE ($771), SPY ($1,033), TGT ($777)
 
 
 ---
@@ -78,7 +80,6 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 | 7653f815… | BNY | sell | 6 | trailing_stop | new |
 | 678d9c30… | AMD | sell | 1 | trailing_stop | new |
 | afa14659… | NUE | sell | 3 | trailing_stop | new |
-| 5e832980… | DELL | sell | 1 | trailing_stop | new |
 
 ---
 

@@ -18,6 +18,44 @@ were out of mandate: PENG +18% ($3.3B, 13) and VEEA +48% (pump, 1). WOLF/NEOG (c
 
 **Mon 10/12 = Columbus Day: the bond market is closed and equities are open.** Thin-volume day; the ADV and RelVol reads are weaker.
 
+### 10/14 PREMARKET UPDATE (Wed, CPI 8:30 ET). Board: **1 MEDIUM entry candidate (CODI, tape-confirmed), 2 conditionals**
+Funnel: Alpaca tape (869 headlines from 10/13 06:00 to 10/14 06:30 ET) → 2 scanners (04:20, stale: DBI shows "+11.8%" with no
+IEX print since the close, rule 17) → 16 eligibility (**16/16 rows, 43 ✓**) → 10 in universe → settled bars + news + EDGAR → **1 candidate**.
+Binding constraint (53): **board quality.** Satellite floor breached for the 17th straight close → **MEDIUM bar per rule 8.**
+**Kills / passes (10/14):**
+- **BMBL CLOSED (27):** the +56% is a $6.05 all-cash Ithaca Holdings buyout (10/13). Pinned deal.
+- **VSTM → conditional only (see below):** Phase 1/2 VS-7375 data plus a **$247.5M offering of 30.94M sh at $8.00** (about 33% dilution, rule 8).
+  It also furnished Q3 revenue on the 8-K (2.02): $23.9–24.1M vs $25.1M in Q2, a **sequential decline**, so not revenue acceleration.
+  The 10/13 bar closed at 0% of range ($7.45). The scanner's $8.87 is premarket.
+- **ETRA CLOSED (4):** the IPO quiet-period initiation wave (Cantor/TD/Evercore/Jefferies) was sold. 10/13 closed $8.66 at **6% of range**
+  on about 3× its prior IEX volume.
+- **PRCH out (13/7):** a $55M (+$50M deferred) carrier acquisition announced after the close, small next to a $1.96B cap. The cap is at the ceiling,
+  and 10/13 closed at 0% of range.
+- **GOSS pass (38/57):** Chardan Buy with a printed "$160 PT" on a $9.76, $60M-cap name (post reverse split). The PT looks garbled and can't be verified.
+- Out on gates: LQDA ($2.4B; +45% PM on the UTHR settlement), AZZ ($4.1B, ADV 243k; it did raise FY27), BKD $2.4B, ENVX sub-$3, KYNB $24M, SOTK ADV 73k.
+- IMTX (Stifel Buy initiation): Immatics N.V. is non-US (52c). DSGR acquisition has undisclosed terms (49). DBI/VRA/ABEO/XPER/TRTX: scanner names, no news, no prints → out (1).
+
+## CODI — Ladenburg Thalmann initiates Buy, $17 PT (10/13, 4:20 PM ET, after the close)
+- Catalyst: analyst initiation, dated 10/13 AMC, so 10/14 is the first session to react. **Weak form:** Ladenburg is a small broker, and
+  this is a single initiation, not a wave. MEDIUM, and only because rule 8 is active.
+- Market cap: $831M at $11.05 | Float: 66.9M (above the 50M preference) | Short float: not checked. No squeeze kicker assumed.
+- Universe: DE-incorporated (EDGAR) ✓ · ADV 631k ✓ · price ✓. Filings current: 10-Q filed 8/10, auditor change 7/16 (4.01).
+- Setup: 10/13 closed $11.05 at 87% of range, a firm close before the news. Recent range is $10.69–$11.20 (10/09 high).
+- **Entry plan (tape-confirmed):** a breakout above **$11.20** with the 9:45–9:50 bar closing in its upper half (2b) and opening volume pace
+  ≥1.5× median. **No entry** if the open is flat or red, which would mean the market is ignoring the note. Rule 70: quote % vs the **$11.05** 10/13 settled close.
+- Stop: 7% trail. At $11.30 → **$10.51**. Targets **$13.00** (+15%) / **$14.13** (+25%). Both are under the $17 PT (11 ✓). +25% cap ≈ $1.06B (13 ✓).
+- Size: `size CODI 11.30 10.51` → **40 sh ≈ $452 (14.7%)**, cap-bound (risk-based 58). **CORE FUNDING:** sell ~$452 of IWM right before the BUY (rule 3).
+- Risk / what kills it: (1) lender handcuffs from the Lugano fraud: the 5th credit amendment (12/2025) cut the revolver to $100M, sends 100%
+  of disposal proceeds to debt and limits restricted payments. That is balance-sheet fragility (7). (2) One small-broker note may carry no flow.
+  (3) Over 50M float, so the move should be smaller. (4) CPI 8:30 sets the gap. Kill shape: an opening spike that fails back under $11.05.
+
+### Conditionals (10/14 close checks, owed by today's market_close, rule "handed-off check")
+- **VSTM (MEDIUM, day-2 for 10/15):** only if 10/14 closes **upper half on ≥1.5× median (~370k) AND ≥ $8.00** (the offering price holds as support).
+  Post-deal cap ≈ 121M sh × $8 ≈ $975M (+25% ✓). Clinical day-2 plans are 0/5, so this needs the shape, not the PR. Kill: a close under $8.00.
+  Size ref: `size VSTM 8.20 7.63` → 56 sh ≈ $459.
+- **OIG (MEDIUM, re-qualify for 10/15):** the wave is now 5 initiations (GS $13, DB $12.9, RBC $15, Citizens $20, RJ Market Perform). 10/13 closed
+  $9.13 SIP, under the $9.20 bar. Re-qualifies only on a 10/14 close **≥ $9.20, upper half, ≥1.5× median**. Kill: a lower-half close <$8.50.
+
 ### 10/13 PREMARKET UPDATE (Tue). Board: **0 entries today, 1 new conditional (OIG, for 10/14)**
 Funnel: calendar (13 rows 10/13, 1 in universe: UNTY) → Alpaca tape (261 headlines since 10/12 15:30 ET) → all 4 scanners
 (stale: RelVol blank, SXC "+6.6%" vs settled +1.2%, rule 17) → 10 eligibility (**10/10 rows, 43 ✓**) → 2 in universe (OIG, CYRX) → 0 entries.
