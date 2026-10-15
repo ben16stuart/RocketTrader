@@ -3,6 +3,21 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-15 — PREMARKET (Thursday, Week 42 day 4) — HAWK MEDIUM candidate (tape-confirmed today / day-2 Fri)
+
+- **Satellite floor breached 18 sessions running — searched at MEDIUM-conviction bar per rule 8.**
+  Satellites 0.0% · IWM ~89.6% · cash ~10.4% · slice $3,023.40 · shared cash $1,016.95.
+- **The 10/14 market_close skipped its handed-off checks again** (47c; it logged only the breach line). Done here first: **VSTM CLOSED** ($7.71 < $8.00, the kill fired),
+  **OIG CLOSED** ($9.05 < $9.20, second fail), **CODI CLOSED** (10/14 closed 9% of range, initiation sold).
+- Funnel: Alpaca tape (223) + Nasdaq calendar → 2 scanners (stale, 17) → 12 eligibility (12/12) → 9 in universe → **1 candidate (HAWK)**. Binding constraint (53): board quality.
+- **HAWK (MEDIUM):** Piper Overweight $22 initiation, independent of the IPO syndicate, at $12.38 (a busted IPO, −64%). The tape-confirmed entry needs the 9:45–9:50 bar upper half and >$12.99 at ≥1.5× pace.
+  Fallback: day-2 on 10/16 if 10/15 closes ≥$12.99 in the upper half. 34 sh, stop $12.14, CORE FUNDING first. Risk: space sector (RKLB −10% PM), post-lock-up insider supply.
+- **market_close owes:** grade HAWK's 10/15 close against the day-2 bar and write the result in this file.
+- Macro: VIX 16.87 close / 17.60 LIVE; RTY +0.28% LIVE, NQ −1.10%; 10Y 5.19%; IWM −1.93% on 10/14. PPI/retail sales/claims/Philly Fed at 8:30 ET. Hammack 16:30, Warsh 23:30.
+- No trades (market closed). No ntfy (no held satellites).
+
+---
+
 ## 2026-10-14 — PREMARKET (Wednesday, Week 42 day 3) — CODI MEDIUM tape-confirmed candidate; VSTM/OIG conditional for 10/15
 
 - **Satellite floor breached 17 sessions running — searched at MEDIUM-conviction bar per rule 8.**
@@ -165,3 +180,16 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - Book: IWM core only (10 sh, no stop). Other snapshot rows are Bull's (AMD/DELL −10%+ are Bull's). Nothing to cut or tighten; no holdings news check.
 - Scanner `unusual_volume` (name source only, rule 17): VSTM +11.3% on 22.7× at $8.28 (above the $8.00 offering price; conditional for 10/15 still needs an upper-half close ≥1.5× median — graded at market_close). GLND/GRML pumps (out). BMBL flat (−0.2%) after yesterday's +56%, no day-2 follow-through. Rest decliners/no catalyst. No searches, no entry.
 - Floor still 0% vs 50%, a research gap and not a bearish call. No trades, no ntfy.
+
+## 2026-10-15 market_open (Rocket) — 0 entries
+HAWK: at ~9:45 ET $12.36 (−0.2% vs $12.38 settled 10/14 close, rule 70), 99k vol (0.1× avg). Plan said no entry if open is flat/red (note being ignored) → PASS; fallback is day-2 Fri 10/16 only on a 10/15 close ≥ $12.99, upper half, ≥1.5× median. Scanners stale (07:45, rule 17); no fresh in-universe mover with a dated catalyst (BETR/DFH/BRBR no catalyst checked → out). No IWM funding sale, no orders. Floor still 0.0% (19th breach at close). Binding constraint: board quality.
+
+## 2026-10-15 — MIDDAY (Thursday, Week 42 day 4) — no satellites, no action
+- Book: IWM core only (10 sh, no stop). Other snapshot rows are Bull's. Nothing to cut or tighten; no holdings news check.
+- Scanner `unusual_volume` (name source only, rule 17): VSTM +10.6% on 3.9× at $8.53 (conditional graded at market_close: upper-half close ≥1.5× median). DFH +14.1% on 5.3× at $8.47 ($766M cap), no catalyst checked. FMC −31.9% decliner. Rest funds/no catalyst. No searches, no entry.
+- Floor still 0% vs 50%, a research gap and not a bearish call. No trades, no ntfy.
+
+## 2026-10-15 — MARKET_CLOSE (Thursday, Week 42 day 4)
+- Satellites 0.0% (19th breach). IWM core 90.6%, within band, no rebalance. No trades. IWM +1.39% today; Rocket own book -4.94% vs IWM -5.88% since 7/20 (+0.93 pts).
+- HAWK closed $12.82 < $12.99 → day-2 plan for 10/16 dead. VSTM closed $9.20 on 10/15 (kill fired 10/14, not a position; not re-opened without a fresh check).
+- 10/16 premarket: rule-8 gap closing, widen scan, MEDIUM bar OK; catalyst still required.

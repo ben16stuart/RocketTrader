@@ -18,6 +18,38 @@ were out of mandate: PENG +18% ($3.3B, 13) and VEEA +48% (pump, 1). WOLF/NEOG (c
 
 **Mon 10/12 = Columbus Day: the bond market is closed and equities are open.** Thin-volume day; the ADV and RelVol reads are weaker.
 
+### 10/15 PREMARKET UPDATE (Thu; PPI/retail sales/claims/Philly Fed 8:30 ET). Board: **1 MEDIUM entry candidate (HAWK, tape-confirmed / day-2)**
+Funnel: Alpaca tape (223 headlines, 10/14 15:30 → 10/15 06:40 ET) + Nasdaq calendar (10/15: 27 rows, in-universe = banks/ALOY/CTW, nothing BMO with a raise)
+→ 2 scanners (04:20, stale: ABEO "+12%", XPER, DBI repeat with no settled move, 17) → 12 eligibility (**12/12 rows, 43 ✓**) → 9 in universe →
+settled bars + news + EDGAR → **1 candidate**. Binding constraint (53): **board quality.** Floor breached 18 closes → **MEDIUM bar (rule 8).**
+**Handed-off checks (the 10/14 market_close owed these and did NOT do them; done here first):**
+- **VSTM CLOSED:** 10/14 $7.71 (O 7.99 H 8.955 L 6.70), 45% of range on 9.7× IEX median. **Under $8.00 = the pre-committed kill fired.** BTIG's PT raise to $24 (10/15) is a maintained Buy (42d), so it doesn't reopen.
+- **OIG CLOSED:** 10/14 $9.05 (40% of range, 0.3×), under $9.20 for a second session. The initiation wave is 2 days old and was never bought.
+- **CODI CLOSED:** 10/14 $10.68 at 9% of range (−3.4% vs $11.05). The initiation was sold (4).
+**Kills / passes (10/15):** CAMP (Needham Buy $8) ADV 271k FAIL. EQBK (beat, no raise, 5) ADV 112k FAIL. AIIR ADV 21k FAIL.
+ROCK: $208M D.S. Brown sale to Saint-Gobain to pay down debt. A divestiture isn't on the catalyst list, and the IEX median is 14k → pass (1).
+TTI (Clear Street upgrade 10/06, down 13% since) and ESRT (activist 5.8% 13D, 10/06) are stale, with no fresh event. ABEO/UPB/XPER/LTRX/ECVT have no dated catalyst on the tape → out (1).
+Out of mandate: BLTE (Cayman), YSS/RDW (Neutral initiations), RCT/CISS/NCPL/BRNX (sub-$3 AH pumps).
+
+## HAWK — Piper Sandler initiates Overweight, $22 PT (10/15, 5:23 AM ET)
+- Catalyst: analyst initiation, dated 10/15 premarket. **Better form than CODI/OIG:** Piper was NOT on the IPO syndicate (GS/MS led, IPO 5/06),
+  and the quiet period ended long ago, so this is independent coverage. HAWK was the one Overweight in Piper's space-sector launch (YSS and RDW got Neutral the same morning).
+- Market cap: $1,213M at $12.38 | Float: 67.4M (above the 50M preference) | Short float: **not verified**. No squeeze kicker assumed.
+- Universe: **DE-incorporated** (EDGAR CIK 1750704) ✓ · ADV 1.21M ✓ · price ✓. Filings current (10-Q 8/14).
+- Setup: a busted IPO. It opened at $33.53 on 5/07 and is at $12.38 now (−64%). There have been 9 straight lower closes since 9/29 ($15.41). 10/14 closed $12.38 at 32% of range on 2.0×. **A falling knife until the tape says otherwise.**
+- Ladder (11): from $13.05, +15% = **$15.01** and +25% = **$16.31**, both well under the $22 PT ✓. +25% cap ≈ $1.60B ✓ (13).
+- Dilution (8): the IPO lock-up was **already released 9/02** (early-release clause), and insider Form 144s followed 9/11–10/01. That supply is mostly behind it,
+  but insiders are sellers. There's no S-3/424B/ATM since the IPO. The 5/21 8-K (1.01/2.03) is a debt facility. Cash runway not checked.
+- **Entry plan, Thu 10/15 (tape-confirmed, MEDIUM):** only if the open is within 10% of $12.38 (2a/2c), the **9:45–9:50 bar closes in its upper half (2b) AND above $12.99**
+  (the 10/13 close / 10/14 high), and opening volume pace is ≥1.5× median. Rule 70: quote % vs the **$12.38** 10/14 settled close. No entry if it opens red or flat (the note is being ignored).
+  **Fallback, day-2 Fri 10/16:** only on a 10/15 close **≥ $12.99, upper half, ≥1.5× median**. Entry = the 10/16 open within 10% of that close (3).
+- Stop: 7% trail. At $13.05 → **$12.14**. Stop fit is tight: 10/14's range was 7.3% in the downtrend, so the stop sits at the edge of a normal day (37).
+- Size: `size HAWK 13.05 12.14` → **34 sh ≈ $444 (14.7%)**, cap-bound (49 risk-based). **CORE FUNDING:** sell ~$444 of IWM right before the BUY (rule 3).
+- Conviction: **MEDIUM** (rule 8 bar). Initiation plans are 0/3 this month (CODI, OIG, ETRA were all sold), so it needs the shape, not the headline.
+- Risk / what kills it: (1) **Space-sector tape:** RKLB −10% premarket on the Neutron slip to 2027, and NQ futures −1.1%. Sector sympathy can swamp one note.
+  (2) Insider/post-lock-up supply. (3) Downtrend: an opening pop into resistance gets sold. (4) The 8:30 data dump sets the gap.
+  **Kill (shape):** an opening spike that fails back under $12.38, or a lower-half 10/15 close on heavy volume (4) → CLOSED.
+
 ### 10/14 PREMARKET UPDATE (Wed, CPI 8:30 ET). Board: **1 MEDIUM entry candidate (CODI, tape-confirmed), 2 conditionals**
 Funnel: Alpaca tape (869 headlines from 10/13 06:00 to 10/14 06:30 ET) → 2 scanners (04:20, stale: DBI shows "+11.8%" with no
 IEX print since the close, rule 17) → 16 eligibility (**16/16 rows, 43 ✓**) → 10 in universe → settled bars + news + EDGAR → **1 candidate**.
@@ -35,7 +67,7 @@ Binding constraint (53): **board quality.** Satellite floor breached for the 17t
 - Out on gates: LQDA ($2.4B; +45% PM on the UTHR settlement), AZZ ($4.1B, ADV 243k; it did raise FY27), BKD $2.4B, ENVX sub-$3, KYNB $24M, SOTK ADV 73k.
 - IMTX (Stifel Buy initiation): Immatics N.V. is non-US (52c). DSGR acquisition has undisclosed terms (49). DBI/VRA/ABEO/XPER/TRTX: scanner names, no news, no prints → out (1).
 
-## CODI — Ladenburg Thalmann initiates Buy, $17 PT (10/13, 4:20 PM ET, after the close)
+## ~~CODI~~ CLOSED 10/15 (10/14 closed 9% of range, 4) — Ladenburg Thalmann initiates Buy, $17 PT (10/13, 4:20 PM ET, after the close)
 - Catalyst: analyst initiation, dated 10/13 AMC, so 10/14 is the first session to react. **Weak form:** Ladenburg is a small broker, and
   this is a single initiation, not a wave. MEDIUM, and only because rule 8 is active.
 - Market cap: $831M at $11.05 | Float: 66.9M (above the 50M preference) | Short float: not checked. No squeeze kicker assumed.
@@ -49,7 +81,7 @@ Binding constraint (53): **board quality.** Satellite floor breached for the 17t
   of disposal proceeds to debt and limits restricted payments. That is balance-sheet fragility (7). (2) One small-broker note may carry no flow.
   (3) Over 50M float, so the move should be smaller. (4) CPI 8:30 sets the gap. Kill shape: an opening spike that fails back under $11.05.
 
-### Conditionals (10/14 close checks, owed by today's market_close, rule "handed-off check")
+### Conditionals (10/14 close checks) — **BOTH CLOSED 10/15** (VSTM kill fired <$8.00; OIG failed again). Graded at 10/15 premarket.
 - **VSTM (MEDIUM, day-2 for 10/15):** only if 10/14 closes **upper half on ≥1.5× median (~370k) AND ≥ $8.00** (the offering price holds as support).
   Post-deal cap ≈ 121M sh × $8 ≈ $975M (+25% ✓). Clinical day-2 plans are 0/5, so this needs the shape, not the PR. Kill: a close under $8.00.
   Size ref: `size VSTM 8.20 7.63` → 56 sh ≈ $459.

@@ -4,7 +4,27 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-10-14 Wednesday premarket (Week 42 day 3 — **floor breached 17 closes; MEDIUM bar active**)  ← CURRENT
+## Snapshot — 2026-10-15 Thursday premarket (Week 42 day 4 — **floor breached 18 closes; MEDIUM bar active**)  ← CURRENT
+
+"Close" figures are **Wed 2026-10-14 settled closes** (10Y/SPY/IWM = 10/14). LIVE = indicative only (~06:40 ET).
+
+| Metric | Level | Read |
+|---|---|---|
+| **VIX** | **16.87 close 10/14** → 17.60 LIVE | Rising off 15 but well under the 22 brake. No size restriction |
+| **10-yr** | **5.19% close 10/14** | Lower after CPI |
+| **FUTURES** | ES −0.29% · **NQ −1.10%** · **RTY +0.28%** LIVE | Tech weak (CRWV/RKLB selloffs). Small caps firm after a −1.93% IWM day. One session (28) |
+| **Brent / WTI** | **106.06 / 93.90 close 10/14** (−2.0% / −0.3% true, WTI rolled to CLZ26) | |
+| Gold / Dollar | 4,107.90 / 102.55 close 10/14 | Gold +1.7% LIVE |
+| **SPY / IWM** | **769.60 / 271.37 close 10/14** (−1.08% / **−1.93%**) | A hot-CPI risk-off day; small caps took the worst of it |
+
+**Rule 29 / event risk:** **PPI (+0.5% m/m exp), retail sales (+0.3% exp), jobless claims, Empire/Philly Fed all at 8:30 ET**, pre-open, so expect a gap. Fed's Hammack 16:30 and Warsh 23:30.
+Daly (10/14): "rate hikes likely needed, but not urgently." Not FOMC. TSM beat and guided Q4 above consensus. **Binding constraint (53): board quality.**
+
+### Instrument health
+- ✅ `eligibility` 12/12 (43 ✓). ✅ `macro` (WTI roll corrected). ✅ Alpaca news (strict=False). ✅ Nasdaq calendar. ✅ EDGAR submissions.
+- ⚠️ Scanners (04:20 ET): RelVol 0.0×/blank. ABEO "+12%" / XPER / DBI repeat stale Change % with no settled move (17). Name source only.
+
+## Snapshot — 2026-10-14 Wednesday premarket (Week 42 day 3 — **floor breached 17 closes; MEDIUM bar active**)
 
 "Close" figures are **Tue 2026-10-13 settled closes**. LIVE = indicative only (~06:20 ET).
 
