@@ -4,7 +4,26 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-10-15 Thursday premarket (Week 42 day 4 — **floor breached 18 closes; MEDIUM bar active**)  ← CURRENT
+## Snapshot — 2026-10-16 Friday premarket (Week 42 day 5 — **floor breached 19 closes; MEDIUM bar active**)  ← CURRENT
+
+"Close" figures are **Thu 2026-10-15 settled closes** (10Y/SPY/IWM = 10/15). LIVE = indicative only (~06:20 ET).
+
+| Metric | Level | Read |
+|---|---|---|
+| **VIX** | **16.46 close 10/15** → 16.18 LIVE | Easing. No size restriction |
+| **10-yr** | **5.09% close 10/15** (−10bp) | Yields pulled back from the 24-year high, which helps small caps |
+| **FUTURES** | ES +0.08% · NQ −0.23% · **RTY +0.28%** LIVE | Small caps firm again. One session (28) |
+| **Brent / WTI** | **105.92 / 96.50 close 10/15** (WTI CLZ26, roll corrected) | US blockade on Iranian exports continues |
+| Gold / Dollar | 4,170.10 / 102.00 close 10/15 | Dollar −0.4% LIVE |
+| **SPY / IWM** | **771.79 / 275.08 close 10/15** (+0.28% / **+1.37%**) | Small caps led the post-data bounce |
+
+**Rule 29 / event risk:** no scheduled 8:30 data. Monthly opex Friday. Regional-bank earnings continue (RF/MTB beat). Not FOMC. **Binding constraint (53): board quality.**
+
+### Instrument health
+- ✅ `eligibility` 15/15 (43 ✓). ✅ `macro` (WTI roll corrected). ✅ Alpaca news. ✅ EDGAR submissions.
+- ⚠️ Scanners (04:20 ET): RelVol 0.0×/blank. The Finviz breakouts query returned "No results". Name source only (17).
+
+## Snapshot — 2026-10-15 Thursday premarket (Week 42 day 4 — **floor breached 18 closes; MEDIUM bar active**)
 
 "Close" figures are **Wed 2026-10-14 settled closes** (10Y/SPY/IWM = 10/14). LIVE = indicative only (~06:40 ET).
 

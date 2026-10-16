@@ -18,6 +18,47 @@ were out of mandate: PENG +18% ($3.3B, 13) and VEEA +48% (pump, 1). WOLF/NEOG (c
 
 **Mon 10/12 = Columbus Day: the bond market is closed and equities are open.** Thin-volume day; the ADV and RelVol reads are weaker.
 
+### 10/16 PREMARKET UPDATE (Fri, opex; no 8:30 data). Board: **2 MEDIUM tape-confirmed candidates (RAPP #1, EIKN #2)**
+Funnel: Alpaca tape (234 headlines, 10/15 15:30 → 10/16 06:30 ET) → all 4 scanners (04:20, stale; breakouts query returned no results, 17) → 15 eligibility
+(**15/15 rows, 43 ✓**) → 9 in universe → settled bars + news + EDGAR + 2 searches → **2 candidates**. Binding constraint (53): **board quality.** Floor breached 19 closes → **MEDIUM bar (rule 8).**
+**Handed-off check:** HAWK graded at the 10/15 close: $12.82 < $12.99 → **CLOSED** (the day-2 plan died). VSTM closed $9.20 on 10/15, a reclaim of the $8.00 offering price,
+but the 10/14 price-action kill already closed the name (42d). It stays closed.
+**Kills / passes (10/16):** XXII ($0.63) / AVXL ($1.48) / ACTU fail on price. INR (Scotia Outperform) ADV 280k FAIL. PKE ADV 287k FAIL. CRGY $4.9B / INSW $5.6B fail on cap.
+SLDB (UBS Buy $20, 10/15 AMC): **10/13 fell −13% on 2.7× with no cause found** (1 search, 38 → can't grade), plus an S-3ASR/424B5 shelf (8/06) → pass. Re-check if the cause turns out benign.
+WVE (UBS Buy $11) at $3.18, 6% above the $3 floor in a steady downtrend (10) → pass. SRTA: a Third Point 5.8% 13D urging a sale. An activist stake isn't on the catalyst list (ESRT precedent) → pass.
+SITC: liquidation (a $3.00 special distribution plus delisting) → out. ACRS/CBIO/MGNX: no dated catalyst (1). NYXH (Belgium), IQMX (Finland ADR) are non-US (52c).
+
+## RAPP — UBS initiates Buy, $71 PT (10/15, 5:57 PM ET), the 3rd initiation in 10 days
+- Catalyst: analyst initiation wave: **Guggenheim Buy $65 (10/06) → Wolfe Outperform $50 (10/15 AM) → UBS Buy $71 (10/15 AMC).** None of them were on the 6/2024 IPO syndicate,
+  so this is independent coverage building, not a quiet-period wave. 10/16 is the first session to react to the UBS note.
+- Market cap: $1,419M at $29.57 | Float: 32.4M ✓ (<50M) | Short float: not verified. No squeeze kicker assumed.
+- Universe: DE (EDGAR CIK 2012593) ✓ · ADV 351k ✓ but **near the gate (14)**: the IEX median is 14k, thin. Price ✓.
+- Setup: a slide from $32.00 (10/06) to $28.36 (10/14). On 10/15 Wolfe's note popped it to $30.39, and it closed $29.45 at 45% of range on 1.1×, so the morning note was partly faded.
+- Ladder (11): from $30.50, +15% = **$35.08** and +25% = **$38.13**, far under the $50–71 PTs ✓. Cap at $38.13 ≈ **$1.83B ✓** (13); the ceiling is close, so **no-chase above $31.50**.
+- Dilution (8): **no S-3/424B/ATM since the IPO.** Supply is a steady drip of insider Form 144s (8/19 → 10/06), plus routine Form 4s. Cash-rich post-IPO; runway not checked.
+- Event (29): the RAP-219 Phase 3 in focal seizures is already enrolling. The long-term open-label safety data is "2H26", date unknown: a small binary risk inside the hold.
+- **Entry plan (tape-confirmed, MEDIUM):** open within 10% of **$29.45** (rule 70: quote vs the 10/15 settled close); the **9:45–9:50 bar closes upper half (2b) AND above $30.39**
+  (the 10/15 high); opening volume pace ≥1.5× median. **No entry** if it opens flat or red (the third note being ignored), or above $31.50.
+- Stop: 7% trail. At $30.50 → **$28.37**, just above the 10/14 low ($28.12). A normal day's range is ~2–5%, so stop fit is OK (37).
+- Size: `size RAPP 30.50 28.37` → **14 sh ≈ $427 (14.0%)**, cap-bound (21 risk-based). **CORE FUNDING:** sell ~$427 of IWM right before the BUY (rule 3).
+- Conviction: **MEDIUM.** Initiation plans are 0/4 this month (CODI, OIG, ETRA, HAWK), so it needs the shape, not the headline. A three-note wave is the strongest form seen this month.
+- **Kill (shape):** an opening pop that fails back under $29.45, or a lower-half 10/16 close on heavy volume (4) → CLOSED. Fallback day-2 Mon 10/19: only on a 10/16 close ≥ $30.39, upper half, ≥1.5×.
+
+## EIKN — H.C. Wainwright initiates Buy, $23 PT (10/16, 6:11 AM ET) + IND submitted for EIK1006 (10/15 PR)
+- Catalyst: analyst initiation (dated 10/16 premarket), stacked on the 10/15 IND-submission PR for EIK1006 (prostate cancer). **Weak form:** HCW is a small-cap house, and an IND is not an approval.
+- Market cap: $408M at $7.54 | Float: **34.8M ✓** | Short float: not verified.
+- Universe: DE (EDGAR CIK 1861123) ✓ · ADV 507k ✓ (IEX median 25k) · price ✓. Next earnings 11/12, outside the hold.
+- Setup: a $6.73 low on 10/13 (2% of range), then **two upper-half closes: 10/14 86% on 1.3×, 10/15 $7.54 at 85% on 1.5×.** The tape firmed before the note.
+- Ladder (11): from $7.70, +15% = **$8.86** and +25% = **$9.63**, far under $23 ✓. Cap ≈ $520M at +25% ✓.
+- Dilution (8): **no S-3/424B since the 2026 IPO** (EDGAR 5/2026 onward: 10-Qs, 8-Ks, 13Gs). **⚠️ IPO lock-up:** 13G filings start 5/06, which puts the IPO around early May 2026 and a 180-day expiry around **early November**.
+  That's a supply event just after a 1–5 day hold. **Verify the IPO date and lock-up terms before entry.** If the lock-up ends before 10/23 → no entry.
+- **Entry plan (tape-confirmed, MEDIUM):** open within 10% of **$7.54** (rule 70); the **9:45–9:50 bar closes upper half AND above $7.63** (the 10/15 high); opening pace ≥1.5× median.
+  No entry if the open is flat or red.
+- Stop: 7% trail. At $7.70 → **$7.16**, inside the 10/15 range ($7.08–7.63): a tight fit (37).
+- Size: `size EIKN 7.70 7.16` → **59 sh ≈ $454 (14.9%)**, cap-bound. CORE FUNDING sale first.
+- Conviction: **MEDIUM**, ranked below RAPP (a single small-house note, thinner tape, the lock-up question). **Take both only if both trigger.** Each needs its own CORE FUNDING sale.
+- **Kill (shape):** a fail back under $7.54 after the open, or a lower-half close on heavy volume → CLOSED.
+
 ### 10/15 PREMARKET UPDATE (Thu; PPI/retail sales/claims/Philly Fed 8:30 ET). Board: **1 MEDIUM entry candidate (HAWK, tape-confirmed / day-2)**
 Funnel: Alpaca tape (223 headlines, 10/14 15:30 → 10/15 06:40 ET) + Nasdaq calendar (10/15: 27 rows, in-universe = banks/ALOY/CTW, nothing BMO with a raise)
 → 2 scanners (04:20, stale: ABEO "+12%", XPER, DBI repeat with no settled move, 17) → 12 eligibility (**12/12 rows, 43 ✓**) → 9 in universe →
@@ -31,7 +72,7 @@ ROCK: $208M D.S. Brown sale to Saint-Gobain to pay down debt. A divestiture isn'
 TTI (Clear Street upgrade 10/06, down 13% since) and ESRT (activist 5.8% 13D, 10/06) are stale, with no fresh event. ABEO/UPB/XPER/LTRX/ECVT have no dated catalyst on the tape → out (1).
 Out of mandate: BLTE (Cayman), YSS/RDW (Neutral initiations), RCT/CISS/NCPL/BRNX (sub-$3 AH pumps).
 
-## HAWK — Piper Sandler initiates Overweight, $22 PT (10/15, 5:23 AM ET)
+## ~~HAWK~~ CLOSED 10/16 (10/15 close $12.82 < $12.99) — Piper Sandler initiates Overweight, $22 PT (10/15, 5:23 AM ET)
 - Catalyst: analyst initiation, dated 10/15 premarket. **Better form than CODI/OIG:** Piper was NOT on the IPO syndicate (GS/MS led, IPO 5/06),
   and the quiet period ended long ago, so this is independent coverage. HAWK was the one Overweight in Piper's space-sector launch (YSS and RDW got Neutral the same morning).
 - Market cap: $1,213M at $12.38 | Float: 67.4M (above the 50M preference) | Short float: **not verified**. No squeeze kicker assumed.
