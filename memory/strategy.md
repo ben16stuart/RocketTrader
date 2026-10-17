@@ -59,7 +59,8 @@ construction.** Every basis point of "Rocket vs IWM" comes from satellites plus 
 | W39 (9/21–9/25) | −0.99% | −0.75% | −0.24% | 8.8% | RARE −0.38%, cash +0.14% |
 | **W40 (9/28–10/02)** | **+0.27%** | **−0.16%** | **+0.43%** | **21.0%** | RARE +0.78%, AGEN ≈ −0.24%, idle cash ≈ −0.10% |
 | **W41 (10/05–10/09)** | **−1.83%** | **−0.92%** | **−0.91%** | **0.0%** | RARE stop-out ≈ −0.88%, idle cash ≈ −0.04% |
-| Since rebase 7/20 | −3.65% | −4.57% | **+0.93%** | | W34 OMER, pre-IWM cash, W40 RARE, W41 RARE stop |
+| **W42 (10/12–10/16)** | **−2.75%** | **−3.05%** | **+0.30%** | **0.0%** | cash buffer only (`agent_performance.py` from here on) |
+| Since rebase 7/20 | −6.41% | −7.48% | **+1.07%** | | W34 OMER, pre-IWM cash, W40 RARE, W41 RARE stop |
 
 Pre-W36 attribution vs SPY (W30–W35) lives in `archive/strategy_history.md`. Stock picking
 was +0.68% cumulative through W35, ≈ −0.24% in W39, ≈ +0.54% in W40 (RARE + AGEN).

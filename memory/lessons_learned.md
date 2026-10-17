@@ -73,23 +73,8 @@ through.** Tool defects go under Instruments.
 50. **Continuous futures roll**, so a naive % is a calendar spread. `macro` corrects it and prints naive vs true.
 
 ## Rules From Real Trades — 5 most recent
+- **W42 (10/12–10/16):** F. Book −2.75% vs IWM −3.05% (+0.30 pts, all cash buffer). Satellites **0.0%** at 5/5 closes. Rule 8 boarded 7 conditional plans and filled 0. **The kill counterfactual went 3 up / 3 down / 1 flat vs a −3% IWM week, so the shape gates were a coin flip, not an edge.** That overturns the W40/W41 "filters aren't the leak" read and is the evidence behind the rank → judge rebuild. Lets through: everything the ranking surfaces that clears the hard vetoes.
 - **W41 (10/05–10/09):** D−. Book −1.83% vs IWM −0.92% (**−0.91%**, all RARE). Satellites **0.0%** at 5/5 closes. RARE stopped at $14.42 (−4.4%, −0.63R) on an intraday dip and closed 10/09 at $15.49: a noise stop-out on a 7% trail. **Not a reason to widen stops on one outcome (35).** Tally for stop-outs that later reclaimed entry: 1 (RARE). Re-check after 5. All 9 graded in-universe kills were flat-to-down (best +2.7%) by Friday. **Snapshot "Rocket vs IWM" includes Bull (23). The ntfy printed +6.6–7.3% against a true +0.93%. Never quote it** (lets through: nothing new; it enforces 23 on the ntfy).
 - **W40 (9/28–10/02):** D+. Book +0.27% vs IWM −0.16% (+0.43%, all RARE). Satellites 21.0%. AGEN was a clean day-2 entry, stopped −2.5%; the loss came from the named warrant overhang. **At the MEDIUM bar, a named dilution overhang is the tiebreaker** (lets through: clean-structure MEDIUM catalysts). Clinical-data day-2 plans went 0/4.
-- **W39 (9/21–25):** D. Book −0.99% vs IWM −0.75%. Satellites 8.8%. RARE was entered on a stale reference close (70). PRME Gate A and the SCHL 8-K check each kept a loser out.
 - **A handed-off check is owed by the routine it was handed to** (10/09: market_close was told to grade KOPN's close and didn't). If a plan says "checked at close", that close's session note must show the result. If it doesn't, the next session does the check first.
-- Breach log: **15 consecutive `market_close` breaches through 10/09** (W41 detail in `weekly_reviews/2026-W41.md` §2). Append one line per new breach below. The weekly review folds them.
-
-## 2026-10-12 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
-Research gap, not a bearish call. IWM core $2,772 (89.6%) is within the 3% band of target (~$2,785); no rebalance. Rule 8 escalation already in force: 10/13 premarket #1 job is closing the gap (TRAX day-2 check, widen scan, MEDIUM conviction OK; catalyst still required).
-
-## 2026-10-13 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
-17th consecutive session below floor. Research gap, not a bearish call. OIG day-2 bar failed (close $9.13 < $9.20). Rule 8 escalation stays #1 premarket priority.
-
-## 2026-10-14 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
-18th consecutive session below floor. Research gap, not a bearish call. IWM core $2,703 (89.6%) within 3% band of target (~$2,716); no rebalance, no trades today. Rule 8 escalation stays #1 premarket priority.
-
-## 2026-10-15 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
-19th consecutive session below floor. Research gap, not a bearish call. IWM core $2,745 (90.6%) within 3% band of target (~$2,727); no rebalance. HAWK day-2 bar failed (close $12.82 < $12.99). Rule 8 escalation stays #1 premarket priority.
-
-## 2026-10-16 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
-20th consecutive session below floor. Research gap, not a bearish call. IWM core $2,698 (90.3%) within 3% band of target (~$2,689); no rebalance, no trades. HAWK/RAPP/EIKN plans all died on flat/red opens. Rule 8 escalation stays #1 premarket priority.
+- Breach log: **20 consecutive `market_close` breaches through 10/16** (W42 detail in `weekly_reviews/2026-W42.md` §2.5; the dated lines are archived in `archive/lessons_history.md`). Append one line per new breach below. The weekly review folds them.

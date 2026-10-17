@@ -677,3 +677,25 @@ Stock-picking gap, not a bearish call. IWM core $2,777 vs target $2,787 (within 
 
 ## 2026-10-09 — SATELLITE FLOOR BREACH — 15th consecutive session at 0.0%
 Stock-picking gap, not a bearish call. No satellite held; IWM core $2,784 (89.5% of slice) within 3% band of target ($2,798) — no rebalance. Escalation (rule 8) already in force: widen scan, accept MEDIUM conviction at next premarket.
+
+
+---
+
+# Archived 2026-10-17 (W42 weekly review)
+
+- **W39 (9/21–25):** D. Book −0.99% vs IWM −0.75%. Satellites 8.8%. RARE was entered on a stale reference close (70). PRME Gate A and the SCHL 8-K check each kept a loser out.
+
+## 2026-10-12 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
+Research gap, not a bearish call. IWM core $2,772 (89.6%) is within the 3% band of target (~$2,785); no rebalance. Rule 8 escalation already in force: 10/13 premarket #1 job is closing the gap (TRAX day-2 check, widen scan, MEDIUM conviction OK; catalyst still required).
+
+## 2026-10-13 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
+17th consecutive session below floor. Research gap, not a bearish call. OIG day-2 bar failed (close $9.13 < $9.20). Rule 8 escalation stays #1 premarket priority.
+
+## 2026-10-14 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
+18th consecutive session below floor. Research gap, not a bearish call. IWM core $2,703 (89.6%) within 3% band of target (~$2,716); no rebalance, no trades today. Rule 8 escalation stays #1 premarket priority.
+
+## 2026-10-15 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
+19th consecutive session below floor. Research gap, not a bearish call. IWM core $2,745 (90.6%) within 3% band of target (~$2,727); no rebalance. HAWK day-2 bar failed (close $12.82 < $12.99). Rule 8 escalation stays #1 premarket priority.
+
+## 2026-10-16 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
+20th consecutive session below floor. Research gap, not a bearish call. IWM core $2,698 (90.3%) within 3% band of target (~$2,689); no rebalance, no trades. HAWK/RAPP/EIKN plans all died on flat/red opens. Rule 8 escalation stays #1 premarket priority.
