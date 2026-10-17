@@ -37,7 +37,9 @@ From `memory/trade_log.md`, calculate:
 - Total P&L this week
 - Average winner size vs average loser size (R-multiple)
 - IWM this week: `python scripts/market_data.py benchmark [MONDAY_DATE]`
-- Rocket vs IWM since inception: `python scripts/market_data.py benchmark [INCEPTION_DATE]`
+- **Rocket's own book vs IWM** (this week / since 10/6 / since 7/20): `python scripts/agent_performance.py`.
+  Use these, never the snapshot's shared-account "since rebase" figure, which is the WHOLE
+  account's return and identical for both agents.
 
 ---
 
@@ -55,8 +57,9 @@ P&L:
    `lessons_learned.md` at the time, per the market_close routine? If a breach
    happened but wasn't logged, that is itself a finding — write it up.
 4. If two or more CONSECUTIVE sessions breached: did the following `premarket`
-   actually widen its search / drop to MEDIUM conviction per CLAUDE.md rule 8, or
-   did it just note the breach and move on? A logged breach with no behavioral
+   actually fill slots from the ranking (CLAUDE.md rule 8, since 2026-10-17), and is
+   every skipped top-8 name a logged VETO with a specific reason? Or did it just note the
+   breach and move on? A logged breach with no behavioral
    response is the exact failure mode this rule exists to prevent — grade it
    accordingly, do not let "I flagged it" substitute for "I fixed it."
 5. State the week's average satellite % as a headline number, next to the P&L
@@ -85,28 +88,39 @@ Look for patterns across the week's trades:
 
 ---
 
-### STEP 5 — UPDATE STRATEGY
+### STEP 5 — THE LEARNING LOOP (read "The Learning Loop" in CLAUDE.md first)
 
-Based on the week's data, update `memory/strategy.md` with any meaningful changes:
-- Refine the catalyst hierarchy (which signals have the best hit rate)
-- Adjust any rules if they're causing consistent losses
-- Note which screener outputs are most predictive
+1. Score the ledger:
+   ```bash
+   python scripts/candidate_ledger.py score
+   ```
+   Quote the three tables (Signal, Judgment, Picks) with their `n` in the review file.
+   Early on most cells are `n/a`. Say so, and do not over-read small samples.
+2. Answer each with numbers:
+   - **Signal**: do top-8 names beat ranks 9–25 and IWM at 20 days?
+   - **Judgment**: do BUYs beat VETOs? If VETO > BUY with n ≥ 10, name the veto category
+     costing money and loosen it.
+   - **Picks**: do BUYs beat IWM at 20 days?
+3. **Change at most ONE thing, and only with ledger evidence** (score formula: n ≥ 100 at
+   20d; a veto category: n ≥ 10). Record it in `strategy.md`'s changelog **with the
+   numbers**. No evidence means no change. Loosening is as legitimate as tightening.
 
 ---
 
-### STEP 6 — NEXT WEEK'S WATCHLIST
+### STEP 6 — RANK-DECAY REVIEW (sets up Monday)
 
-Build a fresh watchlist in `memory/research_log.md`:
-- Run all 4 screeners and look for names setting up going into next week
-- Note any scheduled catalysts (earnings dates, FDA decisions, conference presentations)
-- Rate each idea: HIGH / MEDIUM conviction
+```bash
+python scripts/rank_screen.py --no-save
+```
 
-```
-python scripts/smallcap_scanner.py top_movers
-python scripts/smallcap_scanner.py unusual_volume
-python scripts/smallcap_scanner.py short_squeeze
-python scripts/smallcap_scanner.py breakouts
-```
+Each held satellite ranked **worse than 25**, or marked NOT ELIGIBLE (below its 200-day
+average), is a replacement. Write `REPLACE OLD → NEW (rank N)` into `research_log.md` as a
+WATCHING entry for Monday's `market_open`. NEW is the best-ranked eligible name you do not
+hold that passes the premarket judgment checks. If slots are empty (below the floor), list
+the top candidates for Monday's premarket to confirm. Note the week's scheduled binary
+events (earnings, FDA dates) for held names.
+
+`smallcap_scanner.py` is context only; do not build the watchlist from it.
 
 ---
 

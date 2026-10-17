@@ -5,6 +5,22 @@ every rule number are in `memory/archive/lessons_history.md`.** Rule numbers are
 old references still resolve. **New lessons must replace a check or state what they let
 through.** Tool defects go under Instruments.
 
+> 🔁 **2026-10-17 — REBUILT AS RANK → JUDGE (Ben: "rebuild rocket tonight").** Read CLAUDE.md
+> "How Rocket Picks Stocks" before anything else. Selection = `scripts/rank_screen.py` (6-1 month
+> momentum ÷ vol, ~1,800 small caps $150M–$10B) → your judgment → up to 8 satellites at ~12%, 25%
+> trailing stop, no profit ladders, exits on stop / thesis break / weekly rank > 25. Every BUY, top-8
+> VETO and non-stop EXIT is logged with `scripts/candidate_ledger.py` and scored vs IWM.
+> Why: 22 straight sessions below the 50% floor (9/17–10/16), 0% in stocks after 10/5. The checklist
+> below rejected nearly everything and nothing measured what it rejected.
+> - **Data-integrity rules stay BINDING** (date every bar, verify the settled close, scanner % is not data,
+>   instruments section).
+> - **Selection rules are ADVISORY** (1 named-dated catalyst, 2 day-2 entry, 4, 5, 13 cap math, 14 ADV,
+>   stop-fit 54c, 67 midday cut, and any rule that rejects a candidate). They may inform a logged, scored
+>   VETO; one regains hard-veto power only if the ledger shows its vetoes underperformed the BUYs (n ≥ 10).
+> - Stops: **25% trailing, never tightened**. Rules citing 7%/5%/3% stops or −5% cuts are superseded.
+> - Hard vetoes that remain: non-US incorporation (52c), binary event ≤10 trading days, earnings ≤5,
+>   fresh dilution / going concern / pinned takeover / reverse split / pump (judgment, logged).
+
 ## Standing Rules — Trading
 1. **No named, dated catalyst = no trade.** Volume alone is the pump shape (rule-1 AVOID).
 2. **Enter on day 2** (same-day 0-for-3, day-2 2-for-3). 2a: 9:30–9:45 range >10% → defer. 2b: the 9:45–9:50 bar must close in its upper half. 2c: gap 20–35% = gap-and-go, >35% = day 2 only. 3: gapped >25% and closed above the midpoint → the open is the entry (within 10% of the prior close).

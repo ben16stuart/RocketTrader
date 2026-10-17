@@ -28,26 +28,16 @@ For each of YOUR open positions (check trade_log.md to identify which are yours)
 python scripts/alpaca_client.py positions
 ```
 
-For each position, assess:
+**Price is the stop's job (since 2026-10-17).** The 25% trailing stop handles price. Do
+NOT cut on a % drawdown, do NOT tighten stops, and do NOT take partial profits. The old
+"−5% = cut" and "tighten to 5%/3%" rules shook Rocket out of RARE, AGEN and OMER on
+ordinary small-cap swings. They are retired.
 
-**CUT IMMEDIATELY if any of these are true:**
-- Down >5% from entry AND no catalyst improvement since entry
-- The original thesis is broken (e.g., earnings beat was already priced in, stock rolled over)
-- Volume dried up completely (low float name going quiet = distribution)
-
-**TIGHTEN STOP if:**
-- Up >15% — tighten trailing stop from 7% to 5%
-- Up >25% — tighten to 3% (lock in most of the gain)
-
-**HOLD if:**
-- Within 5% of entry and catalyst still intact
-- Volume still elevated (continuation likely)
-
-To tighten stops, cancel the existing stop and reset:
-```
-python scripts/alpaca_client.py cancel_stops SYMBOL
-python scripts/alpaca_client.py trailing_stop SYMBOL NEW_PCT
-```
+For each satellite, check only:
+- **Is the stop order still live?** `alpaca_client.py positions` and the open orders list.
+  A satellite with no stop gets one now: `python scripts/alpaca_client.py trailing_stop SYMBOL 25`.
+- **Did the stop fire?** Log the exit in `trade_log.md`. (The ledger scores stop exits
+  through the fills; no `candidate_ledger.py` entry is needed for a stop.)
 
 ---
 
@@ -55,19 +45,22 @@ python scripts/alpaca_client.py trailing_stop SYMBOL NEW_PCT
 
 For each position, do a quick web search: "[SYMBOL] news today"
 
-Small caps can get halted or reverse on news. If you find negative news on a holding, cut it immediately — don't wait for the stop.
+Small caps can get halted or reverse on news. Exit only on a **specific thesis break**: an
+offering or ATM, a going-concern warning, a failed trial, a guidance cut, or a takeover that
+pins the price. Then run `python scripts/alpaca_client.py close SYMBOL` and
+`python scripts/candidate_ledger.py log SYMBOL EXIT "specific reason"`. A red day is not a
+thesis break.
 
 ---
 
-### STEP 4 — SCAN FOR AFTERNOON SETUPS (optional)
+### STEP 4 — FILL AN OPEN SLOT (only if one opened today)
 
-Small caps often have a second move window 1:00–3:00 PM ET after lunch consolidation.
-
-```
-python scripts/smallcap_scanner.py unusual_volume
-```
-
-If a stock shows up here that was also strong this morning and is now consolidating above its opening range with sustained volume — that's a potential afternoon add or new entry. Apply full 5-step check first.
+If a stop fired or a thesis broke today and you are under the 5-per-week cap, you may fill
+the slot with the best-ranked eligible name from **today's** `memory/ledger/ranks/` file
+that you do not hold. Apply the premarket judgment checks (STEP 4 there): hard vetoes,
+one news search, one filings look. Fund it from IWM (CLAUDE.md rule 3), stop at 25%, and
+log it with `candidate_ledger.py log SYMBOL BUY ... --rank N`. Never pick from
+`smallcap_scanner.py`.
 
 **Do NOT open new positions after 3:30 PM ET.**
 

@@ -5,6 +5,18 @@ entries to `memory/archive/research_log_history.md` (the W41 board was archived 
 
 ---
 
+> 🔁 **2026-10-17 — REBUILT AS RANK → JUDGE (Ben: "rebuild rocket tonight").** Read CLAUDE.md
+> "How Rocket Picks Stocks" before anything else. Selection = `scripts/rank_screen.py` (6-1 month
+> momentum ÷ vol, ~1,800 small caps $150M–$10B) → your judgment → up to 8 satellites at ~12%, 25%
+> trailing stop, no profit ladders, exits on stop / thesis break / weekly rank > 25. Every BUY, top-8
+> VETO and non-stop EXIT is logged with `scripts/candidate_ledger.py` and scored vs IWM.
+> Why: 22 straight sessions below the 50% floor (9/17–10/16), 0% in stocks after 10/5. The checklist
+> below rejected nearly everything and nothing measured what it rejected.
+> **Mon 10/19 premarket, priority #1:** satellites 0% vs the 50% floor. Run `rank_screen.py`, fill up to
+> 5 slots (this week's cap) from the top of the ranking with the judgment checks, and log every top-8 skip
+> as a VETO. The Week 42 board below (RAPP/EIKN/HAWK/CODI…) is **history, not a to-do list**; a name
+> from it is bought only if it ranks.
+
 ## Watchlist — Week 42 (Mon 10/12 – Fri 10/16), built at W41 review Sat 10/10  ← CURRENT
 
 **Book (10/09 close, hand-built 23a):** IWM 9.9763 sh × $278.94 = $2,782.79 (raw qty via `/v2/positions`)
@@ -226,6 +238,10 @@ Funnel: calendar (3 rows 10/12, 14 rows 10/13, 0 in-universe BMO) → Alpaca tap
 ---
 
 ### Open escalations awaiting a user decision
+**RESOLVED 2026-10-17 by the rank → judge rebuild:** #1 (8 slots at 12.5%: the floor needs 4–5 names, not
+4/4 at max), #4 ($2B ceiling → $10B, IWM's range), #5 (midday −5% cut retired; 25% stop), #7 (the daily ntfy
+now uses `agent_performance.py`, Rocket's own book from fills: +0.88 pts vs IWM since 7/20 on 10/16, which
+matches the hand-built +0.93%). #2, #3 and #6 are advisory under the new process.
 1. **Satellite floor arithmetic** — IWM cap LIFTED 2026-10-06 (Ben chose option 1). RULED 2026-10-06: per-slot cap (15%) and 50% floor stay UNCHANGED —
    no proven edge to size up (last 2 entries stopped out); revisit after >=8 closed satellite trades.
 2. **Rebalance basis** (lesson 44). Now binding — IWM fills to the 90% line.

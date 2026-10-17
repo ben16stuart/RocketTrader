@@ -19,6 +19,10 @@ SECRET_KEY  = os.environ.get("ALPACA_SECRET_KEY", "")
 # LIVE shared equity — not a fixed dollar figure — so they stay correct
 # regardless of how the shared account's total balance moves.
 AGENT_EQUITY_PCT = 0.30  # Rocket's share of the shared account
+# Rank-then-judge rebuild (2026-10-17): up to 8 satellites at ~12% each, 25% trailing stop.
+RISK_PCT = 0.03            # 3% of the slice at risk per entry -> 12% position at a 25% stop
+MAX_SATELLITE_PCT = 0.125  # 1/8 of the slice
+SATELLITE_TRAIL_PCT = 25.0
 
 HEADERS = {
     "APCA-API-KEY-ID":     API_KEY,
@@ -95,7 +99,7 @@ def place_market_order(symbol: str, qty, side: str) -> dict:
     return _post("/v2/orders", body)
 
 
-def place_trailing_stop(symbol: str, qty: int, trail_percent: float = 10.0) -> dict:
+def place_trailing_stop(symbol: str, qty: int, trail_percent: float = SATELLITE_TRAIL_PCT) -> dict:
     """Sell trailing stop order — trails price by trail_percent%.
 
     Alpaca rejects fractional qty on trailing stops, so satellites must be sized in
@@ -162,19 +166,19 @@ def liquidate_all() -> None:
 
 
 def calculate_shares(symbol: str, entry_price: float, stop_price: float) -> dict:
-    """Calculate position size using Rocket's 1.5% risk rule with 15% cap,
+    """Calculate position size using Rocket's 3% risk rule with a 12.5% cap (since 2026-10-17),
     scaled to Rocket's AGENT_EQUITY_PCT slice of the shared account."""
     account = get_account()
     shared_account_value = float(account["portfolio_value"])
     allocated_equity      = shared_account_value * AGENT_EQUITY_PCT
 
-    risk_dollars   = allocated_equity * 0.015
+    risk_dollars   = allocated_equity * RISK_PCT
     stop_distance  = abs(entry_price - stop_price)
     if stop_distance == 0:
         return {"error": "stop_price equals entry_price"}
 
     shares_from_risk = int(risk_dollars / stop_distance)
-    max_shares       = int((allocated_equity * 0.15) / entry_price)
+    max_shares       = int((allocated_equity * MAX_SATELLITE_PCT) / entry_price)
     final_shares     = min(shares_from_risk, max_shares)
     position_value   = final_shares * entry_price
 
@@ -267,7 +271,7 @@ if __name__ == "__main__":
     elif cmd == "trailing_stop":
         # alpaca_client.py trailing_stop SYMBOL TRAIL_PCT
         sym       = args[1].upper()
-        trail_pct = float(args[2]) if len(args) > 2 else 10.0
+        trail_pct = float(args[2]) if len(args) > 2 else SATELLITE_TRAIL_PCT
         pos       = get_position(sym)
         qty       = int(float(pos["qty"]))
         result    = place_trailing_stop(sym, qty, trail_pct)

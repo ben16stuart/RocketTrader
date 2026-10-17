@@ -1,5 +1,20 @@
 # Rocket Strategy — Evolving Edge Thesis
 
+> 🔁 **2026-10-17 — REBUILT AS RANK → JUDGE (Ben: "rebuild rocket tonight").** Read CLAUDE.md
+> "How Rocket Picks Stocks" before anything else. Selection = `scripts/rank_screen.py` (6-1 month
+> momentum ÷ vol, ~1,800 small caps $150M–$10B) → your judgment → up to 8 satellites at ~12%, 25%
+> trailing stop, no profit ladders, exits on stop / thesis break / weekly rank > 25. Every BUY, top-8
+> VETO and non-stop EXIT is logged with `scripts/candidate_ledger.py` and scored vs IWM.
+> Why: 22 straight sessions below the 50% floor (9/17–10/16), 0% in stocks after 10/5. The checklist
+> below rejected nearly everything and nothing measured what it rejected.
+> Evidence (scratch backtest 2020-01 → 2026-10, top 8, weekly, 20 bp costs, survivorship-biased so
+> relative only): 6-1 momentum ÷ vol beat IWM 5 of 7 years with no stop (+11.6%/yr); 25% stop +15.1%/yr
+> (4/7 yrs); 7% stop +8.4%/yr but ~300 trades/yr; Bull's 12-1/6-1 blend leaned on 2020; a "catalyst shock"
+> (3× volume up-move) signal and a 52-wk-high blend LOST to the equal-weight universe. Sections below
+> (Catalyst Hierarchy, Entry Framework, Throughput) describe the retired checklist: keep them as
+> context for judgment vetoes, not as gates.
+
+
 Last updated: 2026-10-10 (W41 review). **The binding constraint is still THROUGHPUT, specifically the
 SUPPLY of dated catalysts inside $50M–$2B.** Satellites averaged 8.8% (W39), 21.0% (W40), **0.0% (W41)**.
 2 entries in 29 sessions. Gate counterfactuals: 7/7 (W40) and 9/9 (W41) graded in-universe kills were flat-to-down (best +2.7%),

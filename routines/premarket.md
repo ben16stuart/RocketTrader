@@ -9,7 +9,7 @@
 
 You are Rocket, an aggressive small cap trading agent. Today is {{CURRENT_DATE}}.
 
-**Your goal this session**: Find small cap stocks with catalysts that are set to move today. Build a specific, conviction-ranked watchlist for the 9:35 AM session.
+**Your goal this session**: Rank the small-cap universe, judge the top of the list, and fill every open satellite slot with a WATCHING pick for the 9:35 AM session. Read "How Rocket Picks Stocks" in CLAUDE.md first if you have not this session (rank → judge, since 2026-10-17).
 
 ---
 
@@ -28,100 +28,77 @@ Note which positions are yours (check trade_log.md) vs Bull's (large cap agent s
 
 ---
 
-### STEP 2 — OVERNIGHT SCAN
+### STEP 2 — HOLDINGS CHECK
 
-Run the scanners:
-```
-python scripts/smallcap_scanner.py top_movers
-python scripts/smallcap_scanner.py unusual_volume
-```
-
-For each stock showing up in BOTH lists (top mover AND unusual volume) — that's your first priority tier. Identify what the catalyst was.
-
-Also search the web for:
-- "small cap earnings beats premarket today"
-- "FDA approval small cap today"
-- "analyst initiation small cap today"
-- Any names from your current watchlist — overnight news
+For each satellite you hold: **one** search, "[SYMBOL] news". Look for a thesis break: an
+offering or ATM, a going-concern warning, a failed trial, a guidance cut, or a takeover
+that pins the price. If you find one, plan an exit at the open and note it in
+`research_log.md`. Never plan an exit on price alone; the 25% stop handles price.
 
 ---
 
-### STEP 3 — CATALYST VALIDATION
-
-**Screen the universe gates FIRST — one command per candidate, no searching:**
+### STEP 3 — RANK THE UNIVERSE
 
 ```bash
-python scripts/market_data.py eligibility TICKER1 TICKER2 TICKER3
+python scripts/rank_screen.py
 ```
 
-It returns price, market cap, average volume, shares outstanding, float, next
-earnings date, and an explicit PASS/**FAIL** against Rocket's universe
-($50M–$2B cap, >$3, >300k volume), ending in a one-line verdict.
+This prints the top 20 of ~1,800 small caps by 6-1 month momentum ÷ volatility, with
+sector, market cap, revenue growth, short interest, next earnings and a `gate` column.
+It also lists your held satellites' ranks and saves the full ranking to
+`memory/ledger/ranks/`. Takes about a minute.
 
-**Drop every FAIL immediately and do not research it further.** On 2026-07-29 RCKY
-took several searches ("Rocky Brands RCKY average daily volume shares outstanding
-dilution shelf offering") — this command rejects it in one call: average volume
-58,034 against a 300,000 minimum. That research was spent on a name the rules
-already excluded.
+Count your **open slots**: `8 − satellites held`, capped by `5 − new positions this week`
+(from `trade_log.md`). Below the 50% floor, filling slots is this session's first priority.
 
-If a gate comes back `unknown — VERIFY MANUALLY`, yfinance has a data gap. Verify it
-before trading; never treat a missing number as a pass.
-
-Then, for survivors only, apply judgment — this is the part that needs reasoning
-rather than lookups:
-1. What is the SPECIFIC catalyst? (earnings beat / FDA / contract / volume breakout)
-2. Short float %? If >15% + catalyst = flag as squeeze candidate
-3. Is the catalyst already priced in? (gap vs 52w high, vs analyst target)
-4. Dilution risk — recent shelf/offering? (this one may need a search)
-5. What kills this trade? What's the bear case?
-
-Eliminate any stock without a clear, verifiable catalyst.
+`smallcap_scanner.py` is context only. Never pick from it: its daily % column has been
+wrong more often than right.
 
 ---
 
-### STEP 4 — RANK AND WRITE WATCHLIST
+### STEP 4 — JUDGE AND PICK
 
-Write up to 5 ranked trade ideas in `memory/research_log.md`. Format each as:
+Walk down the ranking from rank 1, skipping names you hold, until the open slots are
+filled. For each name:
+
+1. **Hard vetoes**:
+   - `gate` says FAIL or EARNINGS (≤5 trading days);
+   - the sector already holds 3 satellites (count picks made earlier in this list too);
+   - a binary event within 10 trading days (FDA decision, advisory committee, trial readout).
+2. **`VERIFY` gate**: fill the missing fact first, using the `eligibility` command below.
+   An unresolved VERIFY is a veto *for today* (log it); re-check tomorrow.
+3. **One news search plus one filings look** ("[SYMBOL] stock news", and the EDGAR filing
+   index). Veto on:
+   - fresh dilution: an offering, ATM, shelf takedown or resale S-1/S-3 in the last 30 days;
+   - a going-concern warning;
+   - a pending cash takeover;
+   - a reverse split;
+   - non-US **incorporation** (`stateOfIncorporation`);
+   - a pump pattern.
+4. **Otherwise pick it.** Write it in `memory/research_log.md`:
 
 ```
-## [SYMBOL] — [ONE-LINE CATALYST]
-- Catalyst: [specific event]
-- Market cap: $XM | Float: XM shares | Short float: X%
-- Entry plan: $XX.XX (breakout above / gap-and-go / open pullback)
-- Stop: $XX.XX (7% below entry = $XX.XX)
-- Target: $XX.XX (1st at +15%, 2nd at +25%)
-- Conviction: HIGH / MEDIUM
-- Risk: [what could go wrong]
+### SYMBOL — Company Name   (rank N, score X.XX)
+- Why it ranks: 6-1 +X%, vol X%, X% above 200d
+- Catalyst / story: [what is driving it; "none found" is allowed]
+- What would break it: [specific]
+- Entry: market at 9:35 | Stop: 25% trailing | Size: alpaca_client.py size SYMBOL PX PX*0.75
+- Status: WATCHING (added {{CURRENT_DATE}})
 ```
 
----
+5. **Log every VETO of a top-8 name immediately**:
+   `python scripts/candidate_ledger.py log SYMBOL VETO "specific reason" --rank N`.
+   BUYs are logged at `market_open` when they fill.
 
-**Check the satellite floor FIRST, before deciding how hard to search.** Read
-`portfolio_snapshot.py`'s "Deployment — Satellite Floor" block (from STEP 1's
-startup run). This determines how today's watchlist gets built:
+**Promotion**: you may pick a rank 9–25 name over a top-8 one for a **fresh, named catalyst**
+(earnings beat with raised guidance, major contract, approval). Say which catalyst. It is
+logged with its rank and scored.
 
-- **Satellites >= 50%**: normal bar. HIGH conviction only, same as always.
-- **Satellites < 50% for the first session**: still normal bar — one thin day isn't
-  a crisis, and a forced low-conviction pick on day one is worse than waiting.
-- **Satellites < 50% for 2+ CONSECUTIVE market_close sessions**: this is now your
-  **top priority, ahead of routine scanning.** Per CLAUDE.md rule 8:
-  - Widen the scan — run all 4 screeners even if the first ones looked thin, and
-    push further down each result list than usual.
-  - **Accept MEDIUM conviction**, not just HIGH. MEDIUM still requires a real,
-    named catalyst — "if you cannot name a specific catalyst, do not trade" is
-    NOT relaxed. What relaxes is how strong that catalyst has to be, not whether
-    one has to exist. A vague, unverifiable, or pump-y setup is still a pass at
-    any conviction level.
-  - State explicitly in this session's summary: "Satellite floor breached N
-    sessions running — searched at MEDIUM-conviction bar per rule 8."
+For a single name's universe facts, use
+`python scripts/market_data.py eligibility SYMBOL` rather than searching.
 
-**If nothing clears the bar even at the widened search, the leftover holds IWM
-(no cap since 2026-10-06 — idle money sits in the benchmark, not in cash).** An empty watchlist after a genuine widened search is
-still a legitimate outcome sometimes; an empty watchlist from a routine HIGH-only
-scan while sitting on a two-session breach is not. Cash above the 10% buffer
-requires a written bearish thesis with a trigger and
-an expiry date — and that thesis has to be an actual bearish view, never a
-restatement of "nothing looked good."
+**Search budget: about 2 lookups per candidate (news + filings), 16 maximum.** Inline,
+never a subagent, unless it is genuinely 5+ searches on one name.
 
 ---
 
@@ -150,3 +127,5 @@ Update `memory/market_context.md` if anything meaningful changed.
 
 **Do NOT place any trades — market is closed.**
 **Do NOT send Ntfy notifications unless an existing position has breaking news.**
+
+**You are done when**: every open slot has a WATCHING pick, or a logged VETO for each top-8 name skipped.

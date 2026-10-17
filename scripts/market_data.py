@@ -126,8 +126,8 @@ def screen_momentum(top_n: int = 10) -> list[dict]:
 # ---------------------------------------------------------------------------
 UNIVERSE = {
     "name":           "Rocket",
-    "min_market_cap": 50_000_000,
-    "max_market_cap": 2_000_000_000,   # small caps only — NOT S&P 500 names
+    "min_market_cap": 150_000_000,     # IWM's range since the 2026-10-17 rebuild (was $50M-$2B)
+    "max_market_cap": 10_000_000_000,
     "min_avg_volume": 300_000,
     "min_price":      3.00,            # avoid sub-$3 micro-cap traps
 }

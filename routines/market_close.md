@@ -81,8 +81,9 @@ shortfall is parked in IWM, not cash.
   NOT write it up as if a bearish cash thesis justifies it. It doesn't.
   - If this is the **1st** session below floor: note it, no other action required yet.
   - If this is the **2nd consecutive** session below floor: this becomes the #1
-    priority of tomorrow's `premarket` — see CLAUDE.md rule 8 (widen the scan,
-    accept MEDIUM conviction). Say so explicitly in this session's summary.
+    priority of tomorrow's `premarket` — see CLAUDE.md rule 8 (fill slots from the
+    ranking; every skipped top-8 name is a logged VETO). Say so explicitly in this
+    session's summary.
 
 5. Compute `target_core = slice - satellite_value - (slice * 0.10)` — everything
    the satellites do not use, minus the 10% cash buffer. **There is no 50% cap.**

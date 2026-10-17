@@ -156,8 +156,8 @@ def build_snapshot() -> str:
         (f"✅ **Satellite floor met.**" if floor_ok else
          f"🚨 **SATELLITE FLOOR BREACHED — {satellite_pct:.1f}% < 50%.** Rocket is not "
          f"deployed in enough stock picks (the shortfall sits in IWM, not cash). This is "
-         f"not a market call to sit out — it is a research gap. Finding a qualifying "
-         f"name is the top priority of the next session, not an optional nice-to-have."),
+         f"not a market call to sit out. Fill open slots from `python scripts/rank_screen.py` "
+         f"(max 5 new per week); every skipped top-8 name must be a logged VETO."),
         f"",
         f"**Rebase Date**: {REBASE_DATE} (account merged with Bull — prior standalone",
         f"history since {ORIGINAL_INCEPTION_DATE} is preserved in memory/weekly_reviews/)",

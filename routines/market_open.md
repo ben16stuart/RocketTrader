@@ -37,37 +37,26 @@ cost 343,152 tokens (~171k of context overhead each) to run 9 searches. Inline i
 fraction of that. Spawn a subagent only at 5+ searches on one topic — see
 CLAUDE.md, "Subagents have a large fixed cost".
 
-For each stock on your watchlist from pre-market:
+For each WATCHING pick in `research_log.md` (added by today's premarket, or by Saturday's
+review as a `REPLACE OLD → NEW`):
 
-**Check the open:**
-```
-python scripts/smallcap_scanner.py detail SYMBOL
-```
+1. **Price check**: `python scripts/market_data.py price SYMBOL`. If it opened **more than
+   8% above yesterday's close on no news**, wait one session (it stays WATCHING). There
+   are no gap-and-go, second-day or 10-minute-base rules any more (retired 2026-10-17).
+2. **One news search**, "[SYMBOL] news this morning". Skip it only for a *specific* new red
+   flag: an offering priced overnight, a halt, a failed trial. Log that as
+   `candidate_ledger.py log SYMBOL VETO "reason" --rank N`.
+3. **Guardrails** (table below). If all pass, execute.
 
-Ask yourself:
-- Is it gapping up cleanly on volume? (gap-and-go setup)
-- Did it open and immediately pull back? (wait for base to form — 5-15 mins)
-- Is volume confirming? (above avg by 9:45 AM is fine — opening 5 mins can be low on any gap)
-
-**Gap size framework** (applies to fresh catalyst plays):
-- **Gap <20%**: Enter on open or first 10-min consolidation. Normal setup.
-- **Gap 20–35%**: This is NOT a chase — it's a gap-and-go. Wait for 10-min base (9:45–9:50), then enter. Do NOT wait for a full pullback.
-- **Gap >35% same day**: Too extended to enter today. Add to watchlist. Check back tomorrow — if catalyst is intact and stock closes strong, the second-day open IS a valid entry.
-- **Second-day entries**: Stock gapped >25% yesterday, closed strong → today's open (or first 10-min base) is the entry. The overnight session was the consolidation. Entry zone = within 10% of prior day's close.
+For a `REPLACE OLD → NEW`: sell OLD first (`python scripts/alpaca_client.py close OLD`,
+then `cancel_stops OLD` if a stop remains), and log
+`candidate_ledger.py log OLD EXIT "rank decay: N"`. Then buy NEW below.
 
 ---
 
-### STEP 3 — EXECUTE (if criteria met)
+### STEP 3 — EXECUTE
 
-Only execute a trade if ALL of these are true:
-- ✅ Has a named catalyst (earnings beat, FDA, unusual volume + news)
-- ✅ Market cap $50M-$2B, price >$3, volume above avg by 9:45 AM (first 5-min bar can be low — check by 9:45)
-- ✅ Your Rocket position count would be ≤4 after this trade
-- ✅ Combined account positions (yours + Bull's) ≤7
-- ✅ Cash available for position
-- ✅ Daily loss not already at $5,000
-
-Position sizing:
+Position sizing (stop = entry × 0.75):
 ```
 python scripts/alpaca_client.py size SYMBOL ENTRY_PRICE STOP_PRICE
 ```
@@ -98,30 +87,32 @@ python scripts/alpaca_client.py buy SYMBOL SHARES
 
 Immediately set trailing stop:
 ```
-python scripts/alpaca_client.py trailing_stop SYMBOL 7
+python scripts/alpaca_client.py trailing_stop SYMBOL 25
 ```
 
 Log to `memory/trade_log.md`:
 ```
 ## [DATE] — [SYMBOL] BUY
 - Shares: X @ $XX.XX
-- Catalyst: [specific]
-- Stop: 7% trailing (~$XX.XX)
-- Target: 1st $XX.XX (+15%), 2nd $XX.XX (+25%)
+- Rank at pick: N (score X.XX) | Sector: X
+- Catalyst / story: [from the premarket entry]
+- Stop: 25% trailing (~$XX.XX). No targets; exits on stop, thesis break, or weekly rank > 25
 - Thesis: [2 sentences]
+```
+
+**Log it to the learning ledger** (scored against IWM at 5/10/20 days):
+```
+python scripts/candidate_ledger.py log SYMBOL BUY "one-line thesis" --rank N
 ```
 
 ---
 
-### STEP 4 — ALSO SCAN FOR FRESH MOVERS
+### STEP 4 — NO FRESH-MOVER ENTRIES
 
-Run:
-```
-python scripts/smallcap_scanner.py unusual_volume
-python scripts/smallcap_scanner.py top_movers
-```
-
-Look for anything NEW that wasn't on the pre-market radar but has: confirmed volume + price action + identifiable catalyst. If you find one and have position capacity, apply the same 5-step check before acting.
+Picks come only from the ranking (today's `memory/ledger/ranks/` file, top 25). Do not buy
+off `smallcap_scanner.py top_movers` or `unusual_volume`: a same-day spike with no rank is
+exactly the trap the old rules kept tripping on. If a mover looks compelling, note it in
+`research_log.md` for tomorrow's premarket to judge against the ranking.
 
 ---
 
@@ -129,11 +120,12 @@ Look for anything NEW that wasn't on the pre-market radar but has: confirmed vol
 
 | Check | Limit |
 |-------|-------|
-| Rocket positions after trade | ≤ 4 |
-| Cash available | > position size |
-| Daily loss today | < $5,000 |
-| Catalyst identified | Yes |
-| Time | 9:35–11:30 AM ET only (best setups) |
+| Rocket satellites after trade | ≤ 8, and ≤ 3 in this sector |
+| New positions this week | ≤ 5 |
+| Position size | ≤ 12.5% of slice (`size` enforces it) |
+| Daily loss today | < 5% of slice |
+| Binary event (FDA/trial) | none within 10 trading days; earnings not within 5 |
+| Time | 9:35–11:30 AM ET |
 
 After 11:30 AM, switch to watching only — no new opens at market_open session.
 
@@ -145,7 +137,7 @@ Run `python scripts/portfolio_snapshot.py` to sync final state.
 
 **If a trade was placed**, send notification:
 ```bash
-python scripts/ntfy_notify.py "🚀 Rocket Trade — SYMBOL" "Bought X shares @ $XX.XX. Catalyst: [1 sentence]. Stop $XX.XX, target $XX.XX (+15%)."
+python scripts/ntfy_notify.py "🚀 Rocket Trade — SYMBOL" "Bought X shares @ $XX.XX (rank N). Why: [1 sentence]. 25% trailing stop ~$XX.XX."
 ```
 
 **If a stop was triggered** (position closed automatically), send notification:
