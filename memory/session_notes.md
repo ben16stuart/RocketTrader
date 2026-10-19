@@ -3,6 +3,21 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-19 — PREMARKET (Monday, Week 43 day 1) — first rank → judge board: 5 WATCHING, 4 VETOs logged
+
+- Satellites 0.0% (floor breached at 20 straight closes). Slice $2,997.62. IWM core 9.9763 sh. Shared cash $986.15. Open slots = 5 (weekly cap).
+- `rank_screen.py`: 651 eligible of 1,830. Data as of the 10/16 close, saved to `ledger/ranks/2026-10-16.csv`.
+- **Picks (WATCHING):** REPL #1 (33 sh), TXG #3 (5), NEO #4 (21), DK #8 (4), NSIT #9 (2). Total ≈ $1,685 ≈ **56% of slice**.
+- **VETOs logged:** SMWB #2 and ABCL #5 (non-US HQ), OABI #6 and SDGR #7 (HC cap).
+- EDGAR worked from a script today (`data.sec.gov/submissions` with a UA header). One call gives both incorporation and recent filings, so it covers
+  the filings look for 8 names in one shot. All US-incorporated. Of the 8, only REPL has an offering (424B5 8/10, outside 30d) plus an S-3ASR shelf.
+- **market_open owes:** (1) verify REPL's August RP1 FDA outcome before buying it; (2) one CORE FUNDING IWM sale, then 5 market buys,
+  then 25% trailing stops; (3) **NEO is Monday-only**: if it doesn't fill 10/19, log a VETO (earnings 10/27 ≤5 td); (4) log each fill with
+  `candidate_ledger.py log SYM BUY ... --rank N`. Next in line: GTLB #11, UTZ #12.
+- Macro: VIX 18.63 live, RTY +0.45% live. FOMC 10/27–28. 7 searches used. No trades (market closed). No ntfy (no held satellites).
+
+---
+
 ## 2026-10-16 — PREMARKET (Friday, Week 42 day 5) — RAPP #1 / EIKN #2, both MEDIUM tape-confirmed
 
 - **Satellite floor breached 19 sessions running — searched at MEDIUM-conviction bar per rule 8.**
@@ -58,3 +73,11 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - `memory/archive/session_notes_2026-07.md` — July 2026
 - `memory/archive/session_notes_2026-06.md` — June 2026
 - `memory/archive/session_notes_may2026.md` — May 2026
+
+---
+
+## 2026-10-19 — MIDDAY (Monday, Week 43 day 1) — 5 satellites held, no action
+- Mine: REPL, TXG, NEO, DK, NSIT (all bought at open, ~56% of slice). Trailing stops live on all five (snapshot open-orders). No stop fired. Prices: REPL -1.4%, TXG +2.0%, NEO -1.1%, DK -4.1%, NSIT +1.2% vs entry. Price is the stop's job; no cuts.
+- News: nothing thesis-breaking. NEO: prelim Q3 rev ~$209M, FY guide to rise at midpoint, CEO succession 1/4/27 (not a break; earnings 10/27-28 still ahead). REPL: search returned only the old adcom/Aug-2 PDUFA items, FDA outcome still unverified (carried from open). TXG, DK, NSIT: no fresh news found (results stale).
+- Snapshot reconciliation lists DK/NEO/NSIT/REPL/TXG as "unattributed" (trade_log entries 10/19 lack the format the reconciler parses) and HPE/STT as unattributed too (not Rocket buys; presumably Bull's). Needs a reconciler fix / attribution check, not a trading action.
+- No open slot, no new entries (5/5 weekly cap used). No ntfy.

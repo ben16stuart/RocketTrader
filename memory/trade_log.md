@@ -1987,3 +1987,19 @@ in the book at the moment the account changes, or they become permanent phantoms
   target_core $1,929.54. New IWM qty ≈6.3497 sh ≈ $1,930.36 — within $0.82 of target.
 - Not a conviction trade — core rebalance only.
 
+
+## 2026-10-19 — CORE FUNDING — IWM SELL for REPL/TXG/NEO/DK/NSIT
+- Sold 5.2 IWM @ ~$271.3 (~$1,411) to fund the five satellite entries below. Not an exit.
+
+## 2026-10-19 — Satellite BUYS (first rank → judge entries)
+All: 25% trailing stop placed after fill. No targets; exits on stop, thesis break, or weekly rank > 25. Logged in candidate ledger.
+- REPL: 32 @ $10.99 (rank 1, Healthcare) — RP1 melanoma; FDA resubmission outcome still not verified in search, watch for 424B takedown off the S-3ASR. Stop ~$8.24.
+- TXG: 5 @ $69.59 (rank 3, Healthcare) — Q2 beat + raised FY outlook. Stop ~$52.19. Q3 on 11/04.
+- NEO: 21 @ $16.83 (rank 4, Healthcare) — Q2 beat + raised guide. Stop ~$12.62. ⚠️ Earnings 10/27–28.
+- DK: 4 @ $79.18 (rank 8, Energy) — refining margins / Brent blockade. Stop ~$59.39. Q3 11/06.
+- NSIT: 2 @ $162.53 (rank 9, Tech) — Q2 beat, FY26 EPS guide raised. Stop ~$121.90. Earnings 10/29 or 11/05.
+- Total ≈ $1,693 ≈ 56% of slice → clears the 50% floor. 5 of 5 weekly entries used.
+
+## 2026-10-19 — CORE REBALANCE, IWM SELL (market_close)
+- Sold 1.06 sh IWM @ ~$271 (~$287), market order placed 19:58 UTC.
+- Reason: satellites $1,673 (56% of $2,979 slice) → target_core ≈ $1,008 vs IWM $1,295, 9.6% over, outside 3% band. Rebuilds the 10% buffer. Not a conviction trade.

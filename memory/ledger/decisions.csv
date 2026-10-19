@@ -1,0 +1,10 @@
+date,time,sym,decision,rank,reason
+2026-10-19,04:22,SMWB,VETO,2,hard: gate FAIL non-US HQ (Israel)
+2026-10-19,04:22,ABCL,VETO,5,hard: gate FAIL non-US HQ (Canada)
+2026-10-19,04:22,OABI,VETO,6,"hard: healthcare sector cap (REPL/TXG/NEO picked at ranks 1/3/4); otherwise clean (DE inc, no S-1/S-3 since 8/15)"
+2026-10-19,04:22,SDGR,VETO,7,"hard: healthcare sector cap (REPL/TXG/NEO picked at ranks 1/3/4); otherwise clean (DE inc, no S-1/S-3 since 8/15)"
+2026-10-19,07:46,REPL,BUY,1,"RP1 melanoma, 6-1 +493%, rank 1; no new negative news at open"
+2026-10-19,07:46,TXG,BUY,3,"Q2 beat + raised FY guide, Atera demand"
+2026-10-19,07:46,NEO,BUY,4,Q2 beat + raised FY26 guide; earnings 10/27 is 6td out
+2026-10-19,07:46,DK,BUY,8,"refining margins, Brent ~109 blockade"
+2026-10-19,07:46,NSIT,BUY,9,"Q2 beat, FY26 EPS guide raised"
