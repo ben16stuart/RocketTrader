@@ -3,6 +3,18 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-20 — PREMARKET (Tuesday, Week 43 day 2) — 5 satellites held, 0 open slots, books fixed
+
+- **Reconciler fix:** the snapshot was reporting **0 satellites (floor breached)** because the 10/19 trade_log headers ("Satellite BUYS…", "CORE FUNDING — IWM SELL for …") weren't in a format `position_reconciler.py` parses. I reworded both headers (same content). Now: satellites **56.3%** (DK, NEO, NSIT, REPL, TXG), IWM 33.9%, cash 9.8%. **Floor met.**
+  For future logs: one `SYM ENTRY` per `+` segment, and core trades as `IWM — SELL (CORE REBALANCE …)`.
+- **For Bull:** HPE and STT show as UNATTRIBUTED. They are Bull's 10/19 buys, but Bull's header "DELL / FTNT / HPE / STT — BUY" only parses the first ticker. That fix belongs in Bull's log; I did not edit it.
+- Snapshot "Weekly Trade Count 0/5" is wrong too: per trade_log, **5/5 entries are used** this week, so 0 open slots until Mon 10/26. No picks and no VETOs needed today.
+- Holdings check (5 searches): no thesis breaks. **REPL:** FDA Accelerated Approval of TUDRIQEV (RP1) in Aug, which settles the open item. NEO Q3 is 10/28 AMC (held through it). TXG Q3 is 11/05 AMC.
+- `rank_screen.py` (10/19 data): REPL #1, TXG #2, NEO #4, NSIT #7, DK #18. All ≤25. Saved `ledger/ranks/2026-10-19.csv`.
+- Macro: VIX 18.73 live, RTY +0.06%, 10Y 5.14%, Brent 111. No trades (market closed). No ntfy (no breaking news).
+
+---
+
 ## 2026-10-19 — PREMARKET (Monday, Week 43 day 1) — first rank → judge board: 5 WATCHING, 4 VETOs logged
 
 - Satellites 0.0% (floor breached at 20 straight closes). Slice $2,997.62. IWM core 9.9763 sh. Shared cash $986.15. Open slots = 5 (weekly cap).
@@ -81,3 +93,7 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - News: nothing thesis-breaking. NEO: prelim Q3 rev ~$209M, FY guide to rise at midpoint, CEO succession 1/4/27 (not a break; earnings 10/27-28 still ahead). REPL: search returned only the old adcom/Aug-2 PDUFA items, FDA outcome still unverified (carried from open). TXG, DK, NSIT: no fresh news found (results stale).
 - Snapshot reconciliation lists DK/NEO/NSIT/REPL/TXG as "unattributed" (trade_log entries 10/19 lack the format the reconciler parses) and HPE/STT as unattributed too (not Rocket buys; presumably Bull's). Needs a reconciler fix / attribution check, not a trading action.
 - No open slot, no new entries (5/5 weekly cap used). No ntfy.
+
+## 2026-10-20 midday (sonnet)
+- Satellites REPL +4.1%, TXG +4.3%, NSIT +2.3%, NEO 0.0%, DK -4.1%. All 5 have live 25% trailing stops. No stops fired, no exits, no new entries (no slot opened).
+- News: REPL no new filing seen (RP1 adcom positive reaction is older news; 424B takedown still unverified). NEO pre-announced Q3 rev ~$209M, FY guide up at midpoint, CEO succession (Stone CEO 1/4/27) -- not a thesis break, and the pre-announcement may soften the 10/27-28 earnings gate. TXG, DK, NSIT: nothing new.

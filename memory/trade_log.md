@@ -1988,10 +1988,10 @@ in the book at the moment the account changes, or they become permanent phantoms
 - Not a conviction trade — core rebalance only.
 
 
-## 2026-10-19 — CORE FUNDING — IWM SELL for REPL/TXG/NEO/DK/NSIT
+## 2026-10-19 — IWM — SELL (CORE REBALANCE: core funding for REPL, TXG, NEO, DK, NSIT)
 - Sold 5.2 IWM @ ~$271.3 (~$1,411) to fund the five satellite entries below. Not an exit.
 
-## 2026-10-19 — Satellite BUYS (first rank → judge entries)
+## 2026-10-19 — REPL ENTRY + TXG ENTRY + NEO ENTRY + DK ENTRY + NSIT ENTRY (satellite buys, first rank → judge entries)
 All: 25% trailing stop placed after fill. No targets; exits on stop, thesis break, or weekly rank > 25. Logged in candidate ledger.
 - REPL: 32 @ $10.99 (rank 1, Healthcare) — RP1 melanoma; FDA resubmission outcome still not verified in search, watch for 424B takedown off the S-3ASR. Stop ~$8.24.
 - TXG: 5 @ $69.59 (rank 3, Healthcare) — Q2 beat + raised FY outlook. Stop ~$52.19. Q3 on 11/04.
