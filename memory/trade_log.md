@@ -2003,3 +2003,7 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-10-19 — CORE REBALANCE, IWM SELL (market_close)
 - Sold 1.06 sh IWM @ ~$271 (~$287), market order placed 19:58 UTC.
 - Reason: satellites $1,673 (56% of $2,979 slice) → target_core ≈ $1,008 vs IWM $1,295, 9.6% over, outside 3% band. Rebuilds the 10% buffer. Not a conviction trade.
+
+## 2026-10-20 — market_close: no trades
+- Held all 5 satellites. Satellites 56.8% of slice (floor met); IWM $1,024 vs target ≈ $999, inside 3% band → no rebalance.
+- ⚠️ HPE ($841) and STT ($833) UNATTRIBUTED at broker (in neither log, both have trailing stops). Not touched; ownership unresolved.
