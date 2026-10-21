@@ -2007,3 +2007,7 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-10-20 — market_close: no trades
 - Held all 5 satellites. Satellites 56.8% of slice (floor met); IWM $1,024 vs target ≈ $999, inside 3% band → no rebalance.
 - ⚠️ HPE ($841) and STT ($833) UNATTRIBUTED at broker (in neither log, both have trailing stops). Not touched; ownership unresolved.
+
+## 2026-10-21 — market_close: no trades
+- Held all 5 satellites (DK, NEO, NSIT, REPL, TXG), 57.5% of slice (floor met). IWM $1,027 vs target ≈ $998, 0.9% over → inside 3% band, no rebalance.
+- ⚠️ HPE and STT still UNATTRIBUTED at broker (neither log). Not touched.

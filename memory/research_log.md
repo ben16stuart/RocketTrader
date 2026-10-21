@@ -12,6 +12,10 @@ entries to `memory/archive/research_log_history.md` (the W41 board was archived 
 > VETO and non-stop EXIT is logged with `scripts/candidate_ledger.py` and scored vs IWM.
 > Why: 22 straight sessions below the 50% floor (9/17–10/16), 0% in stocks after 10/5. The checklist
 > below rejected nearly everything and nothing measured what it rejected.
+> **Wed 10/21 premarket:** 0 open slots (weekly cap 5/5 used until Mon 10/26). Holdings news clean (no offering, going concern, guide cut or takeover).
+> Rank as of 10/20 close: REPL #1, TXG #2, NEO #5, NSIT #11, **DK #33 ⚠️ (> 25)**. Rank decay is weekly: DK is judged at the Sat 10/24 weekly_review, not before. If it is still >25 then, it gets replaced at Mon 10/26 market_open.
+> NEO gate now shows "EARNINGS in 5d" (10/28 AMC). It's held, so no action: hard veto applies to entries only, and there are no time stops.
+> Next in line by rank (for Mon 10/26): OABI #3 + ATRC #7 + XGN #8 (all HC; HC cap is full with REPL/TXG/NEO), QMCO #9 (Tech), APPS #10 (Tech). SMWB #4, ABCL #6 FAIL non-US HQ.
 > **Tue 10/20 premarket:** all 5 picks HELD (filled 10/19). Rank as of 10/19 close: REPL #1, TXG #2, NEO #4, NSIT #7, DK #18 (all ≤25).
 > Holdings news check is clean. **REPL resolved:** FDA granted Accelerated Approval for TUDRIQEV (RP1) + nivolumab in Aug 2026, so the CRL risk is gone.
 > Dates: REPL Q3 10/29 (search) vs 11/05 (screener); TXG Q3 **11/05 AMC** (company PR 10/13, not 11/04); NEO **10/28 AMC** confirmed (±16% implied, held through it, no time stops).
