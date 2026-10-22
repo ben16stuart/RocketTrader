@@ -20,6 +20,8 @@ entries to `memory/archive/research_log_history.md` (the W41 board was archived 
 > Holdings news check is clean. **REPL resolved:** FDA granted Accelerated Approval for TUDRIQEV (RP1) + nivolumab in Aug 2026, so the CRL risk is gone.
 > Dates: REPL Q3 10/29 (search) vs 11/05 (screener); TXG Q3 **11/05 AMC** (company PR 10/13, not 11/04); NEO **10/28 AMC** confirmed (±16% implied, held through it, no time stops).
 > Weekly entry cap 5/5 is used, so 0 open slots until Mon 10/26. Next in line by rank: OABI #6 (HC; would be the 4th HC, HC cap is 3), ATRC #8 (HC, same cap), UTZ #11, QMCO #12, GTLB #13.
+> **Thu 10/22 premarket (10/21 data):** REPL #1, TXG #2, NEO #7, NSIT #12, **DK #36** (>25 for the 2nd day; the weekly_review decides). Holdings check clean. NEO's $275M convert is the 6/22 8-K (not fresh). 0 open slots.
+> If DK is replaced 10/26, HC is capped (OABI #3, XGN #6, ATRC #8 blocked), so the next non-HC names are APPS #11, QMCO #13 and BLZE #16 (all Tech; NSIT + 2 = the cap).
 > **DONE Mon 10/19 premarket:** 5 WATCHING picks (REPL, TXG, NEO, DK, NSIT). The 4 top-8 skips are logged as VETOs. The Week 42 board below (RAPP/EIKN/HAWK/CODI…) is **history, not a to-do list**; a name
 > from it is bought only if it ranks.
 

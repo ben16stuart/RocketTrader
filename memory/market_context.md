@@ -29,3 +29,7 @@ Cash stays at the ≤10% buffer, and the satellite floor still binds (CLAUDE.md:
 **Wed 10/21 premarket LIVE (not closes):** VIX 17.50, ES +0.09%, NQ +0.29%, **RTY −0.23%**, Brent 110.76 (+1.8%), WTI 99.91 (+2.1% true; naive −1.85% was a roll artifact). Small-cap give-back after IWM's +1.66% day; oil firm (supports DK). Under the VIX 22 brake.
 No 8:30 macro data today; TSLA reports after the close. Beige Book was 10/14. FOMC 10/27–28 unchanged.
 
+**Wed 10/21 settled closes** (`market_data.py macro`, Thu 10/22 premarket): VIX 16.68 · 10Y 5.15% (+3bp) · SPY 773.09 (+0.53%) · **IWM 276.48 (+0.25%)** · Brent 108.82 · WTI 97.15 · RTY fut 2,794.20 · Gold 4,150.
+**Thu 10/22 premarket LIVE (not closes):** VIX **18.43 (+10.5%)**, ES −1.01%, **NQ −1.74%**, **RTY −0.83%**, Brent 111.76 (+2.7%), WTI 99.42 (+2.3%), gold −1.1%. Tech-led risk-off overnight with oil up again: the same shape as 10/16. Still under the VIX 22 brake.
+Today's scheduled data: one search returned an undated preview (durable goods, UMich), which may be an old article. Not relied on. FOMC 10/27–28 unchanged.
+

@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-10-21 19:58 UTC
+**Last Updated**: 2026-10-22 19:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,25 +9,25 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,237.05 |
-| Rocket's Allocated Slice (30%) | $3,071.11 |
+| Shared Account Value (Bull + Rocket) | $10,062.24 |
+| Rocket's Allocated Slice (30%) | $3,018.67 |
 | Cash Available (shared, pooled) | $992.03 |
-| Total Invested (both agents) | $9,245.02 |
+| Total Invested (both agents) | $9,070.21 |
 | Unrealized P&L (shared) | $+0.00 |
-| **Rocket own book since 7/20** | **-3.31%** vs IWM -5.44% → **+2.13 pts** |
-| **Rocket own book since 10/6 (new rules)** | **-0.30%** vs IWM -1.75% → **+1.45 pts** |
-| **Rocket own book this week** | **+3.31%** vs IWM +2.21% → **+1.10 pts** |
-| Rocket return since rebase (SHARED account, not own book) | +1.30% |
-| IWM return since rebase | -5.19% |
-| Shared account vs IWM (not Rocket's own — use the bold rows) | +6.49% |
+| **Rocket own book since 7/20** | **-4.70%** vs IWM -5.37% → **+0.67 pts** |
+| **Rocket own book since 10/6 (new rules)** | **-1.73%** vs IWM -1.68% → **-0.05 pts** |
+| **Rocket own book this week** | **+1.83%** vs IWM +2.28% → **-0.46 pts** |
+| Rocket return since rebase (SHARED account, not own book) | -0.43% |
+| IWM return since rebase | -5.11% |
+| Shared account vs IWM (not Rocket's own — use the bold rows) | +4.68% |
 
 ### Deployment — Satellite Floor
 
 | Sleeve | % of slice | Rule |
 |--------|-----------|------|
-| **Satellites (stock picks)** | 57.5% | must be >= 50.0% |
-| Core (IWM) | 33.4% | absorbs the leftover (no cap since 2026-10-06) |
-| Cash | 9.0% | buffer only (<= 10%) |
+| **Satellites (stock picks)** | 57.0% | must be >= 50.0% |
+| Core (IWM) | 34.1% | absorbs the leftover (no cap since 2026-10-06) |
+| Cash | 8.9% | buffer only (<= 10%) |
 
 ✅ **Satellite floor met.**
 
@@ -46,21 +46,21 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| BNY | 6 ($876) | $141.86 | $146.03 | $144.25 | $+24.99 | +2.9% |
-| DELL | 1 ($487) | $464.53 | $486.89 | $461.56 | $+22.36 | +4.8% |
-| DK | 4 ($312) | $79.18 | $78.10 | $77.63 | $-4.32 | -1.4% |
-| FTNT | 5 ($871) | $171.34 | $174.17 | $170.93 | $+14.15 | +1.7% |
-| HPE | 15 ($874) | $56.91 | $58.24 | $56.09 | $+20.09 | +2.4% |
-| ILMN | 3 ($850) | $276.76 | $283.20 | $267.93 | $+19.34 | +2.3% |
-| IWM | 3.7163 ($1,027) | $282.38 | $276.42 | $275.78 | $-22.13 | -2.1% |
-| NEO | 21 ($358) | $16.83 | $17.07 | $16.62 | $+4.93 | +1.4% |
-| NSIT | 2 ($343) | $162.53 | $171.47 | $164.30 | $+17.88 | +5.5% |
-| NUE | 3 ($794) | $248.90 | $264.78 | $261.50 | $+47.64 | +6.4% |
-| REPL | 32 ($375) | $10.99 | $11.73 | $11.42 | $+23.68 | +6.7% |
-| SPY | 0.122 ($94) | $763.26 | $773.51 | $769.05 | $+1.25 | +1.3% |
-| STT | 5 ($842) | $165.11 | $168.46 | $166.58 | $+16.75 | +2.0% |
-| TGT | 5 ($763) | $152.86 | $152.52 | $154.00 | $-1.70 | -0.2% |
-| TXG | 5 ($378) | $69.59 | $75.57 | $71.46 | $+29.88 | +8.6% |
+| BNY | 6 ($870) | $141.86 | $145.01 | $145.85 | $+18.90 | +2.2% |
+| DELL | 1 ($451) | $464.53 | $451.17 | $485.88 | $-13.37 | -2.9% |
+| DK | 4 ($304) | $79.18 | $75.94 | $78.22 | $-12.98 | -4.1% |
+| FTNT | 5 ($864) | $171.34 | $172.82 | $174.05 | $+7.42 | +0.9% |
+| HPE | 15 ($831) | $56.91 | $55.43 | $58.17 | $-22.14 | -2.6% |
+| ILMN | 3 ($810) | $276.76 | $269.87 | $282.86 | $-20.67 | -2.5% |
+| IWM | 3.7163 ($1,028) | $282.38 | $276.62 | $276.48 | $-21.41 | -2.0% |
+| NEO | 21 ($345) | $16.83 | $16.41 | $17.04 | $-8.93 | -2.5% |
+| NSIT | 2 ($341) | $162.53 | $170.72 | $171.19 | $+16.39 | +5.0% |
+| NUE | 3 ($773) | $248.90 | $257.65 | $264.54 | $+26.25 | +3.5% |
+| REPL | 32 ($383) | $10.99 | $11.98 | $11.72 | $+31.68 | +9.0% |
+| SPY | 0.122 ($93) | $763.26 | $763.51 | $773.09 | $+0.03 | +0.0% |
+| STT | 5 ($838) | $165.11 | $167.59 | $168.95 | $+12.38 | +1.5% |
+| TGT | 5 ($790) | $152.86 | $158.07 | $152.38 | $+26.05 | +3.4% |
+| TXG | 5 ($349) | $69.59 | $69.77 | $75.59 | $+0.88 | +0.3% |
 
 ---
 
@@ -68,14 +68,14 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 🚨 **Does not balance — see reconciling items below.**
 
-- **Rocket's core** (1): IWM ($1,027)  — benchmark sleeve; no stop, exempt from position limits
-- **Rocket's satellites** (5): DK ($312), NEO ($358), NSIT ($343), REPL ($375), TXG ($378)
-- **Bull's positions** (7): BNY ($876), DELL ($487), FTNT ($871), ILMN ($850), NUE ($794), SPY ($94), TGT ($763)
+- **Rocket's core** (1): IWM ($1,028)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's satellites** (5): DK ($304), NEO ($345), NSIT ($341), REPL ($383), TXG ($349)
+- **Bull's positions** (7): BNY ($870), DELL ($451), FTNT ($864), ILMN ($810), NUE ($773), SPY ($93), TGT ($790)
 
 🚨 **UNATTRIBUTED — held at the broker but in neither trade log:**
 
-  - HPE ($874) — do not size against this until ownership is resolved.
-  - STT ($842) — do not size against this until ownership is resolved.
+  - HPE ($831) — do not size against this until ownership is resolved.
+  - STT ($838) — do not size against this until ownership is resolved.
 
 
 ---

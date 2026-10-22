@@ -3,6 +3,19 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-22 — PREMARKET (Thursday, Week 43 day 4) — 5 satellites held, 0 open slots, DK rank 36
+
+- Book: satellites **57.6%** (DK, NEO, NSIT, REPL, TXG), IWM 33.5%, cash 8.9%. Slice $3,038.32. **Floor met.** Own book this week +2.47% vs IWM +1.36% (+1.11 pts).
+- Weekly entry cap 5/5 used (all on 10/19, per trade_log; the snapshot's counter is still broken, rule 24), so **0 open slots** until Mon 10/26. No picks and no VETOs owed.
+- Holdings check (5 searches + 1 EDGAR pull): no thesis breaks. The NEO search surfaced a "$275M convertible notes offering". EDGAR dates it to the **6/22 8-K** (items 1.01/2.03/3.02), outside 30d, so it is not fresh dilution. NEO is incorporated in NV (US).
+  NEO's 10/05 8-K (2.02/5.02/5.03) predates the 10/19 entry. NEO Q3 is 10/28 (EARNINGS gate in 4d: entry rule only, held through).
+- `rank_screen.py` (10/21 data, 708 eligible): REPL #1, TXG #2, NEO #7, NSIT #12, **DK #36** (was #33). Saved `ledger/ranks/2026-10-21.csv`.
+  **For the Sat 10/24 weekly_review:** DK is >25 for the 2nd straight day. If it is still >25 Saturday, replace it Mon 10/26. HC already holds 3 (REPL/TXG/NEO), so the HC names OABI #3 / XGN #6 / ATRC #8 are blocked by the sector cap. Next eligible non-HC names: **APPS #11, QMCO #13, BLZE #16** (Tech: NSIT + 2 = 3, at the cap).
+- Still unresolved: HPE / STT UNATTRIBUTED (Bull's 10/19 buys). Not Rocket's, not touched.
+- Macro: VIX 18.43 live (+10.5%), **NQ −1.74%, RTY −0.83%**, ES −1.01%, Brent 111.76 (+2.7%), 10Y 5.15%. Tech-led risk-off, under the VIX 22 brake. 1 event search (undated result, not relied on). No trades (market closed). No ntfy (no breaking news).
+
+---
+
 ## 2026-10-21 — PREMARKET (Wednesday, Week 43 day 3) — 5 satellites held, 0 open slots, DK rank 33
 
 - Book: satellites **56.6%** (DK, NEO, NSIT, REPL, TXG), IWM 33.9%, cash 9.5%. Slice $3,017.10. **Floor met.** Own book this week +1.18% vs IWM +1.67% (−0.49 pts).
@@ -115,3 +128,6 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - All 5 satellites (REPL +7.8%, TXG +10.8%, NEO +1.6%, DK -1.7%, NSIT +3.8%) hold live trailing stops per snapshot. No stop fired, no exits, no trades.
 - News: NEO DOJ civil settlement finalized + PT raises (not a thesis break; earnings 10/27-28 still ahead). REPL: positive adcom/upgrades. TXG/DK/NSIT not searched (no signal). No slot opened, so no fill.
 - HPE/STT still unattributed at broker; untouched.
+
+## 2026-10-22 — midday
+- All 5 satellites (DK, NEO, NSIT, REPL, TXG) hold live 25% trailing stops; none fired. No thesis breaks in news (NEO: CEO succession 1/4/27 + prelim Q3 rev ~$209M, FY guide up at midpoint; REPL earnings 10/29; no dilution/going-concern headlines found). No trades, no slot opened. HPE/STT still unattributed.
