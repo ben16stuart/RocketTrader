@@ -12,6 +12,9 @@ entries to `memory/archive/research_log_history.md` (the W41 board was archived 
 > VETO and non-stop EXIT is logged with `scripts/candidate_ledger.py` and scored vs IWM.
 > Why: 22 straight sessions below the 50% floor (9/17–10/16), 0% in stocks after 10/5. The checklist
 > below rejected nearly everything and nothing measured what it rejected.
+> **Fri 10/23 premarket (10/22 data):** TXG #1, REPL #3, NSIT #6, NEO #8, **DK #46** (>25 for the 3rd day; the Sat 10/24 weekly_review decides). Holdings check clean (5 searches, nothing new or dated after entry). 0 open slots (5/5 weekly cap).
+> REPL earnings now shows **10/28** in the screener (was 11/05; search said 10/29). It is held, so the EARNINGS gate is entry-only: no action. NEO is 10/28 too.
+> If DK is replaced Mon 10/26: HC is capped (OABI #4 earnings 10/30, XGN #5, SDGR #7, TKNO #9 and ATRC #10 all blocked). The next non-HC names are **APPS #12, GTLB #14, QMCO #15** (Tech; NSIT + 2 = the cap), then UTZ #16 (Cons. Def.).
 > **Wed 10/21 premarket:** 0 open slots (weekly cap 5/5 used until Mon 10/26). Holdings news clean (no offering, going concern, guide cut or takeover).
 > Rank as of 10/20 close: REPL #1, TXG #2, NEO #5, NSIT #11, **DK #33 ⚠️ (> 25)**. Rank decay is weekly: DK is judged at the Sat 10/24 weekly_review, not before. If it is still >25 then, it gets replaced at Mon 10/26 market_open.
 > NEO gate now shows "EARNINGS in 5d" (10/28 AMC). It's held, so no action: hard veto applies to entries only, and there are no time stops.

@@ -33,3 +33,5 @@ No 8:30 macro data today; TSLA reports after the close. Beige Book was 10/14. FO
 **Thu 10/22 premarket LIVE (not closes):** VIX **18.43 (+10.5%)**, ES −1.01%, **NQ −1.74%**, **RTY −0.83%**, Brent 111.76 (+2.7%), WTI 99.42 (+2.3%), gold −1.1%. Tech-led risk-off overnight with oil up again: the same shape as 10/16. Still under the VIX 22 brake.
 Today's scheduled data: one search returned an undated preview (durable goods, UMich), which may be an old article. Not relied on. FOMC 10/27–28 unchanged.
 
+**Thu 10/22 settled closes** (`market_data.py macro`, Fri 10/23 premarket): VIX 19.03 · 10Y **4.95%** (−20bp vs 5.15%: an unusually large one-day move, unverified, don't build on it) · SPY 763.96 (−1.18%) · **IWM 276.67 (+0.07%)** · Brent 108.66 (BZF27, rolled) · WTI 99.47 · RTY fut 2,796.10 · Gold 4,060.
+**Fri 10/23 premarket LIVE (not closes):** VIX 19.68 (+3.4%), ES −0.19%, NQ +0.01%, **RTY −0.47%**, Brent 109.73 (+0.98% true; the naive −3.04% was a roll artifact), WTI 101.04 (+1.6%). IWM held up on a −1.2% SPY day. Under the VIX 22 brake. Flash PMIs today. FOMC 10/27–28 unchanged.

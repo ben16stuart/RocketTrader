@@ -3,6 +3,19 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-23 — PREMARKET (Friday, Week 43 day 5) — 5 satellites held, 0 open slots, DK rank 46
+
+- Book: satellites ≈57% (DK, NEO, NSIT, REPL, TXG), IWM ≈34%, cash ≈9%. Slice $3,022.62. **Floor met.** Own book this week +1.62% vs IWM +1.86% (−0.24 pts). Since 10/6: +0.16 pts.
+- Weekly entry cap 5/5 used (all on 10/19), so **0 open slots** until Mon 10/26. No picks and no VETOs owed.
+- Holdings check (5 searches): no thesis breaks. Results were older items: REPL BLA history, TXG Q2 raise, NEO Q2 raise and the 6/22 convert (not fresh), NSIT product launches, DK analyst PTs.
+- `rank_screen.py` (10/22 data, 730 eligible): TXG #1, REPL #3, NSIT #6, NEO #8, **DK #46** (33 → 36 → 46). Saved `ledger/ranks/2026-10-22.csv`.
+  REPL's screener earnings date moved to **10/28** (gate "EARNINGS in 3d"). It is held, so the gate is entry-only and REPL is held through the print.
+  **For the Sat 10/24 weekly_review:** DK is far beyond 25, so replace it Mon 10/26 unless something changes. HC is full (REPL/TXG/NEO). Non-HC candidates: APPS #12, GTLB #14, QMCO #15 (Tech, 2 slots left under the cap), UTZ #16.
+- Still unresolved: HPE / STT UNATTRIBUTED (Bull's). Not touched.
+- Macro: VIX 19.68 live, RTY −0.47%, ES −0.19%, Brent 109.73 (rolled to BZF27). 10Y printed 4.95% (−20bp, unverified). No event search (flash PMIs known from the calendar). No trades. No ntfy.
+
+---
+
 ## 2026-10-22 — PREMARKET (Thursday, Week 43 day 4) — 5 satellites held, 0 open slots, DK rank 36
 
 - Book: satellites **57.6%** (DK, NEO, NSIT, REPL, TXG), IWM 33.5%, cash 8.9%. Slice $3,038.32. **Floor met.** Own book this week +2.47% vs IWM +1.36% (+1.11 pts).
@@ -131,3 +144,8 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 
 ## 2026-10-22 — midday
 - All 5 satellites (DK, NEO, NSIT, REPL, TXG) hold live 25% trailing stops; none fired. No thesis breaks in news (NEO: CEO succession 1/4/27 + prelim Q3 rev ~$209M, FY guide up at midpoint; REPL earnings 10/29; no dilution/going-concern headlines found). No trades, no slot opened. HPE/STT still unattributed.
+
+## 2026-10-23 — midday
+- No trades. All 5 satellites (DK -4.5%, NEO -2.0%, NSIT +7.5%, REPL +6.1%, TXG +2.6%) hold live 25% trailing stops (verified in open orders). No stop fired.
+- News check (5 inline searches): no thesis break. NEO: prelim Q3 rev ~$209M, FY guide to rise at midpoint, CEO succession 1/4/27 (BTIG upgrade) — thesis intact; NEO earnings 10/27–28 still inside hard-veto window of entry, already held. Other searches returned stale/undated results, nothing new on dilution/going concern.
+- No slot opened; no fill step. HPE/STT still UNATTRIBUTED (have 15% stops; untouched).
