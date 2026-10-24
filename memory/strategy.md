@@ -60,7 +60,8 @@ construction.** Every basis point of "Rocket vs IWM" comes from satellites plus 
 | **W40 (9/28–10/02)** | **+0.27%** | **−0.16%** | **+0.43%** | **21.0%** | RARE +0.78%, AGEN ≈ −0.24%, idle cash ≈ −0.10% |
 | **W41 (10/05–10/09)** | **−1.83%** | **−0.92%** | **−0.91%** | **0.0%** | RARE stop-out ≈ −0.88%, idle cash ≈ −0.04% |
 | **W42 (10/12–10/16)** | **−2.75%** | **−3.05%** | **+0.30%** | **0.0%** | cash buffer only (`agent_performance.py` from here on) |
-| Since rebase 7/20 | −6.41% | −7.48% | **+1.07%** | | W34 OMER, pre-IWM cash, W40 RARE, W41 RARE stop |
+| **W43 (10/19–10/23)** | **+1.79%** | **+1.96%** | **−0.18%** | **56.8%** | satellites ≈ IWM (+1.72% vs +1.64% from entry); ~9% idle cash in an up week ≈ −0.18% |
+| Since rebase 7/20 | −4.74% | −5.67% | **+0.93%** | | W34 OMER, pre-IWM cash, W40 RARE, W41 RARE stop; W43 from `agent_performance.py` |
 
 Pre-W36 attribution vs SPY (W30–W35) lives in `archive/strategy_history.md`. Stock picking
 was +0.68% cumulative through W35, ≈ −0.24% in W39, ≈ +0.54% in W40 (RARE + AGEN).
@@ -131,6 +132,12 @@ median ADV (46) · issuer filing over any secondary source (57b/65) · 8-K Item 
 - **Premarket liquidity check needs `sip` data** (lesson 66). Without it the check is aspirational.
 
 ## Rules under observation
+
+- 🧪 **TESTING (W43, from DK −6.0%): a refiner is short its own input.** DK was bought on "Brent ~$109 = margins" and fell while
+  Brent rose ≈109 → 117. For refiners, airlines and chemicals, a crude spike squeezes the crack spread unless product prices
+  lead. Hypothesis: a commodity-*consumer* name in the ranking should get a judgment VETO when the stated thesis is "the
+  commodity is up". Log matching cases as VETOs ("commodity input, not output"); promote only if the ledger confirms (n ≥ 10).
+- 🧪 **Ledger W43 (n tiny, no change):** 5d top-8 +0.16% (8) vs 9–25 +2.22% (17) vs 26+ +1.40% (623); BUY +1.02% (5) vs VETO +1.10% (4).
 
 - 32a: RARE held 9/25, 9/28, 9/29 with the stop <2% away; recovered to +0.9%. First data point positive.
 - Rule 70: applied cleanly on AGEN 9/29.

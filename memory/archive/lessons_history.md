@@ -699,3 +699,7 @@ Research gap, not a bearish call. IWM core $2,772 (89.6%) is within the 3% band 
 
 ## 2026-10-16 — SATELLITE FLOOR BREACH — consecutive session at 0.0% (market_close)
 20th consecutive session below floor. Research gap, not a bearish call. IWM core $2,698 (90.3%) within 3% band of target (~$2,689); no rebalance, no trades. HAWK/RAPP/EIKN plans all died on flat/red opens. Rule 8 escalation stays #1 premarket priority.
+
+
+## Archived 2026-10-24 (W43 review)
+- **W40 (9/28–10/02):** D+. Book +0.27% vs IWM −0.16% (+0.43%, all RARE). Satellites 21.0%. AGEN was a clean day-2 entry, stopped −2.5%; the loss came from the named warrant overhang. **At the MEDIUM bar, a named dilution overhang is the tiebreaker** (lets through: clean-structure MEDIUM catalysts). Clinical-data day-2 plans went 0/4.

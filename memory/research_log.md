@@ -12,81 +12,37 @@ entries to `memory/archive/research_log_history.md` (the W41 board was archived 
 > VETO and non-stop EXIT is logged with `scripts/candidate_ledger.py` and scored vs IWM.
 > Why: 22 straight sessions below the 50% floor (9/17–10/16), 0% in stocks after 10/5. The checklist
 > below rejected nearly everything and nothing measured what it rejected.
-> **Fri 10/23 premarket (10/22 data):** TXG #1, REPL #3, NSIT #6, NEO #8, **DK #46** (>25 for the 3rd day; the Sat 10/24 weekly_review decides). Holdings check clean (5 searches, nothing new or dated after entry). 0 open slots (5/5 weekly cap).
-> REPL earnings now shows **10/28** in the screener (was 11/05; search said 10/29). It is held, so the EARNINGS gate is entry-only: no action. NEO is 10/28 too.
-> If DK is replaced Mon 10/26: HC is capped (OABI #4 earnings 10/30, XGN #5, SDGR #7, TKNO #9 and ATRC #10 all blocked). The next non-HC names are **APPS #12, GTLB #14, QMCO #15** (Tech; NSIT + 2 = the cap), then UTZ #16 (Cons. Def.).
-> **Wed 10/21 premarket:** 0 open slots (weekly cap 5/5 used until Mon 10/26). Holdings news clean (no offering, going concern, guide cut or takeover).
-> Rank as of 10/20 close: REPL #1, TXG #2, NEO #5, NSIT #11, **DK #33 ⚠️ (> 25)**. Rank decay is weekly: DK is judged at the Sat 10/24 weekly_review, not before. If it is still >25 then, it gets replaced at Mon 10/26 market_open.
-> NEO gate now shows "EARNINGS in 5d" (10/28 AMC). It's held, so no action: hard veto applies to entries only, and there are no time stops.
-> Next in line by rank (for Mon 10/26): OABI #3 + ATRC #7 + XGN #8 (all HC; HC cap is full with REPL/TXG/NEO), QMCO #9 (Tech), APPS #10 (Tech). SMWB #4, ABCL #6 FAIL non-US HQ.
-> **Tue 10/20 premarket:** all 5 picks HELD (filled 10/19). Rank as of 10/19 close: REPL #1, TXG #2, NEO #4, NSIT #7, DK #18 (all ≤25).
-> Holdings news check is clean. **REPL resolved:** FDA granted Accelerated Approval for TUDRIQEV (RP1) + nivolumab in Aug 2026, so the CRL risk is gone.
-> Dates: REPL Q3 10/29 (search) vs 11/05 (screener); TXG Q3 **11/05 AMC** (company PR 10/13, not 11/04); NEO **10/28 AMC** confirmed (±16% implied, held through it, no time stops).
-> Weekly entry cap 5/5 is used, so 0 open slots until Mon 10/26. Next in line by rank: OABI #6 (HC; would be the 4th HC, HC cap is 3), ATRC #8 (HC, same cap), UTZ #11, QMCO #12, GTLB #13.
-> **Thu 10/22 premarket (10/21 data):** REPL #1, TXG #2, NEO #7, NSIT #12, **DK #36** (>25 for the 2nd day; the weekly_review decides). Holdings check clean. NEO's $275M convert is the 6/22 8-K (not fresh). 0 open slots.
-> If DK is replaced 10/26, HC is capped (OABI #3, XGN #6, ATRC #8 blocked), so the next non-HC names are APPS #11, QMCO #13 and BLZE #16 (all Tech; NSIT + 2 = the cap).
-> **DONE Mon 10/19 premarket:** 5 WATCHING picks (REPL, TXG, NEO, DK, NSIT). The 4 top-8 skips are logged as VETOs. The Week 42 board below (RAPP/EIKN/HAWK/CODI…) is **history, not a to-do list**; a name
-> from it is bought only if it ranks.
+> The Week 43 board and the daily notes from 10/19–10/23 were archived to `archive/research_log_history.md` on 2026-10-24.
 
-## Watchlist — Week 43 (Mon 10/19 – Fri 10/23), built at W42 review Sat 10/17  ← CURRENT
+## Watchlist — Week 44 (Mon 10/26 – Fri 10/30), built at W43 review Sat 10/24  ← CURRENT
 
-**The first week under rank → judge.** Satellites **0%** (floor 50%, breached at 20 straight closes). Weekly entry cap: **5**. Healthcare cap: 3.
-Book (10/16 close): IWM 9.9763 sh × $270.44 = $2,697.99. Slice $2,988.05 → 12.5% cap ≈ **$373** per satellite. Every BUY needs a
-**CORE FUNDING** IWM sale right before it (rule 3). The W42 board (RAPP/EIKN/HAWK/CODI/OIG/TRAX/VSTM) was archived 2026-10-17. It is history.
+Book (10/23 close): satellites 56.9% (5 held), IWM 3.7163 sh ≈ $1,025 (33.8%), cash 9.3%. Slice $3,029 → 12.5% cap ≈ **$379**.
+The weekly entry cap resets to **5**. HC cap 3 (**full**: TXG/REPL/NEO). Tech cap 3 (NSIT + 2).
+Ranking data as of 10/23 (713 eligible): TXG #1, REPL #2, NSIT #8, NEO #9, **DK #75**.
 
-### Mon 10/19 PREMARKET picks — 5 WATCHING (first rank → judge board; ranking data as of 10/16 close)
-Slots: 8 − 0 held = 8, capped by the weekly limit at **5**. Picks total ≈ **$1,685 ≈ 56% of slice → clears the 50% floor**.
-**CORE FUNDING at market_open:** sell ≈ the BUY total minus free cash above the 10% buffer, as IWM (fractional market) right before the
-buys; log `CORE FUNDING`. EDGAR `stateOfIncorporation` checked via data.sec.gov for all 8 top names (DE ×7, NEO = NV): all US.
-**Top-8 VETOs logged:** SMWB #2 (FAIL Israel HQ), ABCL #5 (FAIL Canada HQ), OABI #6 + SDGR #7 (HC cap: 3 HC picked at ranks 1/3/4).
-NSIT (#9) fills the 5th slot, after DK (#8).
+### Mon 10/26 — WATCHING (premarket confirms on Monday's ranking, then market_open executes)
+1. **REPLACE DK → QMCO (rank 5, Tech).** First, market_open SELLs DK (4 sh): cancel its trailing stop, then `sell DK 4`.
+   Log `candidate_ledger.py log DK EXIT "rank decay 75 > 25 at W43 review" --rank 75`.
+   QMCO (Quantum Corp, DE): 6-1 +311%, vol 117%, short 59.6% (a squeeze flag, not a veto). Earnings 11/09.
+   **Premarket owes:** (a) read the 8.01 items of the 10/09 and 9/28 8-Ks (5.02 exec changes); (b) date the "$54.7M term debt →
+   senior secured convertible notes" exchange: inside 30d = fresh-dilution VETO; (c) going-concern language in the last 10-Q.
+2. **FILL: GTLB (rank 17, Tech).** GitLab, DE, no filings ≤45d, earnings 12/01. The Strong Buy consensus is not a catalyst. Fine.
+3. **FILL: CLDT (rank 25, Real Estate, hotel REIT).** MD (US). 8-K 9/14 (5.02/7.01). Earnings 11/04 BMO (7 td). At the exit-rank edge:
+   if Monday's ranking pushes it past 25, skip it rather than buy next week's replacement.
+- **VETOs:** UTZ #18 is LOGGED (pending $14.25 cash take-private, DEFM14A 10/02). APPS #16 (earnings 11/02 ≤5 td): premarket logs it.
+  QLYS #20 is blocked by the Tech cap once QMCO and GTLB fill. HC names (OABI #3, XGN #4, CDNA #6, TWST #7, …) fail on the HC cap,
+  and SMWB #10 and ABCL #12 FAIL non-US HQ. **Premarket must log every skipped top-8 name as a VETO** with Monday's rank.
+- **Slot 8 stays empty.** Nothing ≤25 is left that passes. Projected satellites ≈ **83%** (4 held ~47% + 3 × ~12%).
+  CORE FUNDING: sell ≈ (3 BUYs − DK proceeds − cash above the 10% buffer) of IWM right before the buys. IWM will be small after that. That is expected.
+- No entries Wed 10/28 (**FOMC**, statement 2:00 PM ET).
 
-### REPL — Replimune Group   (rank 1, score 1.000)
-- Why it ranks: 6-1 +493%, vol 127%, 20% above 200d
-- Catalyst / story: RP1 (vusolimogene) in melanoma. The 4/10 PDUFA ended in a CRL. It was resubmitted in June with a ~8/2 PDUFA (search result). The
-  **outcome is NOT verified**: a run of 8-Ks from 7/30 to 8/11 plus the raise suggests approval. Confirm in the first 2 minutes of market_open; a second CRL would be a thesis break. Raised money on a **424B5 dated 8/10** (70 days ago: outside the 30-day window). 9/16 8-K = annual meeting (5.03/5.07).
-- What would break it: a takedown off the **S-3ASR automatic shelf (8/14)**, which needs no new registration (watch for a 424B); a weak launch print at
-  FQ2 earnings 11/05; any FDA labeling or safety action. 127% vol, so expect 25% swings. That is the stop's job.
-- Entry: market at 9:35 | Stop: 25% trailing | Size: 33 sh ≈ $358 (12.0%) at $10.86 / stop basis $8.15
-- Status: HELD (bought 2026-10-19; 25% trail live)
+### Held satellites — thesis cards (break = specific news, never price)
+- **TXG** (5 @ $69.59, HC): Q2 beat + raised FY outlook, Atera demand. Break: a Q3 (11/05 AMC) guide cut. Cap $9.3B, near the $10B line.
+- **REPL** (32 @ $10.99, HC): RP1 Accelerated Approval (Aug). Break: a 424B takedown off the 8/14 S-3ASR, a weak launch, FDA safety action. **Earnings 10/28.**
+- **NEO** (21 @ $16.83, HC): Q2 beat + raise, prelim Q3 ~$209M, FY guide up. Break: a guide cut. **Earnings 10/28 AMC** (±16% implied, held through it).
+- **NSIT** (2 @ $162.53, Tech): Q2 beat, FY26 EPS guide raised to $12.20–12.70. Break: a guide cut. Earnings 11/05.
+- **DK** (4 @ $79.18, Energy): **EXITING Mon 10/26 on rank decay.** Thesis lesson: a refiner is short crude (strategy.md TESTING).
 
-### TXG — 10x Genomics   (rank 3, score 0.997)
-- Why it ranks: 6-1 +195%, vol 75%, 85% above 200d
-- Catalyst / story: Q2 (8/6) beat with a **raised FY revenue outlook** + early Atera demand; +67% post-earnings drift since. No offerings (13G/As only).
-- What would break it: Q3 (11/04 AMC) guide cut or Atera demand stalling. Insiders: 30 sales / 0 buys in 6 months (supply, not a veto).
-  Cap $9.1B: a ~10% move takes it over IWM's $10B line (in-universe at entry, so the weekly rank decides, not the cap).
-- Entry: market at 9:35 | Stop: 25% trailing | Size: 5 sh ≈ $349 (11.7%) at $69.86 / stop basis $52.40
-- Status: HELD (bought 2026-10-19; 25% trail live)
-
-### NEO — NeoGenomics   (rank 4, score 0.995)
-- Why it ranks: 6-1 +138%, vol 54%, 33% above 200d
-- Catalyst / story: Q2 beat and **raised FY26 revenue guide ($802–806M) and EBITDA**, +260bp gross margin, DOJ probe resolved, Medicare coverage for RaDaR ST.
-- What would break it: Q3 on **10/27 (search) / 10/28 (screener)**, ±16% implied. ⚠️ **Monday-only entry:** a buy today is 6 trading days ahead of
-  10/27. From Tue 10/20 it is 5 days out, which is a hard veto. If it does not fill 10/19, VETO it ("earnings ≤5 td") and move to the next rank.
-  S-8 on 8/25 (not an offering).
-- Entry: market at 9:35 | Stop: 25% trailing | Size: 21 sh ≈ $350 (11.7%) at $16.65 / stop basis $12.49
-- Status: HELD (bought 2026-10-19; 25% trail live)
-
-### DK — Delek US Holdings   (rank 8, score 0.989)
-- Why it ranks: 6-1 +121%, vol 54%, 52% above 200d
-- Catalyst / story: refining margins with Brent ~$109 under the Iran export blockade. Q2 revenue +48%. Street mixed (5 Buy / 5 Hold / 1 Sell;
-  TD Cowen Buy $85 10/1, Freedom Hold $86 10/6). No offering filings.
-- What would break it: the blockade ending or a crude collapse (the headline risk is the thesis itself); a crack-spread squeeze. Q3 on 11/06.
-- Entry: market at 9:35 | Stop: 25% trailing | Size: 4 sh ≈ $306 (10.2%) at $76.59 / stop basis $57.44
-- Status: HELD (bought 2026-10-19; 25% trail live)
-
-### NSIT — Insight Enterprises   (rank 9, score 0.988)
-- Why it ranks: 6-1 +102%, vol 46%, 48% above 200d
-- Catalyst / story: Q2 (8/6) EPS $3.86 vs $2.93, revenue +14.7%, **FY26 EPS guide raised to $12.20–12.70** (AI infrastructure / cybersecurity). No filings since 8/15.
-- What would break it: Q3 guide cut. ⚠️ Earnings date conflict: **10/29 (search) vs 11/05 (screener)**. 10/29 is 8 td out, so the entry is fine either way.
-- Entry: market at 9:35 | Stop: 25% trailing | Size: 2 sh ≈ $321 (10.7%) at $160.47 / stop basis $120.35
-- Status: HELD (bought 2026-10-19; 25% trail live)
-
-**Next in line if a pick is skipped at the open:** GTLB #11 (Tech), UTZ #12 (Consumer Defensive; earnings 10/29 = 8 td). HNGE #10 is HC, blocked by the cap.
-**Open-rule reminder:** if a name opens >8% above its 10/16 close on no news, wait one session (except NEO, which becomes a veto instead).
-**Rank-decay replacements:** none (no held satellites).
-**Calendar:** FOMC **10/27–28** (statement 10/28 2:00 PM ET) is next week. This week: housing starts and flash PMIs (10/23).
-VIX 18.63 live (10/16 close 19.99), under the 22 brake.
 
 ### Open escalations awaiting a user decision
 **RESOLVED 2026-10-17 by the rank → judge rebuild:** #1 (8 slots at 12.5%: the floor needs 4–5 names, not
