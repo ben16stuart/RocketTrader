@@ -20,21 +20,46 @@ Book (10/23 close): satellites 56.9% (5 held), IWM 3.7163 sh ≈ $1,025 (33.8%),
 The weekly entry cap resets to **5**. HC cap 3 (**full**: TXG/REPL/NEO). Tech cap 3 (NSIT + 2).
 Ranking data as of 10/23 (713 eligible): TXG #1, REPL #2, NSIT #8, NEO #9, **DK #75**.
 
-### Mon 10/26 — WATCHING (premarket confirms on Monday's ranking, then market_open executes)
-1. **REPLACE DK → QMCO (rank 5, Tech).** First, market_open SELLs DK (4 sh): cancel its trailing stop, then `sell DK 4`.
-   Log `candidate_ledger.py log DK EXIT "rank decay 75 > 25 at W43 review" --rank 75`.
-   QMCO (Quantum Corp, DE): 6-1 +311%, vol 117%, short 59.6% (a squeeze flag, not a veto). Earnings 11/09.
-   **Premarket owes:** (a) read the 8.01 items of the 10/09 and 9/28 8-Ks (5.02 exec changes); (b) date the "$54.7M term debt →
-   senior secured convertible notes" exchange: inside 30d = fresh-dilution VETO; (c) going-concern language in the last 10-Q.
-2. **FILL: GTLB (rank 17, Tech).** GitLab, DE, no filings ≤45d, earnings 12/01. The Strong Buy consensus is not a catalyst. Fine.
-3. **FILL: CLDT (rank 25, Real Estate, hotel REIT).** MD (US). 8-K 9/14 (5.02/7.01). Earnings 11/04 BMO (7 td). At the exit-rank edge:
-   if Monday's ranking pushes it past 25, skip it rather than buy next week's replacement.
-- **VETOs:** UTZ #18 is LOGGED (pending $14.25 cash take-private, DEFM14A 10/02). APPS #16 (earnings 11/02 ≤5 td): premarket logs it.
-  QLYS #20 is blocked by the Tech cap once QMCO and GTLB fill. HC names (OABI #3, XGN #4, CDNA #6, TWST #7, …) fail on the HC cap,
-  and SMWB #10 and ABCL #12 FAIL non-US HQ. **Premarket must log every skipped top-8 name as a VETO** with Monday's rank.
-- **Slot 8 stays empty.** Nothing ≤25 is left that passes. Projected satellites ≈ **83%** (4 held ~47% + 3 × ~12%).
-  CORE FUNDING: sell ≈ (3 BUYs − DK proceeds − cash above the 10% buffer) of IWM right before the buys. IWM will be small after that. That is expected.
-- No entries Wed 10/28 (**FOMC**, statement 2:00 PM ET).
+### Mon 10/26 — CONFIRMED at premarket (ranking data 10/23, 712 eligible; ranks unchanged from Saturday) → market_open executes
+**Order of operations at 9:35:** (1) cancel DK's trailing stop, `sell DK 4`, and log
+`candidate_ledger.py log DK EXIT "rank decay 75 > 25 at W43 review" --rank 75`; (2) CORE FUNDING: sell IWM ≈ (≈$1,041 of BUYs − DK
+proceeds ≈$298 − cash above the 10% buffer, ≈$0) ≈ **$740**; (3) BUY the 3 names below; (4) place 25% trailing stops; (5) log BUYs.
+Re-run `size` at the live price. Skip any name that opens >8% above Friday's close on no news (wait a session).
+
+### QMCO — Quantum Corporation   (rank 5, score 0.994)  — replaces DK
+- Why it ranks: 6-1 +311%, vol 117%, 38% above 200d. Short interest 59.6%: a squeeze flag, not a veto.
+- Catalyst / story: turnaround after the balance-sheet repair. The $54.7M term debt became converts on 12/18/2025, and Dialectic converted
+  all of it (~$57.2M) into stock in June 2026. **Both are outside 30d, so this is not fresh dilution.** 10-Q (8/11) has **no** "substantial
+  doubt" language. EDGAR since 8/1: no S-1/S-3/424B. The S-8 on 9/25 (employee plan) is not a veto. DE incorporated. Earnings 11/09.
+- ⚠️ Judgment flag, not a veto: **CFO William White was terminated "effective immediately" on 10/09 (8-K 5.02).** The CAO (joined 9/2026)
+  is now PFO. The COO moved over 9/28, plus 5.02s on 8/14 and 9/01. That is heavy C-suite churn at a company with a restatement history.
+- What would break it: a restatement, NT 10-Q, or auditor change; an equity raise; a Q3 guide cut on 11/09.
+- Entry: market at 9:35 | Stop: 25% trailing | Size: `alpaca_client.py size QMCO 17.62 13.22` → 20 sh ≈ $352 (11.6%)
+- Status: WATCHING (added 2026-10-24, confirmed 2026-10-26)
+
+### GTLB — GitLab Inc.   (rank 17, score 0.978)
+- Why it ranks: 6-1 +126%, vol 59%, 68% above 200d.
+- Catalyst / story: none fresh. Q2 (9/01 8-K 2.02/5.02) and a Strong Buy consensus. DE incorporated. Since 8/15, filings are only that 8-K and the 9/02 10-Q:
+  no S-1/S-3. Earnings 12/01.
+- What would break it: a guide cut, an exec departure that signals trouble, or a disclosed AI-disruption hit to seat growth.
+- Entry: market at 9:35 | Stop: 25% trailing | Size: `alpaca_client.py size GTLB 56.28 42.21` → 6 sh ≈ $338 (11.1%)
+- Status: WATCHING (added 2026-10-24, confirmed 2026-10-26)
+
+### CLDT — Chatham Lodging Trust   (rank 25, score 0.966)
+- Why it ranks: 6-1 +57%, vol 31% (low vol drives the score), 32% above 200d.
+- Catalyst / story: none found. MD (US). The only filing since 8/15 is the 9/14 8-K (5.02/7.01). Earnings 11/04–11/05 (7–8 td), outside the 5-td gate.
+  (The $19.45 price in the search was the CLDT-PA preferred; the common is $14.03.)
+- Risk: it sits **exactly at the exit edge (25)**. A one-place slip by Sat 10/31 makes it a replacement. Accepted: it is the only non-HC,
+  non-Tech name ≤25 that passes.
+- What would break it: a Q3 RevPAR/guide cut, a dividend cut, or an equity issuance.
+- Entry: market at 9:35 | Stop: 25% trailing | Size: `alpaca_client.py size CLDT 14.03 10.52` → 25 sh ≈ $351 (11.6%). ADV is 342k: thin, so use a market order at 9:35, not the first print.
+- Status: WATCHING (added 2026-10-24, confirmed 2026-10-26)
+
+- **VETOs logged 10/26:** OABI #3 (EARNINGS 10/30 + HC cap), XGN #4 (HC cap), CDNA #6 (EARNINGS 10/29 + HC cap), TWST #7 (HC cap),
+  APPS #16 (EARNINGS 11/02), QLYS #20 (Tech cap). UTZ #18 was logged 10/24 (cash take-private). SMWB #10 and ABCL #12 FAIL non-US HQ (not top-8).
+- **Slot 8 stays empty.** Nothing else ≤25 passes: TKNO, SDGR, ATRC, ETON, IOVA, PSNL, HNGE, CORT and CON are all HC (cap full).
+  Projected satellites ≈ **82%** (4 held ≈ $1,427 + 3 ≈ $1,041, out of a $3,035 slice). IWM ≈ $285 after funding.
+- Weekly entry count after Monday: 3/5. No entries Wed 10/28 (**FOMC**, statement 2:00 PM ET).
 
 ### Held satellites — thesis cards (break = specific news, never price)
 - **TXG** (5 @ $69.59, HC): Q2 beat + raised FY outlook, Atera demand. Break: a Q3 (11/05 AMC) guide cut. Cap $9.3B, near the $10B line.

@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-10-24 15:20 UTC
+**Last Updated**: 2026-10-26 19:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,25 +9,25 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,097.46 |
-| Rocket's Allocated Slice (30%) | $3,029.24 |
-| Cash Available (shared, pooled) | $992.03 |
-| Total Invested (both agents) | $9,105.43 |
+| Shared Account Value (Bull + Rocket) | $10,237.63 |
+| Rocket's Allocated Slice (30%) | $3,071.29 |
+| Cash Available (shared, pooled) | $734.24 |
+| Total Invested (both agents) | $9,503.39 |
 | Unrealized P&L (shared) | $+0.00 |
-| **Rocket own book since 7/20** | **-4.74%** vs IWM -5.67% → **+0.93 pts** |
-| **Rocket own book since 10/6 (new rules)** | **-1.77%** vs IWM -1.99% → **+0.22 pts** |
-| **Rocket own book this week** | **+1.79%** vs IWM +1.96% → **-0.18 pts** |
-| Rocket return since rebase (SHARED account, not own book) | -0.08% |
-| IWM return since rebase | -5.42% |
-| Shared account vs IWM (not Rocket's own — use the bold rows) | +5.34% |
+| **Rocket own book since 7/20** | **-2.26%** vs IWM -5.29% → **+3.03 pts** |
+| **Rocket own book since 10/6 (new rules)** | **+0.79%** vs IWM -1.60% → **+2.39 pts** |
+| **Rocket own book this week** | **+2.60%** vs IWM +0.40% → **+2.21 pts** |
+| Rocket return since rebase (SHARED account, not own book) | +1.30% |
+| IWM return since rebase | -5.04% |
+| Shared account vs IWM (not Rocket's own — use the bold rows) | +6.34% |
 
 ### Deployment — Satellite Floor
 
 | Sleeve | % of slice | Rule |
 |--------|-----------|------|
-| **Satellites (stock picks)** | 56.9% | must be >= 50.0% |
-| Core (IWM) | 33.8% | absorbs the leftover (no cap since 2026-10-06) |
-| Cash | 9.3% | buffer only (<= 10%) |
+| **Satellites (stock picks)** | 82.7% | must be >= 50.0% |
+| Core (IWM) | 17.7% | absorbs the leftover (no cap since 2026-10-06) |
+| Cash | 0.0% | buffer only (<= 10%) |
 
 ✅ **Satellite floor met.**
 
@@ -44,30 +44,25 @@ is available if Bull has open positions consuming shared cash.
 
 Ownership is reconciled below — do not re-derive it from the trade log.
 
-| Symbol | Shares | Entry Price | Price (⚠️ NOT a settled close) | Prior Settled Close | Unrealized P&L | P&L % |
+| Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| BNY | 6 ($872) | $141.86 | $145.27 | $145.27 | $+20.46 | +2.4% |
-| DELL | 1 ($456) | $464.53 | $456.44 | $456.44 | $-8.09 | -1.7% |
-| DK | 4 ($298) | $79.18 | $74.41 | $74.41 | $-19.08 | -6.0% |
-| FTNT | 5 ($900) | $171.34 | $179.99 | $179.99 | $+43.25 | +5.0% |
-| HPE | 15 ($850) | $56.91 | $56.69 | $56.69 | $-3.24 | -0.4% |
-| ILMN | 3 ($808) | $276.76 | $269.42 | $269.42 | $-22.02 | -2.7% |
-| IWM | 3.7163 ($1,025) | $282.38 | $275.75 | $275.75 | $-24.62 | -2.3% |
-| NEO | 21 ($348) | $16.83 | $16.59 | $16.59 | $-5.04 | -1.4% |
-| NSIT | 2 ($354) | $162.53 | $176.77 | $176.77 | $+28.48 | +8.8% |
-| NUE | 3 ($774) | $248.90 | $258.11 | $258.11 | $+27.63 | +3.7% |
-| REPL | 32 ($367) | $10.99 | $11.46 | $11.46 | $+15.04 | +4.3% |
-| SPY | 0.122 ($93) | $763.26 | $759.97 | $759.97 | $-0.40 | -0.4% |
-| STT | 5 ($839) | $165.11 | $167.83 | $167.83 | $+13.60 | +1.6% |
-| TGT | 5 ($764) | $152.86 | $152.76 | $152.76 | $-0.50 | -0.1% |
-| TXG | 5 ($358) | $69.59 | $71.55 | $71.55 | $+9.78 | +2.8% |
-
-⚠️ **The market is CLOSED. The price column is the last trade, which outside
-regular hours can be a single thin pre/post-market print — it is NOT a settled
-close and must never be recorded as one, quoted as a session move, or used to
-decide whether a trailing stop has fired.** Alpaca trailing stops evaluate on
-regular-hours trades only. Use the **Prior Settled Close** column for anything
-written into memory; re-read live at `market_open`.
+| BNY | 6 ($882) | $141.86 | $147.08 | $145.27 | $+31.32 | +3.7% |
+| CLDT | 25 ($354) | $14.30 | $14.15 | $14.03 | $-3.75 | -1.0% |
+| DELL | 1 ($468) | $464.53 | $467.76 | $456.44 | $+3.23 | +0.7% |
+| FTNT | 5 ($917) | $171.34 | $183.34 | $179.99 | $+60.02 | +7.0% |
+| GTLB | 6 ($340) | $56.75 | $56.60 | $56.28 | $-0.90 | -0.3% |
+| HPE | 15 ($879) | $56.91 | $58.63 | $56.69 | $+25.86 | +3.0% |
+| ILMN | 3 ($813) | $276.76 | $270.88 | $269.42 | $-17.64 | -2.1% |
+| IWM | 1.9663 ($544) | $282.38 | $276.85 | $275.75 | $-10.87 | -2.0% |
+| NEO | 21 ($351) | $16.83 | $16.70 | $16.59 | $-2.83 | -0.8% |
+| NSIT | 2 ($357) | $162.53 | $178.60 | $176.77 | $+32.14 | +9.9% |
+| NUE | 3 ($772) | $248.90 | $257.44 | $258.11 | $+25.64 | +3.4% |
+| QMCO | 20 ($375) | $17.62 | $18.77 | $17.62 | $+23.00 | +6.5% |
+| REPL | 32 ($400) | $10.99 | $12.51 | $11.46 | $+48.48 | +13.8% |
+| SPY | 0.122 ($93) | $763.26 | $765.12 | $759.97 | $+0.23 | +0.2% |
+| STT | 5 ($849) | $165.11 | $169.81 | $167.83 | $+23.50 | +2.8% |
+| TGT | 5 ($744) | $152.86 | $148.81 | $152.76 | $-20.25 | -2.6% |
+| TXG | 5 ($364) | $69.59 | $72.89 | $71.55 | $+16.48 | +4.7% |
 
 ---
 
@@ -75,14 +70,14 @@ written into memory; re-read live at `market_open`.
 
 🚨 **Does not balance — see reconciling items below.**
 
-- **Rocket's core** (1): IWM ($1,025)  — benchmark sleeve; no stop, exempt from position limits
-- **Rocket's satellites** (5): DK ($298), NEO ($348), NSIT ($354), REPL ($367), TXG ($358)
-- **Bull's positions** (7): BNY ($872), DELL ($456), FTNT ($900), ILMN ($808), NUE ($774), SPY ($93), TGT ($764)
+- **Rocket's core** (1): IWM ($544)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's satellites** (7): CLDT ($354), GTLB ($340), NEO ($351), NSIT ($357), QMCO ($375), REPL ($400), TXG ($364)
+- **Bull's positions** (7): BNY ($882), DELL ($468), FTNT ($917), ILMN ($813), NUE ($772), SPY ($93), TGT ($744)
 
 🚨 **UNATTRIBUTED — held at the broker but in neither trade log:**
 
-  - HPE ($850) — do not size against this until ownership is resolved.
-  - STT ($839) — do not size against this until ownership is resolved.
+  - HPE ($879) — do not size against this until ownership is resolved.
+  - STT ($849) — do not size against this until ownership is resolved.
 
 
 ---
@@ -91,8 +86,10 @@ written into memory; re-read live at `market_open`.
 
 | Order ID | Symbol | Side | Qty | Type | Status |
 |----------|--------|------|-----|------|--------|
+| d6f20cea… | CLDT | sell | 25 | trailing_stop | new |
+| 656ee463… | GTLB | sell | 6 | trailing_stop | new |
+| 6ae5ec26… | QMCO | sell | 20 | trailing_stop | new |
 | c47ab843… | NSIT | sell | 2 | trailing_stop | new |
-| b710d1cf… | DK | sell | 4 | trailing_stop | new |
 | 30eae37d… | NEO | sell | 21 | trailing_stop | new |
 | 81d4992e… | TXG | sell | 5 | trailing_stop | new |
 | cd496a08… | REPL | sell | 32 | trailing_stop | new |
@@ -110,4 +107,4 @@ written into memory; re-read live at `market_open`.
 ## Weekly Trade Count
 
 Trades placed this week: 0 / 5 max
-Market open: No
+Market open: Yes

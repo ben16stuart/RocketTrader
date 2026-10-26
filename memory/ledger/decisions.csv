@@ -9,3 +9,13 @@ date,time,sym,decision,rank,reason
 2026-10-19,07:46,DK,BUY,8,"refining margins, Brent ~109 blockade"
 2026-10-19,07:46,NSIT,BUY,9,"Q2 beat, FY26 EPS guide raised"
 2026-10-24,09:26,UTZ,VETO,18,"judgment: pending cash takeover pins price (Intersnack/Rice take-private $14.25, DEFM14A 10/02, close Q4)"
+2026-10-26,04:22,OABI,VETO,3,hard: gate EARNINGS 10/30 (4d) + healthcare sector cap full (TXG/REPL/NEO held)
+2026-10-26,04:22,XGN,VETO,4,hard: healthcare sector cap full (TXG/REPL/NEO held)
+2026-10-26,04:22,CDNA,VETO,6,hard: gate EARNINGS 10/29 (3d) + healthcare sector cap full (TXG/REPL/NEO held)
+2026-10-26,04:22,TWST,VETO,7,hard: healthcare sector cap full (TXG/REPL/NEO held)
+2026-10-26,04:22,APPS,VETO,16,hard: gate EARNINGS 11/02 (5d)
+2026-10-26,04:22,QLYS,VETO,20,hard: tech sector cap (NSIT held + QMCO/GTLB picked)
+2026-10-26,07:45,DK,EXIT,75,rank decay 75 > 25 at W43 review
+2026-10-26,07:46,QMCO,BUY,5,"turnaround, balance sheet repaired, no fresh dilution"
+2026-10-26,07:46,GTLB,BUY,17,"Q2 beat + raise, strong momentum"
+2026-10-26,07:46,CLDT,BUY,25,"low-vol momentum REIT, fills non-HC/non-Tech slot"

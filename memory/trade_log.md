@@ -2019,3 +2019,31 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-10-23 — market_close: no trades
 - Held all 5 satellites (DK, NEO, NSIT, REPL, TXG), 56.9% of slice (floor met). IWM $1,025 vs target ≈ $1,002, 0.8% over → inside 3% band, no rebalance.
 - ⚠️ HPE and STT still UNATTRIBUTED at broker (neither log). Not touched.
+
+## 2026-10-26 — DK SELL (rank decay 75 > 25)
+- 4 sh sold at market (~$77); 25% trailing stop cancelled first. Entry $79.18 → ≈ -2.6%. Lesson: a refiner is short crude (strategy.md TESTING).
+
+## 2026-10-26 — CORE FUNDING — IWM SELL for QMCO/GTLB/CLDT
+- Sold 1.75 sh IWM @ ~$276.7 (≈$484). No stop on IWM.
+
+## 2026-10-26 — QMCO BUY
+- Shares: 20 @ ~$17.53 | Rank 5 (score 0.994) | Sector: Tech hardware
+- Catalyst / story: turnaround after debt-to-equity conversion; short interest 59.6% squeeze flag. CFO terminated 10/09 is a flag, not a veto.
+- Stop: 25% trailing (~$13.15). Exits on stop, thesis break, or weekly rank > 25. Earnings 11/09.
+- Thesis: Top-5 momentum with repaired balance sheet, no fresh dilution. Break = restatement/NT 10-Q/equity raise.
+
+## 2026-10-26 — GTLB BUY
+- Shares: 6 @ ~$56.75 | Rank 17 (score 0.978) | Sector: Tech
+- Catalyst / story: Q2 beat and raised FY guide (9/01). Earnings 12/01.
+- Stop: 25% trailing (~$42.56). Exits on stop, thesis break, or weekly rank > 25.
+- Thesis: Strong momentum, no fresh dilution. Break = guide cut or AI-disruption hit to seats.
+
+## 2026-10-26 — CLDT BUY
+- Shares: 25 @ ~$14.30 | Rank 25 (score 0.966) | Sector: REIT/Lodging
+- Catalyst / story: none; pure rank. Earnings 11/04-05 (outside 5-td gate).
+- Stop: 25% trailing (~$10.72). Exits on stop, thesis break, or weekly rank > 25 (sits at the edge).
+- Thesis: Low-vol momentum REIT filling the only non-HC/non-Tech slot. Break = RevPAR guide cut, dividend cut, equity issuance.
+
+## 2026-10-26 — CORE REBALANCE, IWM SELL (market_close)
+- Sold 1.16 sh IWM @ $276.85 (~$321), filled. Satellites $2,541 (82.7% of $3,071 slice) → target_core ≈ $223 vs IWM $544, 10.5% over → outside 3% band. Not a conviction trade.
+- Satellite floor met. HPE/STT still UNATTRIBUTED at broker; not touched. NEO earnings 10/27–28 held (stop in place).
