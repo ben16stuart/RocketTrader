@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-10-26 19:58 UTC
+**Last Updated**: 2026-10-27 19:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,24 +9,24 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $10,237.63 |
-| Rocket's Allocated Slice (30%) | $3,071.29 |
-| Cash Available (shared, pooled) | $734.24 |
-| Total Invested (both agents) | $9,503.39 |
+| Shared Account Value (Bull + Rocket) | $10,480.00 |
+| Rocket's Allocated Slice (30%) | $3,144.00 |
+| Cash Available (shared, pooled) | $749.95 |
+| Total Invested (both agents) | $9,730.05 |
 | Unrealized P&L (shared) | $+0.00 |
-| **Rocket own book since 7/20** | **-2.26%** vs IWM -5.29% → **+3.03 pts** |
-| **Rocket own book since 10/6 (new rules)** | **+0.79%** vs IWM -1.60% → **+2.39 pts** |
-| **Rocket own book this week** | **+2.60%** vs IWM +0.40% → **+2.21 pts** |
-| Rocket return since rebase (SHARED account, not own book) | +1.30% |
-| IWM return since rebase | -5.04% |
-| Shared account vs IWM (not Rocket's own — use the bold rows) | +6.34% |
+| **Rocket own book since 7/20** | **+0.86%** vs IWM -4.18% → **+5.03 pts** |
+| **Rocket own book since 10/6 (new rules)** | **+4.00%** vs IWM -0.44% → **+4.44 pts** |
+| **Rocket own book this week** | **+5.87%** vs IWM +1.58% → **+4.29 pts** |
+| Rocket return since rebase (SHARED account, not own book) | +3.70% |
+| IWM return since rebase | -3.93% |
+| Shared account vs IWM (not Rocket's own — use the bold rows) | +7.63% |
 
 ### Deployment — Satellite Floor
 
 | Sleeve | % of slice | Rule |
 |--------|-----------|------|
-| **Satellites (stock picks)** | 82.7% | must be >= 50.0% |
-| Core (IWM) | 17.7% | absorbs the leftover (no cap since 2026-10-06) |
+| **Satellites (stock picks)** | 95.3% | must be >= 50.0% |
+| Core (IWM) | 5.4% | absorbs the leftover (no cap since 2026-10-06) |
 | Cash | 0.0% | buffer only (<= 10%) |
 
 ✅ **Satellite floor met.**
@@ -46,23 +46,24 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| BNY | 6 ($882) | $141.86 | $147.08 | $145.27 | $+31.32 | +3.7% |
-| CLDT | 25 ($354) | $14.30 | $14.15 | $14.03 | $-3.75 | -1.0% |
-| DELL | 1 ($468) | $464.53 | $467.76 | $456.44 | $+3.23 | +0.7% |
-| FTNT | 5 ($917) | $171.34 | $183.34 | $179.99 | $+60.02 | +7.0% |
-| GTLB | 6 ($340) | $56.75 | $56.60 | $56.28 | $-0.90 | -0.3% |
-| HPE | 15 ($879) | $56.91 | $58.63 | $56.69 | $+25.86 | +3.0% |
-| ILMN | 3 ($813) | $276.76 | $270.88 | $269.42 | $-17.64 | -2.1% |
-| IWM | 1.9663 ($544) | $282.38 | $276.85 | $275.75 | $-10.87 | -2.0% |
-| NEO | 21 ($351) | $16.83 | $16.70 | $16.59 | $-2.83 | -0.8% |
-| NSIT | 2 ($357) | $162.53 | $178.60 | $176.77 | $+32.14 | +9.9% |
-| NUE | 3 ($772) | $248.90 | $257.44 | $258.11 | $+25.64 | +3.4% |
-| QMCO | 20 ($375) | $17.62 | $18.77 | $17.62 | $+23.00 | +6.5% |
-| REPL | 32 ($400) | $10.99 | $12.51 | $11.46 | $+48.48 | +13.8% |
-| SPY | 0.122 ($93) | $763.26 | $765.12 | $759.97 | $+0.23 | +0.2% |
-| STT | 5 ($849) | $165.11 | $169.81 | $167.83 | $+23.50 | +2.8% |
-| TGT | 5 ($744) | $152.86 | $148.81 | $152.76 | $-20.25 | -2.6% |
-| TXG | 5 ($364) | $69.59 | $72.89 | $71.55 | $+16.48 | +4.7% |
+| BNY | 6 ($886) | $141.86 | $147.71 | $147.18 | $+35.07 | +4.1% |
+| CLDT | 25 ($363) | $14.30 | $14.51 | $14.18 | $+5.25 | +1.5% |
+| DELL | 1 ($502) | $464.53 | $501.78 | $467.09 | $+37.25 | +8.0% |
+| FTNT | 5 ($924) | $171.34 | $184.82 | $183.33 | $+67.42 | +7.9% |
+| GTLB | 6 ($341) | $56.75 | $56.88 | $56.65 | $+0.81 | +0.2% |
+| HPE | 15 ($913) | $56.91 | $60.87 | $58.72 | $+59.46 | +7.0% |
+| ILMN | 3 ($838) | $276.76 | $279.49 | $271.04 | $+8.19 | +1.0% |
+| IWM | 0.6063 ($170) | $282.37 | $280.09 | $276.99 | $-1.38 | -0.8% |
+| KELYA | 22 ($361) | $16.41 | $16.41 | $16.58 | $+0.00 | +0.0% |
+| NEO | 21 ($363) | $16.83 | $17.28 | $16.69 | $+9.45 | +2.7% |
+| NSIT | 2 ($357) | $162.53 | $178.63 | $178.72 | $+32.20 | +9.9% |
+| NUE | 3 ($811) | $248.90 | $270.32 | $257.35 | $+64.26 | +8.6% |
+| QMCO | 20 ($404) | $17.62 | $20.20 | $18.69 | $+51.60 | +14.6% |
+| REPL | 32 ($418) | $10.99 | $13.05 | $12.47 | $+65.92 | +18.7% |
+| SPY | 0.122 ($94) | $763.26 | $770.02 | $765.37 | $+0.82 | +0.9% |
+| STT | 5 ($855) | $165.11 | $171.05 | $169.94 | $+29.70 | +3.6% |
+| TGT | 5 ($739) | $152.86 | $147.76 | $148.53 | $-25.50 | -3.3% |
+| TXG | 5 ($391) | $69.59 | $78.15 | $72.96 | $+42.78 | +12.3% |
 
 ---
 
@@ -70,14 +71,14 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 🚨 **Does not balance — see reconciling items below.**
 
-- **Rocket's core** (1): IWM ($544)  — benchmark sleeve; no stop, exempt from position limits
-- **Rocket's satellites** (7): CLDT ($354), GTLB ($340), NEO ($351), NSIT ($357), QMCO ($375), REPL ($400), TXG ($364)
-- **Bull's positions** (7): BNY ($882), DELL ($468), FTNT ($917), ILMN ($813), NUE ($772), SPY ($93), TGT ($744)
+- **Rocket's core** (1): IWM ($170)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's satellites** (8): CLDT ($363), GTLB ($341), KELYA ($361), NEO ($363), NSIT ($357), QMCO ($404), REPL ($418), TXG ($391)
+- **Bull's positions** (7): BNY ($886), DELL ($502), FTNT ($924), ILMN ($838), NUE ($811), SPY ($94), TGT ($739)
 
 🚨 **UNATTRIBUTED — held at the broker but in neither trade log:**
 
-  - HPE ($879) — do not size against this until ownership is resolved.
-  - STT ($849) — do not size against this until ownership is resolved.
+  - HPE ($913) — do not size against this until ownership is resolved.
+  - STT ($855) — do not size against this until ownership is resolved.
 
 
 ---
@@ -86,6 +87,7 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Order ID | Symbol | Side | Qty | Type | Status |
 |----------|--------|------|-----|------|--------|
+| 6f3717c0… | KELYA | sell | 22 | trailing_stop | new |
 | d6f20cea… | CLDT | sell | 25 | trailing_stop | new |
 | 656ee463… | GTLB | sell | 6 | trailing_stop | new |
 | 6ae5ec26… | QMCO | sell | 20 | trailing_stop | new |

@@ -19,3 +19,8 @@ date,time,sym,decision,rank,reason
 2026-10-26,07:46,QMCO,BUY,5,"turnaround, balance sheet repaired, no fresh dilution"
 2026-10-26,07:46,GTLB,BUY,17,"Q2 beat + raise, strong momentum"
 2026-10-26,07:46,CLDT,BUY,25,"low-vol momentum REIT, fills non-HC/non-Tech slot"
+2026-10-27,04:21,OABI,VETO,3,hard: gate EARNINGS 10/30 (3d) + healthcare sector cap full (TXG/REPL/NEO held)
+2026-10-27,04:21,CDNA,VETO,5,hard: gate EARNINGS 10/29 (2d) + healthcare sector cap full (TXG/REPL/NEO held)
+2026-10-27,04:21,XGN,VETO,6,hard: healthcare sector cap full (TXG/REPL/NEO held)
+2026-10-27,04:21,TWST,VETO,7,hard: healthcare sector cap full (TXG/REPL/NEO held)
+2026-10-27,07:45,KELYA,BUY,25,"staffing turnaround, FCF 6x, DE inc, no dilution; fills last slot"

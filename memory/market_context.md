@@ -4,6 +4,14 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
+## Update — 2026-10-27 Tue PREMARKET (prior closes dated 10/26)
+
+VIX 18.39 (10/26 close; 18.29 live), under the 22 brake. 10Y 4.99%. SPY 765.37 (+0.71%), **IWM 276.99 (+0.45%)**.
+Futures flat to slightly soft: ES −0.04%, NQ −0.08%, **RTY −0.13%**. Brent 110.74 / WTI 101.76 (off Friday's 116.72 high; series rolled to BZF27).
+Today: Conference Board consumer confidence + new home sales, both 10:00 AM ET. FOMC day 1 (statement Wed 2:00 PM ET, no entries Wed).
+
+---
+
 ## Snapshot — 2026-10-23 Friday CLOSE (written at W43 review, Sat 10/24)  ← CURRENT
 
 All figures are **Fri 2026-10-23 settled closes** (`market_data.py macro`). Prior closes are 10/22.

@@ -61,12 +61,34 @@ Re-run `size` at the live price. Skip any name that opens >8% above Friday's clo
   Projected satellites ≈ **82%** (4 held ≈ $1,427 + 3 ≈ $1,041, out of a $3,035 slice). IWM ≈ $285 after funding.
 - Weekly entry count after Monday: 3/5. No entries Wed 10/28 (**FOMC**, statement 2:00 PM ET).
 
+### Tue 10/27 — premarket (ranking data 10/26, 714 eligible) → market_open executes
+Held 7 (TXG #1, QMCO #2, REPL #4, NSIT #8, NEO #13, GTLB #21, CLDT #23). **1 open slot**, weekly entries 3/5 → 1 pick.
+HC cap full (TXG/REPL/NEO), Tech cap full (NSIT/QMCO/GTLB). The only non-HC, non-Tech name ≤25 that passes is KELYA. UTZ #19 = take-private (vetoed 10/24); CON #22 and CORT #24 = HC.
+**Order at 9:35:** (1) CORE FUNDING: sell IWM ≈ **$365** (≈1.32 sh; Rocket has ≈$0 own cash above buffer). (2) BUY KELYA at market. (3) 25% trailing stop. (4) `candidate_ledger.py log KELYA BUY ... --rank 25`.
+Re-run `size` at the live price. Skip it if it opens >8% above the 10/26 close ($16.58) on no news. Projected satellites ≈ **95%**, IWM ≈ $180.
+
+### KELYA — Kelly Services, Inc.   (rank 25, score 0.966)
+- Why it ranks: 6-1 +74%, vol 41%, 35% above 200d. Cap $576M, float 29.5M (94%).
+- Catalyst / story: none fresh. A staffing turnaround with FY25 FCF of $114M (6× the prior year), and it pays a dividend. Class A (non-voting) shares. **DE incorporated** (EDGAR).
+  EDGAR since 5/13: only Form 4s, the 8-K 2.02 and 10-Q (8/06), and a 13D/A + 13G (5/19). **No S-1/S-3/424B, no going concern.**
+  Earnings: 11/05 (screener) vs 11/09 (search). Both are outside the 5-td gate (11/05 = 7 td).
+- Risk: **ADV 313k is just over the 300k gate**, so it is thin. Use a market order at 9:35, not the first print. Like CLDT, it sits **exactly at the exit edge (25)**: a one-place slip by Sat 10/31 makes it a replacement. Accepted: it is the only eligible name in a sector with room.
+- What would break it: a Q3 revenue/guide cut on 11/05–09, a dividend cut, or an equity issuance.
+- Entry: market at 9:35 | Stop: 25% trailing | Size: `alpaca_client.py size KELYA 16.58 12.44` → 22 sh ≈ $365 (11.9%)
+- Status: WATCHING (added 2026-10-27)
+
+- **VETOs logged 10/27:** OABI #3 (EARNINGS 10/30 + HC cap), CDNA #5 (EARNINGS 10/29 + HC cap), XGN #6 and TWST #7 (HC cap).
+- Holdings check (7 searches): **no thesis breaks.** REPL Q2 FY27 call is 10/28 8:00 AM, NEO reports 10/28, TXG reports 11/05 AMC. ⚠️ GTLB has a **maximum-severity CVE (CVE-2026-85706) under active exploitation** in CE/EE. It is a product-security flag, not a defined break. Watch for disclosed customer churn or a guide hit.
+
 ### Held satellites — thesis cards (break = specific news, never price)
+- **QMCO** (20 @ $17.53, Tech): turnaround after the debt-to-equity conversion. CFO terminated 10/09 (flag). Break: a restatement, NT 10-Q, equity raise, or guide cut 11/09.
+- **GTLB** (6 @ $56.75, Tech): Q2 beat + raise. Break: a guide cut, an exec exit, or a seat hit (incl. fallout from the CVE).
+- **CLDT** (25 @ $14.30, REIT): pure rank. Break: a RevPAR/guide cut, a dividend cut, or an issuance. Earnings 11/04–05.
 - **TXG** (5 @ $69.59, HC): Q2 beat + raised FY outlook, Atera demand. Break: a Q3 (11/05 AMC) guide cut. Cap $9.3B, near the $10B line.
 - **REPL** (32 @ $10.99, HC): RP1 Accelerated Approval (Aug). Break: a 424B takedown off the 8/14 S-3ASR, a weak launch, FDA safety action. **Earnings 10/28.**
 - **NEO** (21 @ $16.83, HC): Q2 beat + raise, prelim Q3 ~$209M, FY guide up. Break: a guide cut. **Earnings 10/28 AMC** (±16% implied, held through it).
 - **NSIT** (2 @ $162.53, Tech): Q2 beat, FY26 EPS guide raised to $12.20–12.70. Break: a guide cut. Earnings 11/05.
-- **DK** (4 @ $79.18, Energy): **EXITING Mon 10/26 on rank decay.** Thesis lesson: a refiner is short crude (strategy.md TESTING).
+- ~~DK~~: exited 10/26 on rank decay (75). Thesis lesson: a refiner is short crude (strategy.md TESTING).
 
 
 ### Open escalations awaiting a user decision

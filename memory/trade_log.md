@@ -2047,3 +2047,17 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-10-26 — CORE REBALANCE, IWM SELL (market_close)
 - Sold 1.16 sh IWM @ $276.85 (~$321), filled. Satellites $2,541 (82.7% of $3,071 slice) → target_core ≈ $223 vs IWM $544, 10.5% over → outside 3% band. Not a conviction trade.
 - Satellite floor met. HPE/STT still UNATTRIBUTED at broker; not touched. NEO earnings 10/27–28 held (stop in place).
+
+## 2026-10-27 — CORE FUNDING — IWM SELL for KELYA
+- Sold 0.2 IWM (~$55) at market; Rocket's 10% cash buffer (~$306) covered the rest of the ~$361 cost. IWM now ≈0.606 sh.
+
+## 2026-10-27 — KELYA BUY
+- Shares: 22 @ $16.41 (prior settled close $16.58; -1.0%)
+- Rank at pick: 25 (score 0.966) | Sector: Staffing/Industrials
+- Catalyst / story: none fresh; rank-only. FCF turnaround, dividend payer. DE incorporated, no S-1/S-3, no going concern. Earnings 11/05 (7 td).
+- Stop: 25% trailing (~$12.31). No targets; exits on stop, thesis break, or weekly rank > 25 (sits at the edge)
+- Thesis: Staffing turnaround with FY25 FCF 6x prior year. Only eligible ≤25 name with sector room; no news red flags this morning.
+
+## 2026-10-27 — market_close: no trades
+- Held all 8 satellites (CLDT, GTLB, KELYA, NEO, NSIT, QMCO, REPL, TXG), 95.3% of slice (floor met). IWM $170 vs target ≈ $192, inside 3% band → no rebalance.
+- ⚠️ HPE and STT still UNATTRIBUTED at broker (neither log). Not touched.
