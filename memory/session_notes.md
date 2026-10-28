@@ -3,6 +3,18 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-28 — PREMARKET (Wednesday, Week 44 day 3) — 8 held, 0 open slots, FOMC day
+
+- Book: 8 satellites (TXG, QMCO, REPL, NSIT, NEO, GTLB, CLDT, KELYA) ≈ 95% of the $3,156 slice. **Floor met.** Own book this week +6.26% vs IWM +1.37% (+4.89 pts). Since 10/6: +5.03 pts.
+- Holdings check (8 searches): no thesis breaks. REPL and NEO report today and are held through.
+- `rank_screen.py` (10/27 data, 748 eligible): TXG #1, QMCO #2, REPL #4, NSIT #8, NEO #16, GTLB #24, **CLDT #28, KELYA #34** (both past 25; for the weekly review, not a daily exit). Saved `ledger/ranks/2026-10-27.csv`.
+- 🆕 TXG gate `FAIL cap $10.2B`: over the universe ceiling while #1. Cap drift is not an exit trigger. Flagged for the Sat review (see research_log).
+- 0 open slots (8/8 held; weekly entries 4/5). No picks, no VETOs owed. FOMC 2:00 PM ET: no entries today anyway.
+- Macro: VIX 17.51 live, RTY −0.21%, ES +0.08%, Brent 111.20 (+1.6% roll-corrected). No event search (FOMC already on the calendar). No trades. No ntfy.
+- Still unresolved: HPE / STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-10-27 — PREMARKET (Tuesday, Week 44 day 2) — 7 held, 1 slot → KELYA #25
 
 - Book: 7 satellites (TXG, QMCO, REPL, NSIT, NEO, GTLB, CLDT) ≈ 83% of the $3,069 slice. **Floor met.** Own book this week +2.65% vs IWM +0.29% (+2.36 pts). Since 10/6: +2.54 pts.
@@ -161,3 +173,8 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - All 8 satellites (CLDT, GTLB, KELYA, NEO, NSIT, QMCO, REPL, TXG) have live trailing stops; no stop fired. All green except none red (CLDT +0.8%, GTLB +0.6%).
 - News check (8 searches, mostly stale/low-quality results): no thesis break found (no offering, going-concern, guide cut). QMCO shows only law-firm class-action alerts (rule 62, ads; CFO flag already known). NEO earnings 10/27-28 held under stop.
 - No exits, no new entries. HPE/STT still UNATTRIBUTED at broker (both have stops); not touched.
+
+## 2026-10-28 midday
+- All 8 satellites (CLDT, GTLB, KELYA, NEO, NSIT, QMCO, REPL, TXG) have live 25% trailing stops; no stops fired, no exits, no new entries.
+- News check (NEO, QMCO, REPL, TXG): nothing dated today, no dilution/going-concern/guide-cut found. GTLB, KELYA, CLDT, NSIT not searched (no trigger).
+- ⚠️ HPE/STT still UNATTRIBUTED at broker; untouched.

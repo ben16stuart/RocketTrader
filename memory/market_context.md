@@ -4,6 +4,14 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
+## Update — 2026-10-28 Wed PREMARKET (prior closes dated 10/27)
+
+VIX 17.52 (10/27 close; 17.51 live), well under the 22 brake. 10Y 4.99%. SPY 769.66 (+0.56%), **IWM 280.18 (+1.15%)**: small caps led again.
+Futures mixed: ES +0.08%, NQ +0.35%, **RTY −0.21%**. Brent 111.20 / WTI 101.71 (+1.6% / +1.8% true, roll-corrected on BZF27).
+Today: **FOMC statement 2:00 PM ET** (no new entries). REPL and NEO report (held).
+
+---
+
 ## Update — 2026-10-27 Tue PREMARKET (prior closes dated 10/26)
 
 VIX 18.39 (10/26 close; 18.29 live), under the 22 brake. 10Y 4.99%. SPY 765.37 (+0.71%), **IWM 276.99 (+0.45%)**.
