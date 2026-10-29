@@ -2066,3 +2066,7 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 - Sold all 0.6063 sh IWM (~$170) at market. Satellites $3,155 (99.0% of $3,187 slice) → target_core ≈ -$287 (satellites grew past slice-less-buffer) vs IWM $170, outside 3% band. Rebuilds cash buffer. Not a conviction trade.
 - No satellite exits today; all 8 held with stops (CLDT, GTLB, KELYA, NEO, NSIT, QMCO, REPL, TXG). Floor met.
 - ⚠️ HPE and STT still UNATTRIBUTED at broker (neither log). Not touched.
+
+## 2026-10-29 — market_close: no trades
+- Held all 8 satellites (CLDT, GTLB, KELYA, NEO, NSIT, QMCO, REPL, TXG), 101.8% of slice (floor met). IWM 0, target_core negative → no rebalance.
+- ⚠️ HPE and STT still UNATTRIBUTED at broker (neither log). Not touched.

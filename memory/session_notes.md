@@ -3,6 +3,17 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-10-29 — PREMARKET (Thursday, Week 44 day 4) — 8 held, 0 open slots
+
+- Book: 8 satellites (TXG, REPL, QMCO, NSIT, NEO, GTLB, CLDT, KELYA) ≈ 99% of the slice; IWM sold to 0 at the 10/28 close. **Floor met.** Own book this week +10.01% vs IWM +2.13% (+7.88 pts). Since 10/6: +7.97 pts.
+- Holdings check: no thesis breaks. **NEO beat and raised** (FY26 revenue $802–806M). REPL's 10-Q has the going-concern doubt alleviated and no ATM sales. QMCO's "equity financing" hit is the June deal (known).
+- `rank_screen.py` (10/28 data, 764 eligible): TXG #1, REPL #2, QMCO #4, NSIT #12, NEO #20, GTLB #23, **CLDT #27, KELYA #37** (both are for the Sat review). Saved `ledger/ranks/2026-10-28.csv`.
+- 0 open slots (8/8; weekly 4/5). No picks, no VETOs owed. Sat review: replacing CLDT/KELYA will need a non-HC/non-Tech name, and none passes ≤25 today.
+- Macro: VIX 17.02 live, RTY +0.57%, NQ −0.94%, 10Y 5.05%, Brent 110.28. No trades. No ntfy.
+- Still unresolved: HPE / STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-10-28 — PREMARKET (Wednesday, Week 44 day 3) — 8 held, 0 open slots, FOMC day
 
 - Book: 8 satellites (TXG, QMCO, REPL, NSIT, NEO, GTLB, CLDT, KELYA) ≈ 95% of the $3,156 slice. **Floor met.** Own book this week +6.26% vs IWM +1.37% (+4.89 pts). Since 10/6: +5.03 pts.
@@ -178,3 +189,8 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - All 8 satellites (CLDT, GTLB, KELYA, NEO, NSIT, QMCO, REPL, TXG) have live 25% trailing stops; no stops fired, no exits, no new entries.
 - News check (NEO, QMCO, REPL, TXG): nothing dated today, no dilution/going-concern/guide-cut found. GTLB, KELYA, CLDT, NSIT not searched (no trigger).
 - ⚠️ HPE/STT still UNATTRIBUTED at broker; untouched.
+
+## 2026-10-29 midday (sonnet)
+- All 8 satellites (CLDT, GTLB, KELYA, NEO, NSIT, QMCO, REPL, TXG) held, each with a live 25% trailing stop. No stops fired, no exits, no new entries (no slot opened).
+- News check on REPL, QMCO, TXG, NEO, GTLB: search results were stale (no dated 10/29 items) and showed no offering, going-concern, guidance cut or takeover. CLDT, KELYA, NSIT not searched this session. No thesis break found.
+- Still UNATTRIBUTED at broker: HPE, STT (and other non-Rocket positions); not touched.

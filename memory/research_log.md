@@ -86,6 +86,15 @@ Held ranks: TXG #1, QMCO #2, REPL #4, NSIT #8, NEO #16, GTLB #24, **CLDT #28 ⚠
 - **REPL and NEO report today (10/28).** Both held through with stops in place. Read the prints at market_close/Thu premarket for a guide cut (thesis break) vs noise.
 - **For the Sat 10/31 weekly_review:** (a) CLDT 28 and KELYA 34 are past the 25 exit rank. Rank decay is weekly, so replace them only if they are still >25 Saturday. (b) 🆕 **TXG's gate now reads `FAIL cap $10.2B`**, over the $10B universe ceiling, while it ranks #1. CLAUDE.md's exit triggers are stop / thesis break / rank >25 / below 200d, so cap drift is **not** an exit by rule. Decide at the review whether the cap gate is entry-only (it should be: exiting the #1 name for growing is selling a winner for winning). Hold it until then.
 
+### Thu 10/29 — premarket (ranking data 10/28, 764 eligible) — 8 held, **0 open slots**, no picks
+Held ranks: TXG #1, REPL #2, QMCO #4, NSIT #12, NEO #20, GTLB #23, **CLDT #27 ⚠️, KELYA #37 ⚠️**. Weekly entries 4/5. No picks and no VETOs owed (0 slots).
+- Holdings check (8 searches + 2 fetches): **no thesis breaks.**
+  - **NEO Q3 (10/28): beat and raise.** Revenue +11% to $209M, NGS +29%, GAAP GM +340 bp to 46%. FY26 revenue guide raised to $802–806M (was $797–803M). CEO succession: COO Warren Stone becomes CEO 1/4/2027 and Zook becomes Exec Chair. It is planned, not a break.
+  - **REPL 10-Q (9/30):** going-concern doubt "alleviated" by the Aug $141M raise. **No ATM sales.** Cash $307.8M. Tudriqev (RP1) shipments began in FQ3, so there was no product revenue yet. No break.
+  - QMCO's "equity financing" headline is the **June 2026** $100M raise plus the $57.2M conversion. It is known and >30d, so not fresh dilution. TXG, NSIT, GTLB, CLDT and KELYA: only old items. (KELYA's law-firm "investigations" are boilerplate from the Q3'25 miss.)
+- Earnings 11/05: TXG, NSIT, CLDT and KELYA now show `EARNINGS in 5d`. The gate is entry-only, so all are held through with stops.
+- **For Sat 10/31 weekly_review:** CLDT #27 and KELYA #37 are still >25. If they still are Saturday, replace them Monday. Sector room for replacements: neither HC (full: TXG/REPL/NEO) nor Tech (full: QMCO/NSIT/GTLB). On today's list the only OK non-HC/non-Tech name ≤25 is UTZ, which is already vetoed (take-private). Expect to widen the walk past 25 or accept fewer slots. TXG's gate is now `FAIL cap $10.9B` (still the cap-drift question).
+
 ### Held satellites — thesis cards (break = specific news, never price)
 - **QMCO** (20 @ $17.53, Tech): turnaround after the debt-to-equity conversion. CFO terminated 10/09 (flag). Break: a restatement, NT 10-Q, equity raise, or guide cut 11/09.
 - **GTLB** (6 @ $56.75, Tech): Q2 beat + raise. Break: a guide cut, an exec exit, or a seat hit (incl. fallout from the CVE).
