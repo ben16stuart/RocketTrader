@@ -95,6 +95,12 @@ Held ranks: TXG #1, REPL #2, QMCO #4, NSIT #12, NEO #20, GTLB #23, **CLDT #27 �
 - Earnings 11/05: TXG, NSIT, CLDT and KELYA now show `EARNINGS in 5d`. The gate is entry-only, so all are held through with stops.
 - **For Sat 10/31 weekly_review:** CLDT #27 and KELYA #37 are still >25. If they still are Saturday, replace them Monday. Sector room for replacements: neither HC (full: TXG/REPL/NEO) nor Tech (full: QMCO/NSIT/GTLB). On today's list the only OK non-HC/non-Tech name ≤25 is UTZ, which is already vetoed (take-private). Expect to widen the walk past 25 or accept fewer slots. TXG's gate is now `FAIL cap $10.9B` (still the cap-drift question).
 
+### Fri 10/30 — premarket (ranking data 10/29, 791 eligible) — 8 held, **0 open slots**, no picks
+Held ranks: TXG #1, REPL #3, QMCO #5, NSIT #8, GTLB #19, **CLDT #23 ✅ (back ≤25)**, NEO #24 ⚠️ (edge), **KELYA #31 ⚠️**. Weekly entries 4/5. No picks and no VETOs owed (0 slots).
+- Holdings check (8 searches): **no thesis breaks.** Every result was an old item: TXG Q2 beat and Bruker settlement, REPL adcomm/approval history, QMCO Q1 beat and debt restructure (known), NSIT guide raise, GTLB a prior-year Q3 guide dip, NEO Q2/Q3 raises, CLDT reports 11/04 BMO, KELYA buyback. Nothing new in 30d.
+- After-hours prints are weak (TXG $79.00 vs $81.55 settled, QMCO $19.78 vs $20.77). These are thin prints, not closes, and price is the stop's job.
+- **For Sat 10/31 weekly_review:** KELYA #31 is still >25 → replace Monday if it is still >25 on Saturday's data. CLDT recovered to #23. NEO #24 is at the edge. Sector room for a KELYA replacement: not HC (full: TXG/REPL/NEO), not Tech (full: QMCO/NSIT/GTLB). On today's list the only non-HC/non-Tech name ≤25 is UTZ #16 (take-private veto + EARNINGS in 5d). Expect to walk past 25. TXG gate `FAIL cap $10.6B` → cap-drift ruling is still owed at the review.
+
 ### Held satellites — thesis cards (break = specific news, never price)
 - **QMCO** (20 @ $17.53, Tech): turnaround after the debt-to-equity conversion. CFO terminated 10/09 (flag). Break: a restatement, NT 10-Q, equity raise, or guide cut 11/09.
 - **GTLB** (6 @ $56.75, Tech): Q2 beat + raise. Break: a guide cut, an exec exit, or a seat hit (incl. fallout from the CVE).

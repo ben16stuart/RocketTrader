@@ -2070,3 +2070,7 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-10-29 — market_close: no trades
 - Held all 8 satellites (CLDT, GTLB, KELYA, NEO, NSIT, QMCO, REPL, TXG), 101.8% of slice (floor met). IWM 0, target_core negative → no rebalance.
 - ⚠️ HPE and STT still UNATTRIBUTED at broker (neither log). Not touched.
+
+## 2026-10-30 — market_close: no trades
+- Held all 8 satellites (CLDT, GTLB, KELYA, NEO, NSIT, QMCO, REPL, TXG), 101.6% of slice (floor met). IWM 0, target_core negative → no rebalance. Rocket -4.52% vs IWM -1.69% today.
+- ⚠️ HPE and STT still UNATTRIBUTED at broker (neither log). Not touched.

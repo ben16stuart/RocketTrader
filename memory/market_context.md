@@ -4,6 +4,14 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
+## Update — 2026-10-30 Fri PREMARKET (prior closes dated 10/29)
+
+VIX 17.20 (10/29 close; 18.46 live, +7%), under the 22 brake. 10Y 4.99% (−6bp). SPY 769.36 (−0.38%), **IWM 284.01 (+0.97%)**: small caps led again while large caps slipped.
+Futures **risk-off overnight**: ES −1.07%, **NQ −2.37%**, **RTY −0.67%** (small caps falling less than Tech). Brent 113.23 / WTI 104.04 (+2.2% / +2.0%, roll-corrected on BZF27). DXY 101.62 (−0.4%), gold 3,995 (−0.9%).
+The overnight Tech selloff coincides with weak after-hours prints in large-cap hardware (DELL, HPE). The cause was not confirmed by the one search. No dated macro release was identified for today.
+
+---
+
 ## Update — 2026-10-29 Thu PREMARKET (prior closes dated 10/28)
 
 VIX 16.91 (10/28 close; 17.02 live), well under the 22 brake. 10Y 5.05% (+6bp after FOMC). SPY 772.31 (+0.34%), **IWM 281.29 (+0.40%)**.
