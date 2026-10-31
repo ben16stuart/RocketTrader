@@ -12,103 +12,49 @@ entries to `memory/archive/research_log_history.md` (the W41 board was archived 
 > VETO and non-stop EXIT is logged with `scripts/candidate_ledger.py` and scored vs IWM.
 > Why: 22 straight sessions below the 50% floor (9/17–10/16), 0% in stocks after 10/5. The checklist
 > below rejected nearly everything and nothing measured what it rejected.
-> The Week 43 board and the daily notes from 10/19–10/23 were archived to `archive/research_log_history.md` on 2026-10-24.
+> The Week 44 board (10/26–10/30 daily notes) was archived to `archive/research_log_history.md` on 2026-10-31.
 
-## Watchlist — Week 44 (Mon 10/26 – Fri 10/30), built at W43 review Sat 10/24  ← CURRENT
+## Watchlist — Week 45 (Mon 11/02 – Fri 11/06), built at the W44 review Sat 10/31  ← CURRENT
 
-Book (10/23 close): satellites 56.9% (5 held), IWM 3.7163 sh ≈ $1,025 (33.8%), cash 9.3%. Slice $3,029 → 12.5% cap ≈ **$379**.
-The weekly entry cap resets to **5**. HC cap 3 (**full**: TXG/REPL/NEO). Tech cap 3 (NSIT + 2).
-Ranking data as of 10/23 (713 eligible): TXG #1, REPL #2, NSIT #8, NEO #9, **DK #75**.
+Book (10/30 close): 8 satellites ≈ 101.7% of a $2,997 slice, IWM 0, Rocket cash ≈ 0. The 12.5% cap ≈ **$375**. The weekly entry cap resets to **5**.
+Ranking data as of 10/30 (740 eligible): TXG #1, REPL #2, QMCO #5, NSIT #7, CLDT #20, GTLB #23, **KELYA #26, NEO #27** → both replaced.
+After the swap: HC = TXG/REPL/OABI (full). Tech = QMCO/NSIT/GTLB (full).
 
-### Mon 10/26 — CONFIRMED at premarket (ranking data 10/23, 712 eligible; ranks unchanged from Saturday) → market_open executes
-**Order of operations at 9:35:** (1) cancel DK's trailing stop, `sell DK 4`, and log
-`candidate_ledger.py log DK EXIT "rank decay 75 > 25 at W43 review" --rank 75`; (2) CORE FUNDING: sell IWM ≈ (≈$1,041 of BUYs − DK
-proceeds ≈$298 − cash above the 10% buffer, ≈$0) ≈ **$740**; (3) BUY the 3 names below; (4) place 25% trailing stops; (5) log BUYs.
-Re-run `size` at the live price. Skip any name that opens >8% above Friday's close on no news (wait a session).
+### Mon 11/02 — 2 replacements → premarket confirms on fresh data, market_open executes
+**Order at 9:35:** (1) cancel NEO's and KELYA's trailing stops, `sell NEO 21`, `sell KELYA 22`. Log
+`candidate_ledger.py log NEO EXIT "rank decay 27 > 25 at W44 review" --rank 27` and `... KELYA EXIT "rank decay 26 > 25 at W44 review" --rank 26`.
+(2) Proceeds ≈ $730 cover both buys (≈ $696), so no IWM funding sale is needed. (3) BUY OABI and CAKE at market. (4) Place 25% trailing stops. (5) Log the BUYs.
+Re-run `size` at the live price. Skip a name that opens >8% above Friday's close on no news (OABI $5.11, CAKE $112.64).
+If Monday's premarket ranking puts NEO or KELYA back ≤25, **still replace them**: rank decay is judged weekly on Saturday's data.
 
-### QMCO — Quantum Corporation   (rank 5, score 0.994)  — replaces DK
-- Why it ranks: 6-1 +311%, vol 117%, 38% above 200d. Short interest 59.6%: a squeeze flag, not a veto.
-- Catalyst / story: turnaround after the balance-sheet repair. The $54.7M term debt became converts on 12/18/2025, and Dialectic converted
-  all of it (~$57.2M) into stock in June 2026. **Both are outside 30d, so this is not fresh dilution.** 10-Q (8/11) has **no** "substantial
-  doubt" language. EDGAR since 8/1: no S-1/S-3/424B. The S-8 on 9/25 (employee plan) is not a veto. DE incorporated. Earnings 11/09.
-- ⚠️ Judgment flag, not a veto: **CFO William White was terminated "effective immediately" on 10/09 (8-K 5.02).** The CAO (joined 9/2026)
-  is now PFO. The COO moved over 9/28, plus 5.02s on 8/14 and 9/01. That is heavy C-suite churn at a company with a restatement history.
-- What would break it: a restatement, NT 10-Q, or auditor change; an equity raise; a Q3 guide cut on 11/09.
-- Entry: market at 9:35 | Stop: 25% trailing | Size: `alpaca_client.py size QMCO 17.62 13.22` → 20 sh ≈ $352 (11.6%)
-- Status: WATCHING (added 2026-10-24, confirmed 2026-10-26)
+### OABI — OmniAb, Inc.   (rank 3, Healthcare)  — replaces NEO
+- Why it ranks: 6-1 +256%, vol 76%, 89% above 200d. Cap $745M, short 6.4%. YTD +268%.
+- Checked 10/31: **DE incorporated** (EDGAR). Filings since 8/15 are only the 10/30 8-K 2.02 and the 10-Q. **No S-1/S-3/424B.** Q3 printed 10/30: EPS −$0.14 in line, **revenue $2.2M vs $5.6M est (a miss)**. The stock held: week range $4.61–5.28, Friday close $5.11, above the 50d ($4.65). The earnings gate is now clear.
+- Judgment flag, not a veto: lumpy royalty/milestone revenue, so one quarter's miss is not a guide cut. **Premarket must read the 10-Q for going-concern language** before the order.
+- What would break it: going-concern doubt, an ATM/shelf takedown, or a partner program discontinued.
+- Size: `alpaca_client.py size OABI 5.11 3.83` → 70 sh ≈ $358 (11.9%)
+- Status: WATCHING (added 2026-10-31)
 
-### GTLB — GitLab Inc.   (rank 17, score 0.978)
-- Why it ranks: 6-1 +126%, vol 59%, 68% above 200d.
-- Catalyst / story: none fresh. Q2 (9/01 8-K 2.02/5.02) and a Strong Buy consensus. DE incorporated. Since 8/15, filings are only that 8-K and the 9/02 10-Q:
-  no S-1/S-3. Earnings 12/01.
-- What would break it: a guide cut, an exec departure that signals trouble, or a disclosed AI-disruption hit to seat growth.
-- Entry: market at 9:35 | Stop: 25% trailing | Size: `alpaca_client.py size GTLB 56.28 42.21` → 6 sh ≈ $338 (11.1%)
-- Status: WATCHING (added 2026-10-24, confirmed 2026-10-26)
+### CAKE — The Cheesecake Factory   (rank 15, Consumer Cyclical)  — replaces KELYA
+- Why it ranks: 6-1 +81%, vol 39%, 42% above 200d. Cap $5.6B, **short 40%** (a squeeze flag, not a veto).
+- Checked 10/31: **DE incorporated**. Filings since 8/15: only the 10/27 8-K (2.02/7.01/8.01). Q3 (10/27): revenue $1,033M (+14%), comps **+15.2%**, adj EPS $1.02, a beat. No specific comp/EPS guide ("will not be providing"). 26 openings FY26, 27 FY27. The stock dipped on the print and then recovered: Friday close $112.64, above the 50d ($108.02).
+- It is the best-ranked non-HC, non-Tech name that passes. UTZ #13 is a take-private (vetoed 10/24) with EARNINGS in 4d.
+- What would break it: a comp slowdown or a margin hit, a dividend cut, or an equity issuance.
+- Size: `alpaca_client.py size CAKE 112.64 84.48` → 3 sh ≈ $338 (11.3%)
+- Status: WATCHING (added 2026-10-31)
 
-### CLDT — Chatham Lodging Trust   (rank 25, score 0.966)
-- Why it ranks: 6-1 +57%, vol 31% (low vol drives the score), 32% above 200d.
-- Catalyst / story: none found. MD (US). The only filing since 8/15 is the 9/14 8-K (5.02/7.01). Earnings 11/04–11/05 (7–8 td), outside the 5-td gate.
-  (The $19.45 price in the search was the CLDT-PA preferred; the common is $14.03.)
-- Risk: it sits **exactly at the exit edge (25)**. A one-place slip by Sat 10/31 makes it a replacement. Accepted: it is the only non-HC,
-  non-Tech name ≤25 that passes.
-- What would break it: a Q3 RevPAR/guide cut, a dividend cut, or an equity issuance.
-- Entry: market at 9:35 | Stop: 25% trailing | Size: `alpaca_client.py size CLDT 14.03 10.52` → 25 sh ≈ $351 (11.6%). ADV is 342k: thin, so use a market order at 9:35, not the first print.
-- Status: WATCHING (added 2026-10-24, confirmed 2026-10-26)
-
-- **VETOs logged 10/26:** OABI #3 (EARNINGS 10/30 + HC cap), XGN #4 (HC cap), CDNA #6 (EARNINGS 10/29 + HC cap), TWST #7 (HC cap),
-  APPS #16 (EARNINGS 11/02), QLYS #20 (Tech cap). UTZ #18 was logged 10/24 (cash take-private). SMWB #10 and ABCL #12 FAIL non-US HQ (not top-8).
-- **Slot 8 stays empty.** Nothing else ≤25 passes: TKNO, SDGR, ATRC, ETON, IOVA, PSNL, HNGE, CORT and CON are all HC (cap full).
-  Projected satellites ≈ **82%** (4 held ≈ $1,427 + 3 ≈ $1,041, out of a $3,035 slice). IWM ≈ $285 after funding.
-- Weekly entry count after Monday: 3/5. No entries Wed 10/28 (**FOMC**, statement 2:00 PM ET).
-
-### Tue 10/27 — premarket (ranking data 10/26, 714 eligible) → market_open executes
-Held 7 (TXG #1, QMCO #2, REPL #4, NSIT #8, NEO #13, GTLB #21, CLDT #23). **1 open slot**, weekly entries 3/5 → 1 pick.
-HC cap full (TXG/REPL/NEO), Tech cap full (NSIT/QMCO/GTLB). The only non-HC, non-Tech name ≤25 that passes is KELYA. UTZ #19 = take-private (vetoed 10/24); CON #22 and CORT #24 = HC.
-**Order at 9:35:** (1) CORE FUNDING: sell IWM ≈ **$365** (≈1.32 sh; Rocket has ≈$0 own cash above buffer). (2) BUY KELYA at market. (3) 25% trailing stop. (4) `candidate_ledger.py log KELYA BUY ... --rank 25`.
-Re-run `size` at the live price. Skip it if it opens >8% above the 10/26 close ($16.58) on no news. Projected satellites ≈ **95%**, IWM ≈ $180.
-
-### KELYA — Kelly Services, Inc.   (rank 25, score 0.966)
-- Why it ranks: 6-1 +74%, vol 41%, 35% above 200d. Cap $576M, float 29.5M (94%).
-- Catalyst / story: none fresh. A staffing turnaround with FY25 FCF of $114M (6× the prior year), and it pays a dividend. Class A (non-voting) shares. **DE incorporated** (EDGAR).
-  EDGAR since 5/13: only Form 4s, the 8-K 2.02 and 10-Q (8/06), and a 13D/A + 13G (5/19). **No S-1/S-3/424B, no going concern.**
-  Earnings: 11/05 (screener) vs 11/09 (search). Both are outside the 5-td gate (11/05 = 7 td).
-- Risk: **ADV 313k is just over the 300k gate**, so it is thin. Use a market order at 9:35, not the first print. Like CLDT, it sits **exactly at the exit edge (25)**: a one-place slip by Sat 10/31 makes it a replacement. Accepted: it is the only eligible name in a sector with room.
-- What would break it: a Q3 revenue/guide cut on 11/05–09, a dividend cut, or an equity issuance.
-- Entry: market at 9:35 | Stop: 25% trailing | Size: `alpaca_client.py size KELYA 16.58 12.44` → 22 sh ≈ $365 (11.9%)
-- Status: WATCHING (added 2026-10-27)
-
-- **VETOs logged 10/27:** OABI #3 (EARNINGS 10/30 + HC cap), CDNA #5 (EARNINGS 10/29 + HC cap), XGN #6 and TWST #7 (HC cap).
-- Holdings check (7 searches): **no thesis breaks.** REPL Q2 FY27 call is 10/28 8:00 AM, NEO reports 10/28, TXG reports 11/05 AMC. ⚠️ GTLB has a **maximum-severity CVE (CVE-2026-85706) under active exploitation** in CE/EE. It is a product-security flag, not a defined break. Watch for disclosed customer churn or a guide hit.
-
-### Wed 10/28 — premarket (ranking data 10/27, 748 eligible) — 8 held, **0 open slots**, no entries (FOMC 2:00 PM ET)
-Held ranks: TXG #1, QMCO #2, REPL #4, NSIT #8, NEO #16, GTLB #24, **CLDT #28 ⚠️, KELYA #34 ⚠️**. Weekly entries 4/5. No picks and no VETOs owed (0 slots).
-- Holdings check (8 searches): **no thesis breaks.** The results were old items: TXG FY26 guide backed and the Proteintech deal, QMCO material weakness (known), REPL's $150M offering (Aug, >30d, known), NSIT Q2 beat, NEO Q2 raise + convert (June, known), GTLB Q2 beat, CLDT reports 11/04 BMO, KELYA rights plan (Jan).
-- **REPL and NEO report today (10/28).** Both held through with stops in place. Read the prints at market_close/Thu premarket for a guide cut (thesis break) vs noise.
-- **For the Sat 10/31 weekly_review:** (a) CLDT 28 and KELYA 34 are past the 25 exit rank. Rank decay is weekly, so replace them only if they are still >25 Saturday. (b) 🆕 **TXG's gate now reads `FAIL cap $10.2B`**, over the $10B universe ceiling, while it ranks #1. CLAUDE.md's exit triggers are stop / thesis break / rank >25 / below 200d, so cap drift is **not** an exit by rule. Decide at the review whether the cap gate is entry-only (it should be: exiting the #1 name for growing is selling a winner for winning). Hold it until then.
-
-### Thu 10/29 — premarket (ranking data 10/28, 764 eligible) — 8 held, **0 open slots**, no picks
-Held ranks: TXG #1, REPL #2, QMCO #4, NSIT #12, NEO #20, GTLB #23, **CLDT #27 ⚠️, KELYA #37 ⚠️**. Weekly entries 4/5. No picks and no VETOs owed (0 slots).
-- Holdings check (8 searches + 2 fetches): **no thesis breaks.**
-  - **NEO Q3 (10/28): beat and raise.** Revenue +11% to $209M, NGS +29%, GAAP GM +340 bp to 46%. FY26 revenue guide raised to $802–806M (was $797–803M). CEO succession: COO Warren Stone becomes CEO 1/4/2027 and Zook becomes Exec Chair. It is planned, not a break.
-  - **REPL 10-Q (9/30):** going-concern doubt "alleviated" by the Aug $141M raise. **No ATM sales.** Cash $307.8M. Tudriqev (RP1) shipments began in FQ3, so there was no product revenue yet. No break.
-  - QMCO's "equity financing" headline is the **June 2026** $100M raise plus the $57.2M conversion. It is known and >30d, so not fresh dilution. TXG, NSIT, GTLB, CLDT and KELYA: only old items. (KELYA's law-firm "investigations" are boilerplate from the Q3'25 miss.)
-- Earnings 11/05: TXG, NSIT, CLDT and KELYA now show `EARNINGS in 5d`. The gate is entry-only, so all are held through with stops.
-- **For Sat 10/31 weekly_review:** CLDT #27 and KELYA #37 are still >25. If they still are Saturday, replace them Monday. Sector room for replacements: neither HC (full: TXG/REPL/NEO) nor Tech (full: QMCO/NSIT/GTLB). On today's list the only OK non-HC/non-Tech name ≤25 is UTZ, which is already vetoed (take-private). Expect to widen the walk past 25 or accept fewer slots. TXG's gate is now `FAIL cap $10.9B` (still the cap-drift question).
-
-### Fri 10/30 — premarket (ranking data 10/29, 791 eligible) — 8 held, **0 open slots**, no picks
-Held ranks: TXG #1, REPL #3, QMCO #5, NSIT #8, GTLB #19, **CLDT #23 ✅ (back ≤25)**, NEO #24 ⚠️ (edge), **KELYA #31 ⚠️**. Weekly entries 4/5. No picks and no VETOs owed (0 slots).
-- Holdings check (8 searches): **no thesis breaks.** Every result was an old item: TXG Q2 beat and Bruker settlement, REPL adcomm/approval history, QMCO Q1 beat and debt restructure (known), NSIT guide raise, GTLB a prior-year Q3 guide dip, NEO Q2/Q3 raises, CLDT reports 11/04 BMO, KELYA buyback. Nothing new in 30d.
-- After-hours prints are weak (TXG $79.00 vs $81.55 settled, QMCO $19.78 vs $20.77). These are thin prints, not closes, and price is the stop's job.
-- **For Sat 10/31 weekly_review:** KELYA #31 is still >25 → replace Monday if it is still >25 on Saturday's data. CLDT recovered to #23. NEO #24 is at the edge. Sector room for a KELYA replacement: not HC (full: TXG/REPL/NEO), not Tech (full: QMCO/NSIT/GTLB). On today's list the only non-HC/non-Tech name ≤25 is UTZ #16 (take-private veto + EARNINGS in 5d). Expect to walk past 25. TXG gate `FAIL cap $10.6B` → cap-drift ruling is still owed at the review.
+- **VETOs to log at Monday premarket (top 8, not held):** IOVA #4 (EARNINGS 11/05), CDNA #6 (HC cap once OABI fills), ABCL #8 (FAIL non-US HQ). Also skipped between OABI and CAKE: SDGR #9, HNGE #10, PSNL #12 (EARNINGS and HC), APPS #11 (EARNINGS and Tech), UTZ #13, SMWB #14 (non-US).
+- **Earnings this week (held, entry-gate only, held through with stops):** TXG, NSIT and CLDT 11/05. QMCO 11/09.
 
 ### Held satellites — thesis cards (break = specific news, never price)
 - **QMCO** (20 @ $17.53, Tech): turnaround after the debt-to-equity conversion. CFO terminated 10/09 (flag). Break: a restatement, NT 10-Q, equity raise, or guide cut 11/09.
 - **GTLB** (6 @ $56.75, Tech): Q2 beat + raise. Break: a guide cut, an exec exit, or a seat hit (incl. fallout from the CVE).
 - **CLDT** (25 @ $14.30, REIT): pure rank. Break: a RevPAR/guide cut, a dividend cut, or an issuance. Earnings 11/04–05.
-- **TXG** (5 @ $69.59, HC): Q2 beat + raised FY outlook, Atera demand. Break: a Q3 (11/05 AMC) guide cut. Cap $9.3B, near the $10B line.
-- **REPL** (32 @ $10.99, HC): RP1 Accelerated Approval (Aug). Break: a 424B takedown off the 8/14 S-3ASR, a weak launch, FDA safety action. **Earnings 10/28.**
-- **NEO** (21 @ $16.83, HC): Q2 beat + raise, prelim Q3 ~$209M, FY guide up. Break: a guide cut. **Earnings 10/28 AMC** (±16% implied, held through it).
+- **TXG** (5 @ $69.59, HC): Q2 beat + raised FY outlook, Atera demand. Break: a Q3 (11/05 AMC) guide cut. Cap $9.1B. **The cap gate is entry-only (ruled at W44)**, so drifting over $10B is not an exit.
+- **REPL** (32 @ $10.99, HC): RP1 Accelerated Approval (Aug). The 10-Q says going-concern doubt is alleviated, with no ATM sales. Now ≈ 19% of slice after the run to $17.61; there are no trims by rule. Break: a 424B takedown off the 8/14 S-3ASR, a weak launch, an FDA safety action.
+- **NEO** (21 @ $16.83, HC): Q3 beat and raise 10/28. **EXITING Mon 11/02 on rank decay (27).**
 - **NSIT** (2 @ $162.53, Tech): Q2 beat, FY26 EPS guide raised to $12.20–12.70. Break: a guide cut. Earnings 11/05.
+- **KELYA** (22 @ $16.41, Industrials): pure rank. **EXITING Mon 11/02 on rank decay (26).**
 - ~~DK~~: exited 10/26 on rank decay (75). Thesis lesson: a refiner is short crude (strategy.md TESTING).
 
 

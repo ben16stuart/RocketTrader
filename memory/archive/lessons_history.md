@@ -703,3 +703,35 @@ Research gap, not a bearish call. IWM core $2,772 (89.6%) is within the 3% band 
 
 ## Archived 2026-10-24 (W43 review)
 - **W40 (9/28–10/02):** D+. Book +0.27% vs IWM −0.16% (+0.43%, all RARE). Satellites 21.0%. AGEN was a clean day-2 entry, stopped −2.5%; the loss came from the named warrant overhang. **At the MEDIUM bar, a named dilution overhang is the tiebreaker** (lets through: clean-structure MEDIUM catalysts). Clinical-data day-2 plans went 0/4.
+
+
+## Archived at W44 review 2026-10-31
+Retired with the 10/17 rank → judge rebuild (stop-fit, day-2, analyst ladder, stop-override, midday cut, board constraint):
+2. **Enter on day 2** (same-day 0-for-3, day-2 2-for-3). 2a: 9:30–9:45 range >10% → defer. 2b: the 9:45–9:50 bar must close in its upper half. 2c: gap 20–35% = gap-and-go, >35% = day 2 only. 3: gapped >25% and closed above the midpoint → the open is the entry (within 10% of the prior close).
+6. **P2 is not a substitute for a failed P1.** An open slot is not a thesis.
+9/10. **Short float >15% + catalyst = squeeze flag.** Sub-$3 = trap; watch names within 5% of the floor.
+11. **Analyst ladder:** strike +15% and +25% against a **dated** consensus. If the Street's highest target is below +15%, it's the strongest kill signal on the book. An un-runnable ladder = FAIL.
+32. **Only override a trailing stop >2% away** (32a). Grade counterfactuals against the actual stop and the actual low (32c).
+36/53. **Name which constraint bound the board on this session:** board quality, stop fit, or mandate. Re-measure it every session; don't carry it over.
+37/40/45/51/54c. **Stop fit = max drawdown from the running high on 5-min bars**, not range ÷ 7%. Forecast catalyst-day range from the name's own history (45), and grade the forecast (tally so far: 5 right, 3 misses in both directions). A range kill converts to a date (day 2); a price-action kill closes the name (42d/45e).
+67. **(open)** The midday "−5% = cut" rule conflicts with 32a when the stop is <2% away. Escalated. Tally so far favors 32a: RARE held 9/25, 9/28, 9/29 → +≈$31 vs cutting.
+
+Satellite-floor section before compression:
+## Standing Rules — Satellite floor
+56–69 (breach logs). **IWM CAP LIFTED 2026-10-06 (Ben, option 1): the unfilled floor now sits in IWM, never cash. The 50% floor is still a guardrail — measured, flagged each session, escalated by rule 8. Funding a satellite = SELL the IWM shortfall right before the BUY (log `CORE FUNDING`).** The cap had produced ~50% idle cash and zero extra picks in 3 weeks. **One line per breach in session notes; a breach isn't a lesson.** The design problem is escalated (W39 §6): 3 × 15% = 45% < 50%, so the floor needs all 4 slots full at max size. **Rule 8 relaxes catalyst quality, which is rarely what binds.** Widen the SOURCES (calendar, FDA, analyst), not only the screeners. A missing session is not a confirming data point (58).
+
+
+Older trade lessons:
+- **W41 (10/05–10/09):** D−. Book −1.83% vs IWM −0.92% (**−0.91%**, all RARE). Satellites **0.0%** at 5/5 closes. RARE stopped at $14.42 (−4.4%, −0.63R) on an intraday dip and closed 10/09 at $15.49: a noise stop-out on a 7% trail. **Not a reason to widen stops on one outcome (35).** Tally for stop-outs that later reclaimed entry: 1 (RARE). Re-check after 5. All 9 graded in-universe kills were flat-to-down (best +2.7%) by Friday. **Snapshot "Rocket vs IWM" includes Bull (23). The ntfy printed +6.6–7.3% against a true +0.93%. Never quote it** (lets through: nothing new; it enforces 23 on the ntfy).
+- Breach log: **20 consecutive `market_close` breaches through 10/16** (W42 detail in `weekly_reviews/2026-W42.md` §2.5; the dated lines are archived in `archive/lessons_history.md`). Append one line per new breach below. The weekly review folds them. **Streak ended 10/19: W43 met the floor at 5/5 closes.**
+
+Also archived at W44 (retired-checklist selection rules, advisory since 10/17; may still inform a logged judgment VETO):
+1. **No named, dated catalyst = no trade.** Volume alone is the pump shape (rule-1 AVOID).
+4. **Close below the midpoint on heavy volume = distribution = dead**, whatever the catalyst.
+7. **Rank on the balance sheet.** A contract far larger than the company's cash means the catalyst is a dilution event. 7b: a circular counterparty voids it.
+28. **A one-session factor move carries no information**; read it weekly.
+30. **Read the transaction code and size, then the 10b5-1 flag** (read the raw Form 4 XML). A Form 144 is supply, not dilution.
+41. **Source rung-1 from the earnings calendar before the screeners**, and from the FDA/regulatory tape. A blank board built on a degraded instrument is not a real absence (41b).
+42. **Pre-commit kill/pass conditions as SHAPES, not levels, before the evidence arrives.** Independent gates don't net out (42a). Validated on IRD, ELMT and PRME (68).
+48f/54b. **Say which claim a kill makes:** "can't hold it" or "it will fall." Say which claim a correction supports: "number was wrong" or "fixing it makes money."
+49. **Undisclosed deal terms = FAIL.** Headline size ≠ committed size (an IDIQ is a ceiling; an MOU is $0). Grade dilution against the float.
