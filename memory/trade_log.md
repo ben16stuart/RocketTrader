@@ -2074,3 +2074,34 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-10-30 — market_close: no trades
 - Held all 8 satellites (CLDT, GTLB, KELYA, NEO, NSIT, QMCO, REPL, TXG), 101.6% of slice (floor met). IWM 0, target_core negative → no rebalance. Rocket -4.52% vs IWM -1.69% today.
 - ⚠️ HPE and STT still UNATTRIBUTED at broker (neither log). Not touched.
+
+## 2026-11-02 — NEO SELL / KELYA SELL (rank decay at W44 review)
+- NEO 21 and KELYA 22 sold at market ~9:45 ET (NEO ~$17.12, KELYA ~$16.51). Trailing stops cancelled first. Ranks 27 and 26 > 25.
+- Proceeds fund the OABI and CAKE buys, so no IWM funding sale was needed.
+
+## 2026-11-02 — OABI BUY
+- Shares: 70 @ $5.08
+- Rank at pick: 3 | Sector: Healthcare
+- Catalyst / story: pure rank (6-1 +256%). 10-Q read: no substantial doubt, $64.2M cash, ATM undrawn. DE incorporated. Q3 revenue miss held.
+- Stop: 25% trailing (~$3.81). No targets; exits on stop, thesis break, or weekly rank > 25
+- Thesis: Top-3 momentum, with the Q3 print absorbed and the earnings gate clear. Antibody-discovery royalty revenue is lumpy, so one miss is not a guide cut.
+
+## 2026-11-02 — CAKE BUY
+- Shares: 3 @ $117.25 (prior settled close $112.64, +4.1% at the fill)
+- Rank at pick: 15 | Sector: Consumer Cyclical
+- Catalyst / story: Q3 comps +15.2%, revenue +14% (10/27 print), a beat. Rank 15 is inside the 9–25 promote range.
+- Stop: 25% trailing (~$87.94). No targets; exits on stop, thesis break, or weekly rank > 25
+- Thesis: Strong comps, with the stock recovering after the post-print dip. Short interest is 40%, a squeeze flag. Form 144/4 insider sales are a note, not a veto.
+
+## 2026-11-02 — TXG SELL (25% trailing stop fired)
+- 5 @ $65.91 (entry $69.59, 10/19; hwm $87.82). Filled 10:51 ET. -5.3% vs entry. Slot reopened.
+
+## 2026-11-02 — CDNA BUY (midday slot refill)
+- Shares: 4 @ $86.10 (prior settled close ~$87.41 on 10/30; -1.5%)
+- Rank at pick: 6 | Sector: Healthcare (HC now OABI + CDNA = 2 of 3)
+- Catalyst / story: Q3 (10/29) rev $139M +39%, third straight guide raise ($520-530M), GAAP NI $19M. Earnings passed, no dilution seen. Earlier HC-cap veto lapsed with TXG/NEO gone.
+- Stop: 25% trailing (~$64.5). Exits on stop, thesis break, or weekly rank > 25.
+
+## 2026-11-02 — market_close: no trades
+- Held all 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL), 102.1% of slice (floor met). IWM 0, target_core negative → no rebalance.
+- ⚠️ STT still UNATTRIBUTED at broker (neither log). Not touched.

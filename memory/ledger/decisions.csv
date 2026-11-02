@@ -24,3 +24,12 @@ date,time,sym,decision,rank,reason
 2026-10-27,04:21,XGN,VETO,6,hard: healthcare sector cap full (TXG/REPL/NEO held)
 2026-10-27,04:21,TWST,VETO,7,hard: healthcare sector cap full (TXG/REPL/NEO held)
 2026-10-27,07:45,KELYA,BUY,25,"staffing turnaround, FCF 6x, DE inc, no dilution; fills last slot"
+2026-11-02,06:25,IOVA,VETO,4,hard: gate EARNINGS 11/05 (3d)
+2026-11-02,06:27,CDNA,VETO,6,hard: healthcare sector cap full (TXG/REPL + OABI replacing NEO)
+2026-11-02,06:27,ABCL,VETO,8,hard: gate FAIL non-US HQ (Canada)
+2026-11-02,07:45,NEO,EXIT,27,rank decay 27 > 25 at W44 review
+2026-11-02,07:45,KELYA,EXIT,26,rank decay 26 > 25 at W44 review
+2026-11-02,07:46,OABI,BUY,3,"Rank 3 momentum; 10-Q no going concern, ATM undrawn; replaces NEO"
+2026-11-02,07:46,CAKE,BUY,15,"Q3 comps +15.2% beat, rank 15 promoted; replaces KELYA"
+2026-11-02,10:16,CDNA,BUY,6,"TXG stop slot refill; rank 6, Q3 rev +39% and 3rd straight guide raise (10/29), earnings passed, no dilution; HC cap now 1 of 3"
+2026-11-02,10:16,TXG,EXIT,,"25% trailing stop fired (hwm 87.82, fill 65.91)"

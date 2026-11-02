@@ -32,18 +32,20 @@ If Monday's premarket ranking puts NEO or KELYA back ≤25, **still replace them
 - Checked 10/31: **DE incorporated** (EDGAR). Filings since 8/15 are only the 10/30 8-K 2.02 and the 10-Q. **No S-1/S-3/424B.** Q3 printed 10/30: EPS −$0.14 in line, **revenue $2.2M vs $5.6M est (a miss)**. The stock held: week range $4.61–5.28, Friday close $5.11, above the 50d ($4.65). The earnings gate is now clear.
 - Judgment flag, not a veto: lumpy royalty/milestone revenue, so one quarter's miss is not a guide cut. **Premarket must read the 10-Q for going-concern language** before the order.
 - What would break it: going-concern doubt, an ATM/shelf takedown, or a partner program discontinued.
-- Size: `alpaca_client.py size OABI 5.11 3.83` → 70 sh ≈ $358 (11.9%)
-- Status: WATCHING (added 2026-10-31)
+- Size: `alpaca_client.py size OABI 5.11 3.83` → **69 sh ≈ $353 (11.8%)** (re-run 11/02)
+- ✅ **11/02 premarket: 10-Q read (0001846253-26-000051).** Going concern appears only as the basis-of-presentation boilerplate, with **no substantial doubt**. Cash + ST investments are **$64.2M**, "sufficient … at least the next 12 months". The $100M ATM (Dec 2023) has **zero sales YTD**. Grade: undrawn ATM with roughly 12+ months of runway, a flag not a veto (rule 8). EDGAR: DE, no S-1/S-3/424B since the 10-Q. Rank #3 on fresh 10/30 data.
+- Status: WATCHING (added 2026-10-31, confirmed 2026-11-02)
 
 ### CAKE — The Cheesecake Factory   (rank 15, Consumer Cyclical)  — replaces KELYA
 - Why it ranks: 6-1 +81%, vol 39%, 42% above 200d. Cap $5.6B, **short 40%** (a squeeze flag, not a veto).
 - Checked 10/31: **DE incorporated**. Filings since 8/15: only the 10/27 8-K (2.02/7.01/8.01). Q3 (10/27): revenue $1,033M (+14%), comps **+15.2%**, adj EPS $1.02, a beat. No specific comp/EPS guide ("will not be providing"). 26 openings FY26, 27 FY27. The stock dipped on the print and then recovered: Friday close $112.64, above the 50d ($108.02).
 - It is the best-ranked non-HC, non-Tech name that passes. UTZ #13 is a take-private (vetoed 10/24) with EARNINGS in 4d.
 - What would break it: a comp slowdown or a margin hit, a dividend cut, or an equity issuance.
-- Size: `alpaca_client.py size CAKE 112.64 84.48` → 3 sh ≈ $338 (11.3%)
-- Status: WATCHING (added 2026-10-31)
+- Size: `alpaca_client.py size CAKE 112.64 84.48` → 3 sh ≈ $338 (11.3%) (re-run 11/02)
+- ✅ **11/02 premarket:** a web result claimed "earnings 11/02 AMC". **EDGAR falsifies it**: the 8-K 2.02 was filed 10/27, so Q3 is already out (rule 33/39: a calendar estimate is not a date). Filings since then are only Form 144 ×3 (10/29) and Form 4 ×3 (10/30). That is insider selling, not issuance: a note, not a veto. DE. Rank #15 on fresh 10/30 data. Ranks 9–14 are all EARNINGS ≤5d or non-US.
+- Status: WATCHING (added 2026-10-31, confirmed 2026-11-02)
 
-- **VETOs to log at Monday premarket (top 8, not held):** IOVA #4 (EARNINGS 11/05), CDNA #6 (HC cap once OABI fills), ABCL #8 (FAIL non-US HQ). Also skipped between OABI and CAKE: SDGR #9, HNGE #10, PSNL #12 (EARNINGS and HC), APPS #11 (EARNINGS and Tech), UTZ #13, SMWB #14 (non-US).
+- **VETOs LOGGED 11/02 06:25 (top 8, not held):** IOVA #4 (EARNINGS 11/05), CDNA #6 (HC cap once OABI fills), ABCL #8 (FAIL non-US HQ). Also skipped between OABI and CAKE: SDGR #9, HNGE #10, PSNL #12 (EARNINGS and HC), APPS #11 (EARNINGS and Tech), UTZ #13, SMWB #14 (non-US).
 - **Earnings this week (held, entry-gate only, held through with stops):** TXG, NSIT and CLDT 11/05. QMCO 11/09.
 
 ### Held satellites — thesis cards (break = specific news, never price)

@@ -3,6 +3,20 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-02 — PREMARKET (Monday, Week 45 day 1) — 8 held, 2 rank-decay swaps confirmed: NEO → OABI, KELYA → CAKE
+
+- Book: 8 satellites ≈ 100% of the ≈$2,975 slice. IWM 0. **Floor met.** Weekly entries 0/5.
+- Holdings check (keepers): no thesis breaks. TXG, QMCO, NSIT, CLDT and GTLB results were old or known. **REPL: a 424B5 surfaced, but EDGAR dates it 2026-08-10** (the known post-approval raise, before entry), so it is not a takedown.
+- `rank_screen.py` (10/30 data, 738 eligible): **identical to the W44 review.** TXG 1, REPL 2, OABI 3, QMCO 5, NSIT 7, CLDT 20, GTLB 23, KELYA 26, NEO 27. Saved `ledger/ranks/2026-10-30.csv`.
+- 🛠️ **Ranker "hangs" were the Mac deep-idling on battery** (pmset: DarkWake from Deep Idle), not a code bug. Two runs were killed at the time limits with zero output. Fixed by running under `caffeinate -i`. If launchd premarkets are going silent, check sleep before debugging the script.
+- Picks confirmed: **OABI #3** (10-Q has no substantial doubt, $64.2M cash, ≥12mo runway, ATM undrawn) and **CAKE #15** (a web claim of "earnings 11/02 AMC" was falsified by the 10/27 8-K 2.02; insider Form 144/4s are a note).
+- VETOs logged: IOVA #4 (EARNINGS 11/05), CDNA #6 (HC cap), ABCL #8 (FAIL non-US HQ).
+- market_open: sell NEO 21 / KELYA 22 (cancel stops first, log EXITs with rank decay), buy OABI 69 / CAKE 3, place 25% trails, log BUYs. No IWM funding needed (≈$730 proceeds vs ≈$690). Skip a name that opens >8% above Fri close (OABI $5.11, CAKE $112.64) on no news.
+- Macro: VIX 18.92 live, RTY +0.76%, ES +0.53%, Brent 108.41 (−4.4% roll-corrected). ISM Mfg 10:00 ET. **Midterms Tue 11/03.** No trades. No ntfy.
+- Still unresolved: HPE / STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-10-31 — WEEKLY REVIEW (Week 44, Saturday) — Grade A−; satellites 96.1% avg; NEO → OABI, KELYA → CAKE Monday
 
 - Book **+7.32%** vs IWM +1.30% (**+6.02 pts**, ≈ +$220). Almost all of it is REPL (+≈$197, ≈ +6.5 pts of slice). Without REPL the book ≈ IWM. Fri −4.39% vs IWM −1.65%, so the book runs at high beta.
@@ -110,3 +124,7 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - All 8 satellites (CLDT, GTLB, KELYA, NEO, NSIT, QMCO, REPL, TXG) held, each with a live 25% trailing stop. No stop fired, no slot opened, so no STEP 4 fill.
 - News check on REPL/NEO/GTLB/QMCO: nothing dated today and no thesis break found; results were stale (searches returned 2025/early-2026 items). KELYA/NSIT/TXG/CLDT not searched (no catalyst flagged).
 - HPE and STT still UNATTRIBUTED at broker (15% stops, not mine). Not touched.
+
+## 2026-11-02 — midday (sonnet)
+- TXG's 25% trailing stop filled 10:51 ET at $65.91 (hwm $87.82); logged. Slot refilled with CDNA (rank 6, 4 sh @ $86.10, 25% stop placed). 8 satellites: CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL; all with live stops.
+- Only one news search (CDNA); others not searched. HPE/STT still UNATTRIBUTED; not touched. Note: no 11/02 rank file yet; used 10/30 ranking.
