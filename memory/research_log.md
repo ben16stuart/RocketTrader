@@ -48,6 +48,12 @@ If Monday's premarket ranking puts NEO or KELYA back ≤25, **still replace them
 - **VETOs LOGGED 11/02 06:25 (top 8, not held):** IOVA #4 (EARNINGS 11/05), CDNA #6 (HC cap once OABI fills), ABCL #8 (FAIL non-US HQ). Also skipped between OABI and CAKE: SDGR #9, HNGE #10, PSNL #12 (EARNINGS and HC), APPS #11 (EARNINGS and Tech), UTZ #13, SMWB #14 (non-US).
 - **Earnings this week (held, entry-gate only, held through with stops):** TXG, NSIT and CLDT 11/05. QMCO 11/09.
 
+### Tue 11/03 premarket — 8/8 held, 0 open slots (weekly entries 3/5: OABI, CAKE, CDNA)
+- Ranking (11/02 data, 769 eligible): OABI 2, QMCO 3, CDNA 4, NSIT 6, REPL 7, CAKE 12, CLDT 18, **GTLB 30 ⚠️** (a Sat W45 review item; rank decay is weekly, not daily). Saved `ledger/ranks/2026-11-02.csv`.
+- Unheld top 8, for context only (no slot, so no VETO owed): TXG #1 (EARNINGS 11/05), TWST #5 (HC is full: OABI/CDNA/REPL), XRPN #8 (VERIFY earnings).
+- Holdings check: no thesis breaks. CAKE's "$500M convert" hit is an old item (≈2024). A web claim that QMCO reports "11/03" conflicts with the ranker's 11/09. Treat it as unverified (rule 33). QMCO is held through either way.
+- **Sat review watch:** GTLB needs a non-HC replacement (HC is full). Tech then holds QMCO/NSIT, so a Tech name is allowed.
+
 ### Held satellites — thesis cards (break = specific news, never price)
 - **QMCO** (20 @ $17.53, Tech): turnaround after the debt-to-equity conversion. CFO terminated 10/09 (flag). Break: a restatement, NT 10-Q, equity raise, or guide cut 11/09.
 - **GTLB** (6 @ $56.75, Tech): Q2 beat + raise. Break: a guide cut, an exec exit, or a seat hit (incl. fallout from the CVE).

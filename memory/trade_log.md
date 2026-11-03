@@ -2075,7 +2075,7 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 - Held all 8 satellites (CLDT, GTLB, KELYA, NEO, NSIT, QMCO, REPL, TXG), 101.6% of slice (floor met). IWM 0, target_core negative → no rebalance. Rocket -4.52% vs IWM -1.69% today.
 - ⚠️ HPE and STT still UNATTRIBUTED at broker (neither log). Not touched.
 
-## 2026-11-02 — NEO SELL / KELYA SELL (rank decay at W44 review)
+## 2026-11-02 — NEO SELL + KELYA SELL (rank decay at W44 review)
 - NEO 21 and KELYA 22 sold at market ~9:45 ET (NEO ~$17.12, KELYA ~$16.51). Trailing stops cancelled first. Ranks 27 and 26 > 25.
 - Proceeds fund the OABI and CAKE buys, so no IWM funding sale was needed.
 
@@ -2104,4 +2104,13 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 
 ## 2026-11-02 — market_close: no trades
 - Held all 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL), 102.1% of slice (floor met). IWM 0, target_core negative → no rebalance.
+- ⚠️ STT still UNATTRIBUTED at broker (neither log). Not touched.
+
+## 2026-11-03 — midday: no trades
+- All 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL) hold live 25% trailing stops; none fired. No slot opened, so no refill.
+- News check (GTLB, CAKE, REPL, OABI searched; results stale, nothing dated today): no dilution, going-concern, guidance-cut or takeover found. No thesis break.
+- ⚠️ STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-03 — market_close: no trades
+- Held all 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL), 103.1% of slice (floor met). IWM 0, target_core negative → no rebalance. Rocket +2.17% vs IWM +0.15% today.
 - ⚠️ STT still UNATTRIBUTED at broker (neither log). Not touched.

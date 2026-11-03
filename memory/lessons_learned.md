@@ -44,7 +44,7 @@ Read every session. Full text for every rule number (incl. those retired at W44)
 
 ## Standing Rules — Instruments and tooling
 15. `nan` / `0.0x` / blank = a broken instrument. 16. Verify a fix on a live artifact. 17. **The scanner is a name source only.** Its price, Change % and RelVol fields break without warning and uncorrelated (17f/17g/64). Reconcile against settled bars and `detail`. 55b/59: arithmetic that reconciles doesn't prove a trade happened. 66: `sip` returns 403 on this plan, so premarket quotes are indicative only.
-18–20. `close` fully liquidates; use `sell SYMBOL QTY` for partials. Trailing stops need whole shares. Log exits the same day.
+18–20. `close` fully liquidates; use `sell SYMBOL QTY` for partials. Trailing stops need whole shares. Log exits the same day. 20b: join two trades in one trade_log header with **`+`**, never `/`. The reconciler splits on `+` only (KELYA showed MISSING 11/02–11/03).
 21/47. **Token budget is a trading risk.** Fewer than 5 searches → do them inline. A starved routine leaves a silent gap: grep for the expected dated entry, and fix the gap rather than just flagging it (47c).
 23. **Rocket can't measure Rocket from the snapshot.** Use the hand-built book (23a), carried forward by fills.
 24. **Display share counts are rounded.** Pull the raw qty from `GET /v2/positions` for any arithmetic. The snapshot's weekly trade counter is broken; count trades from `trade_log.md`. 25: if the snapshot fails on one endpoint, curl that path.

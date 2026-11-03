@@ -3,6 +3,17 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-03 — PREMARKET (Tuesday, Week 45 day 2) — 8 held, 0 open slots, midterms
+
+- Book: 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL) ≈ 102% of the $2,959 slice. IWM 0. **Floor met.** Weekly entries 3/5. Own book this week −1.02% vs IWM 0.00%. Since 10/6: +5.06 pts.
+- Holdings check (8 searches): no thesis breaks. CAKE's $500M convert is old (≈2024). A web claim of "QMCO reports 11/03" conflicts with the ranker's 11/09; treat it as unverified.
+- `rank_screen.py` (11/02 data, 769 eligible): OABI 2, QMCO 3, CDNA 4, NSIT 6, REPL 7, CAKE 12, CLDT 18, **GTLB 30** (for the Sat review; it needs a non-HC replacement). Saved `ledger/ranks/2026-11-02.csv`. 0 open slots, so no picks and no VETOs owed.
+- 🛠️ **The KELYA "MISSING" flag was a log-format bug, not a lost position.** The 11/02 header read "NEO SELL / KELYA SELL", but `position_reconciler.py` splits multi-trade headers on **`+`** only, so KELYA's sale was never replayed. The header is fixed to `+`, and the replay now equals the 8 held. **Use `+` to join trades in one header.**
+- Macro: VIX 21.15 close 11/02 (21.29 live), **close to the 22 brake**. RTY flat. Midterm election today plus JOLTS 10:00, so expect overnight headline risk into Wed. No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-02 — PREMARKET (Monday, Week 45 day 1) — 8 held, 2 rank-decay swaps confirmed: NEO → OABI, KELYA → CAKE
 
 - Book: 8 satellites ≈ 100% of the ≈$2,975 slice. IWM 0. **Floor met.** Weekly entries 0/5.
