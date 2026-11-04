@@ -3,6 +3,16 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-04 — PREMARKET (Wednesday, Week 45 day 3) — 8 held, 0 open slots, post-midterms
+
+- Book: 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL) ≈ 103% of the $3,016 slice. IWM 0. **Floor met.** Weekly entries 3/5. Own book this week +1.94% vs IWM +0.05% (+1.90 pts). Since 10/6: +8.14 pts.
+- Holdings check (8 searches): no thesis breaks. Unverified calendar claims: CDNA 11/04 AMC (already printed 10/29), OABI 11/03/11/09 (printed 10/30), REPL 11/09 BMO (ranker says 10/28). Held through either way.
+- `rank_screen.py` (11/03 data, 759 eligible): OABI 2, CDNA 4, REPL 5, NSIT 6, QMCO 7, CAKE 18, CLDT 25, **GTLB 27** (Sat review; needs a non-HC replacement). Saved `ledger/ranks/2026-11-03.csv`. 0 open slots, so no picks and no VETOs owed.
+- Macro: VIX 20.83 close 11/03 (18.24 live, −12%). **RTY +1.37%** live, ES +1.07%, NQ +1.01%: a post-election relief bid. Gold +2.8%. Brent 103.60 close. ADP 8:15, ISM Services 10:00 ET. Under the 22 brake. Earnings Thu 11/05: NSIT BMO, CLDT BMO. No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-03 — PREMARKET (Tuesday, Week 45 day 2) — 8 held, 0 open slots, midterms
 
 - Book: 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL) ≈ 102% of the $2,959 slice. IWM 0. **Floor met.** Weekly entries 3/5. Own book this week −1.02% vs IWM 0.00%. Since 10/6: +5.06 pts.
@@ -139,3 +149,8 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 ## 2026-11-02 — midday (sonnet)
 - TXG's 25% trailing stop filled 10:51 ET at $65.91 (hwm $87.82); logged. Slot refilled with CDNA (rank 6, 4 sh @ $86.10, 25% stop placed). 8 satellites: CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL; all with live stops.
 - Only one news search (CDNA); others not searched. HPE/STT still UNATTRIBUTED; not touched. Note: no 11/02 rank file yet; used 10/30 ranking.
+
+## 2026-11-04 — midday (sonnet)
+- All 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL) hold live 25% trailing stops; none fired, no exits, no slot opened, no entries.
+- News check (REPL, QMCO, OABI): results stale/undated; no offering, going-concern, guide cut or takeover found. No thesis break. Upcoming: QMCO and OABI earnings ~11/09 (held under stops).
+- STT still UNATTRIBUTED at broker; not touched.

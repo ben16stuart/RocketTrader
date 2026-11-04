@@ -23,6 +23,10 @@ about 2.7× IWM, because it is concentrated in high-vol HC/Tech momentum. Friday
 **Week 45 calendar:** peak Q3 season. Held names report: **TXG, NSIT, CLDT 11/05**, QMCO 11/09. Ranked names: HNGE 11/02, PSNL 11/03,
 SDGR/TKNO 11/04, IOVA/CON 11/05, UTZ 11/06. Macro: check the calendar at premarket (October jobs report likely Fri 11/06).
 
+**Tue 11/03 settled closes (`macro`, read Wed 11/04 premarket):** VIX **20.83** (from 21.15), 10Y 4.95% (+6bp), SPY 754.35 (+0.30%), **IWM 279.79 (+0.23%)**,
+Brent 103.60 / WTI 96.09. Wed 11/04 LIVE (partial bars, not closes): VIX 18.24, **RTY +1.37%**, ES +1.07%, NQ +1.01%, gold 4,051.90 (+2.8%). The post-midterm
+tape is risk-on and small caps lead. **Today: ADP 8:15 ET, ISM Services 10:00 ET.** October payrolls likely Fri 11/06.
+
 **Mon 11/02 settled closes (`macro`, read Tue 11/03 premarket):** **VIX 21.15** (up from 19.42, **close to the 22 entry brake**), 10Y 4.89% (−4bp),
 SPY 752.10 (−0.48%), **IWM 279.14 (−0.07%)**, Brent 104.77 / WTI 96.46. Tue 11/03 LIVE (partial bars, not closes): VIX 21.29, RTY −0.02%, ES −0.06%, NQ +0.42%.
 **Today: US midterm election day + JOLTS 10:00 ET.** Results come overnight, so expect headline risk into Wed's open. Small caps still beat large caps.
