@@ -60,6 +60,12 @@ If Monday's premarket ranking puts NEO or KELYA back ≤25, **still replace them
 - Holdings check (8 searches): no thesis breaks. Calendar conflicts, all unverified (rule 33): **CDNA "reports 11/04 AMC"** vs the 10/29 print already logged. OABI "11/03 or 11/09" vs the 10/30 8-K. **REPL "11/09 BMO"** vs the ranker's 10/28 (REPL's fiscal Q2, Sep qtr, is not on EDGAR in our notes yet). Held names keep their stops through any print. GTLB hits were FY26 items (Dec 2025 / Mar 2026), old.
 - **Sat review watch:** GTLB (27) needs a replacement. HC is full, so the replacement must be non-HC. CLDT (25) is also borderline.
 
+### Thu 11/05 premarket — 8/8 held, 0 open slots (weekly entries 3/5: OABI, CAKE, CDNA)
+- Ranking (11/04 data, 821 eligible): NSIT 2, OABI 3, CDNA 4, REPL 6, CAKE 10, QMCO 12, **GTLB 18** (recovered from 27), **CLDT 20**. All 8 held are ≤25. Saved `ledger/ranks/2026-11-04.csv`.
+- Unheld top 8, context only (no slot, so no VETO owed): TXG #1 (EARNINGS today), TWST #5 (EARNINGS 11/12 and HC full), SMWB #7 (FAIL non-US HQ), CON #8 (EARNINGS today).
+- Holdings check (8 searches + 1 EDGAR): no thesis breaks. **QMCO "equity financing" headline = the known June 2026 $100M raise**: EDGAR shows no filing since the 10/09 8-K (5.02/8.01), no S-3/424B/NT 10-Q. OABI "reports 11/09 AMC" conflicts with the 10/30 8-K 2.02 (unverified, rule 33). GTLB "350 job cuts 9/26" is old. CAKE convert is the old ≈2024 item. **NSIT and CLDT report today BMO**, held through with stops.
+- **Sat review watch:** GTLB and CLDT are no longer over 25 on today's data. Judge on Saturday's numbers only.
+
 ### Held satellites — thesis cards (break = specific news, never price)
 - **QMCO** (20 @ $17.53, Tech): turnaround after the debt-to-equity conversion. CFO terminated 10/09 (flag). Break: a restatement, NT 10-Q, equity raise, or guide cut 11/09.
 - **GTLB** (6 @ $56.75, Tech): Q2 beat + raise. Break: a guide cut, an exec exit, or a seat hit (incl. fallout from the CVE).

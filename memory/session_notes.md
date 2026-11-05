@@ -3,6 +3,16 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-05 — PREMARKET (Thursday, Week 45 day 4) — 8 held, 0 open slots, NSIT/CLDT print today
+
+- Book: 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL) ≈ 102% of the $3,018 slice. IWM 0. **Floor met.** Weekly entries 3/5. Own book this week +1.72% vs IWM +1.82% (−0.10 pts). Since 10/6: +6.14 pts.
+- Holdings check (8 searches + 1 EDGAR): no thesis breaks. A QMCO "equity financing" headline is the June raise; EDGAR shows nothing since 10/09. Note that `data.sec.gov/submissions` JSON **worked via curl with a contact User-Agent** this session.
+- `rank_screen.py` (11/04 data, 821 eligible): NSIT 2, OABI 3, CDNA 4, REPL 6, CAKE 10, QMCO 12, GTLB 18, CLDT 20. All ≤25. 0 open slots, so no picks and no VETOs owed.
+- Macro: VIX 16.61 close 11/04 (16.83 live). RTY +0.63% live, NQ −0.54%. IWM 284.02 (+1.51%). Under the 22 brake. No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-04 — PREMARKET (Wednesday, Week 45 day 3) — 8 held, 0 open slots, post-midterms
 
 - Book: 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL) ≈ 103% of the $3,016 slice. IWM 0. **Floor met.** Weekly entries 3/5. Own book this week +1.94% vs IWM +0.05% (+1.90 pts). Since 10/6: +8.14 pts.
@@ -154,3 +164,11 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - All 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL) hold live 25% trailing stops; none fired, no exits, no slot opened, no entries.
 - News check (REPL, QMCO, OABI): results stale/undated; no offering, going-concern, guide cut or takeover found. No thesis break. Upcoming: QMCO and OABI earnings ~11/09 (held under stops).
 - STT still UNATTRIBUTED at broker; not touched.
+
+## 2026-11-05 — market_open (sonnet)
+- QMCO 25% stop filled 10:36 ET @ $15.36 (logged). Bought PD 21 @ ~$16.53 (rank 23), 25% stop placed. QLYS (earnings 11/09) and ATRC (HC full) logged VETO. 8 slots: CAKE, CDNA, CLDT, GTLB, NSIT, OABI, REPL, PD. Weekly entries 4/5.
+- Bull's HPE/CRWD stops also fired and DELL bought (not mine). STT still UNATTRIBUTED.
+
+## 2026-11-05 — market_close
+- No trades at close. 8 satellites held (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, PD, REPL), 103.4% of slice, floor met; no IWM rebalance. IWM -4.44% today. Earlier: QMCO stop fired, PD refilled.
+- STT still UNATTRIBUTED. Not touched.

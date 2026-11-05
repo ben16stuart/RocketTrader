@@ -2118,3 +2118,22 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-11-04 — market_close: no trades
 - Held all 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL), 102.0% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM +1.47% today.
 - ⚠️ STT still UNATTRIBUTED at broker (neither log). Not touched.
+
+## 2026-11-05 — QMCO SELL (25% trailing stop fired)
+- 20 sh filled @ $15.3615 (entry $17.62; ~-12.8%), 10:36 ET. Rank was 12. Stop-out, not a thesis break.
+
+## 2026-11-05 — PD BUY
+- Shares: 21 @ ~$16.53 (prior settled close not recorded; live quote)
+- Rank at pick: 23 (score 0.973) | Sector: Tech
+- Catalyst / story: pure rank; filled QMCO's slot after walking ranks 9-22 (QLYS earnings 11/09, HC full, UTZ pinned, ABCL non-US). Earnings 11/24, DE-incorporated. Web search returned stale/contradictory items, no fresh red flag.
+- Stop: 25% trailing (~$12.41). No targets; exits on stop, thesis break, or weekly rank > 25
+- Thesis: Momentum rank 23, sits near the decay line, so Saturday review may swap it. Tech now NSIT/GTLB/PD.
+
+## 2026-11-05 — midday: no trades
+- All 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, PD, REPL) hold live 25% trailing stops (verified via open orders). QMCO stop fired earlier and PD already refilled the slot, so no further refill.
+- News check (GTLB, CDNA, CAKE/OABI/CLDT searched inline): results stale or undated, nothing dated today. No dilution, going-concern, guidance-cut or takeover found. No thesis break. GTLB -11.9% and CDNA -8.9% are price moves; the stop's job.
+- STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-05 — market_close: no trades
+- Held all 8 satellites, 103.4% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM -4.44% today.
+- STT still UNATTRIBUTED at broker. Not touched.
