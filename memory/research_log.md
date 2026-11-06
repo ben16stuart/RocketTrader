@@ -66,6 +66,16 @@ If Monday's premarket ranking puts NEO or KELYA back ≤25, **still replace them
 - Holdings check (8 searches + 1 EDGAR): no thesis breaks. **QMCO "equity financing" headline = the known June 2026 $100M raise**: EDGAR shows no filing since the 10/09 8-K (5.02/8.01), no S-3/424B/NT 10-Q. OABI "reports 11/09 AMC" conflicts with the 10/30 8-K 2.02 (unverified, rule 33). GTLB "350 job cuts 9/26" is old. CAKE convert is the old ≈2024 item. **NSIT and CLDT report today BMO**, held through with stops.
 - **Sat review watch:** GTLB and CLDT are no longer over 25 on today's data. Judge on Saturday's numbers only.
 
+### Fri 11/06 premarket — 8/8 held, 0 open slots (weekly entries 4/5: OABI, CAKE, CDNA, PD)
+- Ranking (11/05 data, 726 eligible): OABI 2, NSIT 3, CDNA 4, REPL 7, CAKE 14, GTLB 21, **PD 29 ⚠️**, **CLDT 59 ⚠️**. Saved `ledger/ranks/2026-11-05.csv`. Rank decay is judged at Saturday's review, not today. CLDT fell 20 → 59 on the day it posted a strong beat, so check Saturday whether the 11/05 bar is clean before swapping it (rule 34: one print is not a trend).
+- Unheld top 8, context only (no slot, so no VETO owed): TXG #1 (OK, but HC is full), IOVA #5 (HC full), AMPL #6 (OK; Tech has NSIT/GTLB/PD, 3/3), UTZ #8 (EARNINGS today; take-private).
+- Holdings check (9 searches + 1 EDGAR): **no thesis breaks.**
+  - **CLDT Q3 (11/05, from the EDGAR 8-K ex-99):** RevPAR +8% to $161, an all-time Q3 high. Occupancy 83% (+390bp), AFFO/sh +27%. A strong print.
+  - **NSIT Q3 (11/05 8-K):** sales +22%, adj EPS $3.59 (+34%). Search didn't show the FY guide verb, so Saturday reads ex-99.1 for raise vs. reaffirm (rule 5f).
+  - **CDNA:** a "$91 offering" hit is old (≈2021). **EDGAR (DE) since 10/29 shows only Form 4 ×2 and a 144 (11/05)**: insider selling, a note. **Search hazard:** the query "Caribou Biosciences CDNA" returned CRBU news. CDNA = **CareDx**.
+  - GTLB, REPL, OABI, PD, CAKE: results stale or already known. OABI "11/09" earnings and CAKE "11/02" are the same calendar errors seen earlier this week; their 8-Ks are already filed.
+- **Sat W45 review: VIX 28.18 at the 11/05 close.** Above the 22 brake and the 25 reduce-size line. If it is still >25 at the review, any CLDT/PD replacement goes in at reduced size, or waits.
+
 ### Held satellites — thesis cards (break = specific news, never price)
 - **QMCO** (20 @ $17.53, Tech): turnaround after the debt-to-equity conversion. CFO terminated 10/09 (flag). Break: a restatement, NT 10-Q, equity raise, or guide cut 11/09.
 - **GTLB** (6 @ $56.75, Tech): Q2 beat + raise. Break: a guide cut, an exec exit, or a seat hit (incl. fallout from the CVE).

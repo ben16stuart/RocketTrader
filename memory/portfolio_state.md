@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-11-05 20:58 UTC
+**Last Updated**: 2026-11-06 20:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,23 +9,23 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $9,462.12 |
-| Rocket's Allocated Slice (30%) | $2,838.64 |
-| Cash Available (shared, pooled) | $603.47 |
-| Total Invested (both agents) | $8,858.65 |
+| Shared Account Value (Bull + Rocket) | $9,594.50 |
+| Rocket's Allocated Slice (30%) | $2,878.35 |
+| Cash Available (shared, pooled) | $603.41 |
+| Total Invested (both agents) | $8,991.09 |
 | Unrealized P&L (shared) | $+0.00 |
-| **Rocket own book since 7/20** | **-3.10%** vs IWM -7.22% → **+4.12 pts** |
-| **Rocket own book since 10/6 (new rules)** | **-0.08%** vs IWM -3.61% → **+3.53 pts** |
-| **Rocket own book this week** | **-5.22%** vs IWM -2.91% → **-2.30 pts** |
-| Rocket return since rebase (SHARED account, not own book) | -6.37% |
-| IWM return since rebase | -6.93% |
-| Shared account vs IWM (not Rocket's own — use the bold rows) | +0.56% |
+| **Rocket own book since 7/20** | **-0.81%** vs IWM -6.36% → **+5.54 pts** |
+| **Rocket own book since 10/6 (new rules)** | **+2.28%** vs IWM -2.70% → **+4.99 pts** |
+| **Rocket own book this week** | **-2.98%** vs IWM -2.00% → **-0.97 pts** |
+| Rocket return since rebase (SHARED account, not own book) | -5.06% |
+| IWM return since rebase | -6.18% |
+| Shared account vs IWM (not Rocket's own — use the bold rows) | +1.12% |
 
 ### Deployment — Satellite Floor
 
 | Sleeve | % of slice | Rule |
 |--------|-----------|------|
-| **Satellites (stock picks)** | 103.4% | must be >= 50.0% |
+| **Satellites (stock picks)** | 104.3% | must be >= 50.0% |
 | Core (IWM) | 0.0% | absorbs the leftover (no cap since 2026-10-06) |
 | Cash | 0.0% | buffer only (<= 10%) |
 
@@ -46,21 +46,21 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| CAKE | 3 ($333) | $117.25 | $110.88 | $115.39 | $-19.11 | -5.4% |
-| CDNA | 4 ($307) | $86.10 | $76.75 | $85.86 | $-37.38 | -10.9% |
-| CLDT | 25 ($378) | $14.30 | $15.11 | $14.98 | $+20.12 | +5.6% |
-| DELL | 2 ($630) | $346.11 | $315.24 | $372.36 | $-61.74 | -8.9% |
-| FTNT | 6 ($734) | $136.85 | $122.36 | $129.39 | $-86.94 | -10.6% |
-| GTLB | 6 ($293) | $56.75 | $48.76 | $52.37 | $-47.97 | -14.1% |
-| MRK | 5 ($734) | $148.46 | $146.75 | $150.36 | $-8.54 | -1.1% |
-| MRNA | 4 ($967) | $221.26 | $241.65 | $258.38 | $+81.57 | +9.2% |
-| NSIT | 2 ($305) | $162.53 | $152.41 | $175.62 | $-20.24 | -6.2% |
-| OABI | 70 ($339) | $5.08 | $4.84 | $5.18 | $-16.45 | -4.6% |
-| PD | 21 ($340) | $16.56 | $16.20 | $17.00 | $-7.67 | -2.2% |
-| REPL | 32 ($641) | $10.99 | $20.02 | $20.69 | $+288.96 | +82.2% |
-| SPY | 1.7 ($1,246) | $735.01 | $732.99 | $766.81 | $-3.43 | -0.3% |
-| STT | 5 ($826) | $165.11 | $165.23 | $173.41 | $+0.60 | +0.1% |
-| TGT | 5 ($789) | $152.86 | $157.72 | $163.10 | $+24.30 | +3.2% |
+| CAKE | 3 ($320) | $117.25 | $106.79 | $110.71 | $-31.38 | -8.9% |
+| CDNA | 4 ($314) | $86.10 | $78.54 | $76.33 | $-30.24 | -8.8% |
+| CLDT | 25 ($387) | $14.30 | $15.48 | $15.10 | $+29.50 | +8.3% |
+| DELL | 2 ($657) | $346.11 | $328.69 | $316.91 | $-34.85 | -5.0% |
+| FTNT | 6 ($713) | $136.85 | $118.81 | $122.51 | $-108.24 | -13.2% |
+| GTLB | 6 ($288) | $56.75 | $47.98 | $48.99 | $-52.65 | -15.5% |
+| MRK | 5 ($734) | $148.46 | $146.86 | $146.94 | $-7.99 | -1.1% |
+| MRNA | 4 ($1,015) | $221.26 | $253.80 | $241.46 | $+130.16 | +14.7% |
+| NSIT | 2 ($316) | $162.53 | $157.96 | $152.72 | $-9.14 | -2.8% |
+| OABI | 70 ($352) | $5.08 | $5.04 | $4.83 | $-3.15 | -0.9% |
+| PD | 21 ($330) | $16.56 | $15.73 | $16.23 | $-17.43 | -5.0% |
+| REPL | 32 ($694) | $10.99 | $21.68 | $20.02 | $+342.24 | +97.3% |
+| SPY | 1.7 ($1,251) | $735.01 | $735.68 | $733.00 | $+1.14 | +0.1% |
+| STT | 5 ($829) | $165.11 | $165.74 | $165.23 | $+3.15 | +0.4% |
+| TGT | 5 ($790) | $152.86 | $158.03 | $157.95 | $+25.85 | +3.4% |
 
 ---
 
@@ -69,12 +69,12 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 🚨 **Does not balance — see reconciling items below.**
 
 - **Rocket's core** (0): none  — benchmark sleeve; no stop, exempt from position limits
-- **Rocket's satellites** (8): CAKE ($333), CDNA ($307), CLDT ($378), GTLB ($293), NSIT ($305), OABI ($339), PD ($340), REPL ($641)
-- **Bull's positions** (6): DELL ($630), FTNT ($734), MRK ($734), MRNA ($967), SPY ($1,246), TGT ($789)
+- **Rocket's satellites** (8): CAKE ($320), CDNA ($314), CLDT ($387), GTLB ($288), NSIT ($316), OABI ($352), PD ($330), REPL ($694)
+- **Bull's positions** (6): DELL ($657), FTNT ($713), MRK ($734), MRNA ($1,015), SPY ($1,251), TGT ($790)
 
 🚨 **UNATTRIBUTED — held at the broker but in neither trade log:**
 
-  - STT ($826) — do not size against this until ownership is resolved.
+  - STT ($829) — do not size against this until ownership is resolved.
 
 
 ---

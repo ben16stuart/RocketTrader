@@ -3,6 +3,16 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-06 — PREMARKET (Friday, Week 45 day 5) — 8 held, 0 open slots, VIX 28
+
+- Book: 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, PD, REPL) ≈ 103% of the $2,849 slice. IWM 0. **Floor met.** Weekly entries 4/5. Own book this week −5.47% vs IWM −2.98% (−2.49 pts). Since 10/6: +3.33 pts.
+- Holdings check (9 searches + 1 EDGAR): no thesis breaks. CLDT Q3 strong (RevPAR +8%, AFFO/sh +27%). NSIT Q3 strong (adj EPS +34%). CDNA's "$91 offering" is old: EDGAR shows only Form 4s and a 144 since the 10-Q. Searching "Caribou CDNA" returns CRBU, a different company.
+- `rank_screen.py` (11/05 data, 726 eligible): OABI 2, NSIT 3, CDNA 4, REPL 7, CAKE 14, GTLB 21, **PD 29, CLDT 59**. These are for the Sat W45 review; rank decay is weekly. 0 open slots, so no picks and no VETOs owed.
+- Macro: **11/05 was a −4.4% day (SPY −4.41%, IWM −4.59%).** VIX closed at 28.18 (26.88 live). That is above the 25 reduce-size line, below the 30 no-longs line. RTY flat live, NQ +1.31%. Search found no cause for 11/05 (results were 2025 articles). October payrolls are likely today at 8:30 ET (unconfirmed). No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-05 — PREMARKET (Thursday, Week 45 day 4) — 8 held, 0 open slots, NSIT/CLDT print today
 
 - Book: 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, QMCO, REPL) ≈ 102% of the $3,018 slice. IWM 0. **Floor met.** Weekly entries 3/5. Own book this week +1.72% vs IWM +1.82% (−0.10 pts). Since 10/6: +6.14 pts.

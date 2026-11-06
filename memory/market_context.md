@@ -23,6 +23,10 @@ about 2.7× IWM, because it is concentrated in high-vol HC/Tech momentum. Friday
 **Week 45 calendar:** peak Q3 season. Held names report: **TXG, NSIT, CLDT 11/05**, QMCO 11/09. Ranked names: HNGE 11/02, PSNL 11/03,
 SDGR/TKNO 11/04, IOVA/CON 11/05, UTZ 11/06. Macro: check the calendar at premarket (October jobs report likely Fri 11/06).
 
+**Thu 11/05 settled closes (`macro`, read Fri 11/06 premarket):** **SPY 733.00 (−4.41%), IWM 270.98 (−4.59%)**, a broad liquidation day. **VIX 28.18** (from 16.61),
+which is **above the 22 brake and the 25 reduce-size line**. 10Y 4.84% (−5bp). Brent 98.29 / WTI 90.52, gold 4,113.50. Fri 11/06 LIVE (partial bars): VIX 26.88, RTY −0.04%, ES +0.25%,
+NQ +1.31%. Cause not found: search returned only 2025 articles. October payrolls likely today 8:30 ET. If VIX holds >25, the W45 review sizes replacements down.
+
 **Wed 11/04 settled closes (`macro`, read Thu 11/05 premarket):** **VIX 16.61** (from 20.83, a post-midterm vol crush), 10Y 4.95% (11/03) → 4.89% (11/04),
 SPY 766.81 (+1.65%), **IWM 284.02 (+1.51%)**, Brent 94.62 / WTI 88.12 (crude still falling), gold 4,073.00. Thu 11/05 LIVE (partial bars): VIX 16.83, **RTY +0.63%**,
 ES +0.15%, NQ −0.54%, so small caps lead again. Earnings today: NSIT, CLDT (held), TXG, CON, IOVA, HAE. October payrolls likely Fri 11/06.

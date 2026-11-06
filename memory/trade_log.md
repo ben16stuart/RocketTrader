@@ -2137,3 +2137,14 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-11-05 — market_close: no trades
 - Held all 8 satellites, 103.4% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM -4.44% today.
 - STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-06 — midday: no trades
+- All 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, PD, REPL) hold live 25% trailing stops (verified via open orders); none fired, no slot opened, so no refill.
+- News check (GTLB, CDNA, CAKE, REPL inline): GTLB nothing dated today. CDNA filed a Q3 8-K 11/5 (content not read; SEC blocks scripted fetch, search gave no guidance-cut report). REPL reported fiscal Q2 on 11/6 (details not read). No dilution, going-concern, guidance-cut or takeover confirmed. No thesis break. GTLB -15.0% and CDNA -8.8% vs entry are price moves; the stop's job.
+- CDNA 11/5 earnings print and REPL FQ2 print: read the exhibits at close/next premarket. Earlier notes dated CDNA's Q3 to 10/29; that conflicts with the 11/5 8-K, so re-verify.
+- STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-06 — market_close: no trades
+- Held all 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, PD, REPL), 104.3% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM +0.97% today.
+- CDNA 11/5 8-K and REPL FQ2 print still unread: check next premarket.
+- STT still UNATTRIBUTED at broker. Not touched.
