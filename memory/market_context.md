@@ -4,42 +4,22 @@ Current snapshot only. Prior dated snapshots: `memory/archive/market_context_his
 
 ---
 
-## Snapshot — 2026-10-30 Friday CLOSE (written at W44 review, Sat 10/31)  ← CURRENT
+## Snapshot — 2026-11-06 Friday CLOSE (written at W45 review, Sat 11/07)  ← CURRENT
 
-All figures are **Fri 2026-10-30 settled closes** (`market_data.py macro`). Prior closes are 10/29.
+All figures are **Fri 2026-11-06 settled closes** (`market_data.py macro`). Prior closes are 11/05.
 
 | Metric | Level | Read |
 |---|---|---|
-| **VIX** | **19.42** (+12.9%) | Range for the week 16.9–19.4. **Under the 22 entry brake** |
-| **10-yr** | **4.93%** (−6bp) | Off the 5.05% post-FOMC high (10/28) |
-| **Futures** | ES −1.81% · **NQ −3.48%** · RTY −1.60% | Friday was a Tech-led selloff |
-| **Brent / WTI** | **117.64 / 104.12** (+2.4% / +2.1%) | A new high for the move. Crude is still rising (blockade) |
-| Gold / Dollar | 3,898.90 (−3.3%) / 101.88 | |
-| **SPY / IWM** | **755.72 / 279.33** (−1.77% / −1.65%) | **For the week: IWM +1.30% (275.75 → 279.33), SPY −0.56%.** Small caps led for a 2nd week |
+| **VIX** | **25.64** (−9.0% from 28.18) | Range for the week 16.6 → 28.2. **Above the 25 reduce-size line**, under 30 |
+| **10-yr** | **4.86%** (+2bp) | Range 4.84–4.95% for the week |
+| **Futures** | ES +0.26% · NQ +1.25% · RTY +0.92% | A partial rebound Friday |
+| **Brent / WTI** | **98.32 / 90.83** | Down from 117.64 / 104.12 on 10/30: crude unwound ≈ −16% in a week |
+| Gold / Dollar | 4,074.90 / 102.30 (+0.7%) | |
+| **SPY / IWM** | **735.29 / 273.67** (+0.31% / +0.99%) | **For the week: IWM −2.03% (279.33 → 273.67), SPY −2.70% (755.72 → 735.29).** Small caps still beat large caps |
 
-**Tape read:** small caps beat large caps again. Friday's drop was Tech-led (NQ −3.5%), and IWM fell less than SPY. Rocket's book fell 4.39% that day,
-about 2.7× IWM, because it is concentrated in high-vol HC/Tech momentum. Friday's VIX jump is the thing to watch. That is not a bearish thesis, and cash stays at the ≤10% buffer.
+**Week's shape:** a post-midterm relief rally (Wed IWM 284.02, VIX 16.61), then **Thu 11/05 a broad liquidation (SPY −4.41%, IWM −4.59%, VIX → 28.18)**. No cause was found
+(searches returned 2025 articles). Friday bounced partially. Rocket's book fell ≈ 7.1% Thursday, ~1.5× IWM: high-beta HC/Tech momentum at 104% of slice.
+This is not a bearish thesis, and cash stays at the ≤10% buffer. **The live constraint is the VIX reduce-size line for Monday's two replacements.**
 
-**Week 45 calendar:** peak Q3 season. Held names report: **TXG, NSIT, CLDT 11/05**, QMCO 11/09. Ranked names: HNGE 11/02, PSNL 11/03,
-SDGR/TKNO 11/04, IOVA/CON 11/05, UTZ 11/06. Macro: check the calendar at premarket (October jobs report likely Fri 11/06).
-
-**Thu 11/05 settled closes (`macro`, read Fri 11/06 premarket):** **SPY 733.00 (−4.41%), IWM 270.98 (−4.59%)**, a broad liquidation day. **VIX 28.18** (from 16.61),
-which is **above the 22 brake and the 25 reduce-size line**. 10Y 4.84% (−5bp). Brent 98.29 / WTI 90.52, gold 4,113.50. Fri 11/06 LIVE (partial bars): VIX 26.88, RTY −0.04%, ES +0.25%,
-NQ +1.31%. Cause not found: search returned only 2025 articles. October payrolls likely today 8:30 ET. If VIX holds >25, the W45 review sizes replacements down.
-
-**Wed 11/04 settled closes (`macro`, read Thu 11/05 premarket):** **VIX 16.61** (from 20.83, a post-midterm vol crush), 10Y 4.95% (11/03) → 4.89% (11/04),
-SPY 766.81 (+1.65%), **IWM 284.02 (+1.51%)**, Brent 94.62 / WTI 88.12 (crude still falling), gold 4,073.00. Thu 11/05 LIVE (partial bars): VIX 16.83, **RTY +0.63%**,
-ES +0.15%, NQ −0.54%, so small caps lead again. Earnings today: NSIT, CLDT (held), TXG, CON, IOVA, HAE. October payrolls likely Fri 11/06.
-
-**Tue 11/03 settled closes (`macro`, read Wed 11/04 premarket):** VIX **20.83** (from 21.15), 10Y 4.95% (+6bp), SPY 754.35 (+0.30%), **IWM 279.79 (+0.23%)**,
-Brent 103.60 / WTI 96.09. Wed 11/04 LIVE (partial bars, not closes): VIX 18.24, **RTY +1.37%**, ES +1.07%, NQ +1.01%, gold 4,051.90 (+2.8%). The post-midterm
-tape is risk-on and small caps lead. **Today: ADP 8:15 ET, ISM Services 10:00 ET.** October payrolls likely Fri 11/06.
-
-**Mon 11/02 settled closes (`macro`, read Tue 11/03 premarket):** **VIX 21.15** (up from 19.42, **close to the 22 entry brake**), 10Y 4.89% (−4bp),
-SPY 752.10 (−0.48%), **IWM 279.14 (−0.07%)**, Brent 104.77 / WTI 96.46. Tue 11/03 LIVE (partial bars, not closes): VIX 21.29, RTY −0.02%, ES −0.06%, NQ +0.42%.
-**Today: US midterm election day + JOLTS 10:00 ET.** Results come overnight, so expect headline risk into Wed's open. Small caps still beat large caps.
-
-**Mon 11/02 premarket (LIVE, partial bars, do not record as closes):** VIX 18.92, ES +0.53%, NQ +0.85%, **RTY +0.76%**. Brent 108.41
-(−4.43% roll-corrected: the feed rolled to BZF27, so 10/30 re-reads at 113.43 on the new contract, not 117.64). WTI 99.39 (−4.5%).
-A rebound after Friday's selloff, and crude is off hard. **ISM Manufacturing + construction spending at 10:00 ET today.** **Tue 11/03 is the US midterm
-election**, so expect overnight headline risk into Wednesday's open.
+**Week 46 calendar:** held names have no prints in the gate (GTLB 12/01). Ranked names reporting Mon 11/09: PAYS, QLYS, QMCO, APPS, ZETA, ABCL. TWST/AVAH 11/12.
+Macro: check the calendar at premarket (October CPI is likely mid-week). Note: October payrolls on 11/06 was unconfirmed.

@@ -735,3 +735,7 @@ Also archived at W44 (retired-checklist selection rules, advisory since 10/17; m
 42. **Pre-commit kill/pass conditions as SHAPES, not levels, before the evidence arrives.** Independent gates don't net out (42a). Validated on IRD, ELMT and PRME (68).
 48f/54b. **Say which claim a kill makes:** "can't hold it" or "it will fall." Say which claim a correction supports: "number was wrong" or "fixing it makes money."
 49. **Undisclosed deal terms = FAIL.** Headline size ≠ committed size (an IDIQ is a ceiling; an MOU is $0). Grade dilution against the float.
+
+
+<!-- Archived at W45 review 2026-11-07 -->
+- **W42 (10/12–10/16):** F. Book −2.75% vs IWM −3.05% (+0.30 pts, all cash buffer). Satellites **0.0%** at 5/5 closes. Rule 8 boarded 7 conditional plans and filled 0. **The kill counterfactual went 3 up / 3 down / 1 flat vs a −3% IWM week, so the shape gates were a coin flip, not an edge.** That overturns the W40/W41 "filters aren't the leak" read and is the evidence behind the rank → judge rebuild. Lets through: everything the ranking surfaces that clears the hard vetoes.

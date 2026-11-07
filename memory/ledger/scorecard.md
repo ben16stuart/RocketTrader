@@ -1,14 +1,14 @@
 # Rocket learning ledger — scorecard
 
-Generated 2026-10-31 09:20. Excess return = stock minus IWM over the same window. `n` = observations with that much forward data so far.
+Generated 2026-11-07 09:20. Excess return = stock minus IWM over the same window. `n` = observations with that much forward data so far.
 
 ## 1. Signal — does the ranking work?
 
 | Bucket | 5d excess (n) | 10d excess (n) | 20d excess (n) |
 |---|---|---|---|
-| top 8 |  +7.43% (48) |  +9.59% (8) |   n/a  (0) |
-| 9–25 |  +2.60% (102) |  +4.46% (17) |   n/a  (0) |
-| 26+ |  -0.07% (3991) |  +0.66% (621) |   n/a  (0) |
+| top 8 |  +3.71% (88) |  +8.45% (48) |   n/a  (0) |
+| 9–25 |  +0.46% (187) |  +0.48% (102) |   n/a  (0) |
+| 26+ |  -0.20% (7579) |  -0.48% (3968) |   n/a  (0) |
 
 Healthy signal: top 8 > 9–25 > 26+, and top 8 > 0. Judge it on the 20d column with n ≥ 100 before changing the score formula.
 
@@ -16,9 +16,9 @@ Healthy signal: top 8 > 9–25 > 26+, and top 8 > 0. Judge it on the 20d column 
 
 | Decision | 5d excess (n) | 10d excess (n) | 20d excess (n) | hit rate 20d |
 |---|---|---|---|---|
-| BUY |  +0.76% (8) | +10.83% (5) |   n/a  (0) | n/a |
-| VETO |  +4.72% (11) |  +6.73% (4) |   n/a  (0) | n/a |
-| EXIT |  -2.43% (1) |   n/a  (0) |   n/a  (0) | n/a |
+| BUY |  -0.33% (12) |  +4.31% (8) |   n/a  (0) | n/a |
+| VETO |  +4.02% (18) |  +1.16% (11) |   n/a  (0) | n/a |
+| EXIT |  -7.90% (4) | -13.30% (1) |   n/a  (0) | n/a |
 
 - **BUY > 0** → the picks beat IWM.
 - **VETO < BUY** → vetoes are helping (the names Rocket refused did worse than the ones it took).
@@ -29,18 +29,18 @@ Healthy signal: top 8 > 9–25 > 26+, and top 8 > 0. Judge it on the 20d column 
 
 | date | sym | decision | rank | 20d excess | reason |
 |---|---|---|---|---|---|
-| 2026-10-26 | OABI | VETO | 3 |   n/a  | hard: gate EARNINGS 10/30 (4d) + healthcare sector cap full (TXG/REPL/ |
-| 2026-10-26 | XGN | VETO | 4 |   n/a  | hard: healthcare sector cap full (TXG/REPL/NEO held) |
-| 2026-10-26 | CDNA | VETO | 6 |   n/a  | hard: gate EARNINGS 10/29 (3d) + healthcare sector cap full (TXG/REPL/ |
-| 2026-10-26 | TWST | VETO | 7 |   n/a  | hard: healthcare sector cap full (TXG/REPL/NEO held) |
-| 2026-10-26 | APPS | VETO | 16 |   n/a  | hard: gate EARNINGS 11/02 (5d) |
-| 2026-10-26 | QLYS | VETO | 20 |   n/a  | hard: tech sector cap (NSIT held + QMCO/GTLB picked) |
-| 2026-10-26 | DK | EXIT | 75 |   n/a  | rank decay 75 > 25 at W43 review |
-| 2026-10-26 | QMCO | BUY | 5 |   n/a  | turnaround, balance sheet repaired, no fresh dilution |
-| 2026-10-26 | GTLB | BUY | 17 |   n/a  | Q2 beat + raise, strong momentum |
-| 2026-10-26 | CLDT | BUY | 25 |   n/a  | low-vol momentum REIT, fills non-HC/non-Tech slot |
-| 2026-10-27 | OABI | VETO | 3 |   n/a  | hard: gate EARNINGS 10/30 (3d) + healthcare sector cap full (TXG/REPL/ |
-| 2026-10-27 | CDNA | VETO | 5 |   n/a  | hard: gate EARNINGS 10/29 (2d) + healthcare sector cap full (TXG/REPL/ |
 | 2026-10-27 | XGN | VETO | 6 |   n/a  | hard: healthcare sector cap full (TXG/REPL/NEO held) |
 | 2026-10-27 | TWST | VETO | 7 |   n/a  | hard: healthcare sector cap full (TXG/REPL/NEO held) |
 | 2026-10-27 | KELYA | BUY | 25 |   n/a  | staffing turnaround, FCF 6x, DE inc, no dilution; fills last slot |
+| 2026-11-02 | IOVA | VETO | 4 |   n/a  | hard: gate EARNINGS 11/05 (3d) |
+| 2026-11-02 | CDNA | VETO | 6 |   n/a  | hard: healthcare sector cap full (TXG/REPL + OABI replacing NEO) |
+| 2026-11-02 | ABCL | VETO | 8 |   n/a  | hard: gate FAIL non-US HQ (Canada) |
+| 2026-11-02 | NEO | EXIT | 27 |   n/a  | rank decay 27 > 25 at W44 review |
+| 2026-11-02 | KELYA | EXIT | 26 |   n/a  | rank decay 26 > 25 at W44 review |
+| 2026-11-02 | OABI | BUY | 3 |   n/a  | Rank 3 momentum; 10-Q no going concern, ATM undrawn; replaces NEO |
+| 2026-11-02 | CAKE | BUY | 15 |   n/a  | Q3 comps +15.2% beat, rank 15 promoted; replaces KELYA |
+| 2026-11-02 | CDNA | BUY | 6 |   n/a  | TXG stop slot refill; rank 6, Q3 rev +39% and 3rd straight guide raise |
+| 2026-11-02 | TXG | EXIT |  |   n/a  | 25% trailing stop fired (hwm 87.82, fill 65.91) |
+| 2026-11-05 | PD | BUY | 23 |   n/a  | rank 23 promoted past vetoed names; Tech slot open after QMCO stop; ea |
+| 2026-11-05 | QLYS | VETO | 9 |   n/a  | EARNINGS 11/09 within 5 trading days |
+| 2026-11-05 | ATRC | VETO | 14 |   n/a  | Healthcare sector cap (OABI/CDNA/REPL) |
