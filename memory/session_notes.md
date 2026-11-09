@@ -3,6 +3,17 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-09 — PREMARKET (Monday, Week 46 day 1) — 8 held, 2 replacements confirmed (PD → AMPL, CLDT → PBF), full size
+
+- Book: 8 satellites ≈ 104% of the $2,888 slice. IWM 0. **Floor met.** Weekly entries 0/5 (2 planned today).
+- Holdings check (6 searches: CDNA, OABI, REPL, NSIT, GTLB, CAKE; PD/CLDT skipped as exiting): no thesis breaks. Results stale or undated. "OABI/REPL earnings 11/09" are projected calendar dates; the ranker shows 10/30 and 10/28 already printed (rule 39). GTLB's "soft FY27 guide" is the old Q4 print. OABI presents at Stifel 11/11, Truist 11/12 and Jefferies London 11/16–19.
+- `rank_screen.py` (still 11/06 data, 741 eligible): identical to the W45 review. AMPL #8, PBF #18 confirmed. **Logged 5 top-8 VETOs:** TXG/IOVA/RCEL/HAE (HC cap) and UTZ (going-private, verified on EDGAR). TXG #1 was missing from Saturday's VETO list.
+- Owed checks done (EDGAR curl worked): AMPL 5.02 = a director added; PBF 5.02 = LTI grants. AMPL guide +1.9%. No dilution filings. **Full size: AMPL 20 / PBF 5** because VIX is 23.54 live; market_open re-checks against 25.
+- Macro: RTY +1.27% live, ES +0.52%. Brent 96.37. CPI/PPI this week (day unconfirmed). Note: `market_data.py`'s footer still prints a "VIX >22 = pause" line that no rule file contains; the 25/30 lines govern. No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-07 — WEEKLY REVIEW (Week 45, Saturday) — Grade B−; satellites 103.0% avg; PD → AMPL, CLDT → PBF Monday
 
 - Book **−3.02%** vs IWM −2.03% (**−0.99 pts**, ≈ −$90). Since 10/6 +4.96 pts. Thu 11/05: book ≈ −7.1% vs IWM −4.6% (beta). Floor met 5/5 (avg 103.0%).
@@ -107,3 +118,8 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 ## 2026-11-05 — market_close
 - No trades at close. 8 satellites held (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, PD, REPL), 103.4% of slice, floor met; no IWM rebalance. IWM -4.44% today. Earlier: QMCO stop fired, PD refilled.
 - STT still UNATTRIBUTED. Not touched.
+
+## 2026-11-09 — market_open (sonnet)
+- Sold PD and CLDT (rank decay), bought AMPL 20 @ $17.15 and PBF 5 @ $70.54, both with 25% trailing stops verified. Weekly entries 2/5. VIX 23.2, full size.
+- Mistake: PBF stop was first placed at 5% by typo; caught on the next call, cancelled and replaced at 25% before any trigger.
+- Search snippets for AMPL/PBF were stale; no fresh red flag. STT still UNATTRIBUTED.

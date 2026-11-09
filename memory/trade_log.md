@@ -2148,3 +2148,30 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 - Held all 8 satellites (CAKE, CDNA, CLDT, GTLB, NSIT, OABI, PD, REPL), 104.3% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM +0.97% today.
 - CDNA 11/5 8-K and REPL FQ2 print still unread: check next premarket.
 - STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-09 — PD SELL + CLDT SELL (rank decay, W45 review)
+- PD 21 @ ~$15.79 (entry $16.56); CLDT 25 @ ~$16.06 (entry $14.30). Market orders ~9:45 ET, stops cancelled first. Rank decay 26 / 58 > 25.
+
+## 2026-11-09 — AMPL BUY
+- Shares: 20 @ $17.15 (Fri settled close $16.70; +2.7%)
+- Rank at pick: 8 | Sector: Tech
+- Catalyst / story: Q3 rev +25%, ARR +24%, FY guide raised 1.9%; DE; no S-1/S-3/424B
+- Stop: 25% trailing (~$12.86). No targets; exits on stop, thesis break, or weekly rank > 25
+- Thesis: Top-10 momentum (6-1 +139%) with a real guide raise. Replaces PD.
+
+## 2026-11-09 — PBF BUY
+- Shares: 5 @ $70.54 (Fri settled close $67.27; +4.9%)
+- Rank at pick: 18 | Sector: Energy
+- Catalyst / story: Q3 EPS $12.54, dividend +18%, net debt cut >$1.2B; DE; no S-1/S-3/424B
+- Stop: 25% trailing (~$52.90). No targets; exits on stop, thesis break, or weekly rank > 25
+- Thesis: Realized cracks plus deleveraging, not a crude-price bet. Replaces CLDT. NOTE: first stop was mis-set at 5%, cancelled within a minute and replaced at 25%; no fill occurred.
+- Funded from sale proceeds; no IWM funding sale. VIX 23.2 (<25) so full size.
+
+## 2026-11-09 — midday: no trades
+- All 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL) hold live 25% trailing stops (verified via open orders); none fired, no slot opened, so no refill. PBF's earlier 5% stop is gone (only the 25% one is open).
+- News check (GTLB, REPL, CAKE inline): results stale/undated, nothing dated today. No dilution, going-concern, guidance-cut or takeover found. No thesis break. GTLB -16.5% vs entry is a price move; the stop's job.
+- STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-09 — market_close: no trades
+- Held all 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL), 103.0% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM +3.26% today.
+- CDNA 11/5 8-K and REPL FQ2 print still unread. STT still UNATTRIBUTED at broker. Not touched.

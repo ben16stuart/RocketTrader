@@ -28,6 +28,12 @@ After the swap: HC = CDNA/OABI/REPL (full). Tech = NSIT/GTLB/AMPL (full). Energy
 (re-run `size` at the live price). If VIX >30, no new longs: still sell PD/CLDT, and the proceeds sweep to IWM at the close.
 Skip a name that opens >8% above Friday's close on no news (AMPL $16.70, PBF $67.27). If PD/CLDT re-rank ≤25 Monday, **still replace them** (decay is judged on Saturday's data).
 
+**✅ Premarket 11/09 confirmed — GO, FULL SIZE.** `rank_screen.py` data is still as of 11/06 (unchanged: AMPL #8, PBF #18, PD 26, CLDT 58).
+VIX **23.54 live** (25.64 close 11/06), under the 25 line → **AMPL 20 / PBF 5** (`size` at Fri closes: 11.6% each). market_open: re-read VIX; if >25 at 9:35, use half size.
+Owed checks are done: both 5.02s are benign (AMPL 10/15 = **added** director Vijaye Raji, board 8→9, nobody left; PBF 10/30 = routine exec LTI grants).
+AMPL FY guide **raised 1.9%** (midpoint $409.2M after Q2 → $417.0M after Q3), a real raise under rule 5a. EDGAR (11/09): no new filings since 11/06 for either name, no S-1/S-3/424B.
+Top-8 VETOs **logged 11/09**: TXG #1, IOVA #4, RCEL #6, HAE #7 (HC cap), UTZ #3 (going-private; DEFM14A 10/02 + SC 13E3/A 10/30 verified on EDGAR).
+
 ### AMPL — Amplitude, Inc.   (rank 8, Technology)  — replaces PD
 - Why it ranks: 6-1 +139%, vol 65%, 71% above 200d. Cap $2.1B, short 8.3%.
 - Checked 11/07: **DE** (EDGAR). Q3 (11/04 8-K ex-99.1): revenue $110.6M +25%, ARR $431M +24%, RPO +27%, record non-GAAP op margin, FCF $5.8M. FY26 guide revenue $415.8–418.2M.

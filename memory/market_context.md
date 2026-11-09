@@ -21,5 +21,8 @@ All figures are **Fri 2026-11-06 settled closes** (`market_data.py macro`). Prio
 (searches returned 2025 articles). Friday bounced partially. Rocket's book fell ≈ 7.1% Thursday, ~1.5× IWM: high-beta HC/Tech momentum at 104% of slice.
 This is not a bearish thesis, and cash stays at the ≤10% buffer. **The live constraint is the VIX reduce-size line for Monday's two replacements.**
 
+**Mon 11/09 premarket update:** VIX **23.54 live** (from 25.64), now under the 25 reduce-size line. RTY +1.27% live, ES +0.52%, NQ +0.22%. Brent 96.37 / WTI 89.38 live (−2%).
+Dollar 101.83 (−0.5%). Gold 4,107.80. October CPI/PPI are this week (the day is unconfirmed). Veterans Day Wed 11/11: bonds closed, stocks open. Settled closes are unchanged from the table above (all 11/06).
+
 **Week 46 calendar:** held names have no prints in the gate (GTLB 12/01). Ranked names reporting Mon 11/09: PAYS, QLYS, QMCO, APPS, ZETA, ABCL. TWST/AVAH 11/12.
 Macro: check the calendar at premarket (October CPI is likely mid-week). Note: October payrolls on 11/06 was unconfirmed.

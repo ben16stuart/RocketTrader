@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-11-07 16:20 UTC
+**Last Updated**: 2026-11-09 20:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,23 +9,23 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $9,594.04 |
-| Rocket's Allocated Slice (30%) | $2,878.21 |
-| Cash Available (shared, pooled) | $603.41 |
-| Total Invested (both agents) | $8,990.63 |
+| Shared Account Value (Bull + Rocket) | $9,892.30 |
+| Rocket's Allocated Slice (30%) | $2,967.69 |
+| Cash Available (shared, pooled) | $152.97 |
+| Total Invested (both agents) | $9,739.33 |
 | Unrealized P&L (shared) | $+0.00 |
-| **Rocket own book since 7/20** | **-0.86%** vs IWM -6.38% → **+5.52 pts** |
-| **Rocket own book since 10/6 (new rules)** | **+2.24%** vs IWM -2.73% → **+4.96 pts** |
-| **Rocket own book this week** | **-3.02%** vs IWM -2.03% → **-0.99 pts** |
-| Rocket return since rebase (SHARED account, not own book) | -5.06% |
-| IWM return since rebase | -6.13% |
-| Shared account vs IWM (not Rocket's own — use the bold rows) | +1.07% |
+| **Rocket own book since 7/20** | **+2.39%** vs IWM -3.35% → **+5.74 pts** |
+| **Rocket own book since 10/6 (new rules)** | **+5.58%** vs IWM +0.42% → **+5.16 pts** |
+| **Rocket own book this week** | **+3.27%** vs IWM +3.23% → **+0.04 pts** |
+| Rocket return since rebase (SHARED account, not own book) | -2.11% |
+| IWM return since rebase | -3.07% |
+| Shared account vs IWM (not Rocket's own — use the bold rows) | +0.96% |
 
 ### Deployment — Satellite Floor
 
 | Sleeve | % of slice | Rule |
 |--------|-----------|------|
-| **Satellites (stock picks)** | 104.2% | must be >= 50.0% |
+| **Satellites (stock picks)** | 103.0% | must be >= 50.0% |
 | Core (IWM) | 0.0% | absorbs the leftover (no cap since 2026-10-06) |
 | Cash | 0.0% | buffer only (<= 10%) |
 
@@ -44,30 +44,24 @@ is available if Bull has open positions consuming shared cash.
 
 Ownership is reconciled below — do not re-derive it from the trade log.
 
-| Symbol | Shares | Entry Price | Price (⚠️ NOT a settled close) | Prior Settled Close | Unrealized P&L | P&L % |
+| Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| CAKE | 3 ($320) | $117.25 | $106.76 | $106.76 | $-31.47 | -8.9% |
-| CDNA | 4 ($314) | $86.10 | $78.56 | $78.56 | $-30.16 | -8.8% |
-| CLDT | 25 ($388) | $14.30 | $15.50 | $15.50 | $+30.00 | +8.4% |
-| DELL | 2 ($657) | $346.11 | $328.53 | $328.53 | $-35.16 | -5.1% |
-| FTNT | 6 ($713) | $136.85 | $118.84 | $118.84 | $-108.06 | -13.2% |
-| GTLB | 6 ($289) | $56.75 | $48.09 | $48.09 | $-51.96 | -15.3% |
-| MRK | 5 ($734) | $148.46 | $146.73 | $146.73 | $-8.64 | -1.2% |
-| MRNA | 4 ($1,017) | $221.26 | $254.19 | $254.19 | $+131.72 | +14.9% |
-| NSIT | 2 ($316) | $162.53 | $158.25 | $158.25 | $-8.56 | -2.6% |
-| OABI | 70 ($352) | $5.08 | $5.03 | $5.03 | $-3.50 | -1.0% |
-| PD | 21 ($329) | $16.56 | $15.68 | $15.68 | $-18.48 | -5.3% |
-| REPL | 32 ($692) | $10.99 | $21.62 | $21.62 | $+340.16 | +96.7% |
-| SPY | 1.7 ($1,250) | $735.01 | $735.29 | $735.29 | $+0.48 | +0.0% |
-| STT | 5 ($828) | $165.11 | $165.56 | $165.56 | $+2.25 | +0.3% |
-| TGT | 5 ($792) | $152.86 | $158.41 | $158.41 | $+27.75 | +3.6% |
-
-⚠️ **The market is CLOSED. The price column is the last trade, which outside
-regular hours can be a single thin pre/post-market print — it is NOT a settled
-close and must never be recorded as one, quoted as a session move, or used to
-decide whether a trailing stop has fired.** Alpaca trailing stops evaluate on
-regular-hours trades only. Use the **Prior Settled Close** column for anything
-written into memory; re-read live at `market_open`.
+| AMPL | 20 ($347) | $17.15 | $17.36 | $16.70 | $+4.20 | +1.2% |
+| CAKE | 3 ($333) | $117.25 | $110.87 | $106.76 | $-19.14 | -5.4% |
+| CDNA | 4 ($337) | $86.10 | $84.31 | $78.56 | $-7.16 | -2.1% |
+| CVX | 4 ($844) | $210.70 | $211.12 | $212.61 | $+1.68 | +0.2% |
+| GTLB | 6 ($283) | $56.75 | $47.12 | $48.09 | $-57.78 | -17.0% |
+| JNJ | 3 ($846) | $277.80 | $282.14 | $276.22 | $+13.04 | +1.6% |
+| MRK | 5 ($742) | $148.46 | $148.37 | $146.73 | $-0.44 | -0.1% |
+| MRNA | 4 ($1,076) | $221.26 | $269.05 | $254.19 | $+191.16 | +21.6% |
+| NSIT | 2 ($327) | $162.53 | $163.65 | $158.25 | $+2.24 | +0.7% |
+| OABI | 70 ($370) | $5.08 | $5.29 | $5.03 | $+14.35 | +4.0% |
+| PANW | 2 ($663) | $318.08 | $331.36 | $313.84 | $+26.55 | +4.2% |
+| PBF | 5 ($348) | $70.54 | $69.50 | $67.27 | $-5.20 | -1.5% |
+| REPL | 32 ($712) | $10.99 | $22.26 | $21.62 | $+360.64 | +102.5% |
+| STT | 5 ($856) | $165.11 | $171.24 | $165.56 | $+30.65 | +3.7% |
+| TGT | 5 ($830) | $152.86 | $165.94 | $158.41 | $+65.42 | +8.6% |
+| XOM | 5 ($825) | $164.24 | $164.99 | $165.87 | $+3.73 | +0.5% |
 
 ---
 
@@ -76,12 +70,12 @@ written into memory; re-read live at `market_open`.
 🚨 **Does not balance — see reconciling items below.**
 
 - **Rocket's core** (0): none  — benchmark sleeve; no stop, exempt from position limits
-- **Rocket's satellites** (8): CAKE ($320), CDNA ($314), CLDT ($388), GTLB ($289), NSIT ($316), OABI ($352), PD ($329), REPL ($692)
-- **Bull's positions** (6): DELL ($657), FTNT ($713), MRK ($734), MRNA ($1,017), SPY ($1,250), TGT ($792)
+- **Rocket's satellites** (8): AMPL ($347), CAKE ($333), CDNA ($337), GTLB ($283), NSIT ($327), OABI ($370), PBF ($348), REPL ($712)
+- **Bull's positions** (7): CVX ($844), JNJ ($846), MRK ($742), MRNA ($1,076), PANW ($663), TGT ($830), XOM ($825)
 
 🚨 **UNATTRIBUTED — held at the broker but in neither trade log:**
 
-  - STT ($828) — do not size against this until ownership is resolved.
+  - STT ($856) — do not size against this until ownership is resolved.
 
 
 ---
@@ -90,15 +84,17 @@ written into memory; re-read live at `market_open`.
 
 | Order ID | Symbol | Side | Qty | Type | Status |
 |----------|--------|------|-----|------|--------|
-| f421c912… | PD | sell | 21 | trailing_stop | new |
-| f41e5de4… | DELL | sell | 2 | trailing_stop | new |
+| 9bc10b9b… | AMPL | sell | 20 | trailing_stop | new |
+| dec6ba63… | PBF | sell | 5 | trailing_stop | new |
+| 402787f0… | XOM | sell | 5 | trailing_stop | new |
+| bc4c3fd4… | CVX | sell | 4 | trailing_stop | new |
+| dea7e594… | JNJ | sell | 3 | trailing_stop | new |
+| a5a7524a… | PANW | sell | 2 | trailing_stop | new |
 | 2eba575a… | CDNA | sell | 4 | trailing_stop | new |
 | ff9145d1… | CAKE | sell | 3 | trailing_stop | new |
 | 2031c796… | OABI | sell | 70 | trailing_stop | new |
 | db547488… | MRK | sell | 5 | trailing_stop | new |
-| 85effa8c… | FTNT | sell | 6 | trailing_stop | new |
 | 5d804037… | MRNA | sell | 4 | trailing_stop | new |
-| d6f20cea… | CLDT | sell | 25 | trailing_stop | new |
 | 656ee463… | GTLB | sell | 6 | trailing_stop | new |
 | c47ab843… | NSIT | sell | 2 | trailing_stop | new |
 | cd496a08… | REPL | sell | 32 | trailing_stop | new |
@@ -110,4 +106,4 @@ written into memory; re-read live at `market_open`.
 ## Weekly Trade Count
 
 Trades placed this week: 0 / 5 max
-Market open: No
+Market open: Yes

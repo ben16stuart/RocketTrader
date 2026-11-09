@@ -36,3 +36,12 @@ date,time,sym,decision,rank,reason
 2026-11-05,07:46,PD,BUY,23,rank 23 promoted past vetoed names; Tech slot open after QMCO stop; earnings 11/24
 2026-11-05,07:46,QLYS,VETO,9,EARNINGS 11/09 within 5 trading days
 2026-11-05,07:46,ATRC,VETO,14,Healthcare sector cap (OABI/CDNA/REPL)
+2026-11-09,04:22,TXG,VETO,1,hard: healthcare sector cap full (CDNA/OABI/REPL held)
+2026-11-09,04:22,UTZ,VETO,3,"judgment: pending going-private merger pins price (DEFM14A 10/02, SC 13E3/A 10/30)"
+2026-11-09,04:22,IOVA,VETO,4,hard: healthcare sector cap full (CDNA/OABI/REPL held)
+2026-11-09,04:22,RCEL,VETO,6,hard: healthcare sector cap full (CDNA/OABI/REPL held)
+2026-11-09,04:22,HAE,VETO,7,hard: healthcare sector cap full (CDNA/OABI/REPL held)
+2026-11-09,07:46,PD,EXIT,26,rank decay 26 > 25 at W45 review
+2026-11-09,07:46,CLDT,EXIT,58,rank decay 58 > 25 at W45 review
+2026-11-09,07:46,AMPL,BUY,8,"Rank 8; Q3 rev +25%, FY guide raised 1.9%, DE, no dilution; replaces PD"
+2026-11-09,07:46,PBF,BUY,18,"Rank 18; Q3 EPS 12.54, dividend +18%, net debt cut; DE, no dilution; replaces CLDT"
