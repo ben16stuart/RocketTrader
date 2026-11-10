@@ -3,6 +3,17 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-10 — PREMARKET (Tuesday, Week 46 day 2) — 8 held, 0 open slots, CPI 8:30 ET
+
+- Book: 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL) ≈ 103% of the $2,973 slice. IWM 0. **Floor met.** Weekly entries 2/5. Own book this week +3.65% vs IWM +3.15% (+0.50 pts). Since 10/6: +5.63 pts.
+- Holdings check (8 searches): no thesis breaks. Results stale or undated. CDNA search returns CRBU (wrong company).
+- `rank_screen.py` (11/09 data, 810 eligible): CDNA 5, OABI 6, AMPL 9, REPL 15, CAKE 16, GTLB 18, NSIT 24, **PBF 44** (bought 11/09 at rank 18). Rank decay is weekly → Sat 11/14 review decides. Saved `ledger/ranks/2026-11-09.csv`. 0 open slots, so no picks and no VETOs owed.
+- Macro: VIX 19.92 close 11/09 (20.18 live). RTY +0.04%, ES +0.08%, NQ −0.26% live. IWM 282.51 (+3.23% 11/09). Brent 92.57 close. **October CPI today at 8:30 ET** (thriveinmarkets/fxnx calendars). Under the 25 line. No trades. No ntfy.
+- Correction: the 11/09 market_close note "CDNA 11/5 8-K and REPL FQ2 still unread" was copied forward after the W45 review had already closed both as false (rule 39). Do not carry it further.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-09 — PREMARKET (Monday, Week 46 day 1) — 8 held, 2 replacements confirmed (PD → AMPL, CLDT → PBF), full size
 
 - Book: 8 satellites ≈ 104% of the $2,888 slice. IWM 0. **Floor met.** Weekly entries 0/5 (2 planned today).
@@ -123,3 +134,8 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - Sold PD and CLDT (rank decay), bought AMPL 20 @ $17.15 and PBF 5 @ $70.54, both with 25% trailing stops verified. Weekly entries 2/5. VIX 23.2, full size.
 - Mistake: PBF stop was first placed at 5% by typo; caught on the next call, cancelled and replaced at 25% before any trigger.
 - Search snippets for AMPL/PBF were stale; no fresh red flag. STT still UNATTRIBUTED.
+
+## 2026-11-10 — midday: no trades
+- All 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL) hold live 25% trailing stops (verified via open orders); none fired, no slot opened, so no refill.
+- News check (GTLB, PBF, AMPL inline): results stale/undated, nothing dated today. No dilution, going-concern, guidance-cut or takeover found. No thesis break. GTLB -17.7% and PBF -5.4% vs entry are price moves; the stop's job.
+- CDNA 11/5 8-K and REPL FQ2 print still unread (rule 57: needs EDGAR row). STT still UNATTRIBUTED at broker. Not touched.

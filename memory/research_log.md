@@ -56,6 +56,13 @@ Top-8 VETOs **logged 11/09**: TXG #1, IOVA #4, RCEL #6, HAE #7 (HC cap), UTZ #3 
 - **Earnings this week (held):** none in the gate. GTLB 12/01.
 - **Closed 11/07:** the CDNA "11/05 8-K" and REPL "FQ2 11/06" claims were false (EDGAR: a Form 144, and a 10-Q/A adding exec 10b5-1 plans). No thesis break.
 
+### Tue 11/10 premarket — 8 held, **0 open slots** (no picks, no VETOs owed)
+- `rank_screen.py` (11/09 data, 810 eligible): CDNA 5, OABI 6, AMPL 9, REPL 15, CAKE 16, GTLB 18, NSIT 24, **PBF 44 ⚠️** (>25).
+  PBF was rank 18 on 11/06 data and was bought 11/09; rank decay is judged **weekly** → re-check at the Sat 11/14 W46 review, no action before.
+  NSIT 24 is on the edge. Top 8 not held: TXG 1, HAE 2, IOVA 3, UTZ 4 (going-private), SMWB 7 (FAIL Israel), ATRC 8. No slot is open, so these are not decisions.
+- Holdings check (8 searches): **no thesis breaks.** Results were stale or undated. CDNA search again returned CRBU (wrong company). The GTLB "Q3 drop" is the Dec 2025 print.
+  The OABI "earnings 11/09" and REPL "11/05" are projected calendar dates (rule 39); the ranker shows 10/30 and 10/28 already printed. PBF's dividend record date is 11/12.
+
 ### Held satellites — thesis cards (break = specific news, never price)
 - **CDNA** (4 @ $86.10, HC): Q3 rev +39%, 3rd straight guide raise. Break: a guide cut, a Medicare/LCD reimbursement hit, an equity raise.
 - **OABI** (70 @ $5.08, HC): pure rank. No going-concern doubt, $64.2M cash, ATM undrawn. Break: going-concern, an ATM draw, a partner program dropped.
@@ -63,9 +70,9 @@ Top-8 VETOs **logged 11/09**: TXG #1, IOVA #4, RCEL #6, HAE #7 (HC cap), UTZ #3 
 - **NSIT** (2 @ $162.53, Tech): Q3 adj EPS +34%. Break: a guide cut.
 - **GTLB** (6 @ $56.75, Tech): Q2 beat + raise. Earnings 12/01. Break: a guide cut, an exec exit, a seat hit (CVE fallout).
 - **CAKE** (3 @ $117.25, Consumer): Q3 comps +15.2%. Short 40%. Break: a comp slowdown, a margin hit, an issuance.
-- **PD** (21 @ $16.53, Tech): **EXITING Mon 11/09 on rank decay (26).**
-- **CLDT** (25 @ $14.30, REIT): **EXITING Mon 11/09 on rank decay (58)** despite a record Q3.
-- ~~TXG~~ (stop 11/02), ~~QMCO~~ (stop 11/05), ~~NEO~~ / ~~KELYA~~ (rank decay 11/02), ~~DK~~ (rank decay 10/26).
+- **AMPL** (20 @ $17.15, Tech): Q3 rev +25%, ARR +24%, FY guide +1.9%. Break: a guide cut, an equity raise.
+- **PBF** (5 @ $70.54, Energy): Q3 EPS $12.54, dividend +18%, net debt cut. Break: a crack collapse with a guide cut, an outage, a dividend cut, an equity raise. Rank 44 on 11/09 data (weekly check).
+- ~~PD~~ / ~~CLDT~~ (rank decay 11/09), ~~TXG~~ (stop 11/02), ~~QMCO~~ (stop 11/05), ~~NEO~~ / ~~KELYA~~ (rank decay 11/02), ~~DK~~ (rank decay 10/26).
 
 
 ### Open escalations awaiting a user decision

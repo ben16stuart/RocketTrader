@@ -2175,3 +2175,7 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-11-09 — market_close: no trades
 - Held all 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL), 103.0% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM +3.26% today.
 - CDNA 11/5 8-K and REPL FQ2 print still unread. STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-10 — market_close: no trades
+- Held all 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL), 103.6% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM -0.62% today.
+- CDNA 11/5 8-K and REPL FQ2 print still unread. STT still UNATTRIBUTED at broker. Not touched.

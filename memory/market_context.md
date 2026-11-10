@@ -24,5 +24,8 @@ This is not a bearish thesis, and cash stays at the ≤10% buffer. **The live co
 **Mon 11/09 premarket update:** VIX **23.54 live** (from 25.64), now under the 25 reduce-size line. RTY +1.27% live, ES +0.52%, NQ +0.22%. Brent 96.37 / WTI 89.38 live (−2%).
 Dollar 101.83 (−0.5%). Gold 4,107.80. October CPI/PPI are this week (the day is unconfirmed). Veterans Day Wed 11/11: bonds closed, stocks open. Settled closes are unchanged from the table above (all 11/06).
 
+**Tue 11/10 premarket update:** settled closes **Mon 11/09**: VIX **19.92**, SPY 752.69 (+2.37%), IWM **282.51 (+3.23%)**, Brent 92.57 / WTI 86.85, Gold 4,114.50, 10-yr 4.86% (close 11/09).
+Live: VIX 20.18, RTY +0.04%, ES +0.08%, NQ −0.26%, Brent 91.15. **October CPI Tue 11/10 8:30 ET** (PPI later this week). IWM is back near its 11/04 high (284.02).
+
 **Week 46 calendar:** held names have no prints in the gate (GTLB 12/01). Ranked names reporting Mon 11/09: PAYS, QLYS, QMCO, APPS, ZETA, ABCL. TWST/AVAH 11/12.
 Macro: check the calendar at premarket (October CPI is likely mid-week). Note: October payrolls on 11/06 was unconfirmed.
