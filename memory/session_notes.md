@@ -3,6 +3,16 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-11 — PREMARKET (Wednesday, Week 46 day 3) — 8 held, 0 open slots, REPL/PBF past exit rank
+
+- Book: 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL) ≈ 103% of the $2,949 slice. IWM 0. **Floor met.** Weekly entries 2/5. Own book this week +4.03% vs IWM +2.55% (**+1.48 pts**). Since 10/6: +6.60 pts.
+- Holdings check (8 searches + EDGAR lists): no thesis breaks, no dilution filings. CAKE 8-K 5.02 (11/10) = bakery president retiring (benign, read). OABI EDGAR ticker lookup was blank; re-ran by CIK and found nothing new. CDNA patent appeal heard 11/09 (≈$96M at stake): watch for the ruling.
+- `rank_screen.py` (11/10 data, 791 eligible): CDNA 4, GTLB 6, AMPL 9, OABI 11, CAKE 15, NSIT 19, **REPL 30, PBF 40** (both >25). The Sat 11/14 review decides on Friday's data. Saved `ledger/ranks/2026-11-10.csv`. 0 open slots, so no picks and no VETOs owed.
+- Macro: VIX 19.46 close 11/10 (18.69 live). RTY +0.65%, ES +0.79%, NQ +1.80% live. IWM 280.58 (−0.68% 11/10). 10-yr 4.98% (+12bp on 11/10, after CPI). Veterans Day: bonds closed, stocks open. Under the 25 line. No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-10 — PREMARKET (Tuesday, Week 46 day 2) — 8 held, 0 open slots, CPI 8:30 ET
 
 - Book: 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL) ≈ 103% of the $2,973 slice. IWM 0. **Floor met.** Weekly entries 2/5. Own book this week +3.65% vs IWM +3.15% (+0.50 pts). Since 10/6: +5.63 pts.

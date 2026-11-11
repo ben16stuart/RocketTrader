@@ -63,6 +63,17 @@ Top-8 VETOs **logged 11/09**: TXG #1, IOVA #4, RCEL #6, HAE #7 (HC cap), UTZ #3 
 - Holdings check (8 searches): **no thesis breaks.** Results were stale or undated. CDNA search again returned CRBU (wrong company). The GTLB "Q3 drop" is the Dec 2025 print.
   The OABI "earnings 11/09" and REPL "11/05" are projected calendar dates (rule 39); the ranker shows 10/30 and 10/28 already printed. PBF's dividend record date is 11/12.
 
+### Wed 11/11 premarket — 8 held, **0 open slots** (no picks, no VETOs owed)
+- `rank_screen.py` (11/10 data, 791 eligible): CDNA 4, GTLB 6, AMPL 9, OABI 11, CAKE 15, NSIT 19, **REPL 30 ⚠️, PBF 40 ⚠️** (both >25).
+  Two held names are now past the exit rank. Rank decay is weekly → the **Sat 11/14 W46 review** decides on Friday's data, no action before. If both still rank >25, that review replaces 2 (entries used this week: 2/5).
+  Top 8 not held: TXG 1, HAE 2, IOVA 3, UTZ 5 (going-private), ATRC 7, SMWB 8 (FAIL Israel). HC already holds 3 (CDNA/OABI/REPL). No slot is open, so these are not decisions.
+- Holdings check (8 searches + EDGAR filing lists for all 8): **no thesis breaks.** No S-1/S-3/424B on any name.
+  New filings since 11/09: CAKE 8-K 5.02 (11/10) = the **bakery subsidiary president is retiring** in Q1 2027 (read on EDGAR; benign). Otherwise only Form 4/144 and 13G/13G/A.
+  OABI: the ticker lookup came back blank, so I re-ran it by CIK 1846253 (rule 38). Last filing is a Form 4 on 11/02; nothing new. OABI is presenting at Stifel today and Truist 11/12.
+  CDNA: news mentions a patent **appeal hearing on 11/09** with ≈$96M + interest at stake from a prior jury award. This is a known contingency, not a break. **A ruling against CDNA would be checked against its cash and buyback.**
+  REPL: earningswhispers shows "earnings 11/13 BMO". That is a projected date and unverified (rule 39). The FQ2 10-Q/A was filed 11/06. Held names don't exit on earnings; it is a note only.
+  GTLB news is still the Dec 2025 FQ3 print; the next print is 12/01.
+
 ### Held satellites — thesis cards (break = specific news, never price)
 - **CDNA** (4 @ $86.10, HC): Q3 rev +39%, 3rd straight guide raise. Break: a guide cut, a Medicare/LCD reimbursement hit, an equity raise.
 - **OABI** (70 @ $5.08, HC): pure rank. No going-concern doubt, $64.2M cash, ATM undrawn. Break: going-concern, an ATM draw, a partner program dropped.

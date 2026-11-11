@@ -27,5 +27,8 @@ Dollar 101.83 (−0.5%). Gold 4,107.80. October CPI/PPI are this week (the day i
 **Tue 11/10 premarket update:** settled closes **Mon 11/09**: VIX **19.92**, SPY 752.69 (+2.37%), IWM **282.51 (+3.23%)**, Brent 92.57 / WTI 86.85, Gold 4,114.50, 10-yr 4.86% (close 11/09).
 Live: VIX 20.18, RTY +0.04%, ES +0.08%, NQ −0.26%, Brent 91.15. **October CPI Tue 11/10 8:30 ET** (PPI later this week). IWM is back near its 11/04 high (284.02).
 
+**Wed 11/11 premarket update:** settled closes **Tue 11/10**: VIX **19.46**, SPY 749.92 (−0.37%), IWM **280.58 (−0.68%)**, Brent 91.49 / WTI 86.04, Gold 4,030.20, Dollar 102.23. **10-yr 4.98% (+12bp)** on CPI day.
+Live: VIX 18.69, RTY +0.65%, ES +0.79%, NQ +1.80%, Brent 92.98. Veterans Day: the bond market is closed and stocks are open. VIX is well under the 25 line.
+
 **Week 46 calendar:** held names have no prints in the gate (GTLB 12/01). Ranked names reporting Mon 11/09: PAYS, QLYS, QMCO, APPS, ZETA, ABCL. TWST/AVAH 11/12.
 Macro: check the calendar at premarket (October CPI is likely mid-week). Note: October payrolls on 11/06 was unconfirmed.
