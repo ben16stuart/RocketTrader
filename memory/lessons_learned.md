@@ -14,7 +14,7 @@ Read every session. Full text for every rule number (incl. those retired at W44)
 >   instruments section).
 > - **Selection rules are ADVISORY** (1 named-dated catalyst, 2 day-2 entry, 4, 5, 13 cap math, 14 ADV,
 >   stop-fit 54c, 67 midday cut, and any rule that rejects a candidate). They may inform a logged, scored
->   VETO; one regains hard-veto power only if the ledger shows its vetoes underperformed the BUYs (n ≥ 10).
+>   VETO; one regains hard-veto power only if the ledger shows its vetoes underperformed the BUYs (≥ 10 distinct names at 20d).
 > - Stops: **25% trailing, never tightened**. Rules citing 7%/5%/3% stops or −5% cuts are superseded.
 > - Hard vetoes that remain: non-US incorporation (52c), binary event ≤10 trading days, earnings ≤5,
 >   fresh dilution / going concern / pinned takeover / reverse split / pump (judgment, logged).

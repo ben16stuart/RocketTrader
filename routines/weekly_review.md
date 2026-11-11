@@ -98,11 +98,12 @@ Look for patterns across the week's trades:
    Early on most cells are `n/a`. Say so, and do not over-read small samples.
 2. Answer each with numbers:
    - **Signal**: do top-8 names beat ranks 9–25 and IWM at 20 days?
-   - **Judgment**: do BUYs beat VETOs? If VETO > BUY with n ≥ 10, name the veto category
+   - **Judgment**: do BUYs beat VETOs? If VETO > BUY across ≥ 10 distinct names at 20d, name the veto category
      costing money and loosen it.
    - **Picks**: do BUYs beat IWM at 20 days?
-3. **Change at most ONE thing, and only with ledger evidence** (score formula: n ≥ 100 at
-   20d; a veto category: n ≥ 10). Record it in `strategy.md`'s changelog **with the
+3. **Change at most ONE thing, and only with ledger evidence** (score formula: ≥ 6 non-overlapping 20-day windows (~6 months) and |t| ≥ 2 on the top-8-minus-26+ spread;
+   a veto category: ≥ 10 distinct names with 20-day results). Quote `w` and `names` from the scorecard, never row counts.
+   Also quote the **random-twin percentile**: only above the 95th is evidence of skill. Record it in `strategy.md`'s changelog **with the
    numbers**. No evidence means no change. Loosening is as legitimate as tightening.
 
 ---

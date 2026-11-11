@@ -14,6 +14,12 @@
 > (Catalyst Hierarchy, Entry Framework, Throughput) describe the retired checklist: keep them as
 > context for judgment vetoes, not as gates.
 
+> **2026-11-11 desktop 4-week review (no strategy change):** own book since the 10/16 rebuild +8.1% vs IWM +4.7%
+> (+3.5 pts), mostly REPL (+98%) in the week to 10/30; daily-excess t +0.53. The ranking sorts the right way
+> (5d top 8 − 26+ = +14.5% over 3 windows, t +1.15), but BUYs sit at the 30th–88th percentile of same-day
+> random twins: indistinguishable from chance so far. Floor met at every close since 10/19. HC sector cap
+> KEPT (research_log #8). Ledger now counts independent windows and distinct names, not rows.
+
 
 Last updated: 2026-10-10 (W41 review). **The binding constraint is still THROUGHPUT, specifically the
 SUPPLY of dated catalysts inside $50M–$2B.** Satellites averaged 8.8% (W39), 21.0% (W40), **0.0% (W41)**.

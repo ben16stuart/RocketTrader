@@ -104,6 +104,10 @@ matches the hand-built +0.93%). #2, #3 and #6 are advisory under the new process
 8. 🆕 **HC sector cap vs the ledger (W45).** It is the first veto category with n ≥ 10: HC-cap VETO 5d **+7.79% (n=11, only 6 distinct names)** vs BUY −0.33% (12).
    At 10d it reverses: +2.59% (6) vs BUY +4.31% (8). OABI and CDNA were bought after the vetoes and are −1% / −9% since. It is a Hard Guardrail, so Ben decides.
    Recommendation: **no change yet.** Re-test at 20d with ≥10 distinct names.
+   **RULED 2026-11-11 (desktop review, delegated): KEEP the 3-per-sector cap.** 6 distinct names over one window is
+   not evidence (RESEARCH_GATES §1); the rule now needs ≥ 10 distinct vetoed names with 20-day results. The
+   cap is also doing its risk job: on 11/5 the HC/Tech-heavy book fell ~7.1% vs IWM −4.6%. Revisit with the new
+   scorecard (`w`/`names` columns) once the 20d cell has ≥ 10 names.
 
 ### Standing category kills (full detail in archive)
 Crypto/treasury (31): BNC, DFDV, USDE, HYPD, ABTC, GEMI, QMLS, CYPH, FWDI, BKKT, UPXI, HSDT.

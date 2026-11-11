@@ -224,7 +224,7 @@ the settled close. *Selection* rules are **advisory** from 2026-10-17. That cove
 named-dated-catalyst-required, no-same-day, the cap math, the ADV medians, the
 stop-fit statistic and similar. They may inform a judgment veto, which is logged and
 scored. A rule earns back hard-veto power only when the ledger shows the names it
-vetoed underperformed the buys (n ≥ 10).
+vetoed underperformed the buys (≥ 10 distinct names at 20 days).
 
 ### Step 3 — Hold, then replace on evidence
 
@@ -246,7 +246,7 @@ vetoed underperformed the buys (n ≥ 10).
 | **Minimum satellite deployment** | **>= 50% of Rocket's slice.** The shortfall sits in IWM (never cash), is flagged every session, and escalates (rule 8). |
 | Max new Rocket positions per week | 5 (replacements count) |
 | Max satellites in one sector | 3 |
-| Daily loss cap | 5% of Rocket's allocated slice → **stop opening new positions. NEVER liquidate.** |
+| Daily loss cap | 5% of Rocket's allocated slice → **stop opening new positions. NEVER liquidate.** Measured on your **own book** (snapshot row "own book TODAY"), never the shared account. |
 | Trailing stop on **satellites** | **25%**, set at order time (was 7% — see "Why 25%") |
 | Trailing stop on **core (IWM)** | **None — see Portfolio Construction** |
 | Minimum deployment | **~90% invested.** Cash >10% requires a written bearish thesis. |
@@ -416,7 +416,8 @@ events are a hard veto.
      vetoes are costing money. Loosen the rule behind them, in writing.
    - **Picks**: do BUYs beat IWM at 20 days?
 4. **At most ONE change per week, and only with ledger numbers.** The score formula
-   needs n ≥ 100 at 20d; a veto category needs n ≥ 10. The `strategy.md` changelog row
+   needs ≥ 6 non-overlapping 20-day windows (~6 months) and |t| ≥ 2 on the top-8-minus-26+ spread; a veto category needs ≥ 10 distinct names with 20-day results. Rows are not observations: the
+   same names repeat daily (RESEARCH_GATES §1). The `strategy.md` changelog row
    must quote the numbers.
 5. **A loss is a hypothesis, not a rule.** Write it into `strategy.md` as TESTING, log
    matching cases as VETOs, and promote it only if the ledger confirms it.

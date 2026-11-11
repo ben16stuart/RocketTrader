@@ -74,6 +74,20 @@ def own_book_rows(agent, bench):
     except Exception as exc:
         return [f"| ⚠️ Own-book performance unavailable | {str(exc)[:60]} |"]
     rows = []
+    # Daily loss cap on the agent's OWN book (2026-11-11). Sessions used to judge the 5% cap
+    # against the shared account: on 11/5 Bull's own book lost $431 against a $352 cap and
+    # it went unnoticed because the shared account was only -2.5%.
+    t = r.get("today")
+    if t and r.get("live") is not None:
+        try:
+            from scripts.alpaca_client import get_account, AGENT_EQUITY_PCT
+            cap = 0.05 * float(get_account()["portfolio_value"]) * AGENT_EQUITY_PCT
+            hit = t["pnl"] <= -cap
+            rows.append(f"| **{agent} own book TODAY** | **{'+' if t['pnl'] >= 0 else '-'}${abs(t['pnl']):,.0f} ({100 * t['ret']:+.2f}%)** vs {bench} "
+                        f"{100 * t['bench']:+.2f}% · daily loss cap ${cap:,.0f}: "
+                        + ("🚨 **HIT — no new positions today (never liquidate)**" if hit else "OK") + " |")
+        except Exception:
+            pass
     for k, lab in (("since_rebase", "since 7/20"), ("since_reset", "since 10/6 (new rules)"), ("week", "this week")):
         v = r.get(k)
         if v:
