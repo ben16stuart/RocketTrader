@@ -3,6 +3,16 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-12 — PREMARKET (Thursday, Week 46 day 4) — 8 held, 0 open slots, OABI/REPL past exit rank
+
+- Book: 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL) ≈ 103% of the $2,935 slice. IWM 0. **Floor met.** Weekly entries 2/5. Own book this week +1.90% vs IWM +3.43% (−1.53 pts). Since 10/6: +3.57 pts.
+- Holdings check (8 searches + EDGAR lists, OABI by CIK): no thesis breaks, no dilution filings. New since 11/11: only Form 4/144/13G on REPL and CDNA.
+- `rank_screen.py` (11/11 data, 813 eligible): CDNA 2, CAKE 7, AMPL 8, GTLB 10, NSIT 17, PBF 22, **OABI 29, REPL 134** (6-1 window roll, not news). Sat 11/14 review decides. Saved `ledger/ranks/2026-11-11.csv`. 0 open slots, so no picks and no VETOs owed.
+- Macro: VIX 17.49 close 11/11 (18.32 live). RTY +0.02%, ES −0.35%, NQ −0.75% live. IWM 283.09 (+0.89% 11/11). 10-yr 5.00%. Under the 25 line. No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-11 — PREMARKET (Wednesday, Week 46 day 3) — 8 held, 0 open slots, REPL/PBF past exit rank
 
 - Book: 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL) ≈ 103% of the $2,949 slice. IWM 0. **Floor met.** Weekly entries 2/5. Own book this week +4.03% vs IWM +2.55% (**+1.48 pts**). Since 10/6: +6.60 pts.

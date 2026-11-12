@@ -74,6 +74,16 @@ Top-8 VETOs **logged 11/09**: TXG #1, IOVA #4, RCEL #6, HAE #7 (HC cap), UTZ #3 
   REPL: earningswhispers shows "earnings 11/13 BMO". That is a projected date and unverified (rule 39). The FQ2 10-Q/A was filed 11/06. Held names don't exit on earnings; it is a note only.
   GTLB news is still the Dec 2025 FQ3 print; the next print is 12/01.
 
+### Thu 11/12 premarket — 8 held, **0 open slots** (no picks, no VETOs owed)
+- `rank_screen.py` (11/11 data, 813 eligible): CDNA 2, CAKE 7, AMPL 8, GTLB 10, NSIT 17, PBF 22, **OABI 29 ⚠️, REPL 134 ⚠️** (both >25).
+  REPL's drop (30 → 134) is the 6-1 window rolling: its m61 fell 2.20 → 1.28 while price moved only 23.28 → 21.78. That is a mechanical
+  re-base, not news. PBF recovered to 22. Rank decay is weekly → the **Sat 11/14 W46 review** decides on Friday's data, no action before.
+  Top 8 not held: TXG 1, UTZ 3 (going-private), HAE 4, IOVA 5, SMWB 6 (FAIL Israel). No slot is open, so these are not decisions.
+- Holdings check (8 searches + EDGAR filing lists for all 8; OABI by CIK 1846253): **no thesis breaks.** No S-1/S-3/424B on any name.
+  New filings since 11/11: REPL Form 4 + SC 13G (11/10), CDNA 144 + SC 13G (11/10). Nothing else. Search results were stale or undated.
+  REPL: earningswhispers again shows "earnings 11/13 BMO" (projected, unverified, rule 39). Held names don't exit on earnings; a note only.
+  PBF snippets (Morgan Stanley downgrade, Scotiabank PT $28) are undated and the PT doesn't match a ~$70 stock: old (rule 33).
+
 ### Held satellites — thesis cards (break = specific news, never price)
 - **CDNA** (4 @ $86.10, HC): Q3 rev +39%, 3rd straight guide raise. Break: a guide cut, a Medicare/LCD reimbursement hit, an equity raise.
 - **OABI** (70 @ $5.08, HC): pure rank. No going-concern doubt, $64.2M cash, ATM undrawn. Break: going-concern, an ATM draw, a partner program dropped.

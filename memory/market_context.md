@@ -30,5 +30,9 @@ Live: VIX 20.18, RTY +0.04%, ES +0.08%, NQ −0.26%, Brent 91.15. **October CPI 
 **Wed 11/11 premarket update:** settled closes **Tue 11/10**: VIX **19.46**, SPY 749.92 (−0.37%), IWM **280.58 (−0.68%)**, Brent 91.49 / WTI 86.04, Gold 4,030.20, Dollar 102.23. **10-yr 4.98% (+12bp)** on CPI day.
 Live: VIX 18.69, RTY +0.65%, ES +0.79%, NQ +1.80%, Brent 92.98. Veterans Day: the bond market is closed and stocks are open. VIX is well under the 25 line.
 
+**Thu 11/12 premarket update:** settled closes **Wed 11/11**: VIX **17.49**, SPY 759.81 (+1.32%), IWM **283.09 (+0.89%)**, Brent 92.76 / WTI 86.53, Gold 4,000.50, Dollar 102.91. 10-yr 5.00% (close 11/11).
+Live: VIX 18.32, RTY +0.02%, ES −0.35%, NQ −0.75%, Brent 91.99. IWM sits just under its 11/04 high (284.02). VIX is well under the 25 line.
+Today: weekly jobless claims 8:30 ET (routine). **October PPI Fri 11/13 8:30 ET** (financecalendar/stockhub calendars).
+
 **Week 46 calendar:** held names have no prints in the gate (GTLB 12/01). Ranked names reporting Mon 11/09: PAYS, QLYS, QMCO, APPS, ZETA, ABCL. TWST/AVAH 11/12.
 Macro: check the calendar at premarket (October CPI is likely mid-week). Note: October payrolls on 11/06 was unconfirmed.

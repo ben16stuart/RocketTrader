@@ -1,46 +1,50 @@
 # Rocket learning ledger — scorecard
 
-Generated 2026-11-07 09:20. Excess return = stock minus IWM over the same window. `n` = observations with that much forward data so far.
+Generated 2026-11-11 15:33. Excess return = stock minus IWM over the same window. **`w` = non-overlapping windows, `names` = distinct stocks — these are the sample sizes. Overlapping daily rows are NOT independent observations** (RESEARCH_GATES §1).
 
 ## 1. Signal — does the ranking work?
 
-| Bucket | 5d excess (n) | 10d excess (n) | 20d excess (n) |
+| Bucket | 5d excess | 10d excess | 20d excess |
 |---|---|---|---|
-| top 8 |  +3.71% (88) |  +8.45% (48) |   n/a  (0) |
-| 9–25 |  +0.46% (187) |  +0.48% (102) |   n/a  (0) |
-| 26+ |  -0.20% (7579) |  -0.48% (3968) |   n/a  (0) |
+| top 8 | +14.63% (w=3) | +22.81% (w=1) |   n/a  (w=0) |
+| 9–25 |  +2.53% (w=3) | +14.19% (w=1) |   n/a  (w=0) |
+| 26+ |  +0.09% (w=3) |  +0.81% (w=1) |   n/a  (w=0) |
 
-Healthy signal: top 8 > 9–25 > 26+, and top 8 > 0. Judge it on the 20d column with n ≥ 100 before changing the score formula.
+- 5d top 8 minus 26+: +14.54% over 3 window(s), t +1.15
+- 10d top 8 minus 26+: +22.00% over 1 window(s) (t needs ≥3 windows)
 
-## 2. Judgment — Rocket's decisions vs IWM
+**Rule:** change the score formula only with **≥ 6 non-overlapping 20-day windows** (~6 months) and |t| ≥ 2 on the top-8-minus-26+ spread. One bad (or good) month is one observation.
 
-| Decision | 5d excess (n) | 10d excess (n) | 20d excess (n) | hit rate 20d |
-|---|---|---|---|---|
-| BUY |  -0.33% (12) |  +4.31% (8) |   n/a  (0) | n/a |
-| VETO |  +4.02% (18) |  +1.16% (11) |   n/a  (0) | n/a |
-| EXIT |  -7.90% (4) | -13.30% (1) |   n/a  (0) | n/a |
+## 2. Judgment — Rocket's decisions vs IWM (one obs per name per 20 days)
+
+| Decision | names | 5d excess | 10d excess | 20d excess | hit rate 20d |
+|---|---|---|---|---|---|
+| BUY | 15 |  -2.19% (7) | +10.76% (4) |   n/a  (0) | n/a |
+| VETO | 15 |  +3.09% (5) |  +6.56% (3) |   n/a  (0) | n/a |
+| EXIT | 6 |  -8.55% (2) | -13.30% (1) |   n/a  (0) | n/a |
+
+**BUYs vs random twins** (random picks from the same morning's eligible list, same horizon): 5d: 30th pct (n=7) · 10d: 88th pct (n=4) · 20d: n/a (n=0). Above the 95th percentile = evidence of skill; inside 5th–95th = indistinguishable from chance.
 
 - **BUY > 0** → the picks beat IWM.
-- **VETO < BUY** → vetoes are helping (the names Rocket refused did worse than the ones it took).
-  **VETO > BUY** with n ≥ 10 → Rocket's judgment is subtracting value: loosen whatever rule drove those vetoes, in writing, citing this table.
+- **VETO < BUY** → vetoes are helping. **VETO > BUY** across **≥ 10 distinct names** at 20d → Rocket's judgment is subtracting value: loosen the rule behind those vetoes, in writing, citing this table.
 - **EXIT < 0** → exits dodged underperformance (good). EXIT > 0 → exits sold names that went on to beat IWM: hold longer / widen the exit rank.
 
 ## Recent decisions (last 15)
 
 | date | sym | decision | rank | 20d excess | reason |
 |---|---|---|---|---|---|
-| 2026-10-27 | XGN | VETO | 6 |   n/a  | hard: healthcare sector cap full (TXG/REPL/NEO held) |
-| 2026-10-27 | TWST | VETO | 7 |   n/a  | hard: healthcare sector cap full (TXG/REPL/NEO held) |
-| 2026-10-27 | KELYA | BUY | 25 |   n/a  | staffing turnaround, FCF 6x, DE inc, no dilution; fills last slot |
-| 2026-11-02 | IOVA | VETO | 4 |   n/a  | hard: gate EARNINGS 11/05 (3d) |
-| 2026-11-02 | CDNA | VETO | 6 |   n/a  | hard: healthcare sector cap full (TXG/REPL + OABI replacing NEO) |
-| 2026-11-02 | ABCL | VETO | 8 |   n/a  | hard: gate FAIL non-US HQ (Canada) |
-| 2026-11-02 | NEO | EXIT | 27 |   n/a  | rank decay 27 > 25 at W44 review |
-| 2026-11-02 | KELYA | EXIT | 26 |   n/a  | rank decay 26 > 25 at W44 review |
-| 2026-11-02 | OABI | BUY | 3 |   n/a  | Rank 3 momentum; 10-Q no going concern, ATM undrawn; replaces NEO |
 | 2026-11-02 | CAKE | BUY | 15 |   n/a  | Q3 comps +15.2% beat, rank 15 promoted; replaces KELYA |
 | 2026-11-02 | CDNA | BUY | 6 |   n/a  | TXG stop slot refill; rank 6, Q3 rev +39% and 3rd straight guide raise |
 | 2026-11-02 | TXG | EXIT |  |   n/a  | 25% trailing stop fired (hwm 87.82, fill 65.91) |
 | 2026-11-05 | PD | BUY | 23 |   n/a  | rank 23 promoted past vetoed names; Tech slot open after QMCO stop; ea |
 | 2026-11-05 | QLYS | VETO | 9 |   n/a  | EARNINGS 11/09 within 5 trading days |
 | 2026-11-05 | ATRC | VETO | 14 |   n/a  | Healthcare sector cap (OABI/CDNA/REPL) |
+| 2026-11-09 | TXG | VETO | 1 |   n/a  | hard: healthcare sector cap full (CDNA/OABI/REPL held) |
+| 2026-11-09 | UTZ | VETO | 3 |   n/a  | judgment: pending going-private merger pins price (DEFM14A 10/02, SC 1 |
+| 2026-11-09 | IOVA | VETO | 4 |   n/a  | hard: healthcare sector cap full (CDNA/OABI/REPL held) |
+| 2026-11-09 | RCEL | VETO | 6 |   n/a  | hard: healthcare sector cap full (CDNA/OABI/REPL held) |
+| 2026-11-09 | HAE | VETO | 7 |   n/a  | hard: healthcare sector cap full (CDNA/OABI/REPL held) |
+| 2026-11-09 | PD | EXIT | 26 |   n/a  | rank decay 26 > 25 at W45 review |
+| 2026-11-09 | CLDT | EXIT | 58 |   n/a  | rank decay 58 > 25 at W45 review |
+| 2026-11-09 | AMPL | BUY | 8 |   n/a  | Rank 8; Q3 rev +25%, FY guide raised 1.9%, DE, no dilution; replaces P |
+| 2026-11-09 | PBF | BUY | 18 |   n/a  | Rank 18; Q3 EPS 12.54, dividend +18%, net debt cut; DE, no dilution; r |

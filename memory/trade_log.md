@@ -2188,3 +2188,13 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-11-11 — market_close: no trades
 - Held all 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL), 103.0% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM +0.89% today.
 - CDNA 11/5 8-K and REPL FQ2 print still unread. STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-12 — midday: no trades
+- All 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL) hold live trailing stops (verified via open orders); none fired, no slot opened, so no refill. Own book -0.19% today vs IWM -0.77%.
+- News check (GTLB, REPL inline): results stale/undated, nothing dated today. No dilution, going-concern, guidance-cut or takeover found. No thesis break. GTLB -15.5% vs entry is a price move; the stop's job. A CDNA/CAKE search matched the wrong company (Castle Biosciences, CSTL), so no usable read on those two.
+- REPL (+94% vs entry) reports earnings 11/13 BMO per search (unverified); holding under the 25% stop, no sell on price.
+- CDNA 11/5 8-K and REPL FQ2 print still unread. STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-12 — market_close: no trades
+- Held all 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL), 103.3% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM -1.68% today.
+- REPL earnings 11/13 BMO unverified; CDNA 11/5 8-K and REPL FQ2 print still unread. STT still UNATTRIBUTED at broker. Not touched.
