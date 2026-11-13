@@ -2198,3 +2198,12 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-11-12 — market_close: no trades
 - Held all 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL), 103.3% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM -1.68% today.
 - REPL earnings 11/13 BMO unverified; CDNA 11/5 8-K and REPL FQ2 print still unread. STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-13 — midday: no trades
+- All 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL) hold live trailing stops (verified via open orders); none fired, no slot opened, so no refill. Own book -0.78% today vs IWM -0.71%.
+- News check (REPL, GTLB inline): results stale/undated (REPL snippet price $12.86 vs broker $21.91; GTLB snippet from Oct). Nothing dated today. No dilution, going-concern, guidance-cut or takeover found. No thesis break. GTLB -16.8% vs entry is a price move; the stop's job. REPL +99% vs entry, no sell on price.
+- REPL earnings 11/13 BMO still unverified; CDNA 11/5 8-K and REPL FQ2 print still unread. STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-13 — market_close: no trades
+- Held all 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL), 102.9% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM -0.36% today; own book -0.34%.
+- REPL earnings 11/13 BMO unverified; CDNA 11/5 8-K and REPL FQ2 print still unread. STT still UNATTRIBUTED at broker. Not touched.

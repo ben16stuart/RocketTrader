@@ -3,6 +3,16 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-13 — PREMARKET (Friday, Week 46 day 5) — 8 held, 0 open slots, OABI/REPL still past exit rank
+
+- Book: 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL) ≈ 103% of the $2,930 slice. IWM 0. **Floor met.** Weekly entries 2/5. Own book this week +1.85% vs IWM +1.74% (+0.12 pts). Since 10/6: +5.17 pts.
+- Holdings check (8 searches + EDGAR lists for CDNA/REPL/OABI): no thesis breaks, no dilution filings. CDNA search again matched Caribou (CRBU): no read. REPL "earnings 11/13 BMO" still unverified (no 8-K).
+- `rank_screen.py` (11/12 data, 762 eligible): CDNA 2, CAKE 6, AMPL 7, GTLB 8, PBF 22, NSIT 24, **OABI 54, REPL 119**. Saved `ledger/ranks/2026-11-12.csv`. 0 open slots, so no picks and no VETOs owed. Sat W46 review: likely replace OABI + REPL; TXG/IOVA/HAE become eligible once HC frees 2 slots. NSIT at 24 is on the edge.
+- Macro: VIX 18.70 close 11/12 (18.36 live). RTY +0.11%, ES +0.19% live. IWM 278.44 (−1.64% 11/12). 10-yr 5.10% (+10bp). October PPI 8:30 ET today. Under the 25 line. No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-12 — PREMARKET (Thursday, Week 46 day 4) — 8 held, 0 open slots, OABI/REPL past exit rank
 
 - Book: 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL) ≈ 103% of the $2,935 slice. IWM 0. **Floor met.** Weekly entries 2/5. Own book this week +1.90% vs IWM +3.43% (−1.53 pts). Since 10/6: +3.57 pts.
@@ -159,3 +169,13 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - All 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL) hold live 25% trailing stops (verified via open orders); none fired, no slot opened, so no refill.
 - News check (GTLB, PBF, AMPL inline): results stale/undated, nothing dated today. No dilution, going-concern, guidance-cut or takeover found. No thesis break. GTLB -17.7% and PBF -5.4% vs entry are price moves; the stop's job.
 - CDNA 11/5 8-K and REPL FQ2 print still unread (rule 57: needs EDGAR row). STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-13 — market_open: no trades
+- No WATCHING picks and 0 open slots (8/8 satellites, 102.4% of slice). The OABI (54) and REPL (119) rank decay is weekly, so the Sat 11/14 W46 review decides. No action before then.
+- All 8 satellites still hold live 25% trailing stops; none fired. Own book -1.37% today vs IWM -0.25% (cap $145: OK). No ntfy (flat session).
+- STT still UNATTRIBUTED at the broker; not touched.
+
+## 2026-11-13 — midday (sonnet)
+- No trades. All 8 satellites hold live trailing stops; none fired, no slot opened. Own book -0.78% vs IWM -0.71%; satellites 102.9% (floor met).
+- News searches on REPL and GTLB returned stale/mismatched results (REPL snippet $12.86 vs broker $21.91). Nothing dated today, no thesis break.
+- Still owed: REPL 11/13 BMO earnings unverified; CDNA 11/5 8-K and REPL FQ2 print unread (rule 57, needs EDGAR row). STT UNATTRIBUTED at broker, not touched.

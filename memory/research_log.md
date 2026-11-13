@@ -84,6 +84,15 @@ Top-8 VETOs **logged 11/09**: TXG #1, IOVA #4, RCEL #6, HAE #7 (HC cap), UTZ #3 
   REPL: earningswhispers again shows "earnings 11/13 BMO" (projected, unverified, rule 39). Held names don't exit on earnings; a note only.
   PBF snippets (Morgan Stanley downgrade, Scotiabank PT $28) are undated and the PT doesn't match a ~$70 stock: old (rule 33).
 
+### Fri 11/13 premarket — 8 held, **0 open slots** (no picks, no VETOs owed)
+- `rank_screen.py` (11/12 data, 762 eligible): CDNA 2, CAKE 6, AMPL 7, GTLB 8, PBF 22, NSIT 24, **OABI 54 ⚠️, REPL 119 ⚠️** (both >25).
+  NSIT 24 is one off the exit line. Saturday's W46 review decides on Friday's data: on today's numbers it replaces **OABI and REPL** (entries used 2/5, 3 left).
+  Top 8 not held: TXG 1, IOVA 3, UTZ 4 (going-private), HAE 5. HC holds 3 (CDNA/OABI/REPL) now, but **2 HC slots free up if OABI/REPL exit**,
+  so TXG/IOVA/HAE become live candidates Saturday (TXG/IOVA printed 11/05; HAE next 2027-02-04). Non-HC near the top: PAYS 10, PD 12 (exited 11/09), QLYS 16, CBRL 17.
+- Holdings check (8 searches + EDGAR lists for CDNA/REPL/OABI): **no thesis breaks**, no S-1/S-3/424B. New since 11/12: CDNA two Form 4s + a 144 (11/12). OABI nothing since 11/02.
+  The CDNA search returned Caribou (CRBU) again: wrong company, no read. GTLB results are the Dec 2025 print (stale). REPL: Tudriqev launched (15+ institutions); no 8-K
+  since 11/06, so the "earnings 11/13 BMO" stays unverified (rule 39). AMPL/NSIT/PBF/CAKE: only the Q3 prints already on file.
+
 ### Held satellites — thesis cards (break = specific news, never price)
 - **CDNA** (4 @ $86.10, HC): Q3 rev +39%, 3rd straight guide raise. Break: a guide cut, a Medicare/LCD reimbursement hit, an equity raise.
 - **OABI** (70 @ $5.08, HC): pure rank. No going-concern doubt, $64.2M cash, ATM undrawn. Break: going-concern, an ATM draw, a partner program dropped.

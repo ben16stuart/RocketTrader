@@ -34,5 +34,8 @@ Live: VIX 18.69, RTY +0.65%, ES +0.79%, NQ +1.80%, Brent 92.98. Veterans Day: th
 Live: VIX 18.32, RTY +0.02%, ES −0.35%, NQ −0.75%, Brent 91.99. IWM sits just under its 11/04 high (284.02). VIX is well under the 25 line.
 Today: weekly jobless claims 8:30 ET (routine). **October PPI Fri 11/13 8:30 ET** (financecalendar/stockhub calendars).
 
+**Fri 11/13 premarket update:** settled closes **Thu 11/12**: VIX **18.70**, SPY 757.12 (−0.35%), IWM **278.44 (−1.64%)**, Brent 95.82 / WTI 88.74, Gold 3,885.30, Dollar 103.17. **10-yr 5.10% (+10bp)**, a new high for the cycle.
+Live: VIX 18.36, RTY +0.11%, ES +0.19%, NQ +0.12%. **October PPI today 8:30 ET** (per Thursday's calendar check). VIX is well under the 25 line. Rising yields are the small-cap headwind to watch.
+
 **Week 46 calendar:** held names have no prints in the gate (GTLB 12/01). Ranked names reporting Mon 11/09: PAYS, QLYS, QMCO, APPS, ZETA, ABCL. TWST/AVAH 11/12.
 Macro: check the calendar at premarket (October CPI is likely mid-week). Note: October payrolls on 11/06 was unconfirmed.
