@@ -739,3 +739,7 @@ Also archived at W44 (retired-checklist selection rules, advisory since 10/17; m
 
 <!-- Archived at W45 review 2026-11-07 -->
 - **W42 (10/12–10/16):** F. Book −2.75% vs IWM −3.05% (+0.30 pts, all cash buffer). Satellites **0.0%** at 5/5 closes. Rule 8 boarded 7 conditional plans and filled 0. **The kill counterfactual went 3 up / 3 down / 1 flat vs a −3% IWM week, so the shape gates were a coin flip, not an edge.** That overturns the W40/W41 "filters aren't the leak" read and is the evidence behind the rank → judge rebuild. Lets through: everything the ranking surfaces that clears the hard vetoes.
+
+
+<!-- Archived at the W46 review, 2026-11-14 -->
+- **W43 (10/19–10/23):** B−. Book +1.79% vs IWM +1.96% (−0.18 pts, the cash buffer in an up week). Satellites **56.8%**, 0/5 breaches. The first rank → judge week: 5 buys, 0 exits. **A pre-entry check handed to market_open is done BEFORE the order, or the name is skipped** (REPL was bought 10/19 with its FDA outcome "not verified"; it was approved, so no harm, but the check was skipped). This extends the handed-off-check rule below to entries. Lets through: every ranked name with no open check.

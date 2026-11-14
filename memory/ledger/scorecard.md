@@ -1,17 +1,18 @@
 # Rocket learning ledger — scorecard
 
-Generated 2026-11-11 15:33. Excess return = stock minus IWM over the same window. **`w` = non-overlapping windows, `names` = distinct stocks — these are the sample sizes. Overlapping daily rows are NOT independent observations** (RESEARCH_GATES §1).
+Generated 2026-11-14 09:20. Excess return = stock minus IWM over the same window. **`w` = non-overlapping windows, `names` = distinct stocks — these are the sample sizes. Overlapping daily rows are NOT independent observations** (RESEARCH_GATES §1).
 
 ## 1. Signal — does the ranking work?
 
 | Bucket | 5d excess | 10d excess | 20d excess |
 |---|---|---|---|
-| top 8 | +14.63% (w=3) | +22.81% (w=1) |   n/a  (w=0) |
-| 9–25 |  +2.53% (w=3) | +14.19% (w=1) |   n/a  (w=0) |
-| 26+ |  +0.09% (w=3) |  +0.81% (w=1) |   n/a  (w=0) |
+| top 8 |  +1.95% (w=4) |  +2.57% (w=2) | +10.05% (w=1) |
+| 9–25 |  -1.10% (w=4) |  -0.36% (w=2) |  -9.08% (w=1) |
+| 26+ |  -0.03% (w=4) |  +0.24% (w=2) |  +0.04% (w=1) |
 
-- 5d top 8 minus 26+: +14.54% over 3 window(s), t +1.15
-- 10d top 8 minus 26+: +22.00% over 1 window(s) (t needs ≥3 windows)
+- 5d top 8 minus 26+:  +1.98% over 4 window(s), t +0.49
+- 10d top 8 minus 26+:  +2.34% over 2 window(s) (t needs ≥3 windows)
+- 20d top 8 minus 26+: +10.00% over 1 window(s) (t needs ≥3 windows)
 
 **Rule:** change the score formula only with **≥ 6 non-overlapping 20-day windows** (~6 months) and |t| ≥ 2 on the top-8-minus-26+ spread. One bad (or good) month is one observation.
 
@@ -19,11 +20,11 @@ Generated 2026-11-11 15:33. Excess return = stock minus IWM over the same window
 
 | Decision | names | 5d excess | 10d excess | 20d excess | hit rate 20d |
 |---|---|---|---|---|---|
-| BUY | 15 |  -2.19% (7) | +10.76% (4) |   n/a  (0) | n/a |
-| VETO | 15 |  +3.09% (5) |  +6.56% (3) |   n/a  (0) | n/a |
-| EXIT | 6 |  -8.55% (2) | -13.30% (1) |   n/a  (0) | n/a |
+| BUY | 15 |  -0.26% (15) |  -0.09% (12) | +12.59% (5) | 40% |
+| VETO | 15 |  +1.28% (15) |  -0.34% (11) |  +4.99% (4) | 50% |
+| EXIT | 6 |  -4.63% (6) | -13.39% (4) |   n/a  (0) | n/a |
 
-**BUYs vs random twins** (random picks from the same morning's eligible list, same horizon): 5d: 30th pct (n=7) · 10d: 88th pct (n=4) · 20d: n/a (n=0). Above the 95th percentile = evidence of skill; inside 5th–95th = indistinguishable from chance.
+**BUYs vs random twins** (random picks from the same morning's eligible list, same horizon): 5d: 48th pct (n=15) · 10d: 52th pct (n=12) · 20d: 97th pct (n=5). Above the 95th percentile = evidence of skill; inside 5th–95th = indistinguishable from chance.
 
 - **BUY > 0** → the picks beat IWM.
 - **VETO < BUY** → vetoes are helping. **VETO > BUY** across **≥ 10 distinct names** at 20d → Rocket's judgment is subtracting value: loosen the rule behind those vetoes, in writing, citing this table.

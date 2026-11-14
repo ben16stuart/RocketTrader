@@ -4286,3 +4286,87 @@ If Monday's premarket ranking puts NEO or KELYA back ≤25, **still replace them
   - GTLB, REPL, OABI, PD, CAKE: results stale or already known. OABI "11/09" earnings and CAKE "11/02" are the same calendar errors seen earlier this week; their 8-Ks are already filed.
 - **Sat W45 review: VIX 28.18 at the 11/05 close.** Above the 22 brake and the 25 reduce-size line. If it is still >25 at the review, any CLDT/PD replacement goes in at reduced size, or waits.
 
+
+
+---
+
+<!-- Archived at the W46 review, 2026-11-14 -->
+## Watchlist — Week 46 (Mon 11/09 – Fri 11/13), built at the W45 review Sat 11/07
+
+Book (11/06 close): 8 satellites ≈ 104% of a $2,878 slice. IWM 0. The 12.5% cap ≈ **$360**. The weekly entry cap resets to **5**.
+Ranking data as of 11/06 (739 eligible): CDNA 2, OABI 5, NSIT 14, CAKE 16, GTLB 20, REPL 24, **PD 26, CLDT 58** → both replaced.
+After the swap: HC = CDNA/OABI/REPL (full). Tech = NSIT/GTLB/AMPL (full). Energy = PBF. Consumer = CAKE.
+
+### Mon 11/09 — 2 replacements → premarket confirms on fresh data, market_open executes
+**Order at 9:35:** (1) cancel PD's and CLDT's trailing stops, `sell PD 21`, `sell CLDT 25`. Log
+`candidate_ledger.py log PD EXIT "rank decay 26 > 25 at W45 review" --rank 26` and `... CLDT EXIT "rank decay 58 > 25 at W45 review" --rank 58`.
+(2) Proceeds ≈ $716 cover both buys, so no IWM funding sale. (3) BUY AMPL and PBF at market. (4) Place 25% trailing stops. (5) Log the BUYs.
+**Size:** VIX closed 25.64 on 11/06 (>25 reduce-size line). If VIX is still >25 at premarket, buy **half: AMPL 10 / PBF 2**. If it is ≤25, buy full size: **AMPL 20 / PBF 5**
+(re-run `size` at the live price). If VIX >30, no new longs: still sell PD/CLDT, and the proceeds sweep to IWM at the close.
+Skip a name that opens >8% above Friday's close on no news (AMPL $16.70, PBF $67.27). If PD/CLDT re-rank ≤25 Monday, **still replace them** (decay is judged on Saturday's data).
+
+**✅ Premarket 11/09 confirmed — GO, FULL SIZE.** `rank_screen.py` data is still as of 11/06 (unchanged: AMPL #8, PBF #18, PD 26, CLDT 58).
+VIX **23.54 live** (25.64 close 11/06), under the 25 line → **AMPL 20 / PBF 5** (`size` at Fri closes: 11.6% each). market_open: re-read VIX; if >25 at 9:35, use half size.
+Owed checks are done: both 5.02s are benign (AMPL 10/15 = **added** director Vijaye Raji, board 8→9, nobody left; PBF 10/30 = routine exec LTI grants).
+AMPL FY guide **raised 1.9%** (midpoint $409.2M after Q2 → $417.0M after Q3), a real raise under rule 5a. EDGAR (11/09): no new filings since 11/06 for either name, no S-1/S-3/424B.
+Top-8 VETOs **logged 11/09**: TXG #1, IOVA #4, RCEL #6, HAE #7 (HC cap), UTZ #3 (going-private; DEFM14A 10/02 + SC 13E3/A 10/30 verified on EDGAR).
+
+### AMPL — Amplitude, Inc.   (rank 8, Technology)  — replaces PD
+- Why it ranks: 6-1 +139%, vol 65%, 71% above 200d. Cap $2.1B, short 8.3%.
+- Checked 11/07: **DE** (EDGAR). Q3 (11/04 8-K ex-99.1): revenue $110.6M +25%, ARR $431M +24%, RPO +27%, record non-GAAP op margin, FCF $5.8M. FY26 guide revenue $415.8–418.2M.
+  10-Q 11/05. After that, only Form 4/144 (insider sales, a note). **No S-1/S-3/424B.** The earnings gate is clear (next print ~Feb).
+- **Premarket owes:** (a) the 10/15 8-K 5.02 (an exec change: who left?); (b) whether the FY guide was raised versus Q2's guide (rule 5, advisory: log it).
+- Break: guide cut, a seat/AI-disruption hit, an equity raise.
+- Status: WATCHING (added 2026-11-07)
+
+### PBF — PBF Energy Inc.   (rank 18, Energy)  — replaces CLDT
+- Why it ranks: 6-1 +122%, vol 66%, 24% above 200d. Cap $8.0B, short 12.5%.
+- Checked 11/07: **DE** (EDGAR). Q3 (10/29 8-K): net income $1.54B, EPS $12.54 vs $1.45, cash $2.5B vs debt $2.1B (net debt cut >$1.2B), **dividend +18%** to $0.325. Martinez is back at full rate, and the turnarounds are done.
+  Since then: 8-K 5.02 (10/30), Form 4s, two 144s. **No S-1/S-3/424B.**
+- **DK TESTING check:** a refiner, but the thesis is realized cracks plus deleveraging, not "crude is up". Crude has fallen (Brent 117 → 98). It does not match the DK pattern. Flag only.
+- **Premarket owes:** the 10/30 8-K 5.02 (who left?).
+- Break: a crack-spread collapse with a guide cut, a refinery outage, a dividend cut, an equity raise.
+- Status: WATCHING (added 2026-11-07)
+
+- **VETOs to log Mon (if the 11/06 ranks hold):** UTZ #3 (take-private), IOVA #4, RCEL #6, HAE #7 (HC cap: CDNA/OABI/REPL).
+  Between #8 and #18 (no log needed beyond the top 8): ATRC, PSNL, TWST (HC), PAYS/QLYS (EARNINGS 11/09), SMWB/ECO (non-US), NSIT/CAKE held.
+- **Earnings this week (held):** none in the gate. GTLB 12/01.
+- **Closed 11/07:** the CDNA "11/05 8-K" and REPL "FQ2 11/06" claims were false (EDGAR: a Form 144, and a 10-Q/A adding exec 10b5-1 plans). No thesis break.
+
+### Tue 11/10 premarket — 8 held, **0 open slots** (no picks, no VETOs owed)
+- `rank_screen.py` (11/09 data, 810 eligible): CDNA 5, OABI 6, AMPL 9, REPL 15, CAKE 16, GTLB 18, NSIT 24, **PBF 44 ⚠️** (>25).
+  PBF was rank 18 on 11/06 data and was bought 11/09; rank decay is judged **weekly** → re-check at the Sat 11/14 W46 review, no action before.
+  NSIT 24 is on the edge. Top 8 not held: TXG 1, HAE 2, IOVA 3, UTZ 4 (going-private), SMWB 7 (FAIL Israel), ATRC 8. No slot is open, so these are not decisions.
+- Holdings check (8 searches): **no thesis breaks.** Results were stale or undated. CDNA search again returned CRBU (wrong company). The GTLB "Q3 drop" is the Dec 2025 print.
+  The OABI "earnings 11/09" and REPL "11/05" are projected calendar dates (rule 39); the ranker shows 10/30 and 10/28 already printed. PBF's dividend record date is 11/12.
+
+### Wed 11/11 premarket — 8 held, **0 open slots** (no picks, no VETOs owed)
+- `rank_screen.py` (11/10 data, 791 eligible): CDNA 4, GTLB 6, AMPL 9, OABI 11, CAKE 15, NSIT 19, **REPL 30 ⚠️, PBF 40 ⚠️** (both >25).
+  Two held names are now past the exit rank. Rank decay is weekly → the **Sat 11/14 W46 review** decides on Friday's data, no action before. If both still rank >25, that review replaces 2 (entries used this week: 2/5).
+  Top 8 not held: TXG 1, HAE 2, IOVA 3, UTZ 5 (going-private), ATRC 7, SMWB 8 (FAIL Israel). HC already holds 3 (CDNA/OABI/REPL). No slot is open, so these are not decisions.
+- Holdings check (8 searches + EDGAR filing lists for all 8): **no thesis breaks.** No S-1/S-3/424B on any name.
+  New filings since 11/09: CAKE 8-K 5.02 (11/10) = the **bakery subsidiary president is retiring** in Q1 2027 (read on EDGAR; benign). Otherwise only Form 4/144 and 13G/13G/A.
+  OABI: the ticker lookup came back blank, so I re-ran it by CIK 1846253 (rule 38). Last filing is a Form 4 on 11/02; nothing new. OABI is presenting at Stifel today and Truist 11/12.
+  CDNA: news mentions a patent **appeal hearing on 11/09** with ≈$96M + interest at stake from a prior jury award. This is a known contingency, not a break. **A ruling against CDNA would be checked against its cash and buyback.**
+  REPL: earningswhispers shows "earnings 11/13 BMO". That is a projected date and unverified (rule 39). The FQ2 10-Q/A was filed 11/06. Held names don't exit on earnings; it is a note only.
+  GTLB news is still the Dec 2025 FQ3 print; the next print is 12/01.
+
+### Thu 11/12 premarket — 8 held, **0 open slots** (no picks, no VETOs owed)
+- `rank_screen.py` (11/11 data, 813 eligible): CDNA 2, CAKE 7, AMPL 8, GTLB 10, NSIT 17, PBF 22, **OABI 29 ⚠️, REPL 134 ⚠️** (both >25).
+  REPL's drop (30 → 134) is the 6-1 window rolling: its m61 fell 2.20 → 1.28 while price moved only 23.28 → 21.78. That is a mechanical
+  re-base, not news. PBF recovered to 22. Rank decay is weekly → the **Sat 11/14 W46 review** decides on Friday's data, no action before.
+  Top 8 not held: TXG 1, UTZ 3 (going-private), HAE 4, IOVA 5, SMWB 6 (FAIL Israel). No slot is open, so these are not decisions.
+- Holdings check (8 searches + EDGAR filing lists for all 8; OABI by CIK 1846253): **no thesis breaks.** No S-1/S-3/424B on any name.
+  New filings since 11/11: REPL Form 4 + SC 13G (11/10), CDNA 144 + SC 13G (11/10). Nothing else. Search results were stale or undated.
+  REPL: earningswhispers again shows "earnings 11/13 BMO" (projected, unverified, rule 39). Held names don't exit on earnings; a note only.
+  PBF snippets (Morgan Stanley downgrade, Scotiabank PT $28) are undated and the PT doesn't match a ~$70 stock: old (rule 33).
+
+### Fri 11/13 premarket — 8 held, **0 open slots** (no picks, no VETOs owed)
+- `rank_screen.py` (11/12 data, 762 eligible): CDNA 2, CAKE 6, AMPL 7, GTLB 8, PBF 22, NSIT 24, **OABI 54 ⚠️, REPL 119 ⚠️** (both >25).
+  NSIT 24 is one off the exit line. Saturday's W46 review decides on Friday's data: on today's numbers it replaces **OABI and REPL** (entries used 2/5, 3 left).
+  Top 8 not held: TXG 1, IOVA 3, UTZ 4 (going-private), HAE 5. HC holds 3 (CDNA/OABI/REPL) now, but **2 HC slots free up if OABI/REPL exit**,
+  so TXG/IOVA/HAE become live candidates Saturday (TXG/IOVA printed 11/05; HAE next 2027-02-04). Non-HC near the top: PAYS 10, PD 12 (exited 11/09), QLYS 16, CBRL 17.
+- Holdings check (8 searches + EDGAR lists for CDNA/REPL/OABI): **no thesis breaks**, no S-1/S-3/424B. New since 11/12: CDNA two Form 4s + a 144 (11/12). OABI nothing since 11/02.
+  The CDNA search returned Caribou (CRBU) again: wrong company, no read. GTLB results are the Dec 2025 print (stale). REPL: Tudriqev launched (15+ institutions); no 8-K
+  since 11/06, so the "earnings 11/13 BMO" stays unverified (rule 39). AMPL/NSIT/PBF/CAKE: only the Q3 prints already on file.
+

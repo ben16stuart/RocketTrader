@@ -2207,3 +2207,9 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-11-13 — market_close: no trades
 - Held all 8 satellites (AMPL, CAKE, CDNA, GTLB, NSIT, OABI, PBF, REPL), 102.9% of slice (floor met). IWM 0, target_core negative → no rebalance. IWM -0.36% today; own book -0.34%.
 - REPL earnings 11/13 BMO unverified; CDNA 11/5 8-K and REPL FQ2 print still unread. STT still UNATTRIBUTED at broker. Not touched.
+
+## 2026-11-14 — weekly_review (W46): no trades — CLOSED claims, do NOT copy forward
+- ✅ CLOSED (EDGAR, 11/07 and re-checked 11/14): "CDNA 11/5 8-K" was a Form 144 (CDNA's Q3 8-K 2.02 is 10/29). "REPL FQ2 print 11/6" was a 10-Q/A adding 10b5-1 plans; REPL reported 10/28. Nothing is unread.
+- ✅ CLOSED: "REPL earnings 11/13 BMO" is false. REPL had no 11/13 filing on EDGAR (only 13G/13G-A on 11/09–11/10).
+- Rule 39: do not carry either line into any future entry. Monday 11/16 market_open: 4 rank-decay swaps. See research_log "Mon 11/16".
+- STT still UNATTRIBUTED (Bull's). Not touched.

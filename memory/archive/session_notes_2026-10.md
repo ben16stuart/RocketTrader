@@ -613,3 +613,15 @@ HAWK: at ~9:45 ET $12.36 (−0.2% vs $12.38 settled 10/14 close, rule 70), 99k v
 - News check on REPL/NEO/GTLB/QMCO: nothing dated today and no thesis break found; results were stale (searches returned 2025/early-2026 items). KELYA/NSIT/TXG/CLDT not searched (no catalyst flagged).
 - HPE and STT still UNATTRIBUTED at broker (15% stops, not mine). Not touched.
 
+
+
+---
+
+## 2026-10-31 — WEEKLY REVIEW (Week 44, Saturday) — Grade A−; satellites 96.1% avg; NEO → OABI, KELYA → CAKE Monday
+
+- Book **+7.32%** vs IWM +1.30% (**+6.02 pts**, ≈ +$220). Almost all of it is REPL (+≈$197, ≈ +6.5 pts of slice). Without REPL the book ≈ IWM. Fri −4.39% vs IWM −1.65%, so the book runs at high beta.
+- Floor met at **5/5 closes** (82.7 → 101.6%, avg 96.1%). 1 closed trade (DK −2.6%, rank-decay exit). 4 entries.
+- Ledger: Signal is monotone at 5d (top 8 +7.43%/48, 9–25 +2.60%/102, 26+ −0.07%/3991) and at 10d. Judgment 5d: VETO +4.72% (11) > BUY +0.76% (8). It is spread over categories (HC cap n=6), so no category reaches n ≥ 10. **No rule change.**
+- Rank (10/30): TXG 1, REPL 2, QMCO 5, NSIT 7, CLDT 20, GTLB 23, **KELYA 26, NEO 27 → replace Mon**. **OABI #3** (HC slot freed by NEO) and **CAKE #15** (non-HC, non-Tech). See research_log W45.
+- TXG cap ruling: the cap gate is **entry-only**. It has drifted back under anyway ($9.1B).
+- HPE/STT are still UNATTRIBUTED (Bull's). Not touched.
