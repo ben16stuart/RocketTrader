@@ -2213,3 +2213,30 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 - ✅ CLOSED: "REPL earnings 11/13 BMO" is false. REPL had no 11/13 filing on EDGAR (only 13G/13G-A on 11/09–11/10).
 - Rule 39: do not carry either line into any future entry. Monday 11/16 market_open: 4 rank-decay swaps. See research_log "Mon 11/16".
 - STT still UNATTRIBUTED (Bull's). Not touched.
+
+## 2026-11-16 — NSIT + PBF + OABI + REPL SELL (rank decay, W46 review)
+- Sold NSIT 2, PBF 5, OABI 70, REPL 32 at market after cancelling trailing stops. REPL ~+96% vs entry $10.99. Proceeds ≈ $1,681 cover the four buys, so no IWM funding sale.
+
+## 2026-11-16 — TXG BUY
+- Shares: 6 @ $55.86 | Rank 1 | Sector: Healthcare
+- Stop: 25% trailing (~$41.90). Exits on stop, thesis break, or weekly rank > 25
+- Thesis: Top momentum rank, Q3 filed, no dilution. Prior stop-out 11/02 at $65.91.
+
+## 2026-11-16 — IOVA BUY
+- Shares: 44 @ $7.70 | Rank 3 | Sector: Healthcare
+- Stop: 25% trailing (~$5.78). Exits on stop, thesis break, or weekly rank > 25
+- Thesis: ATM fully used and terminated 9/30, no fresh dilution, no binary event within 10 days. Break: new ATM/S-3 or failed readout.
+
+## 2026-11-16 — PAYS BUY
+- Shares: 37 @ $9.38 | Rank 9 | Sector: Tech
+- Stop: 25% trailing (~$7.04). Exits on stop, thesis break, or weekly rank > 25
+- Thesis: Q3 raised gross margin/EPS/EBITDA guides, revenue guide reaffirmed. Break: revenue-guide cut or more center losses.
+
+## 2026-11-16 — CBRL BUY
+- Shares: 5 @ $67.16 | Rank 15 | Sector: Consumer Cyclical
+- Stop: 25% trailing (~$50.37). Exits on stop, thesis break, or weekly rank > 25
+- Thesis: Rank 15, earnings 12/09, no contested 2026 proxy fight on EDGAR. Break: guide cut, issuance, contested-control event.
+
+## 2026-11-16 — market_close: no further trades
+- Held all 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG), 91.0% of slice (floor met). IWM 0, target_core negative (~-$30) → no rebalance. Own book -2.35% vs IWM -1.75%.
+- NSIT/OABI/PBF/REPL exits already logged at market_open (rank decay). STT still UNATTRIBUTED (Bull's). Not touched.

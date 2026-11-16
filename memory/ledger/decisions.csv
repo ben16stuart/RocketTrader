@@ -45,3 +45,14 @@ date,time,sym,decision,rank,reason
 2026-11-09,07:46,CLDT,EXIT,58,rank decay 58 > 25 at W45 review
 2026-11-09,07:46,AMPL,BUY,8,"Rank 8; Q3 rev +25%, FY guide raised 1.9%, DE, no dilution; replaces PD"
 2026-11-09,07:46,PBF,BUY,18,"Rank 18; Q3 EPS 12.54, dividend +18%, net debt cut; DE, no dilution; replaces CLDT"
+2026-11-16,04:21,HAE,VETO,4,hard: healthcare sector cap full (CDNA held + TXG/IOVA picked 11/16)
+2026-11-16,04:21,UTZ,VETO,5,"judgment: pending going-private merger pins price (DEFM14A 10/02, SC 13E3/A 10/30, 8-K 8.01 11/13)"
+2026-11-16,04:21,ABCL,VETO,7,hard: gate FAIL non-US HQ (Canada)
+2026-11-16,07:46,NSIT,EXIT,41,rank decay 41 > 25 at W46 review
+2026-11-16,07:46,PBF,EXIT,42,rank decay 42 > 25 at W46 review
+2026-11-16,07:46,OABI,EXIT,50,rank decay 50 > 25 at W46 review
+2026-11-16,07:46,REPL,EXIT,157,rank decay 157 > 25 at W46 review
+2026-11-16,07:46,TXG,BUY,1,"DE; Q3 filed, no dilution; #1 momentum"
+2026-11-16,07:46,IOVA,BUY,3,"DE; ATM terminated 9/30, no new dilution, no binary in 10d"
+2026-11-16,07:46,PAYS,BUY,9,"NV; Q3 profit guides raised, rev guide reaffirmed, no dilution"
+2026-11-16,07:46,CBRL,BUY,15,"TN; earnings 12/09, annual meeting 11/19 not binary"

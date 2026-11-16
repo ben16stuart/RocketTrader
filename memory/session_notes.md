@@ -3,6 +3,17 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-16 — PREMARKET (Monday, Week 47 day 1) — 4 rank-decay swaps confirmed: TXG, IOVA, PAYS, CBRL at full size
+
+- Book: 8 satellites ≈ 103% of the $2,920 slice. IWM 0. **Floor met.** Weekly entries 0/5 (4 planned). The snapshot's "−1.02% today" is from thin premarket prints. Ignore it.
+- Holdings check (4 searches: CDNA, GTLB, CAKE, AMPL; the 4 exits skipped): no thesis breaks. Results were Q3 recaps or older (GTLB's "CFO transition / −14%" is the FY26 Q3 story). CDNA patent-appeal ruling: none found.
+- `rank_screen.py` (still 11/13 data, 758 eligible): identical to the W46 review. Saved `ledger/ranks/2026-11-13.csv`. Exits stay NSIT 41, PBF 42, OABI 50, REPL 157.
+- Owed checks done (EDGAR curl): IOVA ATM fully used and terminated 9/30, nothing in the last 30 days, no binary within 10 trading days, not a going concern. PAYS revenue guide reaffirmed, profit guides raised. CBRL 11/19 meeting is uncontested (the 2025 Biglari fight was misdated by search). **Logged VETOs:** HAE 4, UTZ 5, ABCL 7.
+- Macro: VIX 19.91 live (19.30 close 11/13). RTY −0.41%, ES −0.32%, NQ −0.87% live. 10-yr 5.15% (11/13). Under the 25 line, so full size. No trades. No ntfy.
+- market_open: execute research_log "Mon 11/16" as written. Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-14 — WEEKLY REVIEW (Week 46, Saturday) — Grade B; satellites 103.2% avg; 4 rank-decay swaps Monday
 
 - Book **+1.61%** vs IWM +1.41% (**+0.20 pts**, ≈ +$46). Since 10/6 +5.24 pts. Since 7/20 +5.80 pts. Floor met 5/5 (avg 103.2%).
@@ -109,3 +120,8 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - News searches on REPL and GTLB returned stale/mismatched results (REPL snippet $12.86 vs broker $21.91). Nothing dated today, no thesis break.
 - ~~Still owed: REPL 11/13 BMO earnings unverified; CDNA 11/5 8-K and REPL FQ2 print unread.~~ **All three CLOSED as false at the W46 review (EDGAR). Do not carry forward.** STT UNATTRIBUTED at broker, not touched.
 
+
+## 2026-11-16 — midday (sonnet)
+- No trades. All 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG) hold live trailing stops per open orders; none fired, no slot opened, so no refill. Own book -2.36% vs IWM -1.17% (loss cap $144: OK).
+- News check (GTLB, CDNA, CAKE inline): results stale/undated, nothing dated today. No dilution, going-concern, guidance-cut or takeover found. No thesis break. GTLB -16.5% and CDNA -12.9% vs entry are price moves; the stop's job.
+- STT still UNATTRIBUTED at broker (Bull's). Not touched.

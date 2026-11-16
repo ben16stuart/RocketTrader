@@ -21,5 +21,7 @@ All figures are **Fri 2026-11-13 settled closes** (`market_data.py macro`). Prio
 and IWM gave back ≈ 2% from Wednesday's 283.09. Rocket's book tracked IWM (+1.61%). This is not a bearish thesis, and cash stays at the ≤10% buffer.
 **Live constraint for Monday:** none. VIX is under 25, so the four replacements go in at full size.
 
+**Mon 11/16 premarket (live, not settled):** VIX 19.91, RTY −0.41%, ES −0.32%, NQ −0.87%. A soft open into a 5.15% 10-yr. Still under 25, so full size.
+
 **Week 47 calendar:** held names have no prints in the gate (GTLB 12/01). The new names have printed (TXG/IOVA 11/05, PAYS 11/09). CBRL reports 12/09.
 SMWB 11/17 (FAIL anyway). Macro: check the calendar at premarket (retail sales and FOMC minutes are typical mid-November releases; unconfirmed).

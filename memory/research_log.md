@@ -36,7 +36,13 @@ Skip a name that opens >8% above Friday's close on no news. If NSIT/PBF/OABI/REP
 3. **PAYS #9 (Tech)** — NV. Q3 8-K 2.02 11/09, 10-Q 11/10. No S-1/S-3/424B. Cap $541M, rev growth +43%. **Premarket owes:** read ex-99.1 and log whether the guide was raised (rule 5, advisory).
 4. **CBRL #15 (Consumer Cyclical)** — TN. Earnings 12/09. Short 27%. DEFA14A 11/09 = proxy supplement on "blank check" preferred provisions.
    **Premarket owes:** one news search. Is there an activist fight, and is the meeting vote inside 10 trading days? This is judgment: log it either way. If vetoed: ELF #22, then LIND #35.
-- **VETOs to log Mon (top 8 not held/bought):** HAE #4 (HC cap, if IOVA is bought), UTZ #5 (going-private, pinned), ABCL #7 (FAIL non-US HQ).
+- ✅ **PREMARKET 11/16 CONFIRMED all four. Status: WATCHING (added 2026-11-16).** `rank_screen.py` is still on 11/13 data: TXG 1, IOVA 3, PAYS 9, CBRL 15, identical to the review. VIX 19.91 live means full size.
+  - **IOVA**: the 10-Q shows the 2025 Jefferies ATM sold 8.67M sh for $87.9M net at $10.34 in Q3, and the agreement **terminated at 9/30 (fully used)**. No 424B/S-3 since 10/15, so no draw in the last 30 days and no fresh-dilution veto. The 10-Q says "no assurance" funds cover 12 months but then "we believe we have sufficient capital" with no "substantial doubt", so this is **not** a going concern. **Risk: a new ATM or offering is likely**, and if one is filed that is a thesis break. No PDUFA, AdCom or readout found within 10 trading days (the search's "PDUFA 11/25" is the 2023–24 lifileucel item, now approved). Break: a new ATM, S-3 or offering, or a failed readout.
+  - **PAYS**: per ex-99.1 (11/09), the FY26 revenue guide of $114–117M is **reaffirmed (0%, rule 5f)**. Gross margin, net income, EPS and adj. EBITDA guides are **raised**. 113 plasma centers move to another provider in Q4. Rule 5 is advisory: logged as a note, not a veto. Break: a revenue-guide cut, or more center losses.
+  - **CBRL**: the 2026 annual meeting is **Thu 11/19** (DEFA14A). It is a 9-director slate plus a shareholder (TAB) proposal on "blank check" preferred. **No 2026 Biglari contest on EDGAR** (no DFAN14A). The search's ISS/Glass Lewis/Egan-Jones withhold stories are the 2025 meeting (rule 33: date the news). This is not a binary price event, so PICK. Break: a guide cut at 12/09, an issuance, or a contested-control event.
+  - **TXG**: no new filings since the review except a Form 4. GO.
+- **VETOs LOGGED 11/16** (top 8 not held/bought): HAE #4 (HC cap), UTZ #5 (going-private pending; 8-K 8.01 11/13), ABCL #7 (FAIL, non-US HQ).
+- ~~VETOs to log Mon (top 8 not held/bought):~~ HAE #4 (HC cap, if IOVA is bought), UTZ #5 (going-private, pinned), ABCL #7 (FAIL non-US HQ).
 - **Binary events, held names, W47:** none. GTLB reports 12/01.
 
 ### Held satellites — thesis cards (break = specific news, never price)
