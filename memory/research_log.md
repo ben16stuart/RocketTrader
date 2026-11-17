@@ -21,6 +21,10 @@ Book (11/13 close): 8 satellites ≈ 103% of a $2,925 slice. IWM 0. The 12.5% ca
 Ranking data as of 11/13 (757 eligible): CDNA 2, AMPL 6, CAKE 8, GTLB 11, **NSIT 41, PBF 42, OABI 50, REPL 157** → all four replaced.
 After the swap: HC = CDNA/TXG/IOVA (full). Tech = AMPL/GTLB/PAYS (full). Consumer Cyclical = CAKE/CBRL.
 
+### Tue 11/17 premarket — no slots open, no picks
+Ranking (11/16 data, 716 eligible): TXG 1, CDNA 2, IOVA 3, CBRL 6, CAKE 7, PAYS 10, AMPL 12, GTLB 18. All 8 are ≤ 25. Unheld top-8 names: HAE 4, UTZ 5, RCEL 8. With 0 slots open (and 4/5 entries used), nothing to pick or veto.
+Holdings check: 8 searches turned up only stale or undated items. IOVA "equity raise" is old: EDGAR since 11/05 shows only Form 4 and 13G filings. No thesis breaks.
+
 ### Mon 11/16 — 4 replacements → premarket confirms on fresh data, market_open executes
 **Order at 9:35:** (1) cancel the trailing stops on NSIT, PBF, OABI and REPL. Then `sell NSIT 2`, `sell PBF 5`, `sell OABI 70`, `sell REPL 32` (raw qty from `GET /v2/positions`, rule 24).
 Log the EXITs: `candidate_ledger.py log NSIT EXIT "rank decay 41 > 25 at W46 review" --rank 41`, likewise PBF --rank 42, OABI --rank 50, REPL --rank 157.

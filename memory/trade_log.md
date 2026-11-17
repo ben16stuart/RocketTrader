@@ -2240,3 +2240,17 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-11-16 — market_close: no further trades
 - Held all 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG), 91.0% of slice (floor met). IWM 0, target_core negative (~-$30) → no rebalance. Own book -2.35% vs IWM -1.75%.
 - NSIT/OABI/PBF/REPL exits already logged at market_open (rank decay). STT still UNATTRIBUTED (Bull's). Not touched.
+
+## 2026-11-16 — NSIT SELL (rank decay; bookkeeping split of the combined 11/16 entry)
+## 2026-11-16 — PBF SELL (rank decay; bookkeeping split of the combined 11/16 entry)
+## 2026-11-16 — OABI SELL (rank decay; bookkeeping split of the combined 11/16 entry)
+- Added 11/17 premarket: the combined "NSIT + PBF + OABI + REPL SELL" header was parsed as one ticker, so the reconciler flagged NSIT/PBF/OABI MISSING. No new trades, just one header per exit. Future multi-name exits get one header each.
+
+## 2026-11-17 — midday: no trades
+- All 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG) hold live trailing stops (verified via open orders); none fired, no slot opened, so no refill. Own book -0.84% today vs IWM -0.87%.
+- News check (GTLB, CDNA, IOVA inline): GTLB results were a stale prior-year Q3 print (Dec 2025 CFO/guide), nothing dated today. CDNA: 11/05 inducement RSU grants only (not an offering). IOVA: results were old offerings (2018–2024), nothing fresh. No dilution, going-concern, guidance-cut or takeover found. No thesis break. GTLB -21.4% and CDNA -15.1% vs entry are price moves; the stop's job.
+- CAKE, CBRL, PAYS, TXG, AMPL not searched (snapshot shows no unusual move). STT still UNATTRIBUTED (Bull's). Not touched.
+
+## 2026-11-17 — market_close: no trades
+- Held all 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG), 91.8% of slice (floor met). IWM 0, target_core negative → no rebalance. Own book +0.07% vs IWM -1.50%.
+- GTLB -21.4% vs entry, nearing 25% stop (stop's job). STT still UNATTRIBUTED (Bull's). Not touched.

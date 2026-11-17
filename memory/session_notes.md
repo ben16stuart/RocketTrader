@@ -3,6 +3,17 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-17 — PREMARKET (Tuesday, Week 47 day 2) — 8 held, 0 open slots; reconciler MISSING fixed
+
+- Book: 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG), 91.3% of the $2,868 slice. IWM 0. **Floor met.** Weekly entries 4/5. Own book this week −2.34% vs IWM −1.64% (−0.70 pts). Since 10/6: +4.42 pts.
+- **Fixed:** the snapshot flagged NSIT/PBF/OABI MISSING. Cause: the 11/16 header "NSIT + PBF + OABI + REPL SELL" had its verb only in the last `+` segment. I appended per-name SELL headers to trade_log, which cleared MISSING, and tightened rule 20b (each segment needs its own verb).
+- Holdings check (8 searches): nothing dated or thesis-breaking. IOVA "equity raise" is old. EDGAR shows only Form 4 and 13G filings since 11/05.
+- `rank_screen.py` (11/16 data, 716 eligible): TXG 1, CDNA 2, IOVA 3, CBRL 6, CAKE 7, PAYS 10, AMPL 12, GTLB 18, all ≤ 25. Unheld top-8 names: HAE 4, UTZ 5, RCEL 8. 0 slots open, so no picks and no VETOs owed. Saved `ledger/ranks/2026-11-16.csv`.
+- Macro: VIX 22.91 close 11/16 (23.40 live), under 25. RTY −0.52% live. IWM 272.94 (−1.66% 11/16). 10-yr 5.12%. Retail sales and import prices at 8:30 ET, industrial production at 9:15. No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-16 — PREMARKET (Monday, Week 47 day 1) — 4 rank-decay swaps confirmed: TXG, IOVA, PAYS, CBRL at full size
 
 - Book: 8 satellites ≈ 103% of the $2,920 slice. IWM 0. **Floor met.** Weekly entries 0/5 (4 planned). The snapshot's "−1.02% today" is from thin premarket prints. Ignore it.
