@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-11-18 17:15 UTC
+**Last Updated**: 2026-11-18 20:58 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,26 +9,26 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $9,518.69 |
-| Rocket's Allocated Slice (30%) | $2,855.61 |
-| Cash Available (shared, pooled) | $928.76 |
-| Total Invested (both agents) | $8,589.93 |
+| Shared Account Value (Bull + Rocket) | $9,491.98 |
+| Rocket's Allocated Slice (30%) | $2,847.59 |
+| Cash Available (shared, pooled) | $833.12 |
+| Total Invested (both agents) | $8,658.86 |
 | Unrealized P&L (shared) | $+0.00 |
-| **Rocket own book TODAY** | **+$44 (+1.53%)** vs IWM +0.62% · daily loss cap $143: OK |
-| **Rocket own book since 7/20** | **+0.01%** vs IWM -7.38% → **+7.40 pts** |
-| **Rocket own book since 10/6 (new rules)** | **+3.13%** vs IWM -3.77% → **+6.90 pts** |
-| **Rocket own book this week** | **-0.73%** vs IWM -2.45% → **+1.73 pts** |
-| Rocket return since rebase (SHARED account, not own book) | -5.81% |
-| IWM return since rebase | -7.12% |
-| Shared account vs IWM (not Rocket's own — use the bold rows) | +1.31% |
+| **Rocket own book TODAY** | **+$57 (+1.98%)** vs IWM +0.39% · daily loss cap $142: OK |
+| **Rocket own book since 7/20** | **+0.46%** vs IWM -7.60% → **+8.06 pts** |
+| **Rocket own book since 10/6 (new rules)** | **+3.59%** vs IWM -4.00% → **+7.59 pts** |
+| **Rocket own book this week** | **-0.28%** vs IWM -2.68% → **+2.40 pts** |
+| Rocket return since rebase (SHARED account, not own book) | -6.07% |
+| IWM return since rebase | -7.34% |
+| Shared account vs IWM (not Rocket's own — use the bold rows) | +1.27% |
 
 ### Deployment — Satellite Floor
 
 | Sleeve | % of slice | Rule |
 |--------|-----------|------|
-| **Satellites (stock picks)** | 93.3% | must be >= 50.0% |
+| **Satellites (stock picks)** | 94.0% | must be >= 50.0% |
 | Core (IWM) | 0.0% | absorbs the leftover (no cap since 2026-10-06) |
-| Cash | 6.7% | buffer only (<= 10%) |
+| Cash | 6.0% | buffer only (<= 10%) |
 
 ✅ **Satellite floor met.**
 
@@ -47,23 +47,22 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Price (LIVE, session open) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| AMPL | 20 ($338) | $17.15 | $16.89 | $16.97 | $-5.20 | -1.5% |
-| CAKE | 3 ($352) | $117.25 | $117.28 | $111.96 | $+0.07 | +0.0% |
-| CBRL | 5 ($369) | $67.16 | $73.71 | $69.57 | $+32.75 | +9.8% |
-| CDNA | 4 ($295) | $86.10 | $73.81 | $74.56 | $-49.16 | -14.3% |
-| CVX | 4 ($828) | $210.70 | $207.05 | $216.13 | $-14.60 | -1.7% |
-| GTLB | 6 ($267) | $56.75 | $44.49 | $44.58 | $-73.53 | -21.6% |
-| HUM | 1 ($406) | $458.76 | $405.69 | $443.34 | $-53.07 | -11.6% |
-| IOVA | 44 ($328) | $7.70 | $7.45 | $7.53 | $-10.87 | -3.2% |
-| JNJ | 3 ($830) | $277.80 | $276.65 | $278.70 | $-3.44 | -0.4% |
-| MRK | 5 ($698) | $148.46 | $139.66 | $143.37 | $-43.99 | -5.9% |
-| PANW | 2 ($659) | $318.08 | $329.63 | $309.29 | $+23.10 | +3.6% |
-| PAYS | 37 ($375) | $9.38 | $10.14 | $9.81 | $+28.30 | +8.2% |
-| SPY | 0.026 ($19) | $756.33 | $729.90 | $732.44 | $-0.69 | -3.5% |
-| STT | 5 ($831) | $165.11 | $166.25 | $167.29 | $+5.72 | +0.7% |
-| TGT | 5 ($845) | $152.86 | $169.06 | $159.53 | $+81.00 | +10.6% |
-| TXG | 6 ($341) | $55.86 | $56.84 | $56.30 | $+5.88 | +1.8% |
-| XOM | 5 ($808) | $164.24 | $161.65 | $167.21 | $-12.95 | -1.6% |
+| AMPL | 20 ($338) | $17.15 | $16.91 | $16.97 | $-4.70 | -1.4% |
+| CAKE | 3 ($361) | $117.25 | $120.18 | $111.96 | $+8.79 | +2.5% |
+| CBRL | 5 ($372) | $67.16 | $74.36 | $69.57 | $+36.00 | +10.7% |
+| CDNA | 4 ($298) | $86.10 | $74.47 | $74.56 | $-46.52 | -13.5% |
+| CVX | 4 ($823) | $210.70 | $205.84 | $216.13 | $-19.46 | -2.3% |
+| GTLB | 6 ($267) | $56.75 | $44.44 | $44.58 | $-73.86 | -21.7% |
+| IOVA | 44 ($329) | $7.70 | $7.47 | $7.53 | $-9.77 | -2.9% |
+| JNJ | 3 ($819) | $277.80 | $273.06 | $278.70 | $-14.22 | -1.7% |
+| MRK | 5 ($689) | $148.46 | $137.88 | $143.37 | $-52.89 | -7.1% |
+| PANW | 2 ($679) | $318.08 | $339.66 | $309.29 | $+43.16 | +6.8% |
+| PAYS | 37 ($371) | $9.38 | $10.03 | $9.81 | $+24.05 | +6.9% |
+| SPY | 0.695 ($508) | $731.83 | $730.46 | $732.44 | $-0.95 | -0.2% |
+| STT | 5 ($827) | $165.11 | $165.49 | $167.29 | $+1.90 | +0.2% |
+| TGT | 5 ($831) | $152.86 | $166.26 | $159.53 | $+67.00 | +8.8% |
+| TXG | 6 ($343) | $55.86 | $57.09 | $56.30 | $+7.38 | +2.2% |
+| XOM | 5 ($804) | $164.24 | $160.78 | $167.21 | $-17.32 | -2.1% |
 
 ---
 
@@ -72,12 +71,12 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 🚨 **Does not balance — see reconciling items below.**
 
 - **Rocket's core** (0): none  — benchmark sleeve; no stop, exempt from position limits
-- **Rocket's satellites** (8): AMPL ($338), CAKE ($352), CBRL ($369), CDNA ($295), GTLB ($267), IOVA ($328), PAYS ($375), TXG ($341)
-- **Bull's positions** (8): CVX ($828), HUM ($406), JNJ ($830), MRK ($698), PANW ($659), SPY ($19), TGT ($845), XOM ($808)
+- **Rocket's satellites** (8): AMPL ($338), CAKE ($361), CBRL ($372), CDNA ($298), GTLB ($267), IOVA ($329), PAYS ($371), TXG ($343)
+- **Bull's positions** (7): CVX ($823), JNJ ($819), MRK ($689), PANW ($679), SPY ($508), TGT ($831), XOM ($804)
 
 🚨 **UNATTRIBUTED — held at the broker but in neither trade log:**
 
-  - STT ($831) — do not size against this until ownership is resolved.
+  - STT ($827) — do not size against this until ownership is resolved.
 
 
 ---
@@ -90,7 +89,6 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 | 66b0d7ff… | PAYS | sell | 37 | trailing_stop | new |
 | f2eb8105… | IOVA | sell | 44 | trailing_stop | new |
 | ab2f8825… | TXG | sell | 6 | trailing_stop | new |
-| 32cc556a… | HUM | sell | 1 | trailing_stop | new |
 | 9bc10b9b… | AMPL | sell | 20 | trailing_stop | new |
 | 402787f0… | XOM | sell | 5 | trailing_stop | new |
 | bc4c3fd4… | CVX | sell | 4 | trailing_stop | new |
