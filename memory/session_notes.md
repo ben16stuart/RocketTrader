@@ -3,6 +3,16 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-18 — PREMARKET (Wednesday, Week 47 day 3) — 8 held, 0 open slots; VIX closed 25.46
+
+- Book: 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG), 91.8% of the $2,855 slice. IWM 0. **Floor met.** Weekly entries 4/5. Own book this week −1.63% vs IWM −3.09% (+1.46 pts). Since 10/6: +6.59 pts.
+- Holdings check (8 searches): no thesis breaks. Everything was Q3 recaps or stale (CDNA appeal: no ruling found; PAYS plasma loss is the known 11/09 item; GTLB CFO story is prior-year).
+- `rank_screen.py` (11/17 data, 672 eligible): CDNA 1, IOVA 3, TXG 4, CAKE 6, CBRL 7, PAYS 12, AMPL 13, GTLB 21, all ≤ 25. Unheld top-8 names: SLN 2 (FAIL), HAE 5, UTZ 8. 0 slots, so no picks and no VETOs owed. Saved `ledger/ranks/2026-11-17.csv`.
+- Macro: **VIX closed 25.46 on 11/17** (above the 25 line), 23.77 live. IWM 269.05 (−1.43%). RTY flat live, NQ +0.95%. FOMC minutes 2 PM. NVDA after the close. If a stop opens a slot, the VIX rule pauses or reduces any refill. No trades. No ntfy.
+- Watch: GTLB at rank 21 is near the >25 exit line for Saturday's review. Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-17 — PREMARKET (Tuesday, Week 47 day 2) — 8 held, 0 open slots; reconciler MISSING fixed
 
 - Book: 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG), 91.3% of the $2,868 slice. IWM 0. **Floor met.** Weekly entries 4/5. Own book this week −2.34% vs IWM −1.64% (−0.70 pts). Since 10/6: +4.42 pts.

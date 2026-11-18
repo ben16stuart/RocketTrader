@@ -26,5 +26,8 @@ and IWM gave back ≈ 2% from Wednesday's 283.09. Rocket's book tracked IWM (+1.
 **Mon 11/16 CLOSE (settled):** VIX **22.91** (from 19.30, +19%). IWM **272.94** (−1.66%). SPY 739.95 (−1.91%). 10-yr 5.12% (−3bp). A broad risk-off day.
 **Tue 11/17 premarket (live):** VIX 23.40, RTY −0.52%, ES −0.26%, NQ −0.14%. Brent 92.57, WTI 85.91. VIX is near but under the 25 reduce-size line. Today: October retail sales and import prices at 8:30 ET, industrial production at 9:15 ET (calendar search; a PCE listing was not confirmed). The week also has FOMC minutes and Nvidia earnings (stockhub weekly calendar).
 
+**Tue 11/17 CLOSE (settled):** VIX **25.46** (from 22.91), **above the 25 reduce-size line at the close**. IWM **269.05** (−1.43%). SPY 732.44 (−1.01%). 10-yr 5.10% (−2bp).
+**Wed 11/18 premarket (live):** VIX 23.77 (−6.6%), RTY +0.03%, ES +0.47%, NQ +0.95%. Brent 89.90, WTI 83.78 (both rolled, true changes −0.5%/−1.0%). Gold 3,766 (−2.5%). Dollar 103.78. Today: housing starts and building permits (Oct) in the morning, **FOMC minutes at 2:00 PM ET**, **Nvidia earnings after the close** (some sources said 11/17; treat as tonight). VIX is above 22 (pause new entries) and closed above 25 (reduce size). No entries are planned anyway.
+
 **Week 47 calendar:** held names have no prints in the gate (GTLB 12/01). The new names have printed (TXG/IOVA 11/05, PAYS 11/09). CBRL reports 12/09.
 SMWB 11/17 (FAIL anyway). Macro: check the calendar at premarket (retail sales and FOMC minutes are typical mid-November releases; unconfirmed).

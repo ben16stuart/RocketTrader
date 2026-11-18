@@ -21,6 +21,10 @@ Book (11/13 close): 8 satellites ≈ 103% of a $2,925 slice. IWM 0. The 12.5% ca
 Ranking data as of 11/13 (757 eligible): CDNA 2, AMPL 6, CAKE 8, GTLB 11, **NSIT 41, PBF 42, OABI 50, REPL 157** → all four replaced.
 After the swap: HC = CDNA/TXG/IOVA (full). Tech = AMPL/GTLB/PAYS (full). Consumer Cyclical = CAKE/CBRL.
 
+### Wed 11/18 premarket — no slots open, no picks
+Ranking (11/17 data, 672 eligible): CDNA 1, IOVA 3, TXG 4, CAKE 6, CBRL 7, PAYS 12, AMPL 13, GTLB 21. All 8 are ≤ 25. GTLB is the closest to the exit line, and that is decided at Saturday's review, not daily. Unheld top-8 names: SLN 2 (FAIL, UK HQ), HAE 5, UTZ 8. With 0 slots open (4/5 entries used), nothing to pick or veto.
+Holdings check (8 searches): all results are Q3 recaps or older. CDNA's appeal hearing (11/09): no ruling found. PAYS plasma-center loss is the 11/09 print already in its thesis, not a new loss. GTLB "CFO transition" is the prior-year story. No dilution, going-concern, failed trial, guide cut or takeover. No thesis breaks.
+
 ### Tue 11/17 premarket — no slots open, no picks
 Ranking (11/16 data, 716 eligible): TXG 1, CDNA 2, IOVA 3, CBRL 6, CAKE 7, PAYS 10, AMPL 12, GTLB 18. All 8 are ≤ 25. Unheld top-8 names: HAE 4, UTZ 5, RCEL 8. With 0 slots open (and 4/5 entries used), nothing to pick or veto.
 Holdings check: 8 searches turned up only stale or undated items. IOVA "equity raise" is old: EDGAR since 11/05 shows only Form 4 and 13G filings. No thesis breaks.
