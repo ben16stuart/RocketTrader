@@ -2263,3 +2263,12 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-11-18 — market_close: no trades
 - Held all 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG), 94.0% of slice (floor met). IWM 0, target_core negative → no rebalance. Own book +1.98% vs IWM +0.39%.
 - GTLB -21.7% vs entry, ~2% from its 25% stop (stop's job). STT still UNATTRIBUTED (Bull's). Not touched.
+
+## 2026-11-19 — midday: no trades
+- All 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG) hold live 25% trailing stops (verified via Alpaca open orders); none fired, no slot opened, so no refill. Own book +0.35% today vs IWM -1.38%.
+- News check (GTLB, CDNA, IOVA inline): only stale or undated results (GTLB Q2/Q3 prints, CDNA FY25 results, IOVA 2025 data). No dilution, going-concern, guidance-cut or takeover found. No thesis break.
+- GTLB -20.7% vs entry at $45.01; stop trigger $43.51, about 3% away. The stop's job; not touched. STT still UNATTRIBUTED (Bull's).
+
+## 2026-11-19 — market_close: no trades
+- Held all 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG), 92.6% of slice (floor met). IWM 0, target_core negative → no rebalance. Own book -2.26% vs IWM -2.19%.
+- GTLB -23.0% vs entry, ~0.4% above its $43.51 stop trigger on last print (stop's job; not touched). STT still UNATTRIBUTED (Bull's).

@@ -3,6 +3,16 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-19 — PREMARKET (Thursday, Week 47 day 4) — 8 held, 0 open slots; CBRL missing from the ranking (download failure)
+
+- Book: 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG), ~94% of the $2,867 slice. IWM 0. **Floor met.** Weekly entries 4/5. Own book this week −0.02% vs IWM −2.68% (+2.66 pts). Since 10/6: +7.86 pts.
+- Holdings check (8 searches): no thesis breaks, only Q3 recaps and stale items.
+- `rank_screen.py` (11/18 data, 677 eligible; it ran ~6 min): CDNA 1, IOVA 2, TXG 4, CAKE 6, AMPL 10, PAYS 12, GTLB 23. **CBRL "NOT ELIGIBLE" came from a yfinance failed download (12 tickers failed), not real data.** No action. The weekly review must confirm its real rank. Unheld top 8: SLN 3 (FAIL), HAE 5, UTZ 7, ELF 8. No slots, so no picks or VETOs owed. Saved `ledger/ranks/2026-11-18.csv` (CBRL is absent from it).
+- Macro: VIX 24.56 close 11/18 (under 25), 21.94 live. RTY +0.72%, NQ +2.35% live (post-NVDA). IWM 270.12 (+0.40%). 10-yr 5.07%. Today: claims + Philly Fed 8:30, existing home sales 10:00. CBRL's annual meeting is today. No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-18 — PREMARKET (Wednesday, Week 47 day 3) — 8 held, 0 open slots; VIX closed 25.46
 
 - Book: 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG), 91.8% of the $2,855 slice. IWM 0. **Floor met.** Weekly entries 4/5. Own book this week −1.63% vs IWM −3.09% (+1.46 pts). Since 10/6: +6.59 pts.

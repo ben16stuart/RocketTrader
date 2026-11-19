@@ -21,6 +21,10 @@ Book (11/13 close): 8 satellites ≈ 103% of a $2,925 slice. IWM 0. The 12.5% ca
 Ranking data as of 11/13 (757 eligible): CDNA 2, AMPL 6, CAKE 8, GTLB 11, **NSIT 41, PBF 42, OABI 50, REPL 157** → all four replaced.
 After the swap: HC = CDNA/TXG/IOVA (full). Tech = AMPL/GTLB/PAYS (full). Consumer Cyclical = CAKE/CBRL.
 
+### Thu 11/19 premarket — no slots open, no picks
+Ranking (11/18 data, 677 eligible): CDNA 1, IOVA 2, TXG 4, CAKE 6, AMPL 10, PAYS 12, GTLB 23. **CBRL shows "NOT ELIGIBLE (short history)". That is a broken instrument, not a signal.** It was one of 12 yfinance failed downloads this run (CBRL, CAG, CE, CVI and others: "possibly delisted"), and it was rank 7 yesterday. Rules 15/38 apply: do not act on it. Saturday's review must re-run the ranking and confirm CBRL's real rank before calling any decay. GTLB 23 is still the closest to the >25 line. Unheld top-8 names: SLN 3 (FAIL), HAE 5, UTZ 7, ELF 8. 0 slots open (4/5 entries used), so no picks and no VETOs owed.
+Holdings check (8 searches): nothing new or thesis-breaking. Results were Q3 recaps (AMPL, TXG and IOVA raised guides; PAYS's plasma-center loss is the known 11/09 item; GTLB's CFO story is prior-year). CDNA appeal: still no ruling found. CBRL meeting today: the search returned only the 2025 contest (rule 33). No dilution, going-concern, failed trial, guide cut or takeover.
+
 ### Wed 11/18 premarket — no slots open, no picks
 Ranking (11/17 data, 672 eligible): CDNA 1, IOVA 3, TXG 4, CAKE 6, CBRL 7, PAYS 12, AMPL 13, GTLB 21. All 8 are ≤ 25. GTLB is the closest to the exit line, and that is decided at Saturday's review, not daily. Unheld top-8 names: SLN 2 (FAIL, UK HQ), HAE 5, UTZ 8. With 0 slots open (4/5 entries used), nothing to pick or veto.
 Holdings check (8 searches): all results are Q3 recaps or older. CDNA's appeal hearing (11/09): no ruling found. PAYS plasma-center loss is the 11/09 print already in its thesis, not a new loss. GTLB "CFO transition" is the prior-year story. No dilution, going-concern, failed trial, guide cut or takeover. No thesis breaks.

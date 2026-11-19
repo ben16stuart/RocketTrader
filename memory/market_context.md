@@ -29,5 +29,8 @@ and IWM gave back ≈ 2% from Wednesday's 283.09. Rocket's book tracked IWM (+1.
 **Tue 11/17 CLOSE (settled):** VIX **25.46** (from 22.91), **above the 25 reduce-size line at the close**. IWM **269.05** (−1.43%). SPY 732.44 (−1.01%). 10-yr 5.10% (−2bp).
 **Wed 11/18 premarket (live):** VIX 23.77 (−6.6%), RTY +0.03%, ES +0.47%, NQ +0.95%. Brent 89.90, WTI 83.78 (both rolled, true changes −0.5%/−1.0%). Gold 3,766 (−2.5%). Dollar 103.78. Today: housing starts and building permits (Oct) in the morning, **FOMC minutes at 2:00 PM ET**, **Nvidia earnings after the close** (some sources said 11/17; treat as tonight). VIX is above 22 (pause new entries) and closed above 25 (reduce size). No entries are planned anyway.
 
+**Wed 11/18 CLOSE (settled):** VIX **24.56** (from 25.46, under 25 at the close). IWM **270.12** (+0.40%). SPY 730.20 (−0.31%). 10-yr 5.07% (−3bp).
+**Thu 11/19 premarket (live):** VIX 21.94 (−10.7%), RTY +0.72%, ES +1.31%, NQ +2.35% (post-NVDA tone). Brent 88.99, WTI 82.08 (both rolled; true changes −0.2%/−0.3%). Gold 3,728. Dollar 103.68. VIX is back under 22 live, so no pause or reduce rule binds today. CBRL's annual meeting is today (uncontested). Today: jobless claims + Philly Fed (Nov) 8:30 ET, existing home sales (Oct) 10:00 ET (finviz/Econoday calendar). No entries are planned (0 slots).
+
 **Week 47 calendar:** held names have no prints in the gate (GTLB 12/01). The new names have printed (TXG/IOVA 11/05, PAYS 11/09). CBRL reports 12/09.
 SMWB 11/17 (FAIL anyway). Macro: check the calendar at premarket (retail sales and FOMC minutes are typical mid-November releases; unconfirmed).
