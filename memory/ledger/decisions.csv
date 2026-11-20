@@ -56,3 +56,8 @@ date,time,sym,decision,rank,reason
 2026-11-16,07:46,IOVA,BUY,3,"DE; ATM terminated 9/30, no new dilution, no binary in 10d"
 2026-11-16,07:46,PAYS,BUY,9,"NV; Q3 profit guides raised, rev guide reaffirmed, no dilution"
 2026-11-16,07:46,CBRL,BUY,15,"TN; earnings 12/09, annual meeting 11/19 not binary"
+2026-11-20,10:17,APPN,BUY,9,"Rank 9; Q3 beat, FY guide raised, DE, no dilution found; fills GTLB slot (healthcare cap full, UTZ merger veto)"
+2026-11-20,10:17,RCEL,VETO,4,hard: healthcare sector cap full (CDNA/TXG/IOVA)
+2026-11-20,10:17,ATRC,VETO,6,hard: healthcare sector cap full
+2026-11-20,10:17,UTZ,VETO,7,judgment: pending going-private merger pins price
+2026-11-20,10:17,SLN,VETO,2,hard: gate FAIL non-US HQ (UK)

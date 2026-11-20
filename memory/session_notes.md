@@ -156,3 +156,6 @@ Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` d
 - No trades. All 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG) hold live trailing stops per open orders; none fired, no slot opened, so no refill. Own book -2.36% vs IWM -1.17% (loss cap $144: OK).
 - News check (GTLB, CDNA, CAKE inline): results stale/undated, nothing dated today. No dilution, going-concern, guidance-cut or takeover found. No thesis break. GTLB -16.5% and CDNA -12.9% vs entry are price moves; the stop's job.
 - STT still UNATTRIBUTED at broker (Bull's). Not touched.
+
+## 2026-11-20 midday
+- GTLB stopped out at $43.365 (about -$80). Filled slot with APPN (rank 9, 6 sh @ $51.73, 25% trail). Weekly trades 1/5. No thesis breaks among others (news searches found nothing fresh). 11/20 premarket rank file did not exist; midday ran rank_screen.py.

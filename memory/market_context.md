@@ -32,5 +32,8 @@ and IWM gave back ≈ 2% from Wednesday's 283.09. Rocket's book tracked IWM (+1.
 **Wed 11/18 CLOSE (settled):** VIX **24.56** (from 25.46, under 25 at the close). IWM **270.12** (+0.40%). SPY 730.20 (−0.31%). 10-yr 5.07% (−3bp).
 **Thu 11/19 premarket (live):** VIX 21.94 (−10.7%), RTY +0.72%, ES +1.31%, NQ +2.35% (post-NVDA tone). Brent 88.99, WTI 82.08 (both rolled; true changes −0.2%/−0.3%). Gold 3,728. Dollar 103.68. VIX is back under 22 live, so no pause or reduce rule binds today. CBRL's annual meeting is today (uncontested). Today: jobless claims + Philly Fed (Nov) 8:30 ET, existing home sales (Oct) 10:00 ET (finviz/Econoday calendar). No entries are planned (0 slots).
 
+**Thu 11/19 CLOSE (settled):** VIX **28.44** (from 24.56), **above the 25 reduce-size line at the close**. IWM **264.22** (−2.18%). SPY 715.87 (−1.96%). 10-yr 5.05% (−2bp). The post-NVDA bounce reversed into a broad sell-off.
+**Fri 11/20 premarket (live):** **VIX 30.47 (+7.1%), above the 30 no-new-longs line.** RTY −0.32%, ES −0.94%, NQ −1.84%. Brent 89.28, WTI 82.24 (both rolled; true −0.2%/−0.2%). Gold 3,576 (−3.0%). Dollar 103.84. Today's US calendar is light (one search: state employment at 10:00 ET; the flash PMIs were not confirmed). **No new longs while VIX is >30. Between 25 and 30, half size.** This applies to any refill if GTLB's stop fires. It is risk-off, not a bearish-cash thesis, so do not raise cash.
+
 **Week 47 calendar:** held names have no prints in the gate (GTLB 12/01). The new names have printed (TXG/IOVA 11/05, PAYS 11/09). CBRL reports 12/09.
 SMWB 11/17 (FAIL anyway). Macro: check the calendar at premarket (retail sales and FOMC minutes are typical mid-November releases; unconfirmed).

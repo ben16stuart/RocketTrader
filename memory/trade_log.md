@@ -2272,3 +2272,17 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 ## 2026-11-19 — market_close: no trades
 - Held all 8 satellites (AMPL, CAKE, CBRL, CDNA, GTLB, IOVA, PAYS, TXG), 92.6% of slice (floor met). IWM 0, target_core negative → no rebalance. Own book -2.26% vs IWM -2.19%.
 - GTLB -23.0% vs entry, ~0.4% above its $43.51 stop trigger on last print (stop's job; not touched). STT still UNATTRIBUTED (Bull's).
+
+## 2026-11-20 — GTLB SELL (25% trailing stop fired)
+- 6 @ $43.365 filled 09:33 ET. Entry ~$56.74 → about -$80 (-23.6%). Stop did its job; rank was 18 at exit.
+
+## 2026-11-20 — APPN BUY
+- Shares: 6 @ $51.73 | Rank 9 | Sector: Technology
+- Stop: 25% trailing (hwm $51.64 at placement). Funded from pooled cash (no IWM held, no funding sale needed).
+- Thesis: Q3 beat with FY guide raised, Delaware, no offering/ATM found, earnings passed (11/05). Break: dilution, guide cut, going-concern.
+
+## 2026-11-20 — midday notes
+- Premarket rank file for 11/20 was missing; ran rank_screen.py at midday to fill the slot. Top-8 vetoes logged: SLN (non-US), RCEL/ATRC (healthcare cap), UTZ (merger). STT still UNATTRIBUTED (Bull's).
+
+## 2026-11-20 — market_close: no trades
+- Held all 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, IOVA, PAYS, TXG), 92.6% of slice (floor met). IWM 0, target_core negative → no rebalance. Own book -3.34% vs IWM -2.77% (lagged on the day). STT still UNATTRIBUTED (Bull's). Not touched.
