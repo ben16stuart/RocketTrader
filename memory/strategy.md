@@ -70,7 +70,8 @@ construction.** Every basis point of "Rocket vs IWM" comes from satellites plus 
 | **W44 (10/26–10/30)** | **+7.32%** | **+1.30%** | **+6.02%** | **96.1%** | REPL ≈ +6.5 pts (earnings + 10-Q, $11.46 → $17.61). Rest of the book ≈ IWM. DK exit −2.6% |
 | **W45 (11/02–11/06)** | **−3.02%** | **−2.03%** | **−0.99%** | **103.0%** | Thu 11/05 beta (book ≈ −7.1% vs IWM −4.6%). Realized −$55 (TXG, QMCO stops). REPL +$130 vs GTLB/CAKE/CDNA marks. 4/4 exits beat holding |
 | **W46 (11/09–11/13)** | **+1.61%** | **+1.41%** | **+0.20%** | **103.2%** | Book ≈ IWM. 2 rank-decay swaps (CLDT +12% realized, PD −5%), no stops. AMPL/PBF ≈ +1% from entry |
-| Since rebase 7/20 | +0.74% | −5.05% | **+5.80%** | | `agent_performance.py` (from fills). Since 10/06: +3.89% vs −1.35% = +5.24 pts |
+| **W47 (11/16–11/20)** | **−5.80%** | **−7.54%** | **+1.74%** | **92.4%** | Risk-off week (VIX 19 → 36). Mon rotation paid: 4 exits −7.1% avg after sale vs 4 buys −2.0%. GTLB stop −$80. ~7.6% cash buffer ≈ +0.6 pts |
+| Since rebase 7/20 | −5.10% | −12.21% | **+7.12%** | | `agent_performance.py` (from fills). Since 10/06: −2.14% vs −8.79% = +6.65 pts |
 
 Pre-W36 attribution vs SPY (W30–W35) lives in `archive/strategy_history.md`. Stock picking
 was +0.68% cumulative through W35, ≈ −0.24% in W39, ≈ +0.54% in W40 (RARE + AGEN).
@@ -159,6 +160,9 @@ median ADV (46) · issuer filing over any secondary source (57b/65) · 8-K Item 
   10d +2.57% / −0.36% / +0.24% (w=2). 20d +10.05% / −9.08% / +0.04% (w=1). Bar: ≥ 6 non-overlapping 20d windows and |t| ≥ 2. **Not met.**
   Judgment: BUY 5d −0.26% (15 names), 10d −0.09% (12), **20d +12.59% (5)**; VETO +1.28% (15), −0.34% (11), +4.99% (4). EXIT 5d −4.63% (6), 10d −13.39% (4).
   Random twins: BUY 5d 48th pct, 10d 52nd, **20d 97th (n=5)**. That is the first reading above the 95th, but it is 5 names and mostly REPL. Not evidence until n ≥ 10.
+- 🧪 **Ledger W47 (no change):** Signal 5d top 8 +1.63% / 9–25 −0.36% / 26+ +0.09% (w=5); top8−26+ +1.54%, **t +0.49**. 10d w=2, 20d w=1. **Bar not met** (≥ 6 non-overlapping 20d windows, |t| ≥ 2).
+  Judgment: BUY 5d +0.67% (19 names), 10d −0.14% (15), **20d +4.39% (8)**; VETO +0.69% (16), −0.92% (15), **20d −6.97% (10 names)**. EXIT 5d −4.02% (10), 10d −8.12% (6): exits keep dodging losses.
+  Random twins: BUY 5d 56th pct, 10d 51st, 20d 82nd (n=8). Down from 97th last week as REPL rolled out: **indistinguishable from chance.** VETO 20d is now at 10 names and *below* BUY, so the vetoes are helping, with no case to loosen anything. HC-cap category alone is still < 10 names at 20d.
 - ✅ **Ruled W44: the cap gate is entry-only.** CLAUDE.md's exits are stop / thesis break / rank >25 / below 200d. Selling the #1 name for growing past $10B would sell a winner for winning. (TXG drifted back to $9.1B anyway.)
 
 - 32a: RARE held 9/25, 9/28, 9/29 with the stop <2% away; recovered to +0.9%. First data point positive.

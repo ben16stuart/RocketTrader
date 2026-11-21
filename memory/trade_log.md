@@ -2286,3 +2286,8 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 
 ## 2026-11-20 — market_close: no trades
 - Held all 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, IOVA, PAYS, TXG), 92.6% of slice (floor met). IWM 0, target_core negative → no rebalance. Own book -3.34% vs IWM -2.77% (lagged on the day). STT still UNATTRIBUTED (Bull's). Not touched.
+
+## 2026-11-21 — weekly_review (W47): no trades
+- Rank decay (11/20 data): PAYS 29 > 25 → Mon 11/23 REPLACE PAYS → INTA (rank 10). **VIX closed 35.89: if > 30 at the open, sell PAYS into IWM, no INTA buy.** 25–30 → INTA 3 sh, < 25 → 7 sh. See research_log W48.
+- ✅ CLOSED: APPN incorporation = Delaware (10-Q cover, verified 11/21). W47 entries used 5/5 (the 11/20 midday's "1/5" was wrong). The cap resets Monday.
+- STT still UNATTRIBUTED (Bull's). Not touched.

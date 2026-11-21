@@ -4370,3 +4370,58 @@ Top-8 VETOs **logged 11/09**: TXG #1, IOVA #4, RCEL #6, HAE #7 (HC cap), UTZ #3 
   The CDNA search returned Caribou (CRBU) again: wrong company, no read. GTLB results are the Dec 2025 print (stale). REPL: Tudriqev launched (15+ institutions); no 8-K
   since 11/06, so the "earnings 11/13 BMO" stays unverified (rule 39). AMPL/NSIT/PBF/CAKE: only the Q3 prints already on file.
 
+
+
+<!-- Week 47 board archived at W47 review 2026-11-21 -->
+## Watchlist — Week 47 (Mon 11/16 – Fri 11/20), built at the W46 review Sat 11/14  ← CURRENT
+
+Book (11/13 close): 8 satellites ≈ 103% of a $2,925 slice. IWM 0. The 12.5% cap ≈ **$365**. The weekly entry cap resets to **5**.
+Ranking data as of 11/13 (757 eligible): CDNA 2, AMPL 6, CAKE 8, GTLB 11, **NSIT 41, PBF 42, OABI 50, REPL 157** → all four replaced.
+After the swap: HC = CDNA/TXG/IOVA (full). Tech = AMPL/GTLB/PAYS (full). Consumer Cyclical = CAKE/CBRL.
+
+### Thu 11/19 premarket — no slots open, no picks
+Ranking (11/18 data, 677 eligible): CDNA 1, IOVA 2, TXG 4, CAKE 6, AMPL 10, PAYS 12, GTLB 23. **CBRL shows "NOT ELIGIBLE (short history)". That is a broken instrument, not a signal.** It was one of 12 yfinance failed downloads this run (CBRL, CAG, CE, CVI and others: "possibly delisted"), and it was rank 7 yesterday. Rules 15/38 apply: do not act on it. Saturday's review must re-run the ranking and confirm CBRL's real rank before calling any decay. GTLB 23 is still the closest to the >25 line. Unheld top-8 names: SLN 3 (FAIL), HAE 5, UTZ 7, ELF 8. 0 slots open (4/5 entries used), so no picks and no VETOs owed.
+Holdings check (8 searches): nothing new or thesis-breaking. Results were Q3 recaps (AMPL, TXG and IOVA raised guides; PAYS's plasma-center loss is the known 11/09 item; GTLB's CFO story is prior-year). CDNA appeal: still no ruling found. CBRL meeting today: the search returned only the 2025 contest (rule 33). No dilution, going-concern, failed trial, guide cut or takeover.
+
+### Wed 11/18 premarket — no slots open, no picks
+Ranking (11/17 data, 672 eligible): CDNA 1, IOVA 3, TXG 4, CAKE 6, CBRL 7, PAYS 12, AMPL 13, GTLB 21. All 8 are ≤ 25. GTLB is the closest to the exit line, and that is decided at Saturday's review, not daily. Unheld top-8 names: SLN 2 (FAIL, UK HQ), HAE 5, UTZ 8. With 0 slots open (4/5 entries used), nothing to pick or veto.
+Holdings check (8 searches): all results are Q3 recaps or older. CDNA's appeal hearing (11/09): no ruling found. PAYS plasma-center loss is the 11/09 print already in its thesis, not a new loss. GTLB "CFO transition" is the prior-year story. No dilution, going-concern, failed trial, guide cut or takeover. No thesis breaks.
+
+### Tue 11/17 premarket — no slots open, no picks
+Ranking (11/16 data, 716 eligible): TXG 1, CDNA 2, IOVA 3, CBRL 6, CAKE 7, PAYS 10, AMPL 12, GTLB 18. All 8 are ≤ 25. Unheld top-8 names: HAE 4, UTZ 5, RCEL 8. With 0 slots open (and 4/5 entries used), nothing to pick or veto.
+Holdings check: 8 searches turned up only stale or undated items. IOVA "equity raise" is old: EDGAR since 11/05 shows only Form 4 and 13G filings. No thesis breaks.
+
+### Mon 11/16 — 4 replacements → premarket confirms on fresh data, market_open executes
+**Order at 9:35:** (1) cancel the trailing stops on NSIT, PBF, OABI and REPL. Then `sell NSIT 2`, `sell PBF 5`, `sell OABI 70`, `sell REPL 32` (raw qty from `GET /v2/positions`, rule 24).
+Log the EXITs: `candidate_ledger.py log NSIT EXIT "rank decay 41 > 25 at W46 review" --rank 41`, likewise PBF --rank 42, OABI --rank 50, REPL --rank 157.
+Join the four sales in one trade_log header with **`+`** (rule 20b).
+(2) Proceeds ≈ $1,738 cover all four buys (≈ $1,376), so no IWM funding sale. (3) BUY at market. (4) Place 25% trailing stops. (5) Log the BUYs. (6) market_close sweeps the ≈ $360 leftover into IWM.
+**Size (re-run `size SYM ENTRY STOP` at the live price, STOP = ENTRY × 0.75):** TXG 6 · IOVA 45 · PAYS 36 · CBRL 5 (11/13: $58.19 / $7.76 / $9.52 / $66.95).
+VIX 19.30 close 11/13. Over 25 means half size; over 30 means no new longs (the exits still happen and the proceeds go to IWM).
+Skip a name that opens >8% above Friday's close on no news. If NSIT/PBF/OABI/REPL re-rank ≤25 Monday, **still replace them** (decay is judged on Saturday's data).
+
+1. **TXG #1 (HC)** — DE. Q3 8-K 2.02 11/05, 10-Q 11/06. The 8-K 5.02 (11/02) **adds** 2 directors (read). No S-1/S-3/424B. Prior trade: stopped 11/02 @ $65.91; now $58.19. GO.
+2. **IOVA #3 (HC)** — DE. Q3 11/05. 8-K 8.01: 10/29 Phase 2 lung data (already out); 11/05 corporate deck. Interim CEO (GC acting) is a note.
+   **Premarket owes, before the order:** (a) ATM draws in the 11/05 10-Q's subsequent-events/equity note (a draw in the last 30 days = dilution VETO); (b) no PDUFA, AdCom or readout within 10 trading days (hard VETO). Fails → **HAE #4** (MA, earnings 2027-02-04, clean; 2 shares, whole-share cap).
+3. **PAYS #9 (Tech)** — NV. Q3 8-K 2.02 11/09, 10-Q 11/10. No S-1/S-3/424B. Cap $541M, rev growth +43%. **Premarket owes:** read ex-99.1 and log whether the guide was raised (rule 5, advisory).
+4. **CBRL #15 (Consumer Cyclical)** — TN. Earnings 12/09. Short 27%. DEFA14A 11/09 = proxy supplement on "blank check" preferred provisions.
+   **Premarket owes:** one news search. Is there an activist fight, and is the meeting vote inside 10 trading days? This is judgment: log it either way. If vetoed: ELF #22, then LIND #35.
+- ✅ **PREMARKET 11/16 CONFIRMED all four. Status: WATCHING (added 2026-11-16).** `rank_screen.py` is still on 11/13 data: TXG 1, IOVA 3, PAYS 9, CBRL 15, identical to the review. VIX 19.91 live means full size.
+  - **IOVA**: the 10-Q shows the 2025 Jefferies ATM sold 8.67M sh for $87.9M net at $10.34 in Q3, and the agreement **terminated at 9/30 (fully used)**. No 424B/S-3 since 10/15, so no draw in the last 30 days and no fresh-dilution veto. The 10-Q says "no assurance" funds cover 12 months but then "we believe we have sufficient capital" with no "substantial doubt", so this is **not** a going concern. **Risk: a new ATM or offering is likely**, and if one is filed that is a thesis break. No PDUFA, AdCom or readout found within 10 trading days (the search's "PDUFA 11/25" is the 2023–24 lifileucel item, now approved). Break: a new ATM, S-3 or offering, or a failed readout.
+  - **PAYS**: per ex-99.1 (11/09), the FY26 revenue guide of $114–117M is **reaffirmed (0%, rule 5f)**. Gross margin, net income, EPS and adj. EBITDA guides are **raised**. 113 plasma centers move to another provider in Q4. Rule 5 is advisory: logged as a note, not a veto. Break: a revenue-guide cut, or more center losses.
+  - **CBRL**: the 2026 annual meeting is **Thu 11/19** (DEFA14A). It is a 9-director slate plus a shareholder (TAB) proposal on "blank check" preferred. **No 2026 Biglari contest on EDGAR** (no DFAN14A). The search's ISS/Glass Lewis/Egan-Jones withhold stories are the 2025 meeting (rule 33: date the news). This is not a binary price event, so PICK. Break: a guide cut at 12/09, an issuance, or a contested-control event.
+  - **TXG**: no new filings since the review except a Form 4. GO.
+- **VETOs LOGGED 11/16** (top 8 not held/bought): HAE #4 (HC cap), UTZ #5 (going-private pending; 8-K 8.01 11/13), ABCL #7 (FAIL, non-US HQ).
+- ~~VETOs to log Mon (top 8 not held/bought):~~ HAE #4 (HC cap, if IOVA is bought), UTZ #5 (going-private, pinned), ABCL #7 (FAIL non-US HQ).
+- **Binary events, held names, W47:** none. GTLB reports 12/01.
+
+### Held satellites — thesis cards (break = specific news, never price)
+- **CDNA** (4 @ $86.10, HC): Q3 rev +39%, 3rd straight guide raise. Patent appeal heard 11/09 (≈$96M at stake): check a ruling against its cash. Break: a guide cut, a Medicare/LCD reimbursement hit, an equity raise.
+- **GTLB** (6 @ $56.75, Tech): Q2 beat + raise. Earnings 12/01. Break: a guide cut, an exec exit, a seat hit (CVE fallout).
+- **CAKE** (3 @ $117.25, Consumer): Q3 comps +15.2%. Short 40%. 8-K 5.02 11/10 = bakery president retiring (benign). Break: a comp slowdown, a margin hit, an issuance.
+- **AMPL** (20 @ $17.15, Tech): Q3 rev +25%, ARR +24%, FY guide +1.9%. Break: a guide cut, an equity raise.
+- Exiting Mon 11/16 (rank decay): **NSIT** (2 @ $162.53), **PBF** (5 @ $70.54), **OABI** (70 @ $5.08), **REPL** (32 @ $10.99, +99%).
+- ~~PD~~ / ~~CLDT~~ (rank decay 11/09), ~~TXG~~ (stop 11/02), ~~QMCO~~ (stop 11/05), ~~NEO~~ / ~~KELYA~~ (rank decay 11/02), ~~DK~~ (rank decay 10/26).
+- ✅ **CLOSED, do not carry forward (rule 39):** "CDNA 11/5 8-K" (a Form 144), "REPL FQ2 11/6" (a 10-Q/A for 10b5-1 plans), "REPL earnings 11/13 BMO" (no 11/13 filing on EDGAR).
+
+
