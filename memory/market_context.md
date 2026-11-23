@@ -22,3 +22,5 @@ Rocket's book (−5.80%) fell less than IWM. This is **not a bearish-cash thesis
 **Live constraint for Monday:** **VIX > 30 = no new longs.** The PAYS rank-decay exit still happens, and its proceeds go to IWM. See research_log W48.
 
 **Week 48 calendar:** Thanksgiving Thu 11/26 (closed), Fri 11/27 half day (1:00 PM ET close). Held names: no prints in the gate. CBRL earnings 12/02 or 12/09 (confirm). Macro: check at premarket.
+
+**Mon 11/23 premarket (LIVE, not closes):** VIX 29.67 (−17% vs 35.89), RTY +2.37%, ES +2.92%, NQ +3.61%, gold 3,621 (+3.0%), Brent 88.58 / WTI 82.29 (roll-corrected −1.5% / −1.3%). A relief bounce is forming. **VIX is in the 25–30 band → half size** for any new long if it holds there at the open.

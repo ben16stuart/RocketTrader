@@ -61,3 +61,9 @@ date,time,sym,decision,rank,reason
 2026-11-20,10:17,ATRC,VETO,6,hard: healthcare sector cap full
 2026-11-20,10:17,UTZ,VETO,7,judgment: pending going-private merger pins price
 2026-11-20,10:17,SLN,VETO,2,hard: gate FAIL non-US HQ (UK)
+2026-11-23,04:21,SLN,VETO,2,gate FAIL: non-US HQ (United Kingdom)
+2026-11-23,04:21,RCEL,VETO,4,HC sector cap: CDNA/TXG/IOVA hold 3 HC satellites
+2026-11-23,04:21,ATRC,VETO,6,HC sector cap: CDNA/TXG/IOVA hold 3 HC satellites
+2026-11-23,04:21,UTZ,VETO,7,pending going-private deal pins the price
+2026-11-23,07:46,PAYS,EXIT,29,rank decay 29 > 25 at W47 review
+2026-11-23,07:46,INTA,BUY,10,"Q1 FY27 beat, DE, no dilution/S-3; replaces PAYS; half size (VIX 26.8)"

@@ -2291,3 +2291,22 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 - Rank decay (11/20 data): PAYS 29 > 25 → Mon 11/23 REPLACE PAYS → INTA (rank 10). **VIX closed 35.89: if > 30 at the open, sell PAYS into IWM, no INTA buy.** 25–30 → INTA 3 sh, < 25 → 7 sh. See research_log W48.
 - ✅ CLOSED: APPN incorporation = Delaware (10-Q cover, verified 11/21). W47 entries used 5/5 (the 11/20 midday's "1/5" was wrong). The cap resets Monday.
 - STT still UNATTRIBUTED (Bull's). Not touched.
+
+## 2026-11-23 — PAYS SELL
+- 37 @ $10.10 (entry $9.38, about +$27, +7.7%). Rank decay 29 > 25 at W47 review; trailing stop cancelled first.
+
+## 2026-11-23 — INTA BUY
+- Shares: 3 @ $43.65 (half size, VIX 26.76 in the 25–30 band) | Rank 10 | Sector: Technology
+- Catalyst / story: Q1 FY27 results 10/27; DE incorporation (EDGAR); no S-1/S-3/424B; no fresh news this morning. Prior settled close $43.45.
+- Stop: 25% trailing (hwm $43.42 at placement, stop ~$32.57). No targets; exits on stop, thesis break, or weekly rank > 25.
+- Thesis: Systematic momentum rank 10 replacing decayed PAYS; Tech now AMPL/APPN/INTA (3, at cap). Funded from pooled cash, no IWM funding sale needed. Break: guide cut, dilution, exec exit.
+
+## 2026-11-23 — midday: no trades
+- All 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, INTA, IOVA, TXG) hold live 25% trailing stops (verified via Alpaca open orders); none fired, no slot opened, so no refill. Own book +3.10% today vs IWM +3.27%.
+- News check (IOVA, CDNA, CAKE, AMPL inline): nothing fresh. IOVA Q3 record revenue 11/5; no dilution, going-concern, guidance-cut or takeover found. No thesis break. IOVA -14.4% and CDNA -12.7% vs entry are the stop's job. STT still UNATTRIBUTED (Bull's).
+
+## 2026-11-23 — IWM BUY (CORE REBALANCE)
+- 0.33 sh @ ~$265.69 (~$88). Satellites 86.9% of slice, target_core $88 > 3% band ($85). No stop on IWM. Floor met.
+
+## 2026-11-23 — market_close
+- Held all 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, INTA, IOVA, TXG), floor met. Own book +4.63% vs IWM +3.57%. STT/Bull positions not touched.

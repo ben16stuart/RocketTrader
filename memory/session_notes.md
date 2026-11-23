@@ -3,6 +3,17 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-23 — PREMARKET (Monday, Week 48 day 1) — PAYS → INTA confirmed; VIX 29.67 live → INTA half size (3 sh) if still 25–30 at the open
+
+- Book: 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, IOVA, PAYS, TXG), ~92% of the $2,802 slice. IWM 0. **Floor met.** Weekly entries 0/5. 1 slot opens when PAYS exits (rank 29).
+- Holdings check (7 searches; PAYS skipped as it is exiting): no thesis breaks. Only Q3 recaps (CDNA, TXG and APPN guide raises; IOVA record Q3; AMPL +25%), TXG's 11/16 collaborations, and CAKE's dividend. No dilution, going-concern, guide cut or takeover.
+- `rank_screen.py` (11/20 data, 546 eligible; identical to the W47 review): CDNA 1, TXG 3, AMPL 5, IOVA 8, APPN 9, CAKE 12, CBRL 17, PAYS 29. Pick: **INTA #10** (DE; EDGAR shows only insider Form 4/144 and the 8-K 5.07, no dilution filings). **VETOs logged:** SLN 2 (non-US), RCEL 4 and ATRC 6 (HC cap), UTZ 7 (going-private pin).
+- CBRL earnings **12/02** confirmed (not an exit trigger).
+- Macro: **VIX 29.67 live** (35.89 close 11/20). RTY +2.37%, ES +2.92%, NQ +3.61% live. Gold +3.0%. 10-yr 4.91% (11/20). Thanksgiving week: closed Thursday, half day Friday. No trades. No ntfy.
+- market_open: execute research_log "Mon 11/23" with the VIX gate at 9:35. Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-21 — WEEKLY REVIEW (Week 47, Saturday) — Grade B; satellites 92.4% avg; PAYS → INTA Monday (VIX-gated)
 
 - Book **−5.80%** vs IWM −7.54% (**+1.74 pts**, ≈ −$170). Since 10/6 +6.65 pts. Since 7/20 +7.12 pts. Floor met 5/5 (avg 92.4%).

@@ -32,6 +32,11 @@ After the swap: HC = CDNA/TXG/IOVA (full). Tech = AMPL/APPN/INTA. Consumer Cycli
 - **Binary events, held names, W48:** none inside the window. **CBRL earnings: the ranker says 12/02, the W46 board said 12/09.** Premarket confirms the date (it's not an exit trigger).
 - **The weekly entry cap is reset to 5.** W47 used 5/5 (TXG, IOVA, PAYS, CBRL, APPN). The 11/20 midday's "1/5" was wrong.
 
+**✅ Premarket 11/23 (Mon) confirmed the swap.** Ranking still on 11/20 data (same as the review): PAYS 29, INTA 10. INTA owed checks DONE: EDGAR (CIK 1565687, **DE**) since 11/10 shows only Form 4 / 144 insider sales and the 11/20 8-K 5.07, so **no S-1/S-3/424B**. News: FQ1 FY27 results 10/27, nothing thesis-breaking, and no fresh dated item. Earnings early Feb → gate OK. Tech after the swap = AMPL/APPN/INTA (3, at cap).
+**VIX at 11/23 premarket: 29.67 LIVE (close 35.89 on 11/20).** If it is in 25–30 at 9:35, buy **INTA 3 sh (half)**. Above 30, sell PAYS into IWM and skip INTA. Below 25, buy 7 sh. Re-read the VIX at the open.
+**CBRL earnings confirmed 2026-12-02** (`eligibility`). That is 6 trading days out, outside the 5-day entry gate. It is not an exit trigger (held name).
+**Top-8 VETOs logged 11/23:** SLN 2, RCEL 4, ATRC 6, UTZ 7.
+
 ### Held satellites — thesis cards (break = specific news, never price)
 - **CDNA** (4 @ $86.10, HC): Q3 rev +39%, 3rd straight guide raise. Patent appeal heard 11/09 (≈$96M): no ruling found yet. Break: guide cut, Medicare/LCD hit, equity raise.
 - **TXG** (6 @ $55.86, HC): Q3 filed, 2 directors added. Break: guide cut, dilution.
@@ -39,7 +44,7 @@ After the swap: HC = CDNA/TXG/IOVA (full). Tech = AMPL/APPN/INTA. Consumer Cycli
 - **AMPL** (20 @ $17.15, Tech): Q3 rev +25%, FY guide +1.9%. Break: guide cut, equity raise.
 - **APPN** (6 @ $51.73, Tech): Q3 beat + FY raise (8-K 2.02 11/05). **DE, verified 11/21 on the 10-Q cover** (EDGAR JSON field blank). Break: dilution, guide cut. (Bought at full size with VIX > 30. See W47 review.)
 - **CAKE** (3 @ $117.25, Consumer): Q3 comps +15.2%, short 36%. Break: comp slowdown, margin hit, issuance.
-- **CBRL** (5 @ $67.16, Consumer): 11/19 meeting uncontested. Earnings 12/02 or 12/09 (confirm). Break: guide cut, issuance, contested-control event.
+- **CBRL** (5 @ $67.16, Consumer): 11/19 meeting uncontested. Earnings **12/02** (confirmed 11/23). Break: guide cut, issuance, contested-control event.
 - Exiting Mon 11/23: **PAYS** (37 @ $9.38, rank 29).
 - ~~GTLB~~ (stop 11/20 @ $43.365, −23.6%), ~~NSIT~~ / ~~PBF~~ / ~~OABI~~ / ~~REPL~~ (rank decay 11/16). Older exits: see archive.
 - ✅ **CLOSED, do not carry forward (rule 39):** "CDNA 11/5 8-K" (a Form 144), "REPL FQ2 11/6" (a 10-Q/A), "REPL earnings 11/13 BMO" (no filing).
