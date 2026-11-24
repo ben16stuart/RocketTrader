@@ -37,6 +37,10 @@ After the swap: HC = CDNA/TXG/IOVA (full). Tech = AMPL/APPN/INTA. Consumer Cycli
 **CBRL earnings confirmed 2026-12-02** (`eligibility`). That is 6 trading days out, outside the 5-day entry gate. It is not an exit trigger (held name).
 **Top-8 VETOs logged 11/23:** SLN 2, RCEL 4, ATRC 6, UTZ 7.
 
+**Premarket Tue 11/24: 8 held, 0 open slots, no picks owed.** Weekly entries 1/5 (INTA). Ranking (11/23 data, 620 eligible): CDNA 1, TXG 4, AMPL 6, INTA 7, IOVA 9, APPN 10, CBRL 21, **CAKE 33**. CAKE is over the exit line on one day's data. Rank decay is decided at Saturday's review only, so there is **no action today**. Watch it for the W48 review. Unheld top 8: RCEL 2 / UTZ 3 / SLN 5 (FAIL) / VIA 8. No slots were skipped, so no VETOs are owed.
+- Holdings check (8 searches): no thesis breaks. Only Q3 recaps, CAKE's 11/24 dividend payment, and TXG's 11/16 collaborations. The INTA "CFO sold 10,000 sh on Mon Nov 24" hit links to a **2025-11-27** URL, so it is a stale item misdated (rules 39, 62). The CDNA appeal still has no ruling found.
+- **If a stop opens a slot, refill in rank order:** VIA #8 (Tech is at cap 3, so VETO), then ATRC #11 (HC is at cap), HNGE #12 (HC cap), PD #13 (Tech cap; earnings 12/03), ELF #14 (Consumer Defensive; 8-K 5.02 11/16 still unread). **VIX 28.58 live → half size.**
+
 ### Held satellites — thesis cards (break = specific news, never price)
 - **CDNA** (4 @ $86.10, HC): Q3 rev +39%, 3rd straight guide raise. Patent appeal heard 11/09 (≈$96M): no ruling found yet. Break: guide cut, Medicare/LCD hit, equity raise.
 - **TXG** (6 @ $55.86, HC): Q3 filed, 2 directors added. Break: guide cut, dilution.

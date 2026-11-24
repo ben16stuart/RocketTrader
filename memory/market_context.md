@@ -24,3 +24,6 @@ Rocket's book (−5.80%) fell less than IWM. This is **not a bearish-cash thesis
 **Week 48 calendar:** Thanksgiving Thu 11/26 (closed), Fri 11/27 half day (1:00 PM ET close). Held names: no prints in the gate. CBRL earnings 12/02 or 12/09 (confirm). Macro: check at premarket.
 
 **Mon 11/23 premarket (LIVE, not closes):** VIX 29.67 (−17% vs 35.89), RTY +2.37%, ES +2.92%, NQ +3.61%, gold 3,621 (+3.0%), Brent 88.58 / WTI 82.29 (roll-corrected −1.5% / −1.3%). A relief bounce is forming. **VIX is in the 25–30 band → half size** for any new long if it holds there at the open.
+
+**Mon 11/23 CLOSES:** VIX 26.62, IWM 265.74 (+3.56%), SPY 722.29 (+4.71%), 10-yr 4.91% (11/20) → 4.92% (11/23). The relief bounce held.
+**Tue 11/24 premarket (LIVE):** VIX 28.58 (+7.4%), RTY −0.43%, ES −0.90%, NQ −1.79%, gold 3,623 (−0.8%), Brent 86.83 / WTI 79.94 (Brent roll-corrected). Growth is giving some of it back. **Still in the 25–30 band → half size.** Data: Conference Board consumer confidence 10:00 ET.

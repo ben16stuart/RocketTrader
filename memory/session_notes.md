@@ -3,6 +3,16 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-24 — PREMARKET (Tuesday, Week 48 day 2) — 8 held, 0 open slots; CAKE rank 33 (watch for Saturday)
+
+- Book: 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, INTA, IOVA, TXG), ~87% of the $2,823 slice. IWM ≈ 0.33 sh. **Floor met.** Weekly entries 1/5 (INTA). Own book this week +4.22% vs IWM +2.93% (+1.29 pts). Since 10/6: +8.11 pts.
+- Holdings check (8 searches): no thesis breaks, only Q3 recaps and stale items. The INTA "CFO sale 11/24" is a 2025 item.
+- `rank_screen.py` (11/23 data, 620 eligible): CDNA 1, TXG 4, AMPL 6, INTA 7, IOVA 9, APPN 10, CBRL 21, **CAKE 33**. That is over 25, but rank decay is weekly, so there is no action before the W48 review. Unheld top 8: RCEL 2, UTZ 3, SLN 5 (FAIL), VIA 8. 0 slots, so no picks and no VETOs owed. Saved `ledger/ranks/2026-11-23.csv`.
+- Macro: **VIX 28.58 live** (26.62 close 11/23), in the 25–30 band, so any refill is half size. RTY −0.43%, NQ −1.79% live. IWM 265.74 (+3.56% 11/23). 10-yr 4.92%. Conference Board consumer confidence 10:00 ET. Thanksgiving Thursday (closed), Friday half day. No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-23 — PREMARKET (Monday, Week 48 day 1) — PAYS → INTA confirmed; VIX 29.67 live → INTA half size (3 sh) if still 25–30 at the open
 
 - Book: 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, IOVA, PAYS, TXG), ~92% of the $2,802 slice. IWM 0. **Floor met.** Weekly entries 0/5. 1 slot opens when PAYS exits (rank 29).
