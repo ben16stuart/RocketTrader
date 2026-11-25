@@ -27,3 +27,6 @@ Rocket's book (−5.80%) fell less than IWM. This is **not a bearish-cash thesis
 
 **Mon 11/23 CLOSES:** VIX 26.62, IWM 265.74 (+3.56%), SPY 722.29 (+4.71%), 10-yr 4.91% (11/20) → 4.92% (11/23). The relief bounce held.
 **Tue 11/24 premarket (LIVE):** VIX 28.58 (+7.4%), RTY −0.43%, ES −0.90%, NQ −1.79%, gold 3,623 (−0.8%), Brent 86.83 / WTI 79.94 (Brent roll-corrected). Growth is giving some of it back. **Still in the 25–30 band → half size.** Data: Conference Board consumer confidence 10:00 ET.
+
+**Tue 11/24 CLOSES:** VIX 26.36, IWM 267.14 (+0.53%), SPY 718.78 (−0.49%), 10-yr 4.90%. Small caps beat large caps again.
+**Wed 11/25 premarket (LIVE):** VIX 29.23 (+10.9%), RTY −0.93%, ES −1.51%, NQ −2.42%, gold 3,556.5 (−0.96%, roll-corrected), Brent 88.07 / WTI 81.33 (Brent roll-corrected −0.8%), DXY 104.02. Growth/AI is leading the selling again, and RTY is falling less. **Still in the 25–30 band → half size.** Data at 8:30 ET: Q3 GDP second estimate, October PCE / personal income, jobless claims (moved up for the holiday). New home sales at 10:00. Pre-holiday thin tape, then Thanksgiving (closed) Thursday and a 1:00 PM close Friday.

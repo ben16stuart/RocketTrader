@@ -3,6 +3,16 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-25 — PREMARKET (Wednesday, Week 48 day 3) — 8 held, 0 open slots; CBRL 27 + CAKE 31 both past the exit line (Saturday)
+
+- Book: 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, INTA, IOVA, TXG), 86.0% of the $2,854 slice. IWM 0.33 sh (3.1%). **Floor met.** Weekly entries 1/5. Own book this week +4.65% vs IWM +3.14% (+1.52 pts; from premarket prints). Since 10/6: +8.34 pts.
+- Holdings check (8 searches): no thesis breaks, only Q3 recaps. The INTA "CFO sale 11/24" is the 2025 item again. No ruling on the CDNA appeal.
+- `rank_screen.py` (11/24 data, 648 eligible): CDNA 1, TXG 5, INTA 6, AMPL 8, APPN 11, IOVA 17, **CBRL 27, CAKE 31**. Rank decay is weekly, so there is no action before the W48 review. Unheld top 8: RCEL 2, ATRC 3 (HC cap), UTZ 4 (pin), SLN 7 (FAIL). 0 slots, so no picks and no VETOs owed. The top 20 has no clean refill (HC and Tech at cap). See research_log. Saved `ledger/ranks/2026-11-24.csv`.
+- Macro: **VIX 29.23 live** (26.36 close 11/24), in the 25–30 band, so any refill is half size. RTY −0.93%, ES −1.51%, NQ −2.42% live. IWM 267.14 (+0.53% 11/24). 10-yr 4.90%. 8:30 ET: GDP 2nd estimate, Oct PCE, claims. New home sales at 10:00. Thanksgiving Thursday, Friday half day. No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-24 — PREMARKET (Tuesday, Week 48 day 2) — 8 held, 0 open slots; CAKE rank 33 (watch for Saturday)
 
 - Book: 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, INTA, IOVA, TXG), ~87% of the $2,823 slice. IWM ≈ 0.33 sh. **Floor met.** Weekly entries 1/5 (INTA). Own book this week +4.22% vs IWM +2.93% (+1.29 pts). Since 10/6: +8.11 pts.
