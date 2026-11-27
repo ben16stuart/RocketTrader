@@ -2330,3 +2330,10 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 
 ## 2026-11-26 — market_close: no trades (market closed, Thanksgiving)
 - Held all 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, INTA, IOVA, TXG), 86.3% of slice (floor met). IWM $89 (~3.1%), no rebalance (market closed). Prices unchanged from 11/25 close. STT/Bull positions not touched.
+
+## 2026-11-27 — midday: no trades (half-day session)
+- All 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, INTA, IOVA, TXG) hold live 25% trailing stops (verified via Alpaca open orders); none fired, no slot opened, no refill. Own book +1.11% today vs IWM +1.51%.
+- News check (CDNA, IOVA, CAKE inline): nothing fresh; no dilution, going-concern, guide cut or takeover found. No thesis break. CDNA -10.5% and IOVA -7.6% vs entry are the stop's job. STT/Bull positions not touched.
+
+## 2026-11-27 — market_close: no trades (half-day, market already closed)
+- Held all 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, INTA, IOVA, TXG), 86.2% of slice (floor met). IWM ~3.1% = target, within band → no rebalance. Own book +1.02% vs IWM +2.12% (lagged on the day). All 8 stops live. STT/Bull positions not touched.

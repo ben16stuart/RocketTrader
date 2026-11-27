@@ -3,6 +3,16 @@
 Running log of recent sessions. Keep the last 3–5 entries here.
 Archive entries older than 7 days to `memory/archive/session_notes_YYYY-MM.md` during weekly_review.
 
+## 2026-11-27 — PREMARKET (Friday, half day, 1:00 PM ET close) — 8 held, 0 open slots; ranking unchanged (11/25 data), CAKE 30
+
+- Book: 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, INTA, IOVA, TXG), ~86% of the $2,881 slice. IWM 0.33 sh (~3%). **Floor met.** Weekly entries 1/5. Snapshot "this week" +6.15% vs IWM +6.34% is from **live premarket prints, not closes**, so it isn't recorded as a result.
+- Holdings check (8 searches + 2 dating checks): no thesis breaks. The AMPL president departure is the **Feb 2026** 8-K. The IOVA $350M offering is a **2025** item. No CDNA appeal ruling.
+- `rank_screen.py` (still **11/25 data**, 672 eligible): CDNA 1, TXG 5, AMPL 6, IOVA 9, APPN 16, CBRL 23 (earnings 12/02), INTA 24, **CAKE 30**. The W48 review decides CAKE, and maybe INTA. Unheld top 8: RCEL 2, ATRC 3, XNCR 8 (HC cap), UTZ 4 (pin), SLN 7 (FAIL). 0 slots, so no picks and no VETOs owed. The emergency refill is ELF #25 (unchecked).
+- Macro (`macro`): **VIX 24.93 live** (26.80 prior), under 25 for the first time since 11/16, so full size if it holds. RTY +1.49%, ES +1.79%, NQ +2.45% vs the 11/25 closes (live). Gold +3.9% (roll-corrected), Brent +1.5% (roll sign flip corrected). Closes: IWM 268.87 / SPY 716.70 (11/25). The data-calendar search was skipped: Thursday's premarket already established that Friday is a 1:00 PM close with no major data. No trades. No ntfy.
+- Still unresolved: STT UNATTRIBUTED (Bull's). Not touched.
+
+---
+
 ## 2026-11-26 — PREMARKET (Thursday, THANKSGIVING — market closed; prepared for Fri 11/27 half day) — 8 held, 0 open slots; CAKE rank 30 (3rd day > 25)
 
 - Book: 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, INTA, IOVA, TXG), ~86% of the $2,859 slice. IWM 0.33 sh (~3%). **Floor met.** Weekly entries 1/5. Own book this week +5.12% vs IWM +4.78% (+0.34 pts). Since 10/6: +7.30 pts. Since 7/20: +7.78 pts.
