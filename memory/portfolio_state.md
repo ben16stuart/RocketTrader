@@ -1,6 +1,6 @@
 # Portfolio State
 
-**Last Updated**: 2026-11-27 20:58 UTC
+**Last Updated**: 2026-11-28 16:20 UTC
 **Account**: Alpaca Paper Trading — SHARED with Bull (merged 2026-07-20)
 
 ---
@@ -9,26 +9,26 @@
 
 | Metric | Value |
 |--------|-------|
-| Shared Account Value (Bull + Rocket) | $9,641.26 |
-| Rocket's Allocated Slice (30%) | $2,892.38 |
+| Shared Account Value (Bull + Rocket) | $9,635.30 |
+| Rocket's Allocated Slice (30%) | $2,890.59 |
 | Cash Available (shared, pooled) | $660.09 |
-| Total Invested (both agents) | $8,981.17 |
+| Total Invested (both agents) | $8,975.21 |
 | Unrealized P&L (shared) | $+0.00 |
-| **Rocket own book TODAY** | **+$29 (+1.02%)** vs IWM +2.12% · daily loss cap $145: OK |
-| **Rocket own book since 7/20** | **+0.78%** vs IWM -6.07% → **+6.85 pts** |
-| **Rocket own book since 10/6 (new rules)** | **+3.92%** vs IWM -2.41% → **+6.33 pts** |
-| **Rocket own book this week** | **+6.19%** vs IWM +7.00% → **-0.80 pts** |
-| Rocket return since rebase (SHARED account, not own book) | -4.60% |
+| **Rocket own book TODAY** | **+$40 (+1.41%)** vs IWM +1.83% · daily loss cap $145: OK |
+| **Rocket own book since 7/20** | **+1.16%** vs IWM -6.34% → **+7.50 pts** |
+| **Rocket own book since 10/6 (new rules)** | **+4.32%** vs IWM -2.68% → **+7.00 pts** |
+| **Rocket own book this week** | **+6.60%** vs IWM +6.69% → **-0.10 pts** |
+| Rocket return since rebase (SHARED account, not own book) | -4.66% |
 | IWM return since rebase | -6.09% |
-| Shared account vs IWM (not Rocket's own — use the bold rows) | +1.49% |
+| Shared account vs IWM (not Rocket's own — use the bold rows) | +1.43% |
 
 ### Deployment — Satellite Floor
 
 | Sleeve | % of slice | Rule |
 |--------|-----------|------|
-| **Satellites (stock picks)** | 86.2% | must be >= 50.0% |
+| **Satellites (stock picks)** | 86.7% | must be >= 50.0% |
 | Core (IWM) | 3.1% | absorbs the leftover (no cap since 2026-10-06) |
-| Cash | 10.6% | buffer only (<= 10%) |
+| Cash | 10.2% | buffer only (<= 10%) |
 
 ✅ **Satellite floor met.**
 
@@ -47,23 +47,23 @@ Ownership is reconciled below — do not re-derive it from the trade log.
 
 | Symbol | Shares | Entry Price | Price (⚠️ NOT a settled close) | Prior Settled Close | Unrealized P&L | P&L % |
 |--------|--------|-------------|---------------|---------------------|----------------|-------|
-| AMPL | 20 ($353) | $17.15 | $17.64 | $17.10 | $+9.80 | +2.9% |
-| APPN | 6 ($336) | $51.73 | $56.03 | $55.08 | $+25.80 | +8.3% |
-| CAKE | 3 ($334) | $117.25 | $111.20 | $109.66 | $-18.15 | -5.2% |
-| CBRL | 5 ($385) | $67.16 | $76.94 | $75.35 | $+48.90 | +14.6% |
-| CDNA | 4 ($310) | $86.10 | $77.50 | $75.86 | $-34.40 | -10.0% |
-| CVX | 4 ($853) | $210.70 | $213.30 | $210.95 | $+10.40 | +1.2% |
-| ILMN | 4 ($820) | $195.98 | $205.01 | $200.39 | $+36.12 | +4.6% |
-| INTA | 3 ($138) | $43.65 | $46.09 | $45.81 | $+7.32 | +5.6% |
-| IOVA | 44 ($311) | $7.70 | $7.07 | $7.13 | $-27.59 | -8.1% |
-| IWM | 0.33 ($91) | $265.70 | $274.56 | $268.87 | $+2.92 | +3.3% |
-| JNJ | 3 ($825) | $277.80 | $275.00 | $273.94 | $-8.40 | -1.0% |
-| KO | 8 ($780) | $95.22 | $97.55 | $97.59 | $+18.63 | +2.4% |
-| MRK | 5 ($710) | $148.46 | $142.00 | $140.29 | $-32.29 | -4.3% |
-| PANW | 2 ($736) | $318.08 | $367.85 | $356.14 | $+99.54 | +15.6% |
-| TGT | 5 ($863) | $152.86 | $172.61 | $172.22 | $+98.75 | +12.9% |
-| TXG | 6 ($328) | $55.86 | $54.60 | $55.68 | $-7.57 | -2.3% |
-| XOM | 5 ($809) | $164.24 | $161.79 | $158.08 | $-12.25 | -1.5% |
+| AMPL | 20 ($353) | $17.15 | $17.64 | $17.64 | $+9.80 | +2.9% |
+| APPN | 6 ($337) | $51.73 | $56.13 | $56.13 | $+26.40 | +8.5% |
+| CAKE | 3 ($334) | $117.25 | $111.20 | $111.20 | $-18.15 | -5.2% |
+| CBRL | 5 ($383) | $67.16 | $76.59 | $76.59 | $+47.15 | +14.0% |
+| CDNA | 4 ($309) | $86.10 | $77.16 | $77.16 | $-35.76 | -10.4% |
+| CVX | 4 ($850) | $210.70 | $212.45 | $212.45 | $+7.00 | +0.8% |
+| ILMN | 4 ($823) | $195.98 | $205.74 | $205.74 | $+39.04 | +5.0% |
+| INTA | 3 ($138) | $43.65 | $46.09 | $46.09 | $+7.32 | +5.6% |
+| IOVA | 44 ($313) | $7.70 | $7.12 | $7.12 | $-25.39 | -7.5% |
+| IWM | 0.33 ($90) | $265.70 | $273.79 | $273.79 | $+2.67 | +3.0% |
+| JNJ | 3 ($827) | $277.80 | $275.51 | $275.51 | $-6.87 | -0.8% |
+| KO | 8 ($779) | $95.22 | $97.40 | $97.40 | $+17.43 | +2.3% |
+| MRK | 5 ($707) | $148.46 | $141.32 | $141.32 | $-35.69 | -4.8% |
+| PANW | 2 ($734) | $318.08 | $366.76 | $366.76 | $+97.36 | +15.3% |
+| TGT | 5 ($860) | $152.86 | $171.97 | $171.97 | $+95.55 | +12.5% |
+| TXG | 6 ($339) | $55.86 | $56.53 | $56.53 | $+4.02 | +1.2% |
+| XOM | 5 ($801) | $164.24 | $160.18 | $160.18 | $-20.30 | -2.5% |
 
 ⚠️ **The market is CLOSED. The price column is the last trade, which outside
 regular hours can be a single thin pre/post-market print — it is NOT a settled
@@ -78,9 +78,9 @@ written into memory; re-read live at `market_open`.
 
 ✅ **Balanced.** Every live position is attributed.
 
-- **Rocket's core** (1): IWM ($91)  — benchmark sleeve; no stop, exempt from position limits
-- **Rocket's satellites** (8): AMPL ($353), APPN ($336), CAKE ($334), CBRL ($385), CDNA ($310), INTA ($138), IOVA ($311), TXG ($328)
-- **Bull's positions** (8): CVX ($853), ILMN ($820), JNJ ($825), KO ($780), MRK ($710), PANW ($736), TGT ($863), XOM ($809)
+- **Rocket's core** (1): IWM ($90)  — benchmark sleeve; no stop, exempt from position limits
+- **Rocket's satellites** (8): AMPL ($353), APPN ($337), CAKE ($334), CBRL ($383), CDNA ($309), INTA ($138), IOVA ($313), TXG ($339)
+- **Bull's positions** (8): CVX ($850), ILMN ($823), JNJ ($827), KO ($779), MRK ($707), PANW ($734), TGT ($860), XOM ($801)
 
 
 ---

@@ -2337,3 +2337,7 @@ All: 25% trailing stop placed after fill. No targets; exits on stop, thesis brea
 
 ## 2026-11-27 — market_close: no trades (half-day, market already closed)
 - Held all 8 satellites (AMPL, APPN, CAKE, CBRL, CDNA, INTA, IOVA, TXG), 86.2% of slice (floor met). IWM ~3.1% = target, within band → no rebalance. Own book +1.02% vs IWM +2.12% (lagged on the day). All 8 stops live. STT/Bull positions not touched.
+
+## 2026-11-28 — weekly_review (W48): no trades
+- Rank decay (11/27 data): CAKE 38 and INTA 77 > 25 → Mon 11/30 REPLACE CAKE → ELF (#14, 3 sh) and INTA → VIA (#10, 7 sh). VIX closed 23.81 → full size; re-read live at the open. See research_log W49.
+- ✅ CLOSED: ELF 8-K 5.02 (11/16) = CAO named principal accounting officer, CFO stays (benign). NIQ = Irish plc → hard VETO. The "ELF −21% guide disappoints" search hit is the Nov 2025 print.

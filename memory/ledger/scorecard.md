@@ -1,6 +1,6 @@
 # Rocket learning ledger — scorecard
 
-Generated 2026-11-21 09:21. Excess return = stock minus IWM over the same window. **`w` = non-overlapping windows, `names` = distinct stocks — these are the sample sizes. Overlapping daily rows are NOT independent observations** (RESEARCH_GATES §1).
+Generated 2026-11-28 09:21. Excess return = stock minus IWM over the same window. **`w` = non-overlapping windows, `names` = distinct stocks — these are the sample sizes. Overlapping daily rows are NOT independent observations** (RESEARCH_GATES §1).
 
 ## 1. Signal — does the ranking work?
 
@@ -20,11 +20,11 @@ Generated 2026-11-21 09:21. Excess return = stock minus IWM over the same window
 
 | Decision | names | 5d excess | 10d excess | 20d excess | hit rate 20d |
 |---|---|---|---|---|---|
-| BUY | 19 |  +0.67% (19) |  -0.14% (15) |  +4.39% (8) | 38% |
-| VETO | 16 |  +0.69% (16) |  -0.92% (15) |  -6.97% (10) | 40% |
-| EXIT | 10 |  -4.02% (10) |  -8.12% (6) | -12.32% (1) | 0% |
+| BUY | 20 |  +0.96% (20) |  -0.14% (15) |  +1.94% (9) | 33% |
+| VETO | 16 |  +0.50% (17) |  -0.92% (15) |  -6.97% (10) | 40% |
+| EXIT | 11 |  -4.02% (10) |  -8.12% (6) | -12.32% (1) | 0% |
 
-**BUYs vs random twins** (random picks from the same morning's eligible list, same horizon): 5d: 56th pct (n=19) · 10d: 51th pct (n=15) · 20d: 82th pct (n=8). Above the 95th percentile = evidence of skill; inside 5th–95th = indistinguishable from chance.
+**BUYs vs random twins** (random picks from the same morning's eligible list, same horizon): 5d: 64th pct (n=20) · 10d: 51th pct (n=15) · 20d: 70th pct (n=9). Above the 95th percentile = evidence of skill; inside 5th–95th = indistinguishable from chance.
 
 - **BUY > 0** → the picks beat IWM.
 - **VETO < BUY** → vetoes are helping. **VETO > BUY** across **≥ 10 distinct names** at 20d → Rocket's judgment is subtracting value: loosen the rule behind those vetoes, in writing, citing this table.
@@ -34,12 +34,6 @@ Generated 2026-11-21 09:21. Excess return = stock minus IWM over the same window
 
 | date | sym | decision | rank | 20d excess | reason |
 |---|---|---|---|---|---|
-| 2026-11-16 | UTZ | VETO | 5 |   n/a  | judgment: pending going-private merger pins price (DEFM14A 10/02, SC 1 |
-| 2026-11-16 | ABCL | VETO | 7 |   n/a  | hard: gate FAIL non-US HQ (Canada) |
-| 2026-11-16 | NSIT | EXIT | 41 |   n/a  | rank decay 41 > 25 at W46 review |
-| 2026-11-16 | PBF | EXIT | 42 |   n/a  | rank decay 42 > 25 at W46 review |
-| 2026-11-16 | OABI | EXIT | 50 |   n/a  | rank decay 50 > 25 at W46 review |
-| 2026-11-16 | REPL | EXIT | 157 |   n/a  | rank decay 157 > 25 at W46 review |
 | 2026-11-16 | TXG | BUY | 1 |   n/a  | DE; Q3 filed, no dilution; #1 momentum |
 | 2026-11-16 | IOVA | BUY | 3 |   n/a  | DE; ATM terminated 9/30, no new dilution, no binary in 10d |
 | 2026-11-16 | PAYS | BUY | 9 |   n/a  | NV; Q3 profit guides raised, rev guide reaffirmed, no dilution |
@@ -49,3 +43,9 @@ Generated 2026-11-21 09:21. Excess return = stock minus IWM over the same window
 | 2026-11-20 | ATRC | VETO | 6 |   n/a  | hard: healthcare sector cap full |
 | 2026-11-20 | UTZ | VETO | 7 |   n/a  | judgment: pending going-private merger pins price |
 | 2026-11-20 | SLN | VETO | 2 |   n/a  | hard: gate FAIL non-US HQ (UK) |
+| 2026-11-23 | SLN | VETO | 2 |   n/a  | gate FAIL: non-US HQ (United Kingdom) |
+| 2026-11-23 | RCEL | VETO | 4 |   n/a  | HC sector cap: CDNA/TXG/IOVA hold 3 HC satellites |
+| 2026-11-23 | ATRC | VETO | 6 |   n/a  | HC sector cap: CDNA/TXG/IOVA hold 3 HC satellites |
+| 2026-11-23 | UTZ | VETO | 7 |   n/a  | pending going-private deal pins the price |
+| 2026-11-23 | PAYS | EXIT | 29 |   n/a  | rank decay 29 > 25 at W47 review |
+| 2026-11-23 | INTA | BUY | 10 |   n/a  | Q1 FY27 beat, DE, no dilution/S-3; replaces PAYS; half size (VIX 26.8) |

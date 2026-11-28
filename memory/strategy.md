@@ -71,6 +71,7 @@ construction.** Every basis point of "Rocket vs IWM" comes from satellites plus 
 | **W45 (11/02–11/06)** | **−3.02%** | **−2.03%** | **−0.99%** | **103.0%** | Thu 11/05 beta (book ≈ −7.1% vs IWM −4.6%). Realized −$55 (TXG, QMCO stops). REPL +$130 vs GTLB/CAKE/CDNA marks. 4/4 exits beat holding |
 | **W46 (11/09–11/13)** | **+1.61%** | **+1.41%** | **+0.20%** | **103.2%** | Book ≈ IWM. 2 rank-decay swaps (CLDT +12% realized, PD −5%), no stops. AMPL/PBF ≈ +1% from entry |
 | **W47 (11/16–11/20)** | **−5.80%** | **−7.54%** | **+1.74%** | **92.4%** | Risk-off week (VIX 19 → 36). Mon rotation paid: 4 exits −7.1% avg after sale vs 4 buys −2.0%. GTLB stop −$80. ~7.6% cash buffer ≈ +0.6 pts |
+| **W48 (11/23–11/27)** | **+6.60%** | **+6.69%** | **−0.10%** | **86.5%** | Relief rally (VIX 36 → 24). Book = beta. PAYS exit +$27, then +10% after the sale (≈ −7 pts on that name). CDNA/IOVA still red from entry; CBRL +14%, APPN +8.5%. ~10% cash buffer ≈ −0.7 pts in a +6.7% week |
 | Since rebase 7/20 | −5.10% | −12.21% | **+7.12%** | | `agent_performance.py` (from fills). Since 10/06: −2.14% vs −8.79% = +6.65 pts |
 
 Pre-W36 attribution vs SPY (W30–W35) lives in `archive/strategy_history.md`. Stock picking
@@ -163,6 +164,10 @@ median ADV (46) · issuer filing over any secondary source (57b/65) · 8-K Item 
 - 🧪 **Ledger W47 (no change):** Signal 5d top 8 +1.63% / 9–25 −0.36% / 26+ +0.09% (w=5); top8−26+ +1.54%, **t +0.49**. 10d w=2, 20d w=1. **Bar not met** (≥ 6 non-overlapping 20d windows, |t| ≥ 2).
   Judgment: BUY 5d +0.67% (19 names), 10d −0.14% (15), **20d +4.39% (8)**; VETO +0.69% (16), −0.92% (15), **20d −6.97% (10 names)**. EXIT 5d −4.02% (10), 10d −8.12% (6): exits keep dodging losses.
   Random twins: BUY 5d 56th pct, 10d 51st, 20d 82nd (n=8). Down from 97th last week as REPL rolled out: **indistinguishable from chance.** VETO 20d is now at 10 names and *below* BUY, so the vetoes are helping, with no case to loosen anything. HC-cap category alone is still < 10 names at 20d.
+- 🧪 **Ledger W48 (no change):** Signal is **identical to W47**: 5d top 8 +1.63% / 9–25 −0.36% / 26+ +0.09% (w=5); top8−26+ +1.54%, **t +0.49**. 10d w=2, 20d w=1. No new non-overlapping window closed in a 4-day week. **Bar not met.**
+  Judgment: BUY 5d +0.96% (20 names), 10d −0.14% (15), **20d +1.94% (9)**; VETO +0.50% (17), −0.92% (15), **20d −6.97% (10)**. EXIT 5d −4.02% (10), 10d −8.12% (6), 20d −12.32% (1).
+  Random twins: BUY 5d 64th pct, 10d 51st, **20d 70th (n=9)**. Indistinguishable from chance. Vetoes are still helping (VETO 20d < BUY at 10 names), so there is no case to loosen.
+  🧪 **TESTING (W48): edge-of-band churn.** INTA was bought at rank 10 and was at 77 five sessions later. PAYS was sold at 29 and then ran +10% vs IWM +3%. Watch whether EXITs of names held < 10 sessions beat IWM after the sale. If they do over ≥ 10 distinct names at 20d, consider a wider exit rank for young holdings. **No change now.**
 - ✅ **Ruled W44: the cap gate is entry-only.** CLAUDE.md's exits are stop / thesis break / rank >25 / below 200d. Selling the #1 name for growing past $10B would sell a winner for winning. (TXG drifted back to $9.1B anyway.)
 
 - 32a: RARE held 9/25, 9/28, 9/29 with the stop <2% away; recovered to +0.9%. First data point positive.

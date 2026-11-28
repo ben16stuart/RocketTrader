@@ -4425,3 +4425,47 @@ Skip a name that opens >8% above Friday's close on no news. If NSIT/PBF/OABI/REP
 - ✅ **CLOSED, do not carry forward (rule 39):** "CDNA 11/5 8-K" (a Form 144), "REPL FQ2 11/6" (a 10-Q/A for 10b5-1 plans), "REPL earnings 11/13 BMO" (no 11/13 filing on EDGAR).
 
 
+
+
+---
+
+<!-- archived at W48 review 2026-11-28 -->
+
+## Watchlist — Week 48 (Mon 11/23 – Fri 11/27, Thanksgiving Thu closed, Fri half day), built at the W47 review Sat 11/21  ← CURRENT
+
+Book (11/20 close): 8 satellites ≈ 92.4% of a $2,779 slice. IWM 0. The 12.5% cap ≈ **$347**. The weekly entry cap resets to **5**.
+Ranking (11/20 data, 546 eligible): CDNA 1, TXG 3, AMPL 5, IOVA 8, APPN 9, CAKE 12, CBRL 17, **PAYS 29** → PAYS is replaced.
+After the swap: HC = CDNA/TXG/IOVA (full). Tech = AMPL/APPN/INTA. Consumer Cyclical = CAKE/CBRL.
+
+### Mon 11/23 — REPLACE PAYS → INTA (rank 10). Status: WATCHING (added 2026-11-21)
+**🚦 VIX gate first (premarket.md: >25 reduce size, >30 no new longs). VIX CLOSED 35.89 on Fri 11/20.**
+- VIX > 30 at 9:35: **still sell PAYS** (rank decay is decided on Saturday's data), put the proceeds in IWM, and **do not buy INTA**. Carry INTA forward. The first session with VIX ≤ 30 sells IWM as a CORE FUNDING sale and buys INTA.
+- VIX 25–30: INTA **3 sh** (half). VIX < 25: INTA **7 sh** (`size INTA 43.45 32.59` → 7; re-run at the live price, STOP = ENTRY × 0.75).
+**Order:** cancel PAYS's trailing stop, `sell PAYS 37` (raw qty from `GET /v2/positions`), log `candidate_ledger.py log PAYS EXIT "rank decay 29 > 25 at W47 review" --rank 29` and a `PAYS SELL` header in trade_log. Then BUY INTA if the VIX allows, place the 25% trailing stop, log the BUY (rank 10). Skip it if it opens >8% above Friday's $43.45 close on no news.
+1. **INTA #10 (Tech)**: Intapp, **DE** (EDGAR `stateOfIncorporation`), HQ CA. Q3 8-K 2.02 + 10-Q 10/27. Since 10/20 the only non-insider filing is an 8-K 5.07 on 11/20 (shareholder vote results). **No S-1/S-3/424B**, no takeover or going-concern found. Next earnings early Feb. One news search (11/21) returned stale, misdated items only (rule 33). **Premarket owes:** one dated news check. Break: guide cut, dilution, an exec exit.
+2. Backups in order: **ELF #11** (DE; earnings 2027-02-03; **8-K 5.02 dated 11/16 unread, so read it first**), **VIA #13** (DE, Q3 11/09; check for IPO lock-up expiry or a resale S-1).
+- **VETOs owed Monday** (top 8 not held): SLN #2 (FAIL non-US HQ), RCEL #4 and ATRC #6 (HC cap), UTZ #7 (pinned going-private).
+- **Binary events, held names, W48:** none inside the window. **CBRL earnings: the ranker says 12/02, the W46 board said 12/09.** Premarket confirms the date (it's not an exit trigger).
+- **The weekly entry cap is reset to 5.** W47 used 5/5 (TXG, IOVA, PAYS, CBRL, APPN). The 11/20 midday's "1/5" was wrong.
+
+**✅ Premarket 11/23 (Mon) confirmed the swap.** Ranking still on 11/20 data (same as the review): PAYS 29, INTA 10. INTA owed checks DONE: EDGAR (CIK 1565687, **DE**) since 11/10 shows only Form 4 / 144 insider sales and the 11/20 8-K 5.07, so **no S-1/S-3/424B**. News: FQ1 FY27 results 10/27, nothing thesis-breaking, and no fresh dated item. Earnings early Feb → gate OK. Tech after the swap = AMPL/APPN/INTA (3, at cap).
+**VIX at 11/23 premarket: 29.67 LIVE (close 35.89 on 11/20).** If it is in 25–30 at 9:35, buy **INTA 3 sh (half)**. Above 30, sell PAYS into IWM and skip INTA. Below 25, buy 7 sh. Re-read the VIX at the open.
+**CBRL earnings confirmed 2026-12-02** (`eligibility`). That is 6 trading days out, outside the 5-day entry gate. It is not an exit trigger (held name).
+**Top-8 VETOs logged 11/23:** SLN 2, RCEL 4, ATRC 6, UTZ 7.
+
+**Premarket Tue 11/24: 8 held, 0 open slots, no picks owed.** Weekly entries 1/5 (INTA). Ranking (11/23 data, 620 eligible): CDNA 1, TXG 4, AMPL 6, INTA 7, IOVA 9, APPN 10, CBRL 21, **CAKE 33**. CAKE is over the exit line on one day's data. Rank decay is decided at Saturday's review only, so there is **no action today**. Watch it for the W48 review. Unheld top 8: RCEL 2 / UTZ 3 / SLN 5 (FAIL) / VIA 8. No slots were skipped, so no VETOs are owed.
+- Holdings check (8 searches): no thesis breaks. Only Q3 recaps, CAKE's 11/24 dividend payment, and TXG's 11/16 collaborations. The INTA "CFO sold 10,000 sh on Mon Nov 24" hit links to a **2025-11-27** URL, so it is a stale item misdated (rules 39, 62). The CDNA appeal still has no ruling found.
+- **If a stop opens a slot, refill in rank order:** VIA #8 (Tech is at cap 3, so VETO), then ATRC #11 (HC is at cap), HNGE #12 (HC cap), PD #13 (Tech cap; earnings 12/03), ELF #14 (Consumer Defensive; 8-K 5.02 11/16 still unread). **VIX 28.58 live → half size.**
+
+**Premarket Wed 11/25: 8 held, 0 open slots, no picks owed.** Weekly entries 1/5 (INTA). Ranking (11/24 data, 648 eligible): CDNA 1, TXG 5, INTA 6, AMPL 8, APPN 11, IOVA 17, **CBRL 27, CAKE 31**. Both are over the 25 exit line now (CAKE on 2 straight days). Rank decay is decided at Saturday's W48 review only, so there is **no action today**. Both are prime replacement candidates Saturday. CBRL earnings 12/02 is now inside the 5-day gate. That blocks entries, not holds, and it is not an exit trigger. Unheld top 8: RCEL 2 / ATRC 3 (HC cap), UTZ 4 (going-private pin), SLN 7 (FAIL). No slots were skipped, so no VETOs are owed.
+- Holdings check (8 searches): no thesis breaks. Same Q3 recaps. The INTA "CFO sale 11/24" is again the **2025-11-27** item (rule 39). The CDNA appeal still has no ruling found.
+- **If a stop opens a slot today, the top 20 has NO clean refill.** HC is at cap (RCEL, ATRC, XNCR, HNGE). Tech is at cap (VIA, QLYS, PD, RSKD; BOX also earnings 4d). UTZ is pinned. SLN / BUUU / ECO FAIL non-US. NIQ is VERIFY (no company data). Go past 20 in `ledger/ranks/2026-11-24.csv` for the first non-HC, non-Tech name, and run the full veto checks. **VIX 29.23 live → half size, and none if > 30 at the open.**
+
+**Premarket Thu 11/26 (THANKSGIVING, market closed; next session Fri 11/27, 1:00 PM ET close): 8 held, 0 open slots, no picks owed.** Weekly entries 1/5 (INTA). Ranking (11/25 data, 673 eligible): CDNA 1, TXG 5, AMPL 6, IOVA 9, APPN 16, CBRL 23, INTA 24, **CAKE 30** (3rd straight day > 25). CBRL is back under the line. INTA (24) is now near it. Rank decay is decided at Saturday's W48 review only, so there is **no action Friday**. Unheld top 8: RCEL 2, ATRC 3, XNCR 8 (HC cap), UTZ 4 (going-private pin), SLN 7 (FAIL). No slots were skipped, so no VETOs are owed.
+- Holdings check (8 searches): no thesis breaks, only Q3 recaps. The INTA "CFO sale 11/24" is the **2025-11-27** insidertrades URL again (rule 39). IOVA's −35% lung-data drop is dated 10/29 (old). Still no ruling found on the CDNA appeal.
+- **If a stop opens a slot Friday:** HC is at cap (RCEL/ATRC/XNCR/HNGE/CON/HAE/AMRX). Tech is at cap (VIA/QLYS; PD has earnings in 5d). UTZ is pinned. SLN/ECO/BUUU FAIL. NIQ is VERIFY. **No clean refill in the top 20.** Go past 20 in `ledger/ranks/2026-11-25.csv` for the first non-HC, non-Tech name, with full veto checks. Note the half day: no entries after 12:30 ET. **VIX 27.36 live → half size.**
+
+**Premarket Fri 11/27 (half day, 1:00 PM ET close): 8 held, 0 open slots, no picks owed.** Weekly entries 1/5 (INTA). Ranking is **still on 11/25 data** (Thursday closed; 672 eligible, same order as Thursday's run): CDNA 1, TXG 5, AMPL 6, IOVA 9, APPN 16, CBRL 23, INTA 24, **CAKE 30** (4th run > 25, on 3 distinct data days). **W48 review Saturday: CAKE is the prime replacement**, and INTA (24) sits on the line. Unheld top 8: RCEL 2 / ATRC 3 / XNCR 8 (HC cap), UTZ 4 (pin), SLN 7 (FAIL). No slots were skipped, so no VETOs are owed.
+- Holdings check (8 searches + 2 dating checks): no thesis breaks. **AMPL "President departure" is the 2026-02-24 8-K** (Hansen, effective 3/31; guide reaffirmed), so it is stale. **IOVA "$350M offering / −14.9% governance" is a 2025 item** (Zacks id 2742764, ~$915M cap at the time vs ~$3.3B now), stale (rule 33). There is still no CDNA appeal ruling. INTA: $150M buyback, new CMO. TXG/APPN/CAKE/CBRL only had Q3/old recaps.
+- **If a stop opens a slot today:** the first non-HC, non-Tech, non-FAIL name past 20 is **ELF #25** (Consumer Defensive; 8-K 5.02 from 11/16 is still unread, and it needs the full veto check). TBBB #26 is Mexican (check the gate). **VIX 24.93 live (< 25) → full size**, but re-read it at the open.
+
